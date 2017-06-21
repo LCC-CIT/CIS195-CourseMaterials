@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  	<!-- Demo to support Tutorial 4 
+  		 Brian Bird
+  		 11/4/14
+  	-->
+    <meta charset="UTF-8" />
+    <title>Tutorial 4 CSS Demo</title>
+    <script src="modernizr-1.5.js"></script>
+    <style>
+    	span {
+    		outline: 1px solid red;
+    	}
+    	
+    	article {
+    		width: 75px;
+    		background-color: aqua;
+    		border-radius: 25px;
+    		padding: 10px;
+    	}
+    	
+    	#seciton1 {
+    		background-color:green;
+    		border-radius: 10px/40px;
+    		padding: 10px;
+    		}
+    		
+    	ul {
+    		position: absolute;
+    		left: 10px;
+    		top: 200px;
+    		}
+    		
+    	ol {
+    		position: relative;
+    		left: 100;
+    		top: 0;
+    	}
+    	
+    </style>
+  </head>
+  <body>
+  
+  <!-- CSS outline property -->
+  <p>Here is some text inside a paragraph. <span>Here is some text
+  inside a span.</span> This text is outside the span. The paragraph ends here.</p>
+
+
+	<!-- CSS radius property -->
+	<section id="section1">This text is inside a section.
+		<article>This text is inside an article</article>
+	</section>
+
+	<!-- CSS position property -->	
+	<section>
+		<ul>
+			<li>Thing 1</li>
+			<li>Thing 2</li>
+		</ul>
+	</section>
+	<section>
+		<ol>
+			<li>cat</li>
+			<li>fish</li>
+		</ol>
+	</section>
+	
+    </body>
+</html>
+  

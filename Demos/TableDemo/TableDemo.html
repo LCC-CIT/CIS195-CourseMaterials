@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+   		<!-- Table demo, Brian Bird, 4/17/14 -->
+    	<meta charset="UTF-8" />
+    	<title>Table Demo</title>
+    	<style>
+			table.grades {
+				border: 4px double darkgreen;
+				border-collapse: collapse;	/* overrides the td rule */
+				/*border-spacing: 5px; */  /* space between borders */
+			}
+		
+			table.grades td {
+				border: 2px dotted green;
+				border-collapse: separate;  /* overridden by the table rule */
+				/*border-spacing: 0px; */
+			}
+			
+    	</style>
+   	</head>
+   	
+   	<body bgcolor="#0000ff" >
+   		
+		<!----------------------------------------------------->
+   		<!-- This first table is styled with HTML Properties -->
+ 		<!----------------------------------------------------->
+  		
+   		<!-- cellspacing is the space between cell borders -->
+   		<!-- cellpadding is the space between the content and the border -->
+   		<table border="1" bgcolor="black" cellspacing="3" cellpadding="6">
+   		
+   			<!-- The first column will be red, 
+   			the second two will be unchanged, 
+   			the third will be grey -->
+			<colgroup>
+				<col style="background-color:red">
+				<col span="2">
+				<col style="background-color:#999999">
+			</colgroup>
+		
+			<!-- The head section will have a blue background with green text -->
+			<thead style="color:#77ff00; background-color:#3300BB">
+				<tr>
+					<th>Week</th> <th>Labs</th> <th>Quizzes</th> <th>Exams</th>
+				</tr>
+			</thead>
+			
+			<!-- if there were a tfoot element, it would go here -->
+		
+			<!-- The body will have white text -->
+			<tbody style="color:white">
+				<tr>
+					<!-- rowspan merges cells vertically -->
+					<td>1</td> <td>A</td> <td>A-</td> <td rowspan="4" bgcolor="gray" ></td>
+				</tr>
+				<tr>
+					<td>2</td> <td>B</td> <td>B+</td> 	
+				</tr>
+				<tr>
+					<td>3</td> <td>A</td> <td>B-</td> 	
+				</tr>
+				<tr>
+					<td>4</td> <td>C</td> <td>A+</td> 	
+				</tr>			
+				<tr>
+					<!-- colspan merges cells horizontally -->
+					<td>5</td> <td colspan="2">Exam</td> <td>B+</td> 	
+				</tr>
+			</tbody>
+		
+		</table>
+		
+		<br /><br />
+		
+		<!------------------------------------------------>
+		<!-- This second table is styled with CSS rules -->
+		<!------------------------------------------------>
+   		
+   		<table class="grades">
+   		
+			<colgroup>
+				<col >
+				<col span="2">
+				<col >
+			</colgroup>
+		
+			<thead >
+				<tr>
+					<th>Week</th> <th>Labs</th> <th>Quizzes</th> <th>Exams</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td>1</td> <td>A</td> <td>A-</td> <td rowspan="4" ></td>
+				</tr>
+				<tr>
+					<td>2</td> <td>B</td> <td>B+</td> 	
+				</tr>
+				<tr>
+					<td>3</td> <td>A</td> <td>B-</td> 	
+				</tr>
+				<tr>
+					<td>4</td> <td>C</td> <td>A+</td> 	
+				</tr>			
+				<tr>
+					<td>5</td> <td colspan="2">Exam</td> <td>B+</td> 	
+				</tr>
+			</tbody>
+		
+		</table>
+
+   	</body>
+</html>

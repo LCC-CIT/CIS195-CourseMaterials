@@ -1,0 +1,22 @@
+Excellent web site! I really like the scrolling images you put on the home page!.
+
+Appearance (60)
+At least 5 pages: 10/10
+Each page has a purpose: 3/3
+Consistent header on each page: 5/5
+Header identifies site purpose: 2/2
+Consistent footer on each page: 5/5
+Consistent navigation bar on each page: 12/12
+Content on each page (text or table): 5/5
+At least 3 figures or images: 5/5
+Images have alt text: 3/3
+A table with min 2 cols and 2 rows: 10/10
+
+HTML & CSS (40)
+Header element on each page: 5/5
+One CSS file used on all pages: 5/5
+One embedded style: 5/5
+One page with three articles or sections: 7/7
+A header or footer in each section or article: 8/8
+
+All HTML and CSS files validate: 10/10

@@ -1,0 +1,33 @@
+/* these are in the starting file */
+
+blockquote p:before {
+   content: '"';
+}
+
+blockquote p:after {
+   content: '"';
+}
+
+#main > p {
+   font-size: 16px;
+}
+
+#main > p:first-of-type:first-line {
+   text-transform: uppercase;
+}
+
+#leftsection h1 {
+   font-size: 22px;
+   font-weight: normal;
+   letter-spacing: 3px;
+   text-align: center;
+}
+
+#leftsection h2 {
+   font-size: 18px;
+   font-weight: normal;
+}
+
+#itinerary p {
+   font-size: 14px;
+}

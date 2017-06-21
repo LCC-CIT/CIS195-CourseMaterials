@@ -1,0 +1,71 @@
+HTML
+
+1-- Rename the bmTourStart.htm file to wmHome.htm.  Create 3 blank html files with the names 
+	mwLearn.htm, mwTestimonial.htm and mwRoute.htm.  Rename the start css files with the names
+	mw_layout.css and mw_styles.css. (1 point)
+2-- Add the doctype definition as well as the opening and closing html, 
+	head and body tags to the wmHome.htm page. (1 point)
+3-- Add appropriate meta, title script tags to wmHome.htm.  Add a script block that
+	allows the page to access the modernizr code. (2 point)
+4-- Add the html5 structural tags to the page.  Notice that there is: a header section
+    of the page that (will eventually) contain an image, a footer section 
+    that contains an address, a navigation section that (will eventually) contain a 
+    list and a section that contains 2 articles (the quotation in the middle of the page
+    is part of the first article). (2 point)
+5-- In the header section of the page, add an h1 tag that includes an image tag.
+	The image should load the mwlogo.png file with an appropriate alt attribute. (1 point)
+6--	Each one of the navigation items is an unordered list.  Each list item should
+	link to the corresponding page.  Your links should work for the home, learn 
+	testimonial and route pages.  It is NOT necessary to create links for each of 
+	other list items.(2 point)
+7-- Clicking anywhere on the mwlogo image should return a user to the home page. (2 point)
+	Copy the html on the home page to each of the other html pages.  Make sure that the 
+	links work on each page.
+8--	Make the headline for both articles an h1 element.  Make each day in the itineary
+	an h2 element.  Make each of the paragraphs in each article a paragraph element. (2 point)
+9-- Make the quotation in the middle of the page a blockquote element.  
+10- Use the appropriate html tag to mark up the word amazing and the author of the quote.  
+	The dash in front of the author name should be an html special character.
+	
+VALIDATE your html file - 5 points
+	
+CSS - Layout
+1--	Style the body so that the margin and padding are both 0px and the width is 900px. (1 point)
+2--	Style the navigation element so that it is 150 px wide, floats at the left of the page
+	and has a right margin of 10 px (1 pt)
+3--	Create a id selector called leftsection.  Style the element so that it is 650 px wide, 
+	floats at the left of the page and has a right margin of 15 px.   
+	Add the leftsection to the one section element in the html file.  (1 pt)
+4--	Style the h2 and p elements on the page with a top margin of 0 and a bottom margin
+	of 10 px. (1 pt)
+5--	Add to blockquote selector.  It should have a border that's solid, black and 1 px
+	in width.  Float it to the right of the page.  The padding around the element should
+	be 20 px.  The width should be 170 px. (1 pt)
+	
+VALIDATE your layout css file - 5 points
+	
+CSS - Style
+1--	Style the body element.  Use the following list of fonts:  Tahoma, Geneva, sans-serif.
+	(1 pt)
+2--	Style the address element in the footer.  Center the text.  Use a font of 14px.  
+	Make sure the text is not italicized. (1 pt)
+3--	Style the block quote element.  Use a font color of white, size of 16px and Comic Sans MS, 
+	Times or cursive.  Set the background color using 131 for red, 121 for green and
+	36 for blue. (1 pt)
+4-- Style the navigation element.  Set the background color using 125 for red, 120 for green and
+	89 for blue.
+	Style the list within the navigation element.  Each line should be 3em tall.  The list
+	should not have any type of bullet. (1 pt)
+5-- Style the anchor tags in each list item in the navigation element.  Set the text color
+	to white or rgba(255, 255, 255, .5).  Make sure that the links are not underlined.
+	When you hover over each of the list items the text color should change to yellow
+	or rgba(255, 255, 255, 1), the background color should change to rgb(131, 121, 36)
+	and the bullet should appear as the image wheelmarker.png. (1 pt)
+	
+UPLOAD your solution to the quiz 1 folder in your public_html folder on citstudent. (5 points)
+
+
+		
+
+
+	

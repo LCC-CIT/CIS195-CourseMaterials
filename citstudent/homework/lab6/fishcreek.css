@@ -1,0 +1,26 @@
+body {	background-color: #6699ff;
+		color:#d5e3ff;
+		font-family: Verdana, Arial, sans-serif;
+}
+#container {	width: 700px;
+}
+#logo { 	padding-left: 70px;
+		text-align: center;
+}
+#leftcolumn {	float: left;
+				width: 140px;
+}
+#rightcolumn {	padding-left: 170px;
+}
+img { 	border:0;
+		padding: 10px;
+}
+.category {	background-color: #6699ff;
+			color: #003366;
+			font-weight: bold;
+			font-size: 1.1em;
+}
+#footer {	font-size: .70em;
+			font-style: italic; 
+			padding-left: 170px;
+}

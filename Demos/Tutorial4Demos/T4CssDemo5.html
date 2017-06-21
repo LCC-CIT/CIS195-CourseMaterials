@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<!-- Demo to support Tutorial 4
+Brian Bird
+11/4/14
+-->
+<meta charset="UTF-8" />
+<title>Tutorial 4 CSS Demo</title>
+<script src="modernizr-1.5.js"></script>
+<style>
+	ul {
+		background-color: blue;
+		color: gray;
+		margin:0;
+		position:absolute;
+		top: 170px;
+		left: 200px;
+		height: 20%;
+		overflow: hidden;
+		z-index: 2;
+	}
+	ol {
+		border: solid 1px red;
+		position:relative;
+		top: 10px;
+		left: 25px;
+	}
+	p {
+		outline:solid 1px green;
+		position: relative;
+		top: 10px;
+		left: 25px;
+	}
+	img {
+			position:relative;
+			top: 100px;
+			z-index: 1;
+			clip: rect(300px, 10px, 20px, 10px); 
+		}
+</style>
+<body>
+	<!-- absolute positioning -->
+	<ul>
+		<li>Thing 1</li>
+		<li>Thing 2</li>
+		<li>Fish</li>
+		<li>Kids</li>
+		
+	</ul>
+	
+	<!-- relative positioning -->
+	<ol>
+		<li>Cat</li>
+		<li>Hat</li>
+	</ol>
+	
+	<p>This is a paragraph</p>
+	
+	<img src="http://www.lanecc.edu/sites/default/files/foundation/staff_photo.jpg" />
+	
+</body>

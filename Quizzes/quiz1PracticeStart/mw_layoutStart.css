@@ -1,0 +1,28 @@
+/* these are in the starting file */
+
+footer address {
+   border-top: 1px solid black;
+   clear: left;
+   margin-bottom: 10px;
+}
+
+header, footer {
+   margin: 0px auto;
+}
+
+h1{
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
+
+blockquote {
+
+   -moz-border-radius: 35px;
+   border-radius: 35px;
+   box-shadow:10px 10px 20px #000;
+   -webkit-box-shadow:10px 10px 20px #000;
+   -moz-box-shadow: 10px 10px 20px #000;
+}
+
+
+

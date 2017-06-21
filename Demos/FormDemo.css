@@ -1,0 +1,15 @@
+fieldset {
+	background-color: rgb(255, 246, 205);
+	border: 1px solid rgb(233, 69, 0);
+	float: left;
+	margin: 10px 0px 10px 2.5%; 
+	width: 300px;
+	}
+	
+legend {
+	background-color: grey;
+	color: white;
+	padding: 3px 0px;
+	text-indent: 10px;
+	width: 100%;
+	}

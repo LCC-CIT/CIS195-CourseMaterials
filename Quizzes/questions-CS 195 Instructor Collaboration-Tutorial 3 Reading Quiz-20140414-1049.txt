@@ -1,0 +1,626 @@
+// question: 0  name: Switch category to $course$/Tutorial 3 Testbank/Tutorial 3 Reading Quiz
+$CATEGORY: $course$/Tutorial 3 Testbank/Tutorial 3 Reading Quiz
+
+
+// question: 1287067  name: 
+ In the preceding figure, the item number ____ sets the background color to dark and the text color to white or semi-transparent white.
+::\n In the preceding figure, the item number ____ sets the background color to dark and the text color to white or semi-transparent white.::[html]<img width\="667" height\="161" align\="bottom" alt\="nar004-1.jpg" src\="ppg/examview/9781111526436_DHTML5e_BB6/Tutorial_03_nar004-1.jpg" border\="0"><br><br>\n In the preceding figure, the item number ____ sets the background color to dark and the text color to white or semi-transparent white.{
+	=1#x
+	~2#x
+	~3#x
+	~4#x
+}
+
+
+// question: 1287040  name: <b>____ </b>is the tint of the color and is based on the color's location on the color<br>wheel.
+::<b>____ </b>is the tint of the color and is based on the color's location on the color<br>wheel.::[html]<b>____ </b>is the tint of the color and is based on the color's location on the color<br>wheel.{
+	=Hue#x
+	~Saturation#x
+	~Lightness#x
+	~Darkness#x
+}
+
+
+// question: 1287042  name: <b>______ </b>measures the brightness of the color and ranges from 0% (black) up to<br>100% (white).
+::<b>______ </b>measures the brightness of the color and ranges from 0% (black) up to<br>100% (white).::[html]<b>______ </b>measures the brightness of the color and ranges from 0% (black) up to<br>100% (white).{
+	~Hue#x
+	~Saturation#x
+	=Lightness#x
+	~Darkness#x
+}
+
+
+// question: 1287061  name: A general rule for printing is to use ______ fonts for headlines and serif fonts for<br>body text.
+::A general rule for printing is to use ______ fonts for headlines and serif fonts for<br>body text.::[html]A general rule for printing is to use ______ fonts for headlines and serif fonts for<br>body text.{
+	~serif#x
+	=sans-serif#x
+	~monospace#x
+	~cursive#x
+}
+
+
+// question: 1287047  name: A technique known as ______ enhancement&nbsp; places code conforming to older<br>standards before newer properties.
+::A technique known as ______ enhancement&nbsp; places code conforming to older<br>standards before newer properties.::[html]A technique known as ______ enhancement&nbsp; places code conforming to older<br>standards before newer properties.{
+	~color#x
+	=progressive#x
+	~text#x
+	~opacity#x
+}
+
+
+// question: 1287060  name: A typeface in which a small ornamentation appears at the tail end of each<br>character is _____.
+::A typeface in which a small ornamentation appears at the tail end of each<br>character is _____.::[html]A typeface in which a small ornamentation appears at the tail end of each<br>character is _____.{
+	~sans-serif#x
+	=serif#x
+	~monospace#x
+	~fantasy#x
+}
+
+
+// question: 1287055  name: A typeface in which each character has the same width and is often used to display programming code is ______
+::A typeface in which each character has the same width and is often used to display programming code is ______::[html]A typeface in which each character has the same width and is often used to display programming code is ______{
+	=monospace#x
+	~serif#x
+	~cursive#x
+	~fantasy#x
+}
+
+
+// question: 1287058  name: A typeface that mimics handwriting with highly stylized elements and flourishes,<br>best used in small doses for decorative page elements, is ______.
+::A typeface that mimics handwriting with highly stylized elements and flourishes,<br>best used in small doses for decorative page elements, is ______.::[html]A typeface that mimics handwriting with highly stylized elements and flourishes,<br>best used in small doses for decorative page elements, is ______.{
+	~serif#x
+	~monospace#x
+	~fantasy#x
+	=cursive#x
+}
+
+
+// question: 1287013  name: A user could change the font size assigned to paragraph and heading text, set foreground and background colors, and specify whether or not to display _____ images.
+::A user could change the font size assigned to paragraph and heading text, set foreground and background colors, and specify whether or not to display _____ images.::[html]A user could change the font size assigned to paragraph and heading text, set foreground and background colors, and specify whether or not to display _____ images.{
+	~outline#x
+	=inline#x
+	~clip art#x
+	~graphic#x
+}
+
+
+// question: 1287050  name: A _____ element is an element that contains one or more other elements, which are child elements.
+::A _____ element is an element that contains one or more other elements, which are child elements.::[html]A _____ element is an element that contains one or more other elements, which are child elements.{
+	~family#x
+	~sibling#x
+	=parent#x
+	~descendant#x
+}
+
+
+// question: 1287038  name: A(n) ____ represents a single dot on the output device.
+::A(n) ____ represents a single dot on the output device.::[html]<p>A____ represents a single dot on the output device.</p>{
+	~<p>element</p>#<p>x</p>
+	~<p>icon</p>#<p>x</p>
+	~<p>link</p>#<p>x</p>
+	=<p>pixel</p>#<p>x</p>
+}
+
+
+// question: 1287024  name: Adding all three primary colors-red, green and blue-at maximum intensity produces the color _____, while adding any two of the three primary colors at maximum intensity produces the trio of complementary colors-yellow, magenta, and cyan.
+::Adding all three primary colors-red, green and blue-at maximum intensity produces the color _____, while adding any two of the three primary colors at maximum intensity produces the trio of complementary colors-yellow, magenta, and cyan.::[html]Adding all three primary colors-red, green and blue-at maximum intensity produces the color _____, while adding any two of the three primary colors at maximum intensity produces the trio of complementary colors-yellow, magenta, and cyan.{
+	=white#x
+	~blue#x
+	~lime#x
+	~black#x
+}
+
+
+// question: 1287021  name: An additional factor in applying a style sheet is that properties are passed from a parent<br>element to its children in a process known as <b>__________</b>.
+::An additional factor in applying a style sheet is that properties are passed from a parent<br>element to its children in a process known as <b>__________</b>.::[html]An additional factor in applying a style sheet is that properties are passed from a parent<br>element to its children in a process known as <b>__________</b>.{
+	~style sheets#x
+	~an embedded style sheet#x
+	=style inheritance#x
+	~style link#x
+}
+
+
+// question: 1287014  name: An external style sheet is included by adding the link element<br>&lt;link href="<i>url</i>" rel="stylesheet" type="text/css" /&gt;<br>to the document head, where <i>______</i>is the URL of the external style sheet file.
+::An external style sheet is included by adding the link element<br>&lt;link href\="<i>url</i>" rel\="stylesheet" type\="text/css" /&gt;<br>to the document head, where <i>______</i>is the URL of the external style sheet file.::[html]An external style sheet is included by adding the link element<br>&lt;link href\="<i>url</i>" rel\="stylesheet" type\="text/css" /&gt;<br>to the document head, where <i>______</i>is the URL of the external style sheet file.{
+	~stylesheet#x
+	~text/css#x
+	=url#x
+	~href#x
+}
+
+
+// question: 1287077  name: A________ is a classification of an element based on its current status, position, or use in the document.
+::A________ is a classification of an element based on its current status, position, or use in the document.::[html]A________ is a classification of an element based on its current status, position, or use in the document.{
+	=psuedo-class#x
+	~psuedo-element#x
+	~psuedo-text#x
+	~psuedo-style#x
+}
+
+
+// question: 1287031  name: Browsers recognize five ____ font groups.
+::Browsers recognize five ____ font groups.::[html]Browsers recognize five ____ font groups.{
+	~specific#x
+	~monospace#x
+	=generic#x
+	~designed#x
+}
+
+
+// question: 1287080  name: Case-Based Critical Thinking QuestionsCase 3-1Art's Woodworking Shop is trying to design a Web page with CSS.&nbsp; Art would like create the new design based on the latest elements and styles from HTML and CSS.&nbsp; He has created a few sample...
+::Case-Based Critical Thinking QuestionsCase 3-1Art's Woodworking Shop is trying to design a Web page with CSS.&nbsp; Art would like create the new design based on the latest elements and styles from HTML and CSS.&nbsp; He has created a few sample...::[html]<b>Case-Based Critical Thinking Questions<br><br>Case 3-1</b><br>Art's Woodworking Shop is trying to design a Web page with CSS.&nbsp; Art would like create the new design based on the latest elements and styles from HTML and CSS.&nbsp; He has created a few sample pages\:<br><div style\="font-size\:2pt"></div><table cellpadding\="0" cellspacing\="0" width\="97%" border\="0"><tr valign\="top"><td>home.htm</td><td>---describes the business and contact information</td></tr><tr valign\="top"><td>Product.htm</td><td>---list of product descriptions </td></tr><tr valign\="top"><td>Custom.htm</td><td>---list of custom products</td></tr><tr height\="0" style\="border\:none"><td width\="20%"></td><td width\="80%"></td></tr></table><br><br>\n The first step is determine how to render the document.&nbsp; The style sheet used on the Web is the ______.{
+	~HTML#x
+	~W3C#x
+	=CSS#x
+	~XHTML#x
+}
+
+
+// question: 1287030  name: Color also evokes an emotional response, in which certain colors are associated with<br>particular feelings or concepts, such as the color ____ for assertive, powerful, sexy, and dangerous.
+::Color also evokes an emotional response, in which certain colors are associated with<br>particular feelings or concepts, such as the color ____ for assertive, powerful, sexy, and dangerous.::[html]Color also evokes an emotional response, in which certain colors are associated with<br>particular feelings or concepts, such as the color ____ for assertive, powerful, sexy, and dangerous.{
+	~black#x
+	~orange#x
+	~blue#x
+	=red#x
+}
+
+
+// question: 1287026  name: CSS allows RGB values to be entered as ____.
+::CSS allows RGB values to be entered as ____.::[html]CSS allows RGB values to be entered as ____.{
+	~decimals#x
+	=hexadecimals#x
+	~WYSIWYG values#x
+	~RBG values#x
+}
+
+
+// question: 1287033  name: CSS supports styles to define both the text and ______ color for each element on your page.
+::CSS supports styles to define both the text and ______ color for each element on your page.::[html]CSS supports styles to define both the text and ______ color for each element on your page.{
+	~font#x
+	=background#x
+	~style#x
+	~forecolor#x
+}
+
+
+// question: 1287029  name: CSS supports the ___&nbsp; basic color names.
+::CSS supports the ___&nbsp; basic color names.::[html]CSS supports the ___&nbsp; basic color names.{
+	=16#x
+	~64#x
+	~256#x
+	~216#x
+}
+
+
+// question: 1287053  name: Each child element may contain children of its own and so forth down the hierarchy, creating a set of ______ elements<b> </b>that are all descended from a common parent.
+::Each child element may contain children of its own and so forth down the hierarchy, creating a set of ______ elements<b> </b>that are all descended from a common parent.::[html]Each child element may contain children of its own and so forth down the hierarchy, creating a set of ______ elements<b> </b>that are all descended from a common parent.{
+	=descendant#x
+	~child#x
+	~parent#x
+	~sibling#x
+}
+
+
+// question: 1287052  name: Extending the first line of text to the left of the text block creates a ____ indent.
+::Extending the first line of text to the left of the text block creates a ____ indent.::[html]Extending the first line of text to the left of the text block creates a ____ indent.{
+	~tracking#x
+	~kerning#x
+	~leading#x
+	=hanging#x
+}
+
+
+// question: 1287043  name: Graphic designers consider ____ easier to use because it allows you to guess at an<br>initial color based on hue and then tweak the saturation and lightness values to fine-tune<br>the final color.
+::Graphic designers consider ____ easier to use because it allows you to guess at an<br>initial color based on hue and then tweak the saturation and lightness values to fine-tune<br>the final color.::[html]Graphic designers consider ____ easier to use because it allows you to guess at an<br>initial color based on hue and then tweak the saturation and lightness values to fine-tune<br>the final color.{
+	~HTML#x
+	~CSS#x
+	=HSL#x
+	~HTM#x
+}
+
+
+// question: 1287037  name: If an element contains 12pt text, a length of 2em equals ____.
+::If an element contains 12pt text, a length of 2em equals ____.::[html]If an element contains 12pt text, a length of 2em equals ____.{
+	=24pts#x
+	~12pts#x
+	~4pts#x
+	~2pts#x
+}
+
+
+// question: 1287020  name: If two style rules have equal specificity, and thus equal importance, then the one that is defined _____ in the style sheet is the one used.
+::If two style rules have equal specificity, and thus equal importance, then the one that is defined _____ in the style sheet is the one used.::[html]If two style rules have equal specificity, and thus equal importance, then the one that is defined _____ in the style sheet is the one used.{
+	=last#x
+	~first#x
+	~second#x
+	~third#x
+}
+
+
+// question: 1287032  name: If you use a hexadecimal value for a color, you preface the hexadecimal string with a(n) ____.
+::If you use a hexadecimal value for a color, you preface the hexadecimal string with a(n) ____.::[html]<p>If you use a hexadecimal value for a color, you preface the hexadecimal string with a ____.</p>{
+	=<p>pound symbol</p>#<p>x</p>
+	~<p>ampersand</p>#<p>x</p>
+	~<p>question mark</p>#<p>x</p>
+	~<p>exclamation point</p>#<p>x</p>
+}
+
+
+// question: 1287027  name: In the hexadecimal system, 16 is expressed as ____.
+::In the hexadecimal system, 16 is expressed as ____.::[html]In the hexadecimal system, 16 is expressed as ____.{
+	~1F#x
+	~F#x
+	=10#x
+	~1#x
+}
+
+
+// question: 1287028  name: In the hexadecimal system, 21 is expressed as ____.
+::In the hexadecimal system, 21 is expressed as ____.::[html]In the hexadecimal system, 21 is expressed as ____.{
+	~1F#x
+	~F#x
+	=15#x
+	~F1#x
+}
+
+
+// question: 1287019  name: Inline styles are styles applied directly to specific elements using the style attribute&lt;element style="style rules"&gt; &#8230; &lt;/element&gt;where element is the HTML element and _______ are CSS styles applied to that element.
+::Inline styles are styles applied directly to specific elements using the style attribute&lt;element style\="style rules"&gt; &\#8230; &lt;/element&gt;where element is the HTML element and _______ are CSS styles applied to that element.::[html]Inline styles are styles applied directly to specific elements using the style attribute<br>&lt;<i>element </i>style\="<i>style rules</i>"&gt; &\#8230; &lt;/<i>element</i>&gt;<br>where <i>element </i>is the HTML element and <i>_______ </i>are CSS styles applied to that element.{
+	=style rules#x
+	~element#x
+	~element style#x
+	~style#x
+}
+
+
+// question: 1287073  name: List style types can be used with contextual selectors to create a(n) _____ style basedon nested lists.
+::List style types can be used with contextual selectors to create a(n) _____ style basedon nested lists.::[html]<p>List style types can be used with contextual selectors to create a_____ style based<br />on nested lists.</p>{
+	~<p>table</p>#<p>x</p>
+	=<p>outline</p>#<p>x</p>
+	~<p>hierarchy</p>#<p>x</p>
+	~<p>tree</p>#<p>x</p>
+}
+
+
+// question: 1287022  name: Many Web browsers now include _______ tools to allow page designers to<br>track each style back to its source.
+::Many Web browsers now include _______ tools to allow page designers to<br>track each style back to its source.::[html]Many Web browsers now include _______ tools to allow page designers to<br>track each style back to its source.{
+	~designer#x
+	~planner#x
+	=developer#x
+	~creator#x
+}
+
+
+// question: 1287062  name: One commonly used relative unit is the ____ unit.
+::One commonly used relative unit is the ____ unit.::[html]One commonly used relative unit is the ____ unit.{
+	~in#x
+	~ft#x
+	=em#x
+	~en#x
+}
+
+
+// question: 1287063  name: One of the great advantages of relative units like the em unit is that they can make<br>your page ______, allowing the page to be rendered the same way no matter what font<br>size is used by the browser.
+::One of the great advantages of relative units like the em unit is that they can make<br>your page ______, allowing the page to be rendered the same way no matter what font<br>size is used by the browser.::[html]One of the great advantages of relative units like the em unit is that they can make<br>your page ______, allowing the page to be rendered the same way no matter what font<br>size is used by the browser.{
+	~expandable#x
+	~collapsable#x
+	~flexible#x
+	=scalable#x
+}
+
+
+// question: 1287079  name: One of the techniques to help manage your creations is:
+::One of the techniques to help manage your creations is\:::[html]One of the techniques to help manage your creations is\:{
+	~Use style comments throughout, especially at the bottom of the file.#x
+	~Divide your style sheet into sections, with comments marking the page headings.#x
+	=Keep your style sheets as small as possible, and break them into separate files if necessary.#x
+	~Choose several organizing schemes.#x
+}
+
+
+// question: 1287057  name: One reason to use the class attribute is to assign the same _____ to multiple elements<br>that belong to the same class.
+::One reason to use the class attribute is to assign the same _____ to multiple elements<br>that belong to the same class.::[html]One reason to use the class attribute is to assign the same _____ to multiple elements<br>that belong to the same class.{
+	~rule#x
+	~format#x
+	=style#x
+	~theme#x
+}
+
+
+// question: 1287075  name: Placing the marker inside of the block causes the list text to flow _____ the marker.
+::Placing the marker inside of the block causes the list text to flow _____ the marker.::[html]Placing the marker inside of the block causes the list text to flow _____ the marker.{
+	~inside#x
+	~under#x
+	~over#x
+	=around#x
+}
+
+
+// question: 1287023  name: Style comments can also be added to embedded style sheets as long as they are placed between the opening and closing<br>&lt;style&gt; ______.
+::Style comments can also be added to embedded style sheets as long as they are placed between the opening and closing<br>&lt;style&gt; ______.::[html]Style comments can also be added to embedded style sheets as long as they are placed between the opening and closing<br>&lt;style&gt; ______.{
+	~markers#x
+	=tags#x
+	~links#x
+	~placeholders#x
+}
+
+
+// question: 1287017  name: The @import rule has the same impact as adding multiple ____ elements to the<br>HTML file.
+::The @import rule has the same impact as adding multiple ____ elements to the<br>HTML file.::[html]The @import rule has the same impact as adding multiple ____ elements to the<br>HTML file.{
+	~connection#x
+	=link#x
+	~contact#x
+	~integrated#x
+}
+
+
+// question: 1287039  name: The amount of space between pairs of letters is referred to as the ____.
+::The amount of space between pairs of letters is referred to as the ____.::[html]The amount of space between pairs of letters is referred to as the ____.{
+	~tracking#x
+	~dithering#x
+	=kerning#x
+	~pacing#x
+}
+
+
+// question: 1287045  name: The amount of space between words is called ____.
+::The amount of space between words is called ____.::[html]The amount of space between words is called ____.{
+	~kerning#x
+	=tracking#x
+	~pacing#x
+	~dithering#x
+}
+
+
+// question: 1287048  name: The color scheme that uses two hues close to one another on the color wheel in which one color is the<br>dominant color and the other is a supporting color used only for highlights and nuance is _____.
+::The color scheme that uses two hues close to one another on the color wheel in which one color is the<br>dominant color and the other is a supporting color used only for highlights and nuance is _____.::[html]The color scheme that uses two hues close to one another on the color wheel in which one color is the<br>dominant color and the other is a supporting color used only for highlights and nuance is _____.{
+	~triad#x
+	~tetrad#x
+	=analogic#x
+	~monochrome#x
+}
+
+
+// question: 1287070  name: The CSS @rule that imports an external style sheet file located at ur1 is _______.
+::The CSS @rule that imports an external style sheet file located at ur1 is _______.::[html]The CSS @rule that imports an external style sheet file located at ur1 is _______.{
+	=@import url(<i>url</i>) <i>media</i>#x
+	~@charset "<i>encoding</i>";.#x
+	~@namespace <i>prefix uri</i>#x
+	~@media <i>media </i>\{<br><i>styles<br></i>\}#x
+}
+
+
+// question: 1287049  name: The default unit of length for kerning and tracking is the ____.
+::The default unit of length for kerning and tracking is the ____.::[html]The default unit of length for kerning and tracking is the ____.{
+	~pica#x
+	=pixel#x
+	~point#x
+	~inch#x
+}
+
+
+// question: 1287071  name: The following are some errors that can cause your style sheets to fail, except for ______
+::The following are some errors that can cause your style sheets to fail, except for ______::[html]The following are some errors that can cause your style sheets to fail, except for ______{
+	~missing semicolons#x
+	=missing colons#x
+	~missing curly braces#x
+	~typos#x
+}
+
+
+// question: 1287069  name: The great advantage of a Web font is that it gives a designer control over the ______<br>used in a document.
+::The great advantage of a Web font is that it gives a designer control over the ______<br>used in a document.::[html]The great advantage of a Web font is that it gives a designer control over the ______<br>used in a document.{
+	~theme#x
+	~style#x
+	~font#x
+	=typeface#x
+}
+
+
+// question: 1287012  name: The second version of CSS, <b>CSS2, </b>was introduced in 1998, expanding the language to provide styles to _________.
+::The second version of CSS, <b>CSS2, </b>was introduced in 1998, expanding the language to provide styles to _________.::[html]The second version of CSS, <b>CSS2, </b>was introduced in 1998, expanding the language to provide styles to _________.{
+	~set the font size, type, and other properties of Web page text#x
+	~apply a background image to any element#x
+	~specify background and foreground colors of different page elements#x
+	=position elements at specific locations on a page#x
+}
+
+
+// question: 1287064  name: The size or _______of most output devices is typically expressed in terms of pixels.
+::The size or _______of most output devices is typically expressed in terms of pixels.::[html]The size or _______of most output devices is typically expressed in terms of pixels.{
+	=resolution#x
+	~clarity#x
+	~density#x
+	~scale#x
+}
+
+
+// question: 1287054  name: The style rule<br>* {color: blue;}<br>uses the asterisk (*) selector-also known as the ______ selector-to select all elements<br>in the document.
+::The style rule<br>* \{color\: blue;\}<br>uses the asterisk (*) selector-also known as the ______ selector-to select all elements<br>in the document.::[html]The style rule<br>* \{color\: blue;\}<br>uses the asterisk (*) selector-also known as the ______ selector-to select all elements<br>in the document.{
+	~character#x
+	~text#x
+	=wildcard#x
+	~object#x
+}
+
+
+// question: 1287074  name: The style rule<br>ul {list-style-image: url(redball.gif);}<br>displays items from ______ lists marked with the graphic image in the <i>redball.gif </i>file.
+::The style rule<br>ul \{list-style-image\: url(redball.gif);\}<br>displays items from ______ lists marked with the graphic image in the <i>redball.gif </i>file.::[html]The style rule<br>ul \{list-style-image\: url(redball.gif);\}<br>displays items from ______ lists marked with the graphic image in the <i>redball.gif </i>file.{
+	~ordered#x
+	=unordered#x
+	~unstructured#x
+	~structured#x
+}
+
+
+// question: 1287015  name: The style sheet rules in a(n) ________ style sheet take precedence over any rules set in the browser's internal style sheet or in a user-defined style sheet.
+::The style sheet rules in a(n) ________ style sheet take precedence over any rules set in the browser's internal style sheet or in a user-defined style sheet.::[html]<p>The style sheet rules in a ________ style sheet take precedence over any rules set in the browser's internal style sheet or in a user-defined style sheet.</p>{
+	~<p>internal</p>#<p>x</p>
+	~<p>outside</p>#<p>x</p>
+	~<p>embedded</p>#<p>x</p>
+	=<p>external</p>#<p>x</p>
+}
+
+
+// question: 1287068  name: The Web font format that supports Internet Explorer is _______.
+::The Web font format that supports Internet Explorer is _______.::[html]The Web font format that supports Internet Explorer is _______.{
+	~TrueType/OpenType#x
+	=Embedded OpenType#x
+	~Scalable Vector Graphics#x
+	~Web Open Font Format#x
+}
+
+
+// question: 1287066  name: The _____ value of the vertical-align style aligns the bottom of the element with the bottom of the font of the surrounding content.
+::The _____ value of the vertical-align style aligns the bottom of the element with the bottom of the font of the surrounding content.::[html]The _____ value of the vertical-align style aligns the bottom of the element with the bottom of the font of the surrounding content.{
+	~baseline#x
+	~bottom#x
+	=text-bottom#x
+	~sub#x
+}
+
+
+// question: 1287016  name: The ______ statement must always come before any other style rules in the style<br>sheet.
+::The ______ statement must always come before any other style rules in the style<br>sheet.::[html]The ______ statement must always come before any other style rules in the style<br>sheet.{
+	=@import#x
+	~@embed#x
+	~!import#x
+	~!embed#x
+}
+
+
+// question: 1287072  name: To display an ordered list with alphabetical markers such as<br>A. Home<br>B. Getting Started<br>C. Scrapbooking Tips<br>D. Supply List<br>you would apply the following list style to the ol element:
+::To display an ordered list with alphabetical markers such as<br>A. Home<br>B. Getting Started<br>C. Scrapbooking Tips<br>D. Supply List<br>you would apply the following list style to the ol element\:::[html]To display an ordered list with alphabetical markers such as<br>A. Home<br>B. Getting Started<br>C. Scrapbooking Tips<br>D. Supply List<br>you would apply the following list style to the ol element\:{
+	~ol \{list-style-type\: lower-roman;\}#x
+	~ol \{list-style-type\: upper-greek;\}#x
+	~ol \{list-style-type\: upper-roman;\}#x
+	=ol \{list-style-type\: upper-alpha;\}#x
+}
+
+
+// question: 1287065  name: To prevent your browser from displaying address text in italic, you can set the font-style property to _____.
+::To prevent your browser from displaying address text in italic, you can set the font-style property to _____.::[html]To prevent your browser from displaying address text in italic, you can set the font-style property to _____.{
+	~bold#x
+	=normal#x
+	~semi-italic#x
+	~semi-bold#x
+}
+
+
+// question: 1287034  name: To set the foreground or text color of an element, use the following property:
+::To set the foreground or text color of an element, use the following property\:::[html]To set the foreground or text color of an element, use the following property\:{
+	~text\: <i>color</i>;#x
+	~forecolor\: <i>color</i>;#x
+	=color\: <i>color</i>;#x
+	~backcolor\: <i>color</i>;#x
+}
+
+
+// question: 1287056  name: Two attributes, ______, are often key in targeting styles to a specific<br>element or group of elements.
+::Two attributes, ______, are often key in targeting styles to a specific<br>element or group of elements.::[html]Two attributes, ______, are often key in targeting styles to a specific<br>element or group of elements.{
+	~id and char#x
+	=id and class#x
+	~id and type#x
+	~id and elem#x
+}
+
+
+// question: 1287051  name: Two child elements that share the same parent are referred to as ______ elements<b>.</b>
+::Two child elements that share the same parent are referred to as ______ elements<b>.</b>::[html]Two child elements that share the same parent are referred to as ______ elements<b>.</b>{
+	~parent#x
+	=sibling#x
+	~child#x
+	~descendant#x
+}
+
+
+// question: 1287018  name: Unlike an external style sheet, a(n) _______ style sheet is applied only to the Webpage in which it is placed.
+::Unlike an external style sheet, a(n) _______ style sheet is applied only to the Webpage in which it is placed.::[html]<p class\="emoticon emoticon-index-27" alt\="No" title\="No" src\="https\://classes.lanecc.edu/theme/image.php?theme\=express&amp;image\=s%2Fno&amp;rev\=502">Unlike an external style sheet, a _______ style sheet is applied only to the Web<br />page in which it is placed.</p>{
+	~<p>linked</p>#<p>x</p>
+	~<p>internal</p>#<p>x</p>
+	=<p>embedded</p>#<p>x</p>
+	~<p>integrated</p>#<p>x</p>
+}
+
+
+// question: 1287059  name: When referenced by the font-family property, a specific font refers to a font ______ that is<br>stored on a user's computer.
+::When referenced by the font-family property, a specific font refers to a font ______ that is<br>stored on a user's computer.::[html]When referenced by the font-family property, a specific font refers to a font ______ that is<br>stored on a user's computer.{
+	=definition#x
+	~style#x
+	~format#x
+	~color#x
+}
+
+
+// question: 1287046  name: With semi-transparent colors, the final color rendered by a browser depends on the<br>background color of the ______element.
+::With semi-transparent colors, the final color rendered by a browser depends on the<br>background color of the ______element.::[html]With semi-transparent colors, the final color rendered by a browser depends on the<br>background color of the ______element.{
+	=parent#x
+	~child#x
+	~sibling#x
+	~descendant#x
+}
+
+
+// question: 1287025  name: Yellow has the triplet ____.
+::Yellow has the triplet ____.::[html]Yellow has the triplet ____.{
+	~(0, 0, 0)#x
+	=(255, 255, 0)#x
+	~(0, 255, 255)#x
+	~(255, 0, 255)#x
+}
+
+
+// question: 1287035  name: ____ units define a font size using one of five standard units of measurement.
+::____ units define a font size using one of five standard units of measurement.::[html]____ units define a font size using one of five standard units of measurement.{
+	~Relative#x
+	=Absolute#x
+	~Standard#x
+	~Uppercase#x
+}
+
+
+// question: 1287036  name: ____ units express font size relative to the size of other objects within the Web page.
+::____ units express font size relative to the size of other objects within the Web page.::[html]____ units express font size relative to the size of other objects within the Web page.{
+	~Absolute#x
+	=Relative#x
+	~Standard#x
+	~Output#x
+}
+
+
+// question: 1287044  name: _____ defines how much of the colors below the surface of the current object show through to affect its appearance.
+::_____ defines how much of the colors below the surface of the current object show through to affect its appearance.::[html]_____ defines how much of the colors below the surface of the current object show through to affect its appearance.{
+	~Clarity#x
+	~Saturation#x
+	~Lightness#x
+	=Opacity#x
+}
+
+
+// question: 1287041  name: ______<b> </b>measures the intensity of the chosen color and ranges from 0% (no color) up to 100% (full color).
+::______<b> </b>measures the intensity of the chosen color and ranges from 0% (no color) up to 100% (full color).::[html]______<b> </b>measures the intensity of the chosen color and ranges from 0% (no color) up to 100% (full color).{
+	~Hue#x
+	=Saturation#x
+	~Lightness#x
+	~Darkness#x
+}
+
+
+// question: 1287078  name: _______&nbsp; are not elements that exist in the document hierarchy but rather are based on objects that exist in the rendered Web page.
+::_______&nbsp; are not elements that exist in the document hierarchy but rather are based on objects that exist in the rendered Web page.::[html]_______&nbsp; are not elements that exist in the document hierarchy but rather are based on objects that exist in the rendered Web page.{
+	~Psuedo-class#x
+	~Psuedo-style#x
+	~Psuedo-code#x
+	=Psuedo-element#x
+}
+
+
+// question: 1287076  name: ________effects can be created using pseudo-classes.
+::________effects can be created using pseudo-classes.::[html]________effects can be created using pseudo-classes.{
+	~Cascading#x
+	=Rollover#x
+	~Hover#x
+	~Link#x
+}
+
+
