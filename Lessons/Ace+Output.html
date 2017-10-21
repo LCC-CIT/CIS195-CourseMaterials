@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ace with output</title>
+    <style type="text/css" media="screen">
+        .pane {
+            width: 400px;
+            height: 300px;
+        }
+        
+        #output {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <pre>
+        <div class="pane" id="editor">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Testing&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Testing&lt;/h1&gt;
+&lt;p id='testing'&gt;More testing&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;item1&lt;/li&gt;
+    &lt;li&gt;item2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </div>
+    </pre>
+    <form>
+        <button onclick="runCode();">Render Your Code</button>
+    </form>
+    <iframe class="pane" id="output"> </iframe>
+
+    <script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/textmate");
+        editor.getSession().setMode("ace/mode/html");
+
+        function runCode() {
+            var output = document.getElementById('output');
+
+            output = (output.contentWindow) ? output.contentWindow : (output.contentDocument) ? output.contentDocument.document :
+                output.contentDocument;
+
+            output.document.open();
+            output.document.write(editor.getValue());
+            output.document.close();
+
+            return false;
+        }
+        runCode();
+    </script>
+</body>
+
+</html>
