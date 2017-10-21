@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Float Property</title>
+    <link href="../lesson.css" rel="stylesheet" />
+    <script src="../ace-builds/src-noconflict/ace.js"></script>
+    <script src="../lesson.js"></script>
+</head>
+
+<body>
+    <h1>CSS Float and Clear Properties</h1>
+    Use <i>float</i> to make block elements line up side by side on the page.
+    <ul>
+        <li><code>float:left </code> - will cause each floated element to move as far left on the page as it can -- until it bumps against another element.
+        </li>
+        <li><code>float:right </code> - does the same, but elements line up to the right
+        </li>
+    </ul>
+    Use <i>clear</i> to end the effect of the float on the previous element so that this element moves below the previous one
+    <ul>
+        <li><code>clear:left </code> - apply this property to the next element after an element that has been floated left so that the element will move below the floated element
+        </li>
+        <li> or <code>clear:right</code> - does the same, but for elements that have been floated right
+        </li>
+    </ul>
+    <h2>Exercises</h2>
+    <ul>
+        <li>In the code below, take note of which &lt;p&gt;</li> elements have <i>float</i> or <i>clear</i> properties applied to them and how this has affected their positions on the page.
+        <li>Try floating paragraph seven to the left and eight to the right.<br /> What happens if you don't apply <code>clear:left</code> to paragraph eight and <code>clear:right</code> to paragraph nine?</li>
+    </ul>
+    <pre>
+        <div class="pane" id="editor">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+     &lt;title&gt;CSS Float Property&lt;/title&gt;
+     &lt;style&gt;
+        p {
+            margin: 5px;
+            border-style: solid;
+        }
+
+        .left {
+            float: left;
+
+            background-color: lightblue;
+        }
+
+        .right {
+            float: right;
+            background-color: lightgreen;
+         }
+     &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p class="left"&gt;one&lt;/p&gt;
+    &lt;p class="left"&gt;two&lt;/p&gt;
+    &lt;p class="left"&gt;three&lt;/p&gt;
+    &lt;p class="right" style="clear:left"&gt;four&lt;/p&gt;
+    &lt;p class="right"&gt;five&lt;/p&gt;
+    &lt;p class="right"&gt;six&lt;/p&gt;
+    &lt;p style="clear:right"&gt;seven&lt;/p&gt;
+    &lt;p&gt;eight&lt;/p&gt;
+    &lt;p&gt;nine&lt;/p&gt;
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+        </div>
+    </pre>
+
+    <input type="button" id="render" value="Render Your Code" /><br />
+    <iframe class="pane" id="output"> </iframe>
+    <section>
+        <h2>References</h2>
+        <ul>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float"></a>MDN: CSS Float</li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clear"></a>MDN: CSS Clear</li>
+        </ul>
+    </section>
+    <footer>
+        <small>&copy; Copyright 2017, Brian Bird</small>
+    </footer>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/textmate");
+        editor.getSession().setMode("ace/mode/html");
+        var output = document.getElementById('output');
+        renderCode(editor, output);
+        document.getElementById("render").addEventListener("click", function() {
+            renderCode(editor, output)
+        }, false);
+    </script>
+</body>
+
+</html>
