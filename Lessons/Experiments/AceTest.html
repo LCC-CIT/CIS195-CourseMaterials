@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ACE in Action</title>
+    <style type="text/css" media="screen">
+        #editor {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 400px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <pre>
+        <div id="editor">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Testing&lt;/h1&gt;
+&lt;p id='testing'&gt;More testing&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;item1&lt;/li&gt;
+    &lt;li&gt;item2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </div>
+    </pre>
+    <script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/textMate");
+        editor.getSession().setMode("ace/mode/html");
+        /*
+                editor.setValue("<!DOCTYPE html>" + "\n" +
+                    "<h1>Testing</h1>" + "\n" +
+                    "<p id='testing'>More testing</p>" + "\n" +
+                    "<ul><li>item1</li><li>item2</li></ul>"
+                );
+                */
+    </script>
+</body>
+
+</html>

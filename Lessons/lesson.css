@@ -1,0 +1,9 @@
+        .pane {
+            width: 500px;
+            height: 300px;
+        }
+        
+        #output {
+            background-color: white;
+            height: 200px;
+        }
