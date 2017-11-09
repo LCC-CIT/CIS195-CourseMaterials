@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>Lesson Template</title>
+    <link href="../lesson.css" rel="stylesheet">
+    <script src="../ace-builds/src-noconflict/ace.js"></script>
+    <script src="../lesson.js"></script>
+  </head>
+  <body>
+    <pre>        <div class="pane" id="editor">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+     &lt;title&gt;Template&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+     &lt;form&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;fieldset&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;legend&gt;User's
+          Name&lt;/legend&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; First name:&lt;br&gt;<br>
+          &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &lt;input type="text"
+          name="firstname"&gt;&lt;br&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Last name:&lt;br&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;/fieldset&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;input type="text"
+          name="lastname"&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;br&gt;&lt;br&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;input type="submit" value="Submit"&gt;<br>
+          &lt;/form&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </div>
+    </pre>
+    <input id="render" value="Render Your Code" type="button">? click the button
+    when you are done editing<br>
+    <iframe class="pane" id="output"> </iframe>\
+    <section>
+      <h2>References</h2>
+      <ul>
+        <li> <a href="https://www.w3schools.com/html/" target="_blank">W3Schools
+            HTML5 Tutorial</a></li>
+        <li> <a href="https://developer.mozilla.org/en-US/docs/Web/Tutorialshttps://developer.mozilla.org/en-US/docs/Web/Tutorials"
+            target="_blank">MDN:
+            HTML Tutorials</a></li>
+      </ul>
+    </section>
+    <footer> <small>© Copyright 2017, Brian Bird</small> </footer>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/textmate");
+        editor.getSession().setMode("ace/mode/html");
+        var output = document.getElementById('output');
+        renderCode(editor, output);
+        document.getElementById("render").addEventListener("click", function() {
+            renderCode(editor, output)
+        }, false);
+    </script>
+  </body>
+</html>
+<!-- For html encoding use:
+    https://codebeautify.org/html-encode-string-->
