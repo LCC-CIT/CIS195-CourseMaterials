@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Week 7, Day 2 - Forms</title>
+    <style type="text/css">
+body {
+  font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+</style> </head>
+  <body>
+    <header> <b>CIS195 Web Authoring 1: HTML &nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; November 9, 2017<br>
+      </b>
+      <div>Brian Bird</div>
+      <br>
+      <i><b>Topic: HTML Forms<br>
+        </b></i></header>
+    <section>
+      <article> <br>
+        <b>Introduction</b><br>
+        <ul>
+          <li>Announcements<br>
+          </li>
+          <li>Review due dates </li>
+          <li>Do a code review of someone’s lab?</li>
+        </ul>
+      </article>
+      <article>
+        <div><b>Overview</b></div>
+        <div>
+          <ul>
+            <li><b>Selection lists<br>
+              </b></li>
+            <li><b>Option buttons<br>
+              </b></li>
+            <li><b>Text area boxes</b></li>
+            <li><b>Check boxes<br>
+              </b></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section>
+      <article id="select">
+        <p> <u><b>Selection Lists</b></u></p>
+        <p>Selection lists present the user with a set of options from which
+          they may select one (or more?). Selection lists are often displayed by
+          the browser as a drop-down list or a scrollable list. </p>
+        <code></code><code>&lt;label for="hike"&gt;Hiking Trails&lt;/label&gt;</code><br>
+        <code>&lt;select name="hike" id="trail" &gt;</code><br>
+        <code>&nbsp;&nbsp;&nbsp; &lt;option value="pisgah"&gt;Mt. Pisgah
+          Summit&lt;/option&gt;</code><br>
+        <code>&nbsp;&nbsp;&nbsp; &lt;option value="spencer"&gt;Spencer
+          Butte&lt;/option&gt;</code><br>
+        <code>&nbsp;&nbsp;&nbsp; &lt;option value="fall"&gt;Fall
+          Creek&lt;/option&gt;</code><br>
+        <code>&nbsp;&nbsp;&nbsp; &lt;option value="alsea"&gt;Alsea
+          Falls&lt;/option&gt;</code><br>
+        <code>&lt;/select&gt;</code><br>
+        <div style="margin-left: 40px;"><code></code></div>
+        <code></code><br>
+        By default, only one selection is allowed. Setting the attribute
+        multiple="multiple" allows multiple items to be selected.<br>
+        <br>
+        The size attribute determines how many options are shown without
+        scrolling the list.<br>
+        <br>
+        Option Groups allow a developer to organize the options into labeled
+        groups:<br>
+        <br>
+        <code>&lt;select name="hike" id="trail" size="4"&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;optgroup label="Near Eugene"&gt;<br>
+        </code>
+        <div style="margin-left: 40px;"> <code>&nbsp;&nbsp;&nbsp; &lt;option
+            value="pisgah"&gt;Mt. Pisgah Summit&lt;/option&gt;</code><br>
+          <code>&nbsp;&nbsp;&nbsp; &lt;option value="spencer"&gt;Spencer
+            Butte&lt;/option&gt;</code><br>
+          <code></code></div>
+        <code>&nbsp;&nbsp;&nbsp; &lt;/optgroup&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;optgroup label="Further Out"&gt;<br>
+        </code>
+        <div style="margin-left: 40px;"> <code>&nbsp;&nbsp;&nbsp; &lt;option
+            value="fall"&gt;Fall Creek&lt;/option&gt;</code><br>
+          <code>&nbsp;&nbsp;&nbsp; &lt;option value="alsea"&gt;Alsea
+            Falls&lt;/option&gt;</code><br>
+          <code></code></div>
+        <code>&nbsp;&nbsp;&nbsp; </code><code>&lt;/optgroup&gt;</code> <br>
+        <code>&lt;/select&gt;</code><br>
+        <br>
+        <br>
+        <a href="https://www.w3schools.com/tags/tag_select.asp" target="_blank">Practice:
+          Select element on W3Schools</a><span style="color: #0000ee;"><br>
+          <br>
+        </span> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select"
+          target="_blank">Reference:
+          Select element on MDN </a></article>
+      <article id="radio">
+        <p><b><u>Option buttons</u><br>
+          </b></p>
+        <p>Also known as radio buttons<b><br>
+          </b></p>
+        <p>The checked attribute specifies the defalult selection<b><br>
+          </b></p>
+        <code>&lt;input type="radio" name="difficulty" value="easy"
+          checked="checked"&gt; Easy&lt;br&gt;</code><code><br>
+          &lt;input type="radio" name="difficulty" value="intermediate"&gt;
+          Moderately challenging&lt;br /&gt;&gt;</code><br>
+        <code>&lt;input type="radio" name="difficulty" value="challenging"&gt;
+          Very challenging&lt;br /&gt;<br>
+        </code> <code></code><code> <br>
+        </code>Radio buttons can be grouped by the name attribute. Selection of
+        buttons with the same name will be mutually exclusive.<br>
+        <br>
+        <code>&lt;input type="radio" name="length" value="short"&gt; Short
+          trail&lt;br&gt;</code><code><br>
+        </code><code>&lt;input type="radio" name="length" value="long"&gt; Long
+          trail&lt;br /&gt;<br>
+        </code> <code></code><code> </code><code>&lt;input type="radio"
+          name="steepness" value="flat"&gt; Level trail&lt;br /&gt;</code><br>
+        <code></code><code>&lt;input type="radio" name="steepness"
+          value="intermediate"&gt; Steep trail&lt;br /&gt;</code><br>
+        <code></code><br>
+        <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">Radio
+          button practice on W3Schools</a><br>
+      </article>
+      <article id="legends">
+        <p><b><u>Text Area Boxes</u><br>
+          </b></p>
+        <p>The textarea element allows users to enter multiple lines of text<b><br>
+          </b></p>
+        <p>The row and cols attributes determine the size</p>
+        <p>The wrap attribute determines the type of line warp: hard or soft<b><br>
+          </b></p>
+        <code>&lt;label for="review"&gt;Describe the trail&lt;/label&gt;
+          &nbsp;&nbsp; <br>
+          &lt;</code><code>textarea name="review" id="review" rows="3" cols="40"
+          wrap="hard"&gt;&lt;/textarea&gt;<br>
+          <br>
+        </code> <br>
+      </article>
+    </section>
+  </body>
+</html>

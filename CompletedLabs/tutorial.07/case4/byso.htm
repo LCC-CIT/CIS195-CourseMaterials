@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      New Perspectives on HTML and CSS
+      Tutorial 7
+      Case Problem 4
+
+      BYSO Web Page
+      Author: Denise Young
+      Date:   3/1/2014
+
+      Filename:         byso.htm
+      Supporting files: beethoven.mp3, bstyles.css, byso.jpg, 
+                        bysologo.jpg, CreditRoll.class, modernizer-1.5.js
+-->
+   <title>Boise Youth Symphony Orchestra</title>
+
+   <script src="modernizr-1.5.js"></script>
+   <link href="bstyles.css" rel="stylesheet" type="text/css" />
+
+   </head>
+
+   <body>
+
+      <section id="pageContent">
+
+         <header><img src="bysologo.jpg" alt="Boise Youth Symphony Orchestra" /></header>
+
+         <nav>
+            <ul>
+               <li><a href="#">Home Page</a></li>
+               <li><a href="#">About BYSO</a></li>
+               <li><a href="#">Our Director</a></li>
+               <li><a href="#">Join BYSO</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+         </nav>
+
+         <section id="schedule">
+
+              <object type="application/x-java-applet" 
+                      width="260" height="260">
+                 <param name="code" value="CreditRoll.class" />
+
+                 <param name="fontsize" value="12" />
+                 <param name="bgcolor" value="069665" />
+                 <param name="textcolor" value="FFFFFF" />
+
+                 <param name="speed" value="100" />
+                 <param name="vspace" value="3" />
+                 <param name="fadezone" value="20" />
+
+                 <param name="repeat" value="yes" />
+
+                 <param name="text1" value="Schedule of Events" />
+                 <param name="text2" value="---- o ----" />
+                 <param name="text3" value="" />
+                 <param name="text4" value="Holiday Concert" />
+                 <param name="text5" value="December 14, 7:30 PM " />
+                 <param name="text6" value="Boise Civic Center" />
+                 <param name="text7" value="" />
+                 <param name="text8" value="Christmas Concert" />
+                 <param name="text9" value="Dec. 16, 7 PM" />
+                 <param name="text10" value="Our Savior Episcopal Church" />
+                 <param name="text11" value="" />
+                 <param name="text12" value="Spring Concert" />
+                 <param name="text13" value="Feb. 27, 7 PM " />
+                 <param name="text14" value="Boise Civic Center" />
+                 <param name="text15" value="" />
+                 <param name="text16" value="Easter Fanfare" />
+                 <param name="text17" value="March 14, 9 PM" />
+                 <param name="text18" value="Our Savior Episcopal Church" />
+                 <param name="text19" value="" />
+                 <param name="text20" value="High School MusicFest" />
+                 <param name="text21" value="May 2, 3 PM" />
+                 <param name="text22" value="Boise Central High School" />
+                 <param name="text23" value="" />
+                 <param name="text24" value="Summer Concert" />
+                 <param name="text25" value="June 15, 7:30 PM" />
+                 <param name="text26" value="Frontier Concert Hall" />
+                 <param name="text27" value="" />
+                 <param name="text28" value="Fourth Fest" />
+                 <param name="text29" value="July 4, 4 PM" />
+                 <param name="text30" value="Canyon View Park" />
+                 <param name="text31" value="" />
+                 <param name="text32" value="Frontier Days" />
+                 <param name="text33" value="August 9, 1 PM" />
+                 <param name="text34" value="Boise Concert Hall" />
+                 <param name="text35" value="" />
+                 <param name="url" value="http://www.cityofboise.org" />
+                 <br />
+                  To view a scrolling marquee, get the latest 
+                  <a href="http://www.java.com">
+                     Java Plug-in
+                  </a>
+
+              </object>
+          </section>
+
+         <section id="main">
+            <h1>Boise Youth Symphony Orchestra</h1>
+            <img src="byso.jpg" alt="" />
+            <p>The Boise Youth Symphony Orchestra has delighted audiences worldwide with 
+               beautiful music while offering the highest quality musical training to over 
+               1,000 teens throughout Idaho for the past 30 years. BYSO 
+               has established an outstanding reputation for its high quality sound, its 
+               series of commissioned works, and collaborations with prominent musical groups 
+               such as the Idaho and Boise Symphony Orchestras, the Montana Chamber 
+               Orchestra, the Boise Adult Choir and the Western Symphony Orchestra. 
+               Last year the group was invited to serve as the U.S. representative to 
+               the 7th Annual World Festival of youth orchestras in Poznan, Poland.</p>
+            <p>Leading this success for the past decade has been Boise Symphony artistic 
+               director Denise Young. In a concert review by John Aehl, music critic for 
+               the Boise Times, Roger Adler writes, "It is a pleasure to report that 
+               the orchestra is playing better than ever. It is a testament to the ability of 
+               Ms. Young that this group of young men and women played with such assurance, tonal 
+               quality and, most important, beauty."</p>
+            <p>Enjoy an excerpt from our latest concert with the first movement from
+               <i>Symphony No. 8 in F Major, Op. 93</i> by Ludwig van Beethoven.</p>
+            <p style="text-align: center">
+
+            <audio controls="controls">
+               <source src="beethoven.mp3" />
+               <source src="beethoven.ogg" />
+
+               <object data="beethoven.swf" width="350" height="26">
+                  <param name="movie" value="beethoven.swf" />
+                  Download a <a href="beethoven.mp3">clip</a> from the latest concert.
+               </object>
+            </audio>
+
+  
+          </section>
+
+          <address>
+             BYSO &#183; 300 Mountain Lane &#183; Boise, Idaho  83702 &#183; (208) 555 - 9114
+          </address>
+
+      </section>
+
+   </body>
+
+</html>
