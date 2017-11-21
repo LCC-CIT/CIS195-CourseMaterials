@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Week 9, Day 1, Advanced CSS</title>
+    <style type="text/css">
+        body {
+            font-family: "Arial", "Helvetica", "sans-serif";
+        }
+        
+        #week09 {
+            background-color: #f8ff2e;
+        }
+        
+        code {
+            font-size: larger;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+  </head>
+  <body>
+    <header> <b>CIS195 Web Authoring 1: HTML &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; November 16,
+        2017<br>
+      </b>
+      <div>Brian Bird</div>
+      <br>
+      <i><b>Topic: Multimedia for Web Sites<br>
+        </b></i></header>
+    <section> <br>
+      <b>Course weeks and topics<br>
+      </b>
+      <table style="width: 807px; height: 127px;" border="1">
+        <tbody>
+          <tr>
+            <td>1. Intro to HTML 5</td>
+            <td>6. HTML Tables</td>
+          </tr>
+          <tr>
+            <td>2. Developing a Web Site</td>
+            <td>7. HTML Forms</td>
+          </tr>
+          <tr>
+            <td>3. Design with CSS</td>
+            <td id="week08">8. Multimedia</td>
+          </tr>
+          <tr>
+            <td>4. Page Layout with CSS</td>
+            <td id="week09">9. Advanced CSS<br>
+            </td>
+          </tr>
+          <tr>
+            <td>5. Midterm</td>
+            <td>10. Term Project<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <b><br>
+        <br>
+        Introduction</b><br>
+      <ul>
+        <li>Announcements<br>
+        </li>
+        <li>Review due dates on Moodle</li>
+        <ul>
+        </ul>
+        <ul>
+          <li>Schedule Revision for Thanksgiving Week</li>
+        </ul>
+        <ul>
+          <ul>
+            <li>Lectures:</li>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+            <ul>
+              <li>&nbsp;Week 9, Tuesday, 11/21 will cover Tutorial 8, Sessions
+                8.1 and 8.2</li>
+            </ul>
+          </ul>
+          <ul>
+            <ul>
+              <li><em>Week 9, Thursday, 11/23, no class</em></li>
+            </ul>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+            <ul>
+              <li>Week 10, Tuesday, 11/28 will cover Tutorial 8, Session 8.3</li>
+            </ul>
+          </ul>
+          <ul>
+          </ul>
+          <ul>
+            <li>Due dates for lab 8 will be delayed by one week, <em>but start
+                work on it anyway!</em></li>
+          </ul>
+          <ul>
+            <ul>
+            </ul>
+            <ul>
+              <li>Week 10, Saturday, 12/2: production version</li>
+            </ul>
+            <ul>
+            </ul>
+            <ul>
+              <li>No code review</li>
+            </ul>
+          </ul>
+          <li>Term Project</li>
+          <ul>
+            <li>Beta version, Saturday, 12/2</li>
+            <li>Code review, Monday, 12/4 (or earlier!)</li>
+            <li>Production version, Tuesday, 12/5</li>
+          </ul>
+          <li>Final Quiz</li>
+          <ul>
+            <li>Practice quizzes are open now and will close at 11:55 pm on
+              Monday 12/4</li>
+            <li>You may take it in class at 12:00 on Tuesday, 12/5</li>
+            <li>It will be open online all day Tuesday, 12/5</li>
+            <ul>
+            </ul>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+          </ul>
+        </ul>
+      </ul>
+      <div><b>Overview</b></div>
+      <div>
+        <ul>
+        </ul>
+        <ul>
+          <b> </b>
+          <ul>
+          </ul>
+          <li><a href="#topic1">Drop Shadows<br>
+            </a></li>
+          <ul>
+          </ul>
+          <li><a href="#topic2">IE Filters</a></li>
+          <ul>
+            <b> </b>
+          </ul>
+          <li><a href="#topic3">Rotating objects</a></li>
+          <li><a href="#topic4"><span style="color: #0000ee;">Linear gradients</span></a></li>
+          <li><a href="#topic5"><span style=" color: #0000ee;">Borders for
+                images</span></a></li>
+          <li><a href="#topic6"><span style="  color: #0000ee;">Opacity of page
+                objects</span></a></li>
+          <li><a href="#topic7"><span style="   color: #0000ee;">Media device
+                styling</span></a></li>
+          <li><span style="    color: #0000ee;"><a href="#topic8">Print styling</a><br>
+            </span></li>
+          <ul>
+          </ul>
+          <ul>
+            <b> <b> </b> </b>
+          </ul>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <article id="topic1">
+        <p><u><b>Drop Shadows<br>
+            </b></u></p>
+        <ul>
+          <li>Using CSS, shadows can be added to both text and page objects.</li>
+          <li>Text shadow</li>
+          <ul>
+            <li>Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow"
+                target="_blank">MDN,
+                text-shadow</a></li>
+          </ul>
+          <ul>
+            <li>Syntax: <i>text-shadow: (color) offsetX offsetY (blurRadius);</i></li>
+            <ul>
+              <li><i>color</i> and <i>blurRadius</i> are optional<i><br>
+                </i></li>
+            </ul>
+            <li>Example:<br>
+              <br>
+              <code>style="text-shadow: 5px 8px 1px;"<br>
+              </code>
+              <p style="text-shadow: 5px 8px 1px;"> This text has a shadow </p>
+            </li>
+          </ul>
+          <li>Box shadow</li>
+          <ul>
+            <li>Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow?v=b"
+                target="_blank">MDN,
+                box-shadow</a></li>
+            <li>Try it: <a href="https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp">W3Schools,
+                box-shadow</a><br>
+            </li>
+          </ul>
+        </ul>
+      </article>
+      <article id="topic2">
+        <p><u><b>IE Filters </b></u></p>
+        <ul>
+          <li> Older versions of Internet Explorer (prior to version 9) did not
+            support CSS 3 visual styles, but starting with IE 5.5, the browser
+            provided filters that could create visual effects.</li>
+          <li>Now (November, 2017), we probably don't need to worry about
+            supporting older versions of IE since versions older than IE 11,
+            which fully supports CSS3, are used by less than 1.5% of users
+            world-wide. <br>
+            <a href="https://www.stetic.com/market-share/browser/" target="_blank">Stetic
+              Browser Statistics</a></li>
+        </ul>
+      </article>
+      <article id="topic3">
+        <p><b><u>Rotating Objects </u><br>
+          </b></p>
+        <ul>
+          <li>Tutorial: <a href="https://www.w3schools.com/css/css3_3dtransforms.asp"
+              target="_blank">W3Schools,
+              2D and 3D Rotation</a></li>
+        </ul>
+      </article>
+      <article id="topic4"> <u><b>Linear Gradients<br>
+          </b></u>
+        <ul>
+          <li>Tutorial: <a href="https://www.w3schools.com/css/css3_gradients.asp"
+              target="_blank">W3Schools,
+              CSS3 Gradients</a></li>
+        </ul>
+      </article>
+      <article id="topic5">
+        <p><u><b>Image Borders <br>
+            </b></u></p>
+        <ul>
+          <li>Try it: <a href="https://www.w3schools.com/csSref/css3_pr_border-image.asp"
+              target="_blank">W3Schools,
+              CSS3 border-image Property <br>
+            </a></li>
+        </ul>
+      </article>
+      <article id="topic6">
+        <p><u><b>Opacity <br>
+            </b></u></p>
+        <ul>
+          <li>Try it: <a href="https://www.w3schools.com/CSSref/css3_pr_opacity.asp"
+              target="_blank">W3Schools,
+              CSS3 opacity Property <br>
+            </a></li>
+        </ul>
+      </article>
+      <article id="topic7">
+        <p><u><b>Opacity <br>
+            </b></u></p>
+        <ul>
+          <li>Try it: <a href="https://www.w3schools.com/CSSref/css3_pr_opacity.asp"
+              target="_blank">W3Schools,
+              CSS3 opacity Property <br>
+            </a></li>
+        </ul>
+      </article>
+    </section>
+  </body>
+</html>
