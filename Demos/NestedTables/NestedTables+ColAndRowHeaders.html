@@ -10,15 +10,17 @@
 <body>
     <!-- outer table -->
     <table border="1" style="background-color:blue">
-        <tr>
-            <!-- top headings -->
+        <!-- top headers -->
+        <thead>
+            <!-- we need a blank one to go above the row headers -->
+            <th></th>
             <th>A</th>
             <th>B</th>
             <th>C</th>
             <th>D</th>
-        </tr>
+        </thead>
+        <!-- first row of tables -->
         <tr>
-            <!-- first row of tables -->
             <th>a</th>
             <td colspan="2" rowspan="2">
                 <!-- top left table -->
@@ -50,8 +52,8 @@
         <tr>
             <th>b</th>
         </tr>
+        <!-- second row of tables -->
         <tr>
-            <!-- second row of tables -->
             <th>c</th>
             <td colspan="2" rowspan="2">
                 <!-- bottom left table -->
