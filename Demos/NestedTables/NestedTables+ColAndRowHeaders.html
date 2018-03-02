@@ -8,8 +8,27 @@
 </head>
 
 <body>
+    <H1>Nested Tables</H1>
+    <h2>One outer table containing 4 inner tables</h2>
+    <ul>
+        <li><b>Nesting</b></li>
+        <ul>
+            <li>The outer table has four rows, but only the 1st and 3rd contain td elements</li>
+            <li>Each inner table is inside a td in a row of the outer table</li>
+        </ul>
+        <li><b>Column headers</b></li>
+        <ul>
+            <li>The outer table has a thead row containing four th elements</li>
+            <li>Each of the four td elements has a colspan of 2 so that it spans 2 th elements</li>
+        </ul>
+        <li><b>Row headers</b></li>
+        <ul>
+            <li>The outer table has four tr elements, each containing a th element</li>
+            <li>The td elements containing the inner tables have a rowspan of 2 so that they span 2 th elements</li>
+        </ul>
+    </ul>
     <!-- outer table -->
-    <table border="1" style="background-color:blue">
+    <table border="1" style="background-color:blue; font-size:larger">
         <!-- top headers -->
         <thead>
             <!-- we need a blank one to go above the row headers -->
