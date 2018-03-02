@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Example of nested tables -->
+<!-- Four tables inside one table -->
+<html>
+
+<head>
+    <title>Nested tables</title>
+</head>
+
+<body>
+    <!-- outer table -->
+    <table border="1" style="background-color:blue">
+        <tr>
+            <!-- top headings -->
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </tr>
+        <tr>
+            <!-- first row of tables -->
+            <th>a</th>
+            <td colspan="2" rowspan="2">
+                <!-- top left table -->
+                <table border="1" style="background-color:aqua">
+                    <tr>
+                        <td>00</td>
+                        <td>01</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>03</td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="2" rowspan="2">
+                <!-- top right table -->
+                <table border="1" style="background-color:aqua">
+                    <tr>
+                        <td>04</td>
+                        <td>05</td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td>07</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <th>b</th>
+        </tr>
+        <tr>
+            <!-- second row of tables -->
+            <th>c</th>
+            <td colspan="2" rowspan="2">
+                <!-- bottom left table -->
+                <table border="1" style="background-color:aqua">
+                    <tr>
+                        <td>08</td>
+                        <td>09</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="2" rowspan="2">
+                <!-- bottom right table -->
+                <table border="1" style="background-color:aqua">
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <th>d</th>
+        </tr>
+    </table>
+</body>
+
+</html>
