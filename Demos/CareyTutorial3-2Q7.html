@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Code by Brian Bird 5/21/18
+            Session 3.2, Qustion 7. Provide a style rule to remove 
+            underlining from the hypertext links for all 
+            elements marked with the <a> tag and nested within 
+            a navigation list. (Carey HTML 191)
+            Carey, Patrick M. New Perspectives on HTML, CSS, and Dynamic HTML,  5th Edition. Cengage Learning, 20120413. VitalBook file.
+        -->
+    <meta charset="UTF-8" />
+    <title>Tutorial 3.2, Q7</title>
+    <style>
+        nav ul a {
+            text-decoration: none;
+        }
+    </style>
+
+    <body>
+        <h1>CSS Demo: Remove Underlining</h1>
+        Underlining has been removed from the hypertext links in the navigation list below using a CSS rule
+        <nav>
+            <h2>Local Universities</h2>
+            <ul>
+                <li>
+                    <a href="http://uoregon.edu">University of Oregon</a>
+                </li>
+                <li>
+                    <a href="http://nwcu.edu">Northwest Christian University</a>
+                </li>
+            </ul>
+        </nav>
+        <h2>Local Colleges</h2>
+        <ul>
+            <li>
+                <a href="http://lanecc.edu">Lane Community College</a>
+            </li>
+            <li>
+                <a href="https://pioneerpacific.edu/locations/springfield/">Pioneer Pacific College</a>
+            </li>
+        </ul>
+    </body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Example of ... -->
+<html>
+
+<head>
+    <title>Colspan Demo</title>
+</head>
+
+<body>
+    <h1>Colspan Demo</h1>
+
+    <br /> The td element has colspan="2" and <u>two</u> td elements below it
+    <table border="1">
+        <tr>
+            <td colspan="2">01</td>
+            <td>02</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>04</td>
+            <td>05</td>
+        </tr>
+    </table>
+
+    <br /> Same as above, but with headings<br />
+    <table border="1">
+        <thead>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+        </thead>
+        <tr>
+            <td colspan="2">01</td>
+            <td>02</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>04</td>
+            <td>05</td>
+        </tr>
+    </table>
+    <br /> Now both the td containing 01 and 03 have colspan="2"<br /> Note that there are no td elements to span, but th elements are being spanned instead<br/>
+
+    <table border="1">
+        <thead>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+        </thead>
+        <tr>
+            <td colspan="2">01</td>
+            <td>02</td>
+        </tr>
+        <tr>
+            <td colspan="2">03</td>
+            <td>04</td>
+            <td>05</td>
+        </tr>
+    </table>
+</body>
+
+</html>

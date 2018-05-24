@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Example of nested tables -->
+<!-- Four tables inside one table -->
+<html>
+
+<head>
+    <title>Nested tables</title>
+</head>
+
+<body>
+    <H1>Nested Tables</H1>
+    <h2>One outer table containing 4 inner tables</h2>
+    <ul>
+        <li><b>Nesting</b></li>
+        <ul>
+            <li>The outer table has four rows, but only the 1st and 3rd contain td elements</li>
+            <li>Each inner table is inside a td in a row of the outer table</li>
+        </ul>
+        <li><b>Column headers</b></li>
+        <ul>
+            <li>The outer table has a thead row containing four th elements</li>
+            <li>Each of the four td elements has a colspan of 2 so that it spans 2 th elements</li>
+        </ul>
+        <li><b>Row headers</b></li>
+        <ul>
+            <li>The outer table has four tr elements, each containing a th element</li>
+            <li>The td elements containing the inner tables have a rowspan of 2 so that they span 2 th elements</li>
+        </ul>
+    </ul>
+    <!-- outer table -->
+    <table border="1" style="background-color:blue; font-size:larger">
+        <!-- top headers -->
+        <thead>
+            <!-- we need a blank one to go above the row headers -->
+            <th></th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </thead>
+        <!-- first row of tables -->
+        <tr>
+            <th>a</th>
+            <td colspan="2" rowspan="2">
+                <!-- top left table -->
+                <table border="1" style="background-color:aqua">
+                    <tr>
+                        <td>00</td>
+                        <td>01</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>03</td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="2" rowspan="2">
+                <!-- top right table -->
+                <table border="1" style="background-color:aqua">
+                    <tr>
+                        <td>04</td>
+                        <td>05</td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td>07</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- Row in the outer table just for the row header -->
+        <tr>
+            <th>b</th>
+        </tr>
+        <!-- second row of tables -->
+        <tr>
+            <th>c</th>
+            <td colspan="2" rowspan="2">
+                <!-- bottom left table -->
+                <table border="1" style="background-color:aqua">
+                    <tr>
+                        <td>08</td>
+                        <td>09</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="2" rowspan="2">
+                <!-- bottom right table -->
+                <table border="1" style="background-color:aqua">
+                    <tr>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- Row in the outer table just for the row header -->
+        <tr>
+            <th>d</th>
+        </tr>
+    </table>
+</body>
+
+</html>
