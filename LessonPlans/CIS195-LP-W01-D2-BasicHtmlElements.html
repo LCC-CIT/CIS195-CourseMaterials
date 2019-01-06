@@ -1,9 +1,14 @@
+<!doctype HTML>
 <html>
-  <head>
+
+<head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  </head>
-  <body>
-    <title>Week 1, Day 2, Intro to HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="jQuery Slideshow">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href="slideshow/slideshow.css" rel="stylesheet" />
+    <script src="slideshow/slideshow.js"></script>
+    <title>Intro to HTML</title>
     <style type="text/css">
         body {
             font-family: "Arial", "Helvetica", "sans-serif";
@@ -17,50 +22,90 @@
             font-size: larger;
             background-color: lightgoldenrodyellow;
         }
+        
+        .slideshow .slide figure {
+            margin: 0;
+        }
+        
+        .slideshow .slide figure img {
+            width: 100%;
+        }
+        
+        @media (min-width: 600px) {
+            .slideshow {
+                width: 50%;
+            }
+        }
+        
+        .slideshow .prev,
+        .slideshow .next {
+            padding: 5px 10px;
+            margin: 0 5px 10px 0;
+        }
     </style>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var slideshow = new Slideshow({
+                id: 'mySlideshow'
+            });
+        });
+    </script>
+</head>
+
+<body>
     <header> <b>CIS195 Web Authoring 1: HTML &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Week 1, Session
         2<br>
       </b>
-      <div>Brian Bird</div>
-      <br>
-      <b>Course weeks and topics</b> <br>
+        <div>Brian Bird</div>
+        <br>
     </header>
-    <section>
-      <table style="width: 807px; height: 127px;" border="1">
-        <tbody>
-          <tr>
-            <td id="week01">1. Intro to HTML 5</td>
-            <td>6. Page Layout with CSS</td>
-          </tr>
-          <tr>
-            <td>2. More on Creating Web Pages</td>
-            <td>7. HTML Tables</td>
-          </tr>
-          <tr>
-            <td style="width: 384.15px;">3. Developing a Web Site</td>
-            <td id="week08" style="width: 406.85px;">8. HTML Forms</td>
-          </tr>
-          <tr>
-            <td>4. Design with CSS</td>
-            <td id="week09">9. Multimedia</td>
-          </tr>
-          <tr>
-            <td>5. Midterm</td>
-            <td>10. Term Project</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <h2>Review</h2>
-      (10 minutes)<br>
-      <ul>
-        <li>Visual Studio Code</li>
-        <ul>
-          <li>Create a new file and rename it</li>
-          <li>Add HTML “boiler plate”<br>
-            <code>&lt;!DOCTYPE html&gt; &lt;html&gt;<br>
+    <!-- using classes for jquery.slideshow -->
+    <div id="mySlideshow" class="slideshow">
+        <div class="wrapper">
+            <button class="prev">Previous Slide</button>
+            <button class="next">Next Slide</button>
+            <div class="slides">
+                <!-- slide -->
+                <section class="slide">
+                    <b>Course weeks and topics</b> <br>
+                    <table style="width: 807px; height: 127px;" border="1">
+                        <tbody>
+                            <tr>
+                                <td id="week01">1. Intro to HTML 5</td>
+                                <td>6. Page Layout with CSS</td>
+                            </tr>
+                            <tr>
+                                <td>2. More on Creating Web Pages</td>
+                                <td>7. HTML Tables</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 384.15px;">3. Developing a Web Site</td>
+                                <td id="week08" style="width: 406.85px;">8. HTML Forms</td>
+                            </tr>
+                            <tr>
+                                <td>4. Design with CSS</td>
+                                <td id="week09">9. Multimedia</td>
+                            </tr>
+                            <tr>
+                                <td>5. Midterm</td>
+                                <td>10. Term Project</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <br>
+                <!-- slide -->
+                <section class="slide">
+                    <h2>Review</h2>
+                    (10 minutes)<br>
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <ul>
+                            <li>Create a new file and rename it</li>
+                            <li>Add HTML “boiler plate”<br>
+                                <code>&lt;!DOCTYPE html&gt; &lt;html&gt;<br>
               &nbsp;&nbsp;&nbsp; &lt;head&gt;<br>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta
               charset="UTF-8" /&gt;<br>
@@ -71,50 +116,56 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/body&gt;<br>
               &lt;/html&gt;<br>
             </code></li>
-        </ul>
-      </ul>
-      <ul>
-        <li> Add some HTML elements</li>
-        <ul>
-          <li>What is a tag?</li>
-          <li>What is an element?</li>
-        </ul>
-        <li>View in browser&nbsp;</li>
-        <li><b><i>Exercise</i></b></li>
-        <ul>
-          <li>TBD</li>
-        </ul>
-      </ul>
-      <br>
-      <h3> More about HTML Tags and Elements</h3>
-      (15 minutes)<br>
-      <ul>
-        <li>HTML element attributes</li>
-        <ul>
-          <li><span style="font-family: Courier New,Courier,monospace;">&lt;<i>element</i>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li> Add some HTML elements</li>
+                        <ul>
+                            <li>What is a tag?</li>
+                            <li>What is an element?</li>
+                        </ul>
+                        <li>View in browser&nbsp;</li>
+                        <li><b><i>Exercise</i></b></li>
+                        <ul>
+                            <li>TBD</li>
+                        </ul>
+                    </ul>
+                </section>
+                <br>
+                <!-- slide -->
+                <section class="slide">
+                    <h3> More about HTML Tags and Elements</h3>
+                    (15 minutes)<br>
+                    <ul>
+                        <li>HTML element attributes</li>
+                        <ul>
+                            <li><span style="font-family: Courier New,Courier,monospace;">&lt;<i>element</i>
               <i>attribute1</i>=”<i>value1</i>” <i>attribute2</i>=”<i>value2</i>”
               ...&gt;</span></li>
-          <li><span style="font-family: Courier New,Courier,monospace;">&lt;meta
+                            <li><span style="font-family: Courier New,Courier,monospace;">&lt;meta
               charset="UTF-8" /&gt;</span></li>
-        </ul>
-        <li>One-sided or self-closing tags</li>
-        <ul>
-          <li><span style="font-family: Courier New,Courier,monospace;">&lt;br
+                        </ul>
+                        <li>One-sided or self-closing tags</li>
+                        <ul>
+                            <li><span style="font-family: Courier New,Courier,monospace;">&lt;br
               /&gt;</span></li>
-          <li><span style="font-family: Courier New,Courier,monospace;">&lt;meta
+                            <li><span style="font-family: Courier New,Courier,monospace;">&lt;meta
               charset="UTF-8" /&gt;</span></li>
-        </ul>
-      </ul>
-       <br>
-      <h3>HTML Structural Elements </h3>
-      (5 minutes)<br>
-      <ul>
-        <li>Non-semantic structural element</li>
-        <ul>
-          <li><span style="font-family: Courier New,Courier,monospace;">&lt;div&gt;&lt;/div&gt;</span></li>
-        </ul>
-        <li>These are “semantic elements” <br>
-          <code> &lt;header&gt;<br>
+                        </ul>
+                    </ul>
+                </section>
+                <br>
+                <!-- slide -->
+                <section class="slide">
+                    <h3>HTML Structural Elements </h3>
+                    (5 minutes)<br>
+                    <ul>
+                        <li>Non-semantic structural element</li>
+                        <ul>
+                            <li><span style="font-family: Courier New,Courier,monospace;">&lt;div&gt;&lt;/div&gt;</span></li>
+                        </ul>
+                        <li>These are “semantic elements” <br>
+                            <code> &lt;header&gt;<br>
             &lt;/header&gt;<br>
             &lt;section&gt;<br>
             &nbsp;&nbsp;&nbsp;&nbsp; &lt;article&gt;<br>
@@ -125,31 +176,29 @@
             &lt;footer&gt;<br>
             &lt;/footer&gt;<br>
           </code></li>
-      </ul>
-      <br>
-      <h3>More HTML Elements </h3>
-      (15 minutes)<br>
-      <ul>
-        <li> We can’t see structural elements; they only organize the page
-          semantically</li>
-        <li>We need to put visible elements inside the structural elements. <br>
-          Here are some that we haven’t covered yet:</li>
-        <ul>
-          <li>Paragraph: <span style="font-family: Courier New,Courier,monospace;">&lt;p&gt;&lt;/p&gt;</span></li>
-          <li>strong (bold): <span style="font-family: Courier New,Courier,monospace;">&lt;strong&gt;&lt;/strong&gt;</span></li>
-          <li>image: <span style="font-family: Courier New,Courier,monospace;">&lt;img
+                    </ul>
+                    <br>
+                    <h3>More HTML Elements </h3>
+                    (15 minutes)<br>
+                    <ul>
+                        <li> We can’t see structural elements; they only organize the page semantically
+                        </li>
+                        <li>We need to put visible elements inside the structural elements. <br> Here are some that we haven’t covered yet:</li>
+                        <ul>
+                            <li>Paragraph: <span style="font-family: Courier New,Courier,monospace;">&lt;p&gt;&lt;/p&gt;</span></li>
+                            <li>strong (bold): <span style="font-family: Courier New,Courier,monospace;">&lt;strong&gt;&lt;/strong&gt;</span></li>
+                            <li>image: <span style="font-family: Courier New,Courier,monospace;">&lt;img
               src=”photo.jpg”&gt;&lt;/img&gt;</span></li>
-          <li>block quote: <span style="font-family: Courier New,Courier,monospace;">&lt;blockquote&gt;&lt;/blockquote&gt;</span></li>
-          <li>citation: <span style="font-family: Courier New,Courier,monospace;">&lt;cite&gt;&lt;/cite&gt;</span></li>
-          <li>Note: hgroup is deprecated</li>
-        </ul>
-      </ul>
-      <br>
-      <br>
-      <br>
-      <ul>
-      </ul>
-    </section>
-    <section> </section>
-  </body>
+                            <li>block quote: <span style="font-family: Courier New,Courier,monospace;">&lt;blockquote&gt;&lt;/blockquote&gt;</span></li>
+                            <li>citation: <span style="font-family: Courier New,Courier,monospace;">&lt;cite&gt;&lt;/cite&gt;</span></li>
+                            <li>Note: hgroup is deprecated</li>
+                        </ul>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="slideTabs"></div>
+    </div>
+</body>
+
 </html>
