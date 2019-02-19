@@ -7,9 +7,17 @@
 body {
   font-family: "Arial", "Helvetica", "sans-serif";
 }
-
-</style>
-  </head>
+        
+        #week07 {
+            background-color: #f8ff2e;
+        }
+        
+        code {
+            font-size: larger;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+</head>
   <body>
     <header> <b>CIS195 Web Authoring 1: HTML &nbsp; &nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
@@ -19,6 +27,34 @@ body {
       <div>Brian Bird</div>
       <br>
       <i><b>Topic: Tables</b></i></header>
+    <b>Course weeks and topics<br>
+    </b>
+    <table style="width: 807px; height: 127px;" border="1">
+      <tbody>
+        <tr>
+          <td>1. Intro to HTML 5</td>
+          <td id="week06">6. Page Layout with CSS</td>
+        </tr>
+        <tr>
+          <td>2. First Web Page</td>
+          <td id="week07">7. HTML Tables<br>
+          </td>
+        </tr>
+        <tr>
+          <td>3. Developing a Web Site</td>
+          <td id="week08">8. HTML Forms</td>
+        </tr>
+        <tr>
+          <td>4. Design with CSS</td>
+          <td id="week09">9. Multimedia </td>
+        </tr>
+        <tr>
+          <td>5. Midterm</td>
+          <td id="week10">10.Term Project<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
     <section>
       <article> <br>
         <b>Introduction</b><br>
@@ -48,29 +84,29 @@ body {
       <article id="structure">
         <p> <b>Structure of a Table<br>
           </b></p>
-        <p>Tables are constructed using multiple elements (which means
-          multiple tags). A table with two rows and three columns would
-          be written in HTML like this:</p>
+        <p>Tables are constructed using multiple elements (which means multiple
+          tags). A table with two rows and three columns would be written in
+          HTML like this:</p>
         <code>&lt;table&gt;<br>
-          &nbsp;&nbsp;&nbsp; &lt;tr&gt;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; &lt;tr&gt;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-          &lt;!-- tr = table row, this is the beginning of a row<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;!-- tr = table row, this is
+          the beginning of a row<br>
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 1, column
-          1&lt;/td&gt;&nbsp;&nbsp;&nbsp; &lt;!-- td = table data, this
-          is a cell --&gt;<br>
+          1&lt;/td&gt;&nbsp;&nbsp;&nbsp; &lt;!-- td = table data, this is a cell
+          --&gt;<br>
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
           2&lt;/td&gt;<br>
-        </code><code><code>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &lt;td&gt;row 2, column 3&lt;/td&gt;<br>
+        </code><code><code>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row
+            2, column 3&lt;/td&gt;<br>
           </code>&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
           &nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
           1&lt;/td&gt;<br>
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
           2&lt;/td&gt;<br>
-        </code><code><code>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &lt;td&gt;row 2, column 3&lt;/td&gt;<br>
+        </code><code><code>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row
+            2, column 3&lt;/td&gt;<br>
           </code>&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
           &lt;/table&gt;<br>
           <br>
@@ -101,15 +137,15 @@ body {
         <p><b>Headings and Cells<br>
           </b></p>
         A special type of cell is a heading, &lt;th&gt;&lt;/th&gt;. The
-        following code can be placed in a row above row 1 and provides
-        headings for the columns:<br>
+        following code can be placed in a row above row 1 and provides headings
+        for the columns:<br>
         <br>
         <span style="color: rgb(34, 34, 34); font-family: Consolas, Menlo, Monaco, &quot;Lucida Console&quot;, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, monospace, sans-serif; font-size: 14.000000953674316px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: pre; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(249, 249, 249); display: inline !important; float: none;"><code>	&lt;tr&gt;<br>	   &lt;th&gt;column 1&lt;/th&gt;
            &lt;th&gt;column 2&lt;/th&gt;
            &lt;th&gt;column 3&lt;/th&gt;
 	&lt;/tr&gt;</code><br></span><br>
-        The table above, with a row of header elements added, will be
-        rendered like this:<br>
+        The table above, with a row of header elements added, will be rendered
+        like this:<br>
         <br>
         <table>
           <tbody>
@@ -133,12 +169,11 @@ body {
       </article>
       <article id="spans">
         <p><b>Row and Column Spans</b></p>
-        <code>&nbsp;&nbsp;&nbsp; &lt;tr&gt;&nbsp;&nbsp;&nbsp;
+        <code>&nbsp;&nbsp;&nbsp; &lt;tr&gt;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>
-          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td
-          colspan="2"&gt;row 1, columns 1 and
-          2&lt;/td&gt;&nbsp;&nbsp;&nbsp; <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td colspan="2"&gt;row 1,
+          columns 1 and 2&lt;/td&gt;&nbsp;&nbsp;&nbsp; <br>
         </code><code><code>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td
             rowspan="2"&gt;rows 1 and 2, column 3&lt;/td&gt;<br>
           </code>&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
@@ -147,8 +182,8 @@ body {
           1&lt;/td&gt;<br>
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
           2&lt;/td&gt;<br>
-        </code><code><code>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &lt;td&gt;row 2, column 3&lt;/td&gt;<br>
+        </code><code><code>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row
+            2, column 3&lt;/td&gt;<br>
           </code>&nbsp;&nbsp;&nbsp; &lt;/tr&gt;</code> <br>
         <br>
         The table will be rendered like this:
