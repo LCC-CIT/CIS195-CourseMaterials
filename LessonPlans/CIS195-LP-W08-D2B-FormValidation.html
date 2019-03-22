@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>HTML Form Validation</title>
+    <style type="text/css">
+        body {
+            font-family: "Arial", "Helvetica", "sans-serif";
+        }
+    </style>
+</head>
+
+<body>
+    <header> <b>CIS195 Web Authoring 1: HTML<br>
+      </b>
+        <div>Brian Bird</div>
+        <br>
+        <i><b>Topic: HTML Form Validation<br>
+        </b></i></header>
+    <section>
+        <article> <br>
+            <b>Introduction</b><br>
+            <ul>
+                <li>Announcements<br>
+                </li>
+                <li>Review due dates </li>
+                <li>Do a code review of someone’s lab?</li>
+            </ul>
+        </article>
+        <article>
+            <div><b>Overview</b></div>
+            Overview here
+        </article>
+    </section>
+    <section>
+        <article id="datatypes">
+            Article on HTML5 data types here.
+            <br>Code example:<br>
+            <code>
+              &lt;input type="email" name="name" placeholder="person@example.com"&gt;
+            </code>
+            <br> Running in the browser:<br>
+            <form>
+                <input type="email" name="name" placeholder="person@example.com">
+                <input type="submit">
+            </form>
+        </article>
+        <article id="validation">
+            <p>Article on validation here.
+                <ul>
+                    <li>
+                        Required attribute.<br> Code example:<br>
+                        <code>
+              &lt;input type="text" name="name" placeholder="Sally Fields" required&gt;
+            </code>
+                    </li>
+                </ul>
+            </p>
+
+
+        </article>
+        <article id="regex">
+            <h3>Validation with Regular Expressions</h3>
+            <p>The pattern must be a vaild JavaScript regular expression. This means:
+                <ul>
+                    <li>
+                        \ denotes that the following charater is not a literal character and should be interpreted as special, unless the character that follows is already a special character, then it should be interpreted litterally.
+                    </li>
+                    <li>
+                        ^ matches beginning of input, unless it's the first character in a pattern, then it negates (inverts) the pattern
+                    </li>
+                </ul>
+            </p>
+            <br>Code example:<br>
+            <code>
+              &lt;input name="zip" placeholder="97405-1234" pattern="^\d{5}(\-\d{4})?$"&gt;
+            </code>
+            <br> Running in the browser:<br>
+            <form>
+                <input type="text" name="zip" placeholder="97405-1234" pattern="^(\d{5})(\-\d{4})?$">
+                <input type="submit">
+            </form>
+        </article>
+    </section>
+    <section>
+        <article id="reference">
+            <ul>
+                <li>
+                    <a href="https://regex101.com/r/aYnU3Q/1" target="_blank">Regex demo page</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text" target="_blank">
+                  MDN: text input attributes (including pattern)</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" target="_blank">
+                    MDN: Regular Expressions</a></li>
+            </ul>
+        </article>
+    </section>
+</body>
+
+</html>
