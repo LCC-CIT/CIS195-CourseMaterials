@@ -74,13 +74,32 @@
             </p>
             <br>Code example:<br>
             <code>
-              &lt;input name="zip" placeholder="97405-1234" pattern="^\d{5}(\-\d{4})?$"&gt;
+              &lt;input name="zip" placeholder="97405-1234" pattern="^\d{5}(-\d{4})?$"&gt;
             </code>
             <br> Running in the browser:<br>
             <form>
-                <input type="text" name="zip" placeholder="97405-1234" pattern="^(\d{5})(\-\d{4})?$">
+                <input type="text" name="zip" placeholder="97405-1234" pattern="^\d{5}(-\d{4})?$">
                 <input type="submit">
             </form>
+
+            <p>
+                <h4>Alternative regex for zip code</h4>
+                <pre>^\d{5}(?:[-\s]\d{4})?$</pre>
+                <pre>^[0-9]{5}(?:-[0-9]{4})?$</pre>
+                <ul>
+                    <li>^ = Start of the string.</li>
+                    <li>\d{5} = Match 5 digits (for condition 1, 2, 3)</li>
+                    <li>(?:…) = Grouping</li>
+                    <li>[-\s] = Match a space (for condition 3) or a hyphen (for condition 2)</li>
+                    <li>\d{4} = Match 4 digits (for condition 2, 3)</li>
+                    <li>…? = The pattern before it is optional (for condition 1)</li>
+                    <li>$ = End of the string.</li>
+                </ul>
+                ^ # Assert position at the beginning of the string.<br> [0-9]{5} # Match a digit, exactly five times.<br> (?: # Group but don't capture:<br> - # Match a literal "-".<br> [0-9]{4} # Match a digit, exactly four times.<br> ) # End the noncapturing
+                group.
+                <br> ? # Make the group optional.<br> $ # Assert position at the end of the string.<br>
+            </p>
+
         </article>
     </section>
     <section>
