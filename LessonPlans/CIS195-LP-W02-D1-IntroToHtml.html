@@ -19,7 +19,7 @@
             background-color: lightgoldenrodyellow;
         }
     </style>
-	<base target="_blank">
+    <base target="_blank">
 </head>
 
 <body>
@@ -64,65 +64,112 @@
     Look at someone's lab 1 web site. Any volunteers?<br>Look at the code as well as the rendered pages.<br>
     <section>
         <h2> History of the World Wide Web</h2>
-		<p> 
-    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia: 
+        <p>
+            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia: 
 	History of HTML</a></p>
-		<h3> Tim Berners-Lee</h3>
-		<p> The World Wide Web was invented by the British computer scientist
-		<a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>, 
-		who was a researcher at CERN in Switzerlaned in the 1980 and 90s.</p>
-		<ul>
-			<li>He wrote a proposal to create the WWW by combining the Internet, 
-			which was new and evolving, with Hypertext.<ul>
-				<li>The web is not the same as the internet--the internet 
-				consistes of other services as well.</li>
-				<li>The proposal was submitted March 12, 1989--considered the 
-				birthday of the web.</li>
-			</ul>
-			</li>
-			<li>The first web site went online in 1991.</li>
-			<li>He founded the
-			<a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium">
+        <h3> Tim Berners-Lee</h3>
+        <p> The World Wide Web was invented by the British computer scientist
+            <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>, who was a researcher at CERN in Switzerlaned in the 1980 and 90s.</p>
+        <ul>
+            <li>He wrote a proposal to create the WWW by combining the Internet, which was new and evolving, with Hypertext.
+                <ul>
+                    <li>The web is not the same as the internet--the internet consistes of other services as well.</li>
+                    <li>The proposal was submitted March 12, 1989--considered the birthday of the web.</li>
+                </ul>
+            </li>
+            <li>The first web site went online in 1991.</li>
+            <li>He founded the
+                <a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium">
 			W3C</a> and is it's current director.</li>
-			<li>Originally used by scientists to share research papers.</li>
-		</ul>
-		<p>The first web browser available on PC and Mac was Mosaic, developed 
-		by Marc Andreessen's team at the NCSA and released in 1993</p>
-		<h3>The web at 30</h3>
-		<p>The original idea was to make it easy for scientists, and then later, 
-		for everyone to freely share information and ideas.<br>How is this 
-		working out now? <br>What is the effect of:</p>
-		<ul>
-			<li>Commercialization</li>
-			<li>Search engines and the way they prioritize searches<ul>
-				<li>Originally the links people saw were on pages created by 
-				friends, colleages or other trusted sources, so they were 
-				relevant and the quality was high.</li>
-			</ul>
-			</li>
-			<li>Social media</li>
-			<li>Personal information stored "in the cloud"</li>
-		</ul>
-		<p>What can we as web authors, designers, developers do to make the web 
-		better?</p>
-		<p>
-		<a href="https://www.lifehacker.com.au/2019/04/berners-lee-says-weve-messed-up-the-internet-but-it-can-be-fixed/">
+            <li>Originally used by scientists to share research papers.</li>
+        </ul>
+        <p>The first web browser available on PC and Mac was Mosaic, developed by Marc Andreessen's team at the NCSA and released in 1993</p>
+        <h3>The web at 30</h3>
+        <p>The original idea was to make it easy for scientists, and then later, for everyone to freely share information and ideas.<br>How is this working out now? <br>What is the effect of:</p>
+        <ul>
+            <li>Commercialization</li>
+            <li>Search engines and the way they prioritize searches
+                <ul>
+                    <li>Originally the links people saw were on pages created by friends, colleages or other trusted sources, so they were relevant and the quality was high.</li>
+                </ul>
+            </li>
+            <li>Social media</li>
+            <li>Personal information stored "in the cloud"</li>
+        </ul>
+        <p>What can we as web authors, designers, developers do to make the web better?
+        </p>
+        <p>
+            <a href="https://www.lifehacker.com.au/2019/04/berners-lee-says-weve-messed-up-the-internet-but-it-can-be-fixed/">
 		Tim Berners-Lee Says We've Messed Up The Internet But It Can Be Fixed</a></p>
     </section>
     <section>
-        <h2>More HTML Elements </h2>
+        <h2>More HTML</h2>
         <ol>
-            <li>Special characters<ul>
-				<li>For example, the copyright symbol: &copy;
-				<pre>&amp;copy; or &amp;#169;
+            <li>Special characters
+                <ul>
+                    <li>For example, the copyright symbol: &copy;
+                        <pre>&amp;copy; or &amp;#169;
             </pre>
-				</li>
-				<li>
-				<a href="https://www.w3schools.com/html/html_symbols.asp" target="_blank">Listing of special characters on W3Schools</a></li>
+                    </li>
+                    <li>
+                        <a href="https://www.w3schools.com/html/html_symbols.asp" target="_blank">Listing of special characters on W3Schools</a></li>
+                </ul>
+            </li>
+            <li>Comments<br>
+                <pre><!-- this is a comment -->&lt;!-- this is a comment --&gt;</pre></li>
+            <li>Nested lists</li>
+            </ol>
+                <p>Lists can be placed within lists. The right way to do it is to put the nested list inside a li element of the parent list. For example:</p>
+                <code>
+                    &lt;ul&gt;<br>
+                    &nbsp;&nbsp; &lt;li&gt;Deserts<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Pie&lt;/li&gt;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Cake&lt;/li&gt;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Ice Cream&lt;/li&gt;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/ul&gt;<br>
+			&nbsp;&nbsp;&lt;/li&gt;<br>
+			&nbsp;&nbsp;&nbsp; &lt;li&gt;The 
+			rest of the lis&lt;/li&gt;<br>
+			&lt;/ul&gt;</code>
+        
+		<p>This would look like this:</p>
+		<ul>
+			<li>Deserts<ul>
+				<li>Pie</li>
+				<li>Cake</li>
+				<li>Ice Cream</li>
 			</ul>
 			</li>
-			<li>Comments<br>
-			<pre><!-- this is a comment -->&lt;!-- this is a comment --&gt;</pre></li>
+			<li>The rest of the list</li>
+		</ul>
+		
+		<ol>
+            <li value="4">The hgroup element
+                <p>This element has been deprecated. That means it isn't part of the HTML 5 specification. However, all the major browsers still recognize it.</p>
+			<p>In the textbook, the author uses it to group a heading and a sub-heading.</p>
+                An example of a h3 heading and a h4 subheading using hgroup:<br>
+                <code>&lt;hgroup&gt;<br>&nbsp;&nbsp; &lt;h3&gt;This is a heading&lt;/h3&gt;<br>
+                &nbsp;&nbsp;&lt;h4&gt;This is a sub-heading&lt;/h4&gt;<br>
+                &lt;/hgroup&gt;<br>
+                &nbsp;</code><br>
+                Which looks like this:
+                <hgroup>
+					<h3>This is a heading</h3>
+					<h4>This is a sub-heading</h4>
+			</hgroup>
+                The reccomended way to group them now is with the header element. Here's the same heading and sub-heading grouped inside a header element:
+                <br>
+                <br><code>&lt;header&gt;<br>
+                &nbsp;&nbsp;
+                &lt;h3&gt;This is a heading&lt;/h3&gt;<br>
+                &nbsp;&nbsp;&lt;h4&gt;This is a sub-heading&lt;/h4&gt;<br>
+			&lt;/header&gt;<br>&nbsp;</code><br>
+			Which looks the like this:<br>&nbsp;<header>
+					<h3>This is a heading</h3>
+					<h4>This is a sub-heading</h4>
+			</header>
+            </li>
         </ol>
         <br>
         <h2>Lab 2 (Textbook Tutorial 1)</h2>
