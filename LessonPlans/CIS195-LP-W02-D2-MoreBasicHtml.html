@@ -18,8 +18,46 @@
             font-size: larger;
             background-color: lightgoldenrodyellow;
         }
+        
+        .container-fluid {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto
+        }
+        
+        *,
+        ::after,
+        ::before {
+            text-shadow: none!important;
+            box-shadow: none!important
+        }
+        
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box
+        }
+        
+        hr {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, .1)
+        }
+        
+        hr {
+            box-sizing: content-box;
+            height: 0;
+            overflow: visible
+        }
+        
+        .auto-style1 {
+            display: block;
+        }
     </style>
-	<base target="_blank">
+    <base target="_blank">
 </head>
 
 <body>
@@ -61,59 +99,98 @@
     <section>
         <h2>More HTML Elements </h2>
         <ol>
-		<li><strong>Nested lists</strong> <br>
-		Lists can be placed within lists. The right way to do it is to put the 
-		nested list inside a li element of the parent list. For example:<br>
-		<br>
-		<code>
+            <li><strong>Nested lists</strong> <br> Lists can be placed within lists. The right way to do it is to put the nested list inside a li element of the parent list. For example:<br>
+                <br>
+                <code>
 		&lt;ul&gt;<br>&nbsp;&nbsp; &lt;li&gt;Deserts<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Pie&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Cake&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Ice 
 		Cream&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/ul&gt;<br>&nbsp;&nbsp;&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp; &lt;li&gt;The 
 		rest of the list&lt;/li&gt;<br>&lt;/ul&gt;</code>
-		<p>This would look like this:</p>
-		<ul>
-			<li>Deserts
-			<ul>
-				<li>Pie</li>
-				<li>Cake</li>
-				<li>Ice Cream</li>
-			</ul>
-			</li>
-			<li>The rest of the list</li>
-		</ul>
-		<br>
-		</li>
-		<li><strong>The hgroup element&mdash;deprecated</strong> <br>This element is now obsolete&mdash;it isn't part of the HTML 
-		5 specification. However, all the major browsers still recognize it.
-		<p>In our textbook, the author uses it to group a heading and a sub-heading.</p>
-		<code>&lt;header&gt;<br>&nbsp; &lt;hgroup&gt;<br>
+                <p>This would look like this:</p>
+                <ul>
+                    <li>Deserts
+                        <ul>
+                            <li>Pie</li>
+                            <li>Cake</li>
+                            <li>Ice Cream</li>
+                        </ul>
+                    </li>
+                    <li>The rest of the list</li>
+                </ul>
+                <br>
+            </li>
+            <li><strong>The hgroup element&mdash;deprecated</strong> <br>This element is now obsolete&mdash;it isn't part of the HTML 5 specification. However, all the major browsers still recognize it.
+                <p>In our textbook, the author uses it to group a heading and a sub-heading.</p>
+                <code>&lt;header&gt;<br>&nbsp; &lt;hgroup&gt;<br>
 		&nbsp;&nbsp;&nbsp; &lt;h3&gt;This is a heading&lt;/h3&gt;<br>
 		&nbsp;&nbsp; &lt;h4&gt;This is a sub-heading&lt;/h4&gt;<br>
 		&nbsp; &lt;/hgroup&gt;<br>&lt;/header&gt;
 		</code>
-		<p>Which looks like this:</p>
-		<hgroup>
-			<h3>This is a heading</h3>
-			<h4>This is a sub-heading</h4>
-		</hgroup>
-		The reccomended way to group them now is with just the header element. 
-		Note that this grouping doesn't change the appearance. It's just for 
-		organization and to facilitate styling (we'll learn about that later). Here's 
-		the same heading and sub-heading grouped inside just a header element: <br>
-		<br><code>&lt;header&gt;<br>
+                <p>Which looks like this:</p>
+                <hgroup>
+                    <h3>This is a heading</h3>
+                    <h4>This is a sub-heading</h4>
+                </hgroup>
+                The reccomended way to group them now is with just the header element. Note that this grouping doesn't change the appearance. It's just for organization and to facilitate styling (we'll learn about that later). Here's the same heading and sub-heading
+                grouped inside just a header element: <br>
+                <br><code>&lt;header&gt;<br>
 		&nbsp;&nbsp; &lt;h3&gt;This is a heading&lt;/h3&gt;<br>
 		&nbsp;&nbsp;&lt;h4&gt;This is a sub-heading&lt;/h4&gt;<br>
 		&lt;/header&gt;
 		</code>
-		<p>Which looks the like this:</p>
-		<header>
-			<h3>This is a heading</h3>
-			<h4>This is a sub-heading</h4>
-		</header>
-		</li>
-	</ol>
-	<br>
-	<h2>&nbsp;</h2>
+                <p>Which looks the like this:</p>
+                <header>
+                    <h3>This is a heading</h3>
+                    <h4>This is a sub-heading</h4>
+                </header>
+                <br>
+            </li>
+            <li><strong>Link Element</strong><br> This element isn't for creating links to other pages. It is used to link style sheets (.css files) and other resources to your web page. Example:<br>
+                <br>
+                <code>
+                    &lt;link rel="stylesheet" href="MyStylesheet.css"&gt;                 </code>
+            </li>
+        </ol>
     </section>
+    <ul>
+        <li><em>rel</em> means relationship</li>
+        <li><em>href</em> means http referenence (a filename or web address)</li>
+        <li>Read more at
+            <a href="https://www.w3schools.com/tags/tag_link.asp" target="_blank">
+		W3Schools</a><br></li>
+    </ul>
+    <h2>In-line vs. Block Elements</h2>
+
+    <p>In-line elements arrange themselves horizontally on the page. Examples are:
+    </p>
+    <ul>
+        <li>&lt;em&gt;</li>
+        <li>&lt;strong&gt;</li>
+        <li>&lt;img&gt;</li>
+    </ul>
+    <p>Block elements arrange themselves vertically on the page. Examples are:</p>
+    <ul>
+        <li>headings (&lt;h1&gt;, &lt;h2&gt;, etc.)</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;ul&gt; and &lt;ol&gt;</li>
+    </ul>
+
+    <div class="container-fluid">
+        <section>
+        </section>
+        <hr>
+        <footer class="auto-style1">
+            <div style="float: left; padding-right: 5px;">
+                <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">
+                    <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/80x15.png" style="border-width: 0"></a>
+            </div>
+            <span property="dct:title" xmlns:dct="http://purl.org/dc/terms/">
+			These lecture notes are</span> licensed under a
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative 
+		Commons Attribution-ShareAlike 4.0 International License</a>, by
+            <a href="https://profbird.online" property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">
+		Brian Bird</a>, spring 2019.</footer>
+        <hr>
+    </div>
 </body>
 
 </html>
