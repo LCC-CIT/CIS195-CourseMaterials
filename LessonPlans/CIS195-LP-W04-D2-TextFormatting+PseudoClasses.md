@@ -162,6 +162,18 @@ Contents
     
     
 
+- Text and font styles
+
+
+## Web Fonts
+
+## 
+
+## Pseudo-Classes
+
+Example:
+
+`<head>   <!-- other stuff left out -->                <base href="Chennai/" target="_blank"></head>`
 
 ##Examples
 
