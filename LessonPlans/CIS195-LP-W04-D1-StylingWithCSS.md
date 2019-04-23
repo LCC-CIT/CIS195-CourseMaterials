@@ -6,7 +6,7 @@ CIS 195 Web Authoring 1: HTML
 
 ##Course Topics
 
-| Topics  for weeks 1 - 5            | Topics for weeks 6 - 10     |
+| Topics                             | Topics                      |
 | ---------------------------------- | --------------------------- |
 | 1. Intro to HTML 5                 | 6. Midterm                  |
 | 2. More HTML 5                     | 7. HTML Tables              |
@@ -47,6 +47,7 @@ Contents
   - <u>Anatomy of a CSS rule:</u>
 
     - Selector: *body*
+      Special selector: * is a "wild card" and will select any element
     - Braces: *{ }*
     - Property: *background-color: lightcyan;*
       - Name: *background-color*
@@ -84,16 +85,15 @@ Contents
       5. HTML page's embedded style rules
   
 - ###Example
-  `/* Change font and background colors of all paragraphs */`
-  `p {`
-       `background-color: papayawhip;`
-      `color: darkblue;`
-     `}`
-
-    `/* Make the font size of bold text larger */`
-    `strong {`
-         `font-size: larger;`
-        `}`
+  `/* Change font and background colors of all paragraphs */
+  p {
+       background-color: papayawhip;
+      color: darkblue;
+     }
+    /* Make bold text larger */
+  strong {
+         font-size: larger;
+      }`
 
 ##Defining Colors
 
@@ -114,11 +114,54 @@ Contents
     `color: #0000FF7F;`
 
 
-## Type Selectors
+## Advanced Type Selectors
 
-- Use contextual selectors
-- Work with attribute selectors
-- Apply text and font styles
+- ### Contextual selectors
+
+  | Combinator   | Example        | Description                                             |
+  | ------------ | -------------- | ------------------------------------------------------- |
+  | comma        | article, p, ol | Matches any of the three elements                       |
+  | space        | article ol     | Matches any *ol* that is anywhere inside an *article*   |
+  | greater-than | article>ol     | Matches an *ol* that is directly inside an *article*    |
+  | plus         | ul+ol          | Matches an *ol* that immediately follows a sibling *ul* |
+  | dash         | ul-ol          | Matches any *ol* that is a sibling of an *ul*           |
+
+  
+
+- ### Attribute selectors
+
+  - <u>id selector</u>
+    A particular id attribute can be used only once on a web page to identify an element. It has multiple uses in HTML.
+
+    - hash tag selects an id
+    - Example:
+      `#topics {
+          background-color: powderblue;
+      }`
+
+  - <u>class selector</u>
+    A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
+
+    - dot selects a class
+    - Example:
+      `.greenBold {
+          font-weight: bold;
+          color: green;
+      }`
+
+  - <u>Combinations with attribute selectors</u>
+
+    | Selector           | Example        | Attribute that it matches    |
+    | ------------------ | -------------- | ---------------------------- |
+    | #                  | &#35;deserts   | id=deserts                   |
+    | .                  | .ingredients   | class=ingredients            |
+    | element.class      | ol.ingredients | &lt;ol class=ingredients&gt; |
+    | element[attribute] |                |                              |
+    |                    |                |                              |
+
+    
+
+- Text and font styles
 
 
 ## Web Fonts
