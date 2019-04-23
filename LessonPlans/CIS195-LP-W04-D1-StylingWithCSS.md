@@ -69,20 +69,24 @@ Contents
     - Web site style-sheets:
       
       - External&mdash;in a separate file
-          - Embedded&mdash;in a &lt;style&gt; element in an html file
-          - Inline&mdash;in a *style* attribute inside an html tag
+      - Embedded&mdash;in a &lt;style&gt; element in an html file
+      - Inline&mdash;in a *style* attribute inside an html tag
       
     - Browser styles-sheets
       
       - Internal&mdash;defined by the browser developers
-          - User Defined&mdash;user preferences
+      - User Defined&mdash;user preferences
+      
+      
   - <u>Precedence&mdash;the cascade</u>
     (The ones closer to the top win.)
-      1. HTML element's inline styles
-      2. Browser's internal style-sheet
-      3. Browser's user-defined styles
-      4. Site's external style-sheet
-      5. HTML page's embedded style rules
+      1. HTML element's *inline* styles
+        2. HTML page's *embedded* style rules
+        3. Site's *external* style-sheet
+        4. Browser's user-defined styles
+        5. Browser's internal style-sheet
+    
+    
   
 - ###Example
   `/* Change font and background colors of all paragraphs */
