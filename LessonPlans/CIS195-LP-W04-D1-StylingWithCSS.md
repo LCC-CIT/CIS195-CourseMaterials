@@ -4,9 +4,9 @@ CIS 195 Web Authoring 1: HTML
 
 ### by Brian Bird
 
-##Course Topics
+##Course Topics by Week
 
-| Topics                             | Topics                      |
+| Topics                             |                             |
 | ---------------------------------- | --------------------------- |
 | 1. Intro to HTML 5                 | 6. Midterm                  |
 | 2. More HTML 5                     | 7. HTML Tables              |
@@ -178,3 +178,6 @@ Contents
 * [W3Schools CSS Reference](https://www.w3schools.com/cssref/)
 * [MDN @font-face Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/%40font-face)
 
+------
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
