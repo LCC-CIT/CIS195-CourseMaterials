@@ -13,6 +13,7 @@ CIS 195 Web Authoring 1: HTML
 | 3. Developing a Web Site         | 8. HTML Forms               |
 | 4. <mark>Styling with CSS</mark> | 9. Multimedia               |
 | 5. Midterm Quiz                  | 10. Review and Term Project |
+|                                  | 11. Final Quiz              |
 
 <hr>
 
