@@ -23,9 +23,7 @@ Contents
 -   [Introduction](#introduction)
 -   [Basic CSS](#basic-css)
 -   [Defining Colors](#defining_colors)
--   [Type Selectors](#type-selectors)
--   [Web Fonts](#web-fonts)
--   [Pseudo-classes](#pseudo-classes)
+-   [Advanced Selectors](#advanced-selectors)
 -   [Examples](#examples)
 -   [References](#references)
 
@@ -131,7 +129,7 @@ Contents
     `color: #0000FF7F;`
 
 
-## Advanced Type Selectors
+##Advanced Selectors
 
 - ### Contextual selectors
 
