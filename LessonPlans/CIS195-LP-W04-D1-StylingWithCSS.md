@@ -1,12 +1,8 @@
-CIS 195 Web Authoring 1: HTML 
+###CIS 195 Web Authoring 1: HTML
 
-# Styling with CSS
+####Course Topics by Week
 
-### by Brian Bird
-
-##Course Topics by Week
-
-| Topics                           |                             |
+|                                  |                             |
 | -------------------------------- | --------------------------- |
 | 1. Intro to HTML 5               | 6. Page Layout with CSS     |
 | 2. More HTML 5                   | 7. HTML Tables              |
@@ -15,10 +11,10 @@ CIS 195 Web Authoring 1: HTML
 | 5. Midterm Quiz                  | 10. Review and Term Project |
 |                                  | 11. Final Quiz              |
 
-<hr>
+# Styling with CSS
 
-Contents
---------
+
+##Contents
 
 -   [Introduction](#introduction)
 -   [Basic CSS](#basic-css)
