@@ -72,7 +72,7 @@
     - Web site style-sheets:
       
       - External&mdash;in a separate file named with a name ending in .css
-        In an HTML file, use the link element to apply a css file.
+        In an HTML file, use the *link* element to apply a css file.
         Example:
       
         ```html
@@ -82,7 +82,7 @@
         </head>
         ```
       
-      - Embedded&mdash;in a &lt;style&gt; element in an html file
+      - Embedded&mdash;in a *style* element in an html file
         Example:
       
         ```html
@@ -118,11 +118,11 @@
   - <u>Precedence&mdash;the cascade</u>
     (The ones closer to the top win.)
     
-      1. HTML elements' *inline* styles
-      2. HTML pages' *embedded* style rules
+      1. HTML elements's *inline* styles
+      2. HTML pages's *embedded* style rules
       3. Site's *external* style-sheet
-      4. Browsers' user-defined styles
-      5. Browsers' internal style-sheet
+      4. Browsers's *user-defined* styles
+      5. Browsers's *internal* style-sheet
     
     
 
