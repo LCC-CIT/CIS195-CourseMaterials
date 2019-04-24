@@ -82,11 +82,11 @@
   - <u>Precedence&mdash;the cascade</u>
     (The ones closer to the top win.)
     
-      1. HTML element's *inline* styles
-      2. HTML page's *embedded* style rules
+      1. HTML elements' *inline* styles
+      2. HTML pages' *embedded* style rules
       3. Site's *external* style-sheet
-      4. Browser's user-defined styles
-      5. Browser's internal style-sheet
+      4. Browsers' user-defined styles
+      5. Browsers' internal style-sheet
     
     
   
@@ -117,7 +117,7 @@
     `color: #0000FF;`
 * Special colors
   * White consists of all colors
-  * Black is the absense of color
+  * Black is the absence of color
 * Opacity
   * Decimal
     `color: rgba(0, 0, 255, 0.5);`
@@ -180,7 +180,7 @@
   | *And there are more!* |                |                                  |
     
 
-##Examples
+##Example
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
 
@@ -188,10 +188,12 @@
 
 ##References
 
-* [W3Schools CSS Reference](https://www.w3schools.com/cssref/)
-* [MDN @font-face Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/%40font-face)
+* [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
+* [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+
+------------
 
