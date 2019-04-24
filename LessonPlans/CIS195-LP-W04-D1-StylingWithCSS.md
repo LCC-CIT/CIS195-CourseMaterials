@@ -157,18 +157,18 @@
   - <u>class selector</u>
     A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
   
-  - dot selects a class
-    
-  - Example:
-    
-      ```css
-      .greenBold {
-        font-weight: bold;
-          color: green;
-      }
-      ```
+    - dot selects a class
       
-  - <u>Combinations with attribute selectors</u>
+    - Example:
+      
+        ```css
+        .greenBold {
+          font-weight: bold;
+            color: green;
+        }
+        ```
+    
+  - <u>Combinations of selectors</u>
   
     | Selector              | Example        | HTML Attribute that it matches   |
     | --------------------- | -------------- | -------------------------------- |
