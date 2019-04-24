@@ -149,7 +149,7 @@
     - Example:
       
       ```css
-  topics {
+  #topics {
           background-color: powderblue;
       }
       ```
