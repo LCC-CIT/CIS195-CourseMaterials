@@ -1,12 +1,8 @@
-CIS 195 Web Authoring 1: HTML 
+###CIS 195 Web Authoring 1: HTML
 
-# Styling with CSS
+####Course Topics by Week
 
-### by Brian Bird
-
-##Course Topics by Week
-
-| Topics                           |                             |
+|                                  |                             |
 | -------------------------------- | --------------------------- |
 | 1. Intro to HTML 5               | 6. Page Layout with CSS     |
 | 2. More HTML 5                   | 7. HTML Tables              |
@@ -15,10 +11,10 @@ CIS 195 Web Authoring 1: HTML
 | 5. Midterm Quiz                  | 10. Review and Term Project |
 |                                  | 11. Final Quiz              |
 
-<hr>
+# Styling with CSS
 
-Contents
---------
+
+##Contents
 
 -   [Introduction](#introduction)
 -   [Basic CSS](#basic-css)
@@ -128,11 +124,11 @@ Contents
   - <u>Precedence&mdash;the cascade</u>
     (The ones closer to the top win.)
     
-      1. HTML element's *inline* styles
-      2. HTML page's *embedded* style rules
+      1. HTML elements' *inline* styles
+      2. HTML pages' *embedded* style rules
       3. Site's *external* style-sheet
-      4. Browser's user-defined styles
-      5. Browser's internal style-sheet
+      4. Browsers' user-defined styles
+      5. Browsers' internal style-sheet
     
     
 
@@ -147,7 +143,7 @@ Contents
     `color: #0000FF;`
 * Special colors
   * White consists of all colors
-  * Black is the absense of color
+  * Black is the absence of color
 * Opacity
   * Decimal
     `color: rgba(0, 0, 255, 0.5);`
@@ -178,26 +174,26 @@ Contents
       Example:
     
       ```css
-      topics {
-        background-color: powderblue;
+  #topics {
+          background-color: powderblue;
       }
       ```
     
   - <u>class selector</u>
     A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
   
-  - dot selects a class
-    
-  - Example:
-    
-      ```css
-      .greenBold {
-        font-weight: bold;
-          color: green;
-      }
-      ```
+    - dot selects a class
       
-  - <u>Combinations with attribute selectors</u>
+    - Example:
+      
+        ```css
+        .greenBold {
+          font-weight: bold;
+            color: green;
+        }
+        ```
+    
+  - <u>Combinations of selectors</u>
   
     | Selector              | Example        | HTML Attribute that it matches   |
     | --------------------- | -------------- | -------------------------------- |
@@ -209,7 +205,7 @@ Contents
   | *And there are more!* |                |                                  |
     
 
-##Examples
+##Example
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
 
@@ -217,10 +213,12 @@ Contents
 
 ##References
 
-* [W3Schools CSS Reference](https://www.w3schools.com/cssref/)
-* [MDN @font-face Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/%40font-face)
+* [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
+* [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+
+------------
 
