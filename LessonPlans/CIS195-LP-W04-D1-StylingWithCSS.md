@@ -67,15 +67,57 @@ Contents
   - <u>Inheritance</u>
     Any element that is nested inside an element to which a style rule has been applied will inherit that rule.
 
-- ###Style-sheets
+- ### Examples of CSS Rules
 
+  ```css
+  
+  ```
+  
+  
+  
+- ###Style-sheets
+  A Style-sheet is just a set of one or more CSS rules.
   - <u>Types of style-sheets</u>
     
     - Web site style-sheets:
       
-      - External&mdash;in a separate file
+      - External&mdash;in a separate file named with a name ending in .css
+        In an HTML file, use the link element to apply a css file.
+        Example:
+      
+        ```html
+        <head>
+           <!-- The usual other code would go here -->
+           <link href="HomeStyles.css" rel="stylesheet" />
+        </head>
+        ```
+      
       - Embedded&mdash;in a &lt;style&gt; element in an html file
+        Example:
+      
+        ```html
+        <head>
+           <!-- The usual other code would go here -->
+           <style>
+             p {
+                background-color: papayawhip;
+                color: darkblue;
+             }
+        
+              strong {
+                font-size: larger;
+              }
+          </style>
+        </head>
+        
+        ```
+      
       - Inline&mdash;in a *style* attribute inside an html tag
+        Example:
+      
+        ```html
+        <p style="background-color:lightblue">Some text</p>
+        ```
       
     - Browser styles-sheets
       
@@ -93,22 +135,6 @@ Contents
       5. Browser's internal style-sheet
     
     
-  
-- ###Example
-  ```css
-  /* Change font and background colors of all paragraphs */
-  p {
-       background-color: papayawhip;
-      color: darkblue;
-     }
-  
-    /* Make bold text larger */
-  strong {
-         font-size: larger;
-      }
-  ```
-  
-  
 
 ##Defining Colors
 
@@ -148,13 +174,12 @@ Contents
   - <u>id selector</u>
     A particular id attribute can be used only once on a web page to identify an element. It has multiple uses in HTML.
 
-    - hash tag selects an id
+    - hash tag selects an id.
+      Example:
     
-    - Example:
-      
       ```css
-  topics {
-          background-color: powderblue;
+      topics {
+        background-color: powderblue;
       }
       ```
     
