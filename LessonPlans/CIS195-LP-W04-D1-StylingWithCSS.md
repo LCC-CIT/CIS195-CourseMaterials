@@ -63,14 +63,8 @@
   - <u>Inheritance</u>
     Any element that is nested inside an element to which a style rule has been applied will inherit that rule.
 
-- ### Examples of CSS Rules
+  
 
-  ```css
-  
-  ```
-  
-  
-  
 - ###Style-sheets
   A Style-sheet is just a set of one or more CSS rules.
   - <u>Types of style-sheets</u>
@@ -132,7 +126,7 @@
     
     
 
-##Defining Colors
+##Defining Colors in CSS
 
 * By name
   `color: blue;`
@@ -171,20 +165,29 @@
     A particular id attribute can be used only once on a web page to identify an element. It has multiple uses in HTML.
 
     - hash tag selects an id.
-      Example:
+    - Example of a css id rule:
+
+    ```css
+    #intro {
+      background-color: powderblue;
+    }
+    ```
     
-      ```css
-  #topics {
-          background-color: powderblue;
-      }
-      ```
+    Example of a target HTML element:
     
+    ```html
+    <p id="intro">This is an introductory parapgrah...</p>
+    ```
+    
+    
+  
+  
   - <u>class selector</u>
     A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
   
     - dot selects a class
       
-    - Example:
+    - Example of a css class rule:
       
         ```css
         .greenBold {
@@ -192,17 +195,21 @@
             color: green;
         }
         ```
+        
+    - Example of a target HTML element:
     
-  - <u>Combinations of selectors</u>
+      ```html
+      <span class="greenbold">This is important!</span>
+      ```
+    
+  - <u>More attribute selectors</u>
   
-    | Selector              | Example        | HTML Attribute that it matches   |
-    | --------------------- | -------------- | -------------------------------- |
-    | #                     | &#35;deserts   | *id="deserts"*                   |
-    | .                     | .ingredients   | *class="ingredients"*            |
-    | element.class         | ol.ingredients | *&lt;ol class="ingredients"*&gt; |
-    | element[attribute]    | ol[type]       | &lt;*ol type*="A"&gt;            |
-    | element[attribute]    | ol[type="A"]   | &lt;*ol type="A"*&gt;            |
-  | *And there are more!* |                |                                  |
+    | Selector                                                     | Example CSS Rule | Example target HTML Attribute    |
+    | ------------------------------------------------------------ | ---------------- | -------------------------------- |
+    | element.class                                                | ol.ingredients   | *&lt;ol class="ingredients"*&gt; |
+    | element[attribute]                                           | ol[type]         | &lt;*ol type*="A"&gt;            |
+    | element[attribute]                                           | ol[type="A"]     | &lt;*ol type="A"*&gt;            |
+    | *[And there are more!](https://www.w3schools.com/css/css_attribute_selectors.asp)* |                  |                                  |
     
 
 ##Example
