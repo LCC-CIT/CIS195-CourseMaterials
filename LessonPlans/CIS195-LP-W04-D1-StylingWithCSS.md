@@ -18,8 +18,7 @@
 
 -   [Introduction](#introduction)
 -   [Basic CSS](#basic-css)
--   [Defining Colors](#defining_colors)
--   [Advanced Selectors](#advanced-selectors)
+-   [More Selectors](#more-selectors)
 -   [Examples](#examples)
 -   [References](#references)
 
@@ -126,26 +125,8 @@
     
     
 
-##Defining Colors in CSS
 
-* By name
-  `color: blue;`
-* By color code
-  * Decimal
-    `color: rgb(0, 0, 255)`
-  * Hexadecimal
-    `color: #0000FF;`
-* Special colors
-  * White consists of all colors
-  * Black is the absence of color
-* Opacity
-  * Decimal
-    `color: rgba(0, 0, 255, 0.5);`
-  * Hexadecimal
-    `color: #0000FF7F;`
-
-
-##Advanced Selectors
+##More Selectors
 
 - ### Contextual selectors
 

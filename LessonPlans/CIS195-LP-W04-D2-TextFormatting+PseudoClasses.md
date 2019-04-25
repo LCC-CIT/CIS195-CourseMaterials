@@ -11,11 +11,12 @@
 | 5. Midterm Quiz                  | 10. Review and Term Project |
 |                                  | 11. Final Quiz              |
 
-# More CSS: Text and Pseudo-classes
+# More CSS: Colors, Text and Pseudo-classes
 
 ## Contents
 
 -   [Introduction](#introduction)
+-   [Defining Colors](#defining-colors)
 -   [Text and Font Styles](#text-and-font-styles)
 -   [Pseudo-classes](#pseudo-classes)
 -   [Examples](#examples)
@@ -25,6 +26,24 @@
 
 -   Review due dates on Moodle.
 -   Answer questions about this week's lab assignment.
+
+## Defining Colors
+
+- By name
+  `color: blue;`
+- By color code
+  - Decimal
+    `color: rgb(0, 0, 255)`
+  - Hexadecimal
+    `color: #0000FF;`
+- Special colors
+  - White consists of all colors
+  - Black is the absence of color
+- Opacity
+  - Decimal
+    `color: rgba(0, 0, 255, 0.5);`
+  - Hexadecimal
+    `color: #0000FF7F;`
 
 ##Text and font styles
 
