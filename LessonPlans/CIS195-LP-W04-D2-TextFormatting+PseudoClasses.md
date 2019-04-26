@@ -53,23 +53,23 @@
 
 ###Text Properties
 
-- text-align
+- text-align  
   Sets horizontal alignment of text.
 - - left&mdash;aligns text to the left.
   - right&mdash;aligns text to the right.
   - center&mdash;centers the text.
   - justify&mdash;Inserts spaces between words so that the line fills the whole width.
-- text-indent
+- text-indent  
   Sets the indentation of the first line in a block of text. For example, indenting the first line of a paragraph.
   - Units can be:
     - % (percent)
-    - numeric length
-  - example: text-indent: 
-- letter-spacing
+    - [Numeric length](#numeric-lengths-in-css)
+  - example: `text-indent: 5em;`
+- letter-spacing  
   Sets the spacing between characters of text.
-  - normal&mdash;sets spacing to the default
+  - normal&mdash;sets spacing to the default  
     Example: `letter-spacing: normal;`
-  - numeric length, either absolute or relative. Negative numbers are allowed.
+  - [Numeric length](#numeric-lengths-in-css), either absolute or relative. Negative numbers are allowed.  
     Example: `letter-spacing: 5px;`
 - word-spacing
 - line-height
@@ -91,12 +91,13 @@
 - font-size
   - *xx-small, x-small, small, medium* (default), *large, x-large, xx-large*
   - *larger, smaller*
-  - An absolute size using length units (see Text Properties)
-- font-family
+  - An absolute size using [length units](#numeric-lengths-in-css)
+- font-family  
   Can either be specific font families or a generic family names.
+  
   - specific family name examples: *times, courier, arial*, etc.
-  - generic family name examples: *serif, sans-serif, monospace*, etc.
-
+- generic family name examples: *serif, sans-serif, monospace*, etc.
+  
 - Font properties can be set individually or all at once
 
   - Example of setting each property separately:
@@ -123,11 +124,11 @@
 
   - absolute length units
     - *cm*&mdash;centimeters
-    - *mm&mdash;milimeters
-    - *in&mdash;inches
-    - *px&mdash;pixels
-    - *pt&mdash;points
-    - *pc&mdash;picas
+    - *mm*&mdash;milimeters
+    - *in*&mdash;inches
+    - *px*&mdash;pixels
+    - *pt*&mdash;points
+    - *pc*&mdash;picas
   - relative length units
     - em&mdash;the size of an 'm' in the current font
     - ex&mdash;the height of an 'x' in the current font
@@ -151,31 +152,56 @@ Web fonts allow developers to use fonts that may not be installed on end user's 
 ##List Style Properties
 
 - list-style-type
+  
   - [List style types](https://www.w3schools.com/CSSref/pr_list-style-type.asp)
 - list-style-image
+  
   - [list-style-image property](https://www.w3schools.com/cssref/pr_list-style-image.asp)
 - list-style-position
+  
   - [list-style-position property](https://www.w3schools.com/cssref/pr_list-style-position.asp)
+  
+    
 
 ## Pseudo-Classes
 
-Use these to define special appearance or behaviors for HTML elements.
+Use these to define special appearance or behavior for HTML elements.  
 The syntax of the selector is similar to that of a class selector.
 
-- a:visited
+- a:visited  
   Sets the color of links that have been clicked on.
-  - Example: `a:visited {color: green;}`
-- a:hover
+  
+  - Example: 
+  
+    ```css
+    a:visited {
+       color: green;
+    }
+    ```
+  
+    
+- a:hover  
   Sets the color links change to when a user hovers over them in the browser.
-  - Example: `a:hover {color: purple;}`
+  
+  - Example: 
+  
+    ```css
+    a:hover {
+       color: purple;
+    }
+    ```
 
 Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/css/css_pseudo_classes.asp).
+
+
 
 ##Example
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
 
 * [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
+
+  
 
 ##References
 
