@@ -179,7 +179,6 @@ The syntax of the selector is similar to that of a class selector.
     }
     ```
   
-    
 - a:hover  
   Sets the color links change to when a user hovers over them in the browser.
   
@@ -209,4 +208,10 @@ Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/c
 * [W3Schools: CSS Font Tutorial](https://www.w3schools.com/css/css_font.asp)
 * [MDN: @font-face Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/%40font-face)
 * [W3Schools: CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
+
+------
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+
+------------
 
