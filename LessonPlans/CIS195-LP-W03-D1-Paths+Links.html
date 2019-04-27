@@ -5,15 +5,6 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=1200" />
     <title>Web Sites & Links</title>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="fathom/fathom.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#presentation').fathom({
-                dislayMode: 'single'
-            });
-        });
-    </script>
     <style type="text/css">
         body {
             font-family: "Arial", "Helvetica", "sans-serif";
@@ -37,134 +28,112 @@
         }
     </style>
 
-	<base target="_blank">
+    <base target="_blank">
 
 </head>
 
 <body>
-    <header> <b>CIS 195 Web Authoring 1: HTML &nbsp; &nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; January 20,
-      2018<br>
-    </b>
+    <header> <b>CIS 195 Web Authoring 1: HTML</b>
         <div>Brian Bird</div>
         <br>
         <h1> <i>Web Sites and Hyperlinks</i></h1><br />
     </header>
-    <div id="presentation">
-        <div class="slide">
-            <b>Topics by week<br>
+
+    <b>Topics by week<br>
         <table style="width: 807px; height: 127px;" border="1">
           <tbody>
             <tr>
               <td>1. Intro to HTML 5</td>
-              <td><b>6. Midterm</b></td>
-            </tr>
-            <tr>
-                <td>2. More HTML 5</td>
-                <td><b>7. HTML Tables</b></td>
-            </tr>
-            <tr>
-                <td id="week03"><b>3. Developing a Web Site</b></td>
-                <td id="week08"><b>8. HTML Forms</b></td>
-            </tr>
-            <tr>
-                <td><b>4. Design with CSS</b></td>
-                <td id="week09"><b>9. Multimedia</b> </td>
-            </tr>
-            <tr>
-                <td><b>5. Page Layout with CSS</b></td>
-                <td id="week10">10. Review and Term Project<br>
-                </td>
-            </tr>
-            </tbody>
-            </table>
-            </b> <br>
-        </div>
-        <div class="slide">
-            <h2>Contents</h2>
-            <ul>
-                <li><a href="#topic1">Introduction</a></li>
-                <li><a href="#topic2">Review - Controller Action Methods</a></li>
-                <li><a href="#topic7">Further Reading</a></li>
-                <li><a href="#topic8">Next Class</a></li>
+              <td><b>6. Page Layout with CSS</b></td>
+    </tr>
+    <tr>
+        <td>2. More HTML 5</td>
+        <td><b>7. HTML Tables</b></td>
+    </tr>
+    <tr>
+        <td id="week03"><b>3. Developing a Web Site</b></td>
+        <td id="week08"><b>8. HTML Forms</b></td>
+    </tr>
+    <tr>
+        <td><b>4. Design with CSS</b></td>
+        <td id="week09"><b>9. Multimedia</b> </td>
+    </tr>
+    <tr>
+        <td><b>5. Midterm</b></td>
+        <td id="week10">10. Review and Term Project<br>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+    </b> <br>
 
-            </ul>
-        </div>
+    <h2>Contents</h2>
+    <ul>
+        <li><a href="#topic1">Introduction</a></li>
+        <li><a href="#topic2">Website Structure</a></li>
+        <!-- <li><a href="#topic7">Example</a></li> -->
+        <li><a href="#topic8">Further Reading</a></li>
 
-        <div id="topic1" class="slide">
-            <h2>Introduction</h2>
-            <ul>
-                <li>Review lab due dates on Moodle</li>
-                <li>Answer questions about lab 3</li>
-            </ul>
-        </div>
-        <div id="topic2" class="slide">
-            <h3>Main focus today</h3>
-            <ul>
-                <li>Web site structure</li>
-                <li>Hyperlinks</li>
-                <li>NOTE: The textbook publisher's slides go into depth on relative and absolute paths as well as directory structure, but the tutorial and review projects don't use multiple directories! Also, the slides don't explain the base element in
-                    enough detail. Case problem 1 requires use of base with a named target.</li>
-            </ul>
+    </ul>
 
-        </div>
-        <div id="topic3" class="slide">
-            <h2>Web Site Structure</h2>
+    <h2 id="topic1">Introduction</h2>
+    <ul>
+        <li>Review lab due dates on Moodle</li>
+        <li>Answer questions about lab 3</li>
+    </ul>
 
-            <p>The organization of the code is determined by folders 
-			(directories).<br>The web site's structure is determined by 
-			hyperlinks.</p>
-			<h3>Folders and Paths</h3>
-			<p>Folders (called directories on Linux) can hold files or other 
-			folders. When folders hold other folders, we say they are <em>nested</em>. 
-			Look at some nested folders in the Windows file explorer, or in the 
-			Mac OS finder.</p>
-			<p>A path describes the hirerarchy of nested folders that leads to a 
-			particular folder or file. Here's an example of a path:</p>
-			<pre>C:/Users/Brian/Documents/SouthIndia/Chennai/index.html</pre>
-			<h3>Hyperlink Navigation&mdash;Site maps</h3>
-			<p>A sitemap shows how the web pages are linked together. It can be 
-			done as simply as by using an outline:<br>
-			<a href="https://creativecybersolutions.com/">
+    <h3>Main focus today</h3>
+    <ul>
+        <li>Web site structure</li>
+        <li>Hyperlinks</li>
+        <li>NOTE: The textbook publisher's slides go into depth on relative and absolute paths as well as directory structure, but the tutorial and review projects don't use multiple directories! Also, the slides don't explain the base element in enough detail.
+            Case problem 1 requires use of base with a named target.</li>
+    </ul>
+
+    <h2 id="topic2">Website Structure</h2>
+    <p>The organization of the code is determined by folders (directories).
+        <br>The web site's structure is determined by hyperlinks.
+    </p>
+    <h3>Folders and Paths</h3>
+    <p>Folders (called directories on Linux) can hold files or other folders. When folders hold other folders, we say they are <em>nested</em>. Look at some nested folders in the Windows file explorer, or in the Mac OS finder.</p>
+    <p>A path describes the hirerarchy of nested folders that leads to a particular folder or file. Here's an example of a path:</p>
+    <pre>C:/Users/Brian/Documents/SouthIndia/Chennai/index.html</pre>
+    <h3>Hyperlink Navigation&mdash;Site maps</h3>
+    <p>A sitemap shows how the web pages are linked together. It can be done as simply as by using an outline:<br>
+        <a href="https://creativecybersolutions.com/">
 			https://creativecybersolutions.com/</a></p>
-			<ul>
-				<li>Navigation (on every page)<ul>
-					<li>Home</li>
-					<li>Services</li>
-					<li>About</li>
-					<li>Contact us</li>
-					<li>Client Login</li>
-				</ul>
-				</li>
-			</ul>
-			<p>For a site with more complex navigation (hyperlinks) you would 
-			need a more complex map.<br>Look at
-			<a href="http://www.highlands97405.com">The Highlands</a> web site 
-			and draw a site map on the white board.</p>
-			<h3>Base path for hyperlinks</h3>
-			<p>The &lt;base&gt; tag sets a default path for all the href and src 
-			attributes on the page. <br>It should be put in the &lt;head&gt; element.</p>
-			<p>Example:<br></p>
-			<code>&lt;head&gt;<br>&nbsp;&nbsp; &lt;!-- other stuff left out --&gt;<br>&nbsp;&nbsp; 
+    <ul>
+        <li>Navigation (on every page)
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contact us</li>
+                <li>Client Login</li>
+            </ul>
+        </li>
+    </ul>
+    <p>For a site with more complex navigation (hyperlinks) you would need a more complex map.<br>Look at
+        <a href="http://www.highlands97405.com">The Highlands</a> web site and draw a site map on the white board.</p>
+    <h3>Base path for hyperlinks</h3>
+    <p>The &lt;base&gt; tag sets a default path for all the href and src attributes on the page. <br>It should be put in the &lt;head&gt; element.</p>
+    <p>Example:<br></p>
+    <code>&lt;head&gt;<br>&nbsp;&nbsp; &lt;!-- other stuff left out --&gt;<br>&nbsp;&nbsp; 
 			&lt;base href="Chennai/" target="_blank"&gt;<br>&lt;/head&gt;</code>
-        </div>
 
-        <div id="topic6" class="slide">
-            <h2>Example</h2>
-        </div>
-        <div id="topic7" class="slide">
-            <h2>Further Reading</h2>
-            <a href="https://www.w3schools.com/tags/tag_base.asp">W3Schools 
-			tutorila on the &lt;base&gt; tag</a><br>
-        </div>
-        <div id="topic8" class="slide">
-            <h2>Next Class</h2>
-            <p>We will go into more detail on unit testing</p>
+    <!--   <h2 id="topic7">Example</h2> -->
 
-        </div>
-    </div>
+    <h2 id="topic8">Further Reading</h2>
+    <a href="https://www.w3schools.com/tags/tag_base.asp">W3Schools 
+			tutorial on the &lt;base&gt; tag</a><br>
+    <hr />
+    <p>
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License" /></a>
+        Web Authoring Lecture Notes by <a href="https://profbird.online">Brian Bird</a> are licensed under a
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </p>
+    <hr />
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 CIS 195 Web Authoring 1: HTML 
 
-# Web Sites and Hyperlinks
+# Website Structure and Hyperlinks
 
 ### by Brian Bird
 
@@ -10,7 +10,7 @@ CIS 195 Web Authoring 1: HTML
 | ------------------------ | --------------------------- |
 | 1. Intro to HTML 5       | 6. Midterm                  |
 | 2. More HTML 5           | 7. HTML Tables              |
-| 3. Developing a Web Site | 8. HTML Forms               |
+| <mark>3. Developing a Web Site</mark> | 8. HTML Forms               |
 | 4. Design with CSS       | 9. Multimedia               |
 | 5. Page Layout with CSS  | 10. Review and Term Project |
 
