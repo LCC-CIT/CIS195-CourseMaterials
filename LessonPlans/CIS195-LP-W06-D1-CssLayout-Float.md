@@ -18,27 +18,106 @@
 -   [Introduction](#introduction)
 -   [Backgrounds](#backgrounds)
 -   [Page Design](#page-design)
--   [Floating Elements](#floating-elements)
+-   [Float and Clear](#float-and-clear)
 -   [Example](#example)
 -   [References](#references)
+
+
 
 ## Introduction
 
 -   Review due dates on Moodle.
--   Answer questions about this week's lab assignment.
+-   Did everyone get their citstudent username and password?
+-   This week we will be talking about page layout (design), which is different from formating.
+
+
+
+##Backgrounds
+
+#### CSS background properties
+
+- background-color
+- background-image
+- background-repeat
+- background-attachment
+- background-position
+
+Setting a background image:
+
+```css
+body {
+  background-image: url("sunset.png");
+}
+```
+
+#### Background Shorthand Property
+
+```css
+body {
+  background: orange url("sunset.png") no-repeat left top;
+}
+```
+
+
+
+##Page Design
+
+#### Fixed Layout
+
+Uses absolute sizes to keep the page at a fixed size.
+```css
+body {
+  width: 1000px;
+}
+```
+
+#### Fluid Layout
+
+Uses percentages to allow the page expand or contract to fit the size of the browser.
+```css
+body {
+  width: 80%;
+}
+```
+
+
+
+##Float and Clear
+
+The `float` property is used with block elements to positioin them side-by-side (instead of one above another) and to make them move as far as they can to either the left of right.
+```css
+img {
+  float: right;
+}
+```
+
+
+The `clear` property is used to cancel the float property.
+
+```css
+img {
+  clear: right;
+}
+```
+
+
+
+Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
 
 
 
 ##Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
+* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
 
-* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
+* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit04)
 
   
 
 ##References
 
+* [W3Schools Tutorial: CSS Background](https://www.w3schools.com/css/css_background.asp)
+* [W3Schools Tutorial: Float](https://www.w3schools.com/css/css_float.asp)
 * [W3C Specification: CSS Box Model](https://www.w3.org/TR/css-box-3/)
 * [W3C Specification: Backgrounds and Borders](https://www.w3.org/TR/css-backgrounds-3/)
 
