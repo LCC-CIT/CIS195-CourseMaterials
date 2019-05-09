@@ -24,10 +24,50 @@
 -   [Example](#example)
 -   [References](#references)
 
+
+
 ## Introduction
 
 -   Review due dates on Moodle.
 -   Answer questions about this week's lab assignment.
+
+
+
+## The Box Model
+
+<figure><img src="boxmodel-image.png" alt="CSS box model" height="600px">
+<figcaption style="text-align:center;">By Nasir Darwish, <a href="https://www.codeproject.com/info/cpol10.aspx">Code Project Open License</a></figcaption>
+</figure>
+
+
+## Creating Rounded Corners
+
+Use the CSS border-radius property to give a block element rounded corners.
+
+- border-top-left-radius&mdash;Sets the radius of thetop-left corner
+  Example: `border-top-left-radius: 5px;`
+
+- border-top-right-radius&mdash;Sets the radius of the top-right corner
+  Example: `border-top-right-radius: 10px;`
+
+- border-bottom-right-radius&mdash;Sets the radius of the bottom-right
+  Example: `border-bottom-right-radius: 15px;`
+
+- corner border-bottom-left-radius&mdash;Sets the radius of the bottom-left corner
+  Example: `border-bottom-left-radius: 20px;`
+
+- border-radius&mdash;Shorthand for setting all the four border-radii
+
+  Example: `border-radius: 5px 10px 15px 20px;`
+
+  
+
+
+## Positioning
+
+## Overflow Content
+
+## Stacking Objects in a Page
 
 
 
@@ -42,6 +82,9 @@
 ##References
 
 * [W3Schools: The CSS Position Property](https://www.w3schools.com/css/css_positioning.asp)
+* [W3Schools: Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
+
+
 
 ------
 
