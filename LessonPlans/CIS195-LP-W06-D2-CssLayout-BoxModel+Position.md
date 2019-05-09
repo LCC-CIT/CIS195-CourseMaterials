@@ -89,32 +89,32 @@ The *position* property specifies the positioning method used for an element:
 
 - static&mdash;not positioned in any special way. This is the default.
 
-- relative&mdash;positioned relative to it's normal position.
+- relative&mdash;sets position relative to it's normal position.
 
-- fixed&mdash;positioned relative to the viewport (browser window).
+- fixed&mdash;sets position relative to the viewport (browser window). The position <u>does not change</u> as the page is scrolled.
 
-- absolute&mdash;positioned relative to the nearest positioned ancestor.
+- absolute&mdash;positioned relative to the document body, or to the nearest positioned ancestor, if one of its ancestors has its position set.
 
-- sticky&mdash;positioned based on the user's scroll position.
+- sticky&mdash;positioned based on the user's scroll position. As long as the position is inside the viewport, its position is relative. But, when the user scolls so that the element is outside the viewport, it sticks to the edge of the viewport.
 
   
 
 Elements are then positioned using the one of the following properties:
 
-- top
+- top&mdash;a positive number moves the top of the element down.
 
-- bottom
+- bottom&mdash;a positive number moves the bottom of the element up.
 
-- left
+- left&mdash;a positive number moves the left side of the element to the right.
 
-- right
+- right&mdash;a positive number moves the right side of the element to the left.
 
   
 
-Example:
+This example moves the image 100 pixels to the right:
 
 ```css 
-div {
+img {
   position: relative;
   left: 100px;
 }
