@@ -84,7 +84,12 @@ body {
 
 ##Float and Clear
 
-The `float` property is used with block elements to positioin them side-by-side (instead of one above another) and to make them move as far as they can to either the left of right.
+#### Float
+
+The `float` property is used with block elements to position them side-by-side (instead of one above another) and to make them move as far as they can to either the left of right. 
+
+Example:
+
 ```css
 img {
   float: right;
@@ -92,15 +97,21 @@ img {
 ```
 
 
-The `clear` property is used to cancel the float property.
+####Clear
+
+The `clear` property is used to cancel the float property and put the element back into the normal flow of the page.
+
+Example:
 
 ```css
-img {
+p {
   clear: right;
 }
 ```
 
 
+
+Example: [Float Demo](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/LayoutDemos/FloatDemo.html)
 
 Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
 
