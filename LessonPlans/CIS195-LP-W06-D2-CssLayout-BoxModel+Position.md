@@ -38,6 +38,27 @@
 <figure><img src="boxmodel-image.png" alt="CSS box model" height="600px">
 <figcaption style="text-align:center;">By Nasir Darwish, <a href="https://www.codeproject.com/info/cpol10.aspx">Code Project Open License</a></figcaption>
 </figure>
+Example of setting all widths:
+
+```css
+div {
+  border: 10px;
+  padding: 15px;
+  margin: 20px;
+}
+```
+
+You can set border, padding and margin independently for each side:
+
+- border-top, example: `border-top: 5px;`
+- border-right, example: `border-right: 10px;`
+- border-bottom, example: `border-botton: 15px;`
+- border-left, example: `border-left: 20px;`
+
+You can also set them all at once using the shorthand property.
+
+Example, `border: 5px 10px 15px 20px;`
+
 
 
 ## Creating Rounded Corners
@@ -62,12 +83,82 @@ Use the CSS border-radius property to give a block element rounded corners.
 
   
 
-
 ## Positioning
+
+The *position* property specifies the positioning method used for an element: 
+
+- static&mdash;not positioned in any special way. This is the default.
+
+- relative&mdash;positioned relative to it's normal position.
+
+- fixed&mdash;positioned relative to the viewport (browser window).
+
+- absolute&mdash;positioned relative to the nearest positioned ancestor.
+
+- sticky&mdash;positioned based on the user's scroll position.
+
+  
+
+Elements are then positioned using the one of the following properties:
+
+- top
+
+- bottom
+
+- left
+
+- right
+
+  
+
+Example:
+
+```css 
+div {
+  position: relative;
+  left: 100px;
+}
+```
+
+
 
 ## Overflow Content
 
+The *overflow* property specifies what should happen if content overflows an element's content area. The values are:
+
+- visible&mdash;The overflow is not clipped. It renders outside the element's box. This is default.
+- hidden&mdash;The overflow is clipped, and the rest of the content will be invisible.
+- scroll&mdash;The overflow is clipped, but a scroll-bar is added to see the rest of the content.
+- auto&mdash;If overflow is clipped, a scroll-bar should be added to see the rest of the content.
+
+Example:
+
+```css
+div {
+  overflow: scroll;
+}
+```
+
+
+
+
+
 ## Stacking Objects in a Page
+
+The *z-index* property specifies the stack order of an element. The greater the stack order, the closer an  is element is to the front. This property only works for elements that have their *position* set. There are two possible values:
+- auto&mdash;sets the stack order equal to its parents. This is default	
+- a number&mdash;sets the stack order of the element. Negative numbers are allowed
+
+Example:
+
+```css
+img {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+}
+```
 
 
 
@@ -81,8 +172,11 @@ Use the CSS border-radius property to give a block element rounded corners.
 
 ##References
 
-* [W3Schools: The CSS Position Property](https://www.w3schools.com/css/css_positioning.asp)
+* [W3Schools: Box Model ](https://www.w3schools.com/css/css_boxmodel.asp)
 * [W3Schools: Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
+* [W3Schools: The CSS Position Property](https://www.w3schools.com/css/css_positioning.asp)
+* [W3Schools: The Overflow Property](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
+* 
 
 
 
