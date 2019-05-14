@@ -35,9 +35,10 @@
 
 ## The Box Model
 
-<figure><img src="boxmodel-image.png" alt="CSS box model" height="600px">
-<figcaption style="text-align:center;">By Nasir Darwish, <a href="https://www.codeproject.com/info/cpol10.aspx">Code Project Open License</a></figcaption>
+<figure><img src="boxmodel-image.png" alt="CSS box model" height="500px">
+<figcaption>By Nasir Darwish, <a href="https://www.codeproject.com/info/cpol10.aspx">Code Project Open License</a></figcaption>
 </figure>
+
 Example of setting all widths:
 
 ```css
@@ -50,14 +51,18 @@ div {
 
 You can set border, padding and margin independently for each side:
 
-- border-top, example: `border-top: 5px;`
-- border-right, example: `border-right: 10px;`
-- border-bottom, example: `border-botton: 15px;`
-- border-left, example: `border-left: 20px;`
+- border-top
+  Example: `border-top: 5px;`
+- border-right
+  Example: `border-right: 10px;`
+- border-bottom
+  Example: `border-botton: 15px;`
+- border-left
+  Example: `border-left: 20px;`
 
-You can also set them all at once using the shorthand property.
+You can set them all at once using the shorthand property.
 
-Example, `border: 5px 10px 15px 20px;`
+Example: `border: 5px 10px 15px 20px;`
 
 
 
