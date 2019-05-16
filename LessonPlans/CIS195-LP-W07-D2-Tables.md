@@ -24,7 +24,20 @@
 ## Introduction
 
 -   Review due dates on Moodle.
--   Answer questions about this week's lab assignment.
+-   Announce the "Making Wise Choices workshops"
+-   Choose courses for Fall 2019
+    -   Fall registration opens  [May 21 - 24](https://www.lanecc.edu/calendars/registration-calendar#fall2019) for continuing students
+    -   You can view the [Fall 2019 CIT Course schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202020) now. 
+        Reccomended courses for the *Programing Degree*:
+        -   <u>Programming Courses</u>
+            -   CIS100, Computing Careers Exploration, 1 credit.
+            -   CS160, Orientation to Computer Science, 4 credits
+                or, maybe (if it's offered)
+                CIS125W, Web App Development with [AppLab](https://code.org/educate/applab), 4 credits
+        -   <u>General Ed</u>
+            -   WR121, Academic Composition, 4 credits
+            -   PE/Health requirement, 3 credits
+            -   CG203, Human Relations at Work, 3 credits
 
 
 
