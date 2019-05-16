@@ -91,7 +91,7 @@ These elements provide organization to your code and give you targets for CSS ru
 
   
 
-- colgroup&mdash;column group
+- colgroup&mdash;column group 
   This one is special! There are no *real* columns in an HTML table, so this is a way to select a group td elements that make up a column so that you can apply a CSS rule to them.
 
   Example:
@@ -111,11 +111,14 @@ These elements provide organization to your code and give you targets for CSS ru
 
 ## CSS Table Properties
 
-The best practice is to format tables with CSS rather than with HTML attributes.
+The best practice is to format tables with CSS rather than with HTML attributes. 
 
-- border-collapse : collapse&mdash;collpses the border into a single line
+- border-collapse : 
 
-- The rest of the properties are the general properties you would use for other elements
+  - collapse&mdash;collpses the border into a single line.
+  - separate&mdash;the default, separate borders around each td.
+
+- The rest of the properties are the general properties you would use for other elements. 
 
   - border&mdash;use it like you would on any *block element*.
   - margin and padding
@@ -135,7 +138,7 @@ The best practice is to format tables with CSS rather than with HTML attributes.
   
   table td {
               border: 2px dotted green;
-              border-collapse: separate;
+              border-collapse: collapse;
           }
   ```
 
@@ -149,6 +152,13 @@ The best practice is to format tables with CSS rather than with HTML attributes.
 
 * [Code for in-class demo](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Tables)&mdash;on GitHub.
 
+* Nested tables:
+
+  * [Basic nested tables](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables.html)
+  * [Nested tables with colspan](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/ColspanDemo.html)
+  * [Nested tables with column and row headers](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables+ColAndRowHeaders.html)
+  * [Nested tables with column headers](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables+ColumnHeaders.html)
+  
   
 
 ##References
