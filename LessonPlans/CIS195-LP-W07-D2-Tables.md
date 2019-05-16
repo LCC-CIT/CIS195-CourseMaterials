@@ -60,18 +60,52 @@ These elements provide organization to your code and give you targets for CSS ru
 
 - tfoot&mdash;table footer
 
+  Example:
+
+  ```html
+  <table>
+    <thead>
+      <tr>
+        <th>One</th>
+        <th>Two</th>
+      </tr>
+    </thead> 
+    <tbody>
+      <tr>
+        <td>Thing 1</td>
+        <td>Thing 2</td>
+      </tr>
+      <tr>
+        <td>Another one</td>
+        <td>Three more</td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+        <td>Two things</td>
+        <td>$Four things</td>
+      </tr>
+    </tfoot>
+  </table>
+  ```
+
+  
+
 - colgroup&mdash;column group
   This one is special! There are no *real* columns in an HTML table, so this is a way to select a group td elements that make up a column so that you can apply a CSS rule to them.
 
-  - Example:
+  Example:
 
-    ```html
+  ```html
+  <table>
     <colgroup>
       <col class="firstcolumn" />
       <col style="background-color:blue;" />
       <col id="thirdcolumn" />
     </colgroup>
-    ```
+    <!-- the rest of the table goes here -->
+  </table>
+  ```
 
 
 
