@@ -95,9 +95,14 @@ The best practice is to format tables with CSS rather than with HTML attributes.
   ```css
   table {
             border-collapse: collapse;
-            border: 4px dashed darkgreen;
+            border: 4px solid darkgreen;
             text-align: center;
         }
+  
+  table td {
+              border: 2px dotted green;
+              border-collapse: separate;
+          }
   ```
 
   
@@ -121,7 +126,7 @@ The best practice is to format tables with CSS rather than with HTML attributes.
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) These Web Authoring lecture notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
