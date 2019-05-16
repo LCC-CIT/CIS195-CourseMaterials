@@ -11,12 +11,16 @@
 | 5. Midterm Quiz          | 10. Review and Term Project |
 |                          | 11. Final Quiz              |
 
-# Tables
+# Table Styling with CSS
+
+
 
 ## Contents
 
 -   [Introduction](#introduction)
--   [Example](#example)
+-   [Semantic Elements for Tables](#semantic-elements-for-tables)
+-   [CSS Table Properties](#css-table-properties)
+-   [Examples](#examples)
 -   [References](#references)
 
 
@@ -41,6 +45,8 @@
             -   PE/Health requirement, 3 credits.
             -   CG203, Human Relations at Work, 3 credits.
     -   Road-map for the Programing Degree: [Required Courses for the Programming Degree](https://drive.google.com/file/d/1t_KfQAACLnjG6qDBdG2-Qu1RAM19wo_K/view?usp=sharing).
+
+
 
 ##Semantic Elements for Tables
 
@@ -67,7 +73,7 @@ These elements provide organization to your code and give you targets for CSS ru
 
 
 
-## Styling Tables with CSS
+## CSS Table Properties
 
 The best practice is to format tables with CSS rather than with HTML attributes.
 
@@ -82,9 +88,21 @@ The best practice is to format tables with CSS rather than with HTML attributes.
   - vertical-align
   - and more!
 
+- Example:
+
+  ```css
+  table {
+            border-collapse: collapse;
+            border: 4px dashed darkgreen;
+            text-align: center;
+        }
+  ```
+
   
 
-##Example
+  
+
+##Examples
 
 * [Table styling example](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/TableDemo/TableDemo.html)&mdash;one table sytled with HTML attributes, another styled with CSS.
 
@@ -95,6 +113,7 @@ The best practice is to format tables with CSS rather than with HTML attributes.
 ##References
 
 * [W3Schools: CSS Table Formatting](https://www.w3schools.com/css/css_table.asp)
+* [MDN Tutorial: Styling Tables](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables)
 
 
 
