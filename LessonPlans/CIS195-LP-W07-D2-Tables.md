@@ -24,7 +24,7 @@
 ## Introduction
 
 -   Review due dates on Moodle.
--   Announce the "Making Wise Choices workshops"
+-   "Making Wise Choices" workshops&mdash;see Moodle news forum.
 -   Choose courses for Fall 2019 now!
     -   Fall registration opens  [May 21 - 24](https://www.lanecc.edu/calendars/registration-calendar#fall2019) for continuing students
     -   You can view the [Fall 2019 CIT Course schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202020) now. 
@@ -72,7 +72,9 @@ These elements provide organization to your code and give you targets for CSS ru
 The best practice is to format tables with CSS rather than with HTML attributes.
 
 - border-collapse : collapse&mdash;collpses the border into a single line
+
 - The rest of the properties are the general properties you would use for other elements
+
   - border&mdash;use it like you would on any *block element*.
   - margin and padding
   - width and height
@@ -80,11 +82,13 @@ The best practice is to format tables with CSS rather than with HTML attributes.
   - vertical-align
   - and more!
 
+  
+
 ##Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
+* [Table styling example](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/TableDemo/TableDemo.html)&mdash;one table sytled with HTML attributes, another styled with CSS.
 
-* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
+* [Code for in-class demo](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Tables)&mdash;on GitHub.
 
   
 
