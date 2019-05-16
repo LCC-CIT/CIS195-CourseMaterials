@@ -25,23 +25,55 @@
 
 -   Review due dates on Moodle.
 -   Announce the "Making Wise Choices workshops"
--   Choose courses for Fall 2019
+-   Choose courses for Fall 2019 now!
     -   Fall registration opens  [May 21 - 24](https://www.lanecc.edu/calendars/registration-calendar#fall2019) for continuing students
     -   You can view the [Fall 2019 CIT Course schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202020) now. 
-        Reccomended courses for the *Programing Degree*:
+        Reccomended courses for the [Programing Degree](https://www.lanecc.edu/cit/computer-programming):
         -   <u>Programming Courses</u>
             -   CIS100, Computing Careers Exploration, 1 credit.
-            -   CS160, Orientation to Computer Science, 4 credits
-                or, maybe (if it's offered)
-                CIS125W, Web App Development with [AppLab](https://code.org/educate/applab), 4 credits
+            -   CS160, Orientation to Computer Science, 4 credits&mdash;*requires Math 95*.
+                *or*
+                CIS125M, This is a new course in Web App Development with [AppLab](https://code.org/educate/applab). (It's not what the catalog descriptions says.), 4 credits.
         -   <u>General Ed</u>
-            -   WR121, Academic Composition, 4 credits
-            -   PE/Health requirement, 3 credits
-            -   CG203, Human Relations at Work, 3 credits
+            -   WR121, Academic Composition, 4 credits.
+            -   MTH95, Intermediate Algebra, 4 credits.
+                *Lower level math classes are available as well.*
+            -   PE/Health requirement, 3 credits.
+            -   CG203, Human Relations at Work, 3 credits.
+
+##Semantic Elements for Tables
+
+These elements provide organization to your code and give you targets for CSS rules
+
+- thead&mdash;table heading
+
+- tbody&mdash;table body
+
+- tfoot&mdash;table footer
+
+- colgroup&mdash;column group
+  This one is special! There are no *real* columns in an HTML table, so this is a way to select a group td elements that make up a column so that you can apply a CSS rule to them.
+
+  - Example:
+
+    ```html
+    <colgroup>
+      <col class="firstcolumn" />
+      <col style="background-color:blue;" />
+      <col id="thirdcolumn" />
+    </colgroup>
+    ```
 
 
 
+## Styling Tables with CSS
 
+Best practice is to format tables with CSS rather than with HTML attributes.
+
+###Table properties
+
+- border-collapse
+  - 
 
 ##Example
 
