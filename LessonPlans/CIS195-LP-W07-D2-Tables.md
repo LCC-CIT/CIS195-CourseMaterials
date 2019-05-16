@@ -28,7 +28,7 @@
 -   Choose courses for Fall 2019 now!
     -   Fall registration opens  [May 21 - 24](https://www.lanecc.edu/calendars/registration-calendar#fall2019) for continuing students
     -   You can view the [Fall 2019 CIT Course schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202020) now. 
-        Reccomended courses for the [Programing Degree](https://www.lanecc.edu/cit/computer-programming):
+        Reccomended courses for the [Programing Degree](https://www.lanecc.edu/cit/computer-programming) this coming Fall:
         -   <u>Programming Courses</u>
             -   CIS100, Computing Careers Exploration, 1 credit.
             -   CS160, Orientation to Computer Science, 4 credits&mdash;*requires Math 95*.
@@ -40,6 +40,7 @@
                 *Lower level math classes are available as well.*
             -   PE/Health requirement, 3 credits.
             -   CG203, Human Relations at Work, 3 credits.
+    -   Road-map for the Programing Degree: [Required Courses for the Programming Degree](https://drive.google.com/file/d/1t_KfQAACLnjG6qDBdG2-Qu1RAM19wo_K/view?usp=sharing).
 
 ##Semantic Elements for Tables
 
@@ -68,12 +69,16 @@ These elements provide organization to your code and give you targets for CSS ru
 
 ## Styling Tables with CSS
 
-Best practice is to format tables with CSS rather than with HTML attributes.
+The best practice is to format tables with CSS rather than with HTML attributes.
 
-###Table properties
-
-- border-collapse
-  - 
+- border-collapse : collapse&mdash;collpses the border into a single line
+- The rest of the properties are the general properties you would use for other elements
+  - border&mdash;use it like you would on any *block element*.
+  - margin and padding
+  - width and height
+  - text-align
+  - vertical-align
+  - and more!
 
 ##Example
 
@@ -85,11 +90,7 @@ Best practice is to format tables with CSS rather than with HTML attributes.
 
 ##References
 
-* [W3Schools: Box Model ](https://www.w3schools.com/css/css_boxmodel.asp)
-* [W3Schools: Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
-* [W3Schools: The CSS Position Property](https://www.w3schools.com/css/css_positioning.asp)
-* [W3Schools: The Overflow Property](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
-* [W3Schools: Z-Index Property](https://www.w3schools.com/cssref/pr_pos_z-index.asp)
+* [W3Schools: CSS Table Formatting](https://www.w3schools.com/css/css_table.asp)
 
 
 
