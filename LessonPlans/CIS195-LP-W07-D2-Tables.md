@@ -11,6 +11,8 @@
 | 5. Midterm Quiz          | 10. Review and Term Project |
 |                          | 11. Final Quiz              |
 
+Notes for each week are available in the [course outline](https://lcc-cit.github.io/CIS195-CourseMaterials/).
+
 # Table Styling with CSS
 
 
