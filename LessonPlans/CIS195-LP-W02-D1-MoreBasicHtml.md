@@ -1,6 +1,6 @@
-*CIS195 Web Authoring 1: HTML                                 Week 2, Session 1**
+**CIS195 Web Authoring 1: HTML**
 
-Brian Bird
+
 
 | Course weeks and topics              |                         |
 | ------------------------------------ | ----------------------- |
@@ -9,6 +9,8 @@ Brian Bird
 | 3. Developing a Web Site             | 8. HTML Forms           |
 | 4. Design with CSS                   | 9. Multimedia           |
 | 5. Midterm                           | 10. Term Project        |
+
+
 
 ## Review
 
