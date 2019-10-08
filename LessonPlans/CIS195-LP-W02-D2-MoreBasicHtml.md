@@ -16,6 +16,14 @@ Look at someone's lab 1 web site. Any volunteers?
 
 
 
+## Visual Studio Code
+
+How to download, install and use VS Code
+
+[Oficial VS Code web site](https://code.visualstudio.com)  
+
+
+
 ## In-line and Block Elements
 
 **In-line elements** arrange themselves horizontally on the page. Examples are:
@@ -83,7 +91,9 @@ alt="The beautiful MDN logo.">
 ### Block quotes
 
 The block quote element indents the text and puts blank lines above and below it:  <blockquote>  
-[Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockquote.asp)
+[Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockquote.asp)  
+
+
 
 ###Special characters
 
@@ -93,7 +103,9 @@ For example, the copyright symbol: ©
 &copy; or &#169;
 ```
 
-[Listing of special characters on W3Schools](https://www.w3schools.com/html/html_symbols.asp)
+[Listing of special characters on W3Schools](https://www.w3schools.com/html/html_symbols.asp)  
+
+
 
 ###Comments
 
