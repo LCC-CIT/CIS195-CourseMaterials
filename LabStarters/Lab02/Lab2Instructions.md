@@ -8,10 +8,14 @@
 
 Create a single web page that presents a review of a book, movie, or music album of your choice and that uses what you learned last week as well as each of the following at least once:
 
-- The &lt;blockquote&gt; element.
-- The &lt;figure&gt; and <figcaption> elements.
+- The `<blockquote>` element.
+- The `<figure>` and `<figcaption>` elements.
 - Special characters like &hearts;.
 - A nested list.
+- A horizontal rule.
+- Comments.
+
+Check your page using the [W3C HTML Validator](https://validator.w3.org)  
 
 
 
@@ -23,15 +27,19 @@ Create a review site that contains a home page and at least three review pages (
 - Each review page should have at least one figure on it.
 -  All the images should be in one folder named images.
 
+Check your pages using the [W3C HTML Validator](https://validator.w3.org)  
+
 
 
 ## Submitting your web sites to Moodle
 
 - Zip the files in part 1
+
 - Zip the files in part 2
+
 - Upload both zip files to Moodle using the Lab 2 Submission link.
 
-
+  
 
 
 
