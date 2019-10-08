@@ -38,17 +38,17 @@ How to download, install and use VS Code
 
 **In-line elements** arrange themselves horizontally on the page. Examples are:
 
-- <em>
-- <strong>
-- <img>
+- Emphasis (italics) <em>
+- Strong (bold) <strong>
+- Image <img>
 
 **Block elements** arrange themselves vertically on the page. Examples are:
 
-- headings (<h1>, <h2>, etc.)
+- headings (`<h1>, <h2>`, etc.)
 
-- paragraph: <p>
+- paragraph: `<p>`
 
-- lists: <ul> and <ol>
+- lists: `<ul> and <ol>`
 
   
 
