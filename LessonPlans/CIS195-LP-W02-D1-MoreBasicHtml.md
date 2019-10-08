@@ -22,7 +22,7 @@ Look at someone's lab 1 web site. Any volunteers?
 
 Define "syntax"
 
-[HTML Validator](https://validator.w3.org)
+[W3C HTML Validator](https://validator.w3.org)
 
 
 
@@ -38,17 +38,17 @@ How to download, install and use VS Code
 
 **In-line elements** arrange themselves horizontally on the page. Examples are:
 
-- <em>
-- <strong>
-- <img>
+- Hyperlinks:`<a>`
+- Formatting, like:`<strong>`, `<em>`, etc.
+- Images:`<img>`
 
 **Block elements** arrange themselves vertically on the page. Examples are:
 
-- headings (<h1>, <h2>, etc.)
+- headings: `<h1>`, ` <h2>`,  etc.
 
-- paragraph: <p>
+- paragraph: `<p>`
 
-- lists: <ul> and <ol>
+- lists: `<ul>` and `<ol>`
 
   
 
@@ -58,7 +58,7 @@ How to download, install and use VS Code
 
 Lists can be placed within lists. The right way to do it is to put the nested list inside a li element of the parent list. For example:
 
-```
+```html
 <ul>
    <li>Deserts
      <ul>
@@ -85,23 +85,23 @@ This would look like this:
 
 Figures are used to change images from inline to block elements. They also allow you to add a caption to the image.
 
-```
+```html
 <figure>
-<img
-src="https://developer.mozilla.org/static/img/favicon144.png"
-alt="The beautiful MDN logo.">
-<figcaption>MDN Logo</figcaption>
+  <img
+     src="https://developer.mozilla.org/static/img/favicon144.png"
+     alt="The Mozilla Developer Netowrk logo">
+  <figcaption>MDN Logo</figcaption>
 </figure>
 ```
 
-[Figure on W3Schools](https://www.w3schools.com/tags/tag_figure.asp)  
+Try it out: [Figure on W3Schools](https://www.w3schools.com/tags/tag_figure.asp)  
 
 
 
 ### Block quotes
 
-The block quote element indents the text and puts blank lines above and below it:  <blockquote>  
-[Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockquote.asp)  
+The block quote element indents the text and puts blank lines above and below it: ` <blockquote>`  
+Try it out: [Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockquote.asp)  
 
 
 
@@ -119,7 +119,7 @@ For example, the copyright symbol: ©
 
 ###Comments
 
-```
+```html
 <!-- this is a comment -->
 ```
 
@@ -127,7 +127,7 @@ For example, the copyright symbol: ©
 
 ### horizontal rule
 
-The <hr> tag will put a horizontal line across the page. This is one of the "empty" tags.
+The `<hr>` tag will put a horizontal line across the page. This is one of the "empty" tags.
 
 
 
