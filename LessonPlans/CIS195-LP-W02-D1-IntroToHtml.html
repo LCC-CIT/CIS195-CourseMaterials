@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Intro to HTML</title>
+<style type="text/css">
+body {
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+#week02 {
+	background-color: #f8ff2e;
+}
+code {
+	font-size: larger;
+	background-color: lightgoldenrodyellow;
+}
+</style>
+<base target="_blank">
+</head>
+
+<body>
+
+<header>
+	<b>CIS195 Web Authoring 1: HTML &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+	Week 2, Session 1<br></b>
+	<div>
+		Brian Bird</div>
+	<br>
+</header>
+<section>
+	<b>Course weeks and topics</b> <br>
+	<table border="1" style="width: 807px; height: 127px;">
+		<tr>
+			<td id="week01">1. Intro to HTML 5</td>
+			<td>6. Page Layout with CSS</td>
+		</tr>
+		<tr>
+			<td id="week02">2. More on Creating Web Pages</td>
+			<td>7. HTML Tables</td>
+		</tr>
+		<tr>
+			<td style="width: 384.15px;">3. Developing a Web Site</td>
+			<td id="week08" style="width: 406.85px;">8. HTML Forms</td>
+		</tr>
+		<tr>
+			<td>4. Design with CSS</td>
+			<td id="week09">9. Multimedia</td>
+		</tr>
+		<tr>
+			<td>5. Midterm</td>
+			<td>10. Term Project</td>
+		</tr>
+	</table>
+</section>
+<br>
+    <section>
+        <h2>Review</h2>
+    </section>
+    Look at someone's lab 1 web site. Any volunteers?<br>Look at the code as well as the rendered pages.<br>
+    <section>
+        <h2> History of the World Wide Web</h2>
+		<p> 
+    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia: 
+	History of HTML</a></p>
+		<h3> Tim Berners-Lee</h3>
+		<p> The World Wide Web was invented by the British computer scientist
+		<a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>, 
+		who was a researcher at CERN in Switzerlaned in the 1980 and 90s.</p>
+		<ul>
+			<li>He wrote a proposal to create the WWW by combining the Internet, 
+			which was new and evolving, with Hypertext.<ul>
+				<li>The web is not the same as the internet--the internet 
+				consistes of other services as well.</li>
+				<li>The proposal was submitted March 12, 1989--considered the 
+				birthday of the web.</li>
+			</ul>
+			</li>
+			<li>The first web site went online in 1991.</li>
+			<li>He founded the
+			<a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium">
+			W3C</a> and is it's current director.</li>
+			<li>Originally used by scientists to share research papers.</li>
+		</ul>
+		<p>The first web browser available on PC and Mac was Mosaic, developed 
+		by Marc Andreessen's team at the NCSA and released in 1993</p>
+		<h3>The web at 30</h3>
+		<p>The original idea was to make it easy for scientists, and then later, 
+		for everyone to freely share information and ideas.<br>How is this 
+		working out now? <br>What is the effect of:</p>
+		<ul>
+			<li>Commercialization</li>
+			<li>Search engines and the way they prioritize searches<ul>
+				<li>Originally the links people saw were on pages created by 
+				friends, colleages or other trusted sources, so they were 
+				relevant and the quality was high.</li>
+			</ul>
+			</li>
+			<li>Social media</li>
+			<li>Personal information stored "in the cloud"</li>
+		</ul>
+		<p>What can we as web authors, designers, developers do to make the web 
+		better?</p>
+		<p>
+		<a href="https://www.lifehacker.com.au/2019/04/berners-lee-says-weve-messed-up-the-internet-but-it-can-be-fixed/">
+		Tim Berners-Lee Says We've Messed Up The Internet But It Can Be Fixed</a></p>
+    </section>
+    <section>
+        <h2>More HTML Elements </h2>
+        <ol>
+            <li><strong>Special characters</strong>
+            <ul>
+				<li>For example, the copyright symbol: &copy;
+				<pre>&amp;copy; or &amp;#169;</pre>
+				</li>
+				<li>
+				<a href="https://www.w3schools.com/html/html_symbols.asp" target="_blank">Listing of special characters on W3Schools</a>
+				</li>
+			</ul>
+			<br>
+			</li>
+			<li><strong>Comments</strong><br>
+			<pre><!-- this is a comment -->&lt;!-- this is a comment --&gt;</pre>
+			</li>
+		<li><strong>Nested lists</strong> <br>
+		Lists can be placed within lists. The right way to do it is to put the 
+		nested list inside a li element of the parent list. For example:<br>
+		<br>
+		<code>
+		&lt;ul&gt;<br>&nbsp;&nbsp; &lt;li&gt;Deserts<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Pie&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Cake&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Ice 
+		Cream&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/ul&gt;<br>&nbsp;&nbsp;&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp; &lt;li&gt;The 
+		rest of the list&lt;/li&gt;<br>&lt;/ul&gt;</code>
+		<p>This would look like this:</p>
+		<ul>
+			<li>Deserts
+			<ul>
+				<li>Pie</li>
+				<li>Cake</li>
+				<li>Ice Cream</li>
+			</ul>
+			</li>
+			<li>The rest of the list</li>
+		</ul>
+		<br>
+		</li>
+		<li><strong>The hgroup element&mdash;deprecated</strong> <br>This element is now obsolete&mdash;it isn't part of the HTML 
+		5 specification. However, all the major browsers still recognize it.
+		<p>In our textbook, the author uses it to group a heading and a sub-heading.</p>
+		An example of a h3 heading and a h4 subheading using hgroup:<br>
+		<code>&lt;header&gt;<br>&nbsp; &lt;hgroup&gt;<br>
+		&nbsp;&nbsp;&nbsp; &lt;h3&gt;This is a heading&lt;/h3&gt;<br>
+		&nbsp;&nbsp; &lt;h4&gt;This is a sub-heading&lt;/h4&gt;<br>
+		&nbsp; &lt;/hgroup&gt;<br>&lt;/header&gt;<br>&nbsp;
+		</code><br>
+		Which looks like this:
+		<hgroup>
+			<h3>This is a heading</h3>
+			<h4>This is a sub-heading</h4>
+		</hgroup>
+		The reccomended way to group them now is with just the header element. Here's 
+		the same heading and sub-heading grouped inside a header element: <br>
+		<br><code>&lt;header&gt;<br>&nbsp;&nbsp; &lt;h3&gt;This is a heading&lt;/h3&gt;<br>&nbsp;&nbsp;&lt;h4&gt;This 
+		is a sub-heading&lt;/h4&gt;<br>&lt;/header&gt;<br>&nbsp;</code><br>Which 
+		looks the like this:
+		<header>
+			<h3>This is a heading</h3>
+			<h4>This is a sub-heading</h4>
+		</header>
+		</li>
+	</ol>
+	<br>
+	<h2>Lab 2 (Textbook Tutorial 1)</h2>
+	<ol>
+		<li>Download and unzip the starter files
+		<ul>
+			<li>Find the folders for the tutorial, review, and case problem
+			</li>
+		</ul>
+		</li>
+		<li>Add links in the head element to the css and JavaScript files provided 
+		by the author of the textbook
+		<pre>&lt;script src="modernizr-1.5.js"&gt;&lt;/script&gt;
+&lt;link href="jpsstyles.css" rel="stylesheet" type="text/css" /&gt;
+</pre>
+		<ul>
+			<li><a href="https://modernizr.com" target="_blank">Modernizr</a> is 
+			designed to help you make HTML5 and CSS3 work more consistently across 
+			different browsers-- which was more of an issue when the textbook was 
+			published. It's not such an issue now. You can leave Modernizer out.</li>
+			<li>The CSS file will dramatically change the layout and styling of 
+			your page. It will center the image at the top, move the asside to the 
+			right side of the page, add background color, and more! </li>
+		</ul>
+		</li>
+	</ol>
+</section>
+
+</body>
+
+</html>
