@@ -15,6 +15,42 @@ The World Wide Web was invented by the British computer scientist [Tim Berners-L
 
 The first web browser available on PC and Mac was Mosaic, developed by Marc Andreessen's team at the NCSA and released in 1993
 
+## HTML 5
+
+HTML 5 is the current version of HTML. The specification for this version was developed as a reaction against the W3C's proposal for a new standard called XHTML. - [History of HTML 5](https://en.wikipedia.org/wiki/HTML5#History)
+
+### From HTML to XHTML to HTML5
+
+From 1991 to 1999, HTML developed from version 1 to version 4.  
+
+In year 2000, the World Wide Web Consortium (W3C) recommended XHTML 1.0. The XHTML syntax was strict, and the developers were forced to write valid and "well-formed" code.
+
+In 2004, W3C's decided to close down the development of HTML, in favor of XHTML. 
+
+In 2004, WHATWG (Web Hypertext Application Technology Working Group) was formed. The WHATWG wanted to develop HTML, consistent with how the web was used, while being backward compatible with older versions of HTML.
+
+In 2004 - 2006, the WHATWG gained support by the major browser vendors.
+
+In 2006, W3C announced that they would support WHATWG.
+
+In 2008, the first HTML5 public draft was released.
+
+In 2012, WHATWG and W3C decided on a separation:
+
+**WHATWG wanted to develop HTML as a "Living Standard"**. A living standard is always updated and improved. New features can be added, but old functionality cannot be removed.
+
+The [WHATWG HTML5 Living Standard](http://whatwg.org/html/) was published in 2012, and is continuously updated.
+
+**W3C wanted to develop a definitive HTML5 and XHTML standard.**
+
+The [W3C HTML5](http://www.w3.org/TR/html5/) Recommendation was released 28 October 2014.
+
+The [W3C HTML5.1 2nd Edition](http://www.w3.org/TR/html51/) Recommendation was released 3 October 2017.
+
+The [W3C HTML5.2](http://www.w3.org/TR/html52/) Recommendation was released 14 December 2017.
+
+-- [W3Schools](https://www.w3schools.com/html/html5_intro.asp)
+
 ### The web at 30
 
 The original idea was to make it easy for scientists, and then later, for everyone to freely share information and ideas.
