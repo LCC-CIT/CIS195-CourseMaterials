@@ -45,10 +45,6 @@ The [WHATWG HTML5 Living Standard](http://whatwg.org/html/) was published in 201
 
 The [W3C HTML5](http://www.w3.org/TR/html5/) Recommendation was released 28 October 2014.
 
-The [W3C HTML5.1 2nd Edition](http://www.w3.org/TR/html51/) Recommendation was released 3 October 2017.
-
-The [W3C HTML5.2](http://www.w3.org/TR/html52/) Recommendation was released 14 December 2017.
-
 -- [W3Schools](https://www.w3schools.com/html/html5_intro.asp)
 
 ### The web at 30
