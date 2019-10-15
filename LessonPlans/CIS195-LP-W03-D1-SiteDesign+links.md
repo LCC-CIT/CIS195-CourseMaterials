@@ -37,7 +37,7 @@ Look at [The Highlands](http://www.highlands97405.com) web site and draw a site 
 
 ### Nav element and navigation lists
 
-`<nav>` is a structural element. It can be used to identify a set of links for navigating the web site.
+`<nav>` is a structural element. It can be used to identify a set of links to be used for navigating the web site.
 
 ```html
 <nav>
@@ -127,7 +127,23 @@ Images can be used as links. Just enclose the `<img>` element in anchor tags.
 <a href="https://lanecc.edu"><img src="LccLogo.png"></a>
 ```
 
+### Hyperlink for Sending an E-mail
 
+You can use an e-mail address in a hypertext link so that when a user clicks the link, the user’s e-mail program opens and automatically inserts the address into the “To” field of the new outgoing message. 
+
+```html
+<a href="mailto:webmaster@example.com">Send an e-mail</a>
+```
+
+The mailto protocol  allows you to add information to the e-mail, including the subject line and the text of the message. Spaces are replaced with the %20 character code since URLs cannot contain blank spaces
+
+```html
+<a href="mailto:webmaster@example.com?Subject=Test&Message=This%20is%20a%20test">Send a test e-mail message</a>
+```
+
+
+
+[More about the href attribute on W3Schools](https://www.w3schools.com/tags/att_a_href.asp)
 
 ****
 
