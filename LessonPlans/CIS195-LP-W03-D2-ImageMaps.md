@@ -16,7 +16,7 @@
 
 Images can be divided into different zones, or *hotspots*, each linked to a different target destination.
 
-To define hotspots, you create an image map that contains `<area>` elements that map  specified regions of the  image to specific web pages or locations.
+To define hotspots, you create an *image map* that contains `<area>` elements that map  specified regions of the  image to specific web pages or locations.
 
 ```html
 <img src="plantation.png" width="650" height="525" alt="Coffee plantation" usemap="#farm">
@@ -31,12 +31,22 @@ To define hotspots, you create an image map that contains `<area>` elements that
 
 
 
-####Hotspots attributes
+####Hotspot attributes
 
 - coords: coordinates (location) of the hotspot.
 - shape
 - href
 - alt
+###Computer graphics coordinate system
+
+In two dimensional computer graphics, a cartesian coordinate system is used in which the x-axis starts at the left and extends to the right and the y-axis starts at the top and extends to the bottom.
+
+![2D computer graphics coordinate system](Computer_coordinates_2D.png)
+
+Image from [Program Arcade Games with Python and PyGame](http://programarcadegames.com/index.php?chapter=introduction_to_graphics)
+
+
+
 ###Rectangular hotspots
 
 Two points define a rectangular hotspot:
