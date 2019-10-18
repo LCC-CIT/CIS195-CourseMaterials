@@ -71,7 +71,7 @@ A circular hotspot is defined by the location of its center and its radius.
 To create a polygonal hotspot, you enter the coordinates for each vertex in the shape.
 
 ```html
-<area shape="polygon" coords="10,65,15,260,350,260,350,225,230,225,230,60" href="tree.htm" alt= "A coffee tree">
+<area shape="polygon" coords="10,65,15,260,350,260,350,225,230,225,10,65" href="tree.htm" alt= "A coffee tree">
 ```
 
 
@@ -79,7 +79,7 @@ To create a polygonal hotspot, you enter the coordinates for each vertex in the 
 ### Default hotspot
 
 ```html
-<area shape="default" coords="0, 0, 650, 525" href="plantation.html" alt="Our farm">
+<area shape="default" href="plantation.html" alt="Our farm">
 ```
 
 - Where the first pair of numbers is always zero and the second pair are the width and height of the image in pixels.

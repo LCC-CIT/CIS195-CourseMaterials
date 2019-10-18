@@ -105,11 +105,27 @@ Try it out: [Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockqu
 
 
 
+### Cite
+
+Use this element to cite the work of someone else.
+
+```html
+<cite>The Hobbit</cite> by J.R.R. Tolkein. Painted in 1937.
+```
+
+
+
 ###Special characters
 
-For example, the copyright symbol: ©
+Certain characters are not allowed (reserved characters) in HTML. For example, if you use the less than, `<`, or greater than, `>`, signs in your text, the browser is likely to see them as tags. The solution is to use *character entities* to display reserved characters. The code below shows two ways to write the character entities for `<` and `>`
 
+```html
+&lt; or &60; and &gt; or &62;
 ```
+
+Here are two ways to write the character entity for the copyright symbol, &copy;
+
+```html
 &copy; or &#169;
 ```
 
