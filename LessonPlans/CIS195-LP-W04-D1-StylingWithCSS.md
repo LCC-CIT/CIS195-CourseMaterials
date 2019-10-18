@@ -195,7 +195,7 @@
 
 ##Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
+* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.html)
 
 * [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
 
