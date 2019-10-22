@@ -13,8 +13,10 @@ You will practice using CSS by applying it to the web sites you made in lab 2.
 You will use the web page from lab 2, part 1 as your starting point. 
 
 1. Create a external CSS file with the following types of rules:
-   - A rule that uses an HTML element as a selector
-   - 
+   - A rule that uses a single HTML element as a selector.
+   - A rule that uses multiple HTML elements as selectors.
+   - A rule that uses an id as a selector.
+   - A rule that uses a class as a selector.
 
 2. Link the CSS file to the HTML page.
 3. Apply each of the style rules in at least one place on the page.
