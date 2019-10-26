@@ -1,8 +1,6 @@
-### CIS 195 Web Authoring 1: HTML
+# More CSS: Colors, Text and Pseudo-classes
 
-#### Course Topics by Week
-
-|                                  |                             |
+| Course Topics by Week            |                             |
 | -------------------------------- | --------------------------- |
 | 1. Intro to HTML 5               | 6. Page Layout with CSS     |
 | 2. More HTML 5                   | 7. HTML Tables              |
@@ -10,8 +8,6 @@
 | 4. <mark>Styling with CSS</mark> | 9. Multimedia               |
 | 5. Midterm Quiz                  | 10. Review and Term Project |
 |                                  | 11. Final Quiz              |
-
-# More CSS: Colors, Text and Pseudo-classes
 
 ## Contents
 
@@ -26,6 +22,8 @@
 -   [Example](#example)
 -   [References](#references)
 
+
+
 ## Introduction
 
 - Review due dates on Moodle.
@@ -39,12 +37,14 @@
 - By name
   `color: blue;`
   
-  There are 140 standard color names understood by all the browsers. Here's a [list of color names on W3Schools](https://www.w3schools.com/colors/colors_names.asp)
-- By color code
+  There are 140 standard color names that are understood by all the browsers. Here's a [list of color names on W3Schools](https://www.w3schools.com/colors/colors_names.asp)
+- By numeric color code
   - Decimal
     `color: rgb(0, 0, 255)`
   - Hexadecimal
     `color: #0000FF;`
+    
+    A total of 16,777,216 different colors can be represented (256 x 256 x 256, or 2<sup>24</sup>).
 - Special colors
   - White consists of all colors
   - Black is the absence of color
