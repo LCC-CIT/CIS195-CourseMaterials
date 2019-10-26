@@ -28,13 +28,18 @@
 
 ## Introduction
 
--   Review due dates on Moodle.
--   Answer questions about this week's lab assignment.
+- Review due dates on Moodle.
+
+- Answer questions about this week's lab assignment.
+
+  
 
 ## Defining Colors
 
 - By name
   `color: blue;`
+  
+  There are 140 standard color names understood by all the browsers. Here's a [list of color names on W3Schools](https://www.w3schools.com/colors/colors_names.asp)
 - By color code
   - Decimal
     `color: rgb(0, 0, 255)`
@@ -48,6 +53,31 @@
     `color: rgba(0, 0, 255, 0.5);`
   - Hexadecimal
     `color: #0000FF7F;`
+
+[W3Schools tutorial on CSS color properties](https://www.w3schools.com/css/css_colors.asp)
+
+
+
+### Hexadecimal numbers
+
+One of the ways to represent colors in CSS styles is using the base 16 number system, hexadecimal, or "hex". The hex number system uses the digits 0 through 9 (ten digits) along with the letters A through F (six digits) for a total of sixteen digits. This is how you count in hexadecimal: 
+
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 1A, 1B, 1C, 1D, 1E, 1F, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 2A, 2B, 2C, 2D, 2E, 2F, etc.
+
+Here are examples of hex values and their decimal equivalents:
+
+- 0 hex is 0 decimal
+- A hex is 9 decimal
+- F hex is 15 decimal
+- 10 hex is 16 decimal
+- 1F hex is 31 decimal
+- 20 hex is 32 decimal
+- FF hex is 255 decimal
+- 100 hex is 256 decimal
+
+[Math is Fun: Hexadecimal Number Tutorial](https://www.mathsisfun.com/hexadecimals.html)
+
+
 
 ##Text and font styles
 
