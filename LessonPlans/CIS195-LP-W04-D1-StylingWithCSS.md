@@ -143,7 +143,7 @@
 
 - ### Attribute selectors
 
-  - <u>id selector</u>
+  - **id selector**
     A particular id attribute can be used only once on a web page to identify an element. It has multiple uses in HTML.
 
     - hash tag selects an id.
@@ -164,7 +164,7 @@
     
   
   
-  - <u>class selector</u>
+  - **class selector**
     A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
   
     - dot selects a class
