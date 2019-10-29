@@ -1,8 +1,6 @@
-###CIS 195 Web Authoring 1: HTML
+#Styling with CSS
 
-####Course Topics by Week
-
-|                                  |                             |
+| Course Topics by Week            |                             |
 | -------------------------------- | --------------------------- |
 | 1. Intro to HTML 5               | 6. Page Layout with CSS     |
 | 2. More HTML 5                   | 7. HTML Tables              |
@@ -11,21 +9,24 @@
 | 5. Midterm Quiz                  | 10. Review and Term Project |
 |                                  | 11. Final Quiz              |
 
-# Styling with CSS
-
 
 ##Contents
 
 -   [Introduction](#introduction)
 -   [Basic CSS](#basic-css)
 -   [More Selectors](#more-selectors)
+-   [Structural elements as CSS selectors](#Structural elements as CSS selectors)
 -   [Examples](#examples)
 -   [References](#references)
+
+
 
 ## Introduction
 
 -   Review lab due dates on Moodle
 -   Answer questions about lab 3
+
+
 
 ## Basic CSS
 
@@ -66,7 +67,7 @@
 
 - ###Style-sheets
   A Style-sheet is just a set of one or more CSS rules.
-  - <u>Types of style-sheets</u>
+  - Types of style-sheets
     
     - Web site style-sheets:
       
@@ -142,7 +143,7 @@
 
 - ### Attribute selectors
 
-  - <u>id selector</u>
+  - **id selector**
     A particular id attribute can be used only once on a web page to identify an element. It has multiple uses in HTML.
 
     - hash tag selects an id.
@@ -163,7 +164,7 @@
     
   
   
-  - <u>class selector</u>
+  - **class selector**
     A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
   
     - dot selects a class
@@ -193,11 +194,53 @@
     | *[And there are more!](https://www.w3schools.com/css/css_attribute_selectors.asp)* |                  |                                  |
     
 
-##Example
+
+
+##Structural elements as CSS selectors
+
+###Semantic structural elements
+
+We've already seen and used some of the structural (aka semantic) elements like `<header>`, `<section>`, etc. Now we will see another use for these elements besides providing organizational structure to our page. These can be used as CSS rule selectors to provide a way to format a section of the page. For example:
+
+```css
+section {
+   font-family: Verdana, Geneva, sans-serif;
+   text-align: center;
+}
+```
+
+[W3Schools tutorial on semantic elements](https://www.w3schools.com/HTML/html5_semantic_elements.asp)
+
+###Non-semantic structural elements
+
+**The `<div>` element** was a structural element used before HTML5 introduced semantic structural elements. It is  considered non-semantic, because div is just an abbreviation for "division", it's name doesn't have any meaning related to the type of division it represents. 
+
+Example:
+
+```html
+<div style="font-family:serif">
+   <h2>The City of Chennai</h2>
+   <p>Chennai is the largest city in the state of Tamil Nadu. It is located on the Bay of Bengal on the south-east coast of India.</p>
+</div>
+```
+
+**The `<span>` element** is used to apply CSS formatting to an arbitrary area in a row of in-line elements. 
+
+For example:
+
+```html
+The Madras <span style="font-style:oblique">Crocodile Bank Trust and Centre for Herpetology</span> (MCBT) is a reptile zoo and herpetology research station, located 40 kilometres (25 mi) south of the city of Chennai. 
+```
+
+
+
+##Examples
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.html)
 
-* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
+* [Code for the South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
+
+
 
 ##References
 

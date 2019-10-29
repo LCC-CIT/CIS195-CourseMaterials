@@ -93,7 +93,7 @@ Example:
 
 ####Mark the target with the id attribute
 
-To link to a  location within a document, you first need to mark that location. You can do that with the id attribute.
+To link to a  location within a document, you first need to mark that location. You can do that with the id attribute.
 
 - The id names must be unique.
 - The id names are not case sensitive.
@@ -116,6 +116,13 @@ Just prefix the id name with a *#* so the browser will know it's a link to an id
 <!-- content omitted again -->
 <h2 id="roast">How the Beans are Roasted</h2>
 ```
+
+####Linking to an id inside another page
+
+```html
+<a href="https://theaviary.com/birds.html#pigeons">Our homing pigeons</a>
+```
+
 
 
 
