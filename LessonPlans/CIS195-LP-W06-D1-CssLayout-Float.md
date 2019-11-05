@@ -27,7 +27,7 @@
 ## Introduction
 
 -   Review due dates on Moodle.
--   Did everyone get their citstudent username and password?
+-   Update on citstudent usernames and passwords
 -   This week we will be talking about page layout (design), which is different from formating.
 
 
@@ -119,9 +119,9 @@ Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-Cour
 
 ##Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
+* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/Index.html)
 
-* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit04)
+* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit05)
 
   
 
