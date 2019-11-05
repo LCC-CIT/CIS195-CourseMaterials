@@ -28,10 +28,9 @@
 ## Introduction
 
 -   Review upcoming events on Moodle.
-    -   Ungraded practice quizzes.
     -   Midterm quiz.
--   Late labs 1&ndash;4 must be submitted by Sunday night.
-    (Syllabus says by the day of the midterm, but I'm extending that)
+-   Late labs 1&ndash;4 must be submitted by next Sunday night, 11/10.
+    (Syllabus says by the day of the midterm, but I'm extending that by a week and a half)
 
 
 
@@ -40,14 +39,13 @@
 - What to review
 
   - Lecture notes from weeks 1&ndash;4.
-  - Textbook PowerPoint slides for Tutorials 1&ndash;3
-  - Glossary (Key Terms) for Tutorials 1&ndash;3
-
+  - Lab assignments and your completed web sites.
+  
 - Check your understanding
 
   - Try to explain each concept to yourself or a study partner as you review.
 
-  - Take the practice quiz for the tutorial you just reviewed.
+  - Try writing snippets of HTML and CSS to test your understanding.
 
     
 

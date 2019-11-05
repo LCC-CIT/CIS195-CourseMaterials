@@ -53,8 +53,9 @@
 
 - HTML element attributes
 
-  - &lt;*element* *attribute1*=”*value1*” *attribute2*=”*value2*” ...&gt;
-  - &lt;meta charset="UTF-8"&gt;
+  - Pattern: &lt;*element* *attribute1*=”*value1*” *attribute2*=”*value2*” ...&gt;
+  - Eaxample: &lt;meta charset="UTF-8"&gt;
+  - The two parts of the attribute form a "key-value pair"
 
 - One-sided or self-closing tags
 
