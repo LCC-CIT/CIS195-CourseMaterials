@@ -20,8 +20,8 @@ You will use the web page from lab 4, part 1 (originally done for lab 2, part 1,
 
 Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It was a review site with a home page and at least three review pages.)
 
-1. On the home page, use the CSS float property to more a figure to a new location. (Use clear on the element that comes after the figure so it is not affected)
-2. On  at least one figure, on each of the three review pages (not the home page):
+1. Use float and other appropriate CSS properties to create navigation buttons on each page.
+2. On  at least one figure:
    - Add padding, a visible border, and margin.
    - Make the corners of the figures rounded.
    - Use relative positioning to place the figures somewhere other than their original location.
