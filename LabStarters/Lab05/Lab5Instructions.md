@@ -3,13 +3,13 @@
 
 ##Using CSS to Control Web Page Layout
 
-You will practice using CSS by applying it to the web sites you made in lab 2.
+You will practice using CSS by applying it to the web sites you made in lab 4.
 
 ###Part 1
 
-You will use the web page from lab 4, part 1 (originally done for lab 2, part 1) as your starting point. 
+You will use the web page from lab 4, part 1 (originally done for lab 2, part 1, it was a single page with a review of something) as your starting point. 
 
-1. Create a external CSS file with the rules that:
+1. Create a external CSS file with rules that:
    - Set a background image.
    - Set a fixed width for the body of the page.
    - Use the float property to move the figure to the right side of the page
@@ -20,7 +20,15 @@ You will use the web page from lab 4, part 1 (originally done for lab 2, part 1)
 
 Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It was a review site with a home page and at least three review pages.)
 
-*Instructions for this part will be ready before Thursday's class.*
+1. On the home page, use the CSS float property to more a figure to a new location. (Use clear on the element that comes after the figure so it is not affected)
+2. On  at least one figure, on each of the three review pages (not the home page):
+   - Add padding, a visible border, and margin.
+   - Make the corners of the figures rounded.
+   - Use relative positioning to place the figures somewhere other than their original location.
+3. For the header of each page (including the home page):
+   - Add a background image.
+   - Set the Z order so that the heading (H1) is on top.
+
 Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
 
 
@@ -34,8 +42,6 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 - Upload both zip files to Moodle using the lab submission link.
 
   
-
-* ](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
 ------
 
