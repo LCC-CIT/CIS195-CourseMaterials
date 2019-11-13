@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>HTML Tables</title>
     <style type="text/css">
@@ -30,180 +29,223 @@
 	border-width: 3px;
 }
     </style>
-</head>
-
-<body>
-    <header> <b>CIS195 Web Authoring 1: HTML
-    </b>
-        <div>Brian Bird</div>
-        <br>
-        <i><b>Topic: Tables</b></i>
-    </header>
+  </head>
+  <body>
+    <header> <b>CIS195 Web Authoring 1: HTML </b>
+      <div>Brian Bird</div>
+      <br>
+      <i><b>Topic: Tables</b></i> </header>
     <b>Course weeks and topics<br>
-  </b>
+    </b>
     <table style="width: 807px; height: 127px;" class="auto-style1">
-        <tbody>
-            <tr>
-                <td class="auto-style2">1. Intro to HTML 5</td>
-                <td id="week06" class="auto-style2">6. Page Layout with CSS</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">2. First Web Page</td>
-                <td id="week07" class="auto-style2">7. HTML Tables<br>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style2">3. Developing a Web Site</td>
-                <td id="week08" class="auto-style2">8. HTML Forms</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">4. Design with CSS</td>
-                <td id="week09" class="auto-style2">9. Multimedia </td>
-            </tr>
-            <tr>
-                <td class="auto-style2">5. Midterm</td>
-                <td id="week10" class="auto-style2">10.Term Project<br>
-                </td>
-            </tr>
-        </tbody>
+      <tbody>
+        <tr>
+          <td class="auto-style2">1. Intro to HTML 5</td>
+          <td id="week06" class="auto-style2">6. Page Layout with CSS</td>
+        </tr>
+        <tr>
+          <td class="auto-style2">2. First Web Page</td>
+          <td id="week07" class="auto-style2">7. HTML Tables<br>
+          </td>
+        </tr>
+        <tr>
+          <td class="auto-style2">3. Developing a Web Site</td>
+          <td id="week08" class="auto-style2">8. HTML Forms</td>
+        </tr>
+        <tr>
+          <td class="auto-style2">4. Design with CSS</td>
+          <td id="week09" class="auto-style2">9. Multimedia </td>
+        </tr>
+        <tr>
+          <td class="auto-style2">5. Midterm</td>
+          <td id="week10" class="auto-style2">10.Term Project<br>
+          </td>
+        </tr>
+      </tbody>
     </table>
     <section>
-        <article> <br>
-            <b>Introduction</b><br>
-            <ul>
-                <li>Announcements<br>
-                </li>
-                <li>Review due dates </li>
-            </ul>
-        </article>
-        <article>
-            <div><b>Overview</b></div>
-            <div>
-                <ul>
-                    <li><a href="#structure">Table Structure<br>
-            </a></li>
-                    <li><a href="#cells">Headings and Cells<br>
-            </a></li>
-                    <li><a href="#spans">Row and Column Spans</a></li>
-                    <li><a href="#captions">Captions</a></li>
-                    <li><a href="#groups">Row and Column Groups</a></li>
-                    <li><a href="#summary">Table Summary</a></li>
-                </ul>
-            </div>
-        </article>
+      <article> <br>
+        <b>Introduction</b><br>
+        <ul>
+          <li>Look at someone's lab 5.<br>
+          </li>
+          <li>Review due dates (lab and quiz).</li>
+          <li>Ask about progress on term projects.<br>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <div><b>Overview</b></div>
+        <div>
+          <ul>
+            <li><a href="#structure">Table Structure</a></li>
+            <li><a href="#borders">Borders</a></li>
+            <li><a href="#cells">Headings and Cells</a></li>
+            <li><a href="#spans">Row and Column Spans</a></li>
+            <li><a href="#captions">Captions</a></li>
+          </ul>
+        </div>
+      </article>
     </section>
     <section>
-        <article id="structure">
-            <p> <b>Structure of a Table<br>
-        </b></p>
-            <p>Tables are constructed using multiple elements (which means multiple tags). A table with two rows and three columns would be written in HTML like this:</p>
-            <code>&lt;table&gt;<br>
-        &nbsp;&nbsp;&nbsp; &lt;tr&gt;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;!-- tr = table row, this is
-        the beginning of a row --&gt;<br>
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 1, column
-        1&lt;/td&gt;&nbsp;&nbsp;&nbsp; &lt;!-- td = table data, this is a cell
-        --&gt;<br>
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 1, column
-        2&lt;/td&gt;<br>
-      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row
-            1, column 3&lt;/td&gt;<br>
-        &nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br> &nbsp;&nbsp;&nbsp; &lt;tr&gt;<br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column 1&lt;/td&gt;
-            <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column 2&lt;/td&gt;
-            <br>
-            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row
-          2, column 3&lt;/td&gt;<br>
-        &nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br> &lt;/table&gt;
-            <br>
-            <br>
-            </code>
-            <p>The table above will be rendered like this:</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>row 1, column 1</td>
-                        <td>row 1, column 2</td>
-                        <td>row 1, column 3</td>
-                    </tr>
-                    <tr>
-                        <td>row 2, column 1</td>
-                        <td>row 2, column 2</td>
-                        <td>row 2, column 3</td>
-                    </tr>
-                </tbody>
-            </table>
-
-        </article>
-        <article id="searching" class="cells">
-            <p><b>Headings and Cells<br>
-        </b></p>
-            A special type of 
-			table cell is a heading, &lt;th&gt;&lt;/th&gt;. The following code can be placed above row 1 and provides headings for the columns:<br>
-            <br>
-          <code>
-          &lt;tr&gt;<br> &nbsp;&nbsp; &lt;th&gt;column 1&lt;/th&gt;
-          &lt;th&gt;column 2&lt;/th&gt;
-          &lt;th&gt;column 3&lt;/th&gt;<br>&lt;/tr&gt;</code><br><br> The table above, with a row of header elements added, will be rendered like this:<br>
-            <br>
-            <table>
-                <tbody>
-                    <tr>
-                        <th>column 1</th>
-                        <th>column 2</th>
-                        <th>column 3</th>
-                    </tr>
-                    <tr>
-                        <td>row 1, column 1</td>
-                        <td>row 1, column 2</td>
-                        <td>row 1, column 3</td>
-                    </tr>
-                    <tr>
-                        <td>row 2, column 1</td>
-                        <td>row 2, column 2</td>
-                        <td>row 2, column 3</td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
-        <article id="spans">
-            <p><b>Row and Column Spans</b></p>
-            <code>&nbsp;&nbsp;&nbsp; &lt;tr&gt;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td colspan="2"&gt;row 1,
-        columns 1 and 2&lt;/td&gt;&nbsp;&nbsp;&nbsp; <br>
-      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td
-          rowspan="2"&gt;rows 1 and 2, column 3&lt;/td&gt;<br>
-        &nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br> &nbsp;&nbsp;&nbsp; &lt;tr&gt;<br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column 1&lt;/td&gt;
-            <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column 2&lt;/td&gt;
-            <br>
-        &nbsp;&nbsp;&nbsp; &lt;/tr&gt;</code> <br>
-            <br> The table will be rendered like this:<br>&nbsp;<table>
-                <tbody>
-                    <tr>
-                        <th>column 1</th>
-                        <th>column 2</th>
-                        <th>column 3</th>
-                    </tr>
-                    <tr>
-                        <td colspan="2">row 1, columns 1 and 2</td>
-                        <td rowspan="2">rows 1 and 2, column 3</td>
-                    </tr>
-                    <tr>
-                        <td>row 2, column 1</td>
-                        <td>row 2, column 2</td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
-        <article id="captions">
-            <p><b>Captions</b></p>
-            &nbsp; <code> &lt;caption&gt;Table Example&lt;/caption&gt;<br>
+      <article id="intro">
+        <p><b>Introduction</b> </p>
+        <ul>
+          <li>What is a table--in general?</li>
+          <li>Where are tables commonly used?</li>
+        </ul>
+      </article>
+      <article id="structure">
+        <p><b>Structure of a Table<br>
+          </b></p>
+        <p>Tables are constructed using multiple elements (which means
+          multiple tags). A table with two rows and three columns would
+          be written in HTML like this:</p>
+        <code>&lt;table&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;tr&gt;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &lt;!-- tr = table row, this is the beginning of a row --&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 1, column
+          1&lt;/td&gt;&nbsp;&nbsp;&nbsp; &lt;!-- td = table data, this
+          is a cell --&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 1, column
+          2&lt;/td&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 1, column
+          3&lt;/td&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
+          1&lt;/td&gt; <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
+          2&lt;/td&gt; <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
+          3&lt;/td&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+          &lt;/table&gt; <br>
+          <br>
+        </code>
+        <p>The table above will be rendered like this:</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>row 1, column 1</td>
+              <td>row 1, column 2</td>
+              <td>row 1, column 3</td>
+            </tr>
+            <tr>
+              <td>row 2, column 1</td>
+              <td>row 2, column 2</td>
+              <td>row 2, column 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article id="borders">
+        <p><b>Borders</b></p>
+        Borders can be added using CSS. For example:<br>
         <br>
-      </code>
-        </article>
+        <code>&lt;style&gt;<br>
+          &nbsp;&nbsp; table, tr, td {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "border: 1px solid black;"<br>
+          }<br>
+        </code> <br>
+        Which would be rendered like this:<br>
+        <br>
+        <table style="border: 1px solid black;" border="1">
+          <tbody>
+            <tr>
+              <td>row 1, column 1</td>
+              <td>row 1, column 2</td>
+              <td>row 1, column 3</td>
+            </tr>
+            <tr>
+              <td>row 2, column 1</td>
+              <td>row 2, column 2</td>
+              <td>row 2, column 3</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+      </article>
+      <article id="searching" class="cells">
+        <p><b>Headings and Cells<br>
+          </b></p>
+        A special type of table cell is a heading,
+        &lt;th&gt;&lt;/th&gt;. The following code can be placed above
+        row 1 and provides headings for the columns:<br>
+        <br>
+        <code> &lt;tr&gt;<br>
+          &nbsp;&nbsp; &lt;th&gt;column 1&lt;/th&gt; &lt;th&gt;column
+          2&lt;/th&gt; &lt;th&gt;column 3&lt;/th&gt;<br>
+          &lt;/tr&gt;</code><br>
+        <br>
+        The table above, with a row of header elements added, will be
+        rendered like this:<br>
+        <br>
+        <table>
+          <tbody>
+            <tr>
+              <th>column 1</th>
+              <th>column 2</th>
+              <th>column 3</th>
+            </tr>
+            <tr>
+              <td>row 1, column 1</td>
+              <td>row 1, column 2</td>
+              <td>row 1, column 3</td>
+            </tr>
+            <tr>
+              <td>row 2, column 1</td>
+              <td>row 2, column 2</td>
+              <td>row 2, column 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article id="spans">
+        <p><b>Row and Column Spans</b></p>
+        <code>&nbsp;&nbsp;&nbsp; &lt;tr&gt;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td
+          colspan="2"&gt;row 1, columns 1 and
+          2&lt;/td&gt;&nbsp;&nbsp;&nbsp; <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td
+          rowspan="2"&gt;rows 1 and 2, column 3&lt;/td&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
+          1&lt;/td&gt; <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;row 2, column
+          2&lt;/td&gt; <br>
+          &nbsp;&nbsp;&nbsp; &lt;/tr&gt;</code> <br>
+        <br>
+        The table will be rendered like this:<br>
+        &nbsp;
+        <table>
+          <tbody>
+            <tr>
+              <th>column 1</th>
+              <th>column 2</th>
+              <th>column 3</th>
+            </tr>
+            <tr>
+              <td colspan="2">row 1, columns 1 and 2</td>
+              <td rowspan="2">rows 1 and 2, column 3</td>
+            </tr>
+            <tr>
+              <td>row 2, column 1</td>
+              <td>row 2, column 2</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article id="captions">
+        <p><b>Captions</b></p>
+        &nbsp; <code> &lt;caption&gt;Table Example&lt;/caption&gt;<br>
+          <br>
+        </code> </article>
     </section>
-</body>
-
+  </body>
 </html>
