@@ -52,9 +52,14 @@ Tables are constructed using multiple elements (which means multiple tags). A ta
 
 The table  will be rendered like this:
 
-| row 1, column 1 | row 1, column 2 | row 1, column 3 |
-| --------------- | --------------- | --------------- |
-| row 2, column 1 | row 2, column 2 | row 2, column 3 |
+<table
+  <tr><td>row1, column 1</td>
+  <td>row1, column 2</td>
+  <td>row 1, column 3</td></tr>
+  <tr><td>row2, column 1</td>
+  <td>row2, column 2</td>
+  <td>row 2, column 3</td></tr>
+ <table>
 
 
 
