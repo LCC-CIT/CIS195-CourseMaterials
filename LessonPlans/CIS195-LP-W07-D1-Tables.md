@@ -3,10 +3,12 @@
 | Course weeks and topics  |                         |
 | ------------------------ | ----------------------- |
 | 1. Intro to HTML 5       | 6. Page Layout with CSS |
-| 2. First Web Page        | <u>7. HTML Tables</u>   |
+| 2. First Web Page        | <mark>7. HTML Tables</mark>   |
 | 3. Developing a Web Site | 8. HTML Forms           |
 | 4. Design with CSS       | 9. Multimedia           |
 | 5. Midterm               | 10.Term Project         |
+
+<u>**Table of Contents**</u>
 
 [TOC]
 
@@ -49,18 +51,14 @@ The table above will be rendered like this:
 Borders can be added using CSS. For example:
 
 ```css
-table, td {
+td {
   border: 1px solid;
 }
 ```
 
 The table above will be rendered like this:
 
-<style>
-  table, td {
-    border: 1px solid;
-  }
-</style>
+<style>  td {border: 1px solid;}</style>
 <table>
   <tr><td>row1, column 1</td><td>row1, column 2</td><td>row 1, column 3</td></tr>
   <tr><td>row2, column 1</td><td>row2, column 2</td><td>row 2, column 3</td></tr>
