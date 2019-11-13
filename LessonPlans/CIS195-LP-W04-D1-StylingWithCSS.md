@@ -200,7 +200,7 @@
 
 ###Semantic structural elements
 
-We've already seen and used some of the structural (aka semantic) elements like `<header>`, `<section>`, etc. Now we will see another use for these elements besides providing organizational structure to our page. These can be used as CSS rule selectors to provide a way to format a section of the page. For example:
+We've already seen and used some of the structural (aka sectional) elements like `<header>`, `<section>`, etc. Now we will see another use for these elements besides providing organizational structure to our page. These can be used as CSS rule selectors to provide a way to format a section of the page. For example:
 
 ```css
 section {
@@ -210,6 +210,8 @@ section {
 ```
 
 [W3Schools tutorial on semantic elements](https://www.w3schools.com/HTML/html5_semantic_elements.asp)
+
+[MDN Article on sectional elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)
 
 ###Non-semantic structural elements
 
