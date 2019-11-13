@@ -71,7 +71,7 @@
 
 - - `<div> some other elements would go here </div>`
 
-- These are “semantic structural elements”
+- These are *semantic structural elements* (also known as *semantic sectional elements*).
 
   ```html
   <header>
