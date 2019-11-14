@@ -19,6 +19,7 @@ Notes for each week are available in the [course outline](https://lcc-cit.github
 
 ## Contents
 
+-   [Announcements](#Announcements)
 -   [Introduction](#introduction)
 -   [Semantic Elements for Tables](#semantic-elements-for-tables)
 -   [CSS Table Properties](#css-table-properties)
@@ -27,30 +28,46 @@ Notes for each week are available in the [course outline](https://lcc-cit.github
 
 
 
-## Introduction
+## Announcements
 
 -   Review due dates on Moodle.
--   "Making Wise Choices" workshops&mdash;see Moodle news forum.
--   Choose courses for Fall 2019 now!
-    -   Fall registration opens  [May 21 - 24](https://www.lanecc.edu/calendars/registration-calendar#fall2019) for continuing students
-    -   You can view the [Fall 2019 CIT Course schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202020) now. 
+-   Choose courses for Winter 2020 now!
+    -   Winter registration is  already open
+    -   You can view the [Winter CIT class schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202030) now. 
         Reccomended courses for the [Programing Degree](https://www.lanecc.edu/cit/computer-programming) this coming Fall:
         -   <u>Programming Courses</u>
-            -   CIS100, Computing Careers Exploration, 1 credit.
-            -   CS160, Orientation to Computer Science, 4 credits&mdash;*requires Math 95*.
-                *or*
-                CIS125M, This is a new course in Web App Development with [AppLab](https://code.org/educate/applab). (It's not what the catalog descriptions says.), 4 credits.
+            -   CS 133N, Beginning Programming: C#, 4 creditss&mdash;*requires Math 60*.
+            -   CIS 100, Computing Careers Exploration, 1 credit.
+            -   CS 206, Co-op Ed: Computer Information Technology Seminar, 2 credits.
         -   <u>General Ed</u>
             -   WR121, Academic Composition, 4 credits.
+            -   WR227, Technical Writing, 4 credits.
             -   MTH95, Intermediate Algebra, 4 credits.
                 *Lower level math classes are available as well.*
             -   PE/Health requirement, 3 credits.
-            -   CG203, Human Relations at Work, 3 credits.
+            -   CG203, Human Relations at Work or an approved communication course, 3 credits.
     -   Road-map for the Programing Degree: [Required Courses for the Programming Degree](https://drive.google.com/file/d/1t_KfQAACLnjG6qDBdG2-Qu1RAM19wo_K/view?usp=sharing).
 
 
 
-##Semantic Elements for Tables
+## Introduction
+
+### Review
+
+-   Overall table structure
+-   Borders
+-    Row and column spans
+-   Captions
+
+### Styling Tables
+
+- Styling using HTML elements is deprecated.
+
+- Styling should be done with CSS.
+
+  
+
+##Structural Elements for Tables
 
 These elements provide organization to your code and give you targets for CSS rules
 
