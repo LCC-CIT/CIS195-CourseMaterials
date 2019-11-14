@@ -29,9 +29,26 @@ Make a table that represents your weekly schedule (it can be real or fictitious)
 
 ###Part 2
 
-TBD
+Create a one month calendar for a real or fictitious organization (a club, sports team, school, etc.). Choose a particular month and arrange the talbe so that the days of the week are across the top, each cell (aka td) has the number for the day of the month in it and the event.
 
+Your events table should contain the following:
 
+1. A header with the days of the week--use all seven.
+   - Use `<thead>` and `<th>` elements.
+2. A body.
+   - Use `<tbody>`.
+   - Each cell, aka `<td>` element, should contian a number representing the day of the month.
+   - Events will also go in the `<td> elements.
+   - Alt least one event should use a *colspan* attribute.
+   - At least two events should use a *rowspan* attribute
+3. A footer
+   - Provide some kind of a summary in a row that contains one or more `<td>` elements with I attributes.
+4. A caption that provides an appropriate title for the table.
+5. Apply styling to the events calendar.
+   - Use a `<colgroup>` element to apply styling to at least one column.
+   - Set border properties in a way that looks good to you.
+   - Set background color of anything you like.
+   - Set a text property for some or all of the text in the table.
 
 ##Submitting your web sites to Moodle
 
