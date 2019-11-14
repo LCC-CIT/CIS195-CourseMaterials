@@ -17,7 +17,7 @@ You will create tables with the following features:
 
 Make a table that represents your weekly schedule (it can be real or fictitious).
 
-#### Instructions
+Your table should meet the following requirements:
 
 1. The table should have a column for each work day of the week (at least five).
 2. There should be enough rows that you can show each day's events in that day's column. (at least three).
@@ -29,20 +29,21 @@ Make a table that represents your weekly schedule (it can be real or fictitious)
 
 ###Part 2
 
-Create a one month calendar for a real or fictitious organization (a club, sports team, school, etc.). Choose a particular month and arrange the talbe so that the days of the week are across the top, each cell (aka td) has the number for the day of the month in it and the event.
+Create a one month calendar for a real or fictitious organization (a club, sports team, school, etc.). Choose a particular month and arrange the table so that the days of the week are across the top and each square has the number for the day of the month in it and the event.
 
 Your events table should contain the following:
 
-1. A header with the days of the week--use all seven.
-   - Use `<thead>` and `<th>` elements.
+1. A header.
+   - Use `<thead>`.
+   - There should be at least seven columns (one for each day of the week).
 2. A body.
    - Use `<tbody>`.
-   - Each cell, aka `<td>` element, should contian a number representing the day of the month.
-   - Events will also go in the `<td> elements.
-   - Alt least one event should use a *colspan* attribute.
-   - At least two events should use a *rowspan* attribute
-3. A footer
-   - Provide some kind of a summary in a row that contains one or more `<td>` elements with I attributes.
+   - Each square, aka `<td>` element, should contian a number representing the day of the month. Put it in a location in the square that looks good--not right in front of the event.
+   - Put at least eight events in separate squares (days).
+   - Alt least one event should use a *rowpan* attribute.
+   - At least two events should use a *colspan* attribute.
+3. A footer.
+   - Provide some kind of a summary in a row that contains one or more `<td>` elements with `<rowspan>`	 attributes.
 4. A caption that provides an appropriate title for the table.
 5. Apply styling to the events calendar.
    - Use a `<colgroup>` element to apply styling to at least one column.
@@ -50,7 +51,9 @@ Your events table should contain the following:
    - Set background color of anything you like.
    - Set a text property for some or all of the text in the table.
 
-##Submitting your web sites to Moodle
+
+
+##Submitting your web pages
 
 - Publish to the web server
 
