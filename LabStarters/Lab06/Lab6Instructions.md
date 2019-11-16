@@ -34,18 +34,32 @@ Create a one month calendar for a real or fictitious organization (a club, sport
 Your events table should contain the following:
 
 1. A header.
+
    - Use `<thead>`.
    - There should be at least seven columns (one for each day of the week).
+
 2. A body.
+
    - Use `<tbody>`.
+
    - Each square, aka `<td>` element, should contian a number representing the day of the month. Put it in a location in the square that looks good--not right in front of the event.
+
    - Put at least eight events in separate squares (days).
+
    - Alt least one event should use a *rowpan* attribute.
+
+     *Note: you can specify the day-of-month numbers as a range in the td that spans multiple rows. For example: 15&ndash;17.*
+
    - At least two events should use a *colspan* attribute.
+
 3. A footer.
+
    - Provide some kind of a summary in a row that contains one or more `<td>` elements with `<rowspan>`	 attributes.
+
 4. A caption that provides an appropriate title for the table.
+
 5. Apply styling to the events calendar.
+
    - Use a `<colgroup>` element to apply styling to at least one column.
    - Set border properties in a way that looks good to you.
    - Set background color of anything you like.
