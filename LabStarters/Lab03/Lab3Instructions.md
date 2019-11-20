@@ -22,7 +22,7 @@ Create a single web page that gives a short catalog of information. An example i
 
 ## Part 2: A web page with an image map
 
-Choose a picture that has at least three regions that are appropriate for hot-spots.  
+Create another web page which contains a picture of your choice that has at least three regions that are appropriate for hot-spots.  
 
 - Create hot-spots for each of the regions in the picture. 
 - Use each of the three hot-spot shapes (rect, circle and poly) at least once.

@@ -1,9 +1,225 @@
-<!DOCTYPE html><html>  <head>    <meta http-equiv="content-type" content="text/html; charset=UTF-8">    <title>HTML Forms</title>    <style type="text/css">body {  font-family: "Arial", "Helvetica", "sans-serif";}</style> </head>  <body>    <header> <b>CIS195 Web Authoring 1: HTML<br>      </b>      <div>Brian Bird</div>      <br>      <h1> HTML Forms, Part 1</h1>      <h1><i><b> </b></i></h1>    </header>    <section>      <article>        <h2>Introduction</h2>        <h2> </h2>        <ul>          <li>Announcements<br>          </li>          <li>Review due dates </li>        </ul>      </article>      <article>        <div>          <h2>Overview</h2>        </div>        <div>          <ul>            <li><b>Purpose of forms<br>              </b></li>            <li><b>Form elements<br>              </b></li>            <li><b>Field sets and legends</b></li>            <li><b>Input boxes and form labels<br>              </b></li>          </ul>        </div>      </article>    </section>    <section>      <article id="purpose">        <h3> Purpose of forms</h3>        <p>Forms allow users to enter data that can be processed by code that          either runs in the browser (JavaScript) or that runs on the server          (PHP, ASP.NET, Node.js, etc.)</p>      </article>      <article id="elements">        <h2><br>        </h2>        <h2><b>Basic Form Elements</b></h2>        <code>&lt;form&gt;<br>          &nbsp;&nbsp;&nbsp; First name:&lt;br&gt;&nbsp; <br>          &nbsp;&nbsp;&nbsp; &lt;input type="text"          name="firstname"&gt;&lt;br&gt;<br>          &nbsp;&nbsp;&nbsp; Last name:&lt;br&gt;<br>          &nbsp;&nbsp;&nbsp; &lt;input type="text" name="lastname"&gt;<br>          &nbsp;&nbsp;&nbsp; &lt;br&gt;&lt;br&gt;<br>          &nbsp;&nbsp;&nbsp; &lt;input type="submit" value="Submit"&gt;<br>          &lt;/form&gt;<br>          <br>        </code>        <h3>Input element</h3>        The most common use of the input element is to enter text--this is the        default use. <br>        <h4><em>type attribute</em></h4>        <p>Tye type attribute determines what kind of control will be shown in          the browser. It has these possible values:</p>        <ul>          <li> text</li>          <li>submit</li>          <li>button</li>          <li>checkbox</li>          <li>radio</li>          <li>See this <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#%3Cinput%3E_types">MDN
-              article on input types</a> for more types.</li>        </ul>        <h4><em>placeholder attribute</em></h4>        <p>This attribute puts "watermark" text in an input element.</p>        <p><code>&lt;form&gt;<br>            &nbsp; &lt;input type="text" name="firstname" placeholder="First            name"&gt;&lt;br&gt;<br>            &nbsp; &lt;input type="text" name="lastname" placeholder="Last            name"&gt;&lt;br&gt;<br>            &nbsp; &lt;input type="submit" value="Submit"&gt;<br>            &lt;/form&gt; </code></p>        <ul>        </ul>        <h4><em>name attribute</em></h4>        This attribute defines the name of the field. It will be used in the        name-value pair that is sent to the server.<br>        <h3>Terminology</h3>        Form elements that the user can interact with, like the <code>&lt;input&gt;
-          </code>element, are also known as a <em>control</em> <em>element</em>s.
-        <br> Any control element that lets you enter information (that's all of        them except the button) is also known as a <em>field</em>.<br>        The information entered in a field is called the <em>value</em>.<br>        <h3>Focus</h3>        <p>When you click on a control, it's outline will become bolder or show          in some way that it has been selected. This is called giving it focus.<br>          Using the tab key you can move from one control to the next in the          form.</p>        <h3>Try it</h3>        <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Try
-          it out on W3Schools</a><br>        <br>      </article>      <article id="legends">        <h2><br>        </h2>        <h2>Text Area Element<b><br>          </b></h2>        <p>The <code>&lt;textarea&gt;</code> element allows users to enter          multiple lines of text<b>.<br>          </b></p>        <p>The row and cols attributes determine the size.</p>        <p>The wrap attribute determines the type of line warp: hard or soft<b>.</b></p>        <ul>          <li>Hard: Carriage-return and line-feed character codes are inserted            into the text where it wraps.<br>            <em>Note: this doesn't seem to work in the current version of              Firefox for Windows.</em></li>          <li>Soft<b>: </b>No<b> </b>caracter codes are inserted where the            text wraps.<b><br>            </b></li>        </ul>        <code>&lt;label for="review"&gt;Describe the trail&lt;/label&gt;          &nbsp;&nbsp; <br>          &lt;</code><code>textarea name="review" id="review" rows="3" cols="40"          wrap="hard"&gt;&lt;/textarea&gt;<br>          <br>        </code>        <h2> </h2>        <h2><br>        </h2>        <h2><b>Fieldset and Legend Elements<br>          </b></h2>        <code>&lt;form&gt;<br>          &nbsp;&nbsp;&nbsp; &lt;fieldset&gt;<br>          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;legend&gt;User's          Name&lt;/legend&gt;<br>          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; First name:&lt;br&gt;<br>          &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &lt;input type="text"          name="firstname"&gt;&lt;br&gt;<br>          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Last name:&lt;br&gt;<br>          <br>          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;input type="text"          name="lastname"&gt;<br>        </code><code><code>&nbsp; &nbsp;&nbsp;&nbsp; &lt;/fieldset&gt;</code>&nbsp;&nbsp;&nbsp;
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>HTML Forms</title>
+    <style type="text/css">
+body {
+  font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+</style>
+  </head>
+  <body>
+    <header> <b>CIS195 Web Authoring 1: HTML<br>
+      </b>
+      <div>Brian Bird</div>
+      <br>
+      <h1> HTML Forms, Part 1</h1>
+      <h1><i><b> </b></i></h1>
+    </header>
+    <section>
+      <article>
+        <h2>Introduction</h2>
+        <h2> </h2>
+        <ul>
+          <li>Announcements<br>
+          </li>
+          <li>Review due dates </li>
+        </ul>
+      </article>
+      <article>
+        <div>
+          <h2>Overview</h2>
+        </div>
+        <div>
+          <ul>
+            <li><b>Purpose of forms<br>
+              </b></li>
+            <li><b>Basic Form Elements</b></li>
+            <li><b>Fieldset and Legend Elements<br>
+              </b></li>
+            <li><b>Input boxes and form labels</b></li>
+            <li><b><b>Text Area Element</b></b></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section>
+      <article id="purpose">
+        <h3> Purpose of forms</h3>
+        <p>Forms allow users to enter data that can be processed by code
+          that either runs in the browser (JavaScript) or that runs on
+          the server (PHP, ASP.NET, Node.js, etc.)</p>
+      </article>
+      <article id="elements">
+        <h2><br>
+        </h2>
+        <h2><b>Basic Form Elements</b></h2>
+        <code>&lt;form&gt;<br>
+          &nbsp;&nbsp;&nbsp; First name:&lt;br&gt;&nbsp; <br>
+          &nbsp;&nbsp;&nbsp; &lt;input type="text"
+          name="firstname"&gt;&lt;br&gt;<br>
+          &nbsp;&nbsp;&nbsp; Last name:&lt;br&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;input type="text" name="lastname"&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;br&gt;&lt;br&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;input type="submit" value="Submit"&gt;<br>
+          &lt;/form&gt;<br>
+          <br>
+        </code>
+        <h3>Input element</h3>
+        The most common use of the input element is to enter text--this
+        is the default use. <br>
+        <h4><em>type attribute</em></h4>
+        <p>Tye type attribute determines what kind of control will be
+          shown in the browser. It has these possible values:</p>
+        <ul>
+          <li> text</li>
+          <li>submit</li>
+          <li>reset</li>
+          <li>button</li>
+          <li>checkbox</li>
+          <li>radio</li>
+          <li>See this <a
+href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#%3Cinput%3E_types">MDN
+
+              article on input types</a> for more types.</li>
+        </ul>
+        <ul>
+        </ul>
+        <h4><em>name attribute</em></h4>
+        This attribute defines the name of the field. It will be used in
+        the name-value pair that is sent to the server.<br>
+        <code>&lt;input type="text" name="lastname"&gt;&lt;br&gt;</code>
+        <h4><span style="font-style: italic;">value attribute</span></h4>
+        <p>Use this to set a default value for an input element.<br>
+          <code>&lt;input type="text" name="lastname" value="Stark"&gt;&lt;br&gt;</code></p>
+        <h4><em>placeholder attribute</em></h4>
+        <p>This attribute puts "watermark" text in an input element.<code><br>
+            &lt;input type="text" name="firstname" placeholder="First
+            name"&gt;&lt;br&gt;</code><br>
+        </p>
+        <code></code>
+        <h4><span style="font-style: italic;">hidden attribute</span></h4>
+        <p>This attribute makes an input element invisible.<br>
+          <code>&lt;input type="text" name="lastname"
+            hidden&gt;&lt;br&gt;</code></p>
+        <h3>Focus</h3>
+        <p>When you click on a control, it's outline will become bolder
+          or show in some way that it has been selected. This is called
+          giving it focus.<br>
+          Using the tab key you can move from one control to the next in
+          the form.</p>
+        <h3>Terminology</h3>
+        <ul>
+          <li> <span style="font-weight: bold;">Control Element</span>:
+            form elements that the user can interact with, like the <code>&lt;input&gt;
+
+            </code>element, are also known as a <em>control</em> <em>element</em>s.
+
+          </li>
+          <li> <span style="font-weight: bold;">Field</span>: Any
+            control element that lets you enter information (that's all
+            of them except the button) is also known as a <em>field</em>.</li>
+          <li> <span style="font-weight: bold;">Value</span>: The
+            information entered in a field is called the <em>value</em>.</li>
+        </ul>
+        <h3>Try it</h3>
+        <a href="https://www.w3schools.com/html/html_forms.asp"
+          target="_blank">Try it out on W3Schools</a><br>
+        <br>
+      </article>
+      <article id="legends"><br>
+        <h2><b>Fieldset and Legend Elements<br>
+          </b></h2>
+        <code>&lt;form&gt;<br>
+          &nbsp;&nbsp;&nbsp; &lt;fieldset&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;legend&gt;User's
+          Name&lt;/legend&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; First name:&lt;br&gt;<br>
+          &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &lt;input type="text"
+          name="firstname"&gt;&lt;br&gt;<br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Last name:&lt;br&gt;<br>
+          <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;input type="text"
+          name="lastname"&gt;<br>
+        </code><code><code>&nbsp; &nbsp;&nbsp;&nbsp; &lt;/fieldset&gt;</code>&nbsp;&nbsp;&nbsp;
 
 
-          <br> &nbsp;&nbsp;&nbsp; &nbsp; &lt;input type="submit"          value="Submit"&gt;<br>          &lt;/form&gt;<br>          <br>        </code> <a href="https://www.w3schools.com/tags/tag_fieldset.asp" target="_blank">Try
-          it out on W3Schools</a><br>        <article id="labels">          <h2><br>          </h2>          <h2><b>Label Element<br>            </b></h2>          Labels don't change the appearance of the form, but they:<br>          <ul>            <li>are semantic tags that make the purpose of the text above the              input element clear to developers</li>            <li>provide a target for CSS formatting</li>            <li>are clickable if the <span style="font-style: italic;">for</span>              attribute is used (the <span style="font-style: italic;">for</span>              value must match the <span style="font-style: italic;">id</span>              of the input element)<br>            </li>          </ul>          <code>&lt;form&gt;<br>            &nbsp;&nbsp;&nbsp; &lt;label for="first"&gt;First            name:&lt;/label&gt;&lt;br&gt;&nbsp; <br>            &nbsp;&nbsp;&nbsp; &lt;input type="text" name="firstname"            id="first"&gt;&lt;br&gt;<br>            &nbsp;&nbsp;&nbsp; &lt;label for="second"&gt;Last            name:&lt;/label&gt;&lt;br&gt;<br>            &nbsp;&nbsp;&nbsp; &lt;input type="text" name="lastname"            id="second"&gt;<br>            &nbsp;&nbsp;&nbsp; &lt;br&gt;&lt;br&gt;<br>            &nbsp;&nbsp;&nbsp; &lt;input type="submit" value="Submit"&gt;<br>            &lt;/form&gt;<br>            <br>          </code> </article>      </article>    </section>  </body></html>
+
+          <br>
+          &nbsp;&nbsp;&nbsp; &nbsp; &lt;input type="submit"
+          value="Submit"&gt;<br>
+          &lt;/form&gt;<br>
+          <br>
+        </code> <a
+          href="https://www.w3schools.com/tags/tag_fieldset.asp"
+          target="_blank">Try it out on W3Schools</a><br>
+        <article id="labels">
+          <h2><br>
+          </h2>
+          <h2><b>Label Element<br>
+            </b></h2>
+          Labels don't change the appearance of the form, but they:<br>
+          <ul>
+            <li>Are semantic tags that make the purpose of the text
+              above the input element clear to developers.</li>
+            <li>Provide a target for CSS formatting.</li>
+            <li>Are clickable if the <span style="font-style: italic;">for</span>
+              attribute is used (the <span style="font-style: italic;">for</span>
+              value must match the <span style="font-style: italic;">id</span>
+              of the input element).</li>
+            <li>Give focus to the associated control when the mouse
+              pointer hovers over them.</li>
+          </ul>
+          <p><strong>Note</strong>: labels are in-line elements but, you
+            can change them to a block element with the CSS <em>display:block</em>
+            property.</p>
+          <ul>
+          </ul>
+          <code>&lt;form&gt;<br>
+            &nbsp;&nbsp;&nbsp; &lt;label for="first"&gt;First
+            name:&lt;/label&gt;&lt;br&gt;&nbsp; <br>
+            &nbsp;&nbsp;&nbsp; &lt;input type="text" name="firstname"
+            id="first"&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&nbsp; &lt;label for="second"&gt;Last
+            name:&lt;/label&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&nbsp; &lt;input type="text" name="lastname"
+            id="second"&gt;<br>
+            &nbsp;&nbsp;&nbsp; &lt;br&gt;&lt;br&gt;<br>
+            &nbsp;&nbsp;&nbsp; &lt;input type="submit"
+            value="Submit"&gt;<br>
+            &lt;/form&gt;<br>
+            <br>
+          </code><br>
+          <h2>Text Area Element<b><br>
+            </b></h2>
+          <p>The <code>&lt;textarea&gt;</code> element allows users to
+            enter multiple lines of text<b>.<br>
+            </b></p>
+          <p>The row and cols attributes determine the size.</p>
+          <p>The wrap attribute determines the type of line warp: hard
+            or soft<b>.</b></p>
+          <ul>
+            <li>Hard: Carriage-return and line-feed character codes are
+              inserted into the text where it wraps.<br>
+              <em>Note: this doesn't seem to work in the current version
+                of Firefox for Windows.</em></li>
+            <li>Soft<b>: </b>No<b> </b>caracter codes are inserted
+              where the text wraps.<b><br>
+              </b></li>
+          </ul>
+          <code>&lt;label for="review"&gt;Describe the
+            trail&lt;/label&gt; &nbsp;&nbsp; <br>
+            &lt;</code><code>textarea name="review" id="review" rows="3"
+            cols="40" wrap="hard"&gt;&lt;/textarea&gt;<br>
+            <br>
+          </code>
+          <h2> </h2>
+          <h2><br>
+          </h2>
+          <code> </code> </article>
+      </article>
+    </section>
+  </body>
+</html>
