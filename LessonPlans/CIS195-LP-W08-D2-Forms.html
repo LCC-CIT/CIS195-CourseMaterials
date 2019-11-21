@@ -83,7 +83,8 @@ body {
           <li>Control: lets you select multiple single items.</li>
         </ul>
         <br>
-        <h3> Option groups</h3>
+        <h3> Option groups for selection lists<br>
+        </h3>
         Option Groups allow a developer to organize the options into
         labeled groups:<br>
         <br>
@@ -123,18 +124,19 @@ body {
           </b></h2>
         <p>Also known as radio buttons<b><br>
           </b></p>
-        <p>The <span style="font-style: italic;">selected</span>
+        <p>The <span style="font-style: italic;">checked</span>
           attribute specifies the default selection<b><br>
           </b></p>
         <code>&lt;input type="radio" name="difficulty" value="easy"
-          selected&gt; Easy&lt;br&gt;</code><code><br>
+          checked&gt; Easy&lt;br&gt;</code><code><br>
           &lt;input type="radio" name="difficulty"
           value="intermediate"&gt; Moderately challenging&lt;br
           /&gt;&gt;</code><br>
         <code>&lt;input type="radio" name="difficulty"
           value="challenging"&gt; Very challenging&lt;br /&gt;<br>
         </code> <code></code><code> <br>
-        </code>Radio buttons can be grouped by the name attribute. <br>
+        </code>Radio buttons can be grouped by the <span
+          style="font-style: italic;">name</span> attribute. <br>
         Selection of buttons with the same name will be mutually
         exclusive.<br>
         <br>
@@ -164,6 +166,13 @@ body {
         </code><code>&lt;input type="radio" name="length"
           value="long"&gt;Long trail accesskey="l"&lt;br /&gt;<br>
         </code></p>
+      To use the access key in Chrome, Edge or Safari, hold down the <span
+        style="font-style: italic;">alt</span> key while pressing the
+      shortcut key. In Firefox, hold down the <span style="font-style:
+        italic;">al</span><span style="font-style: italic;">t</span> and
+      <span style="font-style: italic;">shift</span> keys while pressing
+      the access key.<br>
+      <br>
       <a href="https://www.w3schools.com/tags/att_global_accesskey.asp"
         target="_blank">Access Key Practice on W3Schools</a><br>
       <br>
@@ -187,7 +196,12 @@ body {
         <li>email</li>
         <li>number</li>
         <li>password</li>
-        <li>tel</li>
+        <li>tel<br>
+          <span style="font-style: italic;">Note: tel does not do much
+            validation, but on most browsers</span><span
+            style="font-style: italic;">, it will pop up a numeric
+            keypad.</span><br>
+        </li>
         <li><a
             href="https://www.w3schools.com/html/html_form_input_types.asp"
             target="_blank">and more</a></li>
@@ -202,8 +216,8 @@ body {
       <form> <input name="name" placeholder="person@example.com"
           type="email"> <input type="submit"> </form>
       <h4>Validation using the required attribute</h4>
-      <p>Use the required attribute to ensure that the user enters
-        something in a field.<br>
+      <p>Use the <span style="font-style: italic;">required</span>
+        attribute to ensure that the user enters something in a field.<br>
       </p>
       <p>Code example:<br>
         <code> &lt;input type="tel" name="telephone" required&gt;<br>
@@ -216,18 +230,10 @@ body {
         <h3>Validation using <i>regular expressions</i></h3>
         <i> </i>
         <p>The pattern attribute allows us to use a special
-          pattern-matching string called a <i>regular expression</i>.
-          It must be a valid JavaScript regular expression. This means:
-        </p>
-        <ul>
-          <li> \ denotes that the following charter is not a literal
-            character and should be interpreted as special, unless the
-            character that follows is already a special character, then
-            it should be interpreted literally. </li>
-          <li> ^ matches beginning of input, unless it's the first
-            character in a pattern, then it negates (inverts) the
-            pattern </li>
-        </ul>
+          pattern-matching string called a <i>regular expression</i>, also
+          called a <span style="font-style: italic;">reg</span><span
+            style="font-style: italic;">ex</span>. It must be a valid
+          JavaScript regular expression. This means: </p>
         <br>
         Code example:<br>
         <code> &lt;input name="zip" placeholder="97405-1234"
@@ -237,11 +243,12 @@ body {
             pattern="^\d{5}(-\d{4})?$" type="text"> <input type="submit">
         </form>
         <p> </p>
-        <h4>Alternative regex for zip code</h4>
-        <pre>^\d{5}(?:[-\s]\d{4})?$</pre>
-        <pre>^[0-9]{5}(?:-[0-9]{4})?$</pre>
         <ul>
           <li>^ = Start of the string.</li>
+          <li> \ denotes that the charter following it is not a literal
+            character and should be interpreted as special.<br>
+            Or, if the following character&nbsp; is already a special
+            character, then it should be interpreted literally.</li>
           <li>\d{5} = Match 5 digits (for condition 1, 2, 3)</li>
           <li>(?:…) = Grouping</li>
           <li>[-\s] = Match a space (for condition 3) or a hyphen (for
@@ -250,14 +257,8 @@ body {
           <li>…? = The pattern before it is optional (for condition 1)</li>
           <li>$ = End of the string.</li>
         </ul>
-        ^ # Assert position at the beginning of the string.<br>
-        [0-9]{5} # Match a digit, exactly five times.<br>
-        (?: # Group but don't capture:<br>
-        - # Match a literal "-".<br>
-        [0-9]{4} # Match a digit, exactly four times.<br>
-        ) # End the noncapturing group. <br>
-        ? # Make the group optional.<br>
-        $ # Assert position at the end of the string.<br>
+        <h4>Regex reference</h4>
+        <h3> </h3>
       </article>
       <section>
         <article id="reference">
