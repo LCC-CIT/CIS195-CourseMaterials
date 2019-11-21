@@ -15,7 +15,8 @@ body {
       </b>
       <div>Brian Bird</div>
       <br>
-      <h1> <b>HTML Forms</b>, Part 2</h1>
+      <h1> <b>More HTML Form Elements</b><br>
+      </h1>
       <h1><i><b> </b></i></h1>
     </header>
     <section>
@@ -38,7 +39,6 @@ body {
               </b></li>
             <li><b>Option buttons<br>
               </b></li>
-            <li><b>Text area boxes</b></li>
             <li><b>Check boxes<br>
               </b></li>
           </ul>
@@ -56,7 +56,7 @@ body {
           scrollable list. </p>
         <code></code><code>&lt;label for="hike"&gt;Hiking
           Trails&lt;/label&gt;</code><br>
-        <code>&lt;select name="hike" id="trail" &gt;</code><br>
+        <code>&lt;select name="hike" id="trail" size="3"&gt;</code><br>
         <code>&nbsp;&nbsp;&nbsp; &lt;option value="pisgah"&gt;Mt. Pisgah
           Summit&lt;/option&gt;</code><br>
         <code>&nbsp;&nbsp;&nbsp; &lt;option value="spencer"&gt;Spencer
@@ -68,6 +68,10 @@ body {
         <code>&lt;/select&gt;</code><br>
         <div style="margin-left: 40px;"><code></code></div>
         <code></code><br>
+        <br>
+        The size attribute determines how many options are shown without
+        scrolling the list.
+        <h3>Selection of multiple items</h3>
         By default, only one selection is allowed. Setting the attribute
         multiple="multiple" allows multiple items to be selected.<br>
         The shift or control keys can be used when selecting multiple
@@ -76,9 +80,8 @@ body {
           <li>Shift: lets you select items in a continuous range.</li>
           <li>Control: lets you select multiple single items.</li>
         </ul>
-        The size attribute determines how many options are shown without
-        scrolling the list.<br>
         <br>
+        <h3> Option groups</h3>
         Option Groups allow a developer to organize the options into
         labeled groups:<br>
         <br>
@@ -118,7 +121,8 @@ body {
           </b></h2>
         <p>Also known as radio buttons<b><br>
           </b></p>
-        <p>The selected attribute specifies the default selection<b><br>
+        <p>The <span style="font-style: italic;">selected</span>
+          attribute specifies the default selection<b><br>
           </b></p>
         <code>&lt;input type="radio" name="difficulty" value="easy"
           selected&gt; Easy&lt;br&gt;</code><code><br>
@@ -146,10 +150,11 @@ body {
           href="https://www.w3schools.com/html/html_form_input_types.asp"
           target="_blank">Radio button practice on W3Schools</a><br>
       </article>
-      <article id="legends"><code><br>
-          <br>
-        </code> <br>
-      </article>
+      <h2><br>
+      </h2>
+      <h2>Access Keys</h2>
+      <p><br>
+      </p>
     </section>
   </body>
 </html>
