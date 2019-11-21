@@ -15,7 +15,7 @@ body {
       </b>
       <div>Brian Bird</div>
       <br>
-      <h1> <b>More HTML Form Elements</b><br>
+      <h1> <b>More HTML Form Elements and Concepts</b><br>
       </h1>
       <h1><i><b> </b></i></h1>
     </header>
@@ -119,7 +119,7 @@ body {
       <article id="radio">
         <h2><br>
         </h2>
-        <h2>Option buttons<b><br>
+        <h2>Option Buttons<b><br>
           </b></h2>
         <p>Also known as radio buttons<b><br>
           </b></p>
@@ -167,6 +167,112 @@ body {
       <a href="https://www.w3schools.com/tags/att_global_accesskey.asp"
         target="_blank">Access Key Practice on W3Schools</a><br>
       <br>
+      <br>
+      <h2>Input Validation</h2>
+      <p>We can improve the way our form works and give our users a
+        better experience, if we let them know when they have entered
+        information that isn't valid for a particular form field. There
+        are several ways we can do this using HTML. (There are even more
+        ways to do this with JavaScript running on our web page or with
+        code running on the server.)<br>
+      </p>
+      <h3>Validation using HTML5 input types</h3>
+      <p>These <code>&lt;input&gt;</code> types are all essentially
+        variants of the "text" type, but they limit the range of
+        characters that the user is allowed to enter and change the
+        appearance of the control to match the input type.<br>
+      </p>
+      <ul>
+        <li>date</li>
+        <li>email</li>
+        <li>number</li>
+        <li>password</li>
+        <li>tel</li>
+        <li><a
+            href="https://www.w3schools.com/html/html_form_input_types.asp"
+            target="_blank">and more</a></li>
+      </ul>
+      <p><br>
+      </p>
+      <p>Code example:<br>
+        <code> &lt;input type="email" name="name"
+          placeholder="person@example.com"&gt; </code> <br>
+        Running in the browser:<br>
+      </p>
+      <form> <input name="name" placeholder="person@example.com"
+          type="email"> <input type="submit"> </form>
+      <p><br>
+      </p>
+      <h3>Validation using the required attribute</h3>
+      <p>Use the required attribute to ensure that the user enters
+        something in a field.<br>
+      </p>
+      <p>Code example:<br>
+        <code> &lt;input type="text" name="name" required&gt;<br>
+          <br>
+        </code></p>
+      <article id="regex">
+        <h3>Validation using <i>regular expressions</i></h3>
+        <i> </i>
+        <p>The pattern attribute allows us to use a special
+          pattern-matching string called a <i>regular expression</i>.
+          It must be a valid JavaScript regular expression. This means:
+        </p>
+        <ul>
+          <li> \ denotes that the following charter is not a literal
+            character and should be interpreted as special, unless the
+            character that follows is already a special character, then
+            it should be interpreted literally. </li>
+          <li> ^ matches beginning of input, unless it's the first
+            character in a pattern, then it negates (inverts) the
+            pattern </li>
+        </ul>
+        <br>
+        Code example:<br>
+        <code> &lt;input name="zip" placeholder="97405-1234"
+          pattern="^\d{5}(-\d{4})?$"&gt; </code> <br>
+        Running in the browser:<br>
+        <form> <input name="zip" placeholder="97405-1234"
+            pattern="^\d{5}(-\d{4})?$" type="text"> <input type="submit">
+        </form>
+        <p> </p>
+        <h4>Alternative regex for zip code</h4>
+        <pre>^\d{5}(?:[-\s]\d{4})?$</pre>
+        <pre>^[0-9]{5}(?:-[0-9]{4})?$</pre>
+        <ul>
+          <li>^ = Start of the string.</li>
+          <li>\d{5} = Match 5 digits (for condition 1, 2, 3)</li>
+          <li>(?:…) = Grouping</li>
+          <li>[-\s] = Match a space (for condition 3) or a hyphen (for
+            condition 2)</li>
+          <li>\d{4} = Match 4 digits (for condition 2, 3)</li>
+          <li>…? = The pattern before it is optional (for condition 1)</li>
+          <li>$ = End of the string.</li>
+        </ul>
+        ^ # Assert position at the beginning of the string.<br>
+        [0-9]{5} # Match a digit, exactly five times.<br>
+        (?: # Group but don't capture:<br>
+        - # Match a literal "-".<br>
+        [0-9]{4} # Match a digit, exactly four times.<br>
+        ) # End the noncapturing group. <br>
+        ? # Make the group optional.<br>
+        $ # Assert position at the end of the string.<br>
+      </article>
+      <section>
+        <article id="reference">
+          <ul>
+            <li> <a href="https://regex101.com/r/aYnU3Q/1"
+                target="_blank">Regex demo page</a></li>
+            <li><a
+href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text"
+                target="_blank"> MDN: text input attributes (including
+                pattern)</a></li>
+            <li><a
+href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"
+                target="_blank"> MDN: Regular Expressions</a></li>
+          </ul>
+        </article>
+      </section>
       <br>
     </section>
   </body>
