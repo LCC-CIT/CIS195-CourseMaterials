@@ -15,7 +15,7 @@ body {
       </b>
       <div>Brian Bird</div>
       <br>
-      <h1> <b>More HTML Form Elements and Concepts</b><br>
+      <h1> <b>More HTML Form Elements and Validation</b><br>
       </h1>
       <h1><i><b> </b></i></h1>
     </header>
@@ -201,17 +201,18 @@ body {
       </p>
       <form> <input name="name" placeholder="person@example.com"
           type="email"> <input type="submit"> </form>
-      <p><br>
-      </p>
-      <h3>Validation using the required attribute</h3>
+      <h4>Validation using the required attribute</h4>
       <p>Use the required attribute to ensure that the user enters
         something in a field.<br>
       </p>
       <p>Code example:<br>
-        <code> &lt;input type="text" name="name" required&gt;<br>
-          <br>
+        <code> &lt;input type="tel" name="telephone" required&gt;<br>
         </code></p>
+      <form> <input name="telephone" placeholder="123-456-7890"
+          required="" type="tel"> <input type="submit"> </form>
       <article id="regex">
+        <h3><br>
+        </h3>
         <h3>Validation using <i>regular expressions</i></h3>
         <i> </i>
         <p>The pattern attribute allows us to use a special
