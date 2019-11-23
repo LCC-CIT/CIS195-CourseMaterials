@@ -6,15 +6,15 @@
 
 ## Part 1: A web page with internal links
 
-Create a single web page that gives a short catalog of information. An example is the page I wrote in class on the planets in our solar system. The page should have a list of items at the top with internal links to sections on the same page containing information related to each item. The page should use each of the following HTML elements:
+Create a single web page that gives a short list of information. An example is the page I wrote in class on the planets in our solar system. The page should have a list of items at the top with internal links to sections on the same page containing information related to each item. The page should use each of the following HTML elements:
 
-- A `<nav>` element containing a list of links. 
+- A `<nav>` element that will contain a list of links. 
 
-  It doesn't have to be an actual `<uo>` or `<ol>` element, it could be a series of links with `<br>` tags after each one so they are arranged vertically.
+  (The "list" doesn't have to be an actual `<uo>` or `<ol>` list element, it could be a series of links with `<br>` tags after each one so they are arranged vertically.)
 
-- Hyperlink, `<a>`, elements with *href*  attributes that link to *id* attributes in elements on the same page.
+- Hyperlink, `<a>`, elements with *href* attributes that link to *id* attributes in elements on the same page--at least four.
 
-- Image links. These are just hyperlinks with images inside instead of text.
+- An Image link. This is just ahyperlink with an image inside instead of text.
 
 - A hyperlink to an e-mail address.
 
@@ -22,7 +22,7 @@ Create a single web page that gives a short catalog of information. An example i
 
 ## Part 2: A web page with an image map
 
-Create another web page which contains a picture of your choice that has at least three regions that are appropriate for hot-spots.  
+Create another web page which contains a picture (of your choice) that has at least three regions that are appropriate for hot-spots.  
 
 - Create hot-spots for each of the regions in the picture. 
 - Use each of the three hot-spot shapes (rect, circle and poly) at least once.
