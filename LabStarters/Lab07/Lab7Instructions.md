@@ -11,10 +11,7 @@ You will create a page containing a form with the following features:
   - Text
   - Text area
   - Submit button
-  - Selection lists
-  - Option buttons (aka radio buttons)
-  - Check boxes
-
+  
 - Field-sets
 
 - Legends
@@ -22,8 +19,6 @@ You will create a page containing a form with the following features:
 - Labels
 
   
-
-### Part 1
 
 Make a Form that could be used to enter an on-line raffle contest. You can decide on the prize. Your page should contain the following:
 
@@ -39,10 +34,6 @@ Make a Form that could be used to enter an on-line raffle contest. You can decid
    - Use labels on all the input elements.
 3. A footer with a made-up organization name and slogan.
 4. Embedded CSS to color the background of the form one color and the background of the fields another color.
-
-### Part 2
-
-TBD
 
 
 
