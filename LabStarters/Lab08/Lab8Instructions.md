@@ -8,32 +8,29 @@ You will create a page containing the following HTML elements:
 
 - `<audio>`
 
-- `<video>`
-
 - `<object>`
-
-- `<embed>`
 
 - `<iframe>`
 
   
 
+## Requirements
 
+Create a web page that uses each of the three elements listed above. You can make a new page, or add these elements to one your existing pages.
 
-##Submitting your web sites to Moodle
+##Submitting your web page
 
 - Publish to the web server
 
-  - Upload both web pages to citstudent (unzipped).
-  - Put the URLs for the pages in the on-line text for the Moodle assignment.
+  - Upload your page and it's associated files to citstudent (unzipped).
+  - Put the URL for the page in the on-line text for the Moodle assignment.
 
 - Upload to Moodle
 
-  - Zip the files in part 1
-  - Zip the files in part 2
-  - Upload both zip files to Moodle using the lab submission link for the assignment.
-
+  - Zip the files used by your page.
+  - Upload the zip file to Moodle using the lab submission link for the assignment.
   
+
 
 ------
 
