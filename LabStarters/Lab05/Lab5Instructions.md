@@ -23,8 +23,8 @@ Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It wa
 1. Use float and other appropriate CSS properties to create navigation buttons on each page.
 2. On  at least one figure:
    - Add padding, a visible border, and margin.
-   - Make the corners of the figures rounded.
-   - Use relative positioning to place the figures somewhere other than their original location.
+   - Make the corners of the figure rounded.
+   - Use relative positioning to place the figure somewhere other than its original location.
 3. For the header of each page (including the home page):
    - Add a background image.
    - Set the Z order so that the heading (H1) is on top.
