@@ -1,11 +1,11 @@
-#Lab 5 Instructions
+# Lab 5 Instructions
 
 
-##Using CSS to Control Web Page Layout
+## Using CSS to Control Web Page Layout
 
 You will practice using CSS by applying it to the web sites you made in lab 4.
 
-###Part 1
+### Part 1
 
 You will use the web page from lab 4, part 1 (originally done for lab 2, part 1, it was a single page with a review of something) as your starting point. 
 
@@ -16,7 +16,7 @@ You will use the web page from lab 4, part 1 (originally done for lab 2, part 1,
    - Use the clear property to end the float.
 
 
-###Part 2
+### Part 2
 
 Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It was a review site with a home page and at least three review pages.)
 
@@ -33,7 +33,7 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 
 
 
-##Submitting your web sites to Moodle
+## Submitting your web sites to Moodle
 
 - Zip the files in part 1
 
