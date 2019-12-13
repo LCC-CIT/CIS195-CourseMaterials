@@ -26,7 +26,7 @@ Use lab 2, part 2 as a starting point. (It was a review site with a home page an
 
 1. Create a external style sheet (.css file) with:
    - At least eight rules.
-   - At least four different kinds of selectors.
+   - At least four different kinds of selectors (element, class, id, contextual, etc.).
    - At least eight different property types.
 
 2. Link the external style sheet to every HTML page in your site.
