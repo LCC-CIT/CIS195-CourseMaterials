@@ -1,13 +1,13 @@
 # Syllabus for Web Authoring 1: HTML
-## For both online and on-campus students
-### Fall 2019
+## For online and hybrid class sections
+### Fall 2020
 
-| Course    | CIS195                          |      | Instructor   | Brian Bird             |
-| --------- | ------------------------------- | ---- | ------------ | ---------------------- |
-| CRN       | on-campus: 22652, online: 22653 |      | Email        | birdb@lanecc.edu       |
-| Time, Day | 10:00–11:50, Tu & Th            |      | Office       | Building 19,  Room 152 |
-| Classroom | Building 19, Room 120           |      | Office Hours | 12:30–1:30, M,Tu, &W   |
-| Lab       | Building 19, Room 135           |      | Lab Hours    | 2:00–4:00, Th          |
+| Course    | CIS195                       |      | Instructor   | Brian Bird       |
+| --------- | ---------------------------- | ---- | ------------ | ---------------- |
+| CRN       | hybrid: 22476, online: 22477 |      | Email        | birdb@lanecc.edu |
+| Time, Day | 10:00–11:50, Tu & Th         |      | Office       | Virtual          |
+| Classroom | Virtual                      |      | Office Hours | TBD              |
+| Lab       | Virtual                      |      |              |                  |
 
 
 
@@ -61,15 +61,17 @@ There is no textbook for this class. You will learn from the class lectures, lec
 
 ####Computer Lab
 
-The hardware and software required for the course is available to all students in the CIT Main Lab in building 19, room 135. You paid a fee when you registered for this course that provides you with unlimited access to CIT lab facilities.  There are tutors available in the lab to help you with your lab work. There is a schedule is posted on the large white board inside the lab which lists the tutors and the times they will be available.
+The in-person computer lab and tutoring center is temporarily closed due to COVID-19, but tutoring is still available online. You can drop into the [Lane Support Hub Zoom Room](https://lanecc.zoom.us/j/98549544816) and request a CIT tutor, or make an appointment with a CIT tutor via the scheduling page at [lanecc.mywconline.com](https://lanecc.mywconline.com/). More information is available on the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page.
+
+~~The hardware and software required for the course is available to all students in the CIT Main Lab in building 19, room 135. You paid a fee when you registered for this course that provides you with unlimited access to CIT lab facilities.  There are tutors available in the lab to help you with your lab work. There is a schedule is posted on the large white board inside the lab which lists the tutors and the times they will be available.~~
 
 #### Software
 
-If you plan to do lab work somewhere other than in class or in the CIT Main Lab, you will need: 
+~~If you plan to do lab work somewhere other than in class or in the CIT Main Lab~~, you will need: 
 
 - Word processing software such as MS Office, [OpenOffice](http://www.openoffice.org) or GoogleDocs for viewing and editing office documents
-- A code (text) editor to create your web pages.  [Visual Studio Code](https://code.visualstudio.com) is a free editor that can be downloaded via the internet and used on Windows, OS X (Mac) or Linux. Alternatively, you can use TextWrangler on OS X, or Notepad++ on Windows.
-- At least two modern browsers to view/test your web pages.  The latest versions of Chrome, and Firefox can be downloaded via the internet.  Many other browsers like Safari, Internet Explorer, and Edge, are also suitable for your use in this class.
+- A code (text) editor to create your web pages.  [Visual Studio Code](https://code.visualstudio.com) is a free code editor that can be downloaded via the internet and used on Windows, OS X (Mac) or Linux. Alternatively, you can use TextWrangler on OS X, or Notepad++ on Windows.
+- At least two modern browsers to view/test your web pages.  The latest versions of Chrome, and Firefox can be downloaded via the internet.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
 - An ftp client to upload your web pages to citstudent.lanecc.edu. [FileZilla](https://filezilla-project.org/download.php?show_all=1) is a free ftp client that can be downloaded via the internet and used on Windows, OS X, or Linux. Alternatively, you can use CyberDuck on OS X or CoreFTP on Windows.
 
 ####Web Resources
@@ -113,11 +115,12 @@ Exceptions will only be made for serious illness or emergency situations.
 
 ####Weekly Learning Activities
 
-| Monday               | Tuesday                                       | Wednesday       | Thursday                          | Friday | Saturday | Sunday    |
-| -------------------- | --------------------------------------------- | --------------- | --------------------------------- | ------ | -------- | --------- |
-| Start reading        |                                               |                 |                                   |        |          | Take quiz |
-| Start lab assignment | Finish lab assignment (schedule 5 to 7 hours) | Submit lab work |                                   |        |          |           |
-|                      | Go to class or Participate online             |                 | Go to class or Participate online |        |          |           |
+| Monday        | Tuesday                          | Wednesday                                                    | Thursday                          | Friday        | Saturday | Sunday |
+| ------------- | -------------------------------- | ------------------------------------------------------------ | --------------------------------- | ------------- | -------- | ------ |
+| Start reading |                                  |                                                              |                                   | Take the quiz |          |        |
+|               | Start this week's lab assignment | Schedule 5 to 7 hours during the week for the lab assignment |                                   |               |          |        |
+|               |                                  |                                                              | Submit last week's lab assignment |               |          |        |
+|               | Participate in class online      |                                                              | Participate in class online       |               |          |        |
 
 
 
@@ -127,13 +130,11 @@ While students are encouraged to discuss labs and to use each other as resources
 
 ### Attendance
 
-**In-class sections:** attendance is not graded but will be essential for successful completion of the class. Students who miss a class are responsible for obtaining the course content provided in class and mastering it. 
-
-**On-line sections:** it is essential that you log into Moodle at the beginning of every week to read the objectives for the week, watch the video lectures, and do the learning activities. 
+Attendance is not a part of your grade, but it is essential that you log into Moodle at the beginning of every week to read the objectives for the week. Throughout the week, you will need to participate in live class sessions online or watch recordings of the lectures, and do the learning activities. 
 
 **No-Show Drop:** LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy. which means that during the first week of the term, to avoid being dropped, a student must:
 
-- Attend at least one class session (for on-campus class sections) 
+- Attend at least one online live class session 
 
   or
 
@@ -148,33 +149,31 @@ Please be aware that any accessible tables and chairs in this room should remain
 
 
 
-### Academic Calendar for Fall Term 2019
+### Academic Calendar for Fall Term 2020
 
-| Event                                  | Date               |
-| -------------------------------------- | ------------------ |
-| Term begins                            | 9/30/19            |
-| Last day to receive refund             | 10/6/19            |
-| Veteran’s Day – college closed         | 11/11/19           |
-| Last day for schedule changes          | 11/22/19           |
-| Thanksgiving Vacation – college closed | 11/28/19 – 12/1/19 |
-| Finals week                            | 12/9/19 – 12/13/19 |
-
-
+| Event                                  | Date                |
+| -------------------------------------- | ------------------- |
+| Term begins                            | 9/30/20             |
+| Last day to receive refund             | 10/4/20             |
+| Veteran’s Day – college closed         | 11/11/20            |
+| Last day for schedule changes          | 11/20/20            |
+| Thanksgiving Vacation – college closed | 11/26/20 – 11/29/20 |
+| Finals week                            | 12/7/20 – 12/11/20  |
 
 ###Course Schedule
 
 (may be subject to change)
 
-| Week | Topics                                                       | Reading       | Quiz    | Lab Assignment                                               |
-| ---- | ------------------------------------------------------------ | ------------- | ------- | ------------------------------------------------------------ |
-| 1    | Syntax of HTML tags and attributes  Structural elements, line breaks Unordered and ordered lists Text formatting (bold, italic, etc.) Images | TBD           | Quiz 1  | [Lab 1](file:///Volumes/DataCard/Repos/CIS195-CourseMaterials/LabStarters/Lab 1/Lab1Instructions-PersonalBio.pdf) Oregon Overview, Personal Bio |
-| 2    | History of the Internet, the Web, and HTML Semantic elements CSS  JavaScript  Special characters Using a code editor Using a HTML validator | TBD           | Quiz 2  | Lab 2                                                        |
-| 3    | Developing a Web Site                                        | TBD           | Quiz 3  | Lab 3                                                        |
-| 4    | CSS Page Design                                              | TBD           | Quiz 4  | Lab 4                                                        |
-| 5    | FTP Publishing a web site                                    | Lecture Notes | Midterm | Term Project Proposal                                        |
-| 6    | CSS Page Layout                                              | TBD           | Quiz 5  | Lab 5                                                        |
-| 7    | HTML Tables                                                  | TBD           | Quiz 6  | Lab 6                                                        |
-| 8    | HTML Forms                                                   | TBD           | Quiz 7  | Lab 7                                                        |
-| 9    | Multimedia                                                   | TBD           | Quiz 8  | Lab 8                                                        |
-| 10   | Review                                                       |               |         | Term project [peer review](file:///Volumes/DataCard/Repos/CIS195-CourseMaterials/TermProject/TermProjectCodeReview.docx) |
-| 11   | Finals week                                                  |               | Final   | Submit [Term Project](file:///Volumes/DataCard/Repos/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf) |
+| Week | Topics                                                       | Quiz    | Lab Assignment                                               |
+| ---- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
+| 1    | Syntax of HTML tags and attributes  Structural elements, line breaks Unordered and ordered lists Text formatting (bold, italic, etc.) Images | Quiz 1  | [Lab 1](file:///Volumes/DataCard/Repos/CIS195-CourseMaterials/LabStarters/Lab 1/Lab1Instructions-PersonalBio.pdf) Oregon Overview, Personal Bio |
+| 2    | History of the Internet, the Web, and HTML Semantic elements CSS  JavaScript  Special characters Using a code editor Using a HTML validator | Quiz 2  | Lab 2                                                        |
+| 3    | Developing a Web Site                                        | Quiz 3  | Lab 3                                                        |
+| 4    | CSS Page Design                                              | Quiz 4  | Lab 4                                                        |
+| 5    | FTP Publishing a web site                                    | Midterm | Term Project Proposal                                        |
+| 6    | CSS Page Layout                                              | Quiz 5  | Lab 5                                                        |
+| 7    | HTML Tables                                                  | Quiz 6  | Lab 6                                                        |
+| 8    | HTML Forms                                                   | Quiz 7  | Lab 7                                                        |
+| 9    | Multimedia                                                   | Quiz 8  | Lab 8                                                        |
+| 10   | Review                                                       |         | Term project [peer review](file:///Volumes/DataCard/Repos/CIS195-CourseMaterials/TermProject/TermProjectCodeReview.docx) |
+| 11   | Finals week                                                  | Final   | Submit [Term Project](file:///Volumes/DataCard/Repos/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf) |
