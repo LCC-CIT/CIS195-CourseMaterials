@@ -2,12 +2,12 @@
 ## For online and hybrid class sections
 ### Fall 2020
 
-| Course    | CIS195                       |      | Instructor   | Brian Bird       |
-| --------- | ---------------------------- | ---- | ------------ | ---------------- |
-| CRN       | hybrid: 22476, online: 22477 |      | Email        | birdb@lanecc.edu |
-| Time, Day | 10:00–11:50, Tu & Th         |      | Office       | Virtual          |
-| Classroom | Virtual                      |      | Office Hours | TBD              |
-| Lab       | Virtual                      |      |              |                  |
+| Course    | CIS195                                               |      | Instructor   | Brian Bird                                         |
+| --------- | ---------------------------------------------------- | ---- | ------------ | -------------------------------------------------- |
+| CRN       | hybrid: 22476, online: 22477                         |      | Email        | birdb@lanecc.edu                                   |
+| Time, Day | 10:00–11:50, Tu & Th                                 |      | Office       | [Zoom meeting](https://lanecc.zoom.us/j/965222036) |
+| Classroom | [Zoom meeting](https://lanecc.zoom.us/j/91859746236) |      | Office Hours | M&mdash;Th, 12:00&ndash;12:50                      |
+| Tutors    | [Virtual Computer Lab](#Computer Lab)                |      |              |                                                    |
 
 
 
