@@ -2,11 +2,11 @@
 
 # Intro to the Course
 
-
+## Week 1, session 1
 
 | Topics by Week           |                             |
 | ------------------------ | --------------------------- |
-| 1. Intro to HTML 5       | 6. HTML Tables              |
+| 1. <u>Intro to HTML</u>  | 6. HTML Tables              |
 | 2. Developing a Web Site | 7. HTML Forms               |
 | 3. Design with CSS       | 8. Multimedia               |
 | 4. Page Layout with CSS  | 9. Advanced CSS             |

@@ -1,10 +1,10 @@
 # CIS195 Web Authoring 1: HTML                  
 
-##Week 1, Session 2
+## Week 1, Session 2
 
 | **Course weeks and topics**   |                         |
 | ----------------------------- | ----------------------- |
-| 1. <u>Intro to HTML 5</u>     | 6. Page Layout with CSS |
+| 1. <u>Intro to HTML</u>       | 6. Page Layout with CSS |
 | 2. More on Creating Web Pages | 7. HTML Tables          |
 | 3. Developing a Web Site      | 8. HTML Forms           |
 | 4. Design with CSS            | 9. Multimedia           |
@@ -14,11 +14,9 @@
 
 ## Review
 
-(10 minutes)
-
 - Visual Studio Code
 
-- - Create a new file and rename it
+  - Create a new file and rename it
 
   - Add HTML “boiler plate”
 
@@ -36,73 +34,41 @@
 
 - Add some HTML elements
 
-- - What is a tag?
+  - What is a tag?
   - What is an element?
 
 - View in browser 
 
-- **Exercise**
 
-- - TBD
 
- 
 
 ### More about HTML Tags and Elements
-
-(15 minutes)
 
 - HTML element attributes
 
   - Pattern: &lt;*element* *attribute1*=”*value1*” *attribute2*=”*value2*” ...&gt;
-  - Eaxample: &lt;meta charset="UTF-8"&gt;
+  - Example: &lt;meta charset="UTF-8"&gt;
   - The two parts of the attribute form a "key-value pair"
 
-- One-sided or self-closing tags
+- One-sided or "self-closing" tags
 
   - `<br>`
 
   - `<img src="kitten.png" alt="A very cute kitten">`
 
-### HTML Structural Elements 
-
-(5 minutes)
-
-- Non-semantic structural element
-
-- - `<div> some other elements would go here </div>`
-
-- These are *semantic structural elements* (also known as *semantic sectional elements*).
-
-  ```html
-  <header>
-  </header>
-  <section>
-       <article>
-       </article>
-  </section>
-  <aside>
-  </aside>
-  <footer>
-  </footer>
-  ```
 
 
+### More HTML Elements
 
-###More HTML Elements
+Here are some elements that we haven’t covered yet:
 
-(15 minutes)
+- Paragraph: `<p> some text </p>`
+- strong (bold): `<strong>some text</strong>`
+- emphasis (italics): `<emphasis>some text</emphasis>`
+- image: `<img alt="description" src="photo.jpg">`
+- Link: `<a href="http://lanecc.edu">Lane Community College</a>`
+- Ordered list:
 
-- We can’t see structural elements; they only organize the source code
-
-- We need to put visible elements inside the structural elements. 
-  Here are some that we haven’t covered yet:
-
-  - Paragraph: `<p> some text </p>`
-  - strong (bold): `<strong>some text</strong>`
-  - emphasis (italics): `<emphasis>some text</emphasis>`
-  - image: `<img alt="description" src="photo.jpg">`
-  - Link: `<a href="http://lanecc.edu">Lane Community College</a>`
-  - Ordered list:
 ``` html
     <ol>
       <li>First item</li>
@@ -116,19 +82,6 @@
       <li>Second item</li>
     </ul>
 ```
-  - Nested lists:
-  - ``` html
-    <ul>
-      <li>First item</li>
-      <li>Nested list      <!-- no closing li tag here -->
-        <ul>
-          <li>Sub-item one</li>
-          <li>Sub-item two</li>
-        </ul>
-      </li>     <!-- closing li for the list item containing the nested list -->
-    </ul>
-    ```
-
 
 
 ------
