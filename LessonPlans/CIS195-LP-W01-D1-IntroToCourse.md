@@ -2,7 +2,7 @@
 
 # Intro to the Course
 
-## Week 1, session 1
+## Week 1, Session 1
 
 | Topics by Week           |                             |
 | ------------------------ | --------------------------- |
@@ -21,6 +21,7 @@
 - Introduce myself
   - Why I love software development
   - Job history
+  - What I teach at LCC
 - Students introduce themselves on the Moodle forum
 
 ## Web Sites, HTML and CSS
@@ -28,7 +29,7 @@
 - Why we make web sites.
   - What are some reasons you might want to make a web site?
 - HTML (Hypertext Markup Language)
-  - It provides a way to structure the pages.
+  - It provides a way to structure the content of pages.
   - It lets us link pages together.
   - A markup language is different from a programming language.
 - CSS (Cascading Style Sheets)
@@ -69,7 +70,7 @@
   - Headings
   - Text-level elements including strong and emphasized text
 
-### Course Tour
+## Course Tour
 
 - Syllabus – quick overview
 
