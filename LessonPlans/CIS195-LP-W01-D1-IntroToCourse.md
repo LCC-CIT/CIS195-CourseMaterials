@@ -21,9 +21,7 @@
 - Introduce myself
   - Why I love software development
   - Job history
-- Students introduce themselves
-  - How many of you have done some kind of programming or made web pages before?
-  - How many have computers? Bring your notebook computer to class.
+- Students introduce themselves on the Moodle forum
 
 ## Web Sites, HTML and CSS
 
@@ -35,40 +33,40 @@
   - A markup language is different from a programming language.
 - CSS (Cascading Style Sheets)
   - Provides formatting and styling for the HTML pages.
+- Full blown example: [Chennai web page](https://lcc-cit.github.io/CIS195-Demos/Unit02\SouthIndia\Chennai)
 
-### Exercise
+  - View the source to see what the HTML looks like.
+  - You will be able to make a site like this by the middle of the term.
+
+### Discussion
 
 - What web page or site do you especially like?
 - What kind of web page would you like to make?
 
-### Basic Web Page
+### Making a Basic Web Page
 
 - First HTML page
+  We're going to make a web page together.
 
 - - The simplest example: [Empty page](https://lcc-cit.github.io/CIS195-Demos/Unit01/BasicPage/empty.html)
 
     - View the source to see what the HTML looks like.
 
-  - Full blown example: [My Oregon page](https://lcc-cit.github.io/CIS195-Demos/Unit01/OregonWebSite)
-
-    - View the source to see what the HTML looks like.
-
   - Define a Web page head, body, and title.
-    Stuff you need in every web page!
+  This is the stuff you need in every web page!
 
   - Explain the syntax of HTML
-
-  - - tags
+    - tags
     - elements
     - hierarchy
-
+  
   - Add text with no formatting
 
   - Add paragraphs
 
 - Basic Formatting Elements
 
-- - Headings
+  - Headings
   - Text-level elements including strong and emphasized text
 
 ### Course Tour
@@ -77,15 +75,13 @@
 
 - Reading and Quizzes
 
-- - Purpose of quizzes isn’t testing, it’s focus and accountability
+  - Purpose of quizzes isn’t testing, it’s focus and accountability
 
 - Lab assignments
 
-- - Part 1 is the warm-up
+  - Part 1 is the warm-up
   - Part 2 requires more problems solving
-  - Upload results to a web server
-
-* 
+  - Upload results to a web server (we'll do this later in the term)
 
 ------
 

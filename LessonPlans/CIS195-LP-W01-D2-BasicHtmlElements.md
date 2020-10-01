@@ -2,7 +2,7 @@
 
 ## Week 1, Session 2
 
-| **Course weeks and topics**   |                         |
+| **Course topics by week**     |                         |
 | ----------------------------- | ----------------------- |
 | 1. <u>Intro to HTML</u>       | 6. Page Layout with CSS |
 | 2. More on Creating Web Pages | 7. HTML Tables          |
