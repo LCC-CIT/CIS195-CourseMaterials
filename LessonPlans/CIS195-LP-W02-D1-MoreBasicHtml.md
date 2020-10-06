@@ -1,6 +1,6 @@
 **CIS195 Web Authoring 1: HTML**
 
-
+# More Basic HTML Elements
 
 | Course weeks and topics              |                         |
 | ------------------------------------ | ----------------------- |
@@ -10,9 +10,13 @@
 | 4. Design with CSS                   | 9. Multimedia           |
 | 5. Midterm                           | 10. Term Project        |
 
+**Contents**
 
+[TOC]
 
 ## Review
+
+Due dates
 
 Look at someone's lab 1 web site. Any volunteers?
 
@@ -23,8 +27,6 @@ Look at someone's lab 1 web site. Any volunteers?
 Define "syntax"
 
 [W3C HTML Validator](https://validator.w3.org)
-
-
 
 ## Visual Studio Code
 
@@ -145,6 +147,13 @@ The `<hr>` tag will put a horizontal line across the page. This is one of the "e
 
 
 
+## References
+
+[HTML Element Reference](https://www.w3schools.com/tags/default.asp) &mdash;W3 Schools
+
+[HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) &mdash;Mozilla Developer Network
+
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.online/), fall 2019.
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), fall 2020.
+
