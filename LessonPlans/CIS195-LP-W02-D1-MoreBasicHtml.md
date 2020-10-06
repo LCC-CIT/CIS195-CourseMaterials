@@ -71,7 +71,7 @@ Lists can be placed within lists. The right way to do it is to put the nested li
 </ul>
 ```
 
-This would look like this:
+In a browser, the nested lists would look like this:
 
 - Deserts
   - Pie
@@ -100,7 +100,24 @@ Try it out: [Figure on W3Schools](https://www.w3schools.com/tags/tag_figure.asp)
 
 ### Block quotes
 
-The block quote element indents the text and puts blank lines above and below it: ` <blockquote>`  
+The block quote element will:
+
+- Indent the text
+
+- Put blank lines above and below the text
+
+```
+<blockquote>
+Not all who wander are lost.
+</blockquote>
+```
+
+In a browser the `blockquote` would look like this:
+
+<blockquote>
+  Not all who wander are lost.
+</blockquote>
+
 Try it out: [Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockquote.asp)  
 
 
@@ -110,8 +127,15 @@ Try it out: [Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockqu
 Use this element to cite the work of someone else.
 
 ```html
-<cite>The Hobbit</cite> by J.R.R. Tolkein. Painted in 1937.
+from "The Riddle of Strider" in <cite>The Fellowship of the Ring</cite> by J.R.R. Tolkien
 ```
+
+If we put this inside the block quote, it will look like this in the browser
+
+<blockquote>
+  Not all who wander are lost.<br>
+  from "The Riddle of Strider" in <cite>The Fellowship of the Ring</cite> by J.R.R. Tolkien
+</blockquote>
 
 
 
@@ -120,7 +144,7 @@ Use this element to cite the work of someone else.
 Certain characters are not allowed (reserved characters) in HTML. For example, if you use the less than, `<`, or greater than, `>`, signs in your text, the browser is likely to see them as tags. The solution is to use *character entities* to display reserved characters. The code below shows two ways to write the character entities for `<` and `>`
 
 ```html
-&lt; or &60; and &gt; or &62;
+&lt; or &#60; and &gt; or &#62;
 ```
 
 Here are two ways to write the character entity for the copyright symbol, &copy;
