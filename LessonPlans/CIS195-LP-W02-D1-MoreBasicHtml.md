@@ -5,7 +5,7 @@
 | Course weeks and topics              |                         |
 | ------------------------------------ | ----------------------- |
 | 1. Intro to HTML 5                   | 6. Page Layout with CSS |
-| 2. <u>More on Creating Web Pages</u> | 7. HTML Tables          |
+| 2. <u>More HTML</u>, History of HTML | 7. HTML Tables          |
 | 3. Developing a Web Site             | 8. HTML Forms           |
 | 4. Design with CSS                   | 9. Multimedia           |
 | 5. Midterm                           | 10. Term Project        |
@@ -31,29 +31,6 @@ Define "syntax"
 How to download, install and use VS Code
 
 [Oficial VS Code web site](https://code.visualstudio.com)  
-
-### HTML Structural Elements 
-
-- Non-semantic structural element
-
-- - `<div> some other elements would go here </div>`
-
-- These are *semantic structural elements* (also known as *semantic sectional elements*).
-
-  ```html
-  <header>
-  </header>
-  <section>
-       <article>
-       </article>
-  </section>
-  <aside>
-  </aside>
-  <footer>
-  </footer>
-  ```
-
-
 
 ## In-line and Block Elements
 
