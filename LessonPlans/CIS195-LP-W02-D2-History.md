@@ -47,9 +47,9 @@ The [W3C HTML5](http://www.w3.org/TR/html5/) Recommendation was released 28 Octo
 
 -- [W3Schools](https://www.w3schools.com/html/html5_intro.asp)
 
-### The web at 30
+### The web at 30 something
 
-The original idea was to make it easy for scientists, and then later, for everyone to freely share information and ideas.
+The World Wide Web turned 30 on March 29, 2019. The original idea was to make it easy for scientists, and then later, for everyone to freely share information and ideas.
 How is this working out now? 
 What is the effect of:
 
