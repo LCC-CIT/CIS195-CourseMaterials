@@ -25,6 +25,8 @@ C:/Users/Brian/Repos/CIS195-Demos/Unit02/SouthIndia/Chennai/index.html
 C:/Users/Brian/Repos/CIS195-Demos/Unit02/SouthIndia/ChennaiArea/index.html
 ```
 
+<img src="C:\Users\Brian\Repos\CIS195-CourseMaterials\LessonPlans\FolderTree.png" style="zoom:40%;" />
+
 #### Path Delimiters
 
 The items in a path are separated by slashes. Windows originally used *back-slashes*,
@@ -45,30 +47,51 @@ Notice that the path starts with a slash.
 
 ### Relative paths
 
-A relative path specifies the location of a file or folder relative to some other folder. For example, if I am in the `CIS195-Demos` folder then the relative path would be `Unit02/SouthIndia/Chennai/index.html`
+A relative path specifies the location of a file or folder relative to some other folder. For example, if I am in the `SouthIndia` folder, then the relative path to the Chennai and ChennaiArea web pages would be: 
+(Notice that there is no slash at the beginning of a relative path.)
 
-Notice that there is no slash at the beginning of a relative path.
+`Chennai/index.html`
+`ChennaiArea/index.html`
 
-Here's another example, lets say I added a new `index.html` web page in the `SouthIndia` folder. If I put links in it to the other two pages, they would look like this:
+#### Linking to a page in a sub-folder
+
+If there is a web page in the `SouthIndia` folder, I could put links in it to the other two pages like this:
 
 ```html
 <a href="Chennai/index.html">Chennai</a>
 <a href="ChennaiArea/index.html">Chennai Area</a>
 ```
 
-If I want to write a path to a folder or file that is "above" the one I'm in, then I use two dots to represent going up one folder. For example, looking at the absolute paths above,  lets say I want to put a link from the `ChennaiArea/index.html` page to the `Chennai/index.html` page. I could write the link like this:
+<img src="FolderTree-SubfolderLink.png" style="zoom:50%;" />
+
+#### Linking to a page in a parent folder
+
+You use two dots and a slash to specify going up one level in a path: `../`
+For example, I could put a link in the Chennai web page to the SouthIndia web page like this:
 
 ```html
-<a href=""../Chennai/index.html">South India</a>
+<a href="../index.html">South India</a>
 ```
 
+<img src="FolderTree-ParentLink.png" style="zoom:50%;" />
 
+#### Linking to a page in a sibling folder
 
-If I want to go up by more than one folder I use more double-dots. For example, if  have an index.html page in the Unit02 folder and I want to link to it from my Chennai page, the link would look like this:
+To make a link to a folder that is a "sibling" (at the same level in the hierarchy) I need to use two-dots-slay to go up a folder and then go down to the sibling folder. For example, lets say I want to put a link from the `ChennaiArea/index.html` page to the `Chennai/index.html` page. I would need to go up one folder and then back down, like this:
+
+```html
+<a href="../Chennai/index.html">South India</a>
+```
+
+<img src="FolderTree-SiblingFolderLink.png" style="zoom:50%;" />
+
+If I want to go up by more than one folder I use double-dot-slash multiple times. For example, if  have an index.html page in the Unit02 folder and I want to link to it from my Chennai page, the link would look like this:
 
 ```html
 <a href="../../index.html">Unit 2"</a>
 ```
+
+<img src="FolderTree-LinkTwoFoldersUp.png" style="zoom:50%;" />
 
 ### Best practice
 
