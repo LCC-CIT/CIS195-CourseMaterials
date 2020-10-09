@@ -47,15 +47,16 @@ Notice that the path starts with a slash.
 
 ### Relative paths
 
-A relative path specifies the location of a file or folder relative to some other folder. For example, if I am in the `SouthIndia` folder, then the relative path to the Chennai and ChennaiArea web pages would be: 
-(Notice that there is no slash at the beginning of a relative path.)
+A relative path specifies the location of a file or folder relative to some other folder. For example, if you are in the `SouthIndia` folder, then the relative path to the Chennai and ChennaiArea web pages would be: 
 
 `Chennai/index.html`
 `ChennaiArea/index.html`
 
+Notice that there is no slash at the beginning of a relative path.
+
 #### Linking to a page in a sub-folder
 
-If there is a web page in the `SouthIndia` folder, I could put links in it to the other two pages like this:
+If there is a web page in the `SouthIndia` folder, you could put links in it to the other two pages like this:
 
 ```html
 <a href="Chennai/index.html">Chennai</a>
@@ -67,7 +68,7 @@ If there is a web page in the `SouthIndia` folder, I could put links in it to th
 #### Linking to a page in a parent folder
 
 You use two dots and a slash to specify going up one level in a path: `../`
-For example, I could put a link in the Chennai web page to the SouthIndia web page like this:
+For example, you could put a link in the Chennai web page to the SouthIndia web page like this:
 
 ```html
 <a href="../index.html">South India</a>
@@ -75,9 +76,17 @@ For example, I could put a link in the Chennai web page to the SouthIndia web pa
 
 <img src="FolderTree-ParentLink.png" style="zoom:50%;" />
 
+If you want to go up by more than one folder, use double-dot-slash multiple times. For example, if  there is an index.html page in the Unit02 folder and you want to link to it from the Chennai page, the link would look like this:
+
+```html
+<a href="../../index.html">Unit 2"</a>
+```
+
+<img src="FolderTree-LinkTwoFoldersUp.png" style="zoom:50%;" />
+
 #### Linking to a page in a sibling folder
 
-To make a link to a folder that is a "sibling" (at the same level in the hierarchy) I need to use two-dots-slay to go up a folder and then go down to the sibling folder. For example, lets say I want to put a link from the `ChennaiArea/index.html` page to the `Chennai/index.html` page. I would need to go up one folder and then back down, like this:
+To make a link to a folder that is a "sibling" (at the same level in the hierarchy), you need to use two-dots-slash to go up a folder and then go down to the sibling folder. For example, lets say you want to put a link from the `ChennaiArea/index.html` page to the `Chennai/index.html` page. You would need to go up one folder and then back down, like this:
 
 ```html
 <a href="../Chennai/index.html">South India</a>
@@ -85,13 +94,7 @@ To make a link to a folder that is a "sibling" (at the same level in the hierarc
 
 <img src="FolderTree-SiblingFolderLink.png" style="zoom:50%;" />
 
-If I want to go up by more than one folder I use double-dot-slash multiple times. For example, if  have an index.html page in the Unit02 folder and I want to link to it from my Chennai page, the link would look like this:
 
-```html
-<a href="../../index.html">Unit 2"</a>
-```
-
-<img src="FolderTree-LinkTwoFoldersUp.png" style="zoom:50%;" />
 
 ### Best practice
 
