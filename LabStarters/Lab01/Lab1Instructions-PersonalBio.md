@@ -7,11 +7,11 @@
 **Gain experience using:**
 
 - Headings (h1, h2, etc.)
-- Links (both internal and external)
+- Links (both between your pages and to an external site)
 
 - Text formatting (strong, emphasis, etc.)
 
-- Images
+- Images (don't forget the alt attribute)
 
 - Line breaks
 
@@ -21,12 +21,13 @@
 
 ## Requirements
 
-Create a web site that consists of at least two pages and presents a mini biography of yourself (or another person). Use each of the HTML feature listed above. Be creative, organize the page as you like and include whatever content you wish. In addition:
+Create a web site that consists of at least two web pages and presents a mini biography of yourself or another person. Use each of the HTML feature listed above. Be creative, organize the page as you like and include whatever content you wish. In addition:
 
 - Include all the required elements at the top of your web page (`<!DOCTYPE html>`, all the stuff that goes in the head element, etc.)
-- Indent your code to reflect the structure of the HTML elements
-- Name your home page *index.html*
-- Don't put spaces or other invalid characters in file names.
+- Indent your code to reflect the structure of the HTML elements.
+- Name your home page *index.html*.
+- Don't put spaces in folder or file names, just use letters or numbers.
+- Put the images in the same folder with your two web pages.
 
  
 

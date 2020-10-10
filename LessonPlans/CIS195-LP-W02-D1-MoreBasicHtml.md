@@ -22,17 +22,29 @@ Look at someone's lab 1 web site. Any volunteers?
 
 
 
-## Syntax Validator
+## Visual Studio Code
+
+How to download, install and use VS Code:
+
+[Oficial VS Code web site](https://code.visualstudio.com)  
+
+How to use VS Code to write HTML web pages:
+
+[HTML in Visual Studio Code](https://code.visualstudio.com/Docs/languages/html)
+
+VS Code will automatically let you know if you make mistakes (use wrong syntax) in your HTML code. It does this by showing the number of errors or warnings in the status bar at the bottom of the page.
+
+<img src="VSCodeErrorBar.png" alt="VSCodeErrorBar" style="zoom:67%;" />
+
+
+
+## W3C Syntax Validator
 
 Define "syntax"
 
 [W3C HTML Validator](https://validator.w3.org)
 
-## Visual Studio Code
 
-How to download, install and use VS Code
-
-[Oficial VS Code web site](https://code.visualstudio.com)  
 
 ## In-line and Block Elements
 
@@ -176,6 +188,10 @@ The `<hr>` tag will put a horizontal line across the page. This is one of the "e
 [HTML Element Reference](https://www.w3schools.com/tags/default.asp) &mdash;W3 Schools
 
 [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) &mdash;Mozilla Developer Network
+
+[Oficial VS Code web site](https://code.visualstudio.com)&mdash;Microsoft
+
+[HTML Syntax Validator](https://validator.w3.org)&mdash;World Wide Web Consortium
 
 ------
 
