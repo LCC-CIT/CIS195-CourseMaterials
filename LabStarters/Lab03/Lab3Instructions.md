@@ -1,20 +1,20 @@
 **CIS 195, Web Authoring 1: HTML**
 
-#Lab 3 Instructions
+# Lab 3 Instructions
 
 
 
 ## Part 1: A web page with internal links
 
-Create a single web page that gives a short list of information. An example is the page I wrote in class on the planets in our solar system. The page should have a list of items at the top with internal links to sections on the same page containing information related to each item. The page should use each of the following HTML elements:
+Create a single web page that contains short sections of information on some topic. The page should have a set of links at the top of the page that take a user to those sections on the same page. The page should use each of the following HTML elements:
 
-- A `<nav>` element that will contain a list of links. 
+- A `<nav>` element that will contain a set of links. 
 
-  (The "list" doesn't have to be an actual `<uo>` or `<ol>` list element, it could be a series of links with `<br>` tags after each one so they are arranged vertically.)
+  (The set of links doesn't have to be in an <uo>` or `<ol>` list element, it could be a series of links with `<br>` tags after each one so they are arranged vertically on the page.)
 
 - Hyperlink, `<a>`, elements with *href* attributes that link to *id* attributes in elements on the same page--at least four.
 
-- An Image link. This is just ahyperlink with an image inside instead of text.
+- An Image link. This is just a hyperlink with an image inside instead of text.
 
 - A hyperlink to an e-mail address.
 
