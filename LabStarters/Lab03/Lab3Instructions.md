@@ -10,7 +10,7 @@ Create a single web page that contains short sections of information on some top
 
 - A `<nav>` element that will contain a set of links. 
 
-  (The set of links doesn't have to be in an <uo>` or `<ol>` list element, it could be a series of links with `<br>` tags after each one so they are arranged vertically on the page.)
+  (The set of links doesn't have to be in an `<uo>` or `<ol>` list element, it could be a series of links with `<br>` tags after each one so they are arranged vertically on the page.)
 
 - Hyperlink, `<a>`, elements with *href* attributes that link to *id* attributes in elements on the same page--at least four.
 
