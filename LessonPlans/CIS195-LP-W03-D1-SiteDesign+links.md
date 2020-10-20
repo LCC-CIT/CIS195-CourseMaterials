@@ -10,7 +10,9 @@
 | 4. Design with CSS                         | 9. Multimedia           |
 | 5. Midterm                                 | 10. Term Project        |
 
+**Contents**
 
+[TOC]
 
 ## Website Structure
 
@@ -69,7 +71,7 @@ The anchor element, `<a>` , can have a target attribute that is used to control 
 
 ### Base path for hyperlinks
 
-The <base> tag sets a default path for all the href and src attributes on the page. 
+The <base> tag sets a default path for all the `href` and `src` attributes on the page. 
 It should be put in the <head> element.
 
 Example:
@@ -91,14 +93,14 @@ Example:
 
 ### Creating links to locations inside a page
 
-####Mark the target with the id attribute
+#### Mark the target with the id attribute
 
 To link to a  location within a document, you first need to mark that location. You can do that with the id attribute.
 
 - The id names must be unique.
 - The id names are not case sensitive.
 
-####Use the id as an href
+#### Use the id as an `href`
 
 Just prefix the id name with a *#* so the browser will know it's a link to an id.
 
@@ -117,7 +119,7 @@ Just prefix the id name with a *#* so the browser will know it's a link to an id
 <h2 id="roast">How the Beans are Roasted</h2>
 ```
 
-####Linking to an id inside another page
+#### Linking to an id inside another page
 
 ```html
 <a href="https://theaviary.com/birds.html#pigeons">Our homing pigeons</a>
@@ -142,7 +144,7 @@ You can use an e-mail address in a hypertext link so that when a user clicks the
 <a href="mailto:webmaster@example.com">Send an e-mail</a>
 ```
 
-The mailto protocol  allows you to add information to the e-mail, including the subject line and the text of the message. Spaces are replaced with the %20 character code since URLs cannot contain blank spaces
+The `mailto` protocol  allows you to add information to the e-mail, including the subject line and the text of the message. Spaces are replaced with the %20 character code since URLs cannot contain blank spaces
 
 ```html
 <a href="mailto:webmaster@example.com?Subject=Test&Message=This%20is%20a%20test">Send a test e-mail message</a>
