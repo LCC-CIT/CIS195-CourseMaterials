@@ -79,9 +79,9 @@ Here are examples of hex values and their decimal equivalents:
 
 
 
-##Text and font styles
+## Text and font styles
 
-###Text Properties
+### Text Properties
 
 - text-align  
   Sets horizontal alignment of text.
@@ -104,7 +104,7 @@ Here are examples of hex values and their decimal equivalents:
 - word-spacing
 - line-height
 
-###Font Properties
+### Font Properties
 
 - font-style
   - *normal*
@@ -150,7 +150,7 @@ Here are examples of hex values and their decimal equivalents:
       }
     ```
 
-  ###Numeric lengths in CSS
+  ### Numeric lengths in CSS
 
   - absolute length units
     - *cm*&mdash;centimeters
@@ -179,7 +179,7 @@ Web fonts allow developers to use fonts that may not be installed on end user's 
 
 
 
-##List Style Properties
+## List Style Properties
 
 - list-style-type
   
@@ -224,7 +224,7 @@ Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/c
 
 
 
-##Example
+## Example
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
 
@@ -232,7 +232,7 @@ Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/c
 
   
 
-##References
+## References
 
 * [W3Schools: CSS Text Tutorial](https://www.w3schools.com/css/css_text.asp)
 * [W3Schools: CSS Font Tutorial](https://www.w3schools.com/css/css_font.asp)
@@ -241,7 +241,7 @@ Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/c
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 

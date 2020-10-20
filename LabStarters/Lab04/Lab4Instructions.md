@@ -40,9 +40,12 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 ## Submitting your web sites to Moodle
 
 - Zip the files in part 1
+
 - Zip the files in part 2
+
 - Upload both zip files to Moodle using the lab submission link.
-- 
+
+
 
 ## Reference
 
