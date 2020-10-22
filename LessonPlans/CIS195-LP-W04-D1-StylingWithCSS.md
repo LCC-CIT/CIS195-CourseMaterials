@@ -210,8 +210,6 @@ article {
 `<article>`
 `<aside>`
 `<details>`
-`<figcaption>`
-`<figure>` &mdash; this one is more than just a structural element
 `<footer>`
 `<header>`
 `<main>`
@@ -222,10 +220,6 @@ article {
 `<time>`
 
 [W3Schools tutorial on semantic elements](https://www.w3schools.com/HTML/html5_semantic_elements.asp)
-
-[MDN Article on section elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)
-
-
 
 ### Non-semantic structural elements
 
