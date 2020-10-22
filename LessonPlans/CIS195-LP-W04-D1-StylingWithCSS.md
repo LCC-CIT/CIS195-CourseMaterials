@@ -135,75 +135,97 @@ A Style-sheet is just a set of one or more CSS rules.
 
 ### Attribute selectors
 
-- **id selector**
-  A particular id attribute can be used only once on a web page to identify an element. It has multiple uses in HTML.
+#### id selector
+A particular `id` attribute can be used only once on a web page to identify an element. It has multiple uses in HTML.
 
-  - hash tag selects an id.
-  - Example of a css id rule:
+- A hash tag in an `href` address selects an `id` a link inside a web page.
+- The selector for a CSS id rule starts with a hash tag.
+- An id can be the target of a CSS rule. Example of a css id rule:
 
-  ```css
-  #intro {
-    background-color: powderblue;
-  }
-  ```
-  
-  Example of a target HTML element:
-  
-  ```html
-  <p id="intro">This is an introductory parapgrah...</p>
-  ```
-  
-  
+```css
+#intro {
+  background-color: powderblue;
+}
+```
+
+Example of a target HTML element:
+
+```html
+<p id="intro">This is an introductory parapgrah...</p>
+```
 
 
-- **class selector**
-  A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
 
-  - dot selects a class
-    
-  - Example of a css class rule:
-    
-      ```css
-      .greenBold {
-        font-weight: bold;
-          color: green;
-      }
-      ```
-      
-  - Example of a target HTML element:
+#### class selector
+A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
+
+- dot selects a class.
   
-    ```html
-    <span class="greenbold">This is important!</span>
+- Example of a css class rule:
+  
+    ```css
+    .greenBold {
+      font-weight: bold;
+        color: green;
+    }
     ```
-  
+    
+- Example of a target HTML element:
+
+  ```html
+  <span class="greenbold">This is important!</span>
+  ```
+
+
 - <u>More attribute selectors</u>
 
-  | Selector                                                     | Example CSS Rule | Example target HTML Attribute    |
-  | ------------------------------------------------------------ | ---------------- | -------------------------------- |
-  | element.class                                                | ol.ingredients   | *&lt;ol class="ingredients"*&gt; |
-  | element[attribute]                                           | ol[type]         | &lt;*ol type*="A"&gt;            |
-  | element[attribute]                                           | ol[type="A"]     | &lt;*ol type="A"*&gt;            |
-  | *[And there are more!](https://www.w3schools.com/css/css_attribute_selectors.asp)* |                  |                                  |
+  | Selector type                                                | Example CSS Rule Selector | Example target HTML Attribute    |
+  | ------------------------------------------------------------ | ------------------------- | -------------------------------- |
+  | element.class                                                | `ol.ingredients`          | *&lt;ol class="ingredients"*&gt; |
+  | element[attribute]                                           | `ol[type]`                | &lt;*ol type*="A"&gt;            |
+  | element[attribute="value"]                                   | `ol[type="A"]`            | &lt;*ol type="A"*&gt;            |
+  | *[And there are more!](https://www.w3schools.com/css/css_attribute_selectors.asp)* |                           |                                  |
   
 
 
 
 ## Structural elements as CSS selectors
 
-### Semantic structural elements
-
-We've already seen and used some of the structural (aka sectional) elements like `<header>`, `<section>`, etc. Now we will see another use for these elements besides providing organizational structure to our page. These can be used as CSS rule selectors to provide a way to format a section of the page. For example:
+These can be used as CSS rule selectors to provide a way to format a section of the page. For example:
 
 ```css
 section {
    font-family: Verdana, Geneva, sans-serif;
    text-align: center;
 }
+
+article {
+   font-size: large;
+   color: blue;
+}
 ```
+
+### Semantic structural elements
+
+`<article>`
+`<aside>`
+`<details>`
+`<figcaption>`
+`<figure>` &mdash; this one is more than just a structural element
+`<footer>`
+`<header>`
+`<main>`
+`<mark>`
+`<nav>`
+`<section>`
+`<summary>`
+`<time>`
 
 [W3Schools tutorial on semantic elements](https://www.w3schools.com/HTML/html5_semantic_elements.asp)
 
-[MDN Article on sectional elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)
+[MDN Article on section elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines)
+
+
 
 ### Non-semantic structural elements
 

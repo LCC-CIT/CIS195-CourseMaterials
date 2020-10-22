@@ -41,6 +41,7 @@
 - By numeric color code
   - Decimal
     `color: rgb(0, 0, 255)`
+    
   - Hexadecimal
     `color: #0000FF;`
     
@@ -85,7 +86,7 @@ Here are examples of hex values and their decimal equivalents:
 
 - text-align  
   Sets horizontal alignment of text.
-- - left&mdash;aligns text to the left.
+  - left&mdash;aligns text to the left.
   - right&mdash;aligns text to the right.
   - center&mdash;centers the text.
   - justify&mdash;Inserts spaces between words so that the line fills the whole width.
@@ -154,7 +155,7 @@ Here are examples of hex values and their decimal equivalents:
 
   - absolute length units
     - *cm*&mdash;centimeters
-    - *mm*&mdash;milimeters
+    - *mm*&mdash;millimeters
     - *in*&mdash;inches
     - *px*&mdash;pixels
     - *pt*&mdash;points
