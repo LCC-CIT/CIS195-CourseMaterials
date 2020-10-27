@@ -38,21 +38,35 @@
   `color: blue;`
   
   There are 140 standard color names that are understood by all the browsers. Here's a [list of color names on W3Schools](https://www.w3schools.com/colors/colors_names.asp)
+  
 - By numeric color code
+  The codes are based on the RGB color system.
+  R is for red, G is for green, B is for blue.
+  There are two ways to represent RGB colors:
+
   - Decimal
-    `color: rgb(0, 0, 255)`
+
+    - The range for each color is 0 to 255
+    - Example: `color: rgb(0, 0, 255)`
+
   - Hexadecimal
     `color: #0000FF;`
-    
+
     A total of 16,777,216 different colors can be represented (256 x 256 x 256, or 2<sup>24</sup>).
+
 - Special colors
   - White consists of all colors
   - Black is the absence of color
+  
 - Opacity
+  Higher numbers make the color more opaque.
+  
   - Decimal
-    `color: rgba(0, 0, 255, 0.5);`
+    - The range it 0 .0 to 1.0
+    - Example:`color: rgba(0, 0, 255, 0.5);`
   - Hexadecimal
-    `color: #0000FF7F;`
+    - The range is 0 to FF
+    - Example:`color: #0000FF7F;`
 
 [W3Schools tutorial on CSS color properties](https://www.w3schools.com/css/css_colors.asp)
 
@@ -67,7 +81,7 @@ One of the ways to represent colors in CSS styles is using the base 16 number sy
 Here are examples of hex values and their decimal equivalents:
 
 - 0 hex is 0 decimal
-- A hex is 9 decimal
+- A hex is 10 decimal
 - F hex is 15 decimal
 - 10 hex is 16 decimal
 - 1F hex is 31 decimal
@@ -79,13 +93,13 @@ Here are examples of hex values and their decimal equivalents:
 
 
 
-##Text and font styles
+## Text and font styles
 
-###Text Properties
+### Text Properties
 
 - text-align  
   Sets horizontal alignment of text.
-- - left&mdash;aligns text to the left.
+  - left&mdash;aligns text to the left.
   - right&mdash;aligns text to the right.
   - center&mdash;centers the text.
   - justify&mdash;Inserts spaces between words so that the line fills the whole width.
@@ -104,7 +118,7 @@ Here are examples of hex values and their decimal equivalents:
 - word-spacing
 - line-height
 
-###Font Properties
+### Font Properties
 
 - font-style
   - *normal*
@@ -150,11 +164,11 @@ Here are examples of hex values and their decimal equivalents:
       }
     ```
 
-  ###Numeric lengths in CSS
+  ### Numeric lengths in CSS
 
   - absolute length units
     - *cm*&mdash;centimeters
-    - *mm*&mdash;milimeters
+    - *mm*&mdash;millimeters
     - *in*&mdash;inches
     - *px*&mdash;pixels
     - *pt*&mdash;points
@@ -179,7 +193,7 @@ Web fonts allow developers to use fonts that may not be installed on end user's 
 
 
 
-##List Style Properties
+## List Style Properties
 
 - list-style-type
   
@@ -224,7 +238,7 @@ Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/c
 
 
 
-##Example
+## Example
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
 
@@ -232,7 +246,7 @@ Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/c
 
   
 
-##References
+## References
 
 * [W3Schools: CSS Text Tutorial](https://www.w3schools.com/css/css_text.asp)
 * [W3Schools: CSS Font Tutorial](https://www.w3schools.com/css/css_font.asp)
@@ -241,7 +255,7 @@ Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/c
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
