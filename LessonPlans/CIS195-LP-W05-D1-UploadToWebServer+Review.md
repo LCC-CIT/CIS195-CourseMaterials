@@ -34,7 +34,7 @@
 
 
 
-##Review For Midterm
+## Review For Midterm
 
 - What to review
 
@@ -65,12 +65,13 @@
 - The CIT Department's web server: [citstudent](http://citstudent.lanecc.edu).
   - [My South India website](http://citstudent.lanecc.edu/~brianb/southindia/)
   - I will send you your username and password.
+  - Instructions for [changing your password on citstudent](../Lessons/ChangingYourPasswordOnLinux.html).
 - Apps for uploading files to a server.
 - [Instructions](../Lessons/UploadingWebSites.html) for uploading files to citstudent.
 
 
 
-##References
+## References
 
 * [MDN: How do you upload your files to a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Upload_files_to_a_web_server)
 
@@ -80,7 +81,7 @@
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
