@@ -6,7 +6,7 @@ You will need some kind of a terminal application in order to connect to the rem
 
 - [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)&mdash;Install this app from the Windows Store
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)&mdash;Download and install this app
-- [Windows 10 Command Prompt](https://www.chiark.greenend.org.uk/~sgtatham/putty/)&mdash;Instructions for enabling and using this Windows feature
+- [Windows 10 Command Prompt](https://www.techolac.com/linux/use-ssh-commands-in-windows-10-command-prompt/)&mdash;Instructions for enabling and using this Windows feature
 
 ## Using Mac OS
 
