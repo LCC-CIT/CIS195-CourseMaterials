@@ -40,7 +40,7 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 - Use FileZilla to upload the folders containing your web site to citstudent.
   - Do not zip the files.
   - If both parts 1 and 2 are in the same web site, you can just upload that one web site.
-- Record the URL (web address) or your home page so that you can enter it on Moodle. 
+- Record the URL (web address) of your home page so that you can enter it on Moodle. 
 
 #### Submitting to Moodle
 
@@ -51,7 +51,7 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 - Upload both zip files to Moodle.
 (If your part 2 contains the page in part 1, then you only need to zip and upload part 2)
   
-- Enter the URL (web address) of your site in the "Online Text" box for this Moodle assignment.
+- Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle.
 (Without this, I won't be able to find your web page.)
   
   
