@@ -15,32 +15,29 @@
 
 ## Contents
 
--   [Introduction](#introduction)
--   [Backgrounds](#backgrounds)
--   [Page Design](#page-design)
--   [Float and Clear](#float-and-clear)
--   [Example](#example)
--   [References](#references)
+[TOC]
 
 
 
 ## Introduction
 
 -   Review due dates on Moodle.
--   Update on citstudent usernames and passwords
+-   Are there any questions about uploading web sites to citstudent?
 -   This week we will be talking about page layout (design), which is different from formating.
 
 
 
 ##Backgrounds
 
-#### CSS background properties
+### CSS background properties
 
 - background-color
 - background-image
 - background-repeat
 - background-attachment
 - background-position
+
+### Background Images
 
 Setting a background image:
 
@@ -50,11 +47,28 @@ body {
 }
 ```
 
-#### Background Shorthand Property
+Background shorthand property:
 
 ```css
 body {
   background: orange url("sunset.png") no-repeat left top;
+}
+```
+
+Making an image fill the whole browser viewport:
+
+```CSS
+html {
+  url("sunset.png") no-repeat cover;
+}
+```
+
+Making an image stretch to fit the body:
+
+```CSS
+body {
+  background-image: url("sunset.png");
+  background-size: 100% 100%; 
 }
 ```
 
@@ -127,10 +141,13 @@ Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-Cour
 
 ##References
 
-* [W3Schools Tutorial: CSS Background](https://www.w3schools.com/css/css_background.asp)
-* [W3Schools Tutorial: Float](https://www.w3schools.com/css/css_float.asp)
-* [W3C Specification: CSS Box Model](https://www.w3.org/TR/css-box-3/)
-* [W3C Specification: Backgrounds and Borders](https://www.w3.org/TR/css-backgrounds-3/)
+* [CSS Background](https://www.w3schools.com/css/css_background.asp)&mdash;W3Schools
+
+* [CSS Background Image Size Tutorial](https://www.freecodecamp.org/news/css-full-page-background-image-tutorial/)&mdash;Free Code Camp
+
+* [CSS float](https://www.w3schools.com/css/css_float.asp)&mdash;W3Schools
+
+  
 
 ------
 
