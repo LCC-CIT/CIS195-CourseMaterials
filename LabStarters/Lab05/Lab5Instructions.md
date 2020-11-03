@@ -33,19 +33,32 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 
 
 
-## Submitting your web sites to Moodle
+## Submission
+
+#### Publishing to citstudent
+
+- Use FileZilla to upload the folders containing your web site to citstudent.
+  - Do not zip the files.
+  - If both parts 1 and 2 are in the same web site, you can just upload that one web site.
+- Record the URL (web address) or your home page so that you can enter it on Moodle. 
+
+#### Submitting to Moodle
 
 - Zip the files in part 1
 
 - Zip the files in part 2
 
-- Upload both zip files to Moodle using the lab submission link.
-
+- Upload both zip files to Moodle.
+(If your part 2 contains the page in part 1, then you only need to zip and upload part 2)
+  
+- Enter the URL (web address) of your site in the "Online Text" box for this Moodle assignment.
+(Without this, I won't be able to find your web page.)
+  
   
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
