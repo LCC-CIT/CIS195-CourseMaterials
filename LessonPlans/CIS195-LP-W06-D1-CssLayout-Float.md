@@ -27,7 +27,7 @@
 
 
 
-##Backgrounds
+## Backgrounds
 
 ### CSS background properties
 
@@ -74,7 +74,7 @@ body {
 
 
 
-##Page Design
+## Page Design
 
 #### Fixed Layout
 
@@ -96,7 +96,7 @@ body {
 
 
 
-##Float and Clear
+## Float and Clear
 
 #### Float
 
@@ -105,13 +105,12 @@ The `float` property is used with block elements to position them side-by-side (
 Example:
 
 ```css
-img {
+figure {
   float: right;
 }
 ```
 
-
-####Clear
+#### Clear
 
 The `clear` property is used to cancel the float property and put the element back into the normal flow of the page.
 
@@ -131,7 +130,7 @@ Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-Cour
 
 
 
-##Example
+## Example
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/Index.html)
 
@@ -139,7 +138,7 @@ Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-Cour
 
   
 
-##References
+## References
 
 * [CSS Background](https://www.w3schools.com/css/css_background.asp)&mdash;W3Schools
 

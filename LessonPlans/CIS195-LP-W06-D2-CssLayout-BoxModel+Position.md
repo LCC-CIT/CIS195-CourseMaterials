@@ -167,7 +167,7 @@ img {
 
 
 
-##Example
+## Example
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
 
@@ -175,7 +175,7 @@ img {
 
   
 
-##References
+## References
 
 * [W3Schools: Box Model ](https://www.w3schools.com/css/css_boxmodel.asp)
 * [W3Schools: Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
