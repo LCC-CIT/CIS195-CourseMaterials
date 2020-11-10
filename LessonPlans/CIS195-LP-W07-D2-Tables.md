@@ -33,7 +33,7 @@ Notes for each week are available in the [course outline](https://lcc-cit.github
 -   Review due dates on Moodle.
 -   Choose courses for Winter 2020 now!
     -   Winter registration is  already open
-    -   You can view the [Winter CIT class schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202030) now. 
+    -   You can view the [Winter CIT class schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202130) now. 
         Reccomended courses for the [Programing Degree](https://www.lanecc.edu/cit/computer-programming) this coming Fall:
         -   <u>Programming Courses</u>
             -   CS 133N, Beginning Programming: C#, 4 creditss&mdash;*requires Math 60*.
@@ -46,7 +46,7 @@ Notes for each week are available in the [course outline](https://lcc-cit.github
                 *Lower level math classes are available as well.*
             -   PE/Health requirement, 3 credits.
             -   CG203, Human Relations at Work or an approved communication course, 3 credits.
-    -   Road-map for the Programing Degree: [Required Courses for the Programming Degree](https://drive.google.com/file/d/1t_KfQAACLnjG6qDBdG2-Qu1RAM19wo_K/view?usp=sharing).
+    -   Road-map for the Programing Degree: [Required Courses for the Programming Degree](https://drive.google.com/file/d/1vWOGqvMj0CveCjTDqymQzJ7cn7jGHKVX/view?usp=sharing).
 
 
 
@@ -187,7 +187,7 @@ The best practice is to format tables with CSS rather than with HTML attributes.
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) These Web Authoring lecture notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) These Web Authoring lecture notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
