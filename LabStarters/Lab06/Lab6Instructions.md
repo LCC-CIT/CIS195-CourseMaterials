@@ -6,13 +6,15 @@
 
 You will create tables with the following features:
 
-- Rows with multiple cells (td elements).
-- Headings.
+- Rows with multiple cells (td elements)
+- Headings
 - Borders
-- Row and column spans.
+- Row and column spans
 - A caption
+- Footer
+- CSS styling
 
-### Part A: A weekly class schedule
+### Part A: a weekly class schedule
 
 Make a table that represents your weekly schedule (it can be real or fictitious).
 
@@ -25,7 +27,7 @@ Your table should meet the following requirements:
 5. Add events (at least two per day, and not all on the same rows).
 6. Add a caption.
 
-### Part B: A one-month calendar
+### Part B: a one-month calendar
 
 Create a one month calendar for a real or fictitious organization (a club, sports team, school, etc.). Choose a particular month and arrange the table so that the days of the week are across the top and each square has the number for the day of the month in it and the event.
 
@@ -40,7 +42,7 @@ Your events table should contain the following:
 
    - Use `<tbody>`.
 
-   - Each square, aka `<td>` element, should contian a number representing the day of the month. Put it in a location in the square that looks good--not right in front of the event.
+   - Each square, aka `<td>` element, should contain a number representing the day of the month. Put it in a location in the square that looks good--not right in front of the event.
 
    - Put at least eight events in separate squares (days).
 
