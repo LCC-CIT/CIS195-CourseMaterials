@@ -70,6 +70,7 @@ Borders can be added using CSS. For example:
 ```css
 table, td {
   border: solid;
+  border-collapse: collapse;
 }
 ```
 
@@ -144,6 +145,14 @@ The table will be rendered like this:
 
 ```html
   <caption>Table Example</caption>
+```
+
+Captions can be positioned using CSS. For example:
+
+```css
+caption {
+  caption-side:bottom;
+}
 ```
 
 
