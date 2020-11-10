@@ -22,7 +22,7 @@ You will create a page containing a form with the following features:
 
 Make a Form that could be used to enter an on-line raffle contest. You can decide on the prize. Your page should contain the following:
 
-6. A heading with an appropriate header and a paragraph describing  the raffle contest.
+1. A heading with an appropriate header and a paragraph describing  the raffle contest.
 2. A form.
    - The form should contain following input elements:
      - Name.
@@ -37,7 +37,7 @@ Make a Form that could be used to enter an on-line raffle contest. You can decid
 
 
 
-##Submitting your web sites to Moodle
+## Submitting your web site
 
 - Publish to the web server
 
@@ -46,11 +46,10 @@ Make a Form that could be used to enter an on-line raffle contest. You can decid
 
 - Upload to Moodle
 
-  - Zip the files in part 1
-  - Zip the files in part 2
-  - Upload both zip files to Moodle using the lab submission link for the assignment.
-
+  - Zip the files
+  - Upload the zip file to Moodle using the lab submission link for the assignment.
   
+
 
 ------
 

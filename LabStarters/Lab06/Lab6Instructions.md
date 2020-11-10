@@ -1,7 +1,6 @@
-#Lab 6 Instructions
+# Lab 6 Instructions
 
-
-##Tables
+## Tables
 
 #### Objectives
 
@@ -13,7 +12,7 @@ You will create tables with the following features:
 - Row and column spans.
 - A caption
 
-###Part 1
+### Part A: A weekly class schedule
 
 Make a table that represents your weekly schedule (it can be real or fictitious).
 
@@ -26,8 +25,7 @@ Your table should meet the following requirements:
 5. Add events (at least two per day, and not all on the same rows).
 6. Add a caption.
 
-
-###Part 2
+### Part B: A one-month calendar
 
 Create a one month calendar for a real or fictitious organization (a club, sports team, school, etc.). Choose a particular month and arrange the table so that the days of the week are across the top and each square has the number for the day of the month in it and the event.
 
@@ -67,7 +65,7 @@ Your events table should contain the following:
 
 
 
-##Submitting your web pages
+## Submitting your web pages
 
 - Publish to the web server
 
@@ -76,8 +74,8 @@ Your events table should contain the following:
 
 - Upload to Moodle
 
-  - Zip the files in part 1
-  - Zip the files in part 2
+  - Zip the files in part A
+  - Zip the files in part B
   - Upload both zip files to Moodle using the lab submission link for the assignment.
 
   
