@@ -16,9 +16,9 @@
 
 ## Announcements
 
-- Look at someone's lab 5.
 - Review due dates (lab and quiz).
-- Ask about progress on term projects.
+- Are there any questions on lab 5?
+- How is the term project coming?
 
 
 
@@ -50,7 +50,7 @@ Tables are constructed using multiple elements (which means multiple tags). A ta
 
 
 
-The table  will be rendered like this:
+The table  will be rendered in a browser like this:
 
 <table
   <tr><td>row1, column 1</td>
