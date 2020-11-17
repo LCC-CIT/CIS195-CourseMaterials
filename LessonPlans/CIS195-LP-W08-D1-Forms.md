@@ -116,6 +116,10 @@ Using the tab key you can move from one control to the next in the form.
 
 ## Fieldset and Legend Elements
 
+The `<fieldset.` element groups a set of controls in a form by putting a box around them.
+
+The `<legend>` element inserts a legend (aka title) into the box surrounding the fields.
+
 ```html
 <form>
   <fieldset>
@@ -164,8 +168,9 @@ The `<textarea>` element allows users to enter multiple lines of text.
 The row and cols attributes determine the size.
 The wrap attribute determines the type of line warp: hard or soft.
 - Hard: Carriage-return and line-feed character codes are inserted into the text where it wraps.
+  
   *Note: this doesn't seem to work in the current version of Firefox for Windows.*
-- Soft: No caracter codes are inserted where the text wraps.
+- Soft: No character codes are inserted where the text wraps.
 
 ```html
 <label for="review">Describe the trail</label>

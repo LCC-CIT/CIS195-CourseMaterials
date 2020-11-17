@@ -1,6 +1,6 @@
 # Lab 7 Instructions
 
-## Forms
+## An HTML Form
 
 #### Objectives
 
@@ -18,13 +18,14 @@ You will create a page containing a form with the following features:
 
 - Labels
 
-  
 
-Make a Form that could be used to enter an on-line raffle contest. You can decide on the prize. Your page should contain the following:
+### Implementation
 
-1. A heading with an appropriate header and a paragraph describing  the raffle contest.
+Make a web page containing a form that could be used to enter an on-line raffle contest. You can decide on the prize. Your page should contain the following:
+
+1. A heading with an appropriate header and a paragraph describing the raffle contest.
 2. A form.
-   - The form should contain following input elements:
+   - The form should contain input elements for the following user input:
      - Name.
      - E-mail address.
      - Mailing address.
@@ -41,14 +42,13 @@ Make a Form that could be used to enter an on-line raffle contest. You can decid
 
 - Publish to the web server
 
-  - Upload both web pages to citstudent (unzipped).
-  - Put the URLs for the pages in the on-line text for the Moodle assignment.
+  - Upload the web page to citstudent (unzipped).
+  - Put the URLs of the page in the on-line text for the Moodle assignment.
 
 - Upload to Moodle
 
-  - Zip the files
-  - Upload the zip file to Moodle using the lab submission link for the assignment.
-  
+  - Upload the web page file to Moodle using the lab submission link for the assignment.
+
 
 
 ------
