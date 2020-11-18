@@ -16,7 +16,7 @@ You will create tables with the following features:
 
 ### Part A: a weekly class schedule
 
-Make a table that represents your weekly schedule (it can be real or fictitious).
+Make a web page containing a table that represents your weekly schedule (it can be real or fictitious).
 
 Your table should meet the following requirements:
 
@@ -29,7 +29,7 @@ Your table should meet the following requirements:
 
 ### Part B: a one-month calendar
 
-Create a one month calendar for a real or fictitious organization (a club, sports team, school, etc.). Choose a particular month and arrange the table so that the days of the week are across the top and each square has the number for the day of the month in it and the event.
+Create a web page for with a table for a one month calendar for a real or fictitious organization (a club, sports team, school, etc.). Choose a particular month and arrange the table so that the days of the week are across the top and each square has the number for the day of the month in it and the event.
 
 Your events table should contain the following:
 
@@ -58,7 +58,7 @@ Your events table should contain the following:
 
 4. A caption that provides an appropriate title for the table.
 
-5. Apply styling to the events calendar.
+5. Apply styling to the events calendar using an embedded stylesheet.
 
    - Use a `<colgroup>` element to apply styling to at least one column.
    - Set border properties in a way that looks good to you.
