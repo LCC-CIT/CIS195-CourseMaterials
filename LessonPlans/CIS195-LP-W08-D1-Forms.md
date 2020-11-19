@@ -1,5 +1,7 @@
 # HTML Forms, Part 1
 
+## The Basics
+
 | Course weeks and topics  |                            |
 | ------------------------ | -------------------------- |
 | 1. Intro to HTML 5       | 6. Page Layout with CSS    |
@@ -148,7 +150,7 @@ Labels don't change the appearance of the form, but they:
 - Are clickable if the *for* attribute is used (the *for* value must match the *id* of the input element).
 - Give focus to the associated control when the mouse pointer hovers over them.
 
-**Note**: labels are in-line elements but, you can change them to a block element with the CSS *display:block* property.
+**Note**: labels are in-line elements but, you can change them to a block element with the CSS `display:block` property.
 
 ```html
 <form>
@@ -176,6 +178,8 @@ The wrap attribute determines the type of line warp: hard or soft.
 <label for="review">Describe the trail</label>
 <textarea name="review" id="review" rows="3" cols="40" wrap="hard"></textarea>
 ```
+
+
 
 
 ------
