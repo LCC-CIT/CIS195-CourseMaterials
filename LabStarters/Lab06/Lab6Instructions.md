@@ -35,26 +35,27 @@ Your events table should contain the following:
 
 1. A header.
 
-   - Use `<thead>`.
+   - Use `<thead>`
    - There should be at least seven columns (one for each day of the week).
 
 2. A body.
 
-   - Use `<tbody>`.
+   - Use `<tbody>`
 
-   - Each square, aka `<td>` element, should contain a number representing the day of the month. Put it in a location in the square that looks good--not right in front of the event.
+   - Each cell, aka `<td>` element, should contain a number representing the day of the month. Put it in a location in the square that looks good--not right in front of the event.
 
    - Put at least eight events in separate squares (days).
 
-   - Alt least one event should use a *rowpan* attribute.
+   - Alt least one event should use a `rowpan` attribute.
 
      *Note: you can specify the day-of-month numbers as a range in the td that spans multiple rows. For example: 15&ndash;17.*
 
-   - At least two events should use a *colspan* attribute.
+   - At least two events should use a `colspan` attribute.
 
 3. A footer.
 
-   - Provide some kind of a summary in a row that contains one or more `<td>` elements with `<rowspan>`	 attributes.
+   - Use `<tbody>`
+   - Provide some kind of a summary in a row that contains one or more `<td>` elements with at least one`<colspan>` attribute.
 
 4. A caption that provides an appropriate title for the table.
 

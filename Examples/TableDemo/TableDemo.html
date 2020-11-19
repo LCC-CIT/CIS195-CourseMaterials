@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <!-- Table demo, Brian Bird, 4/17/14 -->
+    <!-- Table demo, Brian Bird, 4/17/2014, modified 11/19/2020 -->
     <meta charset="UTF-8" />
     <title>Table Demo</title>
     <style>
@@ -10,8 +10,12 @@
             border: 4px double darkgreen;
             border-collapse: collapse;
             /* overrides the td rule */
-            /*border-spacing: 5px; */
+            /* border-spacing: 5px; */
             /* space between borders */
+        }
+
+        table.grades #leftcol, table.grades thead {
+            background-color: lightgrey;
         }
         
         table.grades td {
@@ -90,15 +94,16 @@
 
     <br /><br />
 
-    <!------------------------------------------------>
-    <!-- This second table is styled with CSS rules -->
-    <!------------------------------------------------>
+    <!--------------------------------------------------------->
+    <!-- This second table is styled with embedded CSS rules -->
+    <!--------------------------------------------------------->
 
     <table class="grades">
 
         <colgroup>
+            <col id="leftcol">
             <col>
-            <col span="2">
+            <col>
             <col>
         </colgroup>
 

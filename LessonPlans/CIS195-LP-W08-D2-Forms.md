@@ -29,11 +29,12 @@ Selection lists present the user with a set of options from which they may selec
    <option value="alsea">Alsea Falls</option>
 </select>
 ```
-The `size` attribute determines how many options are shown without scrolling the list.        
+The `size` attribute determines how many options are shown without scrolling the list. 
+If you set `size="1"`, the control will give you a drop-down selection list when you click on it.
 
 #### Selection of multiple items
 
-- By default, only one selection is allowed. Setting the attribute `multiple="multiple"` allows - The shift or control keys can be used when selecting multiple items.
+- By default, only one selection is allowed. Setting the attribute `multiple="multiple"` allows the shift or control keys to be used when selecting multiple items.
   - Shift: lets you select items in a continuous range.
   - Control: lets you select multiple single items.
 
@@ -106,7 +107,7 @@ We can improve the way our form works and give our users a        better experie
 
 ### Validation using HTML5 input types
 
-These `<input>` types are all essentially        variants of the "text" type, but they limit the range of        characters that the user is allowed to enter and change the        appearance of the control to match the input type.
+These `<input>` types are all essentially variants of the "text" type, but they limit the range of  characters that the user is allowed to enter and change the  appearance of the control to match the input type.
       
 
 - date
@@ -114,19 +115,14 @@ These `<input>` types are all essentially        variants of the "text" type, bu
 - number
 - password
 - tel
-            *Note: tel does not do much            validation, but on most browsers**, it will pop up a numeric            keypad.*
+            *Note:* `tel` *does not do much validation, but on most browsers, it will pop up a numeric  keypad.*
         
 - [and more](https://www.w3schools.com/html/html_form_input_types.asp)
 
-
-​      
-
 Code example:
-        ` <input type="email" name="name"          placeholder="person@example.com"> ` 
+        ` <input type="email" name="name" placeholder="person@example.com"> ` 
         Running in the browser:
       
-
-  
 
 #### Validation using the required attribute
 
