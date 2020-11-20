@@ -15,7 +15,16 @@
 
 [TOC]
 
+## Introduction
+
+- Announcements
+- Review due dates 
+- Answer questions about the lab assignment or anything else
+
+
+
 ## More Control Elements
+
 ### Selection Lists
 
 Selection lists present the user with a set of options from which they may select one (or more?). Selection lists are often displayed by the browser as a drop-down list or a scrollable list.  
@@ -85,12 +94,12 @@ Selection of buttons with the same name will be mutually exclusive.
 
 
 
-#### Access Keys
+### Access Keys
 
 The `accesskey` attribute specifies a keyboard shortcut for moving the focus to a particular element.
 
 ```HTML
-<input type="radio" name="length" value="short"          accesskey="s">Short trail<br>
+<input type="radio" name="length" value="short" accesskey="s">Short trail<br>
 <input type="radio" name="length" value="long">Long trail accesskey="l<br />        
 ```
 
@@ -102,71 +111,78 @@ To use the access key in Chrome, Edge or Safari, hold down the *alt* key while p
 
 ## Input Validation
 
-We can improve the way our form works and give our users a        better experience, if we let them know when they have entered        information that isn't valid for a particular form field. There        are several ways we can do this using HTML. (There are even more        ways to do this with JavaScript running on our web page or with        code running on the server.)
+We can improve the way our form works and give our users a better experience, if we let them know when they have entered information that isn't valid for a particular form field. There are several ways we can do this using HTML. (There are even more ways to do this with JavaScript running on our web page or with other code running on a server.)
       
 
 ### Validation using HTML5 input types
 
-These `<input>` types are all essentially variants of the "text" type, but they limit the range of  characters that the user is allowed to enter and change the  appearance of the control to match the input type.
+These `<input>` types are all essentially variants of the "text" type, but they limit the range of  characters that the user is allowed to enter and/or change the appearance of the control to match the input type.
       
 
-- date
-- email
-- number
-- password
-- tel
-            *Note:* `tel` *does not do much validation, but on most browsers, it will pop up a numeric  keypad.*
-        
+- `date`
+- `email`
+- `number`
+- `password`
+- `tel`  
+         *Note:* `tel` *does not do much validation, but on most browsers, it will pop up a numeric  keypad.*
+     
 - [and more](https://www.w3schools.com/html/html_form_input_types.asp)
 
 Code example:
-        ` <input type="email" name="name" placeholder="person@example.com"> ` 
-        Running in the browser:
+```HTML
+<input type="email" name="name" placeholder="person@example.com"> 
+```
+
+Running in the browser:
+<form> <input name="name" placeholder="person@example.com" type="email">
+<input type="submit"> </form>
+### Validation using the required attribute
+
+Use the *required* attribute to ensure that the user enters something in a field.
       
-
-#### Validation using the required attribute
-
-Use the *required*        attribute to ensure that the user enters something in a field.
-      
-
 Code example:
-        ` <input type="tel" name="telephone" required>        `
 
-  
+```HTML
+<input type="tel" name="telephone" required>
+```
 
-###          
+Running in the browser:
+<form><input type="tel" name="telephone" required>
+<input type="submit"></form>
 
-### Validation using *regular expressions*
+### Validation using regular expressions
 
- 
+The pattern attribute allows us to use a special pattern-matching string called a *regular expression*, also  called a *regex*. 
 
-The pattern attribute allows us to use a special          pattern-matching string called a *regular expression*, also          called a *reg**ex*. It must be a valid          JavaScript regular expression. This means: 
+ Code example:
 
 
-        Code example:
-` <input name="zip" placeholder="97405-1234"          pattern="^\d{5}(-\d{4})?$"> `
-        Running in the browser:
+```HTML
+<input name="zip" placeholder="97405-1234" pattern="^\d{5}(-\d{4})?$">
+```
+ Running in the browser:
 
-  
+<form><input name="zip" placeholder="97405-1234" pattern="^\d{5}(-\d{4})?$">
+  <input type="submit">
+</form>
 
- 
+Here is the meaning of the symbols in the pattern attribute: 
 
-- ^ = Start of the string.
--  \ denotes that the charter following it is not a literal            character and should be interpreted as special.
-              Or, if the following character is already a special            character, then it should be interpreted literally.
-- \d{5} = Match 5 digits (for condition 1, 2, 3)
-- (?:…) = Grouping
-- [-\s] = Match a space (for condition 3) or a hyphen (for            condition 2)
-- \d{4} = Match 4 digits (for condition 2, 3)
-- …? = The pattern before it is optional (for condition 1)
-- $ = End of the string.
+| |  Meaning of Regular Expression Symbols  |
+|-------------------------------------------|--|
+| `^`  | Start of the string. |
+| `\` | denotes that the charter following it is not a literal character and should be interpreted as special |
+| `\d{5}` | Match 5 digits |
+| `(?:…)` |  Grouping |
+| `[-\s]` | Match a space or a hyphen |
+| `\d{4}` | Match 4 digits |
+| `?` | The pattern before it is optional |
+| `$` |  End of the string |
 
-#### Regex reference
-
-###  
+#### Regex references
 
 -  [Regex demo page](https://regex101.com/r/aYnU3Q/1)
-- [ MDN: text input attributes (including                 pattern)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
+- [ MDN: text input attributes (including pattern)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
 - [ MDN: Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
 
