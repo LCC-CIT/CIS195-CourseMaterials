@@ -36,6 +36,12 @@ Make a web page containing a form that could be used to enter an on-line raffle 
 3. A footer with a made-up organization name and slogan.
 4. Embedded CSS to color the background of the form one color and the background of the fields another color.
 
+### Example
+
+Here's an example of a raffle web page done by a previous student. This is to give you an idea about how to lay out your page, but please choose your own raffle idea.
+
+[Turkey Raffle Page](Example-TurkeyRaffle.pdf)
+
 
 
 ## Submitting your web site
