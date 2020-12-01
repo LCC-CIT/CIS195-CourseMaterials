@@ -20,7 +20,7 @@ You will use the web page from lab 4, part 1 (originally done for lab 2, part 1,
 
 Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It was a review site with a home page and at least three review pages.)
 
-1. Use float and other appropriate CSS properties to create navigation buttons on each page.
+1. Use float and other appropriate CSS properties to create navigation links on each page.
 2. On  at least one figure:
    - Add padding, a visible border, and margin.
    - Make the corners of the figure rounded.
