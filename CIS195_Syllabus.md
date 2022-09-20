@@ -1,13 +1,12 @@
 # Syllabus for Web Authoring 1: HTML
-## For online and hybrid class sections
-### Fall 2020
+## For online and hyflex class sections
+### Fall 2022
 
-| Course    | CIS195                                               |      | Instructor   | Brian Bird                                         |
-| --------- | ---------------------------------------------------- | ---- | ------------ | -------------------------------------------------- |
-| CRN       | hybrid: 22476, online: 22477                         |      | Email        | birdb@lanecc.edu                                   |
-| Time, Day | 10:00–11:50, Tu & Th                                 |      | Office       | [Zoom meeting](https://lanecc.zoom.us/j/965222036) |
-| Classroom | [Zoom meeting](https://lanecc.zoom.us/j/91859746236) |      | Office Hours | M&mdash;Th, 12:00&ndash;12:50                      |
-| Tutors    | [Virtual Computer Lab](#Computer Lab)                |      |              |                                                    |
+| Course    | CIS195                       |      | Instructor   | Brian Bird                                                   |
+| --------- | ---------------------------- | ---- | ------------ | ------------------------------------------------------------ |
+| CRN       | hyflex: 21300, online: 20846 |      | Email        | birdb@lanecc.edu                                             |
+| Time, Day | 10:00–11:50, Tu & Th         |      | Office       | Building 19, room 152                                        |
+| Classroom | Building 19, room 128        |      | Office Hours | M&mdash;Th, 12:00&ndash;12:50 <br />in the CIT Computer Lab, room 135 |
 
 
 
@@ -63,7 +62,7 @@ There is no textbook for this class. You will learn from the class lectures, lec
 
 The in-person computer lab and tutoring center is temporarily closed due to COVID-19, but tutoring is still available online. You can drop into the [Lane Support Hub Zoom Room](https://lanecc.zoom.us/j/98549544816) and request a CIT tutor, or make an appointment with a CIT tutor via the scheduling page at [lanecc.mywconline.com](https://lanecc.mywconline.com/). More information is available on the [LCC Tutoring Services](https://www.lanecc.edu/tutor) web page.
 
-~~The hardware and software required for the course is available to all students in the CIT Main Lab in building 19, room 135. You paid a fee when you registered for this course that provides you with unlimited access to CIT lab facilities.  There are tutors available in the lab to help you with your lab work. There is a schedule is posted on the large white board inside the lab which lists the tutors and the times they will be available.~~
+The hardware and software required for the course is available to all students in the CIT Main Lab in building 19, room 135. You paid a fee when you registered for this course that provides you with unlimited access to CIT lab facilities.  There are tutors available in the lab to help you with your lab work. There is a schedule is posted on the large white board inside the lab which lists the tutors and the times they will be available.
 
 #### Software
 
