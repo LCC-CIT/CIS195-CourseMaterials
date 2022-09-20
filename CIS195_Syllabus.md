@@ -2,11 +2,11 @@
 ## For online and hyflex class sections
 ### Fall 2022
 
-| Course    | CIS195                       |      | Instructor   | Brian Bird                                                   |
-| --------- | ---------------------------- | ---- | ------------ | ------------------------------------------------------------ |
-| CRN       | hyflex: 21300, online: 20846 |      | Email        | birdb@lanecc.edu                                             |
-| Time, Day | 10:00–11:50, Tu & Th         |      | Office       | Building 19, room 152                                        |
-| Classroom | Building 19, room 128        |      | Office Hours | M&mdash;Th, 12:00&ndash;12:50 <br />in the CIT Computer Lab, room 135 |
+| Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
+| --------- | ------------------------------------------------------------ | ---- | ------------ | ------------------------------------------------------------ |
+| CRN       | HyFlex: 21300, online: 20846                                 |      | Email        | birdb@lanecc.edu                                             |
+| Time, Day | 10:00–11:50, Tu & Th                                         |      | Office       | Building 19, room 152                                        |
+| Classroom | Building 19, room 128<br />[Zoom Meeting](https://lanecc.zoom.us/j/99487864515) |      | Office Hours | M&mdash;Th, 12:00&ndash;12:50 <br />In the CIT Computer Lab (rm. 135)<br />and via [Zoom](https://lanecc.zoom.us/j/94159665543) |
 
 
 
@@ -66,7 +66,7 @@ The hardware and software required for the course is available to all students i
 
 #### Software
 
-~~If you plan to do lab work somewhere other than in class or in the CIT Main Lab~~, you will need: 
+If you plan to do lab work somewhere other than in class or in the CIT Main Lab, you will need: 
 
 - Word processing software such as MS Office, [OpenOffice](http://www.openoffice.org) or GoogleDocs for viewing and editing office documents
 - A code (text) editor to create your web pages.  [Visual Studio Code](https://code.visualstudio.com) is a free code editor that can be downloaded via the internet and used on Windows, OS X (Mac) or Linux. Alternatively, you can use TextWrangler on OS X, or Notepad++ on Windows.
@@ -148,16 +148,16 @@ Please be aware that any accessible tables and chairs in this room should remain
 
 
 
-### Academic Calendar for Fall Term 2020
+### Academic Calendar for Fall Term 2022
 
-| Event                                  | Date                |
-| -------------------------------------- | ------------------- |
-| Term begins                            | 9/30/20             |
-| Last day to receive refund             | 10/4/20             |
-| Veteran’s Day – college closed         | 11/11/20            |
-| Last day for schedule changes          | 11/20/20            |
-| Thanksgiving Vacation – college closed | 11/26/20 – 11/29/20 |
-| Finals week                            | 12/7/20 – 12/11/20  |
+| Event                                  | Date          |
+| -------------------------------------- | ------------- |
+| Fall term classes begin                | 9/27          |
+| Last day to receive refund             | 10/3          |
+| Veteran’s Day – college closed         | 11/11         |
+| Last day for schedule changes          | 11/18         |
+| Thanksgiving Vacation – college closed | 11/24 – 11/27 |
+| Finals week                            | 12/5 – 12/9   |
 
 ###Course Schedule
 
