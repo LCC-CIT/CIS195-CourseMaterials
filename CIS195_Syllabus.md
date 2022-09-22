@@ -15,9 +15,9 @@
 
 ## Course Description
 
-This four-credit course provides students who have minimal computer experience with the concepts and skills necessary to create static web pages using Hyper Text Markup Language, HTML, and Cascading Style Sheets (CSS).  Through hands-on practice students will master the concepts, tools and skills needed to construct web pages and to post pages on the internet.
+This four-credit course provides students who have minimal computer experience with the concepts and skills necessary to create static web pages using HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).  Through hands-on practice students will master the concepts, tools and skills needed to construct web pages and to upload pages to a web server on the internet.
 
-The intention of the course is to enable you to create and maintain static pages that are part of any web site using modern technologies and tools.
+The intention of the course is to enable you to create and maintain static pages that could be part of any modern web site using current technologies and tools.
 
 - HTML5
 - CSS3
@@ -64,7 +64,7 @@ There is no textbook for this class. You will learn from the class lectures, lec
 
 The CIT computer lab in building19, room 135, is equipped with computers and and all the software required for this course.  The lab is available to all students in the CIT department. There are tutors available in the lab to help you with your lab assignments. A schedule will be posted on the large white board inside the lab with a list of the tutors and the times they will be available.
 
-### Tutoring and Online Support Services
+### Online Tutoring and Support Services
 
 In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the [Lane Support Hub](http://lanecc.edu/hub) (Zoom link: lanecc.edu/hub). Feel free to drop in or guarantee time with a tutor by making an appointment using [WCOnline](https://lanecc.mywconline.com/). Check out the [ATS website](https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services) (link: lanecc.edu/tutor) for updated hours and additional information.
 
