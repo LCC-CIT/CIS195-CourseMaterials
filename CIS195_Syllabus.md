@@ -26,6 +26,14 @@ The intention of the course is to enable you to create and maintain static pages
 - Code Editors - for creating HTML and CSS files (like Visual Studio Code)
 - FTP clients - for uploading files to a server (like FileZilla)
 
+### Effort
+
+Since this is a four-credit class, students will need to devote at least 12 hours per week to the class.
+
+- 4 hours for class participation.
+- 2 hours for reading (lecture notes and tutorials).
+- 6 hours for lab assignments.
+
 ### Themes
 
 In addition to the topics listed in the [course schedule](#course-schedule), these themes will be interwoven with those topics:
@@ -156,14 +164,16 @@ Please be aware that any accessible tables and chairs in this room should remain
 
 ## Academic Calendar for Fall Term 2022
 
-| Event                                  | Date          |
-| -------------------------------------- | ------------- |
-| Fall term classes begin                | 9/27          |
-| Last day to receive refund             | 10/3          |
-| Veteran’s Day – college closed         | 11/11         |
-| Last day for schedule changes          | 11/18         |
-| Thanksgiving Vacation – college closed | 11/24 – 11/27 |
-| Finals week                            | 12/5 – 12/9   |
+| Event                                              | Date          |
+| -------------------------------------------------- | ------------- |
+| Fall term classes begin                            | 9/27          |
+| Last day to receive refund                         | 10/3          |
+| Veteran’s Day – college closed on Friday           | 11/11         |
+| Last day for schedule changes                      | 11/18         |
+| Thanksgiving Vacation – college closed on Thursday | 11/24 – 11/27 |
+| Finals week                                        | 12/5 – 12/9   |
+
+View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.
 
 
 
@@ -181,7 +191,7 @@ Please be aware that any accessible tables and chairs in this room should remain
 | 6    | CSS Page Layout                                              | Quiz 5  | Lab 5                                                        |
 | 7    | HTML Tables                                                  | Quiz 6  | Lab 6                                                        |
 | 8    | HTML Forms                                                   | Quiz 7  | Lab 7                                                        |
-| 9    | Multimedia (images, audio and video)                         | Quiz 8  | Lab 8                                                        |
+| 9    | Multimedia (images, audio and video)<br />*Thanksgiving holiday on Thursday* | Quiz 8  | Lab 8                                                        |
 | 10   | Review                                                       |         | Term project [peer review](TermProject/TermProjectCodeReview.docx) |
 | 11   | Finals week                                                  | Final   | Submit [Term Project](TermProject/CIS195TermProject.pdf)     |
 
