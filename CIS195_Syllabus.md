@@ -2,12 +2,14 @@
 
 <h2>Fall 2022 Online and HyFlex class sections</h2>
 
-|           | Class Info                   |      |              | Instructor Info                                              |
-| --------- | ---------------------------- | ---- | ------------ | ------------------------------------------------------------ |
-| Course    | CIS195                       |      | Instructor   | Brian Bird                                                   |
-| CRN       | hyflex: 21300, online: 20846 |      | Email        | birdb@lanecc.edu                                             |
-| Time, Day | 10:00–11:50, Tu & Th         |      | Office       | Building 19, room 152                                        |
-| Classroom | Building 19, room 128        |      | Office Hours | M&mdash;Th, 12:00&ndash;12:50 <br />in the CIT Computer Lab, room 135 |
+|           | Class Info                                                   |      |              | Instructor Info                                              |
+| --------- | ------------------------------------------------------------ | ---- | ------------ | ------------------------------------------------------------ |
+| Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
+| CRN       | hyflex: 21300, online: 20846                                 |      | Email        | birdb@lanecc.edu                                             |
+| Time, Day | 10:00–11:50, Tu & Th                                         |      | Office       | Building 19, room 152                                        |
+| Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Office Hours | M&mdash;Th, 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
+
+
 
 <h2>Table of Contents</h2>
 
