@@ -34,7 +34,7 @@
   - A markup language is different from a programming language.
 - CSS (Cascading Style Sheets)
   - Provides formatting and styling for the HTML pages.
-- Full blown example: [Chennai web page](https://lcc-cit.github.io/CIS195-Demos/Unit02\SouthIndia\Chennai)
+- Full blown example: [Chennai web page](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/Chennai)
 
   - View the source to see what the HTML looks like.
   - You will be able to make a site like this by the middle of the term.
@@ -46,29 +46,38 @@
 
 ### Making a Basic Web Page
 
-- First HTML page
-  We're going to make a web page together.
+#### The skeleton of every web page
 
-- - The simplest example: [Empty page](https://lcc-cit.github.io/CIS195-Demos/Unit01/BasicPage/empty.html)
+- The simplest example: [Empty page](https://lcc-cit.github.io/CIS195-Demos/Unit01/BasicPage/empty.html)
 
-    - View the source to see what the HTML looks like.
+  - View the source to see what the HTML looks like.
 
-  - Define a Web page head, body, and title.
-  This is the stuff you need in every web page!
+    This is the stuff you need in every web page!
 
-  - Explain the syntax of HTML
-    - tags
-    - elements
-    - hierarchy
+
+- When you make a web page, you need to define html, head and body elements.
   
-  - Add text with no formatting
+- Explain the syntax of HTML
+  - tags
+  - elements
+  - hierarchy
 
-  - Add paragraphs
+#### Adding some content and structure to the skeleton
 
-- Basic Formatting Elements
+Now we're going to modify the empty page to make our own first web page. You can use Notepad on Windows, or TextEdit[^1] on a Mac.
 
-  - Headings
-  - Text-level elements including strong and emphasized text
+ on a Mac.
+
+- Copy the empty HTML page and edit it to make your own page.
+
+- Add text with no formatting.
+
+- Add paragraphs using the `<p>` tag.
+
+- Add some basic Formatting Elements
+
+  - Headings use the `<h1>`, `<h2>`, `<h3>` etc. tags.
+  - Text-level elements including strong, `<b>` and emphasized `<i>` text.
 
 ## Course Tour
 
@@ -81,12 +90,15 @@
 - Lab assignments
 
   - Part 1 is the warm-up
+  
   - Part 2 requires more problems solving
-  - Upload results to a web server (we'll do this later in the term)
+  
+  - Upload the web sites you make to a web server (we'll do this later in the term).
+  
+    
 
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
-------------
-
+[^1]: In order to save files from TextEdit with a .html extension, you will need to open the TextEdit preferences and select "plain text" as the default format.
