@@ -20,7 +20,7 @@
 
 - Introduce myself
   - Why I love software development
-  - Job history
+  - My experience as a software developer
   - What I teach at LCC
 - Students introduce themselves on the Moodle forum
 
