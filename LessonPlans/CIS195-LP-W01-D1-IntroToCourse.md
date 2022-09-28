@@ -64,9 +64,7 @@
 
 #### Adding some content and structure to the skeleton
 
-Now we're going to modify the empty page to make our own first web page. You can use Notepad on Windows, or TextEdit[^1] on a Mac.
-
- on a Mac.
+Now we're going to modify the empty page to make our own first web page. You can use Notepad on Windows, or TextEdit[^1] on a Mac.
 
 - Copy the empty HTML page and edit it to make your own page.
 
@@ -97,8 +95,17 @@ Now we're going to modify the empty page to make our own first web page. You can
   
     
 
+## Next Class
+
+- Learn to use Visual Studio Code (and help with installing VS Code).
+- Make a simple web page using VS Code.
+- Learn how to use some more HTML elements.
+- Get started on the lab assignment in class.
+
+
+
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised 2022, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 [^1]: In order to save files from TextEdit with a .html extension, you will need to open the TextEdit preferences and select "plain text" as the default format.
