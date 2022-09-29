@@ -12,37 +12,44 @@
 
 
 
+## Intro
+
+- Review due dates and what you need to do this week.
+- Review the weekly learning cycle shown in the Moodle side-bar.
+
 ## Review
 
-- Visual Studio Code
+- HTML “boiler plate”
 
-  - Create a new file and rename it
+  ```html
+  <!DOCTYPE html> 
+  <html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <title>Some Title</title>
+     </head>
+     <body> 
+     </body>
+  </html>
+  ```
 
-  - Add HTML “boiler plate”
-
-    ```html
-    <!DOCTYPE html> 
-    <html lang="en">
-       <head>
-          <meta charset="UTF-8">
-          <title>Some Title</title>
-       </head>
-       <body> 
-       </body>
-    </html>
-    ```
-
-- Add some HTML elements
+- HTML elements
 
   - What is a tag?
   - What is an element?
 
-- View in browser 
+## Visual Studio Code
+
+Visual Studio Code
+
+- Install VS Code
+  Instructions are here: [Setting up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview)
+- Create an HTML file
+  - Create a new file, then rename it with the html extension.
+  - Add the HTML "boiler plate".
 
 
-
-
-### More about HTML Tags and Elements
+## More about HTML Tags and Elements
 
 - HTML element *attributes*
 
