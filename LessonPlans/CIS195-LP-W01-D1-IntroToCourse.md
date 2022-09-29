@@ -75,11 +75,28 @@ Now we're going to modify the empty page to make our own first web page. You can
 - Add some basic Formatting Elements
 
   - Headings use the `<h1>`, `<h2>`, `<h3>` etc. tags.
+  
   - Text-level elements including strong, `<b>` and emphasized `<i>` text.
+  
+    
 
-## Course Tour
+## Course Overview
 
-- Syllabus – quick overview
+### Computer Skill Expectations
+
+This is a beginning class with no prerequisites, but you should be able to do some basic things on a computer such as:
+
+- Create and edit a file using an application like Microsoft Word.
+
+- Manage files and folders using File Explorer (Windows), or the Finder (MacOS).
+
+  You should be able to move, copy, rename or delete files and folders.
+
+- Install an application.
+
+### Syllabus and Learning Activities
+
+- Syllabus – posted on Moodle
 
 - Reading and Quizzes
 
@@ -87,12 +104,17 @@ Now we're going to modify the empty page to make our own first web page. You can
 
 - Lab assignments
 
-  - Part 1 is the warm-up
-  
-  - Part 2 requires more problems solving
-  
-  - Upload the web sites you make to a web server (we'll do this later in the term).
-  
+  Most labs have two parts (not Lab 1 though):
+
+  - Part 1 is the warm-up.
+
+  - Part 2 requires more problems solving.
+
+  - Upload the web sites you make to:
+
+    - Moodle
+    - A web server (we'll do this later in the term).
+    
     
 
 ## Next Class

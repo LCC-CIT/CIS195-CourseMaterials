@@ -15,7 +15,13 @@
 ## Intro
 
 - Review due dates and what you need to do this week.
+
+  - Quiz 1
+  - Lab 1
+
 - Review the weekly learning cycle shown in the Moodle side-bar.
+
+  
 
 ## Review
 
@@ -73,6 +79,8 @@ Here are some elements that we haven’t covered yet:
 - strong (bold): `<strong>some text</strong>`
 - emphasis (italics): `<emphasis>some text</emphasis>`
 - image: `<img alt="description" src="photo.jpg">`
+
+  Put the image file in the same folder with the html file.
 - Link: `<a href="http://lanecc.edu">Lane Community College</a>`
 - Ordered list:
 
@@ -91,6 +99,14 @@ Here are some elements that we haven’t covered yet:
 ```
 
 
+
+## Lab Assignment
+
+The lab 1 instructions are posted in the week 1 section on Moodle.
+
+
+
+
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) 2018, revised 2022, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
