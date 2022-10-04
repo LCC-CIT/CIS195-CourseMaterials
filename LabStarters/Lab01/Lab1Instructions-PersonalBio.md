@@ -44,6 +44,14 @@ To create your web pages, you can use [Visual Studio Code](https://code.visualst
 
 
 
+## Grading
+
+Here is a link to the criteriea that I will use to grade your assignment:
+
+[Lab 1 Rubric](Lab01Rubric_CS195.html)
+
+
+
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
