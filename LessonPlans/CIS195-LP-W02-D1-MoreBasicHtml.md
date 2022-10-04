@@ -22,23 +22,15 @@ Look at someone's lab 1 web site. Any volunteers?
 
 
 
-## Visual Studio Code
+## Checking Your Code
 
-How to download, install and use VS Code:
-
-[Oficial VS Code web site](https://code.visualstudio.com)  
-
-How to use VS Code to write HTML web pages:
-
-[HTML in Visual Studio Code](https://code.visualstudio.com/Docs/languages/html)
+### Visual Studio Code
 
 VS Code will automatically let you know if you make mistakes (use wrong syntax) in your HTML code. It does this by showing the number of errors or warnings in the status bar at the bottom of the page.
 
 <img src="VSCodeErrorBar.png" alt="VSCodeErrorBar" style="zoom:67%;" />
 
-
-
-## W3C Syntax Validator
+### W3C Syntax Validator
 
 Define "syntax"
 
