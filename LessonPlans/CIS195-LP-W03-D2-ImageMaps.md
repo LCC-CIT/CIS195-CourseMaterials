@@ -1,6 +1,6 @@
 
 
-#Client Side Image Maps
+#Images and Image Maps
 
 
 
@@ -28,7 +28,7 @@ The **G**raphic **I**nterchange **F**ormat is used for uncompressed, animated im
 
 **J**oint Photographic **E**xperts **G**roup is a lossy compression algorithm that is popular for compressing images to be used on the web because it can be used to make very small image files, but with loss of image quality. JPEG files will have the extensions .jpg, or .jpeg. 
 
-JPEG files may also be formatted using **JFIF** (Joint File Interchanging Format) and have the extensions .jfif or .jif.
+JPEG files may also be formatted using **JFIF** (Joint File Interchanging Format) and have the extensions .jfif or .jif.
 
 ### PNG
 
@@ -36,7 +36,7 @@ JPEG files may also be formatted using **JFIF** (Joint File Interchanging Forma
 
 ### WebP
 
-**W**eb **P**icture  is a newer type of compression that is becoming more popular for use on web pages. It offers better compression than JPEG or PNG and can also be used for animated images.
+**W**eb **P**icture  is a newer type of compression algorithm that is becoming more popular for use on web pages. It offers better compression than JPEG or PNG, can be used for either lossless or lossy compression and for still or animated images.
 
 
 
