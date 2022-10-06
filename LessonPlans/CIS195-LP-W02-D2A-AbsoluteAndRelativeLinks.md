@@ -25,7 +25,7 @@ C:/Users/Brian/Repos/CIS195-Demos/Unit02/SouthIndia/Chennai/index.html
 C:/Users/Brian/Repos/CIS195-Demos/Unit02/SouthIndia/ChennaiArea/index.html
 ```
 
-<img src="C:\Users\Brian\Repos\CIS195-CourseMaterials\LessonPlans\FolderTree.png" style="zoom:40%;" />
+<img src="FolderTree.png" style="zoom:40%;" />
 
 #### Path Delimiters
 
