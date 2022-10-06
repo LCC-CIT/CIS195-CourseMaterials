@@ -12,6 +12,34 @@
 | 4. Design with CSS                         | 9. Multimedia           |
 | 5. Midterm                                 | 10. Term Project        |
 
+[TOC]
+
+## Common Image Formats
+
+### BMP 
+
+The bitmap format is an uncompressed file format. This is not normally used on web pages because the files tend to be large. Bitmap files will have the extension .bmp.
+
+### GIF
+
+The **G**raphic **I**nterchange **F**ormat is used for uncompressed, animated images.
+
+### JPEG
+
+**J**oint Photographic **E**xperts **G**roup is a lossy compression algorithm that is popular for compressing images to be used on the web because it can be used to make very small image files, but with loss of image quality. JPEG files will have the extensions .jpg, or .jpeg. 
+
+JPEG files may also be formatted using **JFIF** (Joint File Interchanging Format) and have the extensions .jfif or .jif.
+
+### PNG
+
+**P**ortable Network **G**raphics is a lossless compression algorithm that is also popular for images in web pages.
+
+### WebP
+
+**W**eb **P**icture  is a newer type of compression that is becoming more popular for use on web pages. It offers better compression than JPEG or PNG and can also be used for animated images.
+
+
+
 ##Image Maps
 
 Images can be divided into different zones, or *hotspots*, each linked to a different target destination.
@@ -89,7 +117,13 @@ To create a polygonal hotspot, you enter the coordinates for each vertex in the 
 
 ##Reference
 
-[Image map on W3Schools](https://www.w3schools.com/tags/tag_map.asp)
+[Image file type and format guide](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types) - MDN article
+
+[JPEG 101: A Crash Course on JPEG](https://www.webfx.com/blog/web-design/jpeg-101-a-crash-course-guide-on-jpeg/) - WebFX article
+
+[HTML <map> Tag](https://www.w3schools.com/tags/tag_map.asp) - W3Schools tutorial
+
+
 
 ------
 
