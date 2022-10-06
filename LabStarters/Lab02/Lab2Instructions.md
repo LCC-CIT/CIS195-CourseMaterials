@@ -40,5 +40,8 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
   
 
+## Grading
 
+Here is a link to the grading rubric that I will use to grade your assignment:
 
+[Lab2Rubric-CS195.pdf](Lab2Rubric-CS195.pdf)
