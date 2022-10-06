@@ -20,14 +20,6 @@ Due dates
 
 Look at someone's lab 1 web site. Any volunteers?
 
-
-
-## Visual Studio Code
-
-How to download, install and use VS Code:
-
-[Oficial VS Code web site](https://code.visualstudio.com)  
-
 How to use VS Code to write HTML web pages:
 
 [HTML in Visual Studio Code](https://code.visualstudio.com/Docs/languages/html)
