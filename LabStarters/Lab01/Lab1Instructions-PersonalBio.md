@@ -48,7 +48,7 @@ To create your web pages, you can use [Visual Studio Code](https://code.visualst
 
 Here is a link to the criteriea that I will use to grade your assignment:
 
-[Lab 1 Rubric](Lab01Rubric_CS195.html)
+[Lab 1 Rubric](Lab01Rubric_CS195.pdf)
 
 
 
