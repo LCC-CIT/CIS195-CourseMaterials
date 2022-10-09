@@ -126,14 +126,11 @@ Exceptions will only be made for serious illness or emergency situations.
 
 
 
-### Weekly Learning Activities
+### Weekly Learning Cycle
 
-| Monday        | Tuesday                          | Wednesday                                                    | Thursday                          | Friday        | Saturday | Sunday |
-| ------------- | -------------------------------- | ------------------------------------------------------------ | --------------------------------- | ------------- | -------- | ------ |
-| Start reading |                                  |                                                              |                                   | Take the quiz |          |        |
-|               | Start this week's lab assignment | Schedule 5 to 7 hours during the week for the lab assignment |                                   |               |          |        |
-|               |                                  |                                                              | Submit last week's lab assignment |               |          |        |
-|               | Participate in class online      |                                                              | Participate in class online       |               |          |        |
+| Tuesday              | Wednesday      | Thursday                                                     | Friday        | Saturday | Sunday      |
+| -------------------- | -------------- | ------------------------------------------------------------ | ------------- | -------- | ----------- |
+| Participate in class | Start lab work | Participate in class <br /><br />Submit last week's lab assignment | Take the quiz |          | Quiz closes |
 
 
 
