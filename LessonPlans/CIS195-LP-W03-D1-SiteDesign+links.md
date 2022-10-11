@@ -34,7 +34,23 @@ A sitemap shows how the web pages are linked together. It can be done simply by 
 
 Another example is our family's market garden web site, [Eaglewing Acres](https://eaglewingacres.com/).
 
-
+- Navigation (on every page)
+  - Home
+    - CSA Signup
+    - About your farmers
+  - What's for sale
+    - Request produce or information
+    - Learn more
+    - Contact page
+  - CSA
+    - What's for sale
+  - Blog
+  - Contact
+- Footer navigation (at the bottom of every page)
+  - Join the CSA
+  - Follow us on Facebook (external)
+  - Contact Us
+  - Newsletter signup
 
 
 
