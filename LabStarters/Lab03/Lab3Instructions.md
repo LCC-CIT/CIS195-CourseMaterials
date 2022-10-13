@@ -43,6 +43,9 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 - Upload both zip files to Moodle using the lab submission link.
 
+## Grading Criteria
+[Lab 3 Rubric](Lab3Rubric-CIS195.htm)
+
   
 
 
