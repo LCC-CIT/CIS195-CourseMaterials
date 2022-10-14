@@ -21,12 +21,16 @@
 
 ## Requirements
 
-Create a web site that consists of at least two web pages and presents a mini biography of yourself or another person. Use each of the HTML feature listed above. Be creative, organize the page as you like and include whatever content you wish. In addition:
+Create a web site that consists of at least <u>two web pages</u> and presents a mini biography of yourself or another person. <u>Use each of the HTML features listed above</u>. Be creative, organize the page as you like and include whatever content you wish. In addition:
 
-- Include all the required elements at the top of your web page (`<!DOCTYPE html>`, all the stuff that goes in the head element, etc.)
+- Include all the HTML elements that you need to put at the top of your web page (`<!DOCTYPE html>` and all the stuff that goes in the `head` element.) Don't forget the `html`, `head`, and `body` elements.
+- Add a comment with your name and date in the head element.
 - Indent your code to reflect the structure of the HTML elements.
 - Name your home page *index.html*.
-- Don't put spaces in folder or file names, just use letters or numbers.
+- In link and image elements, use just the file name, <u>not the path</u>. For example:
+  `<a href="childhood.html">My childhood</a>`
+  `<img src="myKitten.jpg">`
+- Don't put spaces in folder or file names, just use letters, numbers, underscores, or dashes.
 - Put the images in the same folder with your two web pages.
 
  

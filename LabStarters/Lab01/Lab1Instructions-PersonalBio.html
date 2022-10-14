@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html style='font-size:20px !important'>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 <meta name="title" content="${title}">
@@ -24,7 +24,7 @@ a:active, a:hover { outline: 0px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 .typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
 }
@@ -49,7 +49,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -89,10 +89,10 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print { 
+@media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -113,7 +113,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -126,7 +126,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) { 
+@media screen and (max-width: 48em) {
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -138,7 +138,7 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; }
 a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
@@ -154,7 +154,7 @@ mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
-@media print { 
+@media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
@@ -167,19 +167,19 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
 .outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
 .outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ''; }
+.outline-expander:hover::before { content: ""; }
 .outline-h1 > .outline-item { padding-left: 0px; }
 .outline-h2 > .outline-item { padding-left: 1em; }
 .outline-h3 > .outline-item { padding-left: 2em; }
@@ -191,14 +191,14 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
 .outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
 .typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
 .typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
@@ -595,6 +595,8 @@ header, .context-menu, .megamenu-content, footer{
 </style><title>Lab1Instructions-PersonalBio</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='instructions-for-lab-1'><span>Instructions for Lab 1</span></h1><h1 id='a-biographical-web-site'><span>A Biographical Web Site</span></h1><h2 id='objectives'><span>Objectives</span></h2><p><strong><span>Gain experience using:</span></strong></p><ul><li><span>Headings (h1, h2, etc.)</span></li><li><span>Links (both between your pages and to an external site)</span></li><li><span>Text formatting (strong, emphasis, etc.)</span></li><li><span>Images (don&#39;t forget the alt attribute)</span></li><li><span>Line breaks</span></li><li><span>Ordered lists</span></li><li><span>Unordered lists</span></li></ul><h2 id='requirements'><span>Requirements</span></h2><p><span>Create a web site that consists of at least two web pages and presents a mini biography of yourself or another person. Use each of the HTML feature listed above. Be creative, organize the page as you like and include whatever content you wish. In addition:</span></p><ul><li><span>Include all the required elements at the top of your web page (</span><code>&lt;!DOCTYPE html&gt;</code><span>, all the stuff that goes in the head element, etc.)</span></li><li><span>Indent your code to reflect the structure of the HTML elements.</span></li><li><span>Name your home page </span><em><span>index.html</span></em><span>.</span></li><li><span>Don&#39;t put spaces in folder or file names, just use letters or numbers.</span></li><li><span>Put the images in the same folder with your two web pages.</span></li></ul><p><span> </span></p><h2 id='software-you-will-use-to-create-your-web-pages'><span>Software you will use to create your web pages</span></h2><p><span>To create your web pages, you can use </span><a href='https://code.visualstudio.com'><span>Visual Studio Code</span></a><span>, which runs on Windows, Mac OS, or Linux. Alternatively, on Windows, you can use </span><a href='http://notepad-plus-plus.org'><span>Notepad++</span></a><span> or on Mac OS, </span><a href='http://www.barebones.com/products/textwrangler'><span>Text Wrangler</span></a><span>.</span></p><p><span> </span></p><h2 id='submitting-your-web-site'><span>Submitting your web site</span></h2><ol start='' ><li><span>Zip the folder containing your html files and image files.</span></li><li><span>Upload the zip file using the link for Lab 1 on Moodle.</span></li></ol><p>&nbsp;</p><h2 id='grading'><span>Grading</span></h2><p><span>Here is a link to the criteriea that I will use to grade your assignment:</span></p><p><a href='Lab01Rubric_CS195.htm'><span>Lab 1 Rubric</span></a></p><p>&nbsp;</p><hr /><p><a href='http://creativecommons.org/licenses/by-sa/4.0/'><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span> Web Authoring Lecture Notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span> are licensed under a </span><a href='http://creativecommons.org/licenses/by-sa/4.0/'><span>Creative Commons Attribution-ShareAlike 4.0 International License</span></a><span>. </span></p></div></div>
+<div id='write'  class=''><h1 id='instructions-for-lab-1'><span>Instructions for Lab 1</span></h1><h1 id='a-biographical-web-site'><span>A Biographical Web Site</span></h1><h2 id='objectives'><span>Objectives</span></h2><p><strong><span>Gain experience using:</span></strong></p><ul><li><span>Headings (h1, h2, etc.)</span></li><li><span>Links (both between your pages and to an external site)</span></li><li><span>Text formatting (strong, emphasis, etc.)</span></li><li><span>Images (don&#39;t forget the alt attribute)</span></li><li><span>Line breaks</span></li><li><span>Ordered lists</span></li><li><span>Unordered lists</span></li></ul><h2 id='requirements'><span>Requirements</span></h2><p><span>Create a web site that consists of at least </span><u><span>two web pages</span></u><span> and presents a mini biography of yourself or another person. </span><u><span>Use each of the HTML features listed above</span></u><span>. Be creative, organize the page as you like and include whatever content you wish. In addition:</span></p><ul><li><span>Include all the HTML elements that you need to put at the top of your web page (</span><code>&lt;!DOCTYPE html&gt;</code><span> and all the stuff that goes in the </span><code>head</code><span> element.) Don&#39;t forget the </span><code>html</code><span>, </span><code>head</code><span>, and </span><code>body</code><span> elements.</span></li><li><span>Add a comment with your name and date in the head element.</span></li><li><span>Indent your code to reflect the structure of the HTML elements.</span></li><li><span>Name your home page </span><em><span>index.html</span></em><span>.</span></li><li><span>In link and image elements, use just the file name, </span><u><span>not the path</span></u><span>. For example:</span>
+<code>&lt;a href=&quot;childhood.html&quot;&gt;My childhood&lt;/a&gt;</code>
+<code>&lt;img src=&quot;myKitten.jpg&quot;&gt;</code></li><li><span>Don&#39;t put spaces in folder or file names, just use letters, numbers, underscores, or dashes.</span></li><li><span>Put the images in the same folder with your two web pages.</span></li></ul><p><span> </span></p><h2 id='software-you-will-use-to-create-your-web-pages'><span>Software you will use to create your web pages</span></h2><p><span>To create your web pages, you can use </span><a href='https://code.visualstudio.com'><span>Visual Studio Code</span></a><span>, which runs on Windows, Mac OS, or Linux. Alternatively, on Windows, you can use </span><a href='http://notepad-plus-plus.org'><span>Notepad++</span></a><span> or on Mac OS, </span><a href='http://www.barebones.com/products/textwrangler'><span>Text Wrangler</span></a><span>.</span></p><p><span> </span></p><h2 id='submitting-your-web-site'><span>Submitting your web site</span></h2><ol start='' ><li><span>Zip the folder containing your html files and image files.</span></li><li><span>Upload the zip file using the link for Lab 1 on Moodle.</span></li></ol><p>&nbsp;</p><h2 id='grading'><span>Grading</span></h2><p><span>Here is a link to the criteriea that I will use to grade your assignment:</span></p><p><a href='Lab01Rubric_CS195.htm'><span>Lab 1 Rubric</span></a></p><p>&nbsp;</p><hr /><p><a href='http://creativecommons.org/licenses/by-sa/4.0/'><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span> Web Authoring Lecture Notes by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span> are licensed under a </span><a href='http://creativecommons.org/licenses/by-sa/4.0/'><span>Creative Commons Attribution-ShareAlike 4.0 International License</span></a><span>. </span></p></div></div>
 <base target="_blank"></body>
 </html>
