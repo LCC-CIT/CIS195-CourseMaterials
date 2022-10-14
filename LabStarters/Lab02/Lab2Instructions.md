@@ -21,12 +21,14 @@ Check your page using the [W3C HTML Validator](https://validator.w3.org)
 
 ## Part 2: A multipage web site
 
-Create a review site that contains a home page and at least three review pages (you can use the page above as one of the review pages). 
+Create a review site that contains <u>a home page</u> and at <u>least three review pages</u>.
+ (You can use the page from Part 1 as one of the three review pages.)
 
 - The home page will have links to the three review pages.
-- All the reviews will be in a sub-folder named reviews.
+- All the review page files will be in a sub-folder named *reviews*.
 - Each review page should have at least one figure on it.
--  All the images should be in one sub-folder named images.
+  (They don't all need the additional elements required for the page in Part 1)
+-  All the images should be in a sub-folder named *images*.
 
 Check your pages using the [W3C HTML Validator](https://validator.w3.org)  
 

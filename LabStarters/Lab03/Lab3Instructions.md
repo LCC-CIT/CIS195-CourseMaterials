@@ -28,7 +28,7 @@ Create another web page which contains a picture (of your choice) that has at le
 - Use each of the three hot-spot shapes (rect, circle and poly) at least once.
 - Each hot-spot should link to another page.
 - The linked pages should all be in a single sub-folder. There should be at least three linked pages in the folder.
-- At least one of the links should go to an internal location in another page ( a link to an id).
+- At least one of the links should go to an internal location in one of the linked pages ( a link to an id).
 - Use the `<base>` elsement to specify the sub-folder that contains the linked pages.
 
 Check your pages using the [W3C HTML Validator](https://validator.w3.org)  
@@ -42,6 +42,9 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 - Zip the files in part 2
 
 - Upload both zip files to Moodle using the lab submission link.
+
+## Grading Criteria
+[Lab 3 Rubric](Lab3Rubric-CIS195.htm)
 
   
 

@@ -1,4 +1,4 @@
-#Site Design and More on Hyperlinks
+<h1>Site Design and More on Hyperlinks</h1>
 
 
 
@@ -31,6 +31,28 @@ A sitemap shows how the web pages are linked together. It can be done simply by 
   - About
   - Contact us
   - Client Login
+
+Another example is our family's market garden web site, [Eaglewing Acres](https://eaglewingacres.com/).
+
+- Navigation (on every page)
+  - Home
+    - CSA Signup
+    - About your farmers
+  - What's for sale
+    - Request produce or information
+    - Learn more
+    - Contact page
+  - CSA
+    - What's for sale
+  - Blog
+  - Contact
+- Footer navigation (at the bottom of every page)
+  - Join the CSA
+  - Follow us on Facebook (external)
+  - Contact Us
+  - Newsletter signup
+
+
 
 For a site with more complex navigation (hyperlinks) you would need a more complex map.
 Look at [The Highlands](http://www.highlands97405.com) web site and draw a site map on the white board.
