@@ -22,6 +22,16 @@
 
 ## Basic CSS
 
+Cascading Style Sheets (CSS) refers to both a type of file, .css, and a computer language used to describe the formatting and style of a web page written in HTML.
+
+CSS is designed to facilitate the separation of *presentation* and *content*, including layout, colors, and fonts. This separation can:
+
+- Provide more flexibility and control over formatting
+-  Enable multiple web pages to share formatting by sharing a .css file.
+- Improve the page load speed between the pages that share the file and its formatting since the .css file can be cached.
+
+The name cascading comes from the hierarchy of priorities that determine which style rule applies when there is more than one style rule that is applicable to a particular HTML element.
+
 ### Style rules
 
 - <u>Example of a style rule:</u>
@@ -40,7 +50,7 @@
   - Braces: *{ }*
   - Property: *background-color: lightcyan;*
     - Name: *background-color*
-    - Seperator  *:*
+    - Separator  *:*
     - Value  *lightcyan*
     - Terminator  *;*
   
@@ -114,8 +124,8 @@ A Style-sheet is just a set of one or more CSS rules.
     1. HTML elements's *inline* styles
     2. HTML pages's *embedded* style rules
     3. Site's *external* style-sheet
-    4. Browsers's *user-defined* styles
-    5. Browsers's *internal* style-sheet
+    4. Browser's *user-defined* styles
+    5. Browser's *internal* style-sheet
   
   
 
@@ -161,7 +171,7 @@ A particular class attribute can be used multiple times on a web page and is onl
 
 - dot selects a class.
   
-- Example of a css class rule:
+- Example of a CSS class rule:
   
     ```css
     .greenBold {
