@@ -82,10 +82,17 @@ In addition to the tutors available in the CIT computer lab, there is tutoring a
 
 If you plan to do lab work somewhere other than in the classroom or the CIT Computer Lab, you will need: 
 
-- Word processing software such as [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff), [OpenOffice](http://www.openoffice.org) or [Google Docs](https://docs.google.com) for viewing and editing office documents
+- "Office" software for Word processing, spreadsheets, slides, etc., such as [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff), [LibreOffice](http://www.libreoffice.org) or [Google Docs](https://docs.google.com).
+
 - A code (text) editor to create your web pages.  [Visual Studio Code](https://code.visualstudio.com) is a free code editor that can be downloaded via the internet and used on Windows, Mac OS or Linux. Alternatively, you can use TextWrangler on Mac OS, or Notepad++ on Windows.
-- At least two modern browsers to view/test your web pages.  The latest versions of Chrome, and Firefox can be downloaded via the internet.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
-- An ftp client to upload your web pages to citstudent.lanecc.edu. [FileZilla](https://filezilla-project.org/download.php?show_all=1) is a free ftp client that can be downloaded via the internet and used on Windows, Mac OS, or Linux.
+
+- Software that can be used to manipulate images such as the <u>Windows Paint</u> program (included in Windows). Mac users can use the <u>Preview</u> app (included in MacOS), but it just barely meets the needs of this class. 
+
+  Most other full-featured image editing apps such as Adobe Photoshop (not free), or [Gimp](https://www.gimp.org/) (a free, cross-platform, clone of Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
+
+- At least two modern browsers to view/test your web pages.  The latest versions of [Chrome](https://www.google.com/chrome/), and [Firefox](https://www.mozilla.org/en-US/firefox/new/) can be downloaded for free.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
+
+- An ftp client to upload your web pages to citstudent.lanecc.edu. [FileZilla](https://filezilla-project.org/download.php?show_all=1) is a good free option that runs on Windows, Mac OS, or Linux.
 
 ### Web Resources
 
