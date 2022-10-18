@@ -1,4 +1,4 @@
-# Styling with CSS
+<h1>Styling with CSS</h1>
 
 | Course Topics by Week            |                             |
 | -------------------------------- | --------------------------- |
@@ -9,7 +9,7 @@
 | 5. Midterm Quiz                  | 10. Review and Term Project |
 |                                  | 11. Final Quiz              |
 
-## Contents
+<h2>Contents</h2>
 
 [TOC]
 
@@ -26,7 +26,7 @@ Cascading Style Sheets (CSS) refers to both a type of file, .css, and a computer
 
 CSS is designed to facilitate the separation of *presentation* and *content*, including layout, colors, and fonts. This separation can:
 
-- Provide more flexibility and control over formatting
+- Provide more flexibility and control over formatting.
 -  Enable multiple web pages to share formatting by sharing a .css file.
 - Improve the page load speed between the pages that share the file and its formatting since the .css file can be cached.
 
@@ -59,22 +59,20 @@ The name cascading comes from the hierarchy of priorities that determine which s
   - Example:
     
   ```css
-    /* This is a comment */
+    /* This is a CSS comment */
   ```
 
 - <u>Inheritance</u>
-  Any element that is nested inside an element to which a style rule has been applied will inherit that rule.
-
-
+  Any element that is nested inside an element to which a style rule has been applied will inherit that rule. For example, given the `body` rule above, any element inside the body will also have a `light-cyan` background and the `Aria`l font face.
 
 ### Style-sheets
-A Style-sheet is just a set of one or more CSS rules.
+A Style-sheet is just a set of one or more CSS rules and it doesn't have to be in a file.
 
 - Types of style-sheets
   
   - Web site style-sheets:
     
-    - External&mdash;in a separate file named with a name ending in .css
+    - External: in a separate file named with a name ending in .css
       In an HTML file, use the *link* element to apply a css file.
       Example:
     
@@ -85,12 +83,12 @@ A Style-sheet is just a set of one or more CSS rules.
       </head>
       ```
     
-    - Embedded&mdash;in a *style* element in an html file
+    - Embedded: in a *style* element in an html file
       Example:
     
       ```html
       <head>
-         <!-- The usual other code would go here -->
+         <!-- The usual code would go here -->
          <style>
            p {
               background-color: papayawhip;
@@ -105,7 +103,7 @@ A Style-sheet is just a set of one or more CSS rules.
       
       ```
     
-    - Inline&mdash;in a *style* attribute inside an html tag
+    - Inline: in a *style* attribute inside an HTML tag
       Example:
     
       ```html
@@ -114,18 +112,18 @@ A Style-sheet is just a set of one or more CSS rules.
     
   - Browser styles-sheets
     
-    - Internal&mdash;defined by the browser developers
-    - User Defined&mdash;user preferences
+    - Internal: defined by the browser developers.
+    - User Defined: defined by the user (not the web developer).
     
   
-- <u>Precedence&mdash;the cascade</u>
+- <u>Precedence: the cascade</u>
   (The ones closer to the top win.)
   
-    1. HTML elements's *inline* styles
-    2. HTML pages's *embedded* style rules
-    3. Site's *external* style-sheet
-    4. Browser's *user-defined* styles
-    5. Browser's *internal* style-sheet
+    1. HTML element's *inline* styles.
+    2. HTML page's *embedded* style rules.
+    3. HTML pages's *external* style-sheet.
+    4. Browser's *user-defined* styles.
+    5. Browser's *internal* style-sheet.
   
   
 
@@ -133,13 +131,15 @@ A Style-sheet is just a set of one or more CSS rules.
 
 ### Contextual selectors
 
-| Combinator   | Example        | Description                                             |
-| ------------ | -------------- | ------------------------------------------------------- |
-| comma        | article, p, ol | Matches any of the three elements                       |
-| space        | article ol     | Matches any *ol* that is anywhere inside an *article*   |
-| greater-than | article>ol     | Matches an *ol* that is directly inside an *article*    |
-| plus         | ul+ol          | Matches an *ol* that immediately follows a sibling *ul* |
-| dash         | ul-ol          | Matches any *ol* that is a sibling of an *ul*           |
+| Combinator   | Example          | Description                                              |
+| ------------ | ---------------- | -------------------------------------------------------- |
+| comma        | `article, p, ol` | Matches any of the three elements                        |
+| space        | `article ol`     | Matches any `ol` that is anywhere inside an `article`.   |
+| greater-than | `article>ol`     | Matches an `ol` that is directly inside an `article`.    |
+| plus         | `ul+ol`          | Matches an `ol` that immediately follows a sibling `ul`. |
+| dash         | `ul-ol`          | Matches any `ol` that is a sibling of an `ul`.           |
+
+W3 Schools tutorial: [CSS Combinators](https://www.w3schools.com/css/css_combinators.asp)
 
 
 
@@ -199,7 +199,7 @@ A particular class attribute can be used multiple times on a web page and is onl
 
 
 
-## Structural elements as CSS selectors
+## Semantic structural elements as CSS selectors
 
 These can be used as CSS rule selectors to provide a way to format a section of the page. For example:
 

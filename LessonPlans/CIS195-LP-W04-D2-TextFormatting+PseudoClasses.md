@@ -191,6 +191,8 @@ Web fonts allow developers to use fonts that may not be installed on end user's 
 - Save the font file in your web site's folder, and it will be automatically loaded to by the user's browser when needed.
 - Define any web fonts your web site uses within the CSS `@font-face` rule.
 
+W3 Schools tutorial: [CSS Web Fonts](https://www.w3schools.com/css/css3_fonts.asp)
+
 
 
 ## List Style Properties
