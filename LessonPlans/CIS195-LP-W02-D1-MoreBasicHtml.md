@@ -83,9 +83,7 @@ In a browser, the nested lists would look like this:
   - Ice Cream
 - The rest of the list
 
-
-
-###Figures
+### Figures
 
 Figures are used to change images from inline to block elements. They also allow you to add a caption to the image.
 
@@ -99,8 +97,6 @@ Figures are used to change images from inline to block elements. They also allow
 ```
 
 Try it out: [Figure on W3Schools](https://www.w3schools.com/tags/tag_figure.asp)  
-
-
 
 ### Block quotes
 
@@ -124,8 +120,6 @@ In a browser the `blockquote` would look like this:
 
 Try it out: [Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockquote.asp)  
 
-
-
 ### Cite
 
 Use this element to cite the work of someone else.
@@ -140,10 +134,7 @@ If we put this inside the block quote, it will look like this in the browser
   Not all who wander are lost.<br>
   from "The Riddle of Strider" in <cite>The Fellowship of the Ring</cite> by J.R.R. Tolkien
 </blockquote>
-
-
-
-###Special characters
+### Special characters
 
 Certain characters are not allowed (reserved characters) in HTML. For example, if you use the less than, `<`, or greater than, `>`, signs in your text, the browser is likely to see them as tags. The solution is to use *character entities* to display reserved characters. The code below shows two ways to write the character entities for `<` and `>`
 
@@ -159,15 +150,13 @@ Here are two ways to write the character entity for the copyright symbol, &copy;
 
 [Listing of special characters on W3Schools](https://www.w3schools.com/html/html_symbols.asp)  
 
+[Emojis for the Web on W3Schools](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)
 
-
-###Comments
+### Comments
 
 ```html
 <!-- this is a comment -->
 ```
-
-
 
 ### horizontal rule
 
