@@ -131,13 +131,13 @@ A Style-sheet is just a set of one or more CSS rules and it doesn't have to be i
 
 ### Contextual selectors
 
-| Combinator   | Example          | Description                                              |
-| ------------ | ---------------- | -------------------------------------------------------- |
-| comma        | `article, p, ol` | Matches any of the three elements                        |
-| space        | `article ol`     | Matches any `ol` that is anywhere inside an `article`.   |
-| greater-than | `article>ol`     | Matches an `ol` that is directly inside an `article`.    |
-| plus         | `ul+ol`          | Matches an `ol` that immediately follows a sibling `ul`. |
-| dash         | `ul-ol`          | Matches any `ol` that is a sibling of an `ul`.           |
+| Combinator   | Example      | Description                                              |
+| ------------ | ------------ | -------------------------------------------------------- |
+| comma        | `nav, p, ol` | Matches any of the three elements                        |
+| space        | `nav ol`     | Matches any `ol` that is anywhere inside a `nav`.        |
+| greater-than | `nav>ol`     | Matches an `ol` that is directly inside an `nav`.        |
+| plus         | `ul+ol`      | Matches an `ol` that immediately follows a sibling `ul`. |
+| dash         | `ul-ol`      | Matches any `ol` that is a sibling of an `ul`.           |
 
 W3 Schools tutorial: [CSS Combinators](https://www.w3schools.com/css/css_combinators.asp)
 
@@ -150,7 +150,7 @@ A particular `id` attribute can be used only once on a web page to identify an e
 
 - A hash tag in an `href` address selects an `id` a link inside a web page.
 - The selector for a CSS id rule starts with a hash tag.
-- An id can be the target of a CSS rule. Example of a css id rule:
+- An id can be the target of a CSS rule. Example of a CSS id rule:
 
 ```css
 #intro {
@@ -166,7 +166,7 @@ Example of a target HTML element:
 
 
 
-#### class selector
+#### Class selector
 A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
 
 - dot selects a class.
