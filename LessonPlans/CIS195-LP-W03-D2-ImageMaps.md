@@ -76,7 +76,7 @@ Image from [Program Arcade Games with Python and PyGame](http://programarcadegam
 
 #### Finding coordinates in an image
 
-You can use a photo editing program like Windows Paint, Gimp, or Photoshop Elements to find coordinates, or you can use an online service like the one shown in the reference section of these notes.
+You can use a photo editing program like Windows Paint, Gimp, or Photoshop (or Photoshop Elements) to find coordinates, or you can use an online service like the one shown in the reference section of these notes.
 
 ###Rectangular hotspots
 
