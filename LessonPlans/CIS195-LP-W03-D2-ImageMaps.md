@@ -1,6 +1,4 @@
-
-
-#Images and Image Maps
+<h1>Images and Image Maps</h1>
 
 
 
@@ -11,6 +9,9 @@
 | 3<u>. Site Design + More on Hyperlinks</u> | 8. HTML Forms           |
 | 4. Design with CSS                         | 9. Multimedia           |
 | 5. Midterm                                 | 10. Term Project        |
+
+
+<h2>Contents</h2>
 
 [TOC]
 
@@ -61,10 +62,10 @@ To define hotspots, you create an *image map* that contains `<area>` elements th
 
 ####Hotspot attributes
 
-- coords: coordinates (location) of the hotspot.
-- shape
-- href
-- alt
+- `coords`: coordinates (location) of the hotspot.
+- `shape`
+- `href`
+- `alt`
 ###Computer graphics coordinate system
 
 In two dimensional computer graphics, a cartesian coordinate system is used in which the x-axis starts at the left and extends to the right and the y-axis starts at the top and extends to the bottom.
@@ -73,7 +74,9 @@ In two dimensional computer graphics, a cartesian coordinate system is used in w
 
 Image from [Program Arcade Games with Python and PyGame](http://programarcadegames.com/index.php?chapter=introduction_to_graphics)
 
+#### Finding coordinates in an image
 
+You can use a photo editing program like Windows Paint, Gimp, or Photoshop Elements to find coordinates, or you can use an online service like the one shown in the reference section of these notes.
 
 ###Rectangular hotspots
 
@@ -117,16 +120,18 @@ To create a polygonal hotspot, you enter the coordinates for each vertex in the 
 
 ##Reference
 
-[Image file type and format guide](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types) - MDN article
+[Image file type and format guide](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types)&mdash;MDN article
 
-[JPEG 101: A Crash Course on JPEG](https://www.webfx.com/blog/web-design/jpeg-101-a-crash-course-guide-on-jpeg/) - WebFX article
+[JPEG 101: A Crash Course on JPEG](https://www.webfx.com/blog/web-design/jpeg-101-a-crash-course-guide-on-jpeg/)&mdash;WebFX article
 
-[HTML <map> Tag](https://www.w3schools.com/tags/tag_map.asp) - W3Schools tutorial
+[HTML <map> Tag](https://www.w3schools.com/tags/tag_map.asp)&mdash;W3Schools tutorial
+
+[Online service for getting mouse-click image coordinates](https://www.mobilefish.com/services/record_mouse_coordinates/record_mouse_coordinates.php)&mdash;Mobilefish.com
 
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev), 2017, revised 2022, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
