@@ -205,7 +205,7 @@ A particular class attribute can be used multiple times on a web page and is onl
 
 
 
-# Semantic structural Elements as CSS Selectors
+# Semantic Structural Elements as CSS Selectors
 
 These can be used as CSS rule selectors to provide a way to format a section of the page. For example:
 
@@ -239,7 +239,7 @@ article {
 
 ## Non-semantic Structural Elements
 
-**The `<div>` element** was a structural element used before HTML5 introduced semantic structural elements. It is  considered non-semantic, because div is just an abbreviation for "division", it's name doesn't have any meaning related to the type of division it represents. 
+**The `<div>` element** was a structural element used before HTML5 introduced semantic structural elements. It is considered non-semantic, because div is just an abbreviation for "division", it's name doesn't have any meaning related to the type of division it represents. 
 
 Example:
 
