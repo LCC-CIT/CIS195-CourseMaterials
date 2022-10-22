@@ -1,6 +1,6 @@
 **CIS195 Web Authoring 1: HTML**
 
-# More Basic HTML Elements
+<h1>More Basic HTML Elements</h1>
 
 | Course weeks and topics              |                         |
 | ------------------------------------ | ----------------------- |
@@ -14,7 +14,7 @@
 
 [TOC]
 
-## Review
+# Review
 
 Due dates
 
@@ -22,15 +22,15 @@ Look at someone's lab 1 web site. Any volunteers?
 
 
 
-## Checking Your Code
+# Checking Your Code
 
-### Visual Studio Code
+## Visual Studio Code
 
 VS Code will automatically let you know if you make mistakes (use wrong syntax) in your HTML code. It does this by showing the number of errors or warnings in the status bar at the bottom of the page.
 
 <img src="VSCodeErrorBar.png" alt="VSCodeErrorBar" style="zoom:67%;" />
 
-### W3C Syntax Validator
+## W3C Syntax Validator
 
 Define "syntax"
 
@@ -38,7 +38,7 @@ Define "syntax"
 
 
 
-## In-line and Block Elements
+# In-line and Block Elements
 
 **In-line elements** arrange themselves horizontally on the page. Examples are:
 
@@ -56,9 +56,9 @@ Define "syntax"
 
   
 
-## More HTML Elements 
+# More HTML Elements 
 
-### Nested lists
+## Nested Lists
 
 Lists can be placed within lists. The right way to do it is to put the nested list inside a li element of the parent list. For example:
 
@@ -83,7 +83,7 @@ In a browser, the nested lists would look like this:
   - Ice Cream
 - The rest of the list
 
-### Figures
+## Figures
 
 Figures are used to change images from inline to block elements. They also allow you to add a caption to the image.
 
@@ -98,7 +98,7 @@ Figures are used to change images from inline to block elements. They also allow
 
 Try it out: [Figure on W3Schools](https://www.w3schools.com/tags/tag_figure.asp)  
 
-### Block quotes
+## Block Quotes
 
 The block quote element will:
 
@@ -134,7 +134,7 @@ If we put this inside the block quote, it will look like this in the browser
   Not all who wander are lost.<br>
   from "The Riddle of Strider" in <cite>The Fellowship of the Ring</cite> by J.R.R. Tolkien
 </blockquote>
-### Special characters
+## Special Characters
 
 Certain characters are not allowed (reserved characters) in HTML. For example, if you use the less than, `<`, or greater than, `>`, signs in your text, the browser is likely to see them as tags. The solution is to use *character entities* to display reserved characters. The code below shows two ways to write the character entities for `<` and `>`
 
@@ -152,19 +152,19 @@ Here are two ways to write the character entity for the copyright symbol, &copy;
 
 [Emojis for the Web on W3Schools](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)
 
-### Comments
+## Comments
 
 ```html
 <!-- this is a comment -->
 ```
 
-### horizontal rule
+## Horizontal Rule
 
 The `<hr>` tag will put a horizontal line across the page. This is one of the "empty" tags.
 
 
 
-## References
+# References
 
 [HTML Element Reference](https://www.w3schools.com/tags/default.asp) &mdash;W3 Schools
 
