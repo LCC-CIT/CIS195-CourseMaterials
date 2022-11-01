@@ -16,24 +16,24 @@
 
 [TOC]
 
-# Introduction
+# Q and A
 
 -   Are there any questions about uploading web sites to citstudent?
 -   Are there any questions about the term project?
--   This week we will be talking about page layout (design), which is different from formating.
 -   Review due dates on Moodle.
 
-
+# Introduction
+This week we will be talking about using CSS for page layout (design), which is different from formating. The difference is that layout involves controlling the position of things on the page rather than just their appearance.
 
 # Backgrounds
+  Backgrounds are colors or images that are in the background of a particular element of your page. If you  use `body` as the selector, then the background will be for the whole body of your page. Using `html` as the selector will apply the background to the whole page.
 
 ## CSS background properties
-
-- background-color
-- background-image
-- background-repeat
-- background-attachment
-- background-position
+- `background-color`&mdash;sets the color of the background.
+- `background-image`&mdash;sets an image to use as the background.
+- `background-repeat`&mdash;conttrols how an image is or isn't repeated.
+- `background-attachment`&mdash;controls whether or not the image scrolls with the page.
+- `background-position`&mdash;sets the initial position of background images.
 
 ## Background Images
 
