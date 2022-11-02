@@ -37,11 +37,47 @@ This week we will be talking about using CSS for page layout (design), which is 
 
 ## Background Images
 
-Setting a background image:
+Set a background image:
 
 ```css
 body {
   background-image: url("sunset.png");
+}
+```
+
+Make an image fill the browser viewport:
+
+- `background-repeat: no-repeat` will stop the image from being tiled.
+- `background-position:cover` will cause the image to fit the width to the viewport, but the top and bottom might be clipped.
+- `background-position: contain` will make the image height fit the height of the containing element.
+
+```CSS
+body {
+  background-image: url("sunset.png") 
+  background-repeat: no-repeat
+  background-position: cover;
+}
+```
+
+Make an image stretch to fit the body:
+
+```CSS
+body {
+  background-image: url("sunset.png");
+  background-size: 100% 100%; 
+}
+```
+
+
+Center the background image:  
+(The height of the containing element can be set to determine vertical centering.)
+
+```css
+body {
+  height: 500px;
+  background-image: url("sunset.png") 
+  background-repeat: no-repeat
+  background-position: center;
 }
 ```
 
@@ -50,23 +86,6 @@ Background shorthand property:
 ```css
 body {
   background: orange url("sunset.png") no-repeat left top;
-}
-```
-
-Making an image fill the whole browser viewport:
-
-```CSS
-html {
-  url("sunset.png") no-repeat cover;
-}
-```
-
-Making an image stretch to fit the body:
-
-```CSS
-body {
-  background-image: url("sunset.png");
-  background-size: 100% 100%; 
 }
 ```
 
