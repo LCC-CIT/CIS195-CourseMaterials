@@ -31,7 +31,7 @@ This week we will be talking about using CSS for page layout (design), which is 
 ## CSS background properties
 - `background-color`&mdash;sets the color of the background.
 - `background-image`&mdash;sets an image to use as the background.
-- `background-repeat`&mdash;conttrols how an image is or isn't repeated.
+- `background-repeat`&mdash;controls how an image is or isn't repeated.
 - `background-attachment`&mdash;controls whether or not the image scrolls with the page.
 - `background-position`&mdash;sets the initial position of background images.
 
