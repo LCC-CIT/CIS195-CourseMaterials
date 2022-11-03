@@ -149,7 +149,7 @@ Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-Cour
 
 # Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/Index.html)
+* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/)
 
 * [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit05)
 

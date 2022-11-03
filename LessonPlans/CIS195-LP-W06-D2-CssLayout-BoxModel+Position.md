@@ -1,8 +1,8 @@
-### CIS 195 Web Authoring 1: HTML
+**CIS 195 Web Authoring 1: HTML**
 
-#### Course Topics by Week
+<h1>More Page Layout using CSS</h1>
 
-|                          |                                      |
+| Course Topics by Week    |                                      |
 | ------------------------ | ------------------------------------ |
 | 1. Intro to HTML 5       | <mark>6. Page Layout with CSS</mark> |
 | 2. More HTML 5           | 7. HTML Tables                       |
@@ -11,27 +11,25 @@
 | 5. Midterm Quiz          | 10. Review and Term Project          |
 |                          | 11. Final Quiz                       |
 
-# More Page Layout using CSS
-
-## Contents
+<h2>Contents</h2>
 
 [TOC]
 
-## Introduction
+# Q and A
 
 -   Review due dates on Moodle.
 -   Answer questions about this week's lab assignment.
 
 
 
-## The Box Model
+# The Box Model
 
 <figure><img src="boxmodel-image.png" alt="CSS box model" height="500px">
 <figcaption>By Nasir Darwish, <a href="https://www.codeproject.com/info/cpol10.aspx">Code Project Open License</a></figcaption>
 </figure>
 
 
-### Setting the border style
+## Setting the border style
 
 By default, the border is not visible. You need to set a visible border style before you can see it. These are the options for border-style:
 
@@ -46,7 +44,7 @@ By default, the border is not visible. You need to set a visible border style be
 - inset&mdash;Displays a border that makes the element appear embedded. 
 - outset&mdash;Displays a border that makes the element appear embossed. (The opposite of inset.)
 
-### Setting the width of border, margin or padding
+## Setting the width of border, margin or padding
 
 Example of setting all widths:
 
@@ -76,7 +74,7 @@ Example: `border: 5px 10px 15px 20px;`
 
 
 
-## Creating Rounded Corners
+# Creating Rounded Corners
 
 Use the CSS border-radius property to give a block element rounded corners.
 
@@ -93,13 +91,14 @@ Use the CSS border-radius property to give a block element rounded corners.
   Example: `border-bottom-left-radius: 20px;`
 
 - border-radius&mdash;Shorthand for setting all the four border-radii.
-They are set in clock-wise order stating at the top-left corner.
-  
-Example: `border-radius: 5px 10px 15px 20px;`
-  
+  They are set in clock-wise order stating at the top-left corner.
   
 
-## Positioning
+Example: `border-radius: 5px 10px 15px 20px;`
+
+  
+
+# Positioning
 
 The *position* property specifies the positioning method used for an element: 
 
@@ -138,7 +137,7 @@ img {
 
 
 
-## Overflow Content
+# Overflow Content
 
 The *overflow* property specifies what should happen if content overflows an element's content area. The values are:
 
@@ -157,7 +156,7 @@ div {
 
 
 
-## Stacking Objects in a Page
+# Stacking Objects in a Page
 
 The *z-index* property specifies the stack order of an element. The greater the stack order, the closer an  is element is to the front. 
 
@@ -181,15 +180,15 @@ img {
 
 
 
-## Example
+# Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
+* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/)
 
 * [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
 
   
 
-## References
+# References
 
 * [W3Schools: Box Model ](https://www.w3schools.com/css/css_boxmodel.asp)
 * [W3Schools: Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
