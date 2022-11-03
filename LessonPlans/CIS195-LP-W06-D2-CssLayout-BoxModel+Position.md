@@ -1,3 +1,12 @@
+---
+title: More CSS Layout
+description: More CSS properties for page layout. 
+keywords: float, clear, position, box model, margin, padding, border, border-radius, border-color, overflow, z-index
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
+
 **CIS 195 Web Authoring 1: HTML**
 
 <h1>More Page Layout using CSS</h1>
@@ -72,6 +81,34 @@ The sequence is: top, right, bottom, left.
 
 Example: `border: 5px 10px 15px 20px;`
 
+## Setting Colors
+
+### Border
+
+You can set the color of the border like this: `border-color: blue`.
+
+### Padding
+
+The color of an element's padding will be the same as the background color of the element. You can't set it separately.
+
+### Margin
+
+The color of an element's margin will be the same color as the background of whatever element contains it. You can't set it separately.
+For example, a section contains a paragraph:
+
+```html
+<section>
+  <p>Some text.</p>
+</section>
+```
+
+If the section has a blue background, and it contains a paragraph with a 10px margin. The margin of the paragraph will be blue too. Here's are the CSS rules that would do that:
+
+```css
+section {background-color: blue;}
+p {margin: 10px;}
+```
+
 
 
 # Creating Rounded Corners
@@ -126,12 +163,13 @@ After setting a position property, a distance can be set. Elements are positione
 
   
 
-This example moves the image 100 pixels to the right:
+This example moves the image 100 pixels to the <u>right</u> and 50 pixels <u>down</u>:
 
 ```css 
 img {
   position: relative;
   left: 100px;
+  top: 50px;
 }
 ```
 
