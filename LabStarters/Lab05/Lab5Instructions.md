@@ -3,16 +3,16 @@
 
 ## Using CSS to Control Web Page Layout
 
-You will practice using CSS by applying it to the web sites you made in lab 4.
+You will practice using CSS by applying it to the review web site you made in labs 2 and 4.
 
 ### Part 1
 
-You will use the web page from lab 4, part 1 (originally done for lab 2, part 1, it was a single page with a review of something) as your starting point. 
+You will use the single web page from lab 4, part 1 (originally done for lab 2, part 1, it was a single page with a review of something) as your starting point. 
 
-1. Create a external CSS file with rules that:
+1. Create an external CSS file with rules that:
    - Set a background image.
    - Set a fixed width for the body of the page.
-   - Use the float property to move the figure to the right side of the page
+   - Use the float property to move the figure to the right side of the page.
    - Use the clear property to end the float.
 
 
@@ -20,7 +20,7 @@ You will use the web page from lab 4, part 1 (originally done for lab 2, part 1,
 
 Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It was a review site with a home page and at least three review pages.)
 
-1. Use float and other appropriate CSS properties to create navigation links on each page. The navigation links should be arranged horizontally and look like buttons (have a colored background, no bullets) rather than links.
+1. Use float and other appropriate CSS properties to create navigation links on each page.
 2. On  at least one figure:
    - Add padding, a visible border, and margin.
    - Make the corners of the figure rounded.
@@ -38,22 +38,19 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 #### Publishing to citstudent
 
 - Use FileZilla to upload the folders containing your web site to citstudent.
-  - Do not zip the files.
-  - If both parts 1 and 2 are in the same web site, you can just upload that one web site.
-- Record the URL (web address) of your home page so that you can enter it on Moodle. 
+  - Do <u>not</u> zip the files.
+  - If both parts 1 and 2 are in the same web site (as they should be), you can just upload that one web site.
+- Record the URL (web address) of your home page so that you can enter it on Moodle.
+  Hint: remember that *public_html* is <u>not</u> part of the URL.
 
 #### Submitting to Moodle
 
-- Zip the files in part 1
+- Zip the web site (assuming parts 1 and 2 are in the same web site).
 
-- Zip the files in part 2
+- Upload the zip file to Moodle.
 
-- Upload both zip files to Moodle.
-  (If your part 2 contains the page in part 1, then you only need to zip and upload part 2)
-  
-- Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle.
-  (Without this, I won't be able to find your web page.)
-  
+- Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle. This is important&mdash;without this, I won't be able to find your web page on the internet.
+
   
 
 ------
