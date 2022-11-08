@@ -4,7 +4,7 @@
 
 #### Objectives
 
-You will create tables with the following features:
+You will get practice creating tables with the following features:
 
 - Rows with multiple cells (td elements)
 - Headings

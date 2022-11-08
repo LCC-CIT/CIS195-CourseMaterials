@@ -1,4 +1,4 @@
-# HTML Tables
+<h1>HTML Tables</h1>
 
 | Course weeks and topics  |                         |
 | ------------------------ | ----------------------- |
