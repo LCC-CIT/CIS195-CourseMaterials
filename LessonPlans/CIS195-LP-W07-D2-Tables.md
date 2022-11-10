@@ -30,23 +30,18 @@ Notes for each week are available in the [course outline](https://lcc-cit.github
 
 ## Announcements
 
--   Review due dates on Moodle.
--   Choose courses for Winter 2020 now!
-    -   Winter registration is  already open
+- Review due dates on Moodle.
+
+-   Choose courses for Winter 2022 now!
+    - Winter registration is  already open
+    
     -   You can view the [Winter CIT class schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202130) now. 
         Reccomended courses for the [Programing Degree](https://www.lanecc.edu/cit/computer-programming) this coming Fall:
-        -   <u>Programming Courses</u>
-            -   CS 133N, Beginning Programming: C#, 4 creditss&mdash;*requires Math 60*.
-            -   CIS 100, Computing Careers Exploration, 1 credit.
-            -   CS 206, Co-op Ed: Computer Information Technology Seminar, 2 credits.
-        -   <u>General Ed</u>
-            -   WR121, Academic Composition, 4 credits.
-            -   WR227, Technical Writing, 4 credits.
-            -   MTH95, Intermediate Algebra, 4 credits.
-                *Lower level math classes are available as well.*
-            -   PE/Health requirement, 3 credits.
-            -   CG203, Human Relations at Work or an approved communication course, 3 credits.
-    -   Road-map for the Programing Degree: [Required Courses for the Programming Degree](https://drive.google.com/file/d/1vWOGqvMj0CveCjTDqymQzJ7cn7jGHKVX/view?usp=sharing).
+        
+        -   CS133JS, Beginning Programming: JavaScript, 4 creditss&mdash;*requires Math 60*.
+        -   CS161N, Beginning Programming: C#, 4 creditss&mdash;*requires Math 95, or CS160, or CIS125A, or CIS125G.*
+        
+        -   WR121, Academic Composition, 4 credits.
 
 
 
