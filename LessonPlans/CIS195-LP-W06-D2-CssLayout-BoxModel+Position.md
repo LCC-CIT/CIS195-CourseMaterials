@@ -205,20 +205,32 @@ There are two possible values:
 - auto&mdash;sets the stack order equal to its parents. This is default and will normally result in a value of 0.
 - a number&mdash;sets the stack order of the element. The highest number will be on top. Negative numbers are allowed
 
-Example:
+**Example**
 
-```css
-img {
-  position: fixed;
-  left: 10px;
-  top: 10px;
-  z-index: -1;
-}
+Snippet of HTML:
+
+```html
+<h1>Heirloom Apples</h1>
+<img src="baldwin.jpg">
+A native apple of North America.
 ```
 
 
 
-# Example
+CSS to move the image to overlap the text and make it go behind it:
+
+```css
+img {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+```
+
+
+
+# Examples
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/)
 

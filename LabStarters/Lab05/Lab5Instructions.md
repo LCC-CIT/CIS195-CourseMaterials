@@ -7,27 +7,23 @@ You will practice using CSS by applying it to the review web site you made in la
 
 ### Part 1
 
-You will use the single web page from lab 4, part 1 (originally done for lab 2, part 1, it was a single page with a review of something) as your starting point. 
+You will use the single review web page from lab 4, part 1 as your starting point. Create an external CSS file with rules that:
 
-1. Create an external CSS file with rules that:
-   - Set a background image.
-   - Set a fixed width for the body of the page.
-   - Use the float property to move the figure to the right side of the page.
-   - Use the clear property to end the float.
+- Set a background image.
+- Set a fixed width for the body of the page.
+- Use the float property to move the figure to the right side of the page.
+- Use the clear property to end the float.
 
 
 ### Part 2
 
-Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It was a review site with a home page and at least three review pages.)
+Still working with the review web site from lab 4:
 
-1. Use float and other appropriate CSS properties to create navigation links on each page. The navigation list should be arranged horizontally and links should look like buttons (have a colored background, no bullets, etc.) rather than links.
-2. On  at least one figure:
+1. Use float and other appropriate CSS properties to create navigation links to all the pages (other than the page itself) on each page. The navigation list should be arranged horizontally and links should look like buttons (have a colored background, no bullets, etc.) rather than links.
+2. On at least one figure, on any page:
    - Add padding, a visible border, and margin.
    - Make the corners of the figure rounded.
    - Use relative positioning to place the figure somewhere other than its original location.
-3. For the header of each page (including the home page):
-   - Add a background image.
-   - Set the Z order so that the heading (H1) is on top.
 
 Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
 
