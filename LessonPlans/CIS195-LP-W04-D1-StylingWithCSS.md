@@ -13,14 +13,14 @@
 
 [TOC]
 
-## Introduction
+# Introduction
 
 -   Review lab due dates on Moodle
 -   Answer questions about lab 3
 
 
 
-## Basic CSS
+# Basic CSS
 
 Cascading Style Sheets (CSS) refers to both a type of file, .css, and a computer language used to describe the formatting and style of a web page written in HTML.
 
@@ -32,7 +32,7 @@ CSS is designed to facilitate the separation of *presentation* and *content*, in
 
 The name cascading comes from the hierarchy of priorities that determine which style rule applies when there is more than one style rule that is applicable to a particular HTML element.
 
-### Style rules
+## Style Rules
 
 - <u>Example of a style rule:</u>
 
@@ -65,27 +65,27 @@ The name cascading comes from the hierarchy of priorities that determine which s
 - <u>Inheritance</u>
   Any element that is nested inside an element to which a style rule has been applied will inherit that rule. For example, given the `body` rule above, any element inside the body will also have a `light-cyan` background and the `Aria`l font face.
 
-### Style-sheets
+## Style-sheets
 A Style-sheet is just a set of one or more CSS rules and it doesn't have to be in a file.
 
 - Types of style-sheets
-  
+
   - Web site style-sheets:
-    
+
     - External: in a separate file named with a name ending in .css
       In an HTML file, use the *link* element to apply a css file.
       Example:
-    
+
       ```html
       <head>
          <!-- The usual other code would go here -->
          <link href="HomeStyles.css" rel="stylesheet" />
       </head>
       ```
-    
+
     - Embedded: in a *style* element in an html file
       Example:
-    
+
       ```html
       <head>
          <!-- The usual code would go here -->
@@ -102,34 +102,40 @@ A Style-sheet is just a set of one or more CSS rules and it doesn't have to be i
       </head>
       
       ```
-    
+
     - Inline: in a *style* attribute inside an HTML tag
       Example:
-    
+
       ```html
       <p style="background-color:lightblue">Some text</p>
       ```
-    
+
   - Browser styles-sheets
-    
+
     - Internal: defined by the browser developers.
     - User Defined: defined by the user (not the web developer).
-    
-  
-- <u>Precedence: the cascade</u>
-  (The ones closer to the top win.)
-  
-    1. HTML element's *inline* styles.
-    2. HTML page's *embedded* style rules.
-    3. HTML pages's *external* style-sheet.
-    4. Browser's *user-defined* styles.
-    5. Browser's *internal* style-sheet.
-  
-  
 
-## More Selectors
 
-### Contextual selectors
+### Precedence: The Cascade
+
+When you have style rules in multiple places with the same selector and conflicting properties, then the style rule that has the highest precedence overrides the others meaning it wins. 
+
+This is the order of precedence from highest to lowest. (#1 is highest)
+
+  1. HTML element's *inline* styles.
+  2. HTML page's *embedded* style rules.
+  3. 
+     HTML pages's *external* style-sheet.
+
+     There can be multiple external style sheets linked to one page. The last one has the highest precedence.
+  4. Browser's *user-defined* styles.
+  5. Browser's *internal* style-sheet.
+
+
+
+# More Selectors
+
+## Contextual Selectors
 
 | Combinator   | Example      | Description                                              |
 | ------------ | ------------ | -------------------------------------------------------- |
@@ -143,9 +149,9 @@ W3 Schools tutorial: [CSS Combinators](https://www.w3schools.com/css/css_combina
 
 
 
-### Attribute selectors
+## Attribute Selectors
 
-#### id selector
+### id Selector
 A particular `id` attribute can be used only once on a web page to identify an element. It has multiple uses in HTML.
 
 - A hash tag in an `href` address selects an `id` a link inside a web page.
@@ -166,7 +172,7 @@ Example of a target HTML element:
 
 
 
-#### Class selector
+### Class Selector
 A particular class attribute can be used multiple times on a web page and is only used for applying a CSS rule.
 
 - dot selects a class.
@@ -199,7 +205,7 @@ A particular class attribute can be used multiple times on a web page and is onl
 
 
 
-## Semantic structural elements as CSS selectors
+# Semantic Structural Elements as CSS Selectors
 
 These can be used as CSS rule selectors to provide a way to format a section of the page. For example:
 
@@ -215,25 +221,25 @@ article {
 }
 ```
 
-### Semantic structural elements
+## Semantic Structural Elements
 
-`<article>`
-`<aside>`
-`<details>`
-`<footer>`
-`<header>`
-`<main>`
-`<mark>`
-`<nav>`
-`<section>`
-`<summary>`
-`<time>`
+- `<article>`
+- `<aside>`
+- `<details>`
+- `<footer>`
+- `<header>`
+- `<main>`
+- `<mark>`
+- `<nav>`
+- `<section>`
+- `<summary>`
+- `<time>`
 
 [W3Schools tutorial on semantic elements](https://www.w3schools.com/HTML/html5_semantic_elements.asp)
 
-### Non-semantic structural elements
+## Non-semantic Structural Elements
 
-**The `<div>` element** was a structural element used before HTML5 introduced semantic structural elements. It is  considered non-semantic, because div is just an abbreviation for "division", it's name doesn't have any meaning related to the type of division it represents. 
+**The `<div>` element** was a structural element used before HTML5 introduced semantic structural elements. It is considered non-semantic, because div is just an abbreviation for "division", it's name doesn't have any meaning related to the type of division it represents. 
 
 Example:
 
@@ -254,7 +260,7 @@ The Madras <span style="font-style:oblique">Crocodile Bank Trust and Centre for 
 
 
 
-## Examples
+# Examples
 
 * [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.html)
 
@@ -262,7 +268,7 @@ The Madras <span style="font-style:oblique">Crocodile Bank Trust and Centre for 
 
 
 
-## References
+# References
 
 * [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
 * [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html style='font-size:20px !important'>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 <meta name="title" content="${title}">
@@ -24,7 +24,7 @@ a:active, a:hover { outline: 0px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 .typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
 }
@@ -49,7 +49,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -89,10 +89,10 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print { 
+@media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -113,7 +113,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -126,7 +126,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) { 
+@media screen and (max-width: 48em) {
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -138,7 +138,7 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; }
 a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
@@ -154,7 +154,7 @@ mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
-@media print { 
+@media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
@@ -167,19 +167,19 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
 .outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
 .outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ''; }
+.outline-expander:hover::before { content: ""; }
 .outline-h1 > .outline-item { padding-left: 0px; }
 .outline-h2 > .outline-item { padding-left: 1em; }
 .outline-h3 > .outline-item { padding-left: 2em; }
@@ -191,19 +191,20 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
 .outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
 .typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
 .typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
 
 
 :root {
@@ -592,11 +593,9 @@ header, .context-menu, .megamenu-content, footer{
 
 
  @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
-</style><title>Lab2Instructions</title>
+</style><title>CIS195TermProjectRequirements</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><p><strong><span>CIS 195, Web Authoring</span></strong></p><h1 id='lab-2-instructions'><span>Lab 2 Instructions</span></h1><p><span>For this lab assignment, you will make a web site with reviews of anything you are interested in like books, movies, or music. In part 1, you will make a single web page containing a single review. In part 2 you will add a home page and two more review pages to make a complete review web site.</span></p><h2 id='part-1-a-single-review-page'><span>Part 1: A Single Review Page</span></h2><h3 id='learning-objective-1'><span>Learning Objective</span></h3><p><span>The objective of this part of the lab is to give you practice using basic HTML elements.</span></p><h3 id='requirements-1'><span>Requirements</span></h3><p><span>Create a single web page that presents a review of something of your choice and that uses each of the following HTML elements:</span></p><ul><li><span>A</span><code>&lt;blockquote&gt;</code><span> element.</span></li><li><span>A</span><code>&lt;figure&gt;</code><span> and </span><code>&lt;figcaption&gt;</code><span> elements.</span></li><li><span>One or more special characters like </span>&hearts;<span>.</span></li><li><span>A nested list.</span></li><li><span>A horizontal rule.</span></li><li><span>Two or more comments. For one of the comments, put your name  and the date in the head element.</span></li></ul><p><span>Check your page using the </span><a href='https://validator.w3.org'><span>W3C HTML Validator</span></a><span>  </span></p><p>&nbsp;</p><h2 id='part-2-a-review-web-site'><span>Part 2: A Review Web Site</span></h2><h3 id='learning-objective-2'><span>Learning Objective</span></h3><p><span>The objective of this part is to learn to work with multiple pages and to manage sub-folders and file paths.</span></p><h3 id='requirements-2'><span>Requirements</span></h3><p><span>Create a review site that contains </span><u><span>a home page</span></u><span> and at </span><u><span>least three review pages</span></u><span>.</span>
-<span> (You will use the page from Part 1 as one of the three review pages.)</span></p><ul><li><span>The home page will have links to the three review pages.</span></li><li><span>All the review page files will be in a sub-folder named </span><em><span>reviews</span></em><span>.</span></li><li><span>Each review page should have at least one figure on it.</span>
-<span>(They don&#39;t all need the additional elements required for the page in Part 1)</span></li><li><span>All the images should be in a sub-folder named </span><em><span>images</span></em><span>.</span></li><li><span>Put your name as author of the web site and the date in a comment in the head element of each page.</span></li></ul><p><span>Check your pages using the </span><a href='https://validator.w3.org'><span>W3C HTML Validator</span></a><span>  </span></p><p>&nbsp;</p><h2 id='submitting-your-web-sites-to-moodle'><span>Submitting your web sites to Moodle</span></h2><ul><li><p><span>Zip the files in part 2 (part 2 includes your page from part 1) into a single zip file.</span></p></li><li><p><span>Upload the zip file to Moodle using the Lab 2 Submission link.</span></p><p>&nbsp;</p></li></ul><h2 id='grading'><span>Grading</span></h2><p><span>Here is a link to the grading rubric that I will use to grade your assignment:</span></p><p><a href='Lab2Rubric-CS195.pdf'><span>Lab2Rubric-CS195.pdf</span></a></p></div></div>
+<div id='write'  class=''><h1>Term Project Requirements</h1><h2>CIS195, Web Authoring</h2><p><span>For your term project, you will create a website that can have any content you wish.  The project will be graded on the basis of technical merit (coding); however, I would encourage you to try to put some artistry into it as well.  Your project may be a portfolio item that you will want to show to potential future collaborators and employers.  </span></p><p><span>Your project must represent your individual work.  Other students will review your web site and give you suggestions, but you must be the one to make changes to the code. </span></p><p><span>The project will be due the last week of the term. See the syllabus or Moodle for the due date. Also, note that this project is a significant part of your grade, so start early in the term and give yourself plenty of time so that you can do a great job on it.</span></p><p><span>The project must include the following:</span></p><ul><li><span>The site must contain at least 5 pages and each page must have a distinct purpose.</span></li><li><span>Each page must have a header (which includes headings) that is consistent between pages.  The header should clearly identify the purpose of the site.  For example, if the site has a banner “Declawed”, it should have a smaller tagline reading, “A competition-free space for women to relate to one another” or “The ins and outs of keeping a large predator around little children” or “Low cost services for the family pet”.</span></li><li><span>Each page must have a footer that includes the author’s name, copyright, the date the page was last modified, and anything else pertinent to your site. The footers must be consistent between pages.</span></li><li><span>Each page must have a navigation bar that allows the user to directly go to each page.  The navigation bar must be consistent between pages.  </span></li><li><span>Each page must have at least one paragraph of meaningful text or a table.</span></li><li><span>All pages must use the same CSS file, but you can have other CSS files that are only used on certain pages, as long as the overall user experience is consistent between pages.  </span></li><li><span>At least one page must have an embedded style in the head element.</span></li><li><span>The website must include at least 3 figures (containing images) in addition to any images contained in the header, footer or navigation bar of the page. </span></li><li><span>All images must have meaningful alt text for users with low vision.</span></li><li><span>At least one of the pages must contain a table with at least two columns and at least two rows.  The table must contain column headings.</span></li><li><span>Each page should include section, article, and header semantic elements.</span></li></ul></div></div>
 <base target="_blank"></body>
 </html>

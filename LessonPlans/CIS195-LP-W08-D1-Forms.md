@@ -45,7 +45,7 @@ Forms allow users to enter data that can be processed by code that either runs i
 
 ### Input element
 
-The most common use of the input element is to enter text--this is the default use. 
+The most common use of the input element is to enter text&mdash;this is the default use. 
 
 #### *type attribute*
 
@@ -120,7 +120,7 @@ Using the tab key you can move from one control to the next in the form.
 
 The `<fieldset.` element groups a set of controls in a form by putting a box around them.
 
-The `<legend>` element inserts a legend (aka title) into the box surrounding the fields.
+The `<legend>` element inserts a legend (aka title) into the box surrounding the fields.
 
 ```html
 <form>
@@ -169,9 +169,11 @@ Labels don't change the appearance of the form, but they:
 The `<textarea>` element allows users to enter multiple lines of text.
 The row and cols attributes determine the size.
 The wrap attribute determines the type of line warp: hard or soft.
+
 - Hard: Carriage-return and line-feed character codes are inserted into the text where it wraps.
+  - The code for carriage-return is: `%0D`.
+  - The code for line-feed is: `%0A`.
   
-  *Note: this doesn't seem to work in the current version of Firefox for Windows.*
 - Soft: No character codes are inserted where the text wraps.
 
 ```html

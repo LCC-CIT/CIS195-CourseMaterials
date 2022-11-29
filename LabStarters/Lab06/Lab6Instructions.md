@@ -4,7 +4,7 @@
 
 #### Objectives
 
-You will create tables with the following features:
+You will get practice creating tables with the following features:
 
 - Rows with multiple cells (td elements)
 - Headings
@@ -77,11 +77,10 @@ Your events table should contain the following:
 
 - Upload to Moodle
 
-  - Zip the files in part A
-  - Zip the files in part B
-  - Upload both zip files to Moodle using the lab submission link for the assignment.
-
+  - Upload both files to Moodle using the lab submission link for the assignment.  
+    (You can either zip both files before uploading, or upload them individually without zipping.)
   
+
 
 ------
 
