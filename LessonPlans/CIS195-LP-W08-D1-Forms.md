@@ -147,8 +147,8 @@ Labels don't change the appearance of the form, but they:
 
 - Are semantic tags that make the purpose of the text above the input element clear to developers.
 - Provide a target for CSS formatting.
-- Are clickable if the *for* attribute is used (the *for* value must match the *id* of the input element).
-- Give focus to the associated control when the mouse pointer hovers over them.
+- Are clickable if the `for` attribute is used (the *for* value must match the `id` of the input element).
+- Give focus to the associated control when the user clicks on the label.
 
 **Note**: labels are in-line elements but, you can change them to a block element with the CSS `display:block` property.
 
