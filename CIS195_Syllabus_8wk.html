@@ -1,0 +1,606 @@
+<!doctype html>
+<html style='font-size:20px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<meta name="title" content="${title}">
+<meta name="description" content="${description}">
+<meta name="keywords" content="${keywords}">
+<meta name="material" content="${material}">
+<meta name="author" content="${author}">
+<meta name="generator" content="${generator}">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} h1,h2,h3,h4,h5 {white-space:pre-line}
+</style><title>CIS195_Syllabus_8wk</title>
+</head>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h1>Syllabus for Web Authoring 1: HTML</h1><h2>Summer 2023 Online and Hybrid class sections</h2><figure class='table-figure'><table><thead><tr><th>&nbsp;</th><th><span>Class Info</span></th><th>&nbsp;</th><th>&nbsp;</th><th><span>Instructor Info</span></th></tr></thead><tbody><tr><td><span>Course</span></td><td><span>CIS195</span></td><td>&nbsp;</td><td><span>Instructor</span></td><td><span>Brian Bird</span></td></tr><tr><td><span>CRN</span></td><td><span>hybrid 10372, online 10325</span></td><td>&nbsp;</td><td><span>Email</span></td><td><a href='mailto:birdb@lanecc.edu' target='_blank' class='url'>birdb@lanecc.edu</a></td></tr><tr><td><span>Time, Day</span></td><td><span>10:00–11:50, Tu &amp; Th</span></td><td>&nbsp;</td><td><span>Office</span></td><td><span>Building 19, room 152</span></td></tr><tr><td><span>Classroom</span></td><td><span>Building 2, room 212</span><br /><a href='https://lanecc.zoom.us/j/99487864515'><span>Zoom meeting</span></a></td><td>&nbsp;</td><td><span>Drop-in to see the instructor</span></td><td><span>Tu, Th: 12:00</span>&ndash;<span>12:50 </span><br /><span>CIT Computer Lab, rm 135</span><br /><a href='https://lanecc.zoom.us/j/94159665543'><span>Zoom meeting</span></a></td></tr></tbody></table></figure><p>&nbsp;</p><h2>Table of Contents</h2><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n475"><a class="md-toc-inner" style="" href="#course-description">Course Description</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n487"><a class="md-toc-inner" style="" href="#effort">Effort</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n496"><a class="md-toc-inner" style="" href="#themes">Themes</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n509"><a class="md-toc-inner" style="" href="#skills">Skills</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n528"><a class="md-toc-inner" style="" href="#learning-resources">Learning Resources</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n529"><a class="md-toc-inner" style="" href="#textbook">Textbook</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n531"><a class="md-toc-inner" style="" href="#computer-lab-and-in-person-tutoring">Computer Lab and In-Person Tutoring</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n533"><a class="md-toc-inner" style="" href="#online-tutoring-and-support-services">Online Tutoring and Support Services</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n535"><a class="md-toc-inner" style="" href="#software">Software</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n556"><a class="md-toc-inner" style="" href="#web-resources">Web Resources</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n562"><a class="md-toc-inner" style="" href="#assessment-and-grading">Assessment and Grading</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n612"><a class="md-toc-inner" style="" href="#late-work">Late Work</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n627"><a class="md-toc-inner" style="" href="#weekly-learning-cycle">Weekly Learning Cycle</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n644"><a class="md-toc-inner" style="" href="#academic-honesty">Academic Honesty</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n646"><a class="md-toc-inner" style="" href="#attendance">Attendance</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n656"><a class="md-toc-inner" style="" href="#accessibility-and-accommodations">Accessibility and Accommodations: </a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n659"><a class="md-toc-inner" style="" href="#academic-calendar-for-summer-2023">Academic Calendar for Summer 2023</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n682"><a class="md-toc-inner" style="" href="#course-schedule">Course Schedule</a></span></p></div><h2 id='course-description'><span>Course Description</span></h2><p><span>This four-credit course provides students who have minimal computer experience with the concepts and skills necessary to create static web pages using HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).  Through hands-on practice students will master the concepts, tools and skills needed to construct web pages and to upload pages to a web server on the internet.</span></p><p><span>The intention of the course is to enable you to create and maintain static pages that could be part of any modern web site using current technologies and tools.</span></p><ul><li><p><span>HTML5</span></p></li><li><p><span>CSS3</span></p></li><li><p><span>Code Editors - for creating HTML and CSS files (like Visual Studio Code)</span></p></li><li><p><span>FTP clients - for uploading files to a server (like FileZilla)</span></p></li></ul><h3 id='effort'><span>Effort</span></h3><p><span>Since this is a four-credit class, students will need to devote at least 12 hours per week to the class.</span></p><ul><li><p><span>4 hours for class participation.</span></p></li><li><p><span>2 hours for reading (lecture notes and tutorials).</span></p></li><li><p><span>6 hours for lab assignments.</span></p></li></ul><h3 id='themes'><span>Themes</span></h3><p><span>In addition to the topics listed in the </span><a href='#course-schedule'><span>course schedule</span></a><span>, these themes will be interwoven with those topics:</span></p><ul><li><p><span>How the Internet works (HTTP Protocol)</span></p></li><li><p><span>Web page loading speed (performance)</span></p></li><li><p><span>Browser compatibility</span></p></li><li><p><span>Ethics and internet privacy</span></p></li><li><p><span>Internet security</span></p></li></ul><h3 id='skills'><span>Skills</span></h3><ul><li><p><span>Explain the development of HTML and demonstrate understanding of web page tags, anatomy, formatting as well as use of logical and physical tags.</span></p></li><li><p><span>Effectively use: structural elements, anchor tags, relative and absolute links, e-mail links, tables, colors, horizontal rules, image tags, background images, image hyperlinks, forms and form tags, form elements and element groups, custom buttons.</span></p></li><li><p><span>Use cascading style sheet technology (CSS) to configure common page and text properties as well as for positioning of elements on a web page.</span></p></li><li><p><span>Use an html validator and a CSS validator to ensure the correctness of web pages.</span></p></li><li><p><span>Use an FTP client to upload and manage files on a web server.</span></p></li><li><p><span>Discuss concepts, themes and issues orally and in writing.</span></p></li><li><p><span>Evaluate your own web site implementation work.  Evaluate the web site implementation work of other students and provide constructive feedback orally and in writing.</span></p></li><li><p><span>Respond appropriately to and assimilate feedback provided by other students and your instructor.</span></p><p>&nbsp;</p></li></ul><h2 id='learning-resources'><span>Learning Resources</span></h2><h3 id='textbook'><span>Textbook</span></h3><p><span>There is no textbook for this class. You will learn from the class lectures, lecture notes, and online tutorials. </span></p><h3 id='computer-lab-and-in-person-tutoring'><span>Computer Lab and In-Person Tutoring</span></h3><p><span>The CIT computer lab in building19, room 135, is equipped with computers and and all the software required for this course.  The lab is available to all students in the CIT department. There are tutors available in the lab to help you with your lab assignments. A schedule will be posted on the large white board inside the lab with a list of the tutors and the times they will be available.</span></p><h3 id='online-tutoring-and-support-services'><span>Online Tutoring and Support Services</span></h3><p><span>In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the </span><a href='http://lanecc.edu/hub'><span>Lane Support Hub</span></a><span> (Zoom link: lanecc.edu/hub). Feel free to drop in or guarantee time with a tutor by making an appointment using </span><a href='https://lanecc.mywconline.com/'><span>WCOnline</span></a><span>. Check out the </span><a href='https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services'><span>ATS website</span></a><span> (link: lanecc.edu/tutor) for updated hours and additional information.</span></p><h3 id='software'><span>Software</span></h3><p><span>If you plan to do lab work somewhere other than in the classroom or the CIT Computer Lab, you will need: </span></p><ul><li><p><span>&quot;Office&quot; software for Word processing, spreadsheets, slides, etc., such as:</span></p><ul><li><p><a href='https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff'><span>MS Office</span></a>&mdash;<span>Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. </span>
+<em><span>About Microsoft accounts: You may have both a </span><a href='https://myaccount.microsoft.com'><span>school account</span></a><span> and a </span><a href='https://account.microsoft.com'><span>personal account</span></a><span>. Use your Microsoft </span><u><span>school account</span></u><span> to get MS Office.</span></em></p></li><li><p><a href='http://www.libreoffice.org'><span>LibreOffice</span></a>&mdash;<span> Free, open source, cross-platform (Mac, Windows, Linux) software.</span></p></li><li><p><a href='https://docs.google.com'><span>Google Docs</span></a>&mdash;<span>Free to use online with your LCC gmail account.</span></p></li></ul></li><li><p><span>A code (text) editor to create your web pages.  </span><a href='https://code.visualstudio.com'><span>Visual Studio Code</span></a><span> is a free code editor that can be downloaded via the internet and used on Windows, Mac OS or Linux. Alternatively, you can use TextWrangler on Mac OS, or Notepad++ on Windows.</span></p></li><li><p><span>Software that can be used to manipulate images such as the </span><u><span>Windows Paint</span></u><span> program (included in Windows). Mac users can use the </span><u><span>Preview</span></u><span> app (included in MacOS), but it just barely meets the needs of this class. </span></p><p><span>Most other full-featured image editing apps such as Adobe Photoshop (not free), or </span><a href='https://www.gimp.org/'><span>Gimp</span></a><span> (a free, cross-platform, clone of Photoshop) will also meet the needs of this class. The two main things you&#39;ll need to do are: change the size of images and find pixel coordinates in images.</span></p></li><li><p><span>At least two modern browsers to view/test your web pages.  The latest versions of </span><a href='https://www.google.com/chrome/'><span>Chrome</span></a><span>, and </span><a href='https://www.mozilla.org/en-US/firefox/new/'><span>Firefox</span></a><span> can be downloaded for free.  Many other browsers like Safari and Edge, are also suitable for your use in this class.</span></p></li><li><p><span>An ftp client to upload your web pages to citstudent.lanecc.edu. </span><a href='https://filezilla-project.org/download.php?show_all=1'><span>FileZilla</span></a><span> is a good free option that runs on Windows, Mac OS, or Linux.</span></p></li></ul><h3 id='web-resources'><span>Web Resources</span></h3><ul><li><p><a href='http://classes.lanecc.edu' target='_blank' class='url'>http://classes.lanecc.edu</a><span> (Moodle) is the Learning Management System for this course.  All course materials and activities will be managed through Moodle.</span></p></li><li><p><a href='http://citstudent.lanecc.edu' target='_blank' class='url'>http://citstudent.lanecc.edu</a><span> will be used to host student web sites. You will be provided with the login information you need to upload your pages to this server.</span></p></li></ul><h2 id='assessment-and-grading'><span>Assessment and Grading</span></h2><p><span>Specific grading criteria will be applied to each of the labs, quizzes, and exams you will be working on in this class. Part of the lab involves a code review. Attendance is not graded.</span></p><figure class='table-figure'><table><thead><tr><th><span>Assessment Activities</span></th><th><span>Percentage of grade</span></th></tr></thead><tbody><tr><td><span>Labs 1-8, 50 points each:</span></td><td><span>40%</span></td></tr><tr><td><span>Quizzes 1-8,  10 points each</span></td><td><span>8%</span></td></tr><tr><td><span>Midterm and Final Exams,  125 points each</span></td><td><span>25%</span></td></tr><tr><td><span>Project, 270 points</span></td><td><span>27%</span></td></tr></tbody></table></figure><p><span>Letter grades for the course will be determined by the following percentages:              </span></p><figure class='table-figure'><table><thead><tr><th>&nbsp;</th><th><span>-</span></th><th>&nbsp;</th><th><span>+</span></th></tr></thead><tbody><tr><td><span>A</span></td><td><span>90–91</span></td><td><span>92–97</span></td><td><span>98–100</span></td></tr><tr><td><span>B</span></td><td><span>80–81</span></td><td><span>82–87</span></td><td><span>88–89</span></td></tr><tr><td><span>C</span></td><td><span>70–71</span></td><td><span>72–77</span></td><td><span>78–79</span></td></tr><tr><td><span>D</span></td><td><span>60–61</span></td><td><span>62–67</span></td><td><span>68–69</span></td></tr><tr><td><span>F</span></td><td><span>Below 60</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><h3 id='late-work'><span>Late Work</span></h3><ul><li><p><span>Lab Assignments:</span></p><ul><li><p><span>Lab assignments 1–4 must be submitted before the midterm.</span></p></li><li><p><span>Lab assignments 4–8 must be submitted before the final.</span></p></li><li><p><span>The grade for assignments submitted after the due date will be reduced by 10%. </span></p></li></ul></li><li><p><span>Quizzes and exams cannot be taken after the due date except in emergency situations.</span></p></li></ul><p><span>Exceptions will only be made for serious illness or emergency situations. </span></p><p>&nbsp;</p><h3 id='weekly-learning-cycle'><span>Weekly Learning Cycle</span></h3><figure class='table-figure'><table><thead><tr><th><span>Tuesday</span></th><th><span>Wednesday</span></th><th><span>Thursday</span></th><th><span>Friday</span></th><th><span>Saturday</span></th><th><span>Sunday</span></th></tr></thead><tbody><tr><td><span>Participate in class</span></td><td><span>Start lab work</span></td><td><span>Participate in class </span><br /><br /><span>Submit last week&#39;s lab assignment</span></td><td><span>Take the quiz</span></td><td>&nbsp;</td><td><span>Quiz closes</span></td></tr></tbody></table></figure><p>&nbsp;</p><h3 id='academic-honesty'><span>Academic Honesty</span></h3><p><span>While students are encouraged to discuss labs and to use each other as resources, each student is responsible for his/her own work. In other words, you can help each other, but you can&#39;t copy any part of someone else&#39;s work. The end product must be each student&#39;s own individual work.</span></p><h3 id='attendance'><span>Attendance</span></h3><p><span>Attendance is not a part of your grade, but it is essential that you log into Moodle at the beginning of every week to read the objectives for the week. Throughout the week, you will need to participate in live class sessions online or watch recordings of the lectures, and do the learning activities. </span></p><p><strong><span>No-Show Drop:</span></strong><span> LCC has a </span><a href='https://www.lanecc.edu/esfs/noshow-drops'><span>no-show drop</span></a><span> policy. which means that during the first week of the term, to avoid being dropped, a student must:</span></p><ul><li><p><span>Attend at least one online live class session </span></p><p><span>or</span></p></li><li><p><span>Complete one quiz or assignment (for online classes)</span></p><p>&nbsp;</p></li></ul><h2 id='accessibility-and-accommodations'><span>Accessibility and Accommodations: </span></h2><p><span>If you need support or assistance because of a disability, you may be eligible for academic accommodations through Disability Services. For more information, contact Disability Services at 463-5150 (voice) or 463-3079 (TTY), or stop by building 1, room 218. </span>
+<span>Please be aware that any accessible tables and chairs in this room should remain available for authorized students who find that standard classroom seating is not usable.</span></p><p>&nbsp;</p><h2 id='academic-calendar-for-summer-2023'><span>Academic Calendar for Summer 2023</span></h2><p><strong><span>8-Week Term</span></strong><span> </span></p><figure class='table-figure'><table><thead><tr><th><span>Event</span></th><th><span>Date</span></th></tr></thead><tbody><tr><td><span>Classes begin</span></td><td><span>6/26</span></td></tr><tr><td><span>Last Day to drop class by 11:59 pm and receive 100% refund</span></td><td><span>7/3</span></td></tr><tr><td><span>Independence Day – college closed on Tuesday</span></td><td><span>7/4</span></td></tr><tr><td><span>Last Day to Add/Drop or make other schedule changes</span></td><td><span>7/28</span></td></tr><tr><td><span>Last day of eight-week term</span></td><td><span>8/19</span></td></tr></tbody></table></figure><p><span>View </span><a href='https://www.lanecc.edu/calendars/academic-calendar'><span>academic calendars</span></a><span> on the LCC web site.</span></p><p>&nbsp;</p><h2 id='course-schedule'><span>Course Schedule</span></h2><p><span>TODO: This still needs work.</span></p><p><span>(Tentative, may be subject to change)</span></p><figure class='table-figure'><table><thead><tr><th><span>Week</span></th><th><span>Topics</span></th><th><span>Quiz</span></th><th><span>Lab Assignment</span></th></tr></thead><tbody><tr><td><span>1</span><br /><span>6/26</span></td><td><span>Syntax of HTML tags and attributes  Structural elements, line breaks Unordered and ordered lists Text formatting (bold, italic, etc.) Images</span></td><td><span>Quiz 1</span></td><td><span>Lab 1: Oregon Overview, Personal Bio</span></td></tr><tr><td><span>2</span><br /><span>7/3</span></td><td><span>History of the Internet, the Web, and HTML Semantic elements CSS  JavaScript  Special characters Using a code editor Using a HTML validator</span></td><td><span>Quiz 2</span></td><td><span>Lab 2</span></td></tr><tr><td><span>3</span><br /><span>7/10</span></td><td><span>Developing a Web Site</span></td><td><span>Quiz 3</span></td><td><span>Lab 3</span></td></tr><tr><td><span>4</span><br /><span>7/17</span></td><td><span>CSS Page Design</span><br /><span>Midterm: Thursday: 7/19</span></td><td><span>Midterm</span></td><td><span>Term Project Proposal</span><br /><span>Lab 4?</span></td></tr><tr><td><span>5</span><br /><span>7/24</span></td><td><span>Publishing a web site using FTP</span></td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td><span>6</span><br /><span>7/31</span></td><td><span>CSS Page Layout</span></td><td><span>Quiz 5</span></td><td><span>Lab 5</span></td></tr><tr><td><span>7</span><br /><span>8/7</span></td><td><span>HTML Tables</span></td><td><span>Quiz 6</span></td><td><span>Lab 6</span></td></tr><tr><td><span>8</span><br /><span>8/14</span></td><td><span>HTML Forms</span><br /><span>Final Quiz: Thursday, 8/17</span></td><td><span>Final</span></td><td><span>Term Project</span><br /><span>Lab 7?</span></td></tr></tbody></table></figure><p>&nbsp;</p><p><a href='#course-description'><span>Go back to the top</span></a></p></div></div>
+<base target="_blank"></body>
+</html>
