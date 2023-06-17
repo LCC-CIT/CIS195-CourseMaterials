@@ -1,13 +1,14 @@
-<h1>Syllabus for Web Authoring 1: HTML</h1>
+<h1>Syllabus for Web Authoring: HTML & CSS</h1>
 
-<h2>Summer 2023 Online and Hybrid class sections</h2>
+<h2>Online and On-Campus (Hybrid) class sections</h2>
+<h2>Summer 2023 Eight-Week Term</h2>
 
-| Class Info |                                                              |      | Instructor Info      |                                                              |
-| ---------- | ------------------------------------------------------------ | ---- | -------------------- | ------------------------------------------------------------ |
-| Course     | CIS195                                                       |      | Instructor           | Brian Bird                                                   |
-| CRN        | hybrid 10372, online 10325                                   |      | Email                | birdb@lanecc.edu                                             |
-| Time, Day  | 10:00–11:50, Tu & Th                                         |      | Office               | Building 19, room 152                                        |
-| Classroom  | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Drop-in Office Hours | Tu, Th: 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
+|           | Class Info                                                   |      |                               | Instructor Info                                              |
+| --------- | ------------------------------------------------------------ | ---- | ----------------------------- | ------------------------------------------------------------ |
+| Course    | CIS 195                                                      |      | Instructor                    | Brian Bird                                                   |
+| CRN       | hybrid 10372, online 10325                                   |      | Email                         | birdb@lanecc.edu                                             |
+| Time, Day | 10:00–11:50, Tu & Th                                         |      | Office                        | Building 19, room 152                                        |
+| Classroom | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Drop-in to see the instructor | Tu, Th: 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
 
 
 
@@ -87,7 +88,7 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
   -  [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff)&mdash;Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. 
      *About Microsoft accounts: You may have both a [school account](https://myaccount.microsoft.com) and a [personal account](https://account.microsoft.com). Use your Microsoft <u>school account</u> to get MS Office.*
 
-  - [LibreOffice](http://www.libreoffice.org)&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
+  - [LibreOffice](http://www.libreoffice.org)&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
 
   - [Google Docs](https://docs.google.com)&mdash;Free to use online with your LCC gmail account.
 
