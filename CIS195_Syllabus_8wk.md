@@ -1,14 +1,13 @@
-<h1>Syllabus for Web Authoring: HTML & CSS</h1>
+<h1>Syllabus for Web Authoring 1: HTML & CSS</h1>
 
-<h2>Online and On-Campus (Hybrid) class sections</h2>
-<h2>Summer 2023 Eight-Week Term</h2>
+<h2>Summer 2023 Online and Hybrid class sections</h2>
 
-|           | Class Info                                                   |      |                               | Instructor Info                                              |
-| --------- | ------------------------------------------------------------ | ---- | ----------------------------- | ------------------------------------------------------------ |
-| Course    | CIS 195                                                      |      | Instructor                    | Brian Bird                                                   |
-| CRN       | hybrid 10372, online 10325                                   |      | Email                         | birdb@lanecc.edu                                             |
-| Time, Day | 10:00–11:50, Tu & Th                                         |      | Office                        | Building 19, room 152                                        |
-| Classroom | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Drop-in to see the instructor | Tu, Th: 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
+| Class Info |                                                              |      | Instructor Info      |                                                              |
+| ---------- | ------------------------------------------------------------ | ---- | -------------------- | ------------------------------------------------------------ |
+| Course     | CIS195                                                       |      | Instructor           | Brian Bird                                                   |
+| CRN        | hybrid 10372, online 10325                                   |      | Email                | birdb@lanecc.edu                                             |
+| Time, Day  | 10:00–11:50, Tu & Th                                         |      | Office               | Building 19, room 152                                        |
+| Classroom  | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Drop-in Office Hours | Tu, Th: 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
 
 
 
@@ -29,11 +28,11 @@ The intention of the course is to enable you to create and maintain static pages
 
 ### Effort
 
-Since this is a four-credit class, students will need to devote at least 12 hours per week to the class.
+Since this is a compressed eight-week, four-credit class; students should plan to devote at least 14 hours per week to the class.
 
-- 4 hours for class participation.
-- 2 hours for reading (lecture notes and tutorials).
-- 6 hours for lab assignments.
+- 4 hours for class participation (in person, live on Zoom, or Zoom recordings)
+- 3 hours for reading and studying (tutorials and lecture notes).
+- 7 hours for lab assignments.
 
 ### Themes
 
@@ -88,7 +87,7 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
   -  [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff)&mdash;Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. 
      *About Microsoft accounts: You may have both a [school account](https://myaccount.microsoft.com) and a [personal account](https://account.microsoft.com). Use your Microsoft <u>school account</u> to get MS Office.*
 
-  - [LibreOffice](http://www.libreoffice.org)&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
+  - [LibreOffice](http://www.libreoffice.org)&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
 
   - [Google Docs](https://docs.google.com)&mdash;Free to use online with your LCC gmail account.
 
@@ -96,7 +95,7 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 - Software that can be used to manipulate images such as the <u>Windows Paint</u> program (included in Windows). Mac users can use the <u>Preview</u> app (included in MacOS), but it just barely meets the needs of this class. 
 
-  Most other full-featured image editing apps such as Adobe Photoshop (not free), or [Gimp](https://www.gimp.org/) (a free, cross-platform, clone of Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
+  Most other full-featured image editing apps such as Adobe Photoshop (not free), or [Gimp](https://www.gimp.org/) (a free, cross-platform, app similar to Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
 
 - At least two modern browsers to view/test your web pages.  The latest versions of [Chrome](https://www.google.com/chrome/), and [Firefox](https://www.mozilla.org/en-US/firefox/new/) can be downloaded for free.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
 
@@ -104,8 +103,8 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 ### Web Resources
 
-- http://classes.lanecc.edu (Moodle) is the Learning Management System for this course.  All course materials and activities will be managed through Moodle.
-- http://citstudent.lanecc.edu will be used to host student web sites. You will be provided with the login information you need to upload your pages to this server.
+- https://classes.lanecc.edu (Moodle) is the Learning Management System for this course.  All course materials and activities will be managed through Moodle.
+- https://citstudent.lanecc.edu will be used to host student web sites. You will be provided with the login information you need to upload your pages to this server.
 
 ## Assessment and Grading
 
