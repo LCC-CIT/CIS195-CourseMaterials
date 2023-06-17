@@ -2,12 +2,12 @@
 
 <h2>Summer 2023 Online and Hybrid class sections</h2>
 
-|           | Class Info                                                   |      |                               | Instructor Info                                              |
-| --------- | ------------------------------------------------------------ | ---- | ----------------------------- | ------------------------------------------------------------ |
-| Course    | CIS195                                                       |      | Instructor                    | Brian Bird                                                   |
-| CRN       | hybrid 10372, online 10325                                   |      | Email                         | birdb@lanecc.edu                                             |
-| Time, Day | 10:00–11:50, Tu & Th                                         |      | Office                        | Building 19, room 152                                        |
-| Classroom | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Drop-in to see the instructor | Tu, Th: 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
+| Class Info |                                                              |      | Instructor Info      |                                                              |
+| ---------- | ------------------------------------------------------------ | ---- | -------------------- | ------------------------------------------------------------ |
+| Course     | CIS195                                                       |      | Instructor           | Brian Bird                                                   |
+| CRN        | hybrid 10372, online 10325                                   |      | Email                | birdb@lanecc.edu                                             |
+| Time, Day  | 10:00–11:50, Tu & Th                                         |      | Office               | Building 19, room 152                                        |
+| Classroom  | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Drop-in Office Hours | Tu, Th: 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
 
 
 
