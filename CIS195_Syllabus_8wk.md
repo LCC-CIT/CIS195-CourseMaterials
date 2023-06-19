@@ -1,13 +1,15 @@
-<h1>Syllabus for Web Authoring 1: HTML & CSS</h1>
+<h1>Syllabus for Web Authoring: HTML & CSS</h1>
 
-<h2>Summer 2023 Online and Hybrid class sections</h2>
+<h2>Summer 2023 Online and In-Person (Hybrid) Sections</h2>
+
+<h3>Eight-Week Summer Term 2023</h3>
 
 | Class Info |                                                              |      | Instructor Info      |                                                              |
 | ---------- | ------------------------------------------------------------ | ---- | -------------------- | ------------------------------------------------------------ |
 | Course     | CIS195                                                       |      | Instructor           | Brian Bird                                                   |
 | CRN        | hybrid 10372, online 10325                                   |      | Email                | birdb@lanecc.edu                                             |
 | Time, Day  | 10:00–11:50, Tu & Th                                         |      | Office               | Building 19, room 152                                        |
-| Classroom  | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Drop-in Office Hours | Tu, Th: 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
+| Classroom  | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/92271711193) |      | Drop-in Office Hours | Tu, Th: 12:00&ndash;12:50 <br />[Zoom meeting](https://lanecc.zoom.us/j/92539626829) |
 
 
 
@@ -15,7 +17,7 @@
 
 [TOC]
 
-## Course Description
+# Course Description
 
 This four-credit course provides students who have minimal computer experience with the concepts and skills necessary to create static web pages using HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).  Through hands-on practice students will master the concepts, tools and skills needed to construct web pages and to upload pages to a web server on the internet.
 
@@ -26,7 +28,7 @@ The intention of the course is to enable you to create and maintain static pages
 - Code Editors - for creating HTML and CSS files (like Visual Studio Code)
 - FTP clients - for uploading files to a server (like FileZilla)
 
-### Effort
+## Effort
 
 Since this is a compressed eight-week, four-credit class; students should plan to devote at least 14 hours per week to the class.
 
@@ -34,7 +36,7 @@ Since this is a compressed eight-week, four-credit class; students should plan t
 - 3 hours for reading and studying (tutorials and lecture notes).
 - 7 hours for lab assignments.
 
-### Themes
+## Themes
 
 In addition to the topics listed in the [course schedule](#course-schedule), these themes will be interwoven with those topics:
 
@@ -44,7 +46,9 @@ In addition to the topics listed in the [course schedule](#course-schedule), the
 - Ethics and internet privacy
 - Internet security
 
-### Skills
+## Skills
+
+TODO: Rewrite this!
 
 - Explain the development of HTML and demonstrate understanding of web page tags, anatomy, formatting as well as use of logical and physical tags.
 
@@ -64,30 +68,31 @@ In addition to the topics listed in the [course schedule](#course-schedule), the
 
   
 
-## Learning Resources
+# Learning Resources
 
-### Textbook
+## Textbook
 
 There is no textbook for this class. You will learn from the class lectures, lecture notes, and online tutorials. 
 
-### Computer Lab and In-Person Tutoring
+## Computer Lab and In-Person Tutoring
 
 The CIT computer lab in building19, room 135, is equipped with computers and and all the software required for this course.  The lab is available to all students in the CIT department. There are tutors available in the lab to help you with your lab assignments. A schedule will be posted on the large white board inside the lab with a list of the tutors and the times they will be available.
 
-### Online Tutoring and Support Services
+## Online Tutoring and Support Services
 
-In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the [Lane Support Hub](http://lanecc.edu/hub) (Zoom link: lanecc.edu/hub). Feel free to drop in or guarantee time with a tutor by making an appointment using [WCOnline](https://lanecc.mywconline.com/). Check out the [ATS website](https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services) (link: lanecc.edu/tutor) for updated hours and additional information.
+In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the [Lane Support Hub](http://lanecc.edu/hub) (Zoom link: [lanecc.edu/hub]()). Feel free to drop in or guarantee time with a tutor by making an appointment using [WCOnline](https://lanecc.mywconline.com/). Check out the [ATS website](https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services) for updated hours and additional information.
 
-### Software
+## Software
 
 If you plan to do lab work somewhere other than in the classroom or the CIT Computer Lab, you will need: 
 
 - "Office" software for Word processing, spreadsheets, slides, etc., such as:
 
   -  [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff)&mdash;Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. 
+     
      *About Microsoft accounts: You may have both a [school account](https://myaccount.microsoft.com) and a [personal account](https://account.microsoft.com). Use your Microsoft <u>school account</u> to get MS Office.*
-
-  - [LibreOffice](http://www.libreoffice.org)&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
+     
+  - [LibreOffice](http://www.libreoffice.org)&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
 
   - [Google Docs](https://docs.google.com)&mdash;Free to use online with your LCC gmail account.
 
@@ -101,22 +106,24 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 - An ftp client to upload your web pages to citstudent.lanecc.edu. [FileZilla](https://filezilla-project.org/download.php?show_all=1) is a good free option that runs on Windows, Mac OS, or Linux.
 
-### Web Resources
+## Web Resources
 
 - https://classes.lanecc.edu (Moodle) is the Learning Management System for this course.  All course materials and activities will be managed through Moodle.
 - https://citstudent.lanecc.edu will be used to host student web sites. You will be provided with the login information you need to upload your pages to this server.
 
-## Assessment and Grading
+# Assessment and Grading
 
-Specific grading criteria will be applied to each of the labs, quizzes, and exams you will be working on in this class. Part of the lab involves a code review. Attendance is not graded.
+## Weighting of Learning Activities
 
-| Assessment Activities                     | Percentage of grade |
+| Learning Activities                       | Percentage of grade |
 | ----------------------------------------- | ------------------- |
-| Labs 1-8, 50 points each:                 | 40%                 |
+| Labs 1-8, 40 points each:                 | 32%                 |
 | Quizzes 1-8,  10 points each              | 8%                  |
+| Participation, 100 points                 | 10%                 |
 | Midterm and Final Exams,  125 points each | 25%                 |
-| Project, 270 points                       | 27%                 |
+| Project, 250 points                       | 25%                 |
 
+## Grade Scale
 
 Letter grades for the course will be determined by the following percentages:              
 
@@ -128,52 +135,54 @@ Letter grades for the course will be determined by the following percentages:
 | D    | 60–61    | 62–67 | 68–69  |
 | F    | Below 60 |       |        |
 
-### Late Work
+## Late Work
 
-- Lab Assignments:
-  -  Lab assignments 1–4 must be submitted before the midterm.
-  - Lab assignments 4–8 must be submitted before the final.
-  - The grade for assignments submitted after the due date will be reduced by 10%. 
+- The grade for assignments submitted after the due date will be reduced by 10%. 
+- No assignments will be accepted after the start of the final exam.
 - Quizzes and exams cannot be taken after the due date except in emergency situations.
 
-Exceptions will only be made for serious illness or emergency situations. 
+Exceptions will be made for serious illness or emergency situations. 
 
 
 
-### Weekly Learning Cycle
+## Weekly Learning Cycle
 
-| Tuesday              | Wednesday      | Thursday                                                     | Friday        | Saturday | Sunday      |
-| -------------------- | -------------- | ------------------------------------------------------------ | ------------- | -------- | ----------- |
-| Participate in class | Start lab work | Participate in class <br /><br />Submit last week's lab assignment | Take the quiz |          | Quiz closes |
+| Monday                                    | Tuesday                                              | Wednesday             | Thursday                                                |
+| ----------------------------------------- | ---------------------------------------------------- | --------------------- | ------------------------------------------------------- |
+| Finish Reading<br />Take the reading quiz | (Quiz closes before class)<br />Participate in class | Start this week's lab | Participate in class <br /><br />Submit last week's lab |
 
 
 
-### Academic Honesty
+## Academic Honesty
 
 While students are encouraged to discuss labs and to use each other as resources, each student is responsible for his/her own work. In other words, you can help each other, but you can't copy any part of someone else's work. The end product must be each student's own individual work.
 
-### Attendance
+## Attendance and Participation
 
-Attendance is not a part of your grade, but it is essential that you log into Moodle at the beginning of every week to read the objectives for the week. Throughout the week, you will need to participate in live class sessions online or watch recordings of the lectures, and do the learning activities. 
+The participation grade is based on attendance and participation in class discussions and exercises. If you are taking the class online, it is essential that you log into Moodle at the beginning of every week to understand  the week's objectives and requirements. Throughout the week, you will need to participate in Zoom class sessions or watch recordings of the session, and do the learning activities. 
 
 **No-Show Drop:** LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy. which means that during the first week of the term, to avoid being dropped, a student must:
 
-- Attend at least one online live class session 
+- Attend at least one class in person 
 
-  or
+  Or
 
-- Complete one quiz or assignment (for online classes)
+- Attend at least one Zoom class session with your webcam on
+
+  Or
+
+- Complete one quiz or assignment
 
   
 
-## Accessibility and Accommodations: 
+# Accessibility and Accommodations 
 
 If you need support or assistance because of a disability, you may be eligible for academic accommodations through Disability Services. For more information, contact Disability Services at 463-5150 (voice) or 463-3079 (TTY), or stop by building 1, room 218. 
 Please be aware that any accessible tables and chairs in this room should remain available for authorized students who find that standard classroom seating is not usable.
 
 
 
-## Academic Calendar for Summer 2023
+# Academic Calendar for Summer 2023
 
 **8-Week Term** 
 
@@ -189,22 +198,20 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 
 
 
-## Course Schedule
-
-TODO: This still needs work.
+# Course Schedule
 
 (Tentative, may be subject to change)
 
-| Week        | Topics                                                       | Quiz    | Lab Assignment                       |
-| ----------- | ------------------------------------------------------------ | ------- | ------------------------------------ |
-| 1<br />6/26 | Syntax of HTML tags and attributes  Structural elements, line breaks Unordered and ordered lists Text formatting (bold, italic, etc.) Images | Quiz 1  | Lab 1: Oregon Overview, Personal Bio |
-| 2<br />7/3  | History of the Internet, the Web, and HTML Semantic elements CSS  JavaScript  Special characters Using a code editor Using a HTML validator | Quiz 2  | Lab 2                                |
-| 3<br />7/10 | Developing a Web Site                                        | Quiz 3  | Lab 3                                |
-| 4<br />7/17 | CSS Page Design<br />Midterm: Thursday: 7/19                 | Midterm | Term Project Proposal<br />Lab 4?    |
-| 5<br />7/24 | Publishing a web site using FTP                              |         |                                      |
-| 6<br />7/31 | CSS Page Layout                                              | Quiz 5  | Lab 5                                |
-| 7<br />8/7  | HTML Tables                                                  | Quiz 6  | Lab 6                                |
-| 8<br />8/14 | HTML Forms<br />Final Quiz: Thursday, 8/17                   | Final   | Term Project<br />Lab 7?             |
+| Week                  | Topics                                                       | Quizzes                                 | Lab Assignments                                              |
+| --------------------- | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ |
+| 1<br />6/27<br />6/29 | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1                                  | Lab 1: Bio web site                                          |
+| 2<br />7/4<br />7/6   | *More HTML Elements*<br />Holiday<br />More HTML, File Paths | Quiz 2                                  | Lab 2: A Review web site                                     |
+| 3<br />7/11<br />7/13 | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3                                  | Lab 3: Page with internal links<br />& Site with hyperlinks  |
+| 4<br />7/18<br />7/20 | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4<br />Midterm:<br />7/19&ndash;22 | Term project proposal<br />Lab 4: Style sheets for review site |
+| 5<br />7/25<br />7/27 | *CSS Page Layout* <br />Box model<br />FlexBox, Grid, Floats | Quiz 5                                  | Lab 5: Review site again<br />background image, positioning  |
+| 6<br />8/1<br />8/3   | *HTML Tables*<br />HTML Tables<br />Table Styling with CSS   | Quiz 6                                  | Lab 6: Weekly schedule<br />& One-month calendar             |
+| 7<br />8/8<br />8/10  | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7                                  | Lab 7:  Online raffle contest                                |
+| 8<br />8/15<br />8/17 | *Multimedia*<br />Audio and Video<br />Animations            | Quiz 8<br />Final: 8/17&ndash;19        | Lab 8: Multimedia web page<br />Term project                 |
 
 
 
