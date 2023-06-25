@@ -1,29 +1,27 @@
-# CIS195: Web Authoring 1
+<h1>CIS195: Web Authoring 1</h1>
 
-# Getting Started
+<h2>Getting Started</h2>
 
 [TOC]
 
-## Introduction
+# Introduction
 
 Welcome to this class!
 
 In order to create web pages for this class, you will need access to a computer that can run a code editor like [Visual Studio Code](https://code.visualstudio.com/) (pretty much any computer can) and have a good internet connection.
 
-In order to be successful, you must devote at least 12 hours a week to learning activities. This includes 4 hours in class, live-stream, or watching recordings of the lectures; plus at least 8 hours making web pages.
-
-Next, read [First Steps](https://classes.lanecc.edu/mod/book/view.php?id=2334923&chapterid=146643), and then *let's have fun making web pages!*
+In order to be successful, you must devote at least 14 hours a week to learning activities. This includes 4 hours in class, participating in the Zoom live-stream, or watching recordings of the lectures; plus at least 10 hours studying and *having fun making web pages!*
 
 ------
 
-## First Steps
+# First Steps
 
 To begin this course, please complete the following steps:
 
-1. Read every page of this Getting Started book.
+1. Read every page of this Getting Started web page.
 2. Read every page of the [Syllabus](https://classes.lanecc.edu/mod/url/view.php?id=2334924).
 3. Familiarize yourself with the cycle of [Weekly Learning Activities](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html#weekly_cycle).
-4. Post an introduction message to the [Introductions Forum](https://classes.lanecc.edu/mod/hsuforum/view.php?id=2334926).
+4. Post your personal introduction to the [Introductions Forum](https://classes.lanecc.edu/mod/hsuforum/view.php?id=2334926).
 5. Read the [Overview of Week One](https://classes.lanecc.edu/mod/page/view.php?id=2334929).
 6. Read/view the required resources for the first week of the course.
 7. Complete the activities for the first week.
@@ -33,9 +31,9 @@ If you have any course-specific questions, please ask them in the [Course Q & A 
 
 ------
 
-## Basic Technology and Computer Skills
+# Basic Technology and Computer Skills
 
-**To be successful in this course you will need:**
+## Software You Will Need
 
 - At least two modern Web Browsers like [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Chrome](https://www.google.com/chrome/).
 - [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files
@@ -45,7 +43,7 @@ If you have any course-specific questions, please ask them in the [Course Q & A 
 - A code editor such as [Notepad++](https://notepad-plus-plus.org/) for Windows, or [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X (Mac), or [VisualStudio Code](https://code.visualstudio.com/) for OS X, Windows and Linux.
 - An FTP client for uploading files to a web server such as [CoreFTP](http://coreftp.com/) for Windows, or [CyberDuck](https://cyberduck.io/) for OS X, or [FileZilla](https://filezilla-project.org/) for OS X, Windows and Linux.
 
-**Computer Skills**
+## Skills You Will Need
 
 - Basic computer skills 
 - Experience navigating the Internet and using an Internet browser
@@ -54,13 +52,7 @@ If you have any course-specific questions, please ask them in the [Course Q & A 
 
 ------
 
-## Course Tour
-
-This video gives you an introduction and overview of the course. For optimal viewing please enlarge to full screen and make sure your speakers are turned on. Video transcript can be provided upon request.
-
-**Watch:** *[Intro to the Course](https://classes.lanecc.edu/mod/url/view.php?id=2334943)*
-
-### Introduction to Moodle
+# Introduction to Moodle
 
 Moodle is the learning management system of the Lane Community College and the location where you will be able to view the content of your online courses. To learn more about Moodle and how it is used for Lane Community College courses, please review the course below:
 
@@ -70,21 +62,19 @@ Moodle is the learning management system of the Lane Community College and the l
 
 ## Course Structure
 
-This course is broken into weekly modules. The modules start on Sunday and end on the following Saturday. Every week is broken into three sections: Overview, Resources, and Activities.
-
-![Screenshot of a sample week in a course](https://classes.lanecc.edu/pluginfile.php/3679833/mod_book/chapter/146640/CourseStructure.png)[![img](https://prod.ally.ac/static/ally-icon-indicator-medium-circle.4428c6d77d3c6c6de8a1cf6a36e70408.svg)Accessibility score: Medium Click to improve](https://classes.lanecc.edu/mod/book/view.php?id=2334923&chapterid=146640#)
+This course is broken into weekly modules. The modules start on Monday and end on the following Sunday. Every week is broken into three sections: Overview, Resources, and Activities.
 
 ### Overview
 
-Each week includes an overview page that must be read before reviewing the resources and completing the assigned activities. The overview will include an introduction to the week's topics, a list of the week's learning objectives, a list of required and supplemental resources, and detailed instructions for any activities and assignments.
+Each week includes an overview page that is helpful to read before reviewing the resources and completing the assigned activities. 
 
 ### Resources
 
-Resources will be listed under Required and Supplemental subheadings. Reviewing required resources is mandatory. Supplemental resources are suggested if you want to get additional information about a topic. Resources may include links to online articles, text listing offline reading assignments, PDFs, PowerPoints, videos, interactive presentations, or additional file types.
+Resources will be listed under Required and Supplemental subheadings. The required resources are the basis for the weekly quiz. Supplemental resources are provided with additional information about the week's topics. 
 
 ### Activities
 
-Activities are required unless they are specifically marked as optional. Activities may include written assignments, video assignments, forums, quizzes, exams, interactive simulations, wikis, presentations, or other participatory activities.
+Activities are required unless they are specifically marked as optional. Activities include quizzes and lab assignments
 
 ------
 
@@ -100,35 +90,17 @@ All course announcements will be posted by the instructor to the [News and Annou
 
 ------
 
-## Support
+## Moodle Support
 
-Please view the ***Support*** block on the right side of the course page for information on how to contact support. 
-
-![Student Support block](https://classes.lanecc.edu/pluginfile.php/3679833/mod_book/chapter/146644/student_support_block.png) [![img](https://prod.ally.ac/static/ally-icon-indicator-low-circle.b7cd3e0c1511a1080fd322790193604f.svg)Accessibility score: Low Click to improve](https://classes.lanecc.edu/mod/book/view.php?id=2334923&chapterid=146644#)
+Please view the ***Support*** block on the right side of the Moodle course page for information on how to contact support. 
 
 Support information is also available on [help.lanecc.edu](https://help.lanecc.edu/).
 
-For issues within your course, please contact your instructor***.***
-
-
-
-### CIT Computer Lab
-
-The CIT Main lab (Bldg 19/Rm 135) is equipped with computers which are available exclusively for students in the CIT department. The lab hours are posted on the door. There are tutors available in the lab to help you with your lab work. There is a schedule is posted on the large white board inside the lab which lists the tutors and the times they will be available.
-
 ------
 
-## Bookstore
+# CIT Computer Lab
 
-Books can be purchased from the [Titan Store](http://titanstore.lanecc.edu/home.aspx).  
-
-**Store Contact Information:**
-
-LCC Main Campus, Titan Store
-First Floor, Center Building
-4000 E. 30th Ave.
-Eugene, OR 97405 
-Phone1: (541) 463-5256
+The CIT Tutoring Lab (Building 19, Rm 135) is equipped with computers which are available exclusively for students in the CIT department. There are tutors available in the lab to help you with your lab work. 
 
 ------
 
