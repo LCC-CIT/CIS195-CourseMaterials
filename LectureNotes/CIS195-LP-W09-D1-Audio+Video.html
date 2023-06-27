@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Week 8, Day 1, Multimedia</title>
+    <style type="text/css">
+        body {
+            font-family: "Arial", "Helvetica", "sans-serif";
+        }
+        
+        #week09 {
+            background-color: #f8ff2e;
+        }
+        
+        code {
+            font-size: larger;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Multimedia for Web Sites </h1>
+      <h1><i><b> </b></i></h1>
+    </header>
+    <b>Course weeks and topics</b><br>
+    <b> </b>
+    <section>
+      <table style="width: 807px; height: 127px;" border="1">
+        <tbody>
+          <tr>
+            <td>1. Intro to HTML 5</td>
+            <td>6. Page Layout with CSS</td>
+          </tr>
+          <tr>
+            <td>2. More on Creating Web Pages</td>
+            <td>7. HTML Tables</td>
+          </tr>
+          <tr>
+            <td style="width: 384.15px;">3. Developing a Web Site</td>
+            <td id="week08" style="width: 406.85px;">8. HTML Forms</td>
+          </tr>
+          <tr>
+            <td>4. Design with CSS</td>
+            <td id="week09">9. Multimedia </td>
+          </tr>
+          <tr>
+            <td>5. Midterm</td>
+            <td>10. Term Project<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <b><br>
+      </b>
+      <h2><b>Objectives for this Module</b></h2>
+      <ul>
+        <li><b>Use audio in a web page</b></li>
+        <ul>
+          <li><a href="#topic1">Understand audio formats</a></li>
+          <li>I<a href="#topic2">nsert an HTML audio clip</a></li>
+          <li><a href="#topic3">Support multiple audio formats</a></li>
+        </ul>
+        <li><b>Use video in a web page<br>
+          </b></li>
+        <ul>
+          <li><a href="#topic5">Understand video formats</a></li>
+          <li><a href="#topic6">Insert an HTML video clip</a></li>
+          <li>Write a video caption track</li>
+          <li>Format video captions</li>
+        </ul>
+      </ul>
+      <h2>HTML5 Audio</h2>
+    </section>
+    <section>
+      <article id="topic1">
+        <p> <u><b>Audio Codecs </b></u></p>
+        <ul>
+          <ul>
+          </ul>
+          <li>MP3<br>
+          </li>
+          <ul>
+            <li>Compression to around 10% the original size</li>
+            <li>Supported by: Internet Explorer, Chrome, Firefox,
+              Safari, and IE</li>
+            <li>Proprietary, royalty fees charged to browser makers</li>
+            <br>
+          </ul>
+          <li>AAC (Advanced Audio Coding)<br>
+          </li>
+          <ul>
+            <li>The standard format for all Apple products (Mac, iPad,
+              iPhone, etc.) </li>
+            <li>Similar compression ratio to MP3</li>
+            <li>Potentially better sound quality than MP3</li>
+            <br>
+          </ul>
+          <li>Ogg Vorbis<br>
+          </li>
+          <ul>
+            <li>Better sound quality than MP3</li>
+            <li>Supported by: Chrome, Firefox and Oprea</li>
+            <li>Open source, royalty-free</li>
+            <br>
+          </ul>
+          <li>WAV</li>
+          <ul>
+            <ul>
+            </ul>
+            <li>No compression, no loss in sound quality<br>
+            </li>
+            <ul>
+            </ul>
+            <li>Supported by: Chrome, Firefox, Safari and Oprea</li>
+            <ul>
+            </ul>
+            <li>Open source, royalty-free</li>
+            <ul>
+            </ul>
+          </ul>
+          <ul>
+          </ul>
+        </ul>
+        <p></p>
+        <code></code> </article>
+      <article id="topic2">
+        <p style="margin-left: 40px;"><u><b><br>
+            </b></u></p>
+        <p><u><b>HTML &lt;audio&gt; Element </b></u></p>
+        <div style="margin-left: 40px;"> <code>&lt;audio
+            src="audioUrl"&gt;</code><br>
+          <code> &lt;/audio&gt;</code><br>
+          <code></code></div>
+        <code> </code><br>
+        <div style="margin-left: 40px;"><b>Commonly Used Attributes</b></div>
+        <ul>
+          <li>autoplay<br>
+            if specified, the audio will automatically begin playback as
+            soon as it can do so.</li>
+          <li>controls<br>
+            If this attribute is present, the browser will offer
+            controls to allow the user to control audio playback,
+            including volume, seeking, and pause/resume playback.</li>
+          <li>loop<br>
+            if specified, will automatically seek back to the start upon
+            reaching the end of the audio.</li>
+          <li>muted <br>
+            If specified,indicates whether the audio will be initially
+            silenced. Its default value is false.</li>
+          <li>preload<br>
+            This enumerated attribute is intended direct the browser
+            what, or what not to preload:</li>
+          <ul>
+            <li>none: indicates that the audio should not be preloaded;</li>
+            <li>metadata: indicates that only audio metadata (e.g.
+              length) is fetched; </li>
+            <li>auto: indicates that the whole audio file could be
+              downloaded, even if the user is not expected to use it; </li>
+            <li><i>empty string</i>: synonym of the auto value.</li>
+          </ul>
+          <li>src<br>
+            The URL of the audio to embed. </li>
+          <li>volume<br>
+            The playback volume, in the range 0.0 (silent) to 1.0
+            (loudest).</li>
+        </ul>
+        <u><b id="topic3">HTML &lt;source&gt; Element - Provide
+            Alternate Files</b></u>
+        <div style="margin-left: 40px;">You may wish to have more than
+          one src URL listed in case a user's browser doesn't support
+          the audio type of your file.<br>
+          <code>&lt;audio&gt;</code><br>
+          <code> &nbsp; &lt;source src="url1" /&gt;</code><br>
+          <code> &nbsp; &lt;source src="url2" /&gt;</code><br>
+          <code> &lt;/audio&gt;</code></div>
+        <code></code><code></code></article>
+      <article id="topic4">
+        <p><br>
+        </p>
+        <h2>HTML5 Video</h2>
+        <p><b><u id="topic5">Video Codecs</u><br>
+          </b></p>
+        <code></code> </article>
+      <ul>
+        <li> H.264</li>
+        <ul>
+          <li>Developed by the MPEG group </li>
+          <li>The industry standard for high-definition video streams
+            and video plug-ins </li>
+          <li>Supported by Chrome, Firefox, Edge, Opera, and Safari</li>
+        </ul>
+        <li>Theora</li>
+        <ul>
+          <li>A royalty-free codec developed by the Xiph.org Foundation</li>
+          <li>Produces video streams that can be used with almost any
+            container</li>
+          <li>Supported by Chrome, Firefox and Opera desktop</li>
+        </ul>
+        <li>VP8</li>
+        <ul>
+          <li>An open-source royalty-free codec owned by Google</li>
+          <li>Used in Google’s WebM video format</li>
+          <li>Supported by Chrome, Firefox and Opera</li>
+        </ul>
+        <li>VP9</li>
+        <ul>
+          <li>Google’s successor to the VP8 codec</li>
+          <li>Same video quality as VP8 at half the download size</li>
+          <li>Supported by Chrome, Firefox and Opera</li>
+        </ul>
+      </ul>
+      <p><u><b id="topic6">HTML &lt;video&gt; Element</b></u></p>
+      <div style="margin-left: 40px;"><code>&lt;video src="vidioUrl"&gt;</code><br>
+        <code> &lt;/vidio&gt;</code> </div>
+      <h2> References</h2>
+      <ul>
+        <li>MDN: <a
+href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats"
+            target="_blank">Media formats for HTML audio and video</a></li>
+        <li> MDN: <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"
+            target="_blank">The Embed Audio Element</a></li>
+      </ul>
+    </section>
+    <hr>
+    <footer> <a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/"><img
+          alt="Creative Commons License" style="border-width:0"
+          src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>
+      <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Web
+
+        Authoring 1: HTML Lecture Notes</span> by <a
+        xmlns:cc="http://creativecommons.org/ns#"
+        href="https://birdsbits.blog" property="cc:attributionName"
+        rel="cc:attributionURL">Brian Bird</a>, 2018, is licensed under
+      a <a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/">Creative
+        Commons Attribution 4.0 International License</a>. </footer>
+    <hr>
+  </body>
+</html>

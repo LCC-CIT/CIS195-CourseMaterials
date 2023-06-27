@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>W9, D2, Embedded Objects</title>
+    <style type="text/css">
+        body {
+            font-family: "Arial", "Helvetica", "sans-serif";
+        }
+        
+        #week09 {
+            background-color: #f8ff2e;
+        }
+        
+        code {
+            font-size: larger;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+  </head>
+  <body>
+    <header> <b>CIS195 Web Authoring 1: HTML<br>
+      </b>
+      <div>Brian Bird</div>
+      <br>
+      <i><b>Topic: Multimedia for Web Sites<br>
+        </b></i></header>
+    <section> <br>
+      <br>
+      <br>
+      <b>Course weeks and topics<br>
+      </b>
+      <table style="width: 807px; height: 127px;" border="1">
+        <tbody>
+          <tr>
+            <td>1. Intro to HTML 5</td>
+            <td id="week06">6. Page Layout with CSS</td>
+          </tr>
+          <tr>
+            <td>2. First Web Page</td>
+            <td>7. HTML Tables<br>
+            </td>
+          </tr>
+          <tr>
+            <td>3. Developing a Web Site</td>
+            <td id="week08">8. HTML Forms</td>
+          </tr>
+          <tr>
+            <td>4. Design with CSS</td>
+            <td id="week09">9. Multimedia </td>
+          </tr>
+          <tr>
+            <td>5. Midterm</td>
+            <td id="week10">10.Term Project<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <b> Introduction</b><br>
+      <ul>
+        <li>Announcements<br>
+        </li>
+        <li>Review due dates</li>
+      </ul>
+      <div><b>Overview</b></div>
+      <div>
+        <ul>
+        </ul>
+        <ul>
+          <b> </b>
+          <ul>
+          </ul>
+          <li><a href="#topic1">Browser Plug-ins<br>
+            </a></li>
+          <ul>
+          </ul>
+          <li><a href="#topic2">HTML &lt;object&gt; Element</a></li>
+          <ul>
+            <b> </b>
+          </ul>
+          <li><a href="#topic3">HTML &lt;embed&gt; Element</a> </li>
+          <ul>
+          </ul>
+          <ul>
+            <b> <b> </b> </b>
+          </ul>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <article id="topic1">
+        <p><u><b>Browser Plug-ins<br>
+            </b></u></p>
+        <ul>
+          <li>Helper applications (plug-ins) are computer programs that
+            extend the standard functionality of a web browser.</li>
+          <li>Used for Java applets, Adobe Flash players, etc.</li>
+          <li>Plug-ins can be added to web pages with the &lt;object&gt;
+            tag or the &lt;embed&gt; tag. </li>
+          <li>Plug-ins can be used for many purposes: display maps, scan
+            for viruses, verify your bank id, etc. </li>
+          <li>Reference: <a
+              href="https://www.w3schools.com/html/html_object.asp"
+              target="_blank">W3Schools: HTML Plug-ins</a></li>
+        </ul>
+      </article>
+      <article id="topic2">
+        <p><u><b>HTML &lt;object&gt; Element </b></u></p>
+        <ul>
+          <li>Reference: <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object"
+              target="_blank">MDN Web Docs: &lt;object&gt;</a> </li>
+          <li>The <em>object</em> element is used with objects that
+            require plug-ins (for Java applets, flash players, etc.) It
+            is used to embed an object in a web page.</li>
+          <ul>
+            <li>Syntax:<br>
+              <br>
+              <code>&lt;object attributes&gt;<br>
+                &nbsp;&nbsp; parameters<br>
+                &lt;/object&gt;<br>
+                <br>
+              </code></li>
+            <li>Example of Flash animation:<br>
+              (from <a
+href="http://www.amarasoftware.com/flash-animations/butterfly-theme-animation.htm"
+                target="_blank">Amara Software - free Flash animations</a>)<br>
+              <br>
+              <code>&lt;object </code><code>
+                type="application/x-shockwave-flash" <br>
+                &nbsp; width="400" height="300" title="Butterflies"
+                data="butterflies.swf"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp; &lt;param name="movie"
+                value="butterflies.swf"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp; &lt;param name="quality"
+                value="high"&gt;<br>
+                &lt;/object&gt;<br>
+                <br>
+              </code> <object type="application/x-shockwave-flash"
+                title="Butterflies" data="butterflies.swf" height="300"
+                width="400"> <param name="movie"
+                  value="butterflies.swf"> <param name="quality"
+                  value="high"> </object> </li>
+          </ul>
+          <br>
+          <li>Example of an HTML document in an object element<br>
+            <br>
+            In the example below, the embedded web page is <a
+              href="butterflies.html" target="_blank">butterflies.html</a>
+            <br>
+            <br>
+            <code>&lt;object width="100%" height="200px"
+              data="butterflies.html"&gt;<br>
+              &lt;/object&gt;<br>
+              <br>
+            </code> <object data="butterflies.html" height="200px"
+              width="100%"> </object> </li>
+          <br>
+        </ul>
+      </article>
+      <article id="topic3">
+        <p><b><u>HTML &lt;embed&gt; Element </u>(deprecated)<br>
+          </b></p>
+        <ul>
+          <li>Defines an embedded object within an HTML document just as
+            &lt;object&gt; does.</li>
+          <li>MDN Web Docs: <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed"
+              target="_blank">&lt;embed&gt;: The Embed External Content
+              element</a></li>
+          <li>Still supported in all major browsers as of 11/39/2018,
+            but deprecated. "Deprecated" means that it is not
+            recommended that you use it and in the future it may no
+            longer be supported.</li>
+          <li>Web browsers have supported the &lt;embed&gt; element for
+            a long time. However, it was not a part of the HTML
+            specification until&nbsp; HTML5-- but, ironically, now that
+            it is in the spec it is being deprecated..</li>
+          <li>The &lt;object&gt; element is newer and is preferred</li>
+          <li>Example:<br>
+            <br>
+            <code>&nbsp;&lt;embed width="400" height="50"
+              src="butterfies.swf"&gt; <br>
+              <br>
+            </code> <object type="application/x-shockwave-flash"
+              title="Butterflies" data="butterflies.swf" height="300"
+              width="400"> <param name="movie" value="butterflies.swf">
+              <param name="quality" value="high"> </object> </li>
+          <li>Example:<br>
+            <br>
+            &nbsp; <code>&lt;embed width="400" height="200"
+              src="butterflies.html"&gt; <br>
+            </code></li>
+        </ul>
+        <div><b><u>HTML &lt;iframe&gt; Element <br>
+            </u></b>
+          <ul>
+            <li>Means "inline frame"<br>
+            </li>
+            <li>Another way of embedding a web page (or other document)
+              inside of another web page.<br>
+              In the example below, the embedded web page is <a
+                href="butterflies.html" target="_blank">butterflies.html</a></li>
+            <li>Reference: <a
+                href="https://www.w3schools.com/tags/tag_iframe.asp"
+                target="_blank">w3schools iframe</a></li>
+          </ul>
+          <p><br>
+            &nbsp; <code>&lt;iframe width="400" height="200"
+              src="butterflies.html"&gt;&lt;/iframe&gt; <br>
+            </code></p>
+          <iframe src="butterflies.html" height="200" width="400"></iframe>
+        </div>
+      </article>
+      <article id="topic4"> <code></code> </article>
+      <b> </b>
+      <ul>
+      </ul>
+    </section>
+  </body>
+</html>
