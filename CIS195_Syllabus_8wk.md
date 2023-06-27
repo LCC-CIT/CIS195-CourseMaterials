@@ -48,15 +48,13 @@ In addition to the topics listed in the [course schedule](#course-schedule), the
 
 ## Skills
 
-TODO: Rewrite this!
+- Understand and be able to explain the history of the World Wide Web and HTML.
 
-- Explain the development of HTML and demonstrate understanding of web page tags, anatomy, formatting as well as use of logical and physical tags.
+- Effectively use: structural  and semantic HTML elements, anchor tags, relative and absolute links, e-mail links, tables, horizontal rules, image tags, background images, image hyperlinks, forms and input elements, element groups, and custom buttons.
 
-- Effectively use: structural elements, anchor tags, relative and absolute links, e-mail links, tables, colors, horizontal rules, image tags, background images, image hyperlinks, forms and form tags, form elements and element groups, custom buttons.
+- Use cascading style sheets(CSS) to format common page and text properties as well as for layout and positioning of elements on a web page.
 
-- Use cascading style sheet technology (CSS) to configure common page and text properties as well as for positioning of elements on a web page.
-
-- Use an html validator and a CSS validator to ensure the correctness of web pages.
+- Use an HTML and a CSS validators to ensure the correctness of web pages.
 
 - Use an FTP client to upload and manage files on a web server.
 
