@@ -80,7 +80,7 @@ The CIT computer lab in building19, room 135, is equipped with computers and and
 
 ## Online Tutoring and Support Services
 
-In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the [Lane Support Hub](http://lanecc.edu/hub) (Zoom link: [lanecc.edu/hub]()). Feel free to drop in or guarantee time with a tutor by making an appointment using [WCOnline](https://lanecc.mywconline.com/). Check out the [ATS website](https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services) for updated hours and additional information.
+In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the [Lane Support Hub](http://lanecc.edu/hub) (Zoom link: [lanecc.edu/hub]()). Feel free to drop in or guarantee time with a tutor by making an appointment using [WCOnline](https://lanecc.mywconline.com/). Check out the [ATS website](https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services) for updated hours and additional information.
 
 ## Software
 
@@ -89,7 +89,7 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 - "Office" software for Word processing, spreadsheets, slides, etc., such as:
 
   -  [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff)&mdash;Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. 
-     
+    
      *About Microsoft accounts: You may have both a [school account](https://myaccount.microsoft.com) and a [personal account](https://account.microsoft.com). Use your Microsoft <u>school account</u> to get MS Office.*
      
   - [LibreOffice](http://www.libreoffice.org)&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
