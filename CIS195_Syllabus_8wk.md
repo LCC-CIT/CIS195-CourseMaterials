@@ -149,7 +149,16 @@ Exceptions will be made for serious illness or emergency situations.
 | ----------------------------------------- | ---------------------------------------------------- | --------------------- | ------------------------------------------------------- |
 | Finish Reading<br />Take the reading quiz | (Quiz closes before class)<br />Participate in class | Start this week's lab | Participate in class <br /><br />Submit last week's lab |
 
+### Reading Quizzes
+Weekly quizzes are given that cover the required reading for that week. These quizzes must be taken before the first class meeting of the week. They are "open book" (you can look at whatever reading material was assigned.)
 
+### Midterm and Final Quizzes
+
+The midterm and final quizzes are given in weeks 4 and 10. See the course schedule for exact dates and times. 
+
+These quizzes will need to given in the testing center in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures. Students are allowed to bring a 4 X 6 card with notes to the testing center.
+
+For students who live outside Lane county, send an email to [online@lanecc.edu](mailto:online@lanecc.edu) as soon as possible to arrange for your midterm and final to be proctored at a location near you.
 
 ## Academic Honesty
 
@@ -157,7 +166,11 @@ While students are encouraged to discuss labs and to use each other as resources
 
 ## Attendance and Participation
 
-The participation grade is based on attendance and participation in class discussions and exercises. If you are taking the class online, it is essential that you log into Moodle at the beginning of every week to understand  the week's objectives and requirements. Throughout the week, you will need to participate in Zoom class sessions or watch recordings of the session, and do the learning activities. 
+Attendance (in person, via Zoo, or by watching recordings), participation in class discussions and exercises, and making posts in the Moodle forums are aspects of participation that will be assessed by the instructor.
+
+Students who participate via Zoom can join the class discussion through the Zoom chat dialog box, or by turning on their microphones to ask and answer questions.
+
+Students who aren't able to participate during class time, but instead watch the recordings, can ask and answer questions in the Moodle Q & A forum.
 
 **No-Show Drop:** LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy. which means that during the first week of the term, to avoid being dropped, a student must:
 
