@@ -63,8 +63,8 @@
 
 - Review due dates and what you need to do this week.
 
-  - Quiz 1
-  - Lab 1
+  - Week 2 reading and Quiz 2 before the next class.
+  - Lab 1 is due on Thursday of next week.
 
 - Review the weekly learning cycle shown in the Moodle side-bar.
 
@@ -124,7 +124,7 @@ Here are some elements that we haven’t covered yet:
 
 - Paragraph: `<p> some text </p>`
 - strong (bold): `<strong>some text</strong>`
-- emphasis (italics): `<emphasis>some text</emphasis>`
+- emphasis (italics): `<em>some text</em>`
 - image: `<img alt="description" src="photo.jpg">`
 
   Put the image file in the same folder with the html file.
