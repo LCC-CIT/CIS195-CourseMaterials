@@ -2,15 +2,62 @@
 
 ## Week 1, Session 2
 
-| **Course topics by week**     |                         |
-| ----------------------------- | ----------------------- |
-| 1. <u>Intro to HTML</u>       | 6. Page Layout with CSS |
-| 2. More on Creating Web Pages | 7. HTML Tables          |
-| 3. Developing a Web Site      | 8. HTML Forms           |
-| 4. Design with CSS            | 9. Multimedia           |
-| 5. Midterm                    | 10. Term Project        |
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Eight-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>5. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>6. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>7. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>8. Multimedia, Final</td>
+    </tr>
+  </tbody>
+</table>
 
+<table hidden>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Ten-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>6. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>8. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>9. Multimedia, Final</td>
+    </tr>
+    <tr>
+      <td>5. Project Propposal, Midtern</td>
+      <td>10. Project Completion, Final</td>
+    </tr
+  </tbody>
+</table>
 
 ## Intro
 
