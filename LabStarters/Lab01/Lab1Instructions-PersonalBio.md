@@ -9,7 +9,7 @@
 - Headings (h1, h2, etc.)
 - Links (both between your pages and to an external site)
 
-- Text formatting (strong, emphasis, etc.)
+- Text formatting (strong, em, etc.)
 
 - Images (don't forget the alt attribute)
 
