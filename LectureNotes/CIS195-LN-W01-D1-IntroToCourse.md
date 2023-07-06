@@ -64,7 +64,7 @@ author: Brian Bird
     <tr>
       <td>5. Project Propposal, Midtern</td>
       <td>10. Project Completion, Final</td>
-    </tr
+    </tr>
   </tbody>
 </table>
 

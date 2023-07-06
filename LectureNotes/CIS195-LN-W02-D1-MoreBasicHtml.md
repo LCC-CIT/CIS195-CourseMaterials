@@ -1,16 +1,73 @@
+---
+title: Intro to the Course and to HTML and CSS
+description: Course tour, overview of the world wide web and web development. 
+keywords: CSS, HTML, World Wide Web.
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
 **CIS195 Web Authoring 1: HTML**
 
 <h1>More Basic HTML Elements</h1>
 
-| Course weeks and topics              |                         |
-| ------------------------------------ | ----------------------- |
-| 1. Intro to HTML 5                   | 6. Page Layout with CSS |
-| 2. <u>More HTML</u>, History of HTML | 7. HTML Tables          |
-| 3. Developing a Web Site             | 8. HTML Forms           |
-| 4. Design with CSS                   | 9. Multimedia           |
-| 5. Midterm                           | 10. Term Project        |
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Eight-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>5. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>6. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>7. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>8. Multimedia, Final</td>
+    </tr>
+  </tbody>
+</table>
 
-**Contents**
+<table hidden>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Ten-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>6. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>8. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>9. Multimedia, Final</td>
+    </tr>
+    <tr>
+      <td>5. Project Propposal, Midtern</td>
+      <td>10. Project Completion, Final</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h2>Contents</h2>
 
 [TOC]
 
@@ -71,7 +128,7 @@ Lists can be placed within lists. The right way to do it is to put the nested li
         <li>Ice Cream</li>
       </ul>
   </li>
-    <li>The rest of the list</li>
+  <li>The rest of the list</li>
 </ul>
 ```
 
@@ -176,5 +233,5 @@ The `<hr>` tag will put a horizontal line across the page. This is one of the "e
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), fall 2020.
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), summer 2023.
 
