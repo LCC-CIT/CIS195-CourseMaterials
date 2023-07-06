@@ -1,7 +1,7 @@
 ---
-title: Intro to the Course and to HTML and CSS
-description: Course tour, overview of the world wide web and web development. 
-keywords: CSS, HTML, World Wide Web.
+title: More Baic HTML Elements
+description: More HTML elements
+keywords: Element, HTML validation, nested lists, in-line elements, block elements.
 material: Lecture Notes
 generator: Typora
 author: Brian Bird

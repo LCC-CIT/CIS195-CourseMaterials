@@ -1,3 +1,11 @@
+---
+title: Folders, Files and Paths
+description: How to make links between pages in different folders .
+keywords: File, path, folder, link, href, absoute path, relative path, path delimiter.
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
 **CIS195 Web Authoring 1: HTML**
 
 <h1>Folders, Files, and Paths</h1>
@@ -157,4 +165,4 @@ Always use relative paths. If you use absolute paths, your web site's links will
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), fall 2020, updated fall 2022.
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), fall 2020, updated summer 2023.
