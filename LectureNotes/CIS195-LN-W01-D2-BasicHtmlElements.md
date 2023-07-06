@@ -1,7 +1,14 @@
-# CIS195 Web Authoring 1: HTML                  
+---
+title: Basic HTML Elements
+description: Descriptions of more HTML elements, more on VS Code and an overview of the first lab assignment. 
+keywords: HTML, Elements, attributes, tags.
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
+<h1>CIS195 Web Authoring 1: HTML</h1>
 
-## Week 1, Session 2
-
+<h2>Week 1, Session 2</h2>
 
 <table>
   <thead>
@@ -59,7 +66,9 @@
   </tbody>
 </table>
 
-## Intro
+[TOC]
+
+# Intro
 
 - Review due dates and what you need to do this week.
 
@@ -70,7 +79,7 @@
 
   
 
-## Review
+# Review
 
 - HTML “boiler plate”
 
@@ -78,20 +87,19 @@
   <!DOCTYPE html> 
   <html lang="en">
      <head>
-        <meta charset="UTF-8">
         <title>Some Title</title>
      </head>
      <body> 
      </body>
   </html>
   ```
-
+  
 - HTML elements
 
   - What is a tag?
   - What is an element?
 
-## Visual Studio Code
+# Visual Studio Code
 
 Visual Studio Code
 
@@ -102,7 +110,7 @@ Visual Studio Code
   - Add the HTML "boiler plate".
 
 
-## More about HTML Tags and Elements
+# More about HTML Tags and Elements
 
 - HTML element *attributes*
 
@@ -118,7 +126,7 @@ Visual Studio Code
 
 
 
-### More HTML Elements
+## More HTML Elements
 
 Here are some elements that we haven’t covered yet:
 
@@ -147,11 +155,9 @@ Here are some elements that we haven’t covered yet:
 
 
 
-## Lab Assignment
+# Lab Assignment
 
 The lab 1 instructions are posted in the week 1 section on Moodle.
-
-
 
 
 ------
