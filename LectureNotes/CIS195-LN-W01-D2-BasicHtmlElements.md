@@ -78,7 +78,7 @@
   <!DOCTYPE html> 
   <html lang="en">
      <head>
-        <meta charset="UTF-8">
+        <!-- Written by Brian Bird, 6/29/23 -->
         <title>Some Title</title>
      </head>
      <body> 
