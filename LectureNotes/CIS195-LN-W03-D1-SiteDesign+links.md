@@ -87,6 +87,14 @@ The anchor element, `<a>` , can have a target attribute that is used to control 
 | _top        | The full body of the window                                |
 | *framename* | A named frame                                              |
 
+Example:
+
+```html
+<a href="https://lanecc.edu target="_blank">LCC Web Site</a>
+```
+
+
+
 [W3Schools tutorial on the anchor element](https://www.w3schools.com/tags/tag_a.asp)
 
 
@@ -120,7 +128,7 @@ Example:
 To link to a  location within a document, you first need to mark that location. You can do that with the id attribute.
 
 - The id names must be unique.
-- The id names are not case sensitive.
+- The id names are not case sensitive, but matching case is good practice.
 
 #### Use the id as an `href`
 
@@ -178,4 +186,4 @@ The `mailto` protocol  allows you to add information to the e-mail, including th
 
 ****
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) written 2017, revised 2023, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).

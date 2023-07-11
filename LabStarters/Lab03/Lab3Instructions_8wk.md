@@ -10,7 +10,7 @@ Create a single web page that contains short sections of information on some top
 
 - A `<nav>` element that will contain a set of links. 
 
-  (The set of links doesn't have to be in an `<uo>` or `<ol>` list element, it could be a series of links with `<br>` tags after each one so they are arranged vertically on the page.)
+  (The set of links doesn't have to be in an `<ul>` or `<ol>` list element, it could be a series of links with `<br>` tags after each one so they are arranged vertically on the page.)
 
 - Hyperlink, `<a>`, elements with *href* attributes that link to *id* attributes in elements on the same page--at least four.
 
@@ -20,9 +20,11 @@ Create a single web page that contains short sections of information on some top
 
 
 
-## Part 2: Restrutured Review Site.
+## Part 2: Restructured Review Site.
 
 You will restructure your review site from the previous lab so that each review page and its images are in their own directory (folder). You will also add a set of navigation links, in a `nav` element, to each web page .
+
+Copy the existing review site into a new directory before making the revisions.
 
 Check your pages using the [W3C HTML Validator](https://validator.w3.org)  
 
