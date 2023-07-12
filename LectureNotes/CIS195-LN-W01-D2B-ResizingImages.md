@@ -1,7 +1,7 @@
 ---
 title: Resizing imgaes
 description: Different methods for shrinking image files.
-keywords: img, figure, resize, shrink, photos, paint, preview.
+keywords: img, figure, resize, shrink, photos, paint, preview, png, jpeg, webp.
 material: Lecture Notes
 generator: Typora
 author: Brian Bird
@@ -120,24 +120,17 @@ In the end, you usually want images to be less than 100k in size so that they do
 <img src="Images/Win10Photos.jpeg" align="left" style="zoom:40%;" />
 
 1. Open the Photos app from the Windows Start menu.
-
 2. Select *Folders* from the menu at the top of the app's window.
-
 3. Click on the *Add a folder* button (a big orange square) and select the folder containing your imnages.
-
 4. Click on an image you want to resize to select it.
-
 5. Click on the elipses (three dots ...) in the top menu, then click on *Resize image*.
-
 6. Resize the image. 
    Try to make the file size as small as possible while keeping the image looking sharp and clear for the size it will appear on the web page.
-
    - You can resize by adjusting the precentage or pixels settings.  
      - If you change just one dimension, either width or height, the aspect ratio (ratio of width to height) will be preserved.
      - You can see the resulting size of the image at the bottom or the Resize dialog box.
    - You can also make the file size smaller by adjusting the *quality* (compression) of the image.
-
-   1. 
+7. Click *Save.*
 
 
 
