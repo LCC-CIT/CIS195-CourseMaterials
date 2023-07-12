@@ -88,7 +88,13 @@ Pixels are the little dots that make up the image. The more little dots there ar
 
 #### Size of the File
 
-The size of the image file will be determined by multiple factors like the image type (.jpeg, .png, .webp, etc.), the number of ipixels in the image, the color palette (number of difrferent colors in the image), and the compression ratio. In the end, you usually want images to be less than 100k in size so that they don't take to long to load when someone opens the web page.
+The size of the image file will be determined by multiple factors like:
+
+- The image type (.jpeg, .png, .webp, etc.).
+- The number of ipixels in the image.
+- The compression ratio (quality) of the image. 
+
+In the end, you usually want images to be less than 100k in size so that they don't take too long to load when someone opens the web page, but you still want them to look good (or good enough) for the size they are renedered on the page.
 
 ## Apps that Can Resize Images
 
@@ -105,23 +111,33 @@ The size of the image file will be determined by multiple factors like the image
 5. Click on the *resize* button to open the resize and skew window.
 6. In the resize and skew window, select the *percentage* option under the resize section.
 7. Enter the percentage you want to resize your image by in the horizontal and vertical fields.
-8. Click *OK*
+8. Click *OK*.
 
 
 
 #### Photos
 
-<img src="Images/Win10Photos.jpeg" align="left" style="zoom:50%;" />
+<img src="Images/Win10Photos.jpeg" align="left" style="zoom:40%;" />
 
-1. Open the Photos app from the Windows Start menu
+1. Open the Photos app from the Windows Start menu.
+
 2. Select *Folders* from the menu at the top of the app's window.
+
 3. Click on the *Add a folder* button (a big orange square) and select the folder containing your imnages.
+
 4. Click on an image you want to resize to select it.
-5. Click on the elipses (three dots ...) in the top menu, then click on *Resize image*
-6. You can resize by precentage or pixels.  
-   - If you change just one dimension, either width or height, the aspect ratio (ratio of width to height) will be preserved.
-   - You can see the resulting size of the image at the bottom or the Resize dialog box.
-   - Try to make the image as small as possible while still looking sharp and clear on the web page.
+
+5. Click on the elipses (three dots ...) in the top menu, then click on *Resize image*.
+
+6. Resize the image. 
+   Try to make the file size as small as possible while keeping the image looking sharp and clear for the size it will appear on the web page.
+
+   - You can resize by adjusting the precentage or pixels settings.  
+     - If you change just one dimension, either width or height, the aspect ratio (ratio of width to height) will be preserved.
+     - You can see the resulting size of the image at the bottom or the Resize dialog box.
+   - You can also make the file size smaller by adjusting the *quality* (compression) of the image.
+
+   1. 
 
 
 
@@ -135,7 +151,7 @@ This works in the same way as the Windows 10 version, but the *Resize* button is
 
 #### Photos
 
-<img src="Images/Win10Photos.jpeg" align="left" style="zoom:50%;" />
+<img src="Images/Win10Photos.jpeg" align="left" style="zoom:40%;" />
 
 The most rescent Windows 11 version (as of July 2023) of the Photos app works a little differently from the Windows 10 version. In this version, you need to double-click on an image so that it opens in it's own window in order to get the full menu of options; which includes *Resize image*.
 
@@ -143,7 +159,7 @@ The most rescent Windows 11 version (as of July 2023) of the Photos app works a 
 
 #### Preview
 
-<img src="Images\BigSurPreviewIcon.jpeg" alt="BigSurPreviewIcon" align="left" style="zoom:50%;" />
+<img src="Images\BigSurPreviewIcon.jpeg" alt="BigSurPreviewIcon" align="left" style="zoom:40%;" />
 
 1. Open the image in Preview.
 2. Select *Tools > Adjust Size* to pull up the Image Dimensions menu.
