@@ -154,7 +154,7 @@ Weekly quizzes are given that cover the required reading for that week. These qu
 
 ### Midterm and Final Quizzes
 
-The midterm and final quizzes are given in weeks 4 and 10. See the course schedule for exact dates and times. 
+The midterm and final quizzes are given in weeks 5 and 10. See the [course schedule](#course-schedule) for exact dates and times. 
 
 These quizzes will need to given in the testing center in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures. Students are allowed to prepare a 4 X 6 card with notes to user during the quiz.
 
@@ -218,8 +218,8 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 | 1<br />6/27<br />6/29 | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1                                  | Lab 1: Bio web site                                          |
 | 2<br />7/4<br />7/6   | *More HTML Elements*<br />Holiday<br />More HTML, File Paths | Quiz 2                                  | Lab 2: A Review web site                                     |
 | 3<br />7/11<br />7/13 | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3                                  | Lab 3: Page with internal links<br />& Site with hyperlinks  |
-| 4<br />7/18<br />7/20 | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4<br />Midterm:<br />7/19&ndash;22 | Term project proposal<br />Lab 4: Style sheets for review site |
-| 5<br />7/25<br />7/27 | *CSS Page Layout* <br />Box model<br />FlexBox, Grid, Floats | Quiz 5                                  | Lab 5: Review site again<br />background image, positioning  |
+| 4<br />7/18<br />7/20 | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4                                  | Term project proposal<br />Lab 4: Style sheets for review site |
+| 5<br />7/25<br />7/27 | *CSS Page Layout* <br />Box model<br />FlexBox, Grid, Floats | Quiz 5<br />Midterm:<br />7/24&ndash;26 | Lab 5: Review site again<br />background image, positioning  |
 | 6<br />8/1<br />8/3   | *HTML Tables*<br />HTML Tables<br />Table Styling with CSS   | Quiz 6                                  | Lab 6: Weekly schedule<br />& One-month calendar             |
 | 7<br />8/8<br />8/10  | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7                                  | Lab 7:  Online raffle contest                                |
 | 8<br />8/15<br />8/17 | *Multimedia*<br />Audio and Video<br />Animations            | Quiz 8<br />Final: 8/17&ndash;19        | Lab 8: Multimedia web page<br />Term project                 |
