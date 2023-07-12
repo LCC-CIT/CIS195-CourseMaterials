@@ -91,7 +91,7 @@ Pixels are the little dots that make up the image. The more little dots there ar
 The size of the image file will be determined by multiple factors like:
 
 - The image type (.jpeg, .png, .webp, etc.).
-- The number of ipixels in the image.
+- The number of pixels in the image.
 - The compression ratio (quality) of the image. 
 
 In the end, you usually want images to be less than 100k in size so that they don't take too long to load when someone opens the web page, but you still want them to look good (or good enough) for the size they are renedered on the page.
