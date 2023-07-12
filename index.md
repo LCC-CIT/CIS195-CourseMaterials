@@ -2,68 +2,95 @@
 
 # Course Outline
 
-[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/GettingStarted.pdf)
-[Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)
-[Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html)
+[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html)
+[Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)
 
+[Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html)  
 [Course Materials on GitHub](https://github.com/LCC-CIT/CIS195-CourseMaterials)
 [Demo Code on GitHub](https://github.com/LCC-CIT/CIS195-Demos)
 
-Textbook: *New Perspectives on HTML, CSS and Dynamic HTML: Comprehensive*, Fifth Edition, 2012 by Patrick Carey
+
 
 ## 1. Intro to HTML
 
-- Objectives
+- [Objectives](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W01-D0-IntroToCourse-Objectives.html)
+- Reading 
+  Read these sections of *[The HTML Handbook](https://flaviocopes.com/book/html/)* by Flavio Copes
+    1\. [Preface](https://flaviocopes.com/book/html/#1-preface)
+    2\. [HTML Basics](https://flaviocopes.com/book/html/#2-html-basics)
+    3\. Skip this chapter
+    4\. [The document body](https://flaviocopes.com/book/html/#4-the-document-body), but skip section 4.1 
+    5\. [Tags that interact with text](https://flaviocopes.com/book/html/#5-tags-that-interact-with-text), but skip sections 5.7 and 5.8
+    6\. [Links](https://flaviocopes.com/book/html/#6-links), but skip the part on relative links 
+    12\. [Images](https://flaviocopes.com/book/html/#12-images), just 12, not 12.1, 12.2, etc.
 - Lecture Notes
-  - [Intro to the Course](LessonPlans/CIS195-LP-W01-D1-IntroToCourse.html)
-  - [Basic HTML Elements](LessonPlans/CIS195-LP-W01-D2-BasicHtmlElements.html)
+
+  - [Intro to the Course](LectureNotes/CIS195-LN-W01-D1-IntroToCourse.html)
+  - [Basic HTML Elements](LectureNotes/CIS195-LN-W01-D2-BasicHtmlElements.html)
+  - [Resizing Images](LectureNotes/CIS195-LN-W01-D2B-ResizingImages.html)
 - Examples
-  - [My Oregon Page](https://lcc-cit.github.io/CIS195-Demos/Unit01/OregonWebSite)  [Download zip file](https://drive.google.com/a/lanecc.edu/file/d/1g_M09Z0ga_gS4-6-WweSI2QPG_iVpUwX/view?usp=sharing)
+  - [Empty Web Page](https://lcc-cit.github.io/CIS195-Demos/Unit01/BasicPage/empty.html) 
+  - [My Oregon Page](https://lcc-cit.github.io/CIS195-Demos/Unit01/OregonWebSite) 
   - [My Demo Page](https://lcc-cit.github.io/CIS195-Demos/Week1/Demo1.html)
 - Lab Assignment
-  - [Lab 1 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab01/Lab1Instructions-PersonalBio.pdf)
-  - [Lab 1 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab01/Lab01Rubric_CS195.html)
+  - [Lab 1 Instructions](LabStarters/Lab01/Lab1Instructions-PersonalBio.html)
+  - [Lab 1 Rubric](LabStarters/Lab01/Lab01Rubric_CS195.htm)
 
 ## 2. More on Creating Web Pages with HTML
 
-- Objectives
+- [Objectives](LectureNotes/CIS195-LN-W02-D0-BasicHtmlElements-Objectives.html)
 
-- Textbook Reading
+- Reading
 
-- - Carey, Tutorial 1: Getting Started with HTML5
+  - [History of HTML](https://www.w3.org/People/Raggett/book4/ch02.html)
+  - More selected sections in [*The HTML Handbook*](https://flaviocopes.com/book/html)  
+
+  ​      4\.1 [Block elements vs inline elements](https://flaviocopes.com/book/html/#41-block-elements-vs-inline-elements)
+
+  ​      5\.6\.1 [Quotes ](https://flaviocopes.com/book/html/#561-quotes)
+
+  ​      5\.7 [Horizontal Line](https://flaviocopes.com/book/html/#57-horizontal-line)
+
+  ​      6\. [Links](https://flaviocopes.com/book/html/#6-links)
+
+  ​      12\. [Images](https://flaviocopes.com/book/html/#12-images)
+
+  - Selected sections on W3 Schools:
+    - [HTML Comments](https://www.w3schools.com/html/html_comments.asp)
+    - [HTML Symbols](https://www.w3schools.com/html/html_symbols.asp)
+    - [HTML File Paths](https://www.w3schools.com/Html/html_filepaths.asp)
 
 - Lecture Notes
 
-- - [More HTML](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W02-D1-IntroToHtml.html)
-  - [Even More HTML](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W02-D2-MoreBasicHtml.html)
+  - [More HTML](LectureNotes/CIS195-LN-W02-D1-MoreBasicHTML.html)
+  - [Absolute and Relative File Paths](LectureNotes/CIS195-LN-W02-D2A-AbsoluteAndRelativeLinks.html)
+  - [History of HTML](LectureNotes/CIS195-LN-W02-D2-History.html)
 
 - Examples
 
-  - [Chennai web page](https://lcc-cit.github.io/CIS195-Demos/Unit01/Chennai/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/blob/master/Unit01/Chennai/index.html)
-  - [Chennai Area web page](https://lcc-cit.github.io/CIS195-Demos/Unit01/ChennaiArea/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/blob/master/Unit01/ChennaiArea/index.html)
+  - [Chennai Web Page](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/Chennai/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit02/SouthIndia/Chennai)
+  - [Chennai Area web page](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/ChennaiArea/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit02/SouthIndia/Chennai)
 
 - Lab Assignment
 
-  - [Lab 2 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab02/Lab2Instructions_W18.pdf)
-  - [Lab 2 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab02/Lab2Rubric_CS195.html)
+  - [Lab 2 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab02/Lab2Instructions.html)
+  - [Lab 2 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab02/Lab2Rubric-CS195.pdf)
 
 ## 3. Developing a Web Site
 
-- Textbook
-
-- - Carey, Tutorial 2: Developing a Web Site
+- Objectives 
+  This week you will learn how to build a multi-page site with various types of site navigation links.
+- Reading
+  - [Uploading your website to the CIT Web Server](Lessons/UploadingWebSites.html)
 
 - Lecture Notes
-
-- - [Paths and Links](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D1-Paths+Links.html)
-  - [Image Maps - Not finished yet](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D1-Paths+Links.html)
+  - [Site Structure and Navigation](LectureNotes/CIS195-LN-W03-D1-SiteDesign+links.html)
+  <!-- [Publish a Web Site to the CIT Web Server](LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review.html) -->
+  - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D2-ImageMaps.html)
 
 - Example
-
 - - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit02/Finished/Index.htm)
-
 - Lab Assignment
-
 - - [Lab 3 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Instructions_W18.pdf)
   - [Lab 3 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Rubric_CS195.html)
 
