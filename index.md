@@ -8,12 +8,10 @@
 
 ## General Information
 
-[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html) 
-
-[Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)
-
-[Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html) (See the syllabus for Zoom links)
-[Course Materials on GitHub](https://github.com/LCC-CIT/CIS195-CourseMaterials)
+[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html)  
+[Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)  
+[Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html) (See the syllabus for Zoom links)  
+[Course Materials on GitHub](https://github.com/LCC-CIT/CIS195-CourseMaterials)  
 [Demo Code on GitHub](https://github.com/LCC-CIT/CIS195-Demos)
 
 
