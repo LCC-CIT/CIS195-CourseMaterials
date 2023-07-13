@@ -1,8 +1,15 @@
-# CIS 195, Web Authoring 1: HTML and CSS  
+<h1>CIS 195, Web Authoring 1: HTML and CSS</h1>
 
-# Course Outline
+<h2>Contents</h2>
 
-[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html)
+[TOC]
+
+
+
+## General Information
+
+[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html) 
+
 [Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)
 
 [Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html)  
@@ -79,6 +86,7 @@
 ## 3. Developing a Web Site
 
 - Objectives 
+  
   This week you will learn how to build a multi-page site with various types of site navigation links.
 - Reading
   - [Uploading your website to the CIT Web Server](Lessons/UploadingWebSites.html)
@@ -86,13 +94,15 @@
 - Lecture Notes
   - [Site Structure and Navigation](LectureNotes/CIS195-LN-W03-D1-SiteDesign+links.html)
   <!-- [Publish a Web Site to the CIT Web Server](LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review.html) -->
+  - [Publishing to a Web Server](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W03-D2-UploadToWebServer_8wk.html)
   - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D2-ImageMaps.html)
-
+  
 - Examples
   - [Planets Web Page](https://lcc-cit.github.io/CIS195-Demos/Unit03/Planets/Finished/)
   - [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/SouthIndia/Finished/)
 
 - Lab Assignment
+
   - [Lab 3 Instructions&mdash;Summer Version](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Instructions_8wk.html)
     <!-- [Lab 3 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Rubric_CS195.html)-->
 
@@ -123,24 +133,25 @@
 
 - Lecture Notes
 
-- - [Styling with CSS](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W04-D1-StylingWithCSS.html)
+  - [Styling with CSS](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W04-D1-StylingWithCSS.html)
   - [Text Formatting, PseudoClasses](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W04-D2-TextFormatting+PseudoClasses.html)
 
 - Example
 
-- - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
+  - [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/)
 
 - Lab Assignment
 
-- - [Lab 4 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab04/Lab4Instructions_W18.pdf)
-  - [Lab 4 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab04/Lab4Rubric_CS195.html)
+<!-- [Lab 4 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab04/Lab4Instructions_W18.pdf) -->
+<!-- [Lab 4 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab04/Lab4Rubric_CS195.html)-->
+
 
 ## 5. Midterm
 
 - Lecture Notes
-
-- - [Publishing to a Web Server, Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review)
+  - [Publishing to a Web Server, Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review)
   - [How to upload your site to citstudent](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/UploadingWebSites.html)
+
 
 ## 6. Page Layout with CSS
 
