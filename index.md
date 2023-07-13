@@ -12,7 +12,7 @@
 
 [Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)
 
-[Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html)  
+[Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html) (See the syllabus for Zoom links)
 [Course Materials on GitHub](https://github.com/LCC-CIT/CIS195-CourseMaterials)
 [Demo Code on GitHub](https://github.com/LCC-CIT/CIS195-Demos)
 
@@ -155,6 +155,8 @@
 - Lecture Notes
   - [Publishing to a Web Server, Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review)
   - [How to upload your site to citstudent](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/UploadingWebSites.html)
+- Midterm Quiz 
+  See the syllabus for details about the time and place of the midterm quiz.
 
 
 ## 6. Page Layout with CSS
