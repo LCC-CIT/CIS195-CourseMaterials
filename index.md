@@ -1,6 +1,6 @@
 <h1>CIS 195, Web Authoring 1: HTML and CSS</h1>
 
-<h2>Contents</h2>
+<h2>Course Outline for a Ten Week Term</h2>
 
 [TOC]
 
@@ -92,9 +92,14 @@
 
 - Lecture Notes
   - [Site Structure and Navigation](LectureNotes/CIS195-LN-W03-D1-SiteDesign+links.html)
-  <!-- [Publish a Web Site to the CIT Web Server](LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review.html) -->
   - [Publishing to a Web Server](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W03-D2-UploadToWebServer_8wk.html)
-  - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D2-ImageMaps.html)
+  - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D2-ImageMaps.html) (Not covered summer 2023)
+  
+- Zoom Recordings
+  
+  - [Tuesday's class](https://lanecc.zoom.us/rec/share/c1hLHYTbHtes6SMePpRrNeLlWBtaOQPt3C5bH-vCoCGrIe9cKB4bj59zgGGoARuz.iuPpYeiAI4C7ks1h)
+  
+  - [Thursday's class](https://lanecc.zoom.us/rec/share/UyfIJt6nKteemyIzBdL-IYtiHF09RIyhljPKts-GzMQcQvbQnETqCogglKausD1L.vFwLcOphV0oBXYO4)
   
 - Examples
   - [Planets Web Page](https://lcc-cit.github.io/CIS195-Demos/Unit03/Planets/Finished/)
