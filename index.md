@@ -88,17 +88,38 @@
   <!-- [Publish a Web Site to the CIT Web Server](LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review.html) -->
   - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D2-ImageMaps.html)
 
-- Example
-- - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit02/Finished/Index.htm)
+- Examples
+  - [Planets Web Page](https://lcc-cit.github.io/CIS195-Demos/Unit03/Planets/Finished/)
+  - [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/SouthIndia/Finished/)
+
 - Lab Assignment
-- - [Lab 3 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Instructions_W18.pdf)
-  - [Lab 3 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Rubric_CS195.html)
+  - [Lab 3 Instructions&mdash;Summer Version](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Instructions_8wk.html)
+    <!-- [Lab 3 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Rubric_CS195.html)-->
+
 
 ## 4. Designing a Page with CSS 
 
-- Textbook
+- [Objectives](LectureNotes/CIS195-LN-W04-D0-StylingWithCSS-Objectives.html)
 
-- - Carey, Tutorial 3: Designing a Web Page with CSS
+- Reading
+
+  Selected Sections of the [CSS Handbook](https://flaviocopes.com/book/css/)
+
+    1\. [Preface](https://flaviocopes.com/book/css/#1-preface) 
+    2\. [Introduction to CSS](https://flaviocopes.com/book/css/#2-introduction-to-css)  
+    4\. [Adding CSS to an HTML page](https://flaviocopes.com/book/css/#4-adding-css-to-an-html-page) 
+
+    5\. [Selectors](https://flaviocopes.com/book/css/#5-selectors) 
+
+    6\. [Cascade](https://flaviocopes.com/book/css/#6-cascade) 
+
+    7\. [Specificity](https://flaviocopes.com/book/css/#7-specificity) (precedence)
+        (Just read 7.0, not the sub-sections) 
+    11\. [Pseudo-classes](https://flaviocopes.com/book/css/#11-pseudo-classes) 
+
+    13\. [Colors](https://flaviocopes.com/book/css/#13-colors)  
+    20\. [Fonts](https://flaviocopes.com/book/css/) 
+    21\. [Typography](https://flaviocopes.com/book/css/#21-typography) 
 
 - Lecture Notes
 
