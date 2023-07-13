@@ -75,9 +75,8 @@
 
 - Examples
 
-  - [Chennai Web Page](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/Chennai/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit02/SouthIndia/Chennai)
-  - [Chennai Area web page](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/ChennaiArea/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit02/SouthIndia/Chennai)
-
+  - [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/Chennai/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit02/SouthIndia/)
+  
 - Lab Assignment
 
   - [Lab 2 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab02/Lab2Instructions.html)
