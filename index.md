@@ -22,14 +22,14 @@
 
 - [Objectives](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W01-D0-IntroToCourse-Objectives.html)
 - Reading 
-  Read these sections of *[The HTML Handbook](https://flaviocopes.com/book/html/)* by Flavio Copes
-    1\. [Preface](https://flaviocopes.com/book/html/#1-preface)
-    2\. [HTML Basics](https://flaviocopes.com/book/html/#2-html-basics)
-    3\. Skip this chapter
-    4\. [The document body](https://flaviocopes.com/book/html/#4-the-document-body), but skip section 4.1 
-    5\. [Tags that interact with text](https://flaviocopes.com/book/html/#5-tags-that-interact-with-text), but skip sections 5.7 and 5.8
-    6\. [Links](https://flaviocopes.com/book/html/#6-links), but skip the part on relative links 
-    12\. [Images](https://flaviocopes.com/book/html/#12-images), just 12, not 12.1, 12.2, etc.
+  Read these sections of *[The HTML Handbook](https://flaviocopes.com/book/html/)* by Flavio Copes  
+    1\. [Preface](https://flaviocopes.com/book/html/#1-preface)  
+    2\. [HTML Basics](https://flaviocopes.com/book/html/#2-html-basics)  
+    3\. Skip this chapter  
+    4\. [The document body](https://flaviocopes.com/book/html/#4-the-document-body), but skip section 4.1  
+    5\. [Tags that interact with text](https://flaviocopes.com/book/html/#5-tags-that-interact-with-text), but skip sections 5.7 and 5.8  
+    6\. [Links](https://flaviocopes.com/book/html/#6-links), but skip the part on relative links  
+  12\. [Images](https://flaviocopes.com/book/html/#12-images), just 12, not 12.1, 12.2, etc.
 - Lecture Notes
 
   - [Intro to the Course](LectureNotes/CIS195-LN-W01-D1-IntroToCourse.html)
@@ -115,7 +115,7 @@
 
   Selected Sections of the [CSS Handbook](https://flaviocopes.com/book/css/)
 
-    1\. [Preface](https://flaviocopes.com/book/css/#1-preface) 
+    1\. [Preface](https://flaviocopes.com/book/css/#1-preface)  
     2\. [Introduction to CSS](https://flaviocopes.com/book/css/#2-introduction-to-css)  
     4\. [Adding CSS to an HTML page](https://flaviocopes.com/book/css/#4-adding-css-to-an-html-page) 
 
@@ -125,16 +125,15 @@
 
     7\. [Specificity](https://flaviocopes.com/book/css/#7-specificity) (precedence)
         (Just read 7.0, not the sub-sections) 
-    11\. [Pseudo-classes](https://flaviocopes.com/book/css/#11-pseudo-classes) 
-
+    11\. [Pseudo-classes](https://flaviocopes.com/book/css/#11-pseudo-classes)  
     13\. [Colors](https://flaviocopes.com/book/css/#13-colors)  
-    20\. [Fonts](https://flaviocopes.com/book/css/) 
-    21\. [Typography](https://flaviocopes.com/book/css/#21-typography) 
-
+    20\. [Fonts](https://flaviocopes.com/book/css/)  
+  21\. [Typography](https://flaviocopes.com/book/css/#21-typography) 
+  
 - Lecture Notes
 
   - [Styling with CSS](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W04-D1-StylingWithCSS.html)
-  - [Text Formatting, PseudoClasses](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W04-D2-TextFormatting+PseudoClasses.html)
+  - [Text Formatting, Pseudo-Classes](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W04-D2-TextFormatting+PseudoClasses.html)
 
 - Example
 
@@ -155,107 +154,77 @@
 
 ## 6. Page Layout with CSS
 
-- Textbook
-
-- - Carey, Tutorial 4: Creating Page Layouts with CSS
-
 - Lecture Notes
-
-- - [CSS Layout, Float Property](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W06-D1-CssLayout-Float)
+  - CSS Layout, Float Property](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W06-D1-CssLayout-Float)
   - [CSS Box Model, Positioining](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LP-W06-D2-CssLayout-BoxModel+Position)
 
 - Example
-
-- - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
+  - Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
   - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04/floatDemo.htm)
 
 - Exercise
-
-- - [CSS *f**loat* and *c**lear* Properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
+  - [CSS *f**loat* and *c**lear* Properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
 
 - Lab Assignment
-
-- - [Lab 5 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab05/Lab5Instructions.pdf)
+  - [Lab 5 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab05/Lab5Instructions.pdf)
   - [Lab 5 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab05/Lab05Rubric.html)
+
 
 ## 7. HTML Tables
 
-- Textbook
-
-- - Carey, Tutorial 5: Working with Tables and Columns
-
 - Lecture Notes
-
-- - [Tables](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W07-D1-Tables.html)
+  - [Tables](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W07-D1-Tables.html)
 
 - Example
-
-- - [Table Practice](https://lcc-cit.github.io/CIS195-Demos/Week5/TablePractice.html)
+  - [Table Practice](https://lcc-cit.github.io/CIS195-Demos/Week5/TablePractice.html)
 
 - Lab Assignment
-
-- - [Lab 6 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab06/Lab6Instructions.pdf)
+  - [Lab 6 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab06/Lab6Instructions.pdf)
   - [Lab 6 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab06/Lab06Rubric.html)
+
 
 ## 8. HTML Forms for User Input
 
-- Textbook
-
-- - Carey, Tutorial 6: Creating a Web Form
-
 - Lecture Notes
-
-- - [Forms - Part 1
+  - [Forms - Part 1
     ](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W08-D1-Forms.html)
   - [Forms - Part 2
     ](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W08-D2-Forms.html)
 
 - Lab Assignment
-
-- - [Lab 7 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab07/Lab7Instructions.pdf)
+  - Lab 7 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab07/Lab7Instructions.pdf)
   - [Lab 7 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab07/Lab07Rubric.html)
+
 
 ## 9. Multimedia for the Web
 
-- Textbook
-
-- - Carey, Tutorial 7: Designing a Multimedia Web Site
-
 - Lecture Notes
-
-- - [Audio and Video for Web Sites](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W09-D1-Audio+Video.html)
+  - [Audio and Video for Web Sites](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W09-D1-Audio+Video.html)
   - [Embedding Multimedia Objects](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W09-D2-MultimediaObjects.html)
 
 - Lab Assignment
-
-- - [Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab8Instructions.pdf)
+  - Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab8Instructions.pdf)
   - [Lab 8 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab08Rubric.html)
 
-## 10. 1 Review and Term Project
+
+## 10.1 Review and Term Project
 
 - Lecture Notes
-
-- - [TBD](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W01-D1-IntroToCourse.html)
+  - [Review]](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W10-D1-Review.html)
 
 - Term Project Assignment
-
-- - [Term Project Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf)
+  - Term Project Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf)
   - [Term Project Code Review Form](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/TermProjectCodeReview.docx)
+
 
 ## 10.2 (Optional) Advanced CSS
 
-- Textbook
-
-- - Carey, Tutorial 8: Enhancing a Web Site with Advanced CSS
-
 - Lecture Notes
+  - [Advanced CSS](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W10-D1-AdvancedCSS.html)
 
-- - [Advanced CSS](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W10-D1-AdvancedCSS.html)
 
-- Lab Assignment
 
-- - [Lab 1 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab01/Lab1Instructions-PersonalBio.pdf)
 
-## 11.  Final Assessment
 
-Written by [Brian Bird](https://profbird.online), winter 2019.
+
+Written by [Brian Bird](https://profbird.online), winter 2019, revised 2023

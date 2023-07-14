@@ -18,7 +18,7 @@ Create a single web page that contains short sections of information on some top
 
 - A hyperlink to an e-mail address.
 
-
+Please pick a topic other than the one in my example web page and create your own links and ids rather than copying and pasting mine.
 
 ## Part 2: Restructured Review Site.
 
