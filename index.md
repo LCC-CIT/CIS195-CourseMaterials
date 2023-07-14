@@ -1,16 +1,16 @@
+---
 title: Course Outline
 description: Outline of the course and links to all the instructor-created content.
 keywords: CSS, HTML, World Wide Web
 material: Index to course material
 generator: Typora
 author: Brian Bird
-
+---
 <h1>CIS 195, Web Authoring 1: HTML and CSS</h1>
 
 <h2>Course Outline for a Ten Week Term</h2>
 
 [TOC]
-
 
 
 ## General Course Information
@@ -232,7 +232,6 @@ author: Brian Bird
 
 - Lecture Notes
   - [Advanced CSS](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W10-D1-AdvancedCSS.html)
-
 
 
 
