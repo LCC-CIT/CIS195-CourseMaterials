@@ -1,6 +1,6 @@
 <h1>CIS 195, Web Authoring 1: HTML and CSS</h1>
 
-<h2>Contents</h2>
+<h2>Course Outline for a Ten Week Term</h2>
 
 [TOC]
 
@@ -8,12 +8,10 @@
 
 ## General Information
 
-[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html) 
-
-[Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)
-
-[Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html)  
-[Course Materials on GitHub](https://github.com/LCC-CIT/CIS195-CourseMaterials)
+[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html)  
+[Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)  
+[Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html) (See the syllabus for Zoom links)  
+[Course Materials on GitHub](https://github.com/LCC-CIT/CIS195-CourseMaterials)  
 [Demo Code on GitHub](https://github.com/LCC-CIT/CIS195-Demos)
 
 
@@ -75,9 +73,8 @@
 
 - Examples
 
-  - [Chennai Web Page](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/Chennai/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit02/SouthIndia/Chennai)
-  - [Chennai Area web page](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/ChennaiArea/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit02/SouthIndia/Chennai)
-
+  - [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/Chennai/) — [Source code](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit02/SouthIndia/)
+  
 - Lab Assignment
 
   - [Lab 2 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab02/Lab2Instructions.html)
@@ -93,9 +90,14 @@
 
 - Lecture Notes
   - [Site Structure and Navigation](LectureNotes/CIS195-LN-W03-D1-SiteDesign+links.html)
-  <!-- [Publish a Web Site to the CIT Web Server](LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review.html) -->
   - [Publishing to a Web Server](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W03-D2-UploadToWebServer_8wk.html)
-  - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D2-ImageMaps.html)
+  - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D2-ImageMaps.html) (Not covered summer 2023)
+  
+- Zoom Recordings
+  
+  - [Tuesday's class](https://lanecc.zoom.us/rec/share/c1hLHYTbHtes6SMePpRrNeLlWBtaOQPt3C5bH-vCoCGrIe9cKB4bj59zgGGoARuz.iuPpYeiAI4C7ks1h)
+  
+  - [Thursday's class](https://lanecc.zoom.us/rec/share/UyfIJt6nKteemyIzBdL-IYtiHF09RIyhljPKts-GzMQcQvbQnETqCogglKausD1L.vFwLcOphV0oBXYO4)
   
 - Examples
   - [Planets Web Page](https://lcc-cit.github.io/CIS195-Demos/Unit03/Planets/Finished/)
@@ -150,6 +152,8 @@
 - Lecture Notes
   - [Publishing to a Web Server, Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review)
   - [How to upload your site to citstudent](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/UploadingWebSites.html)
+- Midterm Quiz 
+  See the syllabus for details about the time and place of the midterm quiz.
 
 
 ## 6. Page Layout with CSS

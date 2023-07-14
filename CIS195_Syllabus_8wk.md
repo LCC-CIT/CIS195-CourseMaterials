@@ -154,11 +154,11 @@ Weekly quizzes are given that cover the required reading for that week. These qu
 
 ### Midterm and Final Quizzes
 
-The midterm and final quizzes are given in weeks 5 and 10. See the [course schedule](#course-schedule) for exact dates and times. 
+The midterm and final quizzes are given in weeks 5 and 8. See the [course schedule](#course-schedule) for exact dates and times. 
 
-These quizzes will need to given in the testing center in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures. Students are allowed to prepare a 4 X 6 card with notes to user during the quiz.
+These quizzes will need to given in the testing center on the third floor of the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures. Students are allowed to prepare a 4 X 6 card with notes to use during the quiz.
 
-For students who live outside Lane county, send an email to [online@lanecc.edu](mailto:online@lanecc.edu) as soon as possible to arrange for your midterm and final to be proctored at a location near you.
+For students who live outside Lane county, please send an email to [online@lanecc.edu](mailto:online@lanecc.edu) as soon as possible to arrange for your midterm and final to be proctored at a location near you.
 
 ## Academic Honesty
 
