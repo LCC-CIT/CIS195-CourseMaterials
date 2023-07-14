@@ -1,3 +1,10 @@
+title: Course Outline
+description: Outline of the course and links to all the instructor-created content.
+keywords: CSS, HTML, World Wide Web
+material: Index to course material
+generator: Typora
+author: Brian Bird
+
 <h1>CIS 195, Web Authoring 1: HTML and CSS</h1>
 
 <h2>Course Outline for a Ten Week Term</h2>
@@ -6,7 +13,7 @@
 
 
 
-## General Information
+## General Course Information
 
 [Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html)  
 [Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)  
@@ -159,15 +166,15 @@
 ## 6. Page Layout with CSS
 
 - Lecture Notes
-  - CSS Layout, Float Property](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W06-D1-CssLayout-Float)
-  - [CSS Box Model, Positioining](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LP-W06-D2-CssLayout-BoxModel+Position)
+  - [CSS Layout, Float Property](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W06-D1-CssLayout-Float)
+  - [CSS Box Model, Positioning](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LP-W06-D2-CssLayout-BoxModel+Position)
 
 - Example
-  - Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
+  - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
   - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04/floatDemo.htm)
 
 - Exercise
-  - [CSS *f**loat* and *c**lear* Properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
+  - [CSS *float* and *clear* Properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
 
 - Lab Assignment
   - [Lab 5 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab05/Lab5Instructions.pdf)
@@ -196,7 +203,7 @@
     ](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W08-D2-Forms.html)
 
 - Lab Assignment
-  - Lab 7 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab07/Lab7Instructions.pdf)
+  - [Lab 7 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab07/Lab7Instructions.pdf)
   - [Lab 7 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab07/Lab07Rubric.html)
 
 
@@ -207,17 +214,17 @@
   - [Embedding Multimedia Objects](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W09-D2-MultimediaObjects.html)
 
 - Lab Assignment
-  - Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab8Instructions.pdf)
+  - [Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab8Instructions.pdf)
   - [Lab 8 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab08Rubric.html)
 
 
 ## 10.1 Review and Term Project
 
 - Lecture Notes
-  - [Review]](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W10-D1-Review.html)
+  - [Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W10-D1-Review.html)
 
 - Term Project Assignment
-  - Term Project Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf)
+  - [Term Project Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf)
   - [Term Project Code Review Form](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/TermProjectCodeReview.docx)
 
 
@@ -229,6 +236,4 @@
 
 
 
-
-
-Written by [Brian Bird](https://profbird.online), winter 2019, revised 2023
+Written by [Brian Bird](https://profbird.online), winter 2019, revised <time>2023</time>
