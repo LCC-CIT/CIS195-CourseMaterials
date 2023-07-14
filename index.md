@@ -1,5 +1,5 @@
 ---
-title: Course Outline
+title: CIS 195 Course Outline
 description: Outline of the course and links to all the instructor-created content.
 keywords: CSS, HTML, World Wide Web
 material: Index to course material
@@ -8,7 +8,7 @@ author: Brian Bird
 ---
 <h1>CIS 195, Web Authoring 1: HTML and CSS</h1>
 
-<h2>Course Outline for a Ten Week Term</h2>
+<h2>Course Outline for a Ten-Week Term</h2>
 
 [TOC]
 
@@ -235,4 +235,4 @@ author: Brian Bird
 
 
 
-Written by [Brian Bird](https://profbird.online), winter 2019, revised <time>2023</time>
+Written by [Brian Bird](https://profbird.dev), winter 2019, revised summer <time>2023</time>
