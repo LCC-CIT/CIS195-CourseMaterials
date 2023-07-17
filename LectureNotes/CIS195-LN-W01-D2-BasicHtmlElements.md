@@ -112,17 +112,17 @@ Visual Studio Code
 
 # More about HTML Tags and Elements
 
-- HTML element *attributes*
+## HTML element *attributes*
 
-  - Pattern: &lt;*element* *attribute1*=”*value1*” *attribute2*=”*value2*” ...&gt;
-  - Example: &lt;meta charset="UTF-8"&gt;
-  - The two parts of the attribute form a "key-value pair"
+- Pattern: &lt;*element* *attribute1*=”*value1*” *attribute2*=”*value2*” ...&gt;
+- Example: `<meta charset="UTF-8">`
+- The two parts of the attribute form a "key-value pair"
 
-- One-sided or "self-closing" tags
+## One-sided or "self-closing" tags
 
-  - `<br>`
+- `<br>`
 
-  - `<img src="kitten.png" alt="A very cute kitten">`
+- `<img src="kitten.png" alt="A very cute kitten">`
 
 
 
@@ -130,13 +130,33 @@ Visual Studio Code
 
 Here are some elements that we haven’t covered yet:
 
-- Paragraph: `<p> some text </p>`
-- strong (bold): `<strong>some text</strong>`
-- emphasis (italics): `<em>some text</em>`
-- image: `<img alt="description" src="photo.jpg">`
+### Paragraph
 
-  Put the image file in the same folder with the html file.
-- Link: `<a href="http://lanecc.edu">Lane Community College</a>`
+`<p> some text </p>`
+
+### Bold and Italicized Text
+
+- Bold: `<strong>some text</strong>`
+- Italics: `<em>some text</em>`
+
+### Image
+
+`<img alt="description" src="photo.jpg">`
+
+- Put image files in the same folder with the html file for now.
+- Reduce the size of the image files.
+  -  So that your web pages will load quickly.
+  - Moodle has a 10 MB upload limit, so when uplaoding web sites to Moodle, the combineds size of all images and web pages must be less than this.
+  - Windows and Mac OS both have built-in apps you can use to shrink image files.
+
+### Link
+
+Use the anchor element to create links
+
+ `<a href="https://lanecc.edu">Lane Community College</a>`
+
+### Lists
+
 - Ordered list:
 
 ``` html

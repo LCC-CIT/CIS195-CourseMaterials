@@ -1,16 +1,74 @@
+---
+title: Site Design and More on Hyperlinks
+description: How to design the structure and navigation of a web site.
+keywords: File, path, folder, link, nav, navigation, menu
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
+**CIS195 Web Authoring 1: HTML**
+
 <h1>Site Design and More on Hyperlinks</h1>
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Eight-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>5. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>6. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>7. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>8. Multimedia, Final</td>
+    </tr>
+  </tbody>
+</table>
+
+<table hidden>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Ten-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>6. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>8. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>9. Multimedia, Final</td>
+    </tr>
+    <tr>
+      <td>5. Project Propposal, Midtern</td>
+      <td>10. Project Completion, Final</td>
+    </tr>
+  </tbody>
+</table>
 
 
-| Course topics by week                      |                         |
-| ------------------------------------------ | ----------------------- |
-| 1. Intro to HTML 5                         | 6. Page Layout with CSS |
-| 2. More on Creating Web Pages              | 7. HTML Tables          |
-| 3<u>. Site Design + More on Hyperlinks</u> | 8. HTML Forms           |
-| 4. Design with CSS                         | 9. Multimedia           |
-| 5. Midterm                                 | 10. Term Project        |
 
-**Contents**
+<h2>Contents</h2>
 
 [TOC]
 
@@ -23,16 +81,9 @@ The web site's structure is determined by hyperlinks.
 
 ### Hyperlink Navigation—Site maps
 
-A sitemap shows how the web pages are linked together. It can be done simply by using an outline. Here's an example based on [my company's home page](https://creativecybersolutions.com)
+A sitemap shows how the web pages are linked together. It can be done simply by using an outline. 
 
-- Navigation (on every page)
-  - Home
-  - Services
-  - About
-  - Contact us
-  - Client Login
-
-Another example is our family's market garden web site, [Eaglewing Acres](https://eaglewingacres.com/).
+Here's an example based on a market garden web site, [Eaglewing Acres](https://eaglewingacres.com/).
 
 - Navigation (on every page)
   - Home
@@ -180,10 +231,8 @@ The `mailto` protocol  allows you to add information to the e-mail, including th
 <a href="mailto:webmaster@example.com?Subject=Test&Message=This%20is%20a%20test">Send a test e-mail message</a>
 ```
 
-
-
 [More about the href attribute on W3Schools](https://www.w3schools.com/tags/att_a_href.asp)
 
 ****
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) written 2017, revised 2023, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) written 2017, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).

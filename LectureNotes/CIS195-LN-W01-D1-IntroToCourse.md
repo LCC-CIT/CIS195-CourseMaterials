@@ -1,5 +1,5 @@
 ---
-title: Intro to the Course and to HTML and CSS
+title: Course Intro
 description: Course tour, overview of the world wide web and web development. 
 keywords: CSS, HTML, World Wide Web.
 material: Lecture Notes
