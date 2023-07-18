@@ -8,7 +8,7 @@ author: Brian Bird
 ---
 **CIS195 Web Authoring 1: HTML**
 
-<h1>Styling with CSSr</h1>
+<h1>Styling with CSS</h1>
 
 <table>
   <thead>
@@ -26,15 +26,16 @@ author: Brian Bird
       <td>6. HTML Tables</td>
     </tr>
     <tr>
-      <td><mark>3. Site structure and navigation</mark></td>
+      <td>3. Site structure and navigation</td>
       <td>7. HTML Forms</td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS</td>
+      <td><mark>4. Formatting with CSS</mark></td>
       <td>8. Multimedia, Final</td>
     </tr>
   </tbody>
 </table>
+
 
 
 <table hidden>
@@ -72,8 +73,14 @@ author: Brian Bird
 
 # Introduction
 
--   Review lab due dates on Moodle
--   Answer questions about lab 3
+-   Quiz 4 will close Thursday
+
+-   
+    The midterm is next week, Monday&mdash;Wednesday, 7/24–26 
+
+    See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures. Students are allowed to prepare a 4 X 6 card with notes to use during the quiz.
+
+-   Answer questions about lab 3 and uploading to citstudent.
 
 
 
