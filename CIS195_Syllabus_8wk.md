@@ -145,9 +145,9 @@ Exceptions will be made for serious illness or emergency situations.
 
 ## Weekly Learning Cycle
 
-| Monday                                    | Tuesday                                              | Wednesday             | Thursday                                                |
-| ----------------------------------------- | ---------------------------------------------------- | --------------------- | ------------------------------------------------------- |
-| Finish Reading<br />Take the reading quiz | (Quiz closes before class)<br />Participate in class | Start this week's lab | Participate in class <br /><br />Submit last week's lab |
+| Monday                                                       | Tuesday                                            | Wednesday                         | Thursday                                                     |
+| ------------------------------------------------------------ | -------------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| Start the assigned reading.<br /><br />Take the reading quiz any time before Thursday's class. | Participate in class or watch the video recording. | Start this week's lab assignment. | Reading quiz closes before class.<br /><br />Participate in class  or watch the video recording.<br /><br />Submit last week's lab assignment. |
 
 ### Reading Quizzes
 Weekly quizzes are given that cover the required reading for that week. These quizzes must be taken before the first class meeting of the week. They are "open book" (you can look at whatever reading material was assigned.)
