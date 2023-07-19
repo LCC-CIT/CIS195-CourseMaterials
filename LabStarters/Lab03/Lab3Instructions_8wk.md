@@ -22,7 +22,14 @@ Please pick a topic other than the one in my example web page and create your ow
 
 ## Part 2: Restructured Review Site.
 
-You will restructure your review site from the previous lab so that each review page and its images are in their own directory (folder). You will also add a set of navigation links, in a `nav` element, to each web page .
+You will restructure your review site from the previous lab so that each review page and its images are in their own directory (folder). The folders will be structured as shown in the outline below. You can use any folder names you wish, but remember to name the home page file index.html.
+
+- Home
+  - Review1
+  - Review2
+  - Review3
+
+You will also add a set of navigation links, in a `nav` element, to each web page .
 
 Copy the existing review site into a new directory before making the revisions.
 
@@ -34,14 +41,14 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 - Use FileZilla to upload the folders containing your web sites to citstudent.
   - Create a lab3 folder with two sub-folders, one for part 1 and one for part 2. Name them to reflect the content of your web page and web site.
-- Record the URL (web addresses) of your two home pages so that you can enter them on Moodle.
+- Record the URLs (web addresses) of your two home pages so that you can enter them on Moodle.
 
 #### Tips
 
 - Remember that *public_html* is <u>not</u> part of the URL.
 - Don't put spaces or punctuation in the directory or file names.
 - The casing (upper vs. lower case) of directory and file names must match the `src`and `href` attributes in your web pages.
-- Do not zip the files.
+- Do not zip the files that you upload to citstudent.
 
 ### Submitting your web sites to Moodle
 
@@ -52,5 +59,7 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 
 
+## Assessment
 
+[Grading rubric for lab 3](Lab3Rubric-CIS195.htm)
 

@@ -8,9 +8,10 @@
 <meta name="material" content="${material}">
 <meta name="author" content="${author}">
 <meta name="generator" content="${generator}">
-<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
 body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
@@ -59,7 +60,7 @@ thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
 .CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
-.CodeMirror-linenumber { }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -91,12 +92,14 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print { 
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
   .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -204,6 +207,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
 
 
 :root {
@@ -211,7 +215,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 /* open-sans-regular - latin-ext_latin */
   /* open-sans-italic - latin-ext_latin */
@@ -591,12 +595,11 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
- @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} h1,h2,h3,h4,h5 {white-space:pre-line}
 </style><title>Lab2Instructions</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><p><strong><span>CIS 195, Web Authoring</span></strong></p><h1 id='lab-2-instructions'><span>Lab 2 Instructions</span></h1><p><span>For this lab assignment, you will make a web site with reviews of anything you are interested in like books, movies, or music. In part 1, you will make a single web page containing a single review. In part 2 you will add a home page and two more review pages to make a complete review web site.</span></p><h2 id='part-1-a-single-review-page'><span>Part 1: A Single Review Page</span></h2><h3 id='learning-objective-1'><span>Learning Objective</span></h3><p><span>The objective of this part of the lab is to give you practice using basic HTML elements.</span></p><h3 id='requirements-1'><span>Requirements</span></h3><p><span>Create a single web page that presents a review of something of your choice and that uses each of the following HTML elements:</span></p><ul><li><span>A</span><code>&lt;blockquote&gt;</code><span> element.</span></li><li><span>A</span><code>&lt;figure&gt;</code><span> and </span><code>&lt;figcaption&gt;</code><span> elements.</span></li><li><span>One or more special characters like </span>&hearts;<span>.</span></li><li><span>A nested list.</span></li><li><span>A horizontal rule.</span></li><li><span>Two or more comments. For one of the comments, put your name  and the date in the head element.</span></li></ul><p><span>Check your page using the </span><a href='https://validator.w3.org'><span>W3C HTML Validator</span></a><span>  </span></p><p>&nbsp;</p><h2 id='part-2-a-review-web-site'><span>Part 2: A Review Web Site</span></h2><h3 id='learning-objective-2'><span>Learning Objective</span></h3><p><span>The objective of this part is to learn to work with multiple pages and to manage sub-folders and file paths.</span></p><h3 id='requirements-2'><span>Requirements</span></h3><p><span>Create a review site that contains </span><u><span>a home page</span></u><span> and at </span><u><span>least three review pages</span></u><span>.</span>
-<span> (You will use the page from Part 1 as one of the three review pages.)</span></p><ul><li><span>The home page will have links to the three review pages.</span></li><li><span>All the review page files will be in a sub-folder named </span><em><span>reviews</span></em><span>.</span></li><li><span>Each review page should have at least one figure on it.</span>
-<span>(They don&#39;t all need the additional elements required for the page in Part 1)</span></li><li><span>All the images should be in a sub-folder named </span><em><span>images</span></em><span>.</span></li><li><span>Put your name as author of the web site and the date in a comment in the head element of each page.</span></li></ul><p><span>Check your pages using the </span><a href='https://validator.w3.org'><span>W3C HTML Validator</span></a><span>  </span></p><p>&nbsp;</p><h2 id='submitting-your-web-sites-to-moodle'><span>Submitting your web sites to Moodle</span></h2><ul><li><p><span>Zip the files in part 2 (part 2 includes your page from part 1) into a single zip file.</span></p></li><li><p><span>Upload the zip file to Moodle using the Lab 2 Submission link.</span></p><p>&nbsp;</p></li></ul><h2 id='grading'><span>Grading</span></h2><p><span>Here is a link to the grading rubric that I will use to grade your assignment:</span></p><p><a href='Lab2Rubric-CS195.pdf'><span>Lab2Rubric-CS195.pdf</span></a></p></div></div>
-<base target="_blank"></body>
+<div id='write'  class=''><p><strong><span>CIS 195, Web Authoring</span></strong></p><h1 id='lab-2-instructions'><span>Lab 2 Instructions</span></h1><p><span>For this lab assignment, you will make a web site with reviews of anything you are interested in like books, movies, or music. In part 1, you will make a single web page containing a single review. In part 2 you will add a home page and two more review pages to make a complete review web site.</span></p><h2 id='part-1-a-single-review-page'><span>Part 1: A Single Review Page</span></h2><h3 id='learning-objective'><span>Learning Objective</span></h3><p><span>The objective of this part of the lab is to give you practice using basic HTML elements.</span></p><h3 id='requirements'><span>Requirements</span></h3><p><span>Create a single web page that presents a review of something of your choice and that uses each of the following HTML elements:</span></p><ul><li><p><span>A</span><code>&lt;blockquote&gt;</code><span> element.</span></p></li><li><p><span>A</span><code>&lt;figure&gt;</code><span> and </span><code>&lt;figcaption&gt;</code><span> elements.</span></p></li><li><p><span>One or more special characters like </span>&hearts;<span>.</span></p></li><li><p><span>A nested list.</span></p></li><li><p><span>A horizontal rule.</span></p></li><li><p><span>Two or more comments. For one of the comments, put your name  and the date in the head element.</span></p></li></ul><p><span>Check your page using the </span><a href='https://validator.w3.org'><span>W3C HTML Validator</span></a><span>  </span></p><p>&nbsp;</p><h2 id='part-2-a-review-web-site'><span>Part 2: A Review Web Site</span></h2><h3 id='learning-objective-2'><span>Learning Objective</span></h3><p><span>The objective of this part is to learn to work with multiple pages and to manage sub-folders and file paths.</span></p><h3 id='requirements-2'><span>Requirements</span></h3><p><span>Create a review site that contains </span><u><span>a home page</span></u><span> and at </span><u><span>least three review pages</span></u><span>.</span>
+<span> (You will use the page from Part 1 as one of the three review pages.)</span></p><ul><li><p><span>The home page will have links to the three review pages.</span></p></li><li><p><span>Put the review pages and images in separate folders</span></p><ul><li><p><span>All the review page files will be in a sub-folder named </span><em><span>reviews</span></em><span>.</span></p></li><li><p><span>All the image files will be in a sub-folder named </span><em><span>images</span></em><span>.</span></p></li><li><p><span>Here is an outline of the folder structure:</span></p><ul><li><p><span>home</span></p><ul><li><p><span>reviews</span></p></li><li><p><span>images</span></p></li></ul></li></ul></li></ul></li><li><p><span>Each review page should have at least one figure containing an image.</span></p><p><span>(The two new review pages don&#39;t need all the elements required for the page you did for part 1.)</span></p></li><li><p><span>Put your name as author of the web site and the date in a comment in the head element of each page.</span></p></li><li><p><span>Name the home page index.html</span></p></li></ul><p><span>Check your pages using the </span><a href='https://validator.w3.org'><span>W3C HTML Validator</span></a><span>  </span></p><p>&nbsp;</p><h2 id='submitting-your-web-sites-to-moodle'><span>Submitting your web sites to Moodle</span></h2><ul><li><p><span>Zip the files in part 2 (part 2 includes your page from part 1) into a single zip file.</span></p></li><li><p><span>Upload the zip file to Moodle using the Lab 2 Submission link.</span></p><p>&nbsp;</p></li></ul><h2 id='grading'><span>Grading</span></h2><p><span>Here is a link to the grading rubric that I will use to grade your assignment:</span></p><p><a href='Lab2Rubric-CS195.htm'><span>Lab2Rubric-CS195</span></a></p></div></div>
+</body>
 </html>

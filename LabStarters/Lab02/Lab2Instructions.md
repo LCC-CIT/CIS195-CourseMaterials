@@ -37,11 +37,23 @@ Create a review site that contains <u>a home page</u> and at <u>least three revi
  (You will use the page from Part 1 as one of the three review pages.)
 
 - The home page will have links to the three review pages.
-- All the review page files will be in a sub-folder named *reviews*.
-- Each review page should have at least one figure on it.
-  (They don't all need the additional elements required for the page in Part 1)
--  All the images should be in a sub-folder named *images*.
--  Put your name as author of the web site and the date in a comment in the head element of each page.
+
+- Put the review pages and images in separate folders
+
+  - All the review page files will be in a sub-folder named *reviews*.
+  - All the image files will be in a sub-folder named *images*.
+  - Here is an outline of the folder structure:
+    - home
+      - reviews
+      - images
+
+- Each review page should have at least one figure containing an image.
+
+  (The two new review pages don't need all the elements required for the page you did for part 1.)
+
+- Put your name as author of the web site and the date in a comment in the head element of each page.
+
+- Name the home page index.html
 
 Check your pages using the [W3C HTML Validator](https://validator.w3.org)  
 
@@ -59,4 +71,4 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 Here is a link to the grading rubric that I will use to grade your assignment:
 
-[Lab2Rubric-CS195.pdf](Lab2Rubric-CS195.pdf)
+[Lab2Rubric-CS195](Lab2Rubric-CS195.htm)
