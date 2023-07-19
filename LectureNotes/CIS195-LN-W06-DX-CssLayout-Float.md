@@ -1,20 +1,78 @@
-<h1>
-  Page Layout using CSS
-</h1>
-<h2>CIS 195 Web Authoring 1: HTML<h2>
+---
+title: CSS layout
+description: Page layout using CSS
+keywords: css, background, float, clear
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
+**CIS195 Web Authoring 1: HTML**
 
-| Course Topics by Week    |                                      |
-| ------------------------ | ------------------------------------ |
-| 1. Intro to HTML 5       | <mark>6. Page Layout with CSS</mark> |
-| 2. More HTML 5           | 7. HTML Tables                       |
-| 3. Developing a Web Site | 8. HTML Forms                        |
-| 4. Styling with CSS      | 9. Multimedia                        |
-| 5. Midterm Quiz          | 10. Review and Term Project          |
-|                          | 11. Final Quiz                       |
+<h1>Page Layout Using CSS</h1>
 
-**Contents**
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Eight-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td><mark>5. Midterm, Layout with CSS</mark></td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>6. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>7. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS</td>
+      <td>8. Multimedia, Final</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+<table hidden>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Ten-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>6. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>8. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>9. Multimedia, Final</td>
+    </tr>
+    <tr>
+      <td>5. Project Propposal, Midtern</td>
+      <td>10. Project Completion, Final</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Contents</h2>
 
 [TOC]
+
+
 
 # Q and A
 

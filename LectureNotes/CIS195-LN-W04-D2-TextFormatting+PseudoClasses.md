@@ -1,26 +1,75 @@
-# More CSS: Colors, Text and Pseudo-classes
+---
+title: Colors, fonts, pseudo-classes
+description: Using different CSS properties for formatting
+keywords: css
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
+**CIS195 Web Authoring 1: HTML**
 
-| Course Topics by Week            |                             |
-| -------------------------------- | --------------------------- |
-| 1. Intro to HTML 5               | 6. Page Layout with CSS     |
-| 2. More HTML 5                   | 7. HTML Tables              |
-| 3. Developing a Web Site         | 8. HTML Forms               |
-| 4. <mark>Styling with CSS</mark> | 9. Multimedia               |
-| 5. Midterm Quiz                  | 10. Review and Term Project |
-|                                  | 11. Final Quiz              |
+<h1>More CSS: Colors, Text, Fonts and Pseudo-classes</h1>
 
-## Contents
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Eight-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>5. Midterm, Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>6. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>7. HTML Forms</td>
+    </tr>
+    <tr>
+      <td><mark>4. Formatting with CSS</mark></td>
+      <td>8. Multimedia, Final</td>
+    </tr>
+  </tbody>
+</table>
 
--   [Introduction](#introduction)
--   [Defining Colors](#defining-colors)
--   [Text and Font Styles](#text-and-font-styles)
-    -   [Text properties](#text-properties)
-    -   [Font properties](#font-properties)
-    -   [Numeric lengths in CSS](#numeric-lengths-in-css)
--   [List Style Properties](#list-style-properties)
--   [Pseudo-classes](#pseudo-classes)
--   [Example](#example)
--   [References](#references)
+
+
+<table hidden>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Ten-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>6. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>8. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>9. Multimedia, Final</td>
+    </tr>
+    <tr>
+      <td>5. Project Propposal, Midtern</td>
+      <td>10. Project Completion, Final</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Contents</h2>
+
+[TOC]
 
 
 
@@ -251,13 +300,18 @@ Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/c
 ## References
 
 * [W3Schools: CSS Text Tutorial](https://www.w3schools.com/css/css_text.asp)
+
 * [W3Schools: CSS Font Tutorial](https://www.w3schools.com/css/css_font.asp)
+
 * [MDN: @font-face Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/%40font-face)
+
 * [W3Schools: CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
+
+  
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) 2018, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
