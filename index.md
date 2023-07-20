@@ -165,10 +165,26 @@ author: Brian Bird
 
 ## 6. Page Layout with CSS
 
+- Reading
+  
+  Selected Sections of the [CSS Handbook](https://flaviocopes.com/book/css/) by Flavio Copes
+
+  22\. [Box Model](https://flaviocopes.com/book/css/#22-box-model)](https://flaviocopes.com/book/css/#5-selectors)  
+  23\. [Border](https://flaviocopes.com/book/css/#23-border)
+  
+  24\. [Padding](https://flaviocopes.com/book/css/#24-padding)    
+  25\. [Margin](https://flaviocopes.com/book/css/#25-margin)     
+  26\. [Floating and Clearing](https://flaviocopes.com/book/css/#29-floating-and-clearing) 
+  
+  27\. [CSS Grid](https://flaviocopes.com/book/css/#31-css-grid)  
+  
+  28\. [Flex Box](https://flaviocopes.com/book/css/#32-flexbox) 
+  
 - Lecture Notes
+  
   - [CSS Layout, Float Property](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W06-D1-CssLayout-Float)
   - [CSS Box Model, Positioning](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LP-W06-D2-CssLayout-BoxModel+Position)
-
+  
 - Example
   - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
   - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04/floatDemo.htm)

@@ -44,9 +44,8 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 
 ### Publishing to citstudent
 
-- Use FileZilla to upload the folders containing your web sites to citstudent.
-  - Create a lab3 folder with two sub-folders, one for part 1 and one for part 2. Name them to reflect the content of your web page and web site.
-- Record the URL (web addresses) of your two home pages so that you can enter them on Moodle.
+- Use FileZilla to upload a folder named *Lab4*, containing your web site, to citstudent.
+- Record the URL of your home page so that you can enter it on Moodle.
 
 ## Reference
 
