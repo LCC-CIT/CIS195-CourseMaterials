@@ -61,5 +61,5 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 ## Assessment
 
-[Grading rubric for lab 3](Lab3Rubric-CIS195.htm)
+[Grading rubric for lab 3](Lab3Rubric-CIS195_8wk.htm)
 
