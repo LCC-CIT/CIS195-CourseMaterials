@@ -1,0 +1,58 @@
+# Lab 5 Instructions
+
+
+## Using CSS to Control Web Page Layout
+
+You will practice using CSS by applying it to the review web site from your previous lab assignment.
+
+### Part 1
+
+Modify the home page of your review web site from the previous lab assignment. 
+
+1. Add rules to the style sheet for the home page to:
+   - Set a fixed width for the body of the page.
+   - Make the navigation links look like buttons by giving them:
+     - A background color.
+     - A border.
+     - Appropriate margin and padding.
+     - Rounded corners.
+   - Use the float property to align the navigation links horizontally.
+   - Use the clear property to end the float.
+
+
+### Part 2
+
+TBD
+
+Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
+
+
+
+## Submission
+
+#### Publishing to citstudent
+
+- Use FileZilla to upload the folders containing your web site to citstudent.
+  - Do <u>not</u> zip the files.
+  - If both parts 1 and 2 are in the same web site (as they should be), you can just upload that one web site.
+- Record the URL (web address) of your home page so that you can enter it on Moodle.
+  Hint: remember that *public_html* is <u>not</u> part of the URL.
+
+#### Submitting to Moodle
+
+- Zip the web site (assuming parts 1 and 2 are in the same web site).
+
+- Upload the zip file to Moodle.
+
+- Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle. This is important&mdash;without this, I won't be able to find your web page on the internet.
+
+  
+
+------
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+
+------------
+
+
+
