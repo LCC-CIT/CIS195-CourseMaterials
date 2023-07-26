@@ -3,31 +3,32 @@
 
 ## Using CSS to Control Web Page Layout
 
-You will practice using CSS by applying it to the review web site you made in labs 2 and 4.
+You will practice using CSS by applying it to the review web site from your previous lab assignment.
 
 ### Part 1
 
-You will use the single web page from lab 4, part 1 (originally done for lab 2, part 1, it was a single page with a review of something) as your starting point. 
+Modify the home page of your review web site from the previous lab assignment. 
 
-1. Create an external CSS file with rules that:
-   - Set a background image.
+1. Add rules to the style sheet for the site to:
    - Set a fixed width for the body of the page.
-   - Use the float property to move the figure to the right side of the page.
+   - Make the navigation links look like buttons by giving them:
+     - A background color.
+     - A border.
+     - Appropriate margin and padding.
+     - Rounded corners.
+   - Use the float property to align the navigation links horizontally.
    - Use the clear property to end the float.
 
 
 ### Part 2
 
-Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It was a review site with a home page and at least three review pages.)
-
-1. Use float and other appropriate CSS properties to create navigation links on each page. The navigation list should be arranged horizontally and links should look like buttons (have a colored background, no bullets, etc.) rather than links.
-2. On  at least one figure:
+1. Modify navigation links on each page to look like the one on the home page
+2. Add styling for the figures on each page:
    - Add padding, a visible border, and margin.
    - Make the corners of the figure rounded.
-   - Use relative positioning to place the figure somewhere other than its original location.
-3. For the header of each page (including the home page):
-   - Add a background image.
-   - Set the Z order so that the heading (H1) is on top.
+3. Add an aside to at least one of the review pages and float it to the right.
+
+
 
 Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
 
@@ -39,23 +40,23 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 
 - Use FileZilla to upload the folders containing your web site to citstudent.
   - Do <u>not</u> zip the files.
-  - If both parts 1 and 2 are in the same web site (as they should be), you can just upload that one web site.
-- Record the URL (web address) of your home page so that you can enter it on Moodle.
+  - Since both parts 1 and 2 are in the same web site, you can just upload that one web site.
+- Record the URL (web address) of your home page so that you can enter it in the text area on Moodle.
   Hint: remember that *public_html* is <u>not</u> part of the URL.
 
 #### Submitting to Moodle
 
-- Zip the web site (assuming parts 1 and 2 are in the same web site).
+- Zip the web site (both parts 1 and 2 are in one web site).
 
 - Upload the zip file to Moodle.
 
-- Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle. This is important&mdash;without this, I won't be able to find your web page on the internet.
+- Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle. This is important; without this, I won't be able to find your web page on the internet.
 
   
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), written <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
