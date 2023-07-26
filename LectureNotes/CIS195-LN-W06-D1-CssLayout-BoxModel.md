@@ -23,15 +23,15 @@ author: Brian Bird
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>6. HTML Tables</td>
+      <td>6. CSS Grid and Flexbox</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
-      <td>7. HTML Forms</td>
+      <td>7. HTML Tables</td>
     </tr>
     <tr>
       <td>4. Formatting with CSS</td>
-      <td>8. Multimedia, Final</td>
+      <td>8. HTML Forms, Final</td>
     </tr>
   </tbody>
 </table>
@@ -98,6 +98,16 @@ By default, the border is not visible. You need to set a visible border style be
 - ridge&mdash;Displays a border that looks like a v-shaped ridge. (The opposite of a groove).
 - inset&mdash;Displays a border that makes the element appear embedded. 
 - outset&mdash;Displays a border that makes the element appear embossed. (The opposite of inset.)
+
+Example:
+
+```css
+p {
+     border-style: groove;
+  }
+```
+
+
 
 ## Setting the width of border, margin or padding
 

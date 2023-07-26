@@ -16,25 +16,26 @@ author: Brian Bird
       <th colspan="2">Topics by Week for the Eight-Week Term</th>
     </tr>
   </thead>
-  <tbody>
+    <tbody>
     <tr>
       <td>1. Intro to HTML</td>
       <td><mark>5. Midterm, Layout with CSS</mark></td>
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>6. HTML Tables</td>
+      <td>6. CSS Grid and Flexbox</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
-      <td>7. HTML Forms</td>
+      <td>7. HTML Tables</td>
     </tr>
     <tr>
       <td>4. Formatting with CSS</td>
-      <td>8. Multimedia, Final</td>
+      <td>8. HTML Forms, Final</td>
     </tr>
   </tbody>
 </table>
+
 
 
 
