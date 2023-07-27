@@ -148,6 +148,10 @@ body {
 }
 ```
 
+### Example of a Background Image
+
+[Web Page with LCC Center Building Background Image](../Examples/LayoutDemos/BackgroundImageDemo.html)
+
 
 
 # Page Design
@@ -176,7 +180,7 @@ body {
 
 ## Float
 
-The `float` property is used with block elements to position them side-by-side (instead of one above another) and to make them move as far as they can to either the left of right. 
+The `float` property is used with *block elements* to position them side-by-side (instead of one above another) and to make them move as far as they can to either the left of right. 
 
 Example:
 
@@ -226,7 +230,7 @@ Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-Cour
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online), 2017, updated 2022, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online), 2017, updated <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
