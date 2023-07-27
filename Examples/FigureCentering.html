@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <!--
       Author: Brian Bird
-      Date:   3/7/19
+      Date:   3/7/19, revised 7/27/23
    -->
     <meta charset="UTF-8" />
     <title>Center Figures</title>
@@ -17,13 +17,12 @@
             float: left;
             /* puts then side-by-side in the section */
         }
-        
+
         section {
-            margin-left: auto;
             /* auto margins center the section in the body */
-            margin-right: auto;
+            margin: auto;
         }
-        
+
         p {
             clear: left;
             /* stop floating left */
@@ -35,6 +34,33 @@
     <header>
         <h1>Centering Images in Figures</h1>
     </header>
+    This example shows you how to center two different types of elements horizontally:
+    <ul>
+        <li>Inline elements
+            <ul>
+                <li>Images are in-line elements (as is text and other elements like anchors).
+                    In this example the images will be centered inside the figure elements.</li>
+                <li>Inline elements are centered with the <code>text-align:center</code> CSS property.</li>
+            </ul>
+        </li>
+        <li>Block elements
+            <ul>
+                <li>Figures are block elements.</li>
+                <li>Block elements are centered by applying the CSS property <code>margin: auto</code>,
+                    but there are a few other things you need to do to make this work:
+                    <ul>
+                        <li>Set the block element you are centering to a fixed or fluid width.
+                            Using a percentage works nicely.</li>
+                        <li>Since you are centering horizontally and block elements stack vertically,
+                            you need to float the block elements.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+Here's the result. Take a look at the embedded CSS to see how it was done:
+
     <section>
         <figure>
             <figcaption>
@@ -50,7 +76,7 @@
         </figure>
         <figure>
             <figcaption>
-                Lane Logo
+                Ty Titan
             </figcaption>
             <img src="Images/Titan.jpeg" alt="LCC Titan">
         </figure>
