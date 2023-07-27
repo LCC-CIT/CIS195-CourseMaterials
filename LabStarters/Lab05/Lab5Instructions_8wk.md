@@ -38,7 +38,7 @@ Modify the home page of your review web site from the previous lab assignment. A
 
 **Notes**
 
-- Use my South India website as a guide, but don't copy and paste the HTML or CSS and then just put your content into my code.
+- Use my South India website as a guide, but please don't copy and paste the HTML or CSS and then just put your content into my code.
 - Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
 
 
