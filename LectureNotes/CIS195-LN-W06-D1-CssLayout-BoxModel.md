@@ -79,6 +79,8 @@ author: Brian Bird
 
 # The Box Model
 
+All HTML elements can be thought of as having a box that wraps around the element's content with the three layers shown below:
+
 <figure><img src="boxmodel-image.png" alt="CSS box model" height="500px">
 <figcaption>By Nasir Darwish, <a href="https://www.codeproject.com/info/cpol10.aspx">Code Project Open License</a></figcaption>
 </figure>
