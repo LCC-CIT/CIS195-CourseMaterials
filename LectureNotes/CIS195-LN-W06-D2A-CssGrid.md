@@ -20,22 +20,23 @@ author: Brian Bird
   <tbody>
     <tr>
       <td>1. Intro to HTML</td>
-      <td><mark>5. Midterm, Layout with CSS</mark></td>
+      <td>5. Midterm, Layout with CSS</td>
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>6. HTML Tables</td>
+      <td><mark>6. CSS Grid and Flexbox</mark></td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
-      <td>7. HTML Forms</td>
+      <td>7. HTML Tables</td>
     </tr>
     <tr>
       <td>4. Formatting with CSS</td>
-      <td>8. Multimedia, Final</td>
+      <td>8. HTML Forms, Final</td>
     </tr>
   </tbody>
 </table>
+
 
 
 <table hidden>
@@ -217,11 +218,11 @@ Item 8						Item 9
 
 ## Reference
 
-[CSS Grid Tutorial](https://www.w3schools.com/css/css_grid.asp) by W3schools
+[CSS Grid Tutorial](https://www.w3schools.com/css/css_grid.asp) by W3schools  
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes, written by [Brian Bird](https://profbird.dev) in 2023, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes, written by [Brian Bird](https://profbird.dev) in <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
