@@ -11,7 +11,7 @@
 
 p, header, nav, main, section, aside, footer {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -39,7 +39,17 @@ p, header, nav, main, section, aside, footer {
      padding: 10px;
 }
 
-
+.grid-container3 {
+     display: grid;
+     grid-template-areas:
+     'menu menu menu'
+       'header header header'
+       'section section sidebar'
+       'footer footer footer';
+    grid-template-columns: auto auto auto;
+     background-color: #2196F3;
+     padding: 10px;
+}
 </style>
 </head>
 <body>
@@ -64,6 +74,14 @@ p, header, nav, main, section, aside, footer {
   <main style="grid-area: main;">main</main>
   <section style="grid-area: section;">section</section>
   <aside style="grid-area: sidebar;">sidebar</aside>
+  <footer style="grid-area: footer;">footer</footer>
+</div>
+<br>
+<div class="grid-container3">
+  <header style="grid-area: header;">header</header>
+  <nav style="grid-area: menu;">nav</nav>
+  <section style="grid-area: section;">main</section>
+  <aside style="grid-area: sidebar;">aside</aside>
   <footer style="grid-area: footer;">footer</footer>
 </div>
 

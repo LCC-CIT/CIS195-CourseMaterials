@@ -1,45 +1,31 @@
-# Lab 5 Instructions
+# Lab 6 Instructions
 
 
-## Using CSS to Control Web Page Layout
+## Using CSS Grid and Flexbox
 
-You will practice using CSS by applying it to the review web site from your previous lab assignment.
+You will practice using Gird and Flexbox by applying them to the review web site from your previous lab assignment.
 
-### Part 1
+### Part 1: CSS Grid
 
-Modify the home page of your review web site from the previous lab assignment. Add rules to the style sheet for the site to:
+Modify the site style sheet (.css file) for your site to use grid areas to control the layout of your review pages (just the reviews, not the home page).
 
-1. Set a fixed width for the body of the page.
-
-2. Make the navigation links look like buttons by giving them:
-
-- A background color.
-- A border.
-- Appropriate margin and padding.
-- Rounded corners.
-
-- Use the float property to align the navigation links horizontally.
-- Use the clear property to end the float.
-
-**Note:** Please use a different HTML structure for your navigation menu than I did in my [South India web site](https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/). For example, you could put your links inside`<p>` elements instead of a `ul` with `li` elements.
-
-
-### Part 2
-
-1. Modify navigation links on each page to look like the one on your home page.
-2. Add styling for the figures on each page:
-   - Add padding, a visible border, and margin.
-   - Make the corners of the figure rounded.
-3. Add an aside to at least one of the review pages.
-   - Float it to the right.
-   - Clear the float.
+Add a CSS rule to create a grid container element, which could be the `body`. This rule should contain a grid-template-areas property for the layout you want for all of your review pages. This is one possible layout:  
+<img src="D:\Repos\CIS195-CourseMaterials\LabStarters\Lab06\GridAreasForReviews.png" alt="GridAreasForReviews" style="zoom:60%;" />
 
 
 
-**Notes**
 
-- Use my South India website as a guide, but please don't copy and paste the HTML or CSS and then just put your content into my code.
-- Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
+
+
+### Part 2: Flexbox
+
+TBD
+
+
+
+
+
+Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
 
 
 
