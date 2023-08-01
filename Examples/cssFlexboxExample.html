@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flexbox Example</title>
+    <style>
+        div {
+            background-color: DodgerBlue;
+        }
+
+        .flex-container {
+            display: flex;
+
+        }
+
+        .flex-container2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+        }
+
+        .flex-container3 {
+            display: flex;
+            width: 220px;
+            height: 300px;
+            align-items: flex-start;
+        }
+
+        p {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        span {
+            flex: 1;
+            background-color:  #f1f1f1;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Flex Containers</h1>
+
+    <div class="flex-container">
+        <p>One</p>
+        <p>Two</p>
+        <p>Three</p>
+    </div>
+    <br>
+    <div class="flex-container2">
+        <p>Center me</p>
+    </div>
+    <br>
+    <div class="flex-container3">
+        <span>Left</span>
+        <span style="align-self: center;">Centered</span>
+        <span>Right</span>
+    </div>
+
+</body>
+
+</html>
