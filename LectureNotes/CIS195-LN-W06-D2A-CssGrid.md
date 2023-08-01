@@ -216,6 +216,41 @@ Item 8						Item 9
 
 
 
+## Grid Template Areas
+
+Grid template areas are often used to control the layout of an entire page.
+
+For example, this css rule:
+
+```css
+.grid-container {
+     display: grid;
+     grid-template-areas:
+       'header header header'
+       'menu main sidebar'
+       'section section sidebar'
+       'footer footer footer';
+```
+
+And this HTML:
+
+```html
+<div class="grid-container">
+  <header style="grid-area: header;">header</header>
+  <nav style="grid-area: menu;">menu</nav>
+  <main style="grid-area: main;">main</main>
+  <section style="grid-area: section;">section</section>
+  <aside style="grid-area: sidebar;">sidebar</aside>
+  <footer style="grid-area: footer;">footer</footer>
+</div>
+```
+
+
+
+Produce this layout:
+
+<img src="D:\Repos\CIS195-CourseMaterials\Images\CccGridTemplateAreas.png" alt="CccGridTemplateAreas" style="zoom:40%;" />
+
 ## Reference
 
 [CSS Grid Tutorial](https://www.w3schools.com/css/css_grid.asp) by W3schools  
