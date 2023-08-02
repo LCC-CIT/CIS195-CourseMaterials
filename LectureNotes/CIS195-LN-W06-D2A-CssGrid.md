@@ -1,5 +1,4 @@
 ---
-
 title: CSS Grid
 description: How to position items on the page using the CSS Grid. 
 keywords: display, grid, inline-grid
@@ -133,7 +132,7 @@ Example:
   .container {
     display: grid; 
     grid-template-columns: 200px 200px 200px; 
-    grid-template-row: 50px 50px;
+    grid-template-rows: 50px 50px;
   }
 
 <!-- in the body -->
@@ -162,7 +161,7 @@ A gap is like a combination of padding and margin in the CSS box model; it's jus
 
   - `row-gap`: sets the height of the row gap.
 
-  - `gap`: sets both the column and row gaps.
+  - `gap`: sets both the column and row gaps[^1].
 
 
 ![](Images/CSS_GirdGaps.png)
@@ -216,13 +215,26 @@ Item 8						Item 9
 
 
 
+## Example Code
+
+Open the example web page in your browser and use the *View Source* feature to look at the source code.
+
+[CSS Grid Examples](../Examples/LayoutDemos/cssGridExample.html)
+
+
+
 ## Reference
 
 [CSS Grid Tutorial](https://www.w3schools.com/css/css_grid.asp) by W3schools  
+
+[CSS Grid](https://flaviocopes.com/book/css/#31-css-grid) in [*The CSS Handbook*](https://flaviocopes.com/book/css/) by Flavio Copes
+
+[Grids](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids) in [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+
 
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes, written by [Brian Bird](https://profbird.dev) in <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
-------------
-
+[^1]: The CSS2 property `grid-gap`, is now deprecated and replaced by the CSS3 property `gap`.
