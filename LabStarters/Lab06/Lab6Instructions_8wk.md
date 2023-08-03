@@ -10,7 +10,7 @@ You will practice using Gird and Flexbox by applying them to the review web site
 Modify the site style sheet (.css file) for your site to use grid areas to control the layout of your review pages (just the reviews, not the home page).
 
 Add a CSS rule to create a grid container element, which could be the `body`. This rule should contain a grid-template-areas property for the layout you want for all of your review pages. This is one possible layout:  
-<img src="D:\Repos\CIS195-CourseMaterials\LabStarters\Lab06\GridAreasForReviews.png" alt="GridAreasForReviews" style="zoom:60%;" />
+<img src="GridAreasForReviews.png" style="zoom:60%;" />
 
 
 
@@ -19,11 +19,13 @@ Add a CSS rule to create a grid container element, which could be the `body`. Th
 
 ### Part 2: Flexbox
 
-TBD
+Use flexbox containers to control the layout of these parts of your web pages:
 
+1. The horizontal nav bar: arrange the links horizontally and set the alignment of the link items.
+2. Header: arrange the items in the header vertically and control the spacing and alignment.
+3. Footer: arrange the items (text and or symbols in spans) horizontally and control the spacing and alignment.
 
-
-
+Put the CSS for this in the external style sheet for the whole site so that it will be applied to all the pages.
 
 Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
 
