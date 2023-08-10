@@ -1,14 +1,15 @@
 ---
-title: More CSS Layout
-description: More CSS properties for page layout. 
-keywords: float, clear, position, box model, margin, padding, border, border-radius, border-color, overflow, z-index
+
+title: CSS Flexbox
+description: Layout with CSS flex box. 
+keywords: flex
 material: Lecture Notes
 generator: Typora
 author: Brian Bird
 ---
 
 **CIS195 Web Authoring 1: HTML**
-<h1>More Page Layout Using CSS</h1>
+<h1>CSS Flexbox</h1>
 
 <table>
   <thead>
@@ -19,22 +20,23 @@ author: Brian Bird
   <tbody>
     <tr>
       <td>1. Intro to HTML</td>
-      <td><mark>5. Midterm, Layout with CSS</mark></td>
+      <td>5. Midterm, Layout with CSS</td>
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>6. HTML Tables</td>
+      <td><mark>6. CSS Grid and Flexbox</mark></td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
-      <td>7. HTML Forms</td>
+      <td>7. HTML Tables</td>
     </tr>
     <tr>
       <td>4. Formatting with CSS</td>
-      <td>8. Multimedia, Final</td>
+      <td>8. HTML Forms, Final</td>
     </tr>
   </tbody>
 </table>
+
 
 
 <table hidden>
@@ -70,221 +72,234 @@ author: Brian Bird
 
 [TOC]
 
+# Announcements
+
+I will be out of town Saturday through Wednesday, so there will be no in-person class on Tuesday 8/8/23,  but I will post a recording of the lecture.
+
 # Q and A
 
 -   Review due dates on Moodle.
 -   Answer questions about this week's lab assignment.
 
+# Flexbox 
 
+## Overview
 
-# The Box Model
+Flexbox is used to control the layout of elements in one dimension, either horizontally or vertically. This is one of the main differences from the CSS grid, which controls layout in two dimensions.
 
-<figure><img src="boxmodel-image.png" alt="CSS box model" height="500px">
-<figcaption>By Nasir Darwish, <a href="https://www.codeproject.com/info/cpol10.aspx">Code Project Open License</a></figcaption>
-</figure>
+## Defining a Flexbox Container
 
-
-## Setting the border style
-
-By default, the border is not visible. You need to set a visible border style before you can see it. These are the options for border-style:
-
-- none&mdash;Displays no border.
-- hidden&mdash;Displays no border unless an image is set.
-- dotted&mdash;Displays a series of dots. 
-- dashed&mdash;Displays a series of dashes.
-- solid&mdash;Displays a single, straight, solid line.
-- double&mdash;Displays two straight lines that add up to the pixel size set by border-width.
-- groove&mdash;Displays a border that looks like a v-shaped groove.
-- ridge&mdash;Displays a border that looks like a v-shaped ridge. (The opposite of a groove).
-- inset&mdash;Displays a border that makes the element appear embedded. 
-- outset&mdash;Displays a border that makes the element appear embossed. (The opposite of inset.)
-
-## Setting the width of border, margin or padding
-
-Example of setting all widths:
-
-```css
-div {
-  border: 10px;
-  padding: 15px;
-  margin: 20px;
-}
-```
-
-You can set border, padding and margin independently for each side:
-
-- border-top
-  Example: `border-top: 5px;`
-- border-right
-  Example: `border-right: 10px;`
-- border-bottom
-  Example: `border-botton: 15px;`
-- border-left
-  Example: `border-left: 20px;`
-
-You can set them all at once using the shorthand property.
-The sequence is: top, right, bottom, left.
-
-Example: `border: 5px 10px 15px 20px;`
-
-## Setting Colors
-
-### Border
-
-You can set the color of the border like this: `border-color: blue`.
-
-### Padding
-
-The color of an element's padding will be the same as the background color of the element. You can't set it separately.
-
-### Margin
-
-The color of an element's margin will be the same color as the background of whatever element contains it. You can't set it separately.
-For example, a section contains a paragraph:
+To use flexbox, you first define a flexbox container using this CSS property: `display: flex`  
+You may then place elements inside the flexbox container. For example:
 
 ```html
-<section>
-  <p>Some text.</p>
-</section>
+<div style="display:flex;">
+	<p>Paragraph 1</p>
+	<p>Paragraph 2</p>
+	<p>Paragraph 3</p>
+</div>
 ```
+This flexbox container isn't doing anything very interesting yet other than positioning the paragraphs horizontally. (They would normally be stacked vertically.) Here is how the elements are arranged (with borders added to make the elements visible).
 
-If the section has a blue background, and it contains a paragraph with a 10px margin. The margin of the paragraph will be blue too. Here's are the CSS rules that would do that:
+<div style="display:flex; border:solid;">
+	<p style="border:solid;">Paragraph 1</p>
+	<p style="border:solid;">Paragraph 2</p>
+	<p style="border:solid;">Paragraph 3</p>
+</div>
 
-```css
-section {background-color: blue;}
-p {margin: 10px;}
+
+
+## Setting the Flexbox Direction
+
+By default the flexbox arranges the elements inside it horizontally. The CSS property `flex-direction` controls the direction of the flexbox. The options for the value are:
+
+- `row`: flexbox items are displayed in a horizontal row (default).
+- `row-reverse`: displays flexbox items in reverse order in a row.
+- `column`: flexbox items are displayed in a vertical column.
+- `column-reverse`: displays flexbox items in reverse order in a column.
+
+Example of `flex-direction: column`:
+
+```html
+<div style="display:flex; flex-direction: column;">
+	<p>Paragraph 1</p>
+	<p>Paragraph 2</p>
+	<p>Paragraph 3</p>
+</div>
 ```
+This is rendered in the browser like this:
+
+<div style="display:flex; flex-direction: column; border:solid;">
+	<p style="border:solid;">Paragraph 1</p>
+	<p style="border:solid;">Paragraph 2</p>
+	<p style="border:solid;">Paragraph 3</p>
+</div>
+
+With `flex-direction` set to `column-reverse` it looks like this:
+
+<div style="display:flex; flex-direction: column-reverse; border:solid;">
+	<p style="border:solid;">Paragraph 1</p>
+	<p style="border:solid;">Paragraph 2</p>
+	<p style="border:solid;">Paragraph 3</p>
+</div>
 
 
 
-# Creating Rounded Corners
+## Flexbox Alignment and Flow Properties
 
-Use the CSS border-radius property to give a block element rounded corners.
+These properties can be used to further control the positioning of elements inside a flexbox:
 
-- border-top-left-radius&mdash;Sets the radius of the top-left corner
-  Example: `border-top-left-radius: 5px;`
+- `align-content`: aligns the flex items in a direction at right angles to the container direction.
+- `align-items`: aligns the flex items in the container direction.
+- `justify-content`
+- `flex-wrap`: determines whether or not flex items wrap within the flex container.
+- `flex-flow`: shorthand for setting both the `flex-direction` and `flex-wrap` properties.
 
-- border-top-right-radius&mdash;Sets the radius of the top-right corner
-  Example: `border-top-right-radius: 10px;`
+Each property is explained further below.
 
-- border-bottom-right-radius&mdash;Sets the radius of the bottom-right
-  Example: `border-bottom-right-radius: 15px;`
+### `align-items`
 
-- corner border-bottom-left-radius&mdash;Sets the radius of the bottom-left corner
-  Example: `border-bottom-left-radius: 20px;`
+Aligns the flex items in a direction at right angles to the container direction (cross-axis).
 
-- border-radius&mdash;Shorthand for setting all the four border-radii.
-  They are set in clock-wise order stating at the top-left corner.
+- For `flex-direction: row`, items are spaced vertically.
+- For `flex-direction: column`, items are spaced horizontally.
+
+(This property can also be used on CSS grid containers.)
+
+Value options:
+
+
+
+- `normal`: Default value. Items are stretched to take up the available space.  
+  We can only see the effect if we give the container some additional height .  
+  (This is the same as `stretch` for flexbox containers.)
+
+  <div style="display:flex; align-items: normal; border:solid; height: 200px;">
+  	<p style="border:solid;">Paragraph 1</p>
+  	<p style="border:solid;">Paragraph 2</p>
+  	<p style="border:solid;">Paragraph 3</p>
+  </div>
+
+- `stretch`: Items are stretched to take up the available space.  
   
-
-Example: `border-radius: 5px 10px 15px 20px;`
-
+- `center`: Items are in the vertical center of a horizontal flex container.  
   
-
-# Positioning
-
-The *position* property specifies the positioning method used for an element: 
-
-- static&mdash;not positioned in any special way. This is the default.
-
-- relative&mdash;sets position relative to it's normal position.
-
-- fixed&mdash;sets position relative to the viewport (browser window). The position <u>does not change</u> as the page is scrolled.
-
-- absolute&mdash;sets position relative to the nearest positioned ancestor&mdash;which  will be the body if no others have their position set.
-
-- sticky&mdash;sets position based on the browser window's scroll position. As long as an element's position is inside the window (viewport), its position setting is *relative*. But, when the pate is scrolled until the element is at the edge of the window, it sticks there.
-
+  - To see this effect on a horizontal flexbox, we need to give the items a fixed height.
   
-
-After setting a position property, a distance can be set. Elements are positioned using the one of the following properties:
-
-- top&mdash;a positive number moves the top of the element <u>down</u>.
-
-- bottom&mdash;a positive number moves the bottom of the element <u>up</u>.
-
-- left&mdash;a positive number moves the left side of the element to the <u>right</u>.
-
-- right&mdash;a positive number moves the right side of the element to the <u>left</u>.
-
+    <div style="display:flex; flex-direction: row; align-items: center; border: solid; height: 200px;">
+  	<p style="border:solid; height: 50px;">Paragraph 1</p>
+  	<p style="border:solid; height: 50px;">Paragraph 2</p>
+  	<p style="border:solid; height: 50px;">Paragraph 3</p>
+  </div>
   
+  - To see this effect on a vertical flexbox, we need to give the items a fixed width.
 
-This example moves the image 100 pixels to the <u>right</u> and 50 pixels <u>down</u>:
+    <div style="display:flex; flex-direction: column; align-items: center; border: solid; height: 200px;">
+    <p style="border:solid; width: 100px;">Paragraph 1</p>
+    <p style="border:solid; width: 100px;">Paragraph 2</p>
+    <p style="border:solid; width: 100px;">Paragraph 3</p>
+    </div>
 
-```css 
-img {
-  position: relative;
-  left: 100px;
-  top: 50px;
-}
-```
-
-
-
-# Overflow Content
-
-The *overflow* property specifies what should happen if content overflows an element's content area. The values are:
-
-- visible&mdash;The overflow is not clipped. It renders outside the element's box. This is default.
-- hidden&mdash;The overflow is clipped, and the rest of the content will be invisible.
-- scroll&mdash;The overflow is clipped, but a scroll-bar is added to see the rest of the content.
-- auto&mdash;If overflow is clipped, a scroll-bar should be added to see the rest of the content.
-
-Example:
-
-```css
-div {
-  overflow: scroll;
-}
-```
-
-
-
-# Stacking Objects in a Page
-
-The *z-index* property specifies the stack order of an element. The greater the stack order, the closer an  is element is to the front. 
-
-This property <u>only works</u> for elements that have their *position* set. 
-
-There are two possible values:
-
-- auto&mdash;sets the stack order equal to its parents. This is default and will normally result in a value of 0.
-- a number&mdash;sets the stack order of the element. The highest number will be on top. Negative numbers are allowed
-
-Example:
-
-```css
-img {
-  position: fixed;
-  left: 10px;
-  top: 10px;
-  z-index: -1;
-}
-```
-
-
-
-# Example
-
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/)
-
-* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
-
+- `flex-start`: 	Items are stacked at the start of the flex container  
   
+  <div style="display:flex; align-items: flex-start; border: solid; height: 200px;">
+  	<p style="border:solid; height: 50px;">Paragraph 1</p>
+  	<p style="border:solid; height: 50px;">Paragraph 2</p>
+  	<p style="border:solid; height: 50px;">Paragraph 3</p>
+  </div>
+
+- `flex-end`: 	Items are stacked at the end of the flex container  
+
+  <div style="display:flex; align-items: flex-end; border: solid; height: 200px;">
+  	<p style="border:solid; height: 50px;">Paragraph 1</p>
+  	<p style="border:solid; height: 50px;">Paragraph 2</p>
+  	<p style="border:solid; height: 50px;">Paragraph 3</p>
+  </div>
+
+- `baseline`: 	Items are stacked at the baseline of the flex container  
+
+  <div style="display:flex; align-content: baseline; border: solid; height: 200px;">
+  	<p style="border:solid; height: 50px;">Paragraph 1</p>
+  	<p style="border:solid; height: 50px;">Paragraph 2</p>
+  	<p style="border:solid; height: 50px;">Paragraph 3</p>
+  </div>
+
+
+
+### `justify-content`
+
+Used to align the flexbox items in a row. This has no effect when the flex-direction is column.
+
+
+Value options:
+
+- `flex-start`: Default value. Items are positioned at the beginning of the container.  
+  <div style="display:flex; flex-direction: row; justify-content: flex-start; border:solid;">
+  	<p style="border:solid;">Paragraph 1</p>
+  	<p style="border:solid;">Paragraph 2</p>
+  	<p style="border:solid;">Paragraph 3</p>
+  </div>
+  - Note that for `flex-direction: row-reverse`, the start of the container is on the right!  
+  
+    <div style="display:flex; flex-direction: row-reverse; justify-content: flex-start; border:solid;">
+  	<p style="border:solid;">Paragraph 1</p>
+  	<p style="border:solid;">Paragraph 2</p>
+  	<p style="border:solid;">Paragraph 3</p>
+  </div>
+  
+- `flex-end`: Items are positioned at the end of the container.  
+  
+   <div style="display:flex; justify-content: flex-end; border:solid;">
+    	<p style="border:solid;">Paragraph 1</p>
+    	<p style="border:solid;">Paragraph 2</p>
+   	<p style="border:solid;">Paragraph 3</p>
+   </div>
+   
+- `center`: Items are positioned in the center of the container.  
+   <div style="display:flex; justify-content: center; border:solid;">
+    	<p style="border:solid;">Paragraph 1</p>
+    	<p style="border:solid;">Paragraph 2</p>
+    	<p style="border:solid;">Paragraph 3</p>
+  </div>
+
+- `space-between`: Items will be evenly spaced with the first and last items at the edges of the container.  
+
+  <div style="display:flex; justify-content: space-between; border:solid;">
+  	<p style="border:solid;">Paragraph 1</p>
+  	<p style="border:solid;">Paragraph 2</p>
+  	<p style="border:solid;">Paragraph 3</p>
+  </div>
+
+- `space-around`: Items will be evenly spaced with half as much space before the first and after the last item.  
+  <div style="display:flex; justify-content: space-around; border:solid;">
+  <p style="border:solid;">Paragraph 1</p>
+  	<p style="border:solid;">Paragraph 2</p>
+  	<p style="border:solid;">Paragraph 3</p>
+  </div>
+
+- `space-evenly`: Items will have equal space around them.  
+
+- <div style="display:flex; justify-content: space-evenly; border:solid;">
+  <p style="border:solid;">Paragraph 1</p>
+  	<p style="border:solid;">Paragraph 2</p>
+  	<p style="border:solid;">Paragraph 3</p>
+  </div>
+
+
 
 # References
 
-* [W3Schools: Box Model ](https://www.w3schools.com/css/css_boxmodel.asp)
-* [W3Schools: Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
-* [W3Schools: The CSS Position Property](https://www.w3schools.com/css/css_positioning.asp)
-* [W3Schools: The Overflow Property](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
-* [W3Schools: Z-Index Property](https://www.w3schools.com/cssref/pr_pos_z-index.asp)
+* [Chapter 32. Flexbox](https://flaviocopes.com/book/css/#32-flexbox), in *The CSS Handbook*, but Falvio Copes
 
+* [W3Schools: Flexbox ](https://www.w3schools.com/css/css3_flexbox.asp)
 
+* [MDN Guide: Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+
+  
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes, written by [Brian Bird](https://profbird.dev) in 2018 and revised by Brian Bird in 2020, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes, written by [Brian Bird](https://profbird.dev) in <time>2023</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 

@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+      <!-- Written by Brian Bird 8/3/23 -->
+
     <meta charset="utf-8">
     <title>Flexbox Example</title>
     <style>
@@ -47,20 +49,31 @@
 
     <h1>Flex Containers</h1>
 
+    <h2>Basic container with three items</h2>
+    The flex items are paragraphs.
     <div class="flex-container">
         <p>One</p>
         <p>Two</p>
         <p>Three</p>
     </div>
     <br>
+    <h2>Flex container with centered item</h2>
+    Centered horizontally with <code>justify-content: center</code> and vertically with <code>align-items: center</code>.
     <div class="flex-container2">
         <p>Center me</p>
     </div>
     <br>
+    <h2>Flex container with three items</h2>
     <div class="flex-container3">
         <span>Left</span>
         <span style="align-self: center;">Centered</span>
         <span>Right</span>
+    </div>
+    <h2>Demonstrating the align-content property</h2>
+    <div style="display:flex; flex-direction: column; height: 600px; align-content: center; border:solid;">
+        <p style="border:solid; height: 50px;">Paragraph 1</p>
+        <p style="border:solid; height: 50px;">Paragraph 2</p>
+        <p style="border:solid; height: 50px;">Paragraph 3</p>
     </div>
 
 </body>

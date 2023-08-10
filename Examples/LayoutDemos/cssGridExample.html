@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Written by Brian Bird, 7/30/23, revised 8/2/23 -->
+  <meta charset="utf-8">
+  <title>CSS Grid Examples</title>
+  <style>
+    /* Give the grid container and grid items background color and border */
+    .grid-container1,
+    .grid-container2,
+    .grid-container3,
+    .grid-container1 *,
+    .grid-container2 *,
+    .grid-container3 * {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 2px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+      margin: 5px;
+    }
+
+    /* Span two columns */
+    .span-cols {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+
+    /* Span two rows */
+    .span-rows {
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    /* Define a grid container that uses grid-template-columns */
+    .grid-container1 {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+
+    /* Define a grid container that uses grid-template-areas */
+    .grid-container2 {
+      display: grid;
+      grid-template-areas:
+        'header header header'
+        'menu main sidebar'
+        'section section sidebar'
+        'footer footer footer';
+      background-color: #2196F3;
+      padding: 10px;
+    }
+
+    /* Define id's for the grid items */
+    #header {
+      grid-area: header;
+    }
+
+    #menu {
+      grid-area: menu;
+    }
+
+    #main {
+      grid-area: main;
+    }
+
+    #section {
+      grid-area: section;
+    }
+
+    #sidebar {
+      grid-area: sidebar;
+    }
+
+    #footer {
+      grid-area: footer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>CSS Grid Examples</h1>
+  Use the <em>View Source</em> feature in your browser to see the HTML and CSS code for these examples.
+
+  <h2>Using <code>grid-template-columns</code> for Layout</h2>
+  <p>This grid container uses the <code>gird-template-columns</code> CSS property to create three columns.
+    The grid items are placed in the grid container in the order they appear in the HTML.
+    The first grid item spans two columns. The second grid item spans two rows. </p>
+
+  <div class="grid-container1">
+    <p>One</p>
+    <p class="span-cols">Two</p>
+    <p class="span-rows">Three</p>
+    <p>Four</p>
+    <p>Five</p>
+    <p>Six</p>
+  </div>
+  <br>
+
+  <h2>Using <code>grid-template-areas</code> with Inline <code>grid-area</code>Names</h2>
+  <p>
+    This grid container uses the <code>grid-template-areas</code> CSS property to create a grid with six areas.
+    The grid items are placed in the grid container using the <code>grid-area</code> CSS property.
+    The grid items are <u>not</u> placed in the grid container in the order they appear in the HTML.
+    Their order is determined by the order of area names in the <code>grid-template-areas</code> CSS property.
+    Each <code>grid-area</code> name should only be applied to one element.
+    Note that the <code>grid-template-areas</code> names don't need to match the element names.
+  </p>
+  <div class="grid-container2">
+    <header style="grid-area: header;">header</header>
+    <nav style="grid-area: menu;">menu</nav>
+    <main style="grid-area: main;">main</main>
+    <section style="grid-area: section;">section</section>
+    <aside style="grid-area: sidebar;">sidebar</aside>
+    <footer style="grid-area: footer;">footer</footer>
+  </div>
+
+  <h2>Using <code>grid-template-areas</code> with <code>id</code> attributes for <code>grid-area</code>Names</h2>
+  <p>
+    The difference between this grid container and the previous one is that the <code>grid-area</code> names are
+    defined in the HTML using <code>id</code> attributes which are targets for the CSS rules with id selectors.
+    The <code>grid--area</code> names correspond to the <code>id</code> values.
+  </p>
+
+  <div class="grid-container2">
+    <header id="header">header</header>
+    <nav id="menu">menu</nav>
+    <main id="main">main</main>
+    <section id="section">section</section>
+    <aside id="sidebar">sidebar</aside>
+    <footer id="footer">footer</footer>
+  </div>
+<br>
+  <!-- Use a two colomn grid to put the CC logo to the left of the text -->
+  <footer style="display:grid; grid-template-columns: auto auto; align-items:center; column-gap:1em;">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+      <img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" referrerpolicy="no-referrer"
+        alt="Creative Commons License"></a> 
+        <p>This Web Authoring example code, written by <a href='https://profbird.dev'> Brian Bird</a> in
+    <time>2023</time>, is licensed under a <a href='http://creativecommons.org/licenses/by-sa/4.0/'>
+      Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  </footer>
+</body>
+
+</html>
