@@ -136,7 +136,7 @@ Letter grades for the course will be determined by the following percentages:
 ## Late Work
 
 - The grade for assignments submitted after the due date will be reduced by 10%. 
-- No assignments will be accepted after the start of the final exam.
+- No assignments will be accepted after the close of the final exam.
 - Quizzes and exams cannot be taken after the due date except in emergency situations.
 
 Exceptions will be made for serious illness or emergency situations. 
@@ -166,7 +166,7 @@ While students are encouraged to discuss labs and to use each other as resources
 
 ## Attendance and Participation
 
-Attendance (in person, via Zoo, or by watching recordings), participation in class discussions and exercises, and making posts in the Moodle forums are aspects of participation that will be assessed by the instructor.
+Attendance (in person, via Zoom, or by watching recordings), participation in class discussions and exercises, and making posts in the Moodle forums are aspects of participation that will be assessed by the instructor.
 
 Students who participate via Zoom can join the class discussion through the Zoom chat dialog box, or by turning on their microphones to ask and answer questions.
 
