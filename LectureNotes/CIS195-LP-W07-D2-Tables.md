@@ -1,21 +1,75 @@
-### CIS 195 Web Authoring 1: HTML
+---
+title: CSS Table Styling
+description: Styling Tables with CSS
+keywords: css, table, row, column, background
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
+**CIS195 Web Authoring 1: HTML**
 
-#### Course Topics by Week
+<h1>Styling Tables with CSS</h1>
 
-|                          |                             |
-| ------------------------ | --------------------------- |
-| 1. Intro to HTML 5       | 6. Page Layout with CSS     |
-| 2. More HTML 5           | <mark>7. HTML Tables</mark> |
-| 3. Developing a Web Site | 8. HTML Forms               |
-| 4. Styling with CSS      | 9. Multimedia               |
-| 5. Midterm Quiz          | 10. Review and Term Project |
-|                          | 11. Final Quiz              |
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Eight-Week Term</th>
+    </tr>
+  </thead>
+    <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td><mark>5. Midterm, Layout with CSS</mark></td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>6. CSS Grid and Flexbox</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS</td>
+      <td>8. HTML Forms, Final</td>
+    </tr>
+  </tbody>
+</table>
 
-Notes for each week are available in the [course outline](https://lcc-cit.github.io/CIS195-CourseMaterials/).
-
-# Table Styling with CSS
 
 
+
+
+<table hidden>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Ten-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>6. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>8. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>9. Multimedia, Final</td>
+    </tr>
+    <tr>
+      <td>5. Project Propposal, Midtern</td>
+      <td>10. Project Completion, Final</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Contents</h2>
 
 ## Contents
 
@@ -28,20 +82,10 @@ Notes for each week are available in the [course outline](https://lcc-cit.github
 
 
 
-## Announcements
+## Q and A
 
+- Any questions on labs or the term project?
 - Review due dates on Moodle.
-
--   Choose courses for Winter 2022 now!
-    - Winter registration is  already open
-    
-    -   You can view the [Winter CIT class schedule](https://crater.lanecc.edu/banp/zwsktsc2.P_DispGroupSchd?chunk_in=C2550&term_in=202130) now. 
-        Reccomended courses for the [Programing Degree](https://www.lanecc.edu/cit/computer-programming) this coming Fall:
-        
-        -   CS133JS, Beginning Programming: JavaScript, 4 creditss&mdash;*requires Math 60*.
-        -   CS161N, Beginning Programming: C#, 4 creditss&mdash;*requires Math 95, or CS160, or CIS125A, or CIS125G.*
-        
-        -   WR121, Academic Composition, 4 credits.
 
 
 
@@ -182,7 +226,7 @@ The best practice is to format tables with CSS rather than with HTML attributes.
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) These Web Authoring lecture notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) These Web Authoring lecture notes by [Brian Bird](https://profbird.dev), revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
