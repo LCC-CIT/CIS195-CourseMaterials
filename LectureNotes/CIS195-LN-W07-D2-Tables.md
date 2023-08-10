@@ -1,7 +1,7 @@
 ---
 title: CSS Table Styling
 description: Styling Tables with CSS
-keywords: css, table, row, column, background
+keywords: css, table, row, column, thead, tbody, foot, caption
 material: Lecture Notes
 generator: Typora
 author: Brian Bird
@@ -19,7 +19,7 @@ author: Brian Bird
     <tbody>
     <tr>
       <td>1. Intro to HTML</td>
-      <td><mark>5. Midterm, Layout with CSS</mark></td>
+      <td>5. Midterm, Layout with CSS</td>
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
@@ -27,7 +27,7 @@ author: Brian Bird
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
-      <td>7. HTML Tables</td>
+      <td><mark>7. HTML Tables</mark></td>
     </tr>
     <tr>
       <td>4. Formatting with CSS</td>
@@ -35,9 +35,6 @@ author: Brian Bird
     </tr>
   </tbody>
 </table>
-
-
-
 
 
 <table hidden>
@@ -71,16 +68,7 @@ author: Brian Bird
 </table>
 <h2>Contents</h2>
 
-## Contents
-
--   [Announcements](#Announcements)
--   [Introduction](#introduction)
--   [Semantic Elements for Tables](#semantic-elements-for-tables)
--   [CSS Table Properties](#css-table-properties)
--   [Examples](#examples)
--   [References](#references)
-
-
+[TOC]
 
 ## Q and A
 
@@ -108,7 +96,7 @@ author: Brian Bird
 
 ##Structural Elements for Tables
 
-These elements provide organization to your code and give you targets for CSS rules
+These semantic-structural elements provide organization to your code and give you targets for CSS rules
 
 - thead&mdash;table heading
 
@@ -150,15 +138,22 @@ These elements provide organization to your code and give you targets for CSS ru
 - colgroup&mdash;column group 
   This one is special! There are no *real* columns in an HTML table, so this is a way to select a group td elements that make up a column so that you can apply a CSS rule to them.
 
-  Example:
+  Note: Even if you are only styling the first column, you need to include as many `<col>` elements are there are `<td>` or `<th>` elements in whichever row of your table has the most.
 
+  Example:
+  
   ```html
   <table>
     <colgroup>
-      <col class="firstcolumn" />
+      <col class="specialColumn" />
       <col style="background-color:blue;" />
-      <col id="thirdcolumn" />
+      <col id="col3" />
     </colgroup>
+    <tr>
+      <th>First column</th>
+      <th>Second column</th>
+      <th>Third Column</th>
+    </tr>
     <!-- the rest of the table goes here -->
   </table>
   ```
@@ -198,7 +193,7 @@ The best practice is to format tables with CSS rather than with HTML attributes.
           }
   ```
 
-  
+  Note: the `border` property is the combined "short-hand" property for setting multiple border properties.
 
   
 
@@ -226,7 +221,7 @@ The best practice is to format tables with CSS rather than with HTML attributes.
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) These Web Authoring lecture notes by [Brian Bird](https://profbird.dev), revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) These Web Authoring lecture notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 

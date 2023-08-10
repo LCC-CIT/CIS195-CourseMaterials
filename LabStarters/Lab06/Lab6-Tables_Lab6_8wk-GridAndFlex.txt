@@ -1,0 +1,6 @@
+For the 10 week term:
+Lab6Instructions is for lab 6 about tables
+
+For the 8 week summer term:
+Lab6Instructions_8wk is for lab 6 bout grid and flexbox
+Lab6Instructions is for lab 7 about tables

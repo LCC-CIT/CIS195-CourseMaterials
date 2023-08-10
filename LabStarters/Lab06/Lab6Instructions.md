@@ -1,20 +1,34 @@
-# Lab 6 Instructions
+<h1>Lab 6 Instructions</h1>
 
-## Tables
+**(This is lab 7 for the eight-week summer term)**
 
-#### Objectives
+<h2>HTML Tables</h2>
+
+<h3>Contents</h3>
+
+[TOC]
+
+## Objectives for parts 1 and 2
 
 You will get practice creating tables with the following features:
 
 - Rows with multiple cells (td elements)
+
 - Headings
+
 - Borders
+
 - Row and column spans
+
 - A caption
+
 - Footer
+
 - CSS styling
 
-### Part A: a weekly class schedule
+  
+
+## Part 1: A weekly class schedule
 
 Make a web page containing a table that represents your weekly schedule (it can be real or fictitious).
 
@@ -27,7 +41,9 @@ Your table should meet the following requirements:
 5. Add events (at least two per day, and not all on the same rows).
 6. Add a caption.
 
-### Part B: a one-month calendar
+
+
+## Part 2: A one-month calendar
 
 Create a web page for with a table for a one month calendar for a real or fictitious organization (a club, sports team, school, etc.). Choose a particular month and arrange the table so that the days of the week are across the top and each square has the number for the day of the month in it and the event.
 
@@ -54,7 +70,7 @@ Your events table should contain the following:
 
 3. A footer.
 
-   - Use `<tbody>`
+   - Use `<tfoot>`
    - Provide some kind of a summary in a row that contains one or more `<td>` elements with at least one`<colspan>` attribute.
 
 4. A caption that provides an appropriate title for the table.
@@ -77,14 +93,22 @@ Your events table should contain the following:
 
 - Upload to Moodle
 
-  - Upload both files to Moodle using the lab submission link for the assignment.  
-    (You can either zip both files before uploading, or upload them individually without zipping.)
+  - Zip the files into one .zip file.
+  - Upload the zip to Moodle using the lab submission link for the assignment. 
   
+
+## Assessment
+
+Your lab assignment will be assessed according to this rubric:
+
+[Table Lab Rubric](Lab6Rubric-CIS195.htm)
+
+
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
