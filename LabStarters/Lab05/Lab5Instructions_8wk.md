@@ -3,11 +3,11 @@
 
 ## Using CSS to Control Web Page Layout
 
-You will practice using CSS by applying it to the review web site from your previous lab assignment.
+You will practice using CSS by applying it to the review web site from your previous lab assignment. Copy the web site to a new folder before revising it.
 
 ### Part 1
 
-Modify the home page of your review web site from the previous lab assignment. Add rules to the style sheet for the site to:
+Modify the home page of your review web site from the previous lab assignment. Add rules to the style sheet for the whole site to:
 
 1. Set a fixed width for the body of the page.
 
