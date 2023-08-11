@@ -1,8 +1,12 @@
-# Lab 7 Instructions
+<h1>Lab 7 Instructions</h1>
 
-## An HTML Form
+**(Lab 8 in the eight-week summer term)**
 
-#### Objectives
+<h2>An HTML Form</h2>
+
+[TOC]
+
+### Objectives
 
 You will create a page containing a form with the following features:
 
@@ -44,7 +48,13 @@ Here's an example of a raffle web page done by a previous student. This is to gi
 
 
 
-## Submitting your web site
+### Assessment
+
+The lab assignment will be graded according to [this rubric](Lab7Rubric-CIS195.htm).
+
+
+
+### Submitting your web site
 
 - Publish to the web server
 
@@ -59,7 +69,7 @@ Here's an example of a raffle web page done by a previous student. This is to gi
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.online), 2018, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
