@@ -159,7 +159,7 @@ Now we're going to modify the empty page to make our own first web page. You can
 
 - Add some basic Formatting Elements
 
-  - Headings use the `<h1>`, `<h2>`, `<h3>` etc. tags.
+  - Headings use the `<h1>`, `<h2>`, `<h3>`, etc. tags.
   
   - Text-level elements including strong, `<b>` and emphasized `<i>` text.
   

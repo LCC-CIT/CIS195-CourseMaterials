@@ -86,11 +86,15 @@ author: Brian Bird
   ```html
   <!DOCTYPE html> 
   <html lang="en">
+    
      <head>
         <title>Some Title</title>
      </head>
+    
      <body> 
+  		This is some text.
      </body>
+    
   </html>
   ```
   
@@ -118,7 +122,9 @@ Visual Studio Code
 - Example: `<meta charset="UTF-8">`
 - The two parts of the attribute form a "key-value pair"
 
-## One-sided or "self-closing" tags
+## Empty Tags
+
+Also known as one-sided or self-closing tags.
 
 - `<br>`
 

@@ -71,11 +71,42 @@ author: Brian Bird
 
 [TOC]
 
+# Q and A
+
+- Any questions about anything?
+- Review due dates.
+
 # Review
 
-Due dates
+Empty web site skeleton:
 
-Look at someone's lab 1 web site. Any volunteers?
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Skeletal Page</title>
+    <meta charset="UTF-8">
+</head>
+  
+<body>
+  This is an empty web page.
+</body>
+
+</html>
+```
+
+
+
+HTML elements you've learned so far:
+
+- Line break:`<br>`
+- Paragraph: `<p>`
+- Image: `<img>`
+- Anchor (hyperlink): `<a>`
+- Lists:`<ol>` and `<ul>`
+- Text style: `<strong>`or `<b>` and `<em>` or `<i>`
+- Headings:`<h1>`, `<h2>`, `<h3>`, etc.
 
 
 
@@ -113,7 +144,28 @@ Define "syntax"
 
   
 
-# More HTML Elements 
+# Nested Elements
+
+Some elements can be *nested*, placed inside, other elements. You've already seen that in the basic skeleton of a web site where the `body` and `head` are nested inside the `html` element. To make the code easier to read, we indent the nested elements.  
+Here's an example:  
+
+```html
+<p>
+  This is a <i>paragraph</i> with some <b>nested</b> elements inside it.<br>
+  <a href="https://example.com">This is nested inside the paragraph too.</a>
+</p>
+```
+
+## Nesting Rules
+
+- The opening and closing tags of a nested element must be between (inside) the opening and closing tags of the outer element. 
+- Inline elements cannot contain block elements.
+- Some block elements <u>cannot</u> contain other block elements.  
+  Check the *Permitted Conten*t in the [MDN HTML Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) reference.
+  - paragraph, `<p>`, elements can only contain [phrasing content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#phrasing_content).
+  - headings, `<h1>`, `<h2>`, etc. can only contain phrasing content.
+  - lists, `<ol>`, or `<ul>` can only contain `<li>` elements.
+  - list items, `<li>` elements can only contain [flow content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#flow_content).
 
 ## Nested Lists
 
@@ -140,6 +192,10 @@ In a browser, the nested lists would look like this:
   - Ice Cream
 - The rest of the list
 
+
+
+# More HTML Elements 
+
 ## Figures
 
 Figures are used to change images from inline to block elements. They also allow you to add a caption to the image.
@@ -165,7 +221,7 @@ The block quote element will:
 
 ```
 <blockquote>
-Not all who wander are lost.
+  Not all who wander are lost.
 </blockquote>
 ```
 
@@ -231,7 +287,11 @@ The `<hr>` tag will put a horizontal line across the page. This is one of the "e
 
 [HTML Syntax Validator](https://validator.w3.org)&mdash;World Wide Web Consortium
 
+[Content Categories](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories)&mdash;Mozilla Developer Ntework
+
+[Phrasing Content vs. Flow Content](https://stackoverflow.com/questions/30233447/what-is-the-difference-between-phrasing-content-and-flow-content)&mdash;Stack Overflow
+
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), summer 2023.
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), summer <time>2023</time>.
 
