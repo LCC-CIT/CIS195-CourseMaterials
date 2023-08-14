@@ -86,7 +86,7 @@ The CSS *grid* is used to position elements on a page.
 
   This is what makes the element a container for a grid!
 
-  - The `grid-template-column` property determines the width and number of columns.
+  - The `grid-template-columns` property determines the width and number of columns.
 
 
 For example, this HTML code:
@@ -217,7 +217,7 @@ Item 8						Item 9
 
 ## Example Code
 
-Open the example web page in your browser and use the *View Source* feature to look at the source code.
+Open the example web page in your browser and use the *View Source* feature to look at the source code.
 
 [CSS Grid Examples](../Examples/LayoutDemos/cssGridExample.html)
 
