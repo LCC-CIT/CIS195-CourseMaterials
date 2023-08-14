@@ -164,5 +164,33 @@
     D. Setting `justify-conent` to `center` will center the flex items in the both vertically and horizontally the flexbox.  = 0%  
     E. The default is to align the flex items to the right of the flexbox. = 0%
 
-17. 
+17. True/false - grid template areas  
+    To provide layout for entire web pages, grid templates for rows and columns are a better choice than grid templates for areas.
+
+18. Multiple choice - grid template areas  
+    For the CSS class rule below, select all the true statements.  
+
+    ```css
+    .grid-container2 {
+          display: grid;
+          grid-template-areas:
+            'header header header'
+            'menu main sidebar'
+            'section section sidebar'
+            'footer footer footer';
+        }
+    ```
+
+    A. This class could be applied to the body of a page to control the layout of the whole page. = 33%  
+    B. To use this, you need to write a  `grid-area` CSS rule for each grid-area name you want to associate with an HTML structural element. = 33%  
+    C. To use this, there need to be three header elements. = 0%  
+    D. Each grid-area name can only be associated with one HTML structural element  = 33%  
+    E. There must be two HTML sidebar elements in the page. = 0%  
+
+19. True / false - grid-area element order  
+    The grid-template-areas must have the area names arranged in the same order in which the corresponding HTML structural elements appear in the HTML code.  = false.  
+20. True / false - grid area names  
+    Grid-template-area names must match the names of the elements they are positioning.  = false 
+
+
 
