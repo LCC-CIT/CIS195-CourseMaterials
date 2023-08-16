@@ -82,7 +82,7 @@ Your events table should contain the following:
    - Set background color of anything you like.
    - Set a text property for some or all of the text in the table.
 
-## Example
+## Examples
 
 Here are examples of parts 1 and 2 done by a previous student. This is to give you an idea about how your tables might look, but please choose your own topics (content) and arrangement of cells.
 
