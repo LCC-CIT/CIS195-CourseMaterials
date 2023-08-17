@@ -1,18 +1,72 @@
-# HTML Forms, Part 1
+---
+title: Forms, Part 1
+description: Basics of HTML Forms
+keywords: form, input, control element, fieldset, input type, input value, label.
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
+**CIS195 Web Authoring 1: HTML**
 
-## The Basics
+<h1>HTML Forms, Part 1</h1>
 
-| Course weeks and topics  |                            |
-| ------------------------ | -------------------------- |
-| 1. Intro to HTML 5       | 6. Page Layout with CSS    |
-| 2. First Web Page        | 7. HTML Tables             |
-| 3. Developing a Web Site | <mark>8. HTML Forms</mark> |
-| 4. Design with CSS       | 9. Multimedia              |
-| 5. Midterm               | 10.Term Project            |
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Eight-Week Term</th>
+    </tr>
+  </thead>
+    <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>5. Midterm, Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>6. CSS Grid and Flexbox</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS</td>
+      <td><mark>8. HTML Forms, Final</mark></td>
+    </tr>
+  </tbody>
+</table>
 
 
-
-## Contents
+<table hidden>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Ten-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>6. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>7. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>8. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>9. Multimedia, Final</td>
+    </tr>
+    <tr>
+      <td>5. Project Propposal, Midtern</td>
+      <td>10. Project Completion, Final</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Contents</h2>
 
 [TOC]
 
@@ -187,7 +241,7 @@ The wrap attribute determines the type of line warp: hard or soft.
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-ASP.NET Core MVC Lecture Notes by [Brian Bird](https://profbird.dev) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev), 2017, revised 2023, is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------
 
