@@ -143,7 +143,7 @@ Selection of buttons with the same name will be mutually exclusive.
 <input type="radio" name="length" value="short">Short trail<br>
 <input type="radio" name="length" value="long">Long trail<br>
 <input type="radio" name="steepness" value="flat">Level trail<br>`
-<input type="radio" name="steepness"value="intermediate"> Steep trail<br>
+<input type="radio" name="steepness"value="intermediate">Steep trail<br>
 ```
 [Radio button practice on W3Schools](https://www.w3schools.com/html/html_form_input_types.asp)
 
@@ -155,7 +155,7 @@ The `accesskey` attribute specifies a keyboard shortcut for moving the focus to 
 
 ```HTML
 <input type="radio" name="length" value="short" accesskey="s">Short trail<br>
-<input type="radio" name="length" value="long">Long trail accesskey="l<br />        
+<input type="radio" name="length" value="long"  accesskey="l">Long trail<br>        
 ```
 
 To use the access key in Chrome, Edge or Safari, hold down the *alt* key while pressing the  shortcut key. In Firefox, hold down the *alt* and *shift* keys while pressing the access key.
@@ -174,12 +174,11 @@ We can improve the way our form works and give our users a better experience, if
 These `<input>` types are all essentially variants of the "text" type, but they limit the range of  characters that the user is allowed to enter and/or change the appearance of the control to match the input type.
       
 
-- `date`
-- `email`
-- `number`
-- `password`
-- `tel`  
-         *Note:* `tel` *does not do much validation, but on most browsers, it will pop up a numeric  keypad.*
+- `date`&mdash;In addition to the input box, this will pops up a date picker in the web browser.
+- `email`&mdash;Only allows text in the format of a valid email address to be entered.
+- `number`&mdash;In addition to the input box, this will pop up a number pad in the web browser.
+- `password`&mdash;Hides the text that is entered.
+- `range` &mdash;A range of valid values can be specified. 
      
 - [and more](https://www.w3schools.com/html/html_form_input_types.asp)
 
