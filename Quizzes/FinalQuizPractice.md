@@ -28,8 +28,8 @@
    ```css
    body {
      height: 500px;
-     background-image: url("sunset.png") 
-     background-repeat: no-repeat
+     background-image: url("sunset.png");
+     background-repeat: no-repeat;
      background-position: center;
    }
    ```
@@ -121,7 +121,6 @@
     E. Grid lines for visible boundaries around grid items. = 0%  
 
 12. True/false - flexbox direction
-  
 
     A flexbox can be made either vertical or horizontal by setting the `flex-direction` property to `row` or `column`.  = true.
 
@@ -191,6 +190,4 @@
     The grid-template-areas must have the area names arranged in the same order in which the corresponding HTML structural elements appear in the HTML code.  = false.  
 20. True / false - grid area names  
     Grid-template-area names must match the names of the elements they are positioning.  = false 
-
-
 

@@ -9,10 +9,10 @@ You will practice using Gird and Flexbox by applying them to the review web site
 
 Modify the site style sheet (.css file) for your site to use grid areas to control the layout of your review pages (just the reviews, not the home page).
 
-Add a CSS rule to create a grid container element, which could be the `body`. This rule should contain a grid-template-areas property for the layout you want for all of your review pages. This is one possible layout:  
-<img src="GridAreasForReviews.png" style="zoom:60%;" />
+1. Add a CSS rule to create a grid container element, which could be the `body`. This rule should contain a grid-template-areas property for the layout you want for all of your review pages. There should be at least 4 rows and three columns, at least one row should have multiple items in it. This is one possible layout:  
+   <img src="GridAreasForReviews.png" style="zoom:60%;" />
 
-
+2. Add rules for the grid-areas to the site style sheet.
 
 
 
@@ -49,7 +49,10 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 
 - Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle. This is important; without this, I won't be able to find your web page on the internet.
 
-  
+
+## Assessment
+
+Your lab assignment will be assessed using [this rubric](Lab6Rubric_8wk.htm).
 
 ------
 

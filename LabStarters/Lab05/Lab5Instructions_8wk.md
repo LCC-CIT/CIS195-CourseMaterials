@@ -34,8 +34,6 @@ Modify the home page of your review web site from the previous lab assignment. A
    - Float it to the right.
    - Clear the float.
 
-
-
 **Notes**
 
 - Use my South India website as a guide, but please don't copy and paste the HTML or CSS and then just put your content into my code.
@@ -61,7 +59,10 @@ Modify the home page of your review web site from the previous lab assignment. A
 
 - Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle. This is important; without this, I won't be able to find your web page on the internet.
 
-  
+
+## Assessment
+
+Your lab will be graded using [this rubric](Lab5Rubric_8wk.htm).
 
 ------
 
