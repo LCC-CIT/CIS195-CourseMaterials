@@ -62,7 +62,7 @@ Your events table should contain the following:
 
    - Put at least eight events in separate squares (days).
 
-   - Alt least one event should use a `rowpan` attribute.
+   - Alt least one event should use a `rowspan` attribute.
 
      *Note: you can specify the day-of-month numbers as a range in the td that spans multiple rows. For example: 15&ndash;17.*
 

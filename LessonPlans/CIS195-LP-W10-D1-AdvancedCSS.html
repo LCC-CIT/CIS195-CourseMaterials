@@ -1,6 +1,463 @@
-<html>  <head>    <meta http-equiv="content-type" content="text/html; charset=UTF-8">  </head>  <body>    <title>Week 10, Day 1, Advanced CSS</title>    <style type="text/css">        body {            font-family: "Arial", "Helvetica", "sans-serif";        }                #week10 {            background-color: #f8ff2e;        }                code {            font-size: larger;            background-color: lightgoldenrodyellow;        }    </style>    <style media="screen and (max-width:800px) and (orientation: portrait)">      body {background-color:bisque;      }    </style>    <style media="screen and (max-width:800px) and (orientation: landscape)">      body {background-color:lightgray;      }</style>    <header> <b>CIS195 Web Authoring 1: HTML &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; November 28,        2017<br>      </b>      <div>Brian Bird</div>      <br>      <i><b>Topic:&nbsp; Advanced CSS, Part 2<br>        </b></i></header>    <section> <br>      <b>Course weeks and topics<br>      </b>      <table style="width: 807px; height: 127px;" border="1">        <tbody>          <tr>            <td>1. Intro to HTML 5</td>            <td>6. HTML Tables</td>          </tr>          <tr>            <td>2. Developing a Web Site</td>            <td>7. HTML Forms</td>          </tr>          <tr>            <td>3. Design with CSS</td>            <td id="week08">8. Multimedia</td>          </tr>          <tr>            <td>4. Page Layout with CSS</td>            <td id="week09">9. Advanced CSS<br>            </td>          </tr>          <tr>            <td>5. Midterm</td>            <td id="week10">10. More CSS / Term Project<br>            </td>          </tr>        </tbody>      </table>      <b><br>        <br>        Introduction</b><br>      <ul>        <li>Announcements<br>        </li>        <li>Review due dates on Moodle</li>        <ul>          <li>Lab 8<em></em></li>          <ul>            <ul>            </ul>            <li>Week 10, Saturday, 12/2: production version</li>            <ul>            </ul>            <ul>            </ul>            <li>No code review</li>            <ul>            </ul>          </ul>          <li>Term Project</li>          <ul>            <li>Beta version, Saturday, 12/2</li>            <li>Code review, Monday, 12/4 (or earlier!)</li>            <li>Production version, Tuesday, 12/5</li>          </ul>          <li>Final Quiz</li>          <ul>            <li>Practice quizzes are open now and will close at 11:55 pm on              Monday 12/4</li>            <li>You may take it in class at 12:00 on Tuesday, 12/5</li>            <li>It will be open online all day Tuesday, 12/5</li>            <ul>            </ul>          </ul>        </ul>        <ul>        </ul>      </ul>      <div><b>Overview</b></div>      <div>        <ul>        </ul>        <ul>          <b> </b>          <ul>          </ul>          <li><a href="#topic5"><span style=" color: #0000ee;">Borders for                images</span></a></li>          <li><a href="#topic6"><span style="  color: #0000ee;">Opacity of page                objects</span></a></li>          <li><a href="#topic7"><span style="   color: #0000ee;">Media device                styling</span></a></li>          <li><span style="    color: #0000ee;"><a href="#topic8">Print styling</a><br>            </span></li>          <li><span style="    color: #0000ee;"><a href="#topic9">Visual                Viewport</a><br>            </span></li>          <li><span style="    color: #0000ee;"><a href="#topic10">Media Query</a><br>            </span></li>          <li><span style="    color: #0000ee;"><a href="#topic11">Styles for                Mobile Devices</a><br>            </span></li>          <ul>          </ul>          <ul>            <b> <b> </b> </b>          </ul>        </ul>      </div>    </section>    <section>      <article id="topic5">        <p><u><b>Border Images <br>            </b></u></p>        <ul>          <li>The border-image property allows you to use an image as a border            around an element</li>          <li>Syntax: border<i>-image(url(image url), slice, color stop,              ...)&nbsp;</i></li>          <ul>            <li>direction (optional)</li>          </ul>          <ul>            <ul>              <li>an angle: <i>45deg</i></li>            </ul>          </ul>          <ul>            <ul>              <li>to a side: <i>to left</i></li>            </ul>          </ul>          <ul>            <ul>              <li>to a corner: <i>to top left</i></li>            </ul>          </ul>          <ul>            <li>color and stop</li>          </ul>          <ul>            <ul>              <li>color can be a color keyword, rgb, rgba, hsl, or hsla: <i>blue</i></li>            </ul>          </ul>          <ul>            <ul>              <li>stop (optional)<i> </i>can be a percentage or a pixel value:                <i>70%</i></li>            </ul>          </ul>          <ul>            <ul>              <li>any number of color stop pairs can be listed</li>            </ul>          </ul>          <li>Let's start with this image:<br>            <img src="border.png" height="200"> <br>            <br>          </li>          <li>Now make it the border around a div<br>            <code>style="border-image: url(border.png) 60 stretch; border:30px              solid transparent;"<br>              <br>            </code>            <div style="width:300px; height:70px; border:30px solid transparent; padding:10px; border-image: url(border.png) 60 stretch;">              This div has an image for a border<br>              Note that we had to give it a wider border so that we could see              the border image </div>          </li>          <li>Try it: <a href="https://www.w3schools.com/csSref/css3_pr_border-image.asp"              target="_blank">W3Schools,
-              CSS3 border-image Property <br>            </a></li>        </ul>      </article>      <article id="topic6">        <p><u><b>CSS3 Opacity <br>            </b></u></p>        <ul>          <li>CSS3 opacity style syntax:<i> opacity: value;</i></li>          <ul>            <li>The value ranges from 0, completely transparent, to 1,              completely opaque.</li>          </ul>          <li>Example:<br>            <code>style="opacity: 0.5;"<br>              <br>            </code></li>          <li>Try it: <a href="https://www.w3schools.com/CSSref/css3_pr_opacity.asp"              target="_blank">W3Schools,
-              opacity property <br>            </a></li>        </ul>      </article>      <article id="topic7">        <p><u><b>Using Special Styles for Different Media Types<br>            </b></u></p>        <ul>          <li style="background-color: white;">There are many possible devices            that could be used to display a web page. Each of the following is a            device type that is defined for the HTML <i>media</i> attribute</li>          <ul>            <li style="background-color: white;"><i>braille</i> - Braille              tactile feedback device</li>            <li style="background-color: white;"><i>embossed</i> - Braille              printer that produces embossed pages</li>            <li style="background-color: white;"><i>handheld</i> - Mobile              devices like phones and tablets</li>            <li style="background-color: white;"><i>print</i> - Printers</li>            <li style="background-color: white;"><i>projection</i> - Video              projectors</li>            <li style="background-color: white;"><i>screen</i> - Computer              monitors</li>            <li style="background-color: white;"><i>speech</i> - Speech              synthesizers</li>            <li style="background-color: white;"><i>tty</i> - Teletypes and              other text-only devices devices with fixed with fonts (archaic)</li>            <li style="background-color: white;"><i>tv</i> - Televisions and              devices with displays that function like a TV</li>            <li style="background-color: white;"><i>all</i> - All of the above</li>          </ul>          <li style="background-color: white;"><u>Select CSS stylesheets based              on media type</u></li>          <ul>            <li style="background-color: white;">&nbsp;You can specify that              special styling be applied for certain media types.</li>          </ul>          <ul>            <li style="background-color: white;">To use a special style sheet              for one media type, specify it in the <i>link</i> element. For              example, to load a special style sheet for mobile devices, use a <i>link</i>              like this:<br>              <code>&lt;link href="mobile.css" media="handheld" /&gt;<br>                <br>              </code></li>          </ul>          <ul>            <li style="background-color: white;">You can specify styling for              multiple media types:<br>              <code>&lt;link href="mobile.css" media="speech, braille" /&gt;<br>                <br>              </code></li>            <li style="background-color: white;">You can also specify an              embedded style be used for a specific media type:<br>              <code>&lt;style media="handheld"&gt;<br>                &nbsp;&nbsp; /* style rules go here */<br>                &lt;/style&gt;<br>              </code> <br>            </li>          </ul>          <ul>            <li style="background-color: white;">Tutorial: <a href="https://www.w3schools.com/TAGS/att_media.asp"                target="_blank">W3Schools,
-                HTML <i>media </i>Attribute <br>                <br>              </a></li>          </ul>          <li><u>Define CSS style rules based on media type</u>. </li>          <ul>            <li>Instead of having multiple style sheets, you can define certain              rules within your style sheet be used only for specific media              types.</li>          </ul>          <ul>            <li>CSS <i>@media </i>rule</li>            <ul>              <li>Put all the rules to be used for a particular media type (or                types) inside the <i>@media</i> rule's curly braces. For                example:<br>                <code>@media handheld {<br>                  &nbsp;&nbsp; body {<br>                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-size: 8px;<br>                  &nbsp;&nbsp; }<br>                  &nbsp;&nbsp; h1 {<br>                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-size: 10px;<br>                  &nbsp;&nbsp; }<br>                  }<br>                </code></li>            </ul>          </ul>          <ul>            <li>Try it: <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp"                target="_blank">W3Schools,
-                CSS @Media Rule&nbsp;</a></li>          </ul>          <ul>          </ul>          <ul>            <li>The <i>@media</i> rule is one of several CSS at-rules</li>            <ul>              <li>at-rules are CSS rules that don't have a selector</li>              <li>Some at-rules are conditional<br>              </li>            </ul>          </ul>          <ul>            <ul>              <li>Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule"                  target="_blank">MDN,
-                  at-rule</a></li>            </ul>          </ul>        </ul>      </article>      <article id="topic8">        <p><u><b>Print Styling<br>            </b></u></p>        <ul>          <li><u>CSS @page rule</u></li>          <ul>            <li>For printing, CSS has a special box-model that has two areas:              page content and <i>margin</i></li>          </ul>          <ul>            <li>Use the <i>@page</i> rule to selectively apply style properties              for printing<i>.</i> For example use this rule to set the page              content size and the margin:<br>              <code>@page&nbsp; {<br>                &nbsp;&nbsp; size: 8.5in 11in portrait;<br>                &nbsp;&nbsp; margin: 0.5in;<br>                }<br>              </code></li>          </ul>          <li><u>CSS <i>page-break</i> property</u></li>          <ul>            <li>Control page breaks using:&nbsp;</li>          </ul>          <ul>            <ul>              <li><i>page-break-before: type </i>or<i> page-break-after: type<br>                </i>where type can be:</li>              <ul>                <li><i>always</i></li>                <li><i>avoid</i></li>                <li><i>left</i></li>                <li><i>right</i></li>                <li><i>inherit</i></li>                <li><i>auto<br>                  </i></li>              </ul>              <li><i>page-break-inside: type<br>                </i>where type can be:</li>            </ul>            <ul>              <ul>                <li>avoid</li>                <li>inherit</li>                <li>auto</li>              </ul>            </ul>            <li>Example (assume this rule is in a special style sheet for              printing)<br>              <code>section {<br>                &nbsp;&nbsp; page-break-after: always;<br>                &nbsp;&nbsp; page-break-inside: avoid;<br>                }</code></li>            <ul>            </ul>          </ul>          <ul>          </ul>        </ul>      </article>      <article id="topic9">        <p><u><b>Using Viewports<br>            </b></u></p>        <ul>          <li>A visual viewport is a rectangular region defined for a web page.            There can be different visual viewport definitions for different            kinds of devices:</li>          <ul>            <li>Desktop computer screen - the whole page</li>            <li>Printed material - the page-box</li>            <li>Mobile devices - some region smaller than the whole page</li>            <ul>              <li>The visual viewport shows a portion of the page and users can                pan around inside the page to see different parts</li>              <li>The mobile browser (Safari on an iPad or iPhone, Chrome on an                Android) sets the visual viewport size</li>            </ul>            <li>The <i>viewport</i> <i>meta</i> element</li>            <li>Syntax: <i>&lt;meta name="viewport" content="properties" /&gt;</i></li>            <li>Example:<i><br>                <code>&lt;meta</code></i><code> name="viewport"                content="width=device-width, initial-scale=1.0,                maximum-scale=1.0" /&gt;</code><i><code><br>                  <br>                </code></i></li>          </ul>          <li>A layout viewport contains the complete page</li>        </ul>      </article>      <article id="topic10">        <p><u><b>Create a Media Query<br>            </b></u></p>        <ul>          <li>The CSS3 media rule and HTML5 media attribute can have a "query"            added to them so that they apply to not just certain devices, but            also to certain media sizes or types.</li>          <li><i>@media</i> style rule example:<br>            <i><code>@media </code></i><code>screen and (max-width: 700px) {<br>              &nbsp;&nbsp; /* style properties go here */<br>              }</code></li>          <li><i>media</i> HTML attribute example:<br>            <code>&lt;link href="mobile2.css" media="screen and (device-width:              700px)" </code><code>/&gt;</code><br>          </li>          <li>Note:Today's mobile devices can have very high pixel count. My            Nexus 6P has a screen with 1440 X 2560 pixels</li>        </ul>      </article>      <article id="topic11">        <p><u><b>Create Styles for Mobile Devices<br>            </b></u></p>        <ul>        </ul>        <ul>          <li>You can create special style sheets or rules for portrait and            landscape orientations of mobile devices. Determination of            orientation is based on the aspect ratio of the screen, not on            actual rotation of the device, so you can simulate this by adjusting            the size of a desktop browser.</li>          <ul>            <li>Example with @media CSS rule:<br>              <code>@media screen and (orientation: landscape) {<br>                &nbsp;&nbsp; /* style rules for landscape orientation go here */<br>                } </code></li>          </ul>          <ul>            <li>Example with media HTML attribute:<br>              <code>&lt;link href="landscape.css" media="screen and (max-width:                700px)" /&gt;</code></li>            <br>            <li>This page has embedded styles that change the background color              of the page based on size and orientation.</li>          </ul>        </ul>        <ul>        </ul>      </article>    </section>  </body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <title>Week 10, Day 1, Advanced CSS</title>
+  <style type="text/css">
+    body {
+      font-family: "Arial", "Helvetica", "sans-serif";
+    }
+
+    #week10 {
+      background-color: #f8ff2e;
+    }
+
+    code {
+      font-size: larger;
+      background-color: lightgoldenrodyellow;
+    }
+  </style>
+  <style media="screen and (max-width:800px) and (orientation: portrait)">
+    body {
+      background-color: bisque;
+    }
+  </style>
+  <style media="screen and (max-width:800px) and (orientation: landscape)">
+    body {
+      background-color: lightgray;
+    }
+  </style>
+  <header> <b>CIS195 Web Authoring 1: HTML &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; November 28,
+      2017<br>
+    </b>
+    <div>Brian Bird</div>
+    <br>
+    <i><b>Topic:&nbsp; Advanced CSS, Part 2<br>
+      </b></i>
+  </header>
+  <section> <br>
+    <b>Course weeks and topics<br>
+    </b>
+    <table style="width: 807px; height: 127px;" border="1">
+      <tbody>
+        <tr>
+          <td>1. Intro to HTML 5</td>
+          <td>6. HTML Tables</td>
+        </tr>
+        <tr>
+          <td>2. Developing a Web Site</td>
+          <td>7. HTML Forms</td>
+        </tr>
+        <tr>
+          <td>3. Design with CSS</td>
+          <td id="week08">8. Multimedia</td>
+        </tr>
+        <tr>
+          <td>4. Page Layout with CSS</td>
+          <td id="week09">9. Advanced CSS<br>
+          </td>
+        </tr>
+        <tr>
+          <td>5. Midterm</td>
+          <td id="week10">10. More CSS / Term Project<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <b><br>
+      <br>
+      Introduction</b><br>
+    <ul>
+      <li>Announcements<br>
+      </li>
+      <li>Review due dates on Moodle</li>
+      <ul>
+        <li>Lab 8<em></em></li>
+        <ul>
+          <li>Week 10, Saturday, 12/2: production version</li>
+          <li>No code review</li>
+        </ul>
+        <li>Term Project</li>
+        <ul>
+          <li>Beta version, Saturday, 12/2</li>
+          <li>Code review, Monday, 12/4 (or earlier!)</li>
+          <li>Production version, Tuesday, 12/5</li>
+        </ul>
+        <li>Final Quiz</li>
+        <ul>
+          <li>Practice quizzes are open now and will close at 11:55 pm on
+            Monday 12/4</li>
+          <li>You may take it in class at 12:00 on Tuesday, 12/5</li>
+        </ul>
+      </ul>
+    </ul>
+    <div><b>Overview</b></div>
+    <div>
+      <ul>
+        <li><a href="#topic5"><span style=" color: #0000ee;">Borders for
+              images</span></a></li>
+        <li><a href="#topic6"><span style="  color: #0000ee;">Opacity of page
+              objects</span></a></li>
+        <li><a href="#topic7"><span style="   color: #0000ee;">Media device
+              styling</span></a></li>
+        <li><span style="    color: #0000ee;"><a href="#topic8">Print styling</a><br>
+          </span></li>
+        <li><span style="    color: #0000ee;"><a href="#topic9">Visual
+              Viewport</a><br>
+          </span></li>
+        <li><span style="    color: #0000ee;"><a href="#topic10">Media Query</a><br>
+          </span></li>
+        <li><span style="    color: #0000ee;"><a href="#topic11">Styles for
+              Mobile Devices</a><br>
+          </span></li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <article id="topic5">
+      <p><u><b>Border Images <br>
+          </b></u></p>
+      <ul>
+        <li>The border-image property allows you to use an image as a border
+          around an element</li>
+        <li>Syntax: border<i>-image(url(image url), slice, color stop,
+            ...)&nbsp;</i></li>
+        <ul>
+          <li>direction (optional)</li>
+        </ul>
+        <ul>
+          <ul>
+            <li>an angle: <i>45deg</i></li>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+            <li>to a side: <i>to left</i></li>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+            <li>to a corner: <i>to top left</i></li>
+          </ul>
+        </ul>
+        <ul>
+          <li>color and stop</li>
+        </ul>
+        <ul>
+          <ul>
+            <li>color can be a color keyword, rgb, rgba, hsl, or hsla: <i>blue</i></li>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+            <li>stop (optional)<i> </i>can be a percentage or a pixel value:
+              <i>70%</i>
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+            <li>any number of color stop pairs can be listed</li>
+          </ul>
+        </ul>
+        <li>Let's start with this image:<br>
+          <img src="border.png" height="200"> <br>
+          <br>
+        </li>
+        <li>Now make it the border around a div<br>
+          <code>style="border-image: url(border.png) 60 stretch; border:30px
+              solid transparent;"<br>
+              <br>
+            </code>
+          <div
+            style="width:300px; height:70px; border:30px solid transparent; padding:10px; border-image: url(border.png) 60 stretch;">
+            This div has an image for a border<br>
+            Note that we had to give it a wider border so that we could see
+            the border image </div>
+        </li>
+        <li>Try it: <a href="https://www.w3schools.com/csSref/css3_pr_border-image.asp" target="_blank">W3Schools,
+            CSS3 border-image Property <br>
+          </a></li>
+      </ul>
+    </article>
+    <article id="topic6">
+      <p><u><b>CSS3 Opacity <br>
+          </b></u></p>
+      <ul>
+        <li>CSS3 opacity style syntax:<i> opacity: value;</i></li>
+        <ul>
+          <li>The value ranges from 0, completely transparent, to 1,
+            completely opaque.</li>
+        </ul>
+        <li>Example:<br>
+          <code>style="opacity: 0.5;"<br>
+              <br>
+            </code>
+        </li>
+        <li>Try it: <a href="https://www.w3schools.com/CSSref/css3_pr_opacity.asp" target="_blank">W3Schools,
+            opacity property <br>
+          </a></li>
+      </ul>
+    </article>
+    <article id="topic7">
+      <p><u><b>Using Special Styles for Different Media Types<br>
+          </b></u></p>
+      <ul>
+        <li style="background-color: white;">There are many possible devices
+          that could be used to display a web page. Each of the following is a
+          device type that is defined for the HTML <i>media</i> attribute</li>
+        <ul>
+          <li style="background-color: white;"><i>braille</i> - Braille
+            tactile feedback device</li>
+          <li style="background-color: white;"><i>embossed</i> - Braille
+            printer that produces embossed pages</li>
+          <li style="background-color: white;"><i>handheld</i> - Mobile
+            devices like phones and tablets</li>
+          <li style="background-color: white;"><i>print</i> - Printers</li>
+          <li style="background-color: white;"><i>projection</i> - Video
+            projectors</li>
+          <li style="background-color: white;"><i>screen</i> - Computer
+            monitors</li>
+          <li style="background-color: white;"><i>speech</i> - Speech
+            synthesizers</li>
+          <li style="background-color: white;"><i>tty</i> - Teletypes and
+            other text-only devices devices with fixed with fonts (archaic)</li>
+          <li style="background-color: white;"><i>tv</i> - Televisions and
+            devices with displays that function like a TV</li>
+          <li style="background-color: white;"><i>all</i> - All of the above</li>
+        </ul>
+        <li style="background-color: white;"><u>Select CSS stylesheets based
+            on media type</u></li>
+        <ul>
+          <li style="background-color: white;">&nbsp;You can specify that
+            special styling be applied for certain media types.</li>
+        </ul>
+        <ul>
+          <li style="background-color: white;">To use a special style sheet
+            for one media type, specify it in the <i>link</i> element. For
+            example, to load a special style sheet for mobile devices, use a <i>link</i>
+            like this:<br>
+            <code>&lt;link href="mobile.css" media="handheld" /&gt;<br>
+                <br>
+              </code>
+          </li>
+        </ul>
+        <ul>
+          <li style="background-color: white;">You can specify styling for
+            multiple media types:<br>
+            <code>&lt;link href="mobile.css" media="speech, braille" /&gt;<br>
+                <br>
+              </code>
+          </li>
+          <li style="background-color: white;">You can also specify an
+            embedded style be used for a specific media type:<br>
+            <code>&lt;style media="handheld"&gt;<br>
+                &nbsp;&nbsp; /* style rules go here */<br>
+                &lt;/style&gt;<br>
+              </code> <br>
+          </li>
+        </ul>
+        <ul>
+          <li style="background-color: white;">Tutorial: <a href="https://www.w3schools.com/TAGS/att_media.asp"
+              target="_blank">W3Schools,
+              HTML <i>media </i>Attribute <br>
+              <br>
+            </a></li>
+        </ul>
+        <li><u>Define CSS style rules based on media type</u>. </li>
+        <ul>
+          <li>Instead of having multiple style sheets, you can define certain
+            rules within your style sheet be used only for specific media
+            types.</li>
+        </ul>
+        <ul>
+          <li>CSS <i>@media </i>rule</li>
+          <ul>
+            <li>Put all the rules to be used for a particular media type (or
+              types) inside the <i>@media</i> rule's curly braces. For
+              example:<br>
+              <code>@media handheld {<br>
+                  &nbsp;&nbsp; body {<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-size: 8px;<br>
+                  &nbsp;&nbsp; }<br>
+                  &nbsp;&nbsp; h1 {<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-size: 10px;<br>
+                  &nbsp;&nbsp; }<br>
+                  }<br>
+                </code>
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li>Try it: <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">W3Schools,
+              CSS @Media Rule&nbsp;</a></li>
+        </ul>
+        <ul>
+        </ul>
+        <ul>
+          <li>The <i>@media</i> rule is one of several CSS at-rules</li>
+          <ul>
+            <li>at-rules are CSS rules that don't have a selector</li>
+            <li>Some at-rules are conditional<br>
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+            <li>Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule" target="_blank">MDN,
+                at-rule</a></li>
+          </ul>
+        </ul>
+      </ul>
+    </article>
+    <article id="topic8">
+      <p><u><b>Print Styling<br>
+          </b></u></p>
+      <ul>
+        <li><u>CSS @page rule</u></li>
+        <ul>
+          <li>For printing, CSS has a special box-model that has two areas:
+            page content and <i>margin</i></li>
+        </ul>
+        <ul>
+          <li>Use the <i>@page</i> rule to selectively apply style properties
+            for printing<i>.</i> For example use this rule to set the page
+            content size and the margin:<br>
+            <code>@page&nbsp; {<br>
+                &nbsp;&nbsp; size: 8.5in 11in portrait;<br>
+                &nbsp;&nbsp; margin: 0.5in;<br>
+                }<br>
+              </code>
+          </li>
+        </ul>
+        <li><u>CSS <i>page-break</i> property</u></li>
+        <ul>
+          <li>Control page breaks using:&nbsp;</li>
+        </ul>
+        <ul>
+          <ul>
+            <li><i>page-break-before: type </i>or<i> page-break-after: type<br>
+              </i>where type can be:</li>
+            <ul>
+              <li><i>always</i></li>
+              <li><i>avoid</i></li>
+              <li><i>left</i></li>
+              <li><i>right</i></li>
+              <li><i>inherit</i></li>
+              <li><i>auto<br>
+                </i></li>
+            </ul>
+            <li><i>page-break-inside: type<br>
+              </i>where type can be:</li>
+          </ul>
+          <ul>
+            <ul>
+              <li>avoid</li>
+              <li>inherit</li>
+              <li>auto</li>
+            </ul>
+          </ul>
+          <li>Example (assume this rule is in a special style sheet for
+            printing)<br>
+            <code>section {<br>
+                &nbsp;&nbsp; page-break-after: always;<br>
+                &nbsp;&nbsp; page-break-inside: avoid;<br>
+                }</code>
+          </li>
+          <ul>
+          </ul>
+        </ul>
+        <ul>
+        </ul>
+      </ul>
+    </article>
+    <article id="topic9">
+      <p><u><b>Using Viewports<br>
+          </b></u></p>
+      <ul>
+        <li>A visual viewport is a rectangular region defined for a web page.
+          There can be different visual viewport definitions for different
+          kinds of devices:</li>
+        <ul>
+          <li>Desktop computer screen - the whole page</li>
+          <li>Printed material - the page-box</li>
+          <li>Mobile devices - some region smaller than the whole page</li>
+          <ul>
+            <li>The visual viewport shows a portion of the page and users can
+              pan around inside the page to see different parts</li>
+            <li>The mobile browser (Safari on an iPad or iPhone, Chrome on an
+              Android) sets the visual viewport size</li>
+          </ul>
+          <li>The <i>viewport</i> <i>meta</i> element</li>
+          <li>Syntax: <i>&lt;meta name="viewport" content="properties" /&gt;</i></li>
+          <li>Example:<i><br>
+              <code>&lt;meta</code></i><code> name="viewport"
+                content="width=device-width, initial-scale=1.0,
+                maximum-scale=1.0" /&gt;</code><i><code><br>
+                  <br>
+                </code></i></li>
+        </ul>
+        <li>A layout viewport contains the complete page</li>
+      </ul>
+    </article>
+    <article id="topic10">
+      <p><u><b>Create a Media Query<br>
+          </b></u></p>
+      <ul>
+        <li>The CSS3 media rule and HTML5 media attribute can have a "query"
+          added to them so that they apply to not just certain devices, but
+          also to certain media sizes or types.</li>
+        <li><i>@media</i> style rule example:<br>
+          <i><code>@media </code></i><code>screen and (max-width: 700px) {<br>
+              &nbsp;&nbsp; /* style properties go here */<br>
+              }</code>
+        </li>
+        <li><i>media</i> HTML attribute example:<br>
+          <code>&lt;link href="mobile2.css" media="screen and (device-width:
+              700px)" </code><code>/&gt;</code><br>
+        </li>
+        <li>Note:Today's mobile devices can have very high pixel count. My
+          Nexus 6P has a screen with 1440 X 2560 pixels</li>
+      </ul>
+    </article>
+    <article id="topic11">
+      <p><u><b>Create Styles for Mobile Devices<br>
+          </b></u></p>
+      <ul>
+      </ul>
+      <ul>
+        <li>You can create special style sheets or rules for portrait and
+          landscape orientations of mobile devices. Determination of
+          orientation is based on the aspect ratio of the screen, not on
+          actual rotation of the device, so you can simulate this by adjusting
+          the size of a desktop browser.</li>
+        <ul>
+          <li>Example with @media CSS rule:<br>
+            <code>@media screen and (orientation: landscape) {<br>
+                &nbsp;&nbsp; /* style rules for landscape orientation go here */<br>
+                } </code>
+          </li>
+        </ul>
+        <ul>
+          <li>Example with media HTML attribute:<br>
+            <code>&lt;link href="landscape.css" media="screen and (max-width:
+                700px)" /&gt;</code>
+          </li>
+          <br>
+          <li>This page has embedded styles that change the background color
+            of the page based on size and orientation.</li>
+        </ul>
+      </ul>
+      <ul>
+      </ul>
+    </article>
+  </section>
+</body>
+
+</html>

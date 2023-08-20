@@ -1,0 +1,6 @@
+line,requiredElements1,requiredElements2,requiredCssSelectors,requiredCssProperties,settings
+1,header,title,footer,grid-template-areas,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/Lab06/CIS195_Su23Lab6Submissions
+2,footer,,nav,grid-area," G:/My Drive/Courses/CIS195/2023-Summer/Lab06/CIS195_Su23Lab6Submissions"
+3,title,,header,display: grid,Lab06
+4,a,,,display: flex,1
+5,link[href][rel='stylesheet'],,,,

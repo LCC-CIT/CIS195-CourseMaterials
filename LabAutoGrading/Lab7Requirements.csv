@@ -1,0 +1,14 @@
+line,requiredElements1,requiredElements2,requiredCssSelectors,requiredCssProperties,settings
+1,title,title,,border,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/Lab07/CIS195_Su23Lab7Submissions
+2,table,table,,background-color, G:/My Drive/Courses/CIS195/2023-Summer/Lab07/CIS195_Su23Lab7Submissions
+3,tr,tr,,text,Lab07
+4,th,th,,,1
+5,td,td,,,
+6,caption,,,,
+7,td[rowspan],,,,
+8,td[colspan],,,,
+9,thead,,,,
+10,tbody,,,,
+11,tfoot,,,,
+12,colgroup,,,,
+13,col,,,,
