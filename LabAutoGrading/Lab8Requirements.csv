@@ -1,0 +1,12 @@
+line,requiredElements1,requiredElements2,requiredCssSelectors,requiredCssProperties,settings
+1,title,,,background-color,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/Lab08/CIS195_Su23Lab8Submissions
+2,header,,,, G:/My Drive/Courses/CIS195/2023-Summer/Lab08/CIS195_Su23Lab8Submissions
+3,h1,,,,Lab08
+4,input[name][id],,,,1
+5,input[type='tel'],,,,
+6,input[type='submit'],,,,
+7,textarea,,,,
+8,fieldset,,,,
+9,legend,,,,
+10,label[for],,,,
+11,footer,,,,

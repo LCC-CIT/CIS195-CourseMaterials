@@ -4,6 +4,7 @@ import path from "path";
 import fetch from "node-fetch";
 import { JSDOM } from "jsdom";
 import * as cssTree from "css-tree";
+import os from "os";
 
 /* Location of the files downloaded from Moodle and unzipped */
 // Windows path:  G:/My Drive/Courses/CIS195/2023-Summer/LabXX/CIS195_Su23LabXSubmissions
@@ -36,35 +37,45 @@ const requiredCssProperties = [];
 /****************/
 /* Main program */
 /****************/
-loadRequirements();
-// Loop through all student subdirectories at the submissionsPath with dirs containing unzipped files
-// studentDir will have a name like TyTitan_file
-for (const studentDir of fs
-    .readdirSync(submissionsPath)
-    .filter((dir) => !dir.startsWith(".") && dir.endsWith("_file"))) {
-    // skip if studentDir contains a file ending in _report.txt
-    if (
-        fs
-            .readdirSync(path.join(submissionsPath, studentDir))
-            .find((file) => file.endsWith("_report.txt"))
-    ) {
-        console.log(
-            `Skipping ${studentDir} directory because it contains a report file`
-        );
-        continue;
+const param = process.argv[2];
+let overwrite = false;
+console.log(`param = ${param}`);
+if (param === "--help" || param === undefined) {
+    console.log("Usage: node myScript.js requirementsFileName.csv [options]");
+    console.log("There is currently only one option:");
+    console.log("--help\t\tDisplay this help message");
+} else {
+    if (process.argv[3] === "--overwrite") {
+        overwrite = true;  // overwrite _report.txt files
+        console.log("Overwriting report files");
     }
-    let message = `Checking the ${studentDir} directory`;
-    console.log(message);
-
-    let studentReport = message + "\n"; // Report of the checks of the files for this student
-    studentReport = await CheckLabFiles(studentDir, studentReport);
-    studentReport += "\n";
-    // write the report to a file
-    fs.writeFileSync(
-        path.join(submissionsPath, studentDir, `${studentDir}_report.txt`),
-        studentReport
-    );
-    console.log(studentReport);
+    loadRequirements(param);
+    // Loop through all student subdirectories at the submissionsPath with dirs containing unzipped files
+    // studentDir will have a name like TyTitan_file
+    for (const studentDir of fs
+        .readdirSync(submissionsPath)
+        .filter((dir) => !dir.startsWith(".") && dir.endsWith("_file"))) {
+        // skip if studentDir contains a file ending in _report.txt
+        if (fs.readdirSync(path.join(submissionsPath, studentDir))
+            .find((file) => file.endsWith("_report.txt"))
+            && !overwrite
+        ) {
+            console.log(
+                `Skipping ${studentDir} directory because it contains a report file`
+            );
+            continue;
+        }
+        let message = `Checking the ${studentDir} directory`;
+        let studentReport = message + "\n"; // Report of the checks of the files for this student
+        studentReport += await CheckLabFiles(studentDir);
+        studentReport += "\n";
+        // write the report to a file
+        fs.writeFileSync(
+            path.join(submissionsPath, studentDir, `${studentDir}_report.txt`),
+            studentReport
+        );
+        console.log(studentReport);
+    } // if param was not --help
 } // End of for loop through student directories
 // end of main program
 
@@ -72,30 +83,35 @@ for (const studentDir of fs
 /*************************************/
 /* Load requirements from a csv file */
 /*************************************/
-function loadRequirements() {
-    const data = fs.readFileSync("Lab7Requirements.csv");
-    csv()  // the .on functions set up lisetners
-        .on("data", (row) => {
-            if (row.requiredElements1) {
-                requiredElements1.push(row.requiredElements1);
-            }
-            if (row.requiredElements2) {
-                requiredElements2.push(row.requiredElements2);
-            }
-            if (row.requiredCssSelectors) {
-                requiredCssSelectors.push(row.requiredCssSelectors);
-            }
-            if (row.requiredCssProperties) {
-                requiredCssProperties.push(row.requiredCssProperties);
-            }
-            if (row.settings) {
-                settings.push(row.settings);
-            }
-        })
-        .on("error", (error) => {
-            console.error(error);
-        })
-        .write(data);  // this sends data to the parser
+function loadRequirements(requirementsFileName) {
+    try {
+        const data = fs.readFileSync(requirementsFileName);
+        csv()  // the .on functions set up lisetners
+            .on("data", (row) => {
+                if (row.requiredElements1) {
+                    requiredElements1.push(row.requiredElements1);
+                }
+                if (row.requiredElements2) {
+                    requiredElements2.push(row.requiredElements2);
+                }
+                if (row.requiredCssSelectors) {
+                    requiredCssSelectors.push(row.requiredCssSelectors);
+                }
+                if (row.requiredCssProperties) {
+                    requiredCssProperties.push(row.requiredCssProperties);
+                }
+                if (row.settings) {
+                    settings.push(row.settings);
+                }
+            })
+            .on("error", (error) => {
+                console.error(error);
+            })
+            .write(data);  // this sends data to the csv parser
+    }
+    catch (error) {
+        console.error(`Error reading requirements file ${requirementsFileName}: ${error.message}`);
+    }
 
     // Get settings from the settings array
     if (process.platform === "win32") {
@@ -111,9 +127,10 @@ function loadRequirements() {
 /* checkLabFiles function                                                          */
 /* Checks all folders and files submitted by one student                           */
 /***********************************************************************************/
-async function CheckLabFiles(studentDir, report) {
+async function CheckLabFiles(studentDir) {
+    let report = "";
     // Check part 1
-    report = await checkSubFolder(
+    report += await checkSubFolder(
         0,
         submissionsPath,
         studentDir,
@@ -160,8 +177,9 @@ async function checkSubFolder(
         } // There is only one subfolder unless this is from Mac OS and has a _MACOSX folder.
         else {
             labPartDir = fs
-                .readdirSync(path.join(submissionsPath, studentDir))
-                .find((dir) => !dir.startsWith("_") && !dir.startsWith("."));
+                .readdirSync(path.join(submissionsPath, studentDir), { withFileTypes: true })
+                .find(dirent => dirent.isDirectory() && !dirent.name.startsWith("_") && !dirent.name.startsWith("."))
+                .name;  // returns name of first valid dir found
         }
         const labDirPath = path.join(submissionsPath, studentDir, labPartDir);
 
@@ -169,6 +187,8 @@ async function checkSubFolder(
             labDirPath,
             labPartDir,  // TODO: Why isn't this being used?
             requiredElements,
+            requiredCssSelectors,
+            requiredCssProperties,
             report
         );
     } catch (error) {
@@ -186,6 +206,8 @@ async function checkSubmission(
     labDirPath,
     labDir,
     requiredElements = [],
+    requiredSelectors = [],
+    requiredProperties = [],
     report
 ) {
     let message = ""; // Individual message
@@ -248,6 +270,7 @@ async function checkSubmission(
                     foundElements.push(element);
                 }
             } // end looping through requiredElements
+
             // Get embedded css out of the html file
             let styleElement = dom.window.document.querySelector("style");
             if (styleElement !== null) {
@@ -266,6 +289,21 @@ async function checkSubmission(
                         foundProperties.push(node.property);
                     }
                 });
+            }
+
+            // Get elements with inline styles from the html file
+            const elements = dom.window.document.querySelectorAll("[style]");
+            // Get the CSS property names from each of the element's inline styles
+            for (const element of elements) {
+                const inlineStyle = element.getAttribute("style");
+                if (inlineStyle !== null) {
+                    // Extract all property names from the inline style rule using a regular expression
+                    const propertyRegex = /([\w-]+)\s*:/g;
+                    let match; // array with capture group of matched property name
+                    while ((match = propertyRegex.exec(inlineStyle)) !== null) {
+                        foundProperties.push(match[1]);
+                    }
+                }
             }
         }
         else // File is a css file
@@ -290,10 +328,14 @@ async function checkSubmission(
     } // end looping through files in labDirPath
     // TODO: Make separate checks for each part of the lab
     // compare foundElements to requiredElements and log any missing elements
-    report = checkForRequiredElements(requiredElements, foundElements, report);
+    report = checkForRequiredElements(foundElements, requiredElements, report);
     // TODO: combine the following two functions into one and check for properties in specific selectors.
-    report = checkForRequiredSelectors(requiredCssSelectors, foundSelectors, report);
-    report = checkForRequiredProperties(requiredCssProperties, foundProperties, report);
+    if (requiredCssSelectors.length > 0) {
+        report = checkForRequiredSelectors(foundSelectors, requiredSelectors, report);
+    }
+    if (requiredCssProperties.length > 0) {
+        report = checkForRequiredProperties(foundProperties, requiredProperties, report);
+    }
     return report;
 } // End of checkSubmission function
 
@@ -317,12 +359,13 @@ async function validateHTML(fileContents, fileName) {
 
         // Check for any errors
         if (validationMessages.length > 0) {
-            // Loop through all the errors and log them to the console
+            // Loop through all the errors and log them
             for (const validationMessage of validationMessages) {
                 message = `${validationMessage.type} error found on line ${validationMessage.lastLine} column ${validationMessage.lastColumn}: ${validationMessage.message}`;
                 console.log(message);
                 report += message + `\n`;
             }
+            report += os.EOL; // add a blank line after the errors
         } else {
             message = `No errors found in ${fileName}`;
             //console.log(message);
@@ -356,6 +399,7 @@ async function validateCSS(fileContents, fileName) {
                 const messageText = message.textContent.trim();
                 report += `${fileName}: ${messageText}\n`;
             }
+            report += os.EOL; // add a blank line after the errors
         }
     } else {
         console.error("Error: Invalid response");
@@ -366,20 +410,19 @@ async function validateCSS(fileContents, fileName) {
 /************************************/
 /* Check for required html elements */
 /************************************/
-function checkForRequiredElements(foundElements, requiredElements, labDir) {
-    let report = "";
+function checkForRequiredElements(foundElements, requiredElements, report) {
     const missingElements = requiredElements.filter(
         (element) => !foundElements.includes(element)
     );
     if (missingElements.length > 0) {
-        const message = `Missing ${missingElements.length} required elements in ${labDir}`;
+        const message = `Missing ${missingElements.length} required elements`;
         report += message + `\n`;
         for (const element of missingElements) {
             const message = `Missing ${element} element`;
             report += message + `\n`;
         }
     } else {
-        const message = `All required elements found in ${labDir}`;
+        const message = `All required elements found`;
         report += message + `\n`;
     }
     return report;
@@ -389,7 +432,7 @@ function checkForRequiredElements(foundElements, requiredElements, labDir) {
 /* Check for required css selectors */
 /************************************/
 // Todo - combine this function with checkForRequiredElements into one function
-function checkForRequiredSelectors(requiredSelectors, foundSelectors, report) {
+function checkForRequiredSelectors(foundSelectors, requiredSelectors, report) {
     const missingSelectors = requiredSelectors.filter(
         (selector) => !foundSelectors.includes(selector)
     );
@@ -411,7 +454,7 @@ function checkForRequiredSelectors(requiredSelectors, foundSelectors, report) {
 /* Check for required css properties */
 /*************************************/
 // TODO: combine this function with checkForRequiredElements/Selectors into one function
-function checkForRequiredProperties(requiredProperties, foundProperties, report) {
+function checkForRequiredProperties(foundProperties, requiredProperties, report) {
     const missingProperties = requiredProperties.filter(
         (property) => !foundProperties.includes(property)
     );
