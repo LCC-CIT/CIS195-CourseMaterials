@@ -1,0 +1,6 @@
+line,requiredElements1,requiredElements2,requiredCssSelectors,requiredCssProperties,settings
+1,title,,,,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/Lab03/CIS195_Su23Lab3Submissions
+2,nav a[href],,,, G:/My Drive/Courses/CIS195/2023-Summer/Lab03/CIS195_Su23Lab3Submissions
+3,a[href^='#'],,,,Lab03
+4,a[href] > img,,,,1
+5,a[href^='mailto'],,,,

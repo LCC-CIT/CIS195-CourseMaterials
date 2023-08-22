@@ -1,0 +1,13 @@
+line,requiredElements1,requiredElements2,requiredCssSelectors,requiredCssProperties,settings
+1,title,,,,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/Lab02/CIS195_Su23Lab2Submission
+2,a[href],,,, G:/My Drive/Courses/CIS195/2023-Summer/Lab02/CIS195_Su23Lab2Submission
+3,figure > img,,,,Lab02
+4,figure > figcaption,,,,1
+5,img[alt],,,,
+6,hr,,,,
+7,blockquote,,,,
+8,li,,,,
+9, ol ol,,,,
+10, ul ul,,,,
+11, ul ol,,,,
+12, ol ul,,,,
