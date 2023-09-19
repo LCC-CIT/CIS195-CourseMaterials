@@ -1,13 +1,13 @@
 <h1>Syllabus for Web Authoring 1: HTML</h1>
 
-<h2>Fall 2022 Online and HyFlex class sections</h2>
+<h2>Fall 2023 Online and Hybrid class sections</h2>
 
 |           | Class Info                                                   |      |              | Instructor Info                                              |
 | --------- | ------------------------------------------------------------ | ---- | ------------ | ------------------------------------------------------------ |
 | Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
-| CRN       | hyflex: 21300, online: 20846                                 |      | Email        | birdb@lanecc.edu                                             |
-| Time, Day | 10:00–11:50, Tu & Th                                         |      | Office       | Building 19, room 152                                        |
-| Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/99487864515) |      | Office Hours | M&mdash;Th, 12:00&ndash;12:50 <br />CIT Computer Lab, rm 135<br />[Zoom meeting](https://lanecc.zoom.us/j/94159665543) |
+| CRN       | hybrid: 21647, online: 21346                                 |      | Email        | birdb@lanecc.edu                                             |
+| Time, Day | 12:00–1:50pm, Tu & Th                                        |      | Office       | Building 19, room 152                                        |
+| Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97010574746) |      | Office Hours | M, W 12:00&ndash;12:50 <br />T, Th  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/93774726097) |
 
 
 
@@ -28,7 +28,7 @@ The intention of the course is to enable you to create and maintain static pages
 
 ### Effort
 
-Since this is a four-credit class, students will need to devote at least 12 hours per week to the class.
+Since this is a four-credit class, students will need to devote at approximately 12 hours per week to the class.
 
 - 4 hours for class participation.
 - 2 hours for reading (lecture notes and tutorials).
@@ -82,13 +82,13 @@ In addition to the tutors available in the CIT computer lab, there is tutoring a
 
 If you plan to do lab work somewhere other than in the classroom or the CIT Computer Lab, you will need: 
 
-- "Office" software for Word processing, spreadsheets, slides, etc., such as [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff), [LibreOffice](http://www.libreoffice.org) or [Google Docs](https://docs.google.com).
+- "Office" software for Word processing such as [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff), [LibreOffice](http://www.libreoffice.org) or [Google Docs](https://docs.google.com).
 
 - A code (text) editor to create your web pages.  [Visual Studio Code](https://code.visualstudio.com) is a free code editor that can be downloaded via the internet and used on Windows, Mac OS or Linux. Alternatively, you can use TextWrangler on Mac OS, or Notepad++ on Windows.
 
 - Software that can be used to manipulate images such as the <u>Windows Paint</u> program (included in Windows). Mac users can use the <u>Preview</u> app (included in MacOS), but it just barely meets the needs of this class. 
 
-  Most other full-featured image editing apps such as Adobe Photoshop (not free), or [Gimp](https://www.gimp.org/) (a free, cross-platform, clone of Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
+  Most other full-featured image editing apps such as Adobe Photoshop (not free), or [Gimp](https://www.gimp.org/) (a free, cross-platform, semi-clone of Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
 
 - At least two modern browsers to view/test your web pages.  The latest versions of [Chrome](https://www.google.com/chrome/), and [Firefox](https://www.mozilla.org/en-US/firefox/new/) can be downloaded for free.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
 
@@ -103,12 +103,12 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 Specific grading criteria will be applied to each of the labs, quizzes, and exams you will be working on in this class. Part of the lab involves a code review. Attendance is not graded.
 
-| Assessment Activities                     | Percentage of grade |
-| ----------------------------------------- | ------------------- |
-| Labs 1-8, 50 points each:                 | 40%                 |
-| Quizzes 1-8,  10 points each              | 8%                  |
-| Midterm and Final Exams,  125 points each | 25%                 |
-| Project, 270 points                       | 27%                 |
+| Assessment Activities                            | Percentage of grade |
+| ------------------------------------------------ | ------------------- |
+| Labs 1&ndash;8, 50 points each:                  | 40%                 |
+| Quizzes 1&ndash;8,  10 points each               | 8%                  |
+| Midterm (100 points) and Final Exam (150 points) | 25%                 |
+| Project, 270 points                              | 27%                 |
 
 
 Letter grades for the course will be determined by the following percentages:              
@@ -123,10 +123,7 @@ Letter grades for the course will be determined by the following percentages:
 
 ### Late Work
 
-- Lab Assignments:
-  -  Lab assignments 1–4 must be submitted before the midterm.
-  - Lab assignments 4–8 must be submitted before the final.
-  - The grade for assignments submitted after the due date will be reduced by 10%. 
+- The grade for lab assignments submitted after the due date will be reduced by 10%. 
 - Quizzes and exams cannot be taken after the due date except in emergency situations.
 
 Exceptions will only be made for serious illness or emergency situations. 
@@ -166,16 +163,16 @@ Please be aware that any accessible tables and chairs in this room should remain
 
 
 
-## Academic Calendar for Fall Term 2022
+## Academic Calendar for Fall Term 2023
 
-| Event                                              | Date          |
-| -------------------------------------------------- | ------------- |
-| Fall term classes begin                            | 9/27          |
-| Last day to receive refund                         | 10/3          |
-| Veteran’s Day – college closed on Friday           | 11/11         |
-| Last day for schedule changes                      | 11/18         |
-| Thanksgiving Vacation – college closed on Thursday | 11/24 – 11/27 |
-| Finals week                                        | 12/5 – 12/9   |
+| Event                                                        | Date              |
+| ------------------------------------------------------------ | ----------------- |
+| Fall term classes begin                                      | 9/26  Tuesday     |
+| Last day to receive refund                                   | 10/2 Monday       |
+| Veteran’s Day&mdash;college closed                           | 11/10 Friday      |
+| Last day for schedule changes                                | 11/17 Friday      |
+| Thanksgiving Vacation – college closed on Thursday and Friday | 11/23&ndash;11/26 |
+| Final exam                                                   | 12/5 Tuesday      |
 
 View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.
 
@@ -185,19 +182,19 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 
 (Tentative, may be subject to change)
 
-| Week | Topics                                                       | Quiz    | Lab Assignment                                               |
-| ---- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
-| 1    | Syntax of HTML tags and attributes  Structural elements, line breaks Unordered and ordered lists Text formatting (bold, italic, etc.) Images | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                         |
-| 2    | History of the Internet, the Web, and HTML Semantic elements CSS  JavaScript  Special characters Using a code editor Using a HTML validator | Quiz 2  | Lab 2                                                        |
-| 3    | Developing a Web Site                                        | Quiz 3  | Lab 3                                                        |
-| 4    | CSS Page Design                                              | Quiz 4  | Lab 4                                                        |
-| 5    | Publishing a web site using FTP                              | Midterm | Term Project Proposal                                        |
-| 6    | CSS Page Layout                                              | Quiz 5  | Lab 5                                                        |
-| 7    | HTML Tables                                                  | Quiz 6  | Lab 6                                                        |
-| 8    | HTML Forms                                                   | Quiz 7  | Lab 7                                                        |
-| 9    | Multimedia (images, audio and video)<br />*Thanksgiving holiday on Thursday* | Quiz 8  | Lab 8                                                        |
-| 10   | Review                                                       |         | Term project [peer review](TermProject/TermProjectCodeReview.docx) |
-| 11   | Finals week                                                  | Final   | Submit [Term Project](TermProject/CIS195TermProject.pdf)     |
+| Week          | Topics                                                       | Quiz    | Lab Assignment                                               |
+| ------------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
+| 1<br />9/26   | Syntax of HTML tags and attributes  Structural elements, line breaks Unordered and ordered lists Text formatting (bold, italic, etc.) Images | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                         |
+| 2<br />10/3   | History of the Internet, the Web, and HTML Semantic elements CSS  JavaScript  Special characters Using a code editor Using a HTML validator | Quiz 2  | Lab 2                                                        |
+| 3<br />10/9   | Developing a Web Site                                        | Quiz 3  | Lab 3                                                        |
+| 4<br />10/16  | CSS Page Design                                              | Quiz 4  | Lab 4                                                        |
+| 5<br />10/23  | Publishing a web site using FTP                              | Midterm | Term Project Proposal                                        |
+| 6<br />10/30  | CSS Page Layout                                              | Quiz 5  | Lab 5                                                        |
+| 7<br />11/6   | HTML Tables                                                  | Quiz 6  | Lab 6                                                        |
+| 8<br />11/13  | HTML Forms                                                   | Quiz 7  | Lab 7                                                        |
+| 9<br />11/20  | Multimedia (images, audio and video)<br />*Thanksgiving holiday on Thursday* | Quiz 8  | Lab 8                                                        |
+| 10<br />11/27 | Review                                                       |         | Term project [peer review](TermProject/TermProjectCodeReview.docx) |
+| 11<br />12/5  | Finals week                                                  | Final   | Submit [Term Project](TermProject/CIS195TermProject.pdf)     |
 
 
 
