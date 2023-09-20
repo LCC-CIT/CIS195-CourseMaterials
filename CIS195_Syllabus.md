@@ -182,19 +182,19 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 
 (Tentative, may be subject to change)
 
-| Week          | Topics                                                       | Quiz    | Lab Assignment                                               |
-| ------------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
-| 1<br />9/26   | Syntax of HTML tags and attributes  Structural elements, line breaks Unordered and ordered lists Text formatting (bold, italic, etc.) Images | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                         |
-| 2<br />10/3   | History of the Internet, the Web, and HTML Semantic elements CSS  JavaScript  Special characters Using a code editor Using a HTML validator | Quiz 2  | Lab 2                                                        |
-| 3<br />10/9   | Developing a Web Site                                        | Quiz 3  | Lab 3                                                        |
-| 4<br />10/16  | CSS Page Design                                              | Quiz 4  | Lab 4                                                        |
-| 5<br />10/23  | Publishing a web site using FTP                              | Midterm | Term Project Proposal                                        |
-| 6<br />10/30  | CSS Page Layout                                              | Quiz 5  | Lab 5                                                        |
-| 7<br />11/6   | HTML Tables                                                  | Quiz 6  | Lab 6                                                        |
-| 8<br />11/13  | HTML Forms                                                   | Quiz 7  | Lab 7                                                        |
-| 9<br />11/20  | Multimedia (images, audio and video)<br />*Thanksgiving holiday on Thursday* | Quiz 8  | Lab 8                                                        |
-| 10<br />11/27 | Review                                                       |         | Term project [peer review](TermProject/TermProjectCodeReview.docx) |
-| 11<br />12/5  | Finals week                                                  | Final   | Submit [Term Project](TermProject/CIS195TermProject.pdf)     |
+| Week                     | Topics                                                       | Quiz    | Lab Assignment                                               |
+| ------------------------ | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
+| 1<br />9/26<br />9/28    | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                         |
+| 2<br />10/3<br />10/5    | *More HTML Elements*<br />History of the internet<br />More HTML, File Paths | Quiz 2  | Lab 2                                                        |
+| 3<br />10/10<br />10/12  | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3  | Lab 3                                                        |
+| 4<br />10/17<br 10/19    | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4  | Lab 4                                                        |
+| 5<br />10/24<br />10/26  | *Midterm Quiz*<br />Multimedia (images, audio and video)     | Midterm | Term Project Proposal                                        |
+| 6<br />10/31<br />11/2   | *CSS Page Layout* <br />Box model<br />FlexBox, Grid, Floats | Quiz 5  | Lab 5                                                        |
+| 7<br />11/7<br />11/9    | *HTML Tables*<br />HTML Tables<br />Table Styling with CSS   | Quiz 6  | Lab 6                                                        |
+| 8<br />11/14<br />11/16  | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7  | Lab 7                                                        |
+| 9<br />11/21             | Multimedia (images, audio and video)<br />*Thanksgiving holiday on Thursday* | Quiz 8  | Lab 8                                                        |
+| 10<br />11/28<br />11/30 | Review                                                       |         | Term project [peer review](TermProject/TermProjectCodeReview.docx) |
+| 11<br />12/5             | Final Quiz                                                   | Final   | Submit [Term Project](TermProject/CIS195TermProject.pdf)     |
 
 
 
