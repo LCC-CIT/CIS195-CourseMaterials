@@ -414,6 +414,7 @@ function checkForRequiredElements(foundElements, requiredElements, report) {
     const missingElements = requiredElements.filter(
         (element) => !foundElements.includes(element)
     );
+    // TODO: diffrentiate between missing elements and missing attributes
     if (missingElements.length > 0) {
         const message = `Missing ${missingElements.length} required elements`;
         report += message + `\n`;
