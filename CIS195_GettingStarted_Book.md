@@ -10,7 +10,7 @@ Welcome to this class!
 
 In order to create web pages for this class, you will need access to a computer that can run a code editor like [Visual Studio Code](https://code.visualstudio.com/) (pretty much any computer can) and have a good internet connection.
 
-In order to be successful, you must devote at least 14 hours a week to learning activities. This includes 4 hours in class, participating in the Zoom live-stream, or watching recordings of the lectures; plus at least 10 hours studying and *having fun making web pages!*
+In order to be successful, you must devote at least 12 hours a week to learning activities. This includes 4 hours either: in class, on Zoom in real-time, or watching Zoom recordings; plus at least 8 hours studying and *having fun making web pages!*
 
 ------
 
@@ -18,14 +18,15 @@ In order to be successful, you must devote at least 14 hours a week to learning 
 
 To begin this course, please complete the following steps:
 
-1. Read every page of this Getting Started web page.
-2. Read every page of the [Syllabus](https://classes.lanecc.edu/mod/url/view.php?id=2334924).
+1. Read all of this Getting Started guide.
+2. Read the whole [Syllabus](https://classes.lanecc.edu/mod/url/view.php?id=2334924).
 3. Familiarize yourself with the cycle of [Weekly Learning Activities](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html#weekly_cycle).
 4. Post your personal introduction to the [Introductions Forum](https://classes.lanecc.edu/mod/hsuforum/view.php?id=2334926).
 5. Read the [Overview of Week One](https://classes.lanecc.edu/mod/page/view.php?id=2334929).
-6. Read/view the required resources for the first week of the course.
-7. Complete the activities for the first week.
-8. Repeat steps 5-7 for every week according to the course schedule.
+6. Look at the reading assignment for week 1.
+7. Participate in class in person, on Zoom, or by watching recordings.
+8. Complete the activities for week 1.
+9. Repeat steps 5-7 for every week according to the course schedule.
 
 If you have any course-specific questions, please ask them in the [Course Q & A Forum](https://classes.lanecc.edu/mod/hsuforum/view.php?id=2334927). For any other questions, support contact information can be found in the Support block.
 
@@ -45,10 +46,10 @@ If you have any course-specific questions, please ask them in the [Course Q & A 
 
 ## Skills You Will Need
 
-- Basic computer skills 
-- Experience navigating the Internet and using an Internet browser
-- Basic knowledge of formatting using a word processing program
-- Comfort working with multiple browser windows
+- Basic computer skills.
+- Experience navigating the Internet and using an Internet browser.
+- Basic knowledge of formatting using a word processing program.
+- Comfort working with multiple browser windows.
 
 ------
 
@@ -62,19 +63,9 @@ Moodle is the learning management system of the Lane Community College and the l
 
 ## Course Structure
 
-This course is broken into weekly modules. The modules start on Monday and end on the following Sunday. Every week is broken into three sections: Overview, Resources, and Activities.
+This course is broken into weekly sections. All the learning materials and activities (like quizzes) are available through the section for that week. Lab assignment instructions as well as the upload link are in the section for the week the lab assignment was given, not when it is due.
 
-### Overview
 
-Each week includes an overview page that is helpful to read before reviewing the resources and completing the assigned activities. 
-
-### Resources
-
-Resources will be listed under Required and Supplemental subheadings. The required resources are the basis for the weekly quiz. Supplemental resources are provided with additional information about the week's topics. 
-
-### Activities
-
-Activities are required unless they are specifically marked as optional. Activities include quizzes and lab assignments
 
 ------
 
