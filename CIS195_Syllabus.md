@@ -130,9 +130,9 @@ Exceptions will only be made for serious illness or emergency situations.
 
 ### Weekly Learning Cycle
 
-| Tuesday              | Wednesday      | Thursday                                                     | Friday        | Saturday | Sunday      |
-| -------------------- | -------------- | ------------------------------------------------------------ | ------------- | -------- | ----------- |
-| Participate in class | Start lab work | Participate in class <br /><br />Submit last week's lab assignment | Take the quiz |          | Quiz closes |
+| Monday                       | Tuesday                                               | Wednesday                         | Thursday                                                     |
+| ---------------------------- | ----------------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| Start the assigned  reading. | Participate in class (or watch the video recordings). | Start this week's lab assignment. | - Take the reading quiz.<br />- Participate in class. <br />- Submit last week's lab work. |
 
 
 
