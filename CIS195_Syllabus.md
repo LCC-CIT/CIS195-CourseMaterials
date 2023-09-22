@@ -1,11 +1,11 @@
 <h1>Syllabus for Web Authoring 1: HTML</h1>
 
-<h2>Fall 2023 Online and Hybrid class sections</h2>
+<h2>Fall 2023 hybrid and online class sections</h2>
 
 |           | Class Info                                                   |      |              | Instructor Info                                              |
 | --------- | ------------------------------------------------------------ | ---- | ------------ | ------------------------------------------------------------ |
 | Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
-| CRN       | hybrid: 21647, online: 21346                                 |      | Email        | birdb@lanecc.edu                                             |
+| CRN       | hybrid (on campus): 21647<br />online: 21346                 |      | Email        | birdb@lanecc.edu                                             |
 | Time, Day | 12:00–1:50pm, Tu & Th                                        |      | Office       | Building 19, room 152                                        |
 | Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97010574746) |      | Office Hours | M, W 12:00&ndash;12:50 <br />T, Th  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/93774726097) |
 
@@ -46,19 +46,17 @@ In addition to the topics listed in the [course schedule](#course-schedule), the
 
 ### Skills
 
-- Explain the development of HTML and demonstrate understanding of web page tags, anatomy, formatting as well as use of logical and physical tags.
+- Explain the development of HTML and demonstrate understanding of web page elements, anatomy, formatting as well as use of semantic and structural elements.
 
-- Effectively use: structural elements, anchor tags, relative and absolute links, e-mail links, tables, colors, image tags, multimedia, grid, flexbox, form elements and element groups, custom buttons.
+- Effectively use: anchor tags, relative and absolute links, e-mail links, tables, colors, horizontal rules, image tags, background images, image hyperlinks, forms and form tags, form elements and element groups, custom buttons.
 
-- Use cascading style sheet technology (CSS) to configure common page and text properties as well as for positioning of elements on a web page.
+- Use cascading style sheets (CSS) to configure common page and text properties as well as for positioning of elements on a web page.
 
 - Use an html validator and a CSS validator to ensure the correctness of web pages.
 
 - Use an FTP client to upload and manage files on a web server.
 
-- Discuss concepts, themes and issues orally and in writing.
-
-- Evaluate your own web site implementation work.  Evaluate the web site implementation work of other students and provide constructive feedback orally and in writing.
+- Evaluate your own web site implementation work.  Evaluate the web site implementation work of other students and provide constructive feedback in writing.
 
 - Respond appropriately to and assimilate feedback provided by other students and your instructor.
 
