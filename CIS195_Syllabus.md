@@ -48,7 +48,7 @@ In addition to the topics listed in the [course schedule](#course-schedule), the
 
 - Explain the development of HTML and demonstrate understanding of web page tags, anatomy, formatting as well as use of logical and physical tags.
 
-- Effectively use: structural elements, anchor tags, relative and absolute links, e-mail links, tables, colors, horizontal rules, image tags, background images, image hyperlinks, forms and form tags, form elements and element groups, custom buttons.
+- Effectively use: structural elements, anchor tags, relative and absolute links, e-mail links, tables, colors, image tags, multimedia, grid, flexbox, form elements and element groups, custom buttons.
 
 - Use cascading style sheet technology (CSS) to configure common page and text properties as well as for positioning of elements on a web page.
 
@@ -140,11 +140,15 @@ Exceptions will only be made for serious illness or emergency situations.
 
 ### Academic Honesty
 
-While students are encouraged to discuss labs and to use each other as resources, each student is responsible for his/her own work. In other words, you can help each other, but you can't copy any part of someone else's work. The end product must be each student's own individual work.
+While students are encouraged to discuss labs and to use each other as resources, each student is responsible for their own work. In other words, you can help each other, but you can't copy any part of someone else's work&mdash;this includes code you find on the internet. The end product must be each student's own individual work.
+
+### Generative AI
+
+Generative AI assistants like ChatGPT or GitHub Copilot are not to be used to write code for lab assignments or to answer questions on quizzes. It is appropriate to use an AI assistant to get information or explanations that help you do your work as long as it is not doing your work for you.
 
 ### Attendance
 
-Attendance is not a part of your grade, but it is essential that you log into Moodle at the beginning of every week to read the objectives for the week. Throughout the week, you will need to participate in live class sessions online or watch recordings of the lectures, and do the learning activities. 
+Attendance is not a part of your grade, but it is essential that you log into Moodle at the beginning of every week to read the objectives for the week. Throughout the week, you will need to participate in live class sessions online or watch recordings of the lectures and do the assignments. 
 
 **No-Show Drop:** LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy. which means that during the first week of the term, to avoid being dropped, a student must:
 
@@ -156,10 +160,16 @@ Attendance is not a part of your grade, but it is essential that you log into Mo
 
   
 
-## Accessibility and Accommodations: 
+## Accessibility and Accommodations
 
 If you need support or assistance because of a disability, you may be eligible for academic accommodations through Disability Services. For more information, contact Disability Services at 463-5150 (voice) or 463-3079 (TTY), or stop by building 1, room 218. 
 Please be aware that any accessible tables and chairs in this room should remain available for authorized students who find that standard classroom seating is not usable.
+
+
+
+## Student Health and Wellness Center
+
+This is a resource for students to get both their physical and mental health needs met. The Mental Health and Wellness Center and the Health Clinic are co-located in Bldg. 18, room 101 and together are the Student Health and Wellness Center. Mental health counseling is free for students and confidential. 
 
 
 
@@ -184,16 +194,16 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 
 | Week                     | Topics                                                       | Quiz    | Lab Assignment                                               |
 | ------------------------ | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
-| 1<br />9/26<br />9/28    | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                         |
+| 1<br />9/26<br />9/28    | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1  | Lab 1                                                        |
 | 2<br />10/3<br />10/5    | *More HTML Elements*<br />History of the internet<br />More HTML, File Paths | Quiz 2  | Lab 2                                                        |
 | 3<br />10/10<br />10/12  | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3  | Lab 3                                                        |
 | 4<br />10/17<br 10/19    | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4  | Lab 4                                                        |
-| 5<br />10/24<br />10/26  | *Midterm Quiz*<br />Multimedia (images, audio and video)     | Midterm | Term Project Proposal                                        |
-| 6<br />10/31<br />11/2   | *CSS Page Layout* <br />Box model<br />FlexBox, Grid, Floats | Quiz 5  | Lab 5                                                        |
-| 7<br />11/7<br />11/9    | *HTML Tables*<br />HTML Tables<br />Table Styling with CSS   | Quiz 6  | Lab 6                                                        |
+| 5<br />10/24<br />10/26  | *Midterm Quiz*<br />Midterm<br />Start Term Project          | Midterm | Term Project Proposal                                        |
+| 6<br />10/31<br />11/2   | *CSS Page Layout* <br />CSS Box Model<br />Floats            | Quiz 5  | Lab 5                                                        |
+| 7<br />11/7<br />11/9    | *More CSS Page Layout* <br />FlexBox<br />Grid               | Quiz 6  | Lab 6                                                        |
 | 8<br />11/14<br />11/16  | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7  | Lab 7                                                        |
-| 9<br />11/21             | Multimedia (images, audio and video)<br />*Thanksgiving holiday on Thursday* | Quiz 8  | Lab 8                                                        |
-| 10<br />11/28<br />11/30 | Review                                                       |         | Term project [peer review](TermProject/TermProjectCodeReview.docx) |
+| 9<br />11/21             | *Multimedia* <br />Images, audio and video<br />(Thanksgiving holiday on Thursday) | Quiz 8  | Lab 8                                                        |
+| 10<br />11/28<br />11/30 | *HTML Tables*<br />HTML Tables<br />Table Styling with CSS   | Quiz 9  | Lab 9<br />Term project [peer review](TermProject/TermProjectCodeReview.docx) |
 | 11<br />12/5             | Final Quiz                                                   | Final   | Submit [Term Project](TermProject/CIS195TermProject.pdf)     |
 
 
