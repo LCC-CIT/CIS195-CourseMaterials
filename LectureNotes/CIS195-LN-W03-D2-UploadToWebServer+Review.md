@@ -1,16 +1,63 @@
 ### CIS 195 Web Authoring 1: HTML
 
-#### Course Topics by Week
-
-|                                                  |                             |
-| ------------------------------------------------ | --------------------------- |
-| 1. Intro to HTML 5                               | 6. Page Layout with CSS     |
-| 2. More HTML 5                                   | 7. HTML Tables              |
-| 3. Developing a Web Site                         | 8. HTML Forms               |
-| 4. Styling with CSS                              | 9. Multimedia               |
-| <mark>5. Midterm Quiz / Publishing a site</mark> | 10. Review and Term Project |
-|                                                  | 11. Final Quiz              |
-
+<table hidden>
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Eight-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>5. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>6. HTML Tables</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>7. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>8. Multimedia, Final</td>
+    </tr>
+  </tbody>
+</table>
+<table >
+  <thead>
+    <tr>
+      <th colspan="2">Topics by Week for the Ten-Week Term</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Intro to HTML</td>
+      <td>6. Layout with CSS</td>
+    </tr>
+    <tr>
+      <td>2. More HTML, file paths</td>
+      <td>7. CSS Flexbox and Grid</td>
+    </tr>
+    <tr>
+      <td>3. Site structure and navigation</td>
+      <td>8. HTML Forms</td>
+    </tr>
+    <tr>
+      <td>4. Formatting with CSS</td>
+      <td>9. Multimedia</td>
+    </tr>
+    <tr>
+      <td>5. Midterm, Project Propposal</td>
+      <td>10. Tables, Project Completion</td>
+    </tr>
+      <tr>
+          <td></td>
+          <td>11. Final</td>
+      </tr>
+  </tbody>
+</table>
 
 
 # Midterm Review & Publishing to the Web

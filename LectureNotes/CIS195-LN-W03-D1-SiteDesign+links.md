@@ -10,7 +10,7 @@ author: Brian Bird
 
 <h1>Site Design and More on Hyperlinks</h1>
 
-<table>
+<table hidden>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Eight-Week Term</th>
@@ -35,8 +35,7 @@ author: Brian Bird
     </tr>
   </tbody>
 </table>
-
-<table hidden>
+<table >
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Ten-Week Term</th>
@@ -49,24 +48,26 @@ author: Brian Bird
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>7. HTML Tables</td>
+      <td>7. CSS Flexbox and Grid</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
       <td>8. HTML Forms</td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS, Midterm</td>
-      <td>9. Multimedia, Final</td>
+      <td>4. Formatting with CSS</td>
+      <td>9. Multimedia</td>
     </tr>
     <tr>
-      <td>5. Project Propposal, Midtern</td>
-      <td>10. Project Completion, Final</td>
+      <td>5. Midterm, Project Propposal</td>
+      <td>10. Tables, Project Completion</td>
     </tr>
+      <tr>
+          <td></td>
+          <td>11. Final</td>
+      </tr>
   </tbody>
 </table>
-
-
 
 <h2>Contents</h2>
 
@@ -143,8 +144,6 @@ Example:
 ```html
 <a href="https://lanecc.edu target="_blank">LCC Web Site</a>
 ```
-
-
 
 [W3Schools tutorial on the anchor element](https://www.w3schools.com/tags/tag_a.asp)
 
@@ -232,6 +231,14 @@ The `mailto` protocol  allows you to add information to the e-mail, including th
 ```
 
 [More about the href attribute on W3Schools](https://www.w3schools.com/tags/att_a_href.asp)
+
+
+
+## Reference
+
+[Creating Hyperlinks—MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+
+
 
 ****
 
