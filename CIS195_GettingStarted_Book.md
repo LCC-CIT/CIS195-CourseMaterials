@@ -1,4 +1,4 @@
-<h1>CIS195: Web Authoring 1</h1>
+<h1>CIS 195: Web Authoring 1: HTML</h1>
 
 <h2>Getting Started</h2>
 
@@ -19,16 +19,16 @@ In order to be successful, you must devote at least 12 hours a week to learning 
 To begin this course, please complete the following steps:
 
 1. Read all of this Getting Started guide.
-2. Read the whole [Syllabus](https://classes.lanecc.edu/mod/url/view.php?id=2334924).
+2. Read the whole [Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html).
 3. Familiarize yourself with the cycle of [Weekly Learning Activities](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html#weekly_cycle).
-4. Post your personal introduction to the [Introductions Forum](https://classes.lanecc.edu/mod/hsuforum/view.php?id=2334926).
-5. Read the [Overview of Week One](https://classes.lanecc.edu/mod/page/view.php?id=2334929).
+4. Post your personal introduction to the Moodle "Introductions Forum".
+5. Read the "Overview of Week" One on Moodle.
 6. Look at the reading assignment for week 1.
 7. Participate in class in person, on Zoom, or by watching recordings.
 8. Complete the activities for week 1.
 9. Repeat steps 5-7 for every week according to the course schedule.
 
-If you have any course-specific questions, please ask them in the [Course Q & A Forum](https://classes.lanecc.edu/mod/hsuforum/view.php?id=2334927). For any other questions, support contact information can be found in the Support block.
+If you have any course-specific questions, please ask them in the Moodle "Q & A Forum". For any other questions, support contact information can be found in the Support block.
 
 ------
 
@@ -57,7 +57,7 @@ If you have any course-specific questions, please ask them in the [Course Q & A 
 
 Moodle is the learning management system of the Lane Community College and the location where you will be able to view the content of your online courses. To learn more about Moodle and how it is used for Lane Community College courses, please review the course below:
 
-- [How to Moodle](https://classes.lanecc.edu/course/view.php?id=2637)
+- [How to Moodle](https://classes.lanecc.edu/course/view.php?id=73923)
 
 ------
 
@@ -75,9 +75,9 @@ All course communication (via e-mail, Moodle Messages, discussion forums, video 
 
 [The Core Rules of Netiquette](http://www.albion.com/netiquette/corerules.html) is a guide to the proper protocol for participating in online classes and writing emails.
 
-Questions about the course should be posted to the [Course Q & A Forum](https://classes.lanecc.edu/mod/hsuforum/view.php?id=2334927). Questions of a more personal nature, such as grades or extensions, should be sent to your instructor via e-mail. E-mails to your instructor or e-mails to another department regarding support issues should include your course number and section.
+Questions about the course should be posted to the Moodle "Q & A Forum". Questions of a more personal nature, such as grades or extensions, should be sent to your instructor via e-mail. E-mails to your instructor or e-mails to another department regarding support issues should include your course number and section.
 
-All course announcements will be posted by the instructor to the [News and Announcements](https://classes.lanecc.edu/mod/forum/view.php?id=2334925) Forum. Students are expected to check the News Forum on a daily basis. Any questions about News Forum announcements should be asked in the [Course Q & A Forum](https://classes.lanecc.edu/mod/hsuforum/view.php?id=2334927).
+All course announcements will be posted by the instructor to the Moodle "News and Announcements Forum". Students are expected to check the News Forum regularly. Any questions about News Forum announcements should be asked in the Q & A Forum.
 
 ------
 
