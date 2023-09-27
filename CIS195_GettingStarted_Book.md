@@ -37,12 +37,11 @@ If you have any course-specific questions, please ask them in the Moodle "Q & A 
 ## Software You Will Need
 
 - At least two modern Web Browsers like [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Chrome](https://www.google.com/chrome/).
-- [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files
-- [QuickTime](https://support.apple.com/downloads/quicktime) for viewing videos in your browser
-- [Adobe Flash Player](http://www.adobe.com/products/flashplayer/) for viewing flash videos
-- Software for Word processing and viewing PowerPoint slides such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage) 
-- A code editor such as [Notepad++](https://notepad-plus-plus.org/) for Windows, or [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X (Mac), or [VisualStudio Code](https://code.visualstudio.com/) for OS X, Windows and Linux.
-- An FTP client for uploading files to a web server such as [CoreFTP](http://coreftp.com/) for Windows, or [CyberDuck](https://cyberduck.io/) for OS X, or [FileZilla](https://filezilla-project.org/) for OS X, Windows and Linux.
+- [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files.
+- [QuickTime](https://support.apple.com/downloads/quicktime) for viewing videos in your browser.
+- Software for Word processing and viewing PowerPoint slides such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage) .
+- A code editor such as [Notepad++](https://notepad-plus-plus.org/) for Windows, or [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X (Mac), or [Visual Studio Code](https://code.visualstudio.com/) for OS X, Windows and Linux. Visual Studio Code is reccomended.
+- An FTP client for uploading files to a web server such as [CoreFTP](http://coreftp.com/) for Windows, or [CyberDuck](https://cyberduck.io/) for OS X, or [FileZilla](https://filezilla-project.org/) for OS X, Windows and Linux. FileZilla is reccomended.
 
 ## Skills You Will Need
 
