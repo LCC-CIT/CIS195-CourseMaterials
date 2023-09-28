@@ -43,7 +43,7 @@ author: Brian Bird
   </thead>
   <tbody>
     <tr>
-      <td>1. Intro to HTML</td>
+      <td><mark>1. Intro to HTML</mark></td>
       <td>6. Layout with CSS</td>
     </tr>
     <tr>
@@ -76,10 +76,10 @@ author: Brian Bird
 
 - Review due dates and what you need to do this week.
 
-  - Week 2 reading and Quiz 2 before the next class.
-  - Lab 1 is due on Thursday of next week.
+  - Take the reading quiz, if you haven't already done so. Since this is the first week, I'll re-open it for you if you ask.
+  - Start Lab 1, it is due on Thursday of next week.
 
-- Review the weekly learning cycle shown in the Moodle side-bar.
+- Review the due dates and the weekly learning cycle shown in the Moodle fly-out on the right side of the page.
 
   
 
