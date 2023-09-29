@@ -1,0 +1,10 @@
+line,requiredElements1,number1,requiredElements2,requiredCssSelectors,requiredCssProperties,moreRequirements,Description,settings
+1,title,2,,,,1,Number of parts,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/Lab02/CIS195_Su23Lab2Submission
+2,"h1, h2, h3, h4, h5, h6",2,,,,2,Number of HTML files, G:/My Drive/Courses/CIS195/2023-Summer/Lab02/CIS195_Su23Lab2Submission
+3,a[href],2,,,,,,Lab01
+4,img[alt],1,,,,,,
+5,br,2,,,,,,
+6, ol > li,1,,,,,,
+7, ul > li,1,,,,,,
+8,"b, strong",1,,,,,,
+9,"I, em",1,,,,,,

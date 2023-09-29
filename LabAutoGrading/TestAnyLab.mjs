@@ -19,21 +19,20 @@ import os from "os";
 
 /* constants used for checking the files for this lab */
 let submissionsPath = ""; // Path to the folder containing the student submissions
-let numberOfParts = 1; // Number of parts in this labnpm install csv-parser
+let numberOfParts = 1; // Number of parts in this lab assignment
 /* settings array elements will hold these settings values:
     0: MacOsSubmissionPath
     1: WindowsSubmissionPath
     2: LabName
     3: NumberOfParts
 */
-const settings = [];
 // Required HTML elements for parts 1 and 2 (global scope)
 const requiredElements1 = [];
 const requiredElements2 = [];
 // Required CSS selectors and properties (global scope)
 const requiredCssSelectors = [];
 const requiredCssProperties = [];
-
+const requiredNumberOfHTMLFiles = 1; // Number of html files expected in the lab submission
 /****************/
 /* Main program */
 /****************/
@@ -84,9 +83,11 @@ if (param === "--help" || param === undefined) {
 /* Load requirements from a csv file */
 /*************************************/
 function loadRequirements(requirementsFileName) {
+    const settings = [];
+    const moreRequirements = [];
     try {
         const data = fs.readFileSync(requirementsFileName);
-        csv()  // the .on functions set up lisetners
+        csv()  // the .on functions sets up lisetners
             .on("data", (row) => {
                 if (row.requiredElements1) {
                     requiredElements1.push(row.requiredElements1);
@@ -99,6 +100,9 @@ function loadRequirements(requirementsFileName) {
                 }
                 if (row.requiredCssProperties) {
                     requiredCssProperties.push(row.requiredCssProperties);
+                }
+                if (row.moreRequirements) {
+                    moreRequirements.push(row.moreRequirements);
                 }
                 if (row.settings) {
                     settings.push(row.settings);
@@ -120,7 +124,7 @@ function loadRequirements(requirementsFileName) {
     else if (process.platform === "darwin") {
         submissionsPath = settings[0];
     }
-    numberOfParts = settings[3];
+    numberOfParts = moreRequirements[0];
 } // End of loadRequirements function
 
 /***********************************************************************************/
@@ -215,6 +219,7 @@ async function checkSubmission(
     // TODO: make this a paramenter and define it in the main
     let foundSelectors = [];
     let foundProperties = [];
+    let countHTMLFiles = 0;
 
     /************************ inner function **************************/
     /* Will be called recursively to read files in all subdirectories */
@@ -250,6 +255,7 @@ async function checkSubmission(
         report += message + `\n`;
         // if the file is an .html or .htm file, validate it, get elements and rules it contains.
         if (/\.html?$/.test(filePath)) {
+            countHTMLFiles++;
             // Validate HTML
             report += await validateHTML(fileContents, path.basename(filePath));
 
@@ -335,6 +341,12 @@ async function checkSubmission(
     }
     if (requiredCssProperties.length > 0) {
         report = checkForRequiredProperties(foundProperties, requiredProperties, report);
+    }
+    // Check for the correct number of html files
+    if (countHTMLFiles !== requiredNumberOfHTMLFiles) {
+        message = `Found ${countHTMLFiles} html files. Expected ${requiredNumberOfHTMLFiles}`;
+        console.log(message);
+        report += message + `\n`;
     }
     return report;
 } // End of checkSubmission function

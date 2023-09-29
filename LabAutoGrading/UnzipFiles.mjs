@@ -6,9 +6,9 @@ import { execSync } from 'child_process';
 // 7zip can be installed on Mac Os using Homebrew: brew install p7zip
 
 // This module will unzip any submissions downloaded from Moodle
-let submissionsPath = "/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/TermProject"
+let submissionsPath = "/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Fall"
 // let submissionsPath = "G:/My Drive/Courses/CIS195/2023-Summer/Lab07";
-// let submissionsPath = "/Users/admin/Documents/CIS195/Lab05";
+// let submissionsPath = "/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/TermProject"
 
 // The downloaded submissions are expected to be in a file with a name like: 
 // "CS 133JS Sp23 (Bird 41334)-Lab 6 Production Version-3803210 (1)"
