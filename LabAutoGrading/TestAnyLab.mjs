@@ -125,6 +125,7 @@ function loadRequirements(requirementsFileName) {
         submissionsPath = settings[0];
     }
     numberOfParts = moreRequirements[0];
+    requiredNumberOfHTMLFiles = moreRequirements[1];
 } // End of loadRequirements function
 
 /***********************************************************************************/
