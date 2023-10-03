@@ -47,7 +47,7 @@ author: Brian Bird
       <td>6. Layout with CSS</td>
     </tr>
     <tr>
-      <td>2. More HTML, file paths</td>
+      <td><mark>2. More HTML, file paths</mark></td>
       <td>7. CSS Flexbox and Grid</td>
     </tr>
     <tr>
@@ -68,6 +68,7 @@ author: Brian Bird
       </tr>
   </tbody>
 </table>
+
 
 
 <h2>Contents</h2>
@@ -117,9 +118,11 @@ HTML elements you've learned so far:
 
 ## Visual Studio Code
 
-VS Code will automatically let you know if you make mistakes (use wrong syntax) in your HTML code. It does this by showing the number of errors or warnings in the status bar at the bottom of the page.
+VS Code will automatically let you know if you make mistakes (use wrong syntax) in your HTML code. It does this by turning the code where it detects the error red.
 
-<img src="VSCodeErrorBar.png" alt="VSCodeErrorBar" style="zoom:67%;" />
+![HTML_syntax_error](Images/HTML_syntax_error.png)
+
+
 
 ## W3C Syntax Validator
 
@@ -296,5 +299,5 @@ The `<hr>` tag will put a horizontal line across the page. This is one of the "e
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), summer <time>2023</time>.
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), revised Fall <time>2023</time>.
 
