@@ -24,7 +24,6 @@ let numberOfParts = 1; // Number of parts in this lab assignment
     0: MacOsSubmissionPath
     1: WindowsSubmissionPath
     2: LabName
-    3: NumberOfParts
 */
 // Required HTML elements for parts 1 and 2 (global scope)
 const requiredElements1 = [];
@@ -32,7 +31,9 @@ const requiredElements2 = [];
 // Required CSS selectors and properties (global scope)
 const requiredCssSelectors = [];
 const requiredCssProperties = [];
-const requiredNumberOfHTMLFiles = 1; // Number of html files expected in the lab submission
+let requiredNumberOfHTMLFiles = 1; // Number of html files expected in the lab submission
+let sepcialFileName = ""; // If a special file name is required, it will be in the requirements file
+
 /****************/
 /* Main program */
 /****************/
@@ -126,6 +127,7 @@ function loadRequirements(requirementsFileName) {
     }
     numberOfParts = moreRequirements[0];
     requiredNumberOfHTMLFiles = moreRequirements[1];
+    sepcialFileName = moreRequirements[2];
 } // End of loadRequirements function
 
 /***********************************************************************************/
@@ -240,12 +242,17 @@ async function checkSubmission(
     }
 
     // Loop through all .html files in the lab directory and it's subdirectories
-    // to check for the required elements, and valid HTML, and validate the CSS.
+    // to check for the required elements, validate the HTML and validate the CSS.
     let files = [];
+    let isFoundSpecialFile = false;
     traverseDir(labDirPath, files);
     for (const filePath of files.filter((fileName) =>
         /\.(html?|css)$/.test(fileName)
     )) { // only check .html, .htm and .css files
+        // Check for a special file name
+        if (sepcialFileName === "" || filePath.includes(sepcialFileName)) {
+            isFoundSpecialFile = true;
+        }
         // Read the contents of the file
         const fileContents = fs.readFileSync(filePath, "utf8");
         // Parse the sub directories and file name out of the path
@@ -349,6 +356,13 @@ async function checkSubmission(
         console.log(message);
         report += message + `\n`;
     }
+    // Report if a special file name is required and not found
+    if (sepcialFileName !== "" && !isFoundSpecialFile) {
+        message = `Missing ${sepcialFileName} file`;
+        console.log(message);
+        report += message + `\n`;
+    }
+
     return report;
 } // End of checkSubmission function
 
