@@ -7,7 +7,7 @@
 | Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
 | CRN       | hybrid (on campus): 21647<br />online: 21346                 |      | Email        | birdb@lanecc.edu                                             |
 | Time, Day | 12:00–1:50pm, Tu & Th                                        |      | Office       | Building 19, room 152                                        |
-| Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97010574746) |      | Office Hours | M, W 12:00&ndash;12:50 <br />T, Th  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/93774726097) |
+| Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97010574746) |      | Office Hours | M&mdash;Th  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/93774726097) |
 
 
 
@@ -201,7 +201,7 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 | 7<br />11/7<br />11/9    | *More CSS Page Layout* <br />FlexBox<br />Grid               | Quiz 6  | Lab 6    |
 | 8<br />11/14<br />11/16 | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7  | Lab 7                                                    |
 | 9<br />11/21             | *Multimedia* <br />Images, audio and video<br />(Thanksgiving holiday on Thursday) | Quiz 8  | Lab 8<br />Term project [peer review](TermProject/TermProjectCodeReview.docx) |
-| 10<br />11/28<br />11/30 | *HTML Tables*<br />HTML Tables<br />Table Styling with CSS   | Quiz 9  | Lab 9<br />Submit [Term Project](TermProject/CIS195TermProject.pdf) |
+| 10<br />11/28<br />11/30 | *HTML Tables*<br />Creating Tables<br />Table Styling with CSS | Quiz 9  | Lab 9<br />Submit [Term Project](TermProject/CIS195TermProject.pdf) |
 | 11<br />12/5            | Final Quiz                                                   | Final   |  |
 
 
