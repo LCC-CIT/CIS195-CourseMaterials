@@ -1,5 +1,5 @@
 ---
-title: Site Design and More on Hyperlinks
+title: Site Design + Hyperlinks
 description: How to design the structure and navigation of a web site.
 keywords: File, path, folder, link, nav, navigation, menu
 material: Lecture Notes
@@ -51,7 +51,7 @@ author: Brian Bird
       <td>7. CSS Flexbox and Grid</td>
     </tr>
     <tr>
-      <td>3. Site structure and navigation</td>
+      <td><mark>3. Site structure and navigation</mark></td>
       <td>8. HTML Forms</td>
     </tr>
     <tr>
@@ -68,6 +68,7 @@ author: Brian Bird
       </tr>
   </tbody>
 </table>
+
 
 <h2>Contents</h2>
 
@@ -142,7 +143,7 @@ The anchor element, `<a>` , can have a target attribute that is used to control 
 Example:
 
 ```html
-<a href="https://lanecc.edu target="_blank">LCC Web Site</a>
+<a href="https://lanecc.edu" target="_blank">LCC Web Site</a>
 ```
 
 [W3Schools tutorial on the anchor element](https://www.w3schools.com/tags/tag_a.asp)
