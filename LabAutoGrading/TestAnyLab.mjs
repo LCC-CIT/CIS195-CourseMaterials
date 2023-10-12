@@ -31,8 +31,13 @@ const requiredElements2 = [];
 // Required CSS selectors and properties (global scope)
 const requiredCssSelectors = [];
 const requiredCssProperties = [];
-let requiredNumberOfHTMLFiles = 1; // Number of html files expected in the lab submission
-let sepcialFileName = ""; // If a special file name is required, it will be in the requirements file
+const additionalRequirements = []
+// Indexes into the additionalRequirements array
+// 0: Number of parts in the lab assignment
+// 1: Number of html files expected in the lab submission
+// 2: If a special html file name is required, like index, it will be in the requirements file
+// 3+: Regular expressions to search for in the html files
+
 
 /****************/
 /* Main program */
@@ -41,9 +46,10 @@ const param = process.argv[2];
 let overwrite = false;
 console.log(`param = ${param}`);
 if (param === "--help" || param === undefined) {
-    console.log("Usage: node myScript.js requirementsFileName.csv [options]");
-    console.log("There is currently only one option:");
+    console.log("Usage: node TestAnyLab.mjs requirementsFileName.csv [options]");
+    console.log("options:");
     console.log("--help\t\tDisplay this help message");
+    console.log("--overwrite\tOverwrite existing report files");
 } else {
     if (process.argv[3] === "--overwrite") {
         overwrite = true;  // overwrite _report.txt files
@@ -67,7 +73,7 @@ if (param === "--help" || param === undefined) {
         }
         let message = `Checking the ${studentDir} directory`;
         let studentReport = message + "\n"; // Report of the checks of the files for this student
-        studentReport += await CheckLabFiles(studentDir);
+        studentReport += await getLabFolders(studentDir);
         studentReport += "\n";
         // write the report to a file
         fs.writeFileSync(
@@ -85,7 +91,6 @@ if (param === "--help" || param === undefined) {
 /*************************************/
 function loadRequirements(requirementsFileName) {
     const settings = [];
-    const moreRequirements = [];
     try {
         const data = fs.readFileSync(requirementsFileName);
         csv()  // the .on functions sets up lisetners
@@ -103,7 +108,7 @@ function loadRequirements(requirementsFileName) {
                     requiredCssProperties.push(row.requiredCssProperties);
                 }
                 if (row.moreRequirements) {
-                    moreRequirements.push(row.moreRequirements);
+                    additionalRequirements.push(row.moreRequirements);
                 }
                 if (row.settings) {
                     settings.push(row.settings);
@@ -125,19 +130,17 @@ function loadRequirements(requirementsFileName) {
     else if (process.platform === "darwin") {
         submissionsPath = settings[0];
     }
-    numberOfParts = moreRequirements[0];
-    requiredNumberOfHTMLFiles = moreRequirements[1];
-    sepcialFileName = moreRequirements[2];
+    numberOfParts = additionalRequirements[0];
 } // End of loadRequirements function
 
 /***********************************************************************************/
-/* checkLabFiles function                                                          */
-/* Checks all folders and files submitted by one student                           */
+/* getLabFolders function                                                          */
+/* Finds all folders submitted by one student                           */
 /***********************************************************************************/
-async function CheckLabFiles(studentDir) {
+async function getLabFolders(studentDir) {
     let report = "";
     // Check part 1
-    report += await checkSubFolder(
+    report += await getSubFolder(
         0,
         submissionsPath,
         studentDir,
@@ -147,7 +150,7 @@ async function CheckLabFiles(studentDir) {
 
     if (numberOfParts == 2) {
         // Check part 2
-        report += await checkSubFolder(
+        report += await getSubFolder(
             2,
             submissionsPath,
             studentDir,
@@ -158,37 +161,59 @@ async function CheckLabFiles(studentDir) {
     return report;
 } // End of checkLabFiles function
 
-/************************************************************/
-/* inner function                                           */
-/* checkSubFolder                                           */
-/* Checks the files in the subfolder                        */
-/* part == 0 indicates there is only a LabX folder          */
-/************************************************************/
-async function checkSubFolder(
-    part,
+/********************************************************/
+/* getSubFolder                                       */
+/* Determines the path to each subfolder, one for       */
+/* each lab part, and passes it to checkSubmission      */
+/* part == 0 indicates there is only one part           */
+/********************************************************/
+async function getSubFolder(
+    part,    // part of lab we are checking: 0, 1, or 2
     submissionsPath,
     studentDir,
     requiredElements,
     report
 ) {
+    let studentDirPath = path.join(submissionsPath, studentDir);
     let labPartDir = ""; // Directory containing the lab files
     try {
         if (part > 0) {
             // There are two or more subfolders named Part1, Part2, etc.
             report += "\nPart" + part + "\n";
             labPartDir = fs
-                .readdirSync(path.join(submissionsPath, studentDir))
+                .readdirSync(studentDirPath)
                 .find(
                     (dir) => dir.toLowerCase().includes("part") && dir.endsWith(part)
                 );
-        } // There is only one subfolder unless this is from Mac OS and has a _MACOSX folder.
+        }
         else {
+            // There is only one part 
+            //There might be no subfolder, check to see if there is a subfolder
+            // check for a subfolder in studentDir
+
+            const items = fs.readdirSync(studentDirPath, {withFileTypes: true} );
+            const subfolders = items.filter((dirent) => {
+                const itemPath = path.join(studentDirPath, dirent.name);
+                return fs.statSync(itemPath).isDirectory();
+            });
+            if (subfolders.length === 0) {
+                // There is no subfolder, so the lab files are in the studentDir
+                labPartDir = "";
+            }
+            else {  // There should be one lab subfolder, but might be system subfolders, like __MACOSX
+                
+                labPartDir = subfolders.find((dirent) => !dirent.name.startsWith("_") && !dirent.name.startsWith("."))
+                                       .name;  // returns name of first valid dir found
+            }
+/*
+            // Or thre might be one subfolder unless this is from Mac OS and has a _MACOSX folder.
             labPartDir = fs
                 .readdirSync(path.join(submissionsPath, studentDir), { withFileTypes: true })
                 .find(dirent => dirent.isDirectory() && !dirent.name.startsWith("_") && !dirent.name.startsWith("."))
                 .name;  // returns name of first valid dir found
+                */
         }
-        const labDirPath = path.join(submissionsPath, studentDir, labPartDir);
+        const labDirPath = path.join(studentDirPath, labPartDir);
 
         report = await checkSubmission(
             labDirPath,
@@ -204,11 +229,12 @@ async function checkSubFolder(
     return report;
 } // End of checkSubFolder function
 
-/*************************************************************/
-/* checkSubmission function                                  */
-/* Checks the files in the labDir for the required elements, */
-/* properties and valid HTML and CSS for all sub-folders     */
-/*************************************************************/
+
+/******* This is the central function for this program! **********/
+/* checkSubmission function                                      */
+/* Checks the files in the labDir for the required elements,     */
+/* properties and valid HTML and CSS for all sub-folders         */
+/*****************************************************************/
 async function checkSubmission(
     labDirPath,
     labDir,
@@ -218,15 +244,21 @@ async function checkSubmission(
     report
 ) {
     let message = ""; // Individual message
-    let foundElements = []; // will hold required elements found in the lab files
+    const foundElements = []; // will hold required elements found in the lab files
     // TODO: make this a paramenter and define it in the main
-    let foundSelectors = [];
-    let foundProperties = [];
+    const foundSelectors = [];
+    const foundProperties = [];
+    const additionalRequirementResults = [];
+    // initialize all elements to false
+    for (let i = 0; i <= 5; i++) {
+        additionalRequirementResults.push(false);
+    }
     let countHTMLFiles = 0;
 
-    /************************ inner function **************************/
-    /* Will be called recursively to read files in all subdirectories */
-    /******************************************************************/
+    /*********** inner function *********/
+    /* Will be called recursively to    */
+    /* read files in all subdirectories */
+    /************************************/
     function traverseDir(dir, files) {
         fs.readdirSync(dir).forEach((file) => {
             let fullPath = path.join(dir, file);
@@ -244,15 +276,10 @@ async function checkSubmission(
     // Loop through all .html files in the lab directory and it's subdirectories
     // to check for the required elements, validate the HTML and validate the CSS.
     let files = [];
-    let isFoundSpecialFile = false;
     traverseDir(labDirPath, files);
     for (const filePath of files.filter((fileName) =>
-        /\.(html?|css)$/.test(fileName)
-    )) { // only check .html, .htm and .css files
-        // Check for a special file name
-        if (sepcialFileName === "" || filePath.includes(sepcialFileName)) {
-            isFoundSpecialFile = true;
-        }
+        // only check .html, .htm and .css files
+        /\.(html?|css)$/.test(fileName))) {
         // Read the contents of the file
         const fileContents = fs.readFileSync(filePath, "utf8");
         // Parse the sub directories and file name out of the path
@@ -266,6 +293,13 @@ async function checkSubmission(
             countHTMLFiles++;
             // Validate HTML
             report += await validateHTML(fileContents, path.basename(filePath));
+            // Search file for regexp from moreRequirements array starting at index 3
+            for (let i = 3; i < requiredElements.length; i++) {
+                const regexp = new RegExp(requiredElements[i], "g");
+                if (regexp.test(fileContents)) {
+                    foundElements.push(requiredElements[i]);
+                }
+            }
 
             // Get any required html elements from fileContents, put in foundElements
             const dom = new JSDOM(fileContents);
@@ -339,8 +373,25 @@ async function checkSubmission(
                 }
             } // end looping through requiredCssProperties
         } // end of processing .css files
+
+        // --- Check each file for additional requirements ---
+
+        // Check for a special file name
+        const specialFileName = additionalRequirements[2];
+        additionalRequirementResults[2] ||= (specialFileName === "" || filePath.includes(specialFileName)); // set to true if any file name matches
+        // check for first regexp in moreRequirements array
+        const regexp3 = new RegExp(additionalRequirements[3], "gi");
+        additionalRequirementResults[3] ||= (regexp3.test(fileContents));
+        // check for second regexp in moreRequirements array
+        const regexp4 = new RegExp(additionalRequirements[4], "gi");
+        additionalRequirementResults[4] ||= (regexp4.test(fileContents));
+        // check for third regexp in moreRequirements array
+        const regexp5 = new RegExp(additionalRequirements[5], "mgi");
+        additionalRequirementResults[5] ||= (regexp5.test(fileContents));
+
     } // end looping through files in labDirPath
     // TODO: Make separate checks for each part of the lab
+
     // compare foundElements to requiredElements and log any missing elements
     report = checkForRequiredElements(foundElements, requiredElements, report);
     // TODO: combine the following two functions into one and check for properties in specific selectors.
@@ -351,20 +402,15 @@ async function checkSubmission(
         report = checkForRequiredProperties(foundProperties, requiredProperties, report);
     }
     // Check for the correct number of html files
-    if (countHTMLFiles !== requiredNumberOfHTMLFiles) {
-        message = `Found ${countHTMLFiles} html files. Expected ${requiredNumberOfHTMLFiles}`;
-        console.log(message);
-        report += message + `\n`;
-    }
-    // Report if a special file name is required and not found
-    if (sepcialFileName !== "" && !isFoundSpecialFile) {
-        message = `Missing ${sepcialFileName} file`;
-        console.log(message);
-        report += message + `\n`;
-    }
+    report = checkAdditionalRequirements(report, countHTMLFiles, additionalRequirementResults);
 
     return report;
 } // End of checkSubmission function
+
+
+/*****************************************************************/
+/* All the following functions are called by checkSubmission     */
+/*****************************************************************/
 
 /***************************/
 /* validateHTML function   */
@@ -500,3 +546,61 @@ function checkForRequiredProperties(foundProperties, requiredProperties, report)
     return report;
 }
 
+/************************************/
+/* Check additional requirements    */
+/************************************/
+function checkAdditionalRequirements(report, countHTMLFiles, additionalRequirementResults) {
+    let areAllAdditionalRequirementsMet = true;
+    let message = "";
+
+    // Report if less than the expected number of html files is found
+    const requiredNumberOfHTMLFiles = parseInt(additionalRequirements[1]);
+    if (countHTMLFiles < requiredNumberOfHTMLFiles) {
+        areAllAdditionalRequirementsMet = false;
+        message = `Found ${countHTMLFiles} html files. Expected ${requiredNumberOfHTMLFiles}`;
+        console.log(message);
+        report += message + `\n`;
+    }
+
+    // Report if a special file name is required and not found
+    const specialFileName = additionalRequirements[2];
+    if (additionalRequirementResults[2] === false) {
+        areAllAdditionalRequirementsMet = false;
+        message = `Missing ${specialFileName} file`;
+        console.log(message);
+        report += message + `\n`;
+    }
+
+    // Report if regexp searches fail
+    if (additionalRequirementResults[3] === false) {
+        areAllAdditionalRequirementsMet = false;
+        // Todo: make this message more generic
+        message = `Missing external link in html files`;
+        console.log(message);
+        report += message + `\n`;
+    }
+
+    if (additionalRequirementResults[4] === false) {
+        areAllAdditionalRequirementsMet = false;
+        // Todo: make this message more generic
+        message = `Missing internal link in html files`;
+        console.log(message);
+        report += message + `\n`;
+    }
+
+    if (additionalRequirementResults[5] === false) {
+        areAllAdditionalRequirementsMet = false;
+        // Todo: make this message more generic
+        message = `Missing comment in html files`;
+        console.log(message);
+        report += message + `\n`;
+    }
+
+    if (areAllAdditionalRequirementsMet) {
+        message = `All additional requirements met`;
+        console.log(message);
+        report += message + `\n`;
+    }
+
+    return report;
+}
