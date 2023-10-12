@@ -35,15 +35,27 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 
 
-## Submitting your web sites to Moodle
+## Submitting your Web Sites
 
-- Zip the files in part 1
+- To Moodle:
 
-- Zip the files in part 2
+  - Zip the files in part 1
 
-- Upload both zip files to Moodle using the lab submission link.
+
+  - Zip the files in part 2
+
+
+  - Upload both zip files to Moodle using the lab submission link.
+
+- To the citstudent web server:
+
+  - Use FileZilla to copy your entire lab3 folder, subfolders and files to citstudent. The folder structure should be like this:  
+    <img src="/Users/birdb/Projects/CIS195-CourseMaterials/Labs/Lab03/Lab3FolderStructure.png" alt="Lab3FolderStructure" style="zoom:50%;" />
+
+Use your own file names.
 
 ## Grading Criteria
+
 [Lab 3 Rubric](Lab3Rubric-CIS195.htm)
 
   
