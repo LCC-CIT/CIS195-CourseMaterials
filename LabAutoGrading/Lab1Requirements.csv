@@ -1,7 +1,7 @@
 line,requiredElements1,number1,requiredElements2,requiredCssSelectors,requiredCssProperties,moreRequirements,Description,settings
 1,title,1,,,,,,
 2,"h1, h2, h3, h4, h5, h6",2,,,,1,Number of parts,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Fall/Labs/CIS195_F23Lab1Submissions
-3,a[href],2,,,,2,Number of HTML files, G:/My Drive/Courses/CIS195/2023-Fall/CIS195F23Bird_Meta21346_21647Lab1_Early
+3,a[href],2,,,,2,Number of HTML files,G:/My Drive/Courses/CIS195/2023-Fall/Labs/CIS195_F23Lab1Submissions
 4,a[href],1,,,,index,special file name,Lab01
 5,img[alt],1,,,,"<a\s*href\s*=\s*[""']http",,
 6,br,1,,,,"<a\s*href\s*=\s*[""'](?!http)",,
