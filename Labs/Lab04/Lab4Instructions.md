@@ -10,12 +10,11 @@ You will add CSS to the home page for the review site.
 
 1. Create an *embedded style* (`style` element inside the `head`) with at least 3 different rules.  
   (These should be different from the rules you will put in the external style sheet in part 2, and must affect at least one element on the page.)
-   1. Add at least one *in-line style* (`style` attribute) in an element on the page.
-  
+2. Add at least one *in-line style* (`style` attribute) in an element on the page.
 
 ### Part 2: A style sheet for the whole web site.
 
-You will create a second style sheet that you will apply to the whole web site, including the home page that already has a style sheet.
+You will create a second style sheet that you will apply to the whole web site, including the home page that already has an embedded style sheet.
 
 1. Create a *external style sheet* (.css file) with:
    - At least eight <u>rules</u>.
@@ -38,14 +37,17 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 
 ### Uploading to Moodle
 
-- Zip the files from part 2 (which includes those from part 1) into a single zip file.
+- Zip the files that mke up your review web site (which includes those from parts 1 and 2) into a single zip file.  
+  (The zip file should contain: index.html, three review .html pages, and a .css file.)
 
 - Upload the zip file to Moodle using the lab submission link.
 
 ### Publishing to citstudent
 
-- Use FileZilla to upload a folder named *Lab4*, containing your web site, to citstudent.
-- Record the URL of your home page so that you can enter it on Moodle.
+For fall 2023, we won't do this.
+
+- ~~Use FileZilla to upload a folder named *Lab4*, containing your web site, to citstudent.~~
+- ~~Record the URL of your home page so that you can enter it on Moodle.~~
 
 ## Reference
 

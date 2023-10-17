@@ -195,7 +195,7 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 | 1<br />9/26<br />9/28   | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                     |
 | 2<br />10/3<br />10/5   | *More HTML Elements*<br />History of the internet<br />More HTML, File Paths | Quiz 2  | Lab 2                                                    |
 | 3<br />10/10<br />10/12 | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3  | Lab 3                                                    |
-| 4<br />10/17<br 10/19   | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4  | Lab 4                                                    |
+| 4<br />10/17<br />10/19 | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4  | Lab 4                                                    |
 | 5<br />10/24<br />10/26  | *Midterm Quiz*<br />Midterm<br />Start Term Project          | Midterm | Term Project Proposal                                        |
 | 6<br />10/31<br />11/2   | *CSS Page Layout* <br />CSS Box Model<br />Floats            | Quiz 5  | Lab 5                                                        |
 | 7<br />11/7<br />11/9    | *More CSS Page Layout* <br />FlexBox<br />Grid               | Quiz 6  | Lab 6    |
