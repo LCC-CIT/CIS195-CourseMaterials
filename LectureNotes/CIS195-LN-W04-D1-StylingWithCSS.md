@@ -10,7 +10,7 @@ author: Brian Bird
 
 <h1>Styling with CSS</h1>
 
-<table>
+<table hidden>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Eight-Week Term</th>
@@ -37,8 +37,7 @@ author: Brian Bird
 </table>
 
 
-
-<table hidden>
+<table>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Ten-Week Term</th>
@@ -58,11 +57,11 @@ author: Brian Bird
       <td>8. HTML Forms</td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS, Midterm</td>
+      <td><mark>4. Formatting with CSS, Midterm</mark></td>
       <td>9. Multimedia, Final</td>
     </tr>
     <tr>
-      <td>5. Project Propposal, Midtern</td>
+      <td>5. Project Propposal, Midterm</td>
       <td>10. Project Completion, Final</td>
     </tr>
   </tbody>
@@ -73,14 +72,33 @@ author: Brian Bird
 
 # Introduction
 
--   Quiz 4 will close Thursday
+## Announcements
+
+-   Reading quiz 4 will close before the next class
+
+-   Lab 3 is due Thursday
 
 -   
-    The midterm is next week, Monday&mdash;Wednesday, 7/24–26 
+    Review lecture notes
 
-    See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures. Students are allowed to prepare a 4 X 6 card with notes to use during the quiz.
+-   Practice midterm.
 
--   Answer questions about lab 3 and uploading to citstudent.
+-   You can take the quiz in the classroom at class time, or you can take it in the testing center. 
+
+    - **Classroom** from 12:00 to 1:50 on Thursday, 10/26/2023. 
+    - **[Testing center](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services)** 
+      - Thursday, 10/26 10:30am&ndash;1:30pm, 4:30pm&ndash;7 pm
+      - Friday and Saturday 10/27 and 28 10:00am to 2:00pm.
+      - The testing center is located in the Center Building, Room 311 (upstairs and across from the library). You will be allowed to refer to a 3 x 5 card with notes on it
+    - In both locations: 
+      - help from others, internet searches, ChatGPT, and any other outside sources are not allowed.
+      - You will be allowed to refer to a 3 x 5 card with notes on it.
+
+## Q & A
+- Any questions about lab 3?
+- Anything else?
+
+    
 
 
 
