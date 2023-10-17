@@ -47,10 +47,10 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
   - Upload both zip files to Moodle using the lab submission link.
 
-- To the citstudent web server:
-
+- To the citstudent web server:  
+  **For fall 2023, you won't be required to upload the web site to citstudent.**
   - Use FileZilla to copy your entire lab3 folder, subfolders and files to citstudent. The folder structure should be like this:  
-    <img src="/Users/birdb/Projects/CIS195-CourseMaterials/Labs/Lab03/Lab3FolderStructure.png" alt="Lab3FolderStructure" style="zoom:50%;" />
+    <img src="Lab3FolderStructure.png" alt="Lab3FolderStructure" style="zoom:50%;" />
 
 Use your own file names. It's ok, but not required to name the HTML file in each folder index.html.
 
