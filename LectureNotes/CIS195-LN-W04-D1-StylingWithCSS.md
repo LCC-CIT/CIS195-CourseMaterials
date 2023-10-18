@@ -189,7 +189,7 @@ A Style-sheet is just a set of one or more CSS rules and it doesn't have to be i
       Example:
 
       ```html
-      <p style="background-color:lightblue">Some text</p>
+      <p style="background-color:lightblue;">Some text</p>
       ```
 
   - Browser styles-sheets
