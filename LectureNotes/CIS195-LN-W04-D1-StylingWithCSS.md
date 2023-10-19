@@ -89,10 +89,10 @@ author: Brian Bird
     - **[Testing center](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services)** 
       - Thursday, 10/26 10:30am&ndash;1:30pm, 4:30pm&ndash;7 pm
       - Friday and Saturday 10/27 and 28 10:00am to 2:00pm.
-      - The testing center is located in the Center Building, Room 311 (upstairs and across from the library). You will be allowed to refer to a 3 x 5 card with notes on it
+      - The testing center is located in the Center Building, Room 311 (upstairs and across from the library). Bring ID.
     - In both locations: 
-      - help from others, internet searches, ChatGPT, and any other outside sources are not allowed.
-      - You will be allowed to refer to a 3 x 5 card with notes on it.
+      - Help from others, internet searches, AI chatbots, and any other outside sources are not allowed.
+      - You will be allowed to refer to a 4 x 6 card with notes on it.
 
 ## Q & A
 - Any questions about lab 3?
