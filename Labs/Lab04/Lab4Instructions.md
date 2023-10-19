@@ -2,7 +2,7 @@
 
 ## Using CSS to Format Web Pages
 
-In this lab assignment you will practice using what you learned about CSS this week by applying it to the multi-page review web site you made for the previous lab.
+In this lab assignment you will practice using what you learned about CSS this week by applying it to the multi-page review web site you made for a previous lab.
 
 ### Part 1: A style sheet for a single page
 

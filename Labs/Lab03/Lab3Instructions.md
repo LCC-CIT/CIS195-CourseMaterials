@@ -52,7 +52,10 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
   - Use FileZilla to copy your entire lab3 folder, subfolders and files to citstudent. The folder structure should be like this:  
     <img src="Lab3FolderStructure.png" alt="Lab3FolderStructure" style="zoom:50%;" />
 
-Use your own file names. It's ok, but not required to name the HTML file in each folder index.html.
+
+Use your own file names. It's ok, but not required to name the HTML file in each folder index.html.  
+
+Note: there will be a total of four .html files in the Part2 folder.
 
 ## Grading Criteria
 
