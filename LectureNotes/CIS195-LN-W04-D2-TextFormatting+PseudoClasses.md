@@ -96,7 +96,7 @@ author: Brian Bird
   - Decimal
 
     - The range for each color is 0 to 255
-    - Example: `color: rgb(0, 0, 255)`
+    - Example: `color: rgb(0, 0, 255);`
 
   - Hexadecimal
     `color: #0000FF;`
