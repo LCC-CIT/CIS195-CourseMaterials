@@ -1,7 +1,7 @@
 ---
-title: Colors, fonts, pseudo-classes
+title: More styling & pseudo-classes
 description: Using different CSS properties for formatting
-keywords: css
+keywords: css, color, text, fonts, pseudo-classes
 material: Lecture Notes
 generator: Typora
 author: Brian Bird
@@ -10,7 +10,7 @@ author: Brian Bird
 
 <h1>More CSS: Colors, Text, Fonts and Pseudo-classes</h1>
 
-<table>
+<table  hidden>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Eight-Week Term</th>
@@ -37,34 +37,37 @@ author: Brian Bird
 </table>
 
 
-
-<table hidden>
+<table>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Ten-Week Term</th>
     </tr>
   </thead>
-  <tbody>
+  < <tbody>
     <tr>
       <td>1. Intro to HTML</td>
       <td>6. Layout with CSS</td>
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>7. HTML Tables</td>
+      <td>7. CSS Flexbox and Grid</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
       <td>8. HTML Forms</td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS, Midterm</td>
-      <td>9. Multimedia, Final</td>
+      <td>4. Formatting with CSS</td>
+      <td>9. Multimedia</td>
     </tr>
     <tr>
-      <td>5. Project Propposal, Midtern</td>
-      <td>10. Project Completion, Final</td>
+      <td>5. Midterm, Project Propposal</td>
+      <td>10. Tables, Project Completion</td>
     </tr>
+      <tr>
+          <td></td>
+          <td>11. Final</td>
+      </tr>
   </tbody>
 </table>
 <h2>Contents</h2>
