@@ -72,11 +72,15 @@ author: Brian Bird
 </table>
 
 
-
-
 <h2>Table of Contents</h2>
 
 [TOC]
+
+## Announcements and Discussion
+
+- Are there any questions about lab 4?
+- The next class meeting will be just for the midterm quiz.
+- This week is a good time to start your term project. The term project requirements are posted on Moodle&mdash; let's take a look at those.
 
 ## Introduction
 
