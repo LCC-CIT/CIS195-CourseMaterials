@@ -77,7 +77,7 @@ author: Brian Bird
 
 Folders (called directories on Linux) can hold files or other folders. When folders hold other folders, we say they are *nested*. Look at some nested folders in the Windows file explorer, or in the Mac OS finder.
 
-A path describes the hierarchy of nested folders that leads to a particular folder or file. Here's are two examples:
+A path describes the hierarchy of nested folders that leads to a particular folder or file. Here's are two examples from Windows:
 
 ```bash
 C:/Users/Brian/Repos/CIS195-Demos/Unit02/SouthIndia/Chennai/index.html
@@ -96,9 +96,14 @@ Windows now will accept either one. I recommend using forward-slashes since they
 
 # Absolute paths
 
-A path that includes all of the folders, starting with the first one is called an absolute path. The paths in the example above are absolute and even includes the drive letter. 
+A path that includes all of the folders, starting with the first one  is called an absolute path. The paths in the example above are absolute and even includes the drive letter, which is optional. 
 
-The drive letter is optional if you are specifying a path on the same drive where the web page doing the specifying is located. If you leave off the drive letter the path looks like this:
+- Windows absolute path example, including the optional drive letter:  
+  `C:/Users/Brian/Repos/CIS195-Demos/Unit02/SouthIndia/Chennai/index.html`
+- Mac OS absolute path example:  
+  `/Volumes/Macintosh HD/Users/Brian/Repos/CIS195-Demos/Unit02/SouthIndia/Chennai/index.html`
+
+On Windows, the drive letter is optional if you are specifying a path on the same drive where the web page doing the specifying is located. If you leave off the drive letter the path looks like this:
 
 `/Users/Brian/Repos/CIS195-Demos/Unit02/SouthIndia/Chennai/index.html`
 
@@ -112,6 +117,8 @@ A relative path specifies the location of a file or folder relative to some othe
 `ChennaiArea/index.html`
 
 Notice that there is no slash at the beginning of a relative path.
+
+This is what you should always be using for link `href` and image `src` attributes!
 
 ## Linking to a page in a sub-folder
 
