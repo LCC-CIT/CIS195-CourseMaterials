@@ -89,22 +89,6 @@ This week is your opportunity to review all that we've covered in the first four
 Focus on understanding concepts&mdash;not on memorizing answers. The only thing to memorize is some terminology and syntax (Some HTML element names and attributes, and CSS properties). The rest of what you need to know is how HTML and CSS work and how to write code.
 
 
-
-## About the Quiz
-
-- The quiz will cover material in the lecture notes from the first four weeks of the term.
-- When and where to take the quiz:
-  - In the classroom at the normal class time.
-  - In the Instructional Testing Center between 9:00 am and 7:00 pm on Wednesday or Thursday.
-    - Bring ID.
-- For both locations:
-  - You will have 1 hour and 50 minutes to finish the quiz.
-  - You can bring a 4 X 6 note card.
-  - You are not allowed to search the internet for answers, use AI (like chatGPT) or get help from another person.
-
-
-
-
 ## What to Review
 
 ### Lecture notes
@@ -126,6 +110,26 @@ Review the code you wrote for the lab assignments. Make sure you understand how 
 There is a practice quiz available on Moodle that has the same style questions and covers the same concepts as the real quiz but using different questions. As you take the practice quiz, focus on understanding concepts, not on memorizing answers.
 
 In order to do well on the midterm quiz and on the homework for the second half of the term, you need to understand the underlying concepts behind the questions and programming problems--not just "the answers". 
+
+
+
+## About the Quiz
+
+- The quiz will cover material in the lecture notes from the first four weeks of the term.
+- When and where to take the quiz:
+  - In the classroom at the normal class time.
+  - In the Instructional Testing Center between 9:00 am and 7:00 pm on Wednesday or Thursday.
+    - Bring photo ID.
+- For both locations:
+  - The quiz is restricted for the CRN of the section you registered for and the IP address of the location where you take the quiz. Make sure you are connected to "LCC WiFi", not "LCC Guest".
+  - You will have 1 hour and 50 minutes to finish the quiz.
+  - There are 30 questions.
+  - You can bring a 4 X 6 note card.
+  - You are not allowed to search the internet for answers, use AI (like chatGPT) or get help from another person.
+  - Seeing your results:  
+    You will be able to see your score and review your answers immediately after you finish the quiz. After you exit the quiz you won't be able to review your answers again, but you will be able to see your score.
+
+
 
 ------
 
