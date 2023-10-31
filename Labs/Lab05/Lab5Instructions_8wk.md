@@ -13,13 +13,19 @@ Modify the home page of your review web site from the previous lab assignment. A
 
 2. Make the navigation links look like buttons by giving them:
 
-- A background color.
-- A border.
-- Appropriate margin and padding.
-- Rounded corners.
+   - A background color.
 
-- Use the float property to align the navigation links horizontally.
-- Use the clear property to end the float.
+   - A border.
+
+   - Appropriate margin and padding.
+
+   - Rounded corners.
+
+
+   - Use the float property to align the navigation links horizontally.
+
+   - Use the clear property to end the float.
+
 
 **Note:** Please use a different HTML structure for your navigation menu than I did in my [South India web site](https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/). For example, you could put your links inside`<p>` elements instead of a `ul` with `li` elements.
 

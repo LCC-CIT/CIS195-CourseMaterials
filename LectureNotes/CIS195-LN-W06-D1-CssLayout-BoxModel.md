@@ -74,8 +74,10 @@ author: Brian Bird
 
 # Q and A
 
--   Review due dates on Moodle.
--   Answer questions about this week's lab assignment.
+-   Any questions about the midterm?
+-   .Are you getting started on the term project?  
+    Did we look at the requirements?   
+-   Don't forget the quiz that closes before class on Thursday.
 
 
 
