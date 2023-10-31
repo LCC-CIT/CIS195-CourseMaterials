@@ -75,7 +75,7 @@ author: Brian Bird
 # Q and A
 
 -   Any questions about the midterm?
--   .Are you getting started on the term project?  
+-   Are you getting started on the term project?  
     Did we look at the requirements?   
 -   Don't forget the quiz that closes before class on Thursday.
 
@@ -169,6 +169,16 @@ If the section has a blue background, and it contains a paragraph with a 10px ma
 ```css
 section {background-color: blue;}
 p {margin: 10px;}
+```
+
+
+
+## Combined Settings
+
+You can set width, style, and color in one property like this:
+
+```css
+p { border: 15px solid blue; }
 ```
 
 
