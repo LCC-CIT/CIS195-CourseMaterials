@@ -10,7 +10,7 @@ author: Brian Bird
 **CIS195 Web Authoring 1: HTML**
 <h1>More Page Layout Using CSS</h1>
 
-<table>
+<table  hidden>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Eight-Week Term</th>
@@ -35,9 +35,7 @@ author: Brian Bird
     </tr>
   </tbody>
 </table>
-
-
-<table hidden>
+<table>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Ten-Week Term</th>
@@ -46,26 +44,30 @@ author: Brian Bird
   <tbody>
     <tr>
       <td>1. Intro to HTML</td>
-      <td>6. Layout with CSS</td>
+      <td><mark>6. Layout with CSS</mark></td>
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>7. HTML Tables</td>
+      <td>7. CSS Grid, Flexbox</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
       <td>8. HTML Forms</td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS, Midterm</td>
+      <td>4. Formatting with CSS</td>
       <td>9. Multimedia, Final</td>
     </tr>
     <tr>
-      <td>5. Project Propposal, Midtern</td>
-      <td>10. Project Completion, Final</td>
+      <td>5. Project Propposal, Midterm</td>
+      <td>10. HTML Tables, Project Completion</td>
+    </tr>
+  	<tr>
+    	<td>11. Final</td>
     </tr>
   </tbody>
 </table>
+<br>
 <h2>Contents</h2>
 
 [TOC]
