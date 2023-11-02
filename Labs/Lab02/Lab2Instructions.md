@@ -19,7 +19,7 @@ Create a single web page that presents a review of something of your choice and 
 - One or more special characters like &hearts;.
 - A nested list.
 - A horizontal rule.
-- Two or more comments. For one of the comments, put your name  and the date in the head element.
+- Two or more comments. For one of the comments, put your name and the date in the head element.
 
 Check your page using the [W3C HTML Validator](https://validator.w3.org)  
 
@@ -43,9 +43,9 @@ Create a review site that contains <u>a home page</u> and at <u>least three revi
   - All the review page files will be in a sub-folder named *reviews*.
   - All the image files will be in a sub-folder named *images*.
   - Here is an outline of the folder structure:
-    - home
-      - reviews
-      - images
+    - Lab2
+      - Reviews
+      - Images
 
 - Each review page should have at least one figure containing an image.
 
