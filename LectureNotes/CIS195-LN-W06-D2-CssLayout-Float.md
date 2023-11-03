@@ -114,7 +114,7 @@ Make an image fill the browser viewport:
 
 - `background-repeat: no-repeat` will stop the image from being tiled.
 - `background-size:cover` will cause the image to fit the width to the viewport, but the top and bottom might be clipped.
-- `background-position: contain` will make the image height fit the height of the containing element.
+- `background-size: contain` will make the image height fit the height of the containing element.
 
 ```CSS
 div {
