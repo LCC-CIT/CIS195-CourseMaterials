@@ -73,8 +73,16 @@ author: Brian Bird
 
 ## Q and A
 
--   Review due dates on Moodle.
--   Answer questions about this week's lab assignment.
+-   Update on CSS background images:
+    -   CSS `background-size: contain` and `cover` don't work on `body`, you need to use a `div`, or other structural element like `section`. 
+    
+-   Winter registration is open!  
+    [Upcoming classes](https://lcc-cit.github.io/CS133JS-CourseMaterials/LectureNotes/CS133JS-LN-W06-DX-NextSoftwareDevClasses.html) for the Software Development AAS degree program 
+-   Lab 5 on Positioning&mdash; any questions?
+    -   Code review due today.
+    -   Production version due Thursday.
+
+-   Does anyone have any other questions about anything?
 
 ## Grid Container Elements
 
