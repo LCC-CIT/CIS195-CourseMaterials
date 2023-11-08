@@ -1,0 +1,13 @@
+line,settings,settingsDescription,requiredElements1,requiredElements2,,regExp,regExpDescription,moreRequirements,moreReqsDescription
+1,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/Lab02/CIS195_Su23Lab2Submission,,title,title,,<head>[\s\S]*<!--,Comment in head,index.htm,File name
+2,G:\My Drive\Courses\CIS195\2023-Fall\Labs\CIS195_F23Lab3Submissions\,,nav a[href],img[usemap],,,,5,Total html files
+3,2,Number of parts,a[href^='#'],map[name],,,,,
+4,Lab02,Lab name,a[href] > img,map > area[shape],,,,,
+5,TRUE,Parts in subfolders,a[href^='mailto'],area[href],Todo: check for link to href + id,,,,
+6,,,*[id],,,,,,
+7,,,,,,,,,
+8,,,,,,,,,
+9,,,,,,,,,
+10,,,,,,,,,
+11,,,,,,,,,
+12,,,,,,,,,

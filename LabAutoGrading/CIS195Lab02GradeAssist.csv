@@ -1,0 +1,13 @@
+line,settings,settingsDescription,requiredElements1,regExp,regExpDescription,moreRequirements,moreReqsDescription
+1,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Summer/Lab02/CIS195_Su23Lab2Submission,,title,<head>[\s\S]*<!--,Comment in head,index,File name
+2,G:\My Drive\Courses\CIS195\2023-Fall\Labs\CIS195_F23Lab2Submissions\,,a[href],&[a-zA-Z0-9]*;,Special symbol,4,Total html files
+3,1,Number of parts,figure > img,,,,
+4,Lab02,Lab name,figure > figcaption,,,,
+5,FALSE,Parts in subfolders,img[alt],,,,
+6,,,hr,,,,
+7,,,blockquote,,,,
+8,,,li,,,,
+9,,," :is(ol ol), :is(ol ul), :is(ul ol), :is(ul ul)",,,,
+10,,,,,,,
+11,,,,,,,
+12,,,,,,,
