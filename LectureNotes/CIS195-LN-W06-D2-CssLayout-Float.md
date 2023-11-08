@@ -91,6 +91,14 @@ This week we will be talking about using CSS for page layout (design), which is 
 - `background-repeat`&mdash;controls how an image is or isn't repeated.
 - `background-attachment`&mdash;controls whether or not the image scrolls with the page.
 - `background-position`&mdash;sets the initial position of background images.
+  - top, bottom, left, right, center (and more)
+  - Numeric coordinates like: 50px 70px
+
+- `background-size`&mdash;sets the size of the background image.  
+  This property doesn't work on `body`, you need to apply it to a structural element like `div`.
+  - auto, contain, cover (and more)
+  - Numeric width and height, like: 500px 400px
+
 
 ## Background Images
 
@@ -105,21 +113,21 @@ body {
 Make an image fill the browser viewport:
 
 - `background-repeat: no-repeat` will stop the image from being tiled.
-- `background-position:cover` will cause the image to fit the width to the viewport, but the top and bottom might be clipped.
-- `background-position: contain` will make the image height fit the height of the containing element.
+- `background-size:cover` will cause the image to fit the width to the viewport, but the top and bottom might be clipped.
+- `background-size: contain` will make the image height fit the height of the containing element.
 
 ```CSS
-body {
+div {
   background-image: url("sunset.png") 
   background-repeat: no-repeat
-  background-position: cover;
+  background-size: cover;
 }
 ```
 
 Make an image stretch to fit the body:
 
 ```CSS
-body {
+div {
   background-image: url("sunset.png");
   background-size: 100% 100%; 
 }

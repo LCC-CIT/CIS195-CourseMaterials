@@ -119,6 +119,21 @@ Letter grades for the course will be determined by the following percentages:
 | D    | 60–61    | 62–67 | 68–69  |
 | F    | Below 60 |       |        |
 
+### Quizzes
+
+<u>Reading Quizzes</u>
+Weekly quizzes are given that cover the required reading for that week. These quizzes must be taken before the first class meeting of the week. They are "open book" (or whatever reading material was assigned.)
+
+<u>Midterm and Final Quizzes</u>
+
+The midterm and final quizzes are given in weeks 5 and 11. See the course schedule for exact dates and times. Quizzes are "closed book", but students may prepare a 4 X 6 notecard to refer to during the quiz. 
+
+- On-campus students (hybrid modality) will take the quiz In the classroom during the normal class time.
+
+- Online studentw sill take the quiz In the Instructional Testing Center in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures.  
+
+  Students who live outside the Eugene/Springfield area can send an email to [online@lanecc.edu](mailto:online@lanecc.edu) well in advance of the test dates to arrange for your midterm and final to be proctored at a location near you.
+
 ### Late Work
 
 - The grade for lab assignments submitted after the due date will be reduced by 10%. 
