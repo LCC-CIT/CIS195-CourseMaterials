@@ -227,6 +227,38 @@ Item 8						Item 9
 
 
 
+## Grid Template Areas
+
+The `grid-template-areas` property in CSS is used to position structural elements within a grid layout. Each element to be positioned must be given a `grid-area` name.  The `grid-template-areas` property is then used to arrange the named elements into rows and columns like this:
+
+```html
+<style>
+    .container {
+      display: grid;
+      grid-template-areas:
+        'header header header'
+        'menu main sidebar'
+        'section section sidebar'
+        'footer footer footer';
+    }
+</style>
+
+<div class="container">
+    <header style="grid-area: header;">header</header>
+    <nav style="grid-area: menu;">menu</nav>
+    <main style="grid-area: main;">main</main>
+    <section style="grid-area: section;">section</section>
+    <aside style="grid-area: sidebar;">sidebar</aside>
+    <footer style="grid-area: footer;">footer</footer>
+  </div>
+```
+
+In this example, the `div` is a grid container that contains a grid with six areas that are specified by the `grid-template-areas` CSS property.  The grid items are placed in the grid container using the `grid-area` CSS property.  The grid items are not placed in the grid container in the order they appear in the HTML.  Their order is determined by the order of area names in the `grid-template-areas` CSS property.  
+
+Each `grid-area` name should only be applied to one element.  Note that the `grid-template-areas` names don't need to match the element names.  
+
+
+
 ## Example Code
 
 Open the example web page in your browser and use the *View Source* feature to look at the source code.
