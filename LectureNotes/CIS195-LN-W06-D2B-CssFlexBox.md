@@ -9,9 +9,10 @@ author: Brian Bird
 ---
 
 **CIS195 Web Authoring 1: HTML**
+
 <h1>CSS Flexbox</h1>
 
-<table>
+<table hidden>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Eight-Week Term</th>
@@ -20,26 +21,23 @@ author: Brian Bird
   <tbody>
     <tr>
       <td>1. Intro to HTML</td>
-      <td>5. Midterm, Layout with CSS</td>
+      <td>5. Layout with CSS</td>
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td><mark>6. CSS Grid and Flexbox</mark></td>
+      <td>6. HTML Tables</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
-      <td>7. HTML Tables</td>
+      <td>7. HTML Forms</td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS</td>
-      <td>8. HTML Forms, Final</td>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>8. Multimedia, Final</td>
     </tr>
   </tbody>
 </table>
-
-
-
-<table hidden>
+<table >
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Ten-Week Term</th>
@@ -52,34 +50,36 @@ author: Brian Bird
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>7. HTML Tables</td>
+      <td><mark>7. CSS Grid and Flexbox</mark></td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
       <td>8. HTML Forms</td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS, Midterm</td>
-      <td>9. Multimedia, Final</td>
+      <td>4. Formatting with CSS</td>
+      <td>9. Multimedia</td>
     </tr>
     <tr>
-      <td>5. Project Propposal, Midtern</td>
-      <td>10. Project Completion, Final</td>
+      <td>5. Midterm, Project Propposal</td>
+      <td>10. Tables, Project Completion</td>
     </tr>
+      <tr>
+          <td></td>
+          <td>11. Final</td>
+      </tr>
   </tbody>
 </table>
+
+
 <h2>Contents</h2>
 
 [TOC]
 
-# Announcements
-
-I will be out of town Saturday through Wednesday, so there will be no in-person class on Tuesday 8/8/23,  but I will post a recording of the lecture.
-
 # Q and A
 
--   Review due dates on Moodle.
--   Answer questions about this week's lab assignment.
+-   Lab 5 is due today.
+-   Are there any questions about lab assignments or the term project?
 
 # Flexbox 
 
