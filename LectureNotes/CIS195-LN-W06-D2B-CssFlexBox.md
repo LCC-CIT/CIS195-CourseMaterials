@@ -219,7 +219,7 @@ Value options:
 ### `align-content`
 
 Aligns the flex items in a direction at right angles to the container direction.  
-This property determines the spacing between lines, while `align-items` determines how the items as a whole are aligned within the container. When there is only one line, this property has no effect. One way to get multiple lines is by applying the property `flex-wrap:wrap;`.
+This property determines the spacing between lines, while `align-items` determines how a group of items are aligned within the container. When there is only one line, this property has no effect. One way to get multiple lines is by applying the property `flex-wrap:wrap;`.
 
 ### `justify-content`
 
