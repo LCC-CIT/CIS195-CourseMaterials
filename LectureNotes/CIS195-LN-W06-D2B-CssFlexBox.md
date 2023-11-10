@@ -145,17 +145,9 @@ With `flex-direction` set to `column-reverse` it looks like this:
 
 
 
-## Flexbox Alignment and Flow Properties
+## Flexbox Alignment Properties
 
 These properties can be used to further control the positioning of elements inside a flexbox:
-
-- `align-content`: aligns the flex items in a direction at right angles to the container direction.
-- `align-items`: aligns the flex items in the container direction.
-- `justify-content`
-- `flex-wrap`: determines whether or not flex items wrap within the flex container.
-- `flex-flow`: shorthand for setting both the `flex-direction` and `flex-wrap` properties.
-
-Each property is explained further below.
 
 ### `align-items`
 
@@ -167,8 +159,6 @@ Aligns the flex items in a direction at right angles to the container direction 
 (This property can also be used on CSS grid containers.)
 
 Value options:
-
-
 
 - `normal`: Default value. Items are stretched to take up the available space.  
   We can only see the effect if we give the container some additional height .  
@@ -208,7 +198,7 @@ Value options:
   	<p style="border:solid; height: 50px;">Paragraph 3</p>
   </div>
 
-- `flex-end`: 	Items are stacked at the end of the flex container  
+- `flex-end`: Items are stacked at the end of the flex container  
 
   <div style="display:flex; align-items: flex-end; border: solid; height: 200px;">
   	<p style="border:solid; height: 50px;">Paragraph 1</p>
@@ -216,7 +206,7 @@ Value options:
   	<p style="border:solid; height: 50px;">Paragraph 3</p>
   </div>
 
-- `baseline`: 	Items are stacked at the baseline of the flex container  
+- `baseline`: Items are stacked at the baseline of the flex container  
 
   <div style="display:flex; align-content: baseline; border: solid; height: 200px;">
   	<p style="border:solid; height: 50px;">Paragraph 1</p>
@@ -225,6 +215,11 @@ Value options:
   </div>
 
 
+
+### `align-content`
+
+Aligns the flex items in a direction at right angles to the container direction.  
+This property determines the spacing between lines, while `align-items` determines how the items as a whole are aligned within the container. When there is only one line, this property has no effect. One way to get multiple lines is by applying the property `flex-wrap:wrap;`.
 
 ### `justify-content`
 
@@ -286,6 +281,19 @@ Value options:
   </div>
 
 
+
+## Flexbox Flow Properties
+
+- `flex-wrap`  Determines whether or not flex items wrap within the flex container.
+
+- `flex-flow`  Shorthand for setting both the `flex-direction` and `flex-wrap` properties.
+
+## Flex Item Properties
+
+These are properties you can apply to individual items within a flexbox container.
+
+- `order`  Moves the item to a different position.
+- `align-self`  This property accepts the same values as align-items.
 
 # References
 
