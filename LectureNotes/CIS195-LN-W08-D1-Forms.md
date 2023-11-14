@@ -10,34 +10,32 @@ author: Brian Bird
 
 <h1>HTML Forms, Part 1</h1>
 
-<table>
+<table hidden>
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Eight-Week Term</th>
     </tr>
   </thead>
-    <tbody>
+  <tbody>
     <tr>
       <td>1. Intro to HTML</td>
-      <td>5. Midterm, Layout with CSS</td>
+      <td>5. Layout with CSS</td>
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>6. CSS Grid and Flexbox</td>
+      <td>6. HTML Tables</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
-      <td>7. HTML Tables</td>
+      <td>7. HTML Forms</td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS</td>
-      <td><mark>8. HTML Forms, Final</mark></td>
+      <td>4. Formatting with CSS, Midterm</td>
+      <td>8. Multimedia, Final</td>
     </tr>
   </tbody>
 </table>
-
-
-<table hidden>
+<table >
   <thead>
     <tr>
       <th colspan="2">Topics by Week for the Ten-Week Term</th>
@@ -50,37 +48,52 @@ author: Brian Bird
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>7. HTML Tables</td>
+      <td>7. CSS Flexbox and Grid</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
-      <td>8. HTML Forms</td>
+      <td><mark>8. HTML Forms</mark></td>
     </tr>
     <tr>
-      <td>4. Formatting with CSS, Midterm</td>
-      <td>9. Multimedia, Final</td>
+      <td>4. Formatting with CSS</td>
+      <td>9. Multimedia</td>
     </tr>
     <tr>
-      <td>5. Project Propposal, Midtern</td>
-      <td>10. Project Completion, Final</td>
+      <td>5. Midterm, Project Propposal</td>
+      <td>10. Tables, Project Completion</td>
     </tr>
+      <tr>
+          <td></td>
+          <td>11. Final</td>
+      </tr>
   </tbody>
 </table>
-<h2>Contents</h2>
+
+
+
 
 [TOC]
 
 ## Introduction
 
 - Announcements
+  - Week 8 is the last week for grading changes.
 
-- Review due dates 
+- Due dates:
+  - Reading quiz closes before class on Thursday.
+  - Lab 6 (CSS Grid and Flexbox) is due Thursday.
+
+- Q and A
+  - Any questions about the lab assignment?
+
+  - How is the term project going?
+
 
 
 
 ### Purpose of forms
 
-Forms allow users to enter data that can be processed by code that either runs in the browser (JavaScript) or that runs on the server (PHP, ASP.NET, Node.js, etc.)
+Forms allow users to enter data that can be processed by code that runs on the server (PHP, ASP.NET, Node.js, etc.). Input elements can be used by code that runs in the browser (JavaScript, WASM).
 
 
 
