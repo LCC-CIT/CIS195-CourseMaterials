@@ -76,28 +76,32 @@ author: Brian Bird
 
 # Introduction
 
-- Announcements
+## Announcements
+
+**For November 21, 2023**
+
+- **No class Thursday**. It's the Thanksgiving holiday!
+
+- **Due dates:** 
+
+  - Lab 7 production version due date is extended to Friday night, 11/24.
+  - Quiz 8 closing date extended to Friday night, 11/24.
+
+- **Study Jam for Students November 28th!**
+  Tuesday, November 28 from 2-4 pm will be Study Jam. The library will provide free pizza and snacks for students as you study for finals. In addition to food and drink, there will be research help, tutoring, relaxation and yoga tips, and therapy dogs. 
+
+  <img src="Images/StudyJam.png" alt="StudyJam" style="zoom:40%;" />
+
+## Q and A
+
 - Review due dates 
 - Answer questions about the lab assignment or anything else
 
 
 
-## **Objectives**
+# HTML Audio
 
-- **Use audio in a web page**
-  - [Understand audio formats](#topic1)
-  - I[nsert an HTML audio clip](#topic2)
-  - [Support multiple audio formats](#topic3)
-- **Use video in a web page
-  **
-  - [Understand video formats](#topic5)
-  - [Insert an HTML video clip](#topic6)
-  - Write a video caption track
-  - Format video captions
-
-# HTML5 Audio
-
-**Audio Codecs** 
+## Audio Codecs
 
 - MP3
   - Compression to around 10% the original size
@@ -116,8 +120,8 @@ author: Brian Bird
   - Supported by: Chrome, Firefox, Safari and Oprea
   - Open source, royalty-free
 
+## HTML `<audio>` Element 
 
-**HTML <audio> Element** 
 ```
 <audio src="audioUrl"> </audio>
 ```
@@ -143,7 +147,7 @@ author: Brian Bird
 - volume
   The playback volume, in the range 0.0 (silent) to 1.0 (loudest).
 
-**HTML <source> Element - Provide Alternate Files**
+### HTML `<source>` Element - Provide Alternate Files
 
 You may wish to have more than one src URL listed in case a user's browser doesn't support the audio type of your file.
 ```html
@@ -156,9 +160,9 @@ You may wish to have more than one src URL listed in case a user's browser doesn
 
 
 
-# HTML5 Video
+# HTML Video
 
-**Video Codecs**
+## Video Codecs
 
 
 - H.264
@@ -178,20 +182,32 @@ You may wish to have more than one src URL listed in case a user's browser doesn
   - Same video quality as VP8 at half the download size
   - Supported by Chrome, Firefox and Opera
 
-**HTML <video> Element**
+## HTML `<video>` Element
+
 ```html
 <video src="vidioUrl"> </vidio>
 ```
 
 
-# HTML <iframe> Element 
+# HTML iFrame 
 
 - Means "inline frame"
 - Another way of embedding a web page (or other document) inside of another web page.
   In the example below, the embedded web page is [butterflies.html](butterflies.html)
 - Reference: [w3schools iframe](https://www.w3schools.com/tags/tag_iframe.asp)
+## Example: Embedding a Web Page
 
+```html
+<iframe width="400" height="200" src="butterflies.html"></iframe> 
+```
   <iframe width="400" height="200" src="butterflies.html"></iframe> 
+
+## Example: Embedding a YouTube Video
+
+```html
+<iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ'></iframe>
+```
+<iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ'></iframe>
 
 # References
 
