@@ -90,7 +90,7 @@ author: Brian Bird
 - **Study Jam for Students November 28th!**
   Tuesday, November 28 from 2-4 pm will be Study Jam. The library will provide free pizza and snacks for students as you study for finals. In addition to food and drink, there will be research help, tutoring, relaxation and yoga tips, and therapy dogs. 
 
-  <img src="Images/StudyJam.png" alt="StudyJam" style="zoom:40%;" />
+  <img src="Images/StudyJam.png" alt="StudyJam" style="zoom:30%;" />
 
 ## Q and A
 
@@ -115,10 +115,18 @@ author: Brian Bird
   - Better sound quality than MP3
   - Supported by: Chrome, Firefox and Oprea
   - Open source, royalty-free
+- Flac (Free Lossless Audio Codec)
+  
+  -  Provides the best sound quality through lossless compression.
+  - Compatible with all major desktop and mobile browsers.
+  - Open source, royalty-free, developed by the [Xiph.Org Foundation](https://en.wikipedia.org/wiki/Xiph.Org_Foundation), 
+  
 - WAV
   - No compression, no loss in sound quality
   - Supported by: Chrome, Firefox, Safari and Oprea
   - Open source, royalty-free
+
+  
 
 ## HTML `<audio>` Element 
 
@@ -144,8 +152,6 @@ author: Brian Bird
   - *empty string*: synonym of the auto value.
 - src
   The URL of the audio to embed. 
-- volume
-  The playback volume, in the range 0.0 (silent) to 1.0 (loudest).
 
 ### HTML `<source>` Element - Provide Alternate Files
 
@@ -169,6 +175,11 @@ You may wish to have more than one src URL listed in case a user's browser doesn
   - Developed by the MPEG group 
   - The industry standard for high-definition video streams and video plug-ins 
   - Supported by Chrome, Firefox, Edge, Opera, and Safari
+- MP4 (MPEG-4 Part 14) 
+
+  - MP4 is the most common type of video file format. 
+  - Stores compressed video, audio and text.
+  - Supported by all major desktop and mobile browsers.
 - Theora
   - A royalty-free codec developed by the Xiph.org Foundation
   - Produces video streams that can be used with almost any container
@@ -192,10 +203,12 @@ You may wish to have more than one src URL listed in case a user's browser doesn
 # HTML iFrame 
 
 - Means "inline frame"
-- Another way of embedding a web page (or other document) inside of another web page.
+- A way of embedding a web page (or other document) inside of a web page.
   In the example below, the embedded web page is [butterflies.html](butterflies.html)
 - Reference: [w3schools iframe](https://www.w3schools.com/tags/tag_iframe.asp)
 ## Example: Embedding a Web Page
+
+Note that some web sites will block embedding of their web pages. In this example, I'm embedding one of my own web pages.
 
 ```html
 <iframe width="400" height="200" src="butterflies.html"></iframe> 
@@ -204,16 +217,24 @@ You may wish to have more than one src URL listed in case a user's browser doesn
 
 ## Example: Embedding a YouTube Video
 
+Note that the link for the YouTube video is not the general URL, but the *embed* link provided on the YouTube page.
+
 ```html
 <iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ'></iframe>
 ```
 <iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ'></iframe>
 
-# References
 
-- MDN: [Media formats for HTML audio and video](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats)
-- MDN: [The Embed Audio Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
-- 
+
+# References and Resources
+
+- Mozilla Developer Network (MDN) Reference and Tutorials:
+  -  [Media formats for HTML audio and video](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats)
+  - [`<audio>`: The Embed Audio element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+  - `[<video>`: The Video Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) 
+  - [`<iframe>`: The Inline Frame element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
+
+- [Internet Archive](https://archive.org/)  Internet Archive is a non-profit library of millions of free books, movies, music, and more. A good source for multimedia files to use in your web sites.
 
 
 ------
