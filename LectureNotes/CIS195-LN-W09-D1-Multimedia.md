@@ -231,7 +231,7 @@ Note that the link for the YouTube video is not the general URL, but the *embed*
 - Mozilla Developer Network (MDN) Reference and Tutorials:
   -  [Media formats for HTML audio and video](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats)
   - [`<audio>`: The Embed Audio element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
-  - `[<video>`: The Video Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) 
+  - [`<video>`: The Video Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) 
   - [`<iframe>`: The Inline Frame element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
 
 - [Internet Archive](https://archive.org/)  Internet Archive is a non-profit library of millions of free books, movies, music, and more. A good source for multimedia files to use in your web sites.
