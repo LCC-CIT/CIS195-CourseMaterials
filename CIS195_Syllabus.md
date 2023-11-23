@@ -99,14 +99,14 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 ## Assessment and Grading
 
-Specific grading criteria will be applied to each of the labs, quizzes, and exams you will be working on in this class. Part of the lab involves a code review. Attendance is not graded.
+Specific grading rubrics will be applied to each of the labs, quizzes, and exams you will be working on in this class. Part of the term project involves a code review.
 
 | Assessment Activities                            | Percentage of grade |
 | ------------------------------------------------ | ------------------- |
 | Labs 1&ndash;9, 40 points each                   | 36%                 |
 | Quizzes 1&ndash;9,  10 points each               | 9%                  |
 | Midterm (100 points) and Final Exam (200 points) | 30%                 |
-| Project, 250 points                              | 25%                 |
+| Term Project, 250 points                         | 25%                 |
 
 
 Letter grades for the course will be determined by the following percentages:              
