@@ -8,13 +8,13 @@ You will create a page containing the following HTML elements:
 
 - `<audio>`
 
-- `<object>`
+- `<video>`
 
 - `<iframe>`
 
 ## Requirements
 
-Create a web page that uses each of the three elements listed above. You can make a new page, or add these elements to one your existing pages.
+Create a web page that uses each of the three elements listed above. 
 
 ## Implementation
 
@@ -22,8 +22,8 @@ Create a web page that uses each of the three elements listed above. You can mak
 
   - Audio: a sound file you put in your web site folder. It could be mp3 or another audio format.
 
-  - Object: this is intended to be used for things that depend on browser extensions in order to be seen or heard. Most of it's former uses have been deprecated, but a good use for it now would be for displaying non-html documents, like PDFs.
-  - Iframe: embed some HTML page that is in a file in the folder for your own web site.
+  - Video: should be the HTML video element and not an embedded YouTube video.
+  - Iframe: embed your own HTML page that is in a file in a folder for your own web site.
 
 - You can use multimedia files you created yourself or that are legal to download and use for academic (non-commercial) web sites. Here are some places to find these:
 
@@ -40,7 +40,7 @@ Create a web page that uses each of the three elements listed above. You can mak
   - Upload your page and it's associated files to citstudent (unzipped).
   - Put the URL for the page in the on-line text for the Moodle assignment.
 
-- Upload to Moodle
+- Upload to Moodle, unless the total size of files in your site is over 10MB
 
   - Zip the files used by your page.
   - Upload the zip file to Moodle using the lab submission link for the assignment.
@@ -55,7 +55,7 @@ Create a web page that uses each of the three elements listed above. You can mak
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), 2018, revised 2022, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), 2018, revised 2023, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
 
 ------------
 
