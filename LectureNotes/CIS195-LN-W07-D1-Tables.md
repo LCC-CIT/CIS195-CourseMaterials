@@ -1,3 +1,14 @@
+---
+title: CSS Table Styling
+description: Styling Tables with CSS
+keywords: css, table, row, column, thead, tbody, foot, caption
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+---
+**CIS195 Web Authoring 1: HTML**
+
+
 <h1>HTML Tables</h1>
 
 <table hidden>
@@ -65,13 +76,30 @@
 
 ## Announcements
 
-- Review due dates (lab and quiz).
-- Are there any questions on the last lab?
-- How is the term project coming?
+- Today, Tuesday, November 28 from 2:00 to 4:00 pm there will be a [Study Jam in the library](https://library.lanecc.edu/). 
+  The library will provide free pizza and snacks for students as you study for finals. In addition to food and drink, there will be research help, tutoring, relaxation and yoga tips, and therapy dogs.
+- Tomorrow, Wednesday, November 29 from 9:00 am to 2:00 pm there is an [Advising & Financial Aid Reg Fest](https://www.lanecc.edu/community/events/drop-winter-reg-fest-0)  This is a drop-in event with academic advising, financial aid and student services representatives. Can't make it? Student Services departments are available on drop-in Monday-Friday. 
+- Any late or extra credit assignments are due by the end of the day on Monday, 12/4/23.
+
+### Q and A
+
+- Labs
+  - The lab 8 production version is due Thursday, 11/30.
+  - Lab 9, no code review is required, production version due Sunday 12/3.
+  - Any questions on the labs?
+- How is the term project going?
+  - Code review due today (Tuesday).
+  - Production version due Sunday, 12/3.
+- Final quiz
+  - There is an ungraded practice quiz open now.
+  - Final quiz time and place:
+    - For on campus students, it is at the regular class time next Tuesday, December 5.
+    - For online students, it is in the [Instructional Testing Center](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services?_gl=1*62xqx7*_ga*NDEyOTA4MDEzLjE1NzY2NDQ5NTc.*_ga_MMT5BK11VR*MTY4Mjk3ODA0OC4zMjguMS4xNjgyOTgwMTkxLjAuMC4w), Monday 12/4 through Wednesday 12/6.
+  - Any questions?
 
 
 
-## Introduction
+## Introduction to Tables
 
 - What is a table--in general?
 - Where are tables commonly used?
