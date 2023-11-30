@@ -1,6 +1,4 @@
-<h1>Lab 6 Instructions</h1>
-
-**(This is lab 7 for the eight-week summer term)**
+<h1>Lab 9 Instructions</h1>
 
 <h2>HTML Tables</h2>
 
