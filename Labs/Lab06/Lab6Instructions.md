@@ -1,3 +1,13 @@
+---
+title: Lab 9
+description: Instructions for the HTML table lab assignment
+keywords: table, thead, tfoot, colspan, rowspan
+material: Lab instructions
+generator: Typora
+author: Brian Bird
+
+---
+
 <h1>Lab 9 Instructions</h1>
 
 <h2>HTML Tables</h2>
