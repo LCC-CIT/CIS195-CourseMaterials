@@ -10,6 +10,8 @@ author: Brian Bird
 
 <h1>Styling Tables with CSS</h1>
 
+
+
 <table hidden>
   <thead>
     <tr>
@@ -48,7 +50,7 @@ author: Brian Bird
     </tr>
     <tr>
       <td>2. More HTML, file paths</td>
-      <td>7. CSS Flexbox and Grid</td>
+      <td>7. CSS Grid and Flexbox</td>
     </tr>
     <tr>
       <td>3. Site structure and navigation</td>
@@ -69,36 +71,6 @@ author: Brian Bird
   </tbody>
 </table>
 
-<table hidden>
-  <thead>
-    <tr>
-      <th colspan="2">Topics by Week for the Ten-Week Term</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Intro to HTML</td>
-      <td>6. Layout with CSS</td>
-    </tr>
-    <tr>
-      <td>2. More HTML, file paths</td>
-      <td>7. HTML Tables</td>
-    </tr>
-    <tr>
-      <td>3. Site structure and navigation</td>
-      <td>8. HTML Forms</td>
-    </tr>
-    <tr>
-      <td>4. Formatting with CSS, Midterm</td>
-      <td>9. Multimedia, Final</td>
-    </tr>
-    <tr>
-      <td>5. Project Propposal, Midtern</td>
-      <td>10. Project Completion, Final</td>
-    </tr>
-  </tbody>
-</table>
-<h2>Contents</h2>
 
 [TOC]
 
@@ -170,7 +142,7 @@ These semantic-structural elements provide organization to your code and give yo
 - colgroup&mdash;column group 
   This one is special! There are no *real* columns in an HTML table, so this is a way to select a group td elements that make up a column so that you can apply a CSS rule to them.
 
-  Note: Even if you are only styling the first column, you need to include as many `<col>` elements are there are `<td>` or `<th>` elements in whichever row of your table has the most.
+  Note: Even if you are only styling the first column, you need to include as many `<col>` elements are there are `<td>` or `<th>` elements in whichever row of your table has the most.
 
   Example:
   
@@ -225,7 +197,7 @@ The best practice is to format tables with CSS rather than with HTML attributes.
           }
   ```
 
-  Note: the `border` property is the combined "short-hand" property for setting multiple border properties.
+  Note: the `border` property is the combined "short-hand" property for setting multiple border properties.
 
   
 
