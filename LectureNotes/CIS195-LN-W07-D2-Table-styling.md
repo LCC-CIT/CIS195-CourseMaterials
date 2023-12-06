@@ -102,11 +102,11 @@ author: Brian Bird
 
 These semantic-structural elements provide organization to your code and give you targets for CSS rules
 
-- thead&mdash;table heading
+- `thead`&mdash;table heading
 
-- tbody&mdash;table body
+- `tbody`&mdash;table body
 
-- tfoot&mdash;table footer
+- `tfoot`&mdash;table footer
 
   Example:
 
@@ -140,18 +140,18 @@ These semantic-structural elements provide organization to your code and give yo
   
 
 - colgroup&mdash;column group 
-  This one is special! There are no *real* columns in an HTML table, so this is a way to select a group td elements that make up a column so that you can apply a CSS rule to them.
+  This one is special! There are no *real* columns in an HTML table, so this is a way to select a group `td` elements that make up a column so that you can apply a CSS rule to them.
 
-  Note: Even if you are only styling the first column, you need to include as many `<col>` elements are there are `<td>` or `<th>` elements in whichever row of your table has the most.
+  - Even if you are only styling the first column, you need to include as many `<col>` elements are there are `<td>` or `<th>` elements in whichever row of your table has the most.
 
   Example:
   
   ```html
   <table>
     <colgroup>
-      <col class="specialColumn" />
-      <col style="background-color:blue;" />
-      <col id="col3" />
+      <col class="specialColumn">
+      <col style="background-color:blue;">
+      <col id="col3">
     </colgroup>
     <tr>
       <th>First column</th>
@@ -162,24 +162,28 @@ These semantic-structural elements provide organization to your code and give yo
   </table>
   ```
 
-
+- You can only apply the following CSS properties to a `colgroup`:
+  - `width`
+  - `visibility`
+  - `background` properties
+  - `border` properties
 
 ## CSS Table Properties
 
 The best practice is to format tables with CSS rather than with HTML attributes. 
 
-- border-collapse : 
+- `border-collapse` : 
 
-  - collapse&mdash;collpses the border into a single line.
-  - separate&mdash;the default, separate borders around each td.
+  - `collapse`&mdash;collpses the border into a single line.
+  - `separate`&mdash;the default, separate borders around each td.
 
-- The rest of the properties are the general properties you would use for other elements. 
+- The rest of the properties are the general properties you would use for other block elements. 
 
-  - border&mdash;use it like you would on any *block element*.
-  - margin and padding
-  - width and height
-  - text-align
-  - vertical-align
+  - `border`&mdash;use it like you would on any *block element*.
+  - `margin` and `padding`
+  - `width` and `height`
+  - `text-align`
+  - `vertical-align`
   - and more!
 
 - Example:
