@@ -138,8 +138,7 @@ The midterm and final quizzes are given in weeks 5 and 11. See the course schedu
 
 - The grade for lab assignments submitted after the due date will be reduced by 10%. 
 - Quizzes and exams cannot be taken after the due date except in emergency situations.
-
-Exceptions will only be made for serious illness or emergency situations. 
+- All late work is due by the end of week 10.
 
 
 
