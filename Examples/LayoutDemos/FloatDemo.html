@@ -1,44 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
-<!-- Demo of the CSS float property
+	<!-- Demo of the CSS float property
 Brian Bird, 11/4/14, revised 7/27/23
 -->
-<meta charset="UTF-8" />
-<title>Float Demo</title>
-<style>
-	p { 
-		border: solid 1px red;
-		width: 70px;
-		margin: 0px;
-	}
-</style>
+	<meta charset="UTF-8" />
+	<title>Float Demo</title>
+	<style>
+		header,
+		footer {
+			width: fit-content;
+			margin: auto;
+		}
+
+		p {
+			border: solid 1px red;
+			width: 70px;
+			margin: 0px;
+		}
+	</style>
 </head>
+
 <body>
-	<h1>Float Demo</h1>
-	<h2>Paragraph elements with floats</h2>
-This is a long line of text that I'm typing so I can see what happens to my blocks.
+	<header>
+		<hr>
+		<h1>Float Demo</h1>
+		<hr>
+	</header>
+	<h2>Block elements with floats</h2>
+	<h3>Floating paragraph elements to the left</h3>
+	This is a long line of text that I'm typing so I can see what happens to the paragraph block elements that follow
+	it, which are each floated to the left.
 	<p style="float:left">Block 1</p>
 	<p style="float:left">Block 2</p>
 	<p style="float:left">Block 3</p>
-	<span style="clear:left; float:left;">This is another long line of text. I want to see what it does!
-	</span>
-	<p style="clear:left; float:right;">Block 4</p>
+	<br style="clear:left;">
+	<h3>Floating paragrpah elements to the right</h3>
+	This is another long line of text, after a couple breaks. I want to see what it does!
+	The paragraphs that follow are each floated to the right.
+	<p style="float:right;">Block 4</p>
 	<p style="float:right;">Block 5</p>
-	<p style="float:right;">Block 6</p>	
-	<p style="clear:right; float:right;">Block 7</p>	
+	<p style="float:right;">Block 6</p>
+	<p style="float:right;">Block 7</p>
 
-	<h2 style="clear:both">Floating inline elements</h2>
+	<h2 style="clear:right">Floating inline elements</h2>
 	What happens if you float an inline element?
 	<h3>Anchor elements without floats</h3>
 	<a href="http://www.google.com">Google</a>
 	<a href="http://www.yahoo.com">Yahoo</a>
 	<a href="http://www.bing.com">Bing</a>
-
-	<h3>Anchor elements with floats</h3>
-	<a href="http://www.google.com" style="float:left; clear:right;">Google</a>
-	<a href="http://www.yahoo.com" style="float:left; clear:right;">Yahoo</a>
-	<a href="http://www.bing.com" style="float:left; clear:right;">Bing</a>
+	<br>
+	<3>Float anchor elements to the right</h3>
+		This is just a line of text. Each of the three following anchor elements
+		is floated to the right.
+		<a href="http://www.google.com" style="float:right">Google</a>
+		<a href="http://www.yahoo.com" style="float:right">Yahoo</a>
+		<a href="http://www.bing.com" style="float:right">Bing</a>
+		<br style="clear:right">
+		<h3>Float anchor elements to the left</h3>
+		Now we'll float each of them to the left
+		<a href="http://www.google.com" style="float:left">Google</a>
+		<a href="http://www.yahoo.com" style="float:left">Yahoo</a>
+		<a href="http://www.bing.com" style="float:left">Bing</a>
+		<br style="clear:left">
+		<br>
+		<footer>
+			<hr>
+			Created by Brian Bird 11/4/14 &bull; revised 12/6/23 &bull; Lane Community College
+			<hr>
+		</footer>
 </body>
+
 </html>
