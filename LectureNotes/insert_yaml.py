@@ -1,11 +1,11 @@
-import os
 import yaml
 import re
+import os
 
 def read_yaml_file(yaml_file_path):
     with open(yaml_file_path, 'r') as file:
         data = yaml.safe_load(file)
-    return data['text_to_add']
+    return data
 
 def find_markdown_files(directory):
     markdown_files = []
@@ -15,28 +15,43 @@ def find_markdown_files(directory):
                 markdown_files.append(os.path.join(root, file))
     return markdown_files
 
-def prepend_text_to_file(file_path, text):
+def prepend_text_to(file_path, text):
     with open(file_path, 'r') as original_file:
         original_content = original_file.read()
+    
+    # Check if the file already starts with '---'
+    if original_content.startswith('---'):
+        return
+    
     with open(file_path, 'w') as modified_file:
-        modified_file.write(text + '\n' + original_content)
+        modified_file.write(f'---\n{text}\n---\n' + original_content)
 
 def extract_h1_text(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
-    match = re.search(r'# (.+)', content)
-    return match.group(1) if match else 'Default Title'
+    
+    # Check for <h1> element
+    match_h1 = re.search(r'<h1>(.+)</h1>', content)
+    if match_h1:
+        return match_h1.group(1)
+    
+    # Fallback to # text
+    match_hash = re.search(r'^# (.+)', content, re.MULTILINE)
+    return match_hash.group(1) if match_hash else 'Default Title'
 
 def main(directory):
     yaml_file_path = os.path.join(directory, 'text_to_add.yaml')
-    text_to_add = read_yaml_file(yaml_file_path)
-    markdown_files = find_markdown_files(directory)
+    yaml_data = read_yaml_file(yaml_file_path)
     
-    for md_file in markdown_files:
-        h1_text = extract_h1_text(md_file)
-        modified_text = text_to_add.replace('title', h1_text).replace('description', h1_text)
-        prepend_text_to_file(md_file, modified_text)
+    # Convert YAML data to a string with key-value pairs
+    text_to_add = '\n'.join(f'{key}: {value}' for key, value in yaml_data.items())
+    
+    markdown_files = find_markdown_files(directory)
+    for markdown_file in markdown_files:
+        title = extract_h1_text(markdown_file)
+        text_to_add = text_to_add.replace('titleValue', ' '.join(title.split()[:2]))
+        prepend_text_to(markdown_file, text_to_add.replace('descriptionValue', title))
 
 if __name__ == "__main__":
-    directory = '.'  # Change this to the target directory if needed
+    directory = "."
     main(directory)

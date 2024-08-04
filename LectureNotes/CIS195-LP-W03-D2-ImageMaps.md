@@ -1,3 +1,10 @@
+---
+title: Images
+description: Images and Image Maps
+keywords: HTML, Web page
+generator: Typora
+author: Brian Bird
+---
 <h1>Images and Image Maps</h1>
 
 

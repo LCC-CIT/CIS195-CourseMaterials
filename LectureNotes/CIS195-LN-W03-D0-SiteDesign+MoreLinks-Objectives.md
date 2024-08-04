@@ -1,3 +1,10 @@
+---
+title: Design
+description: Site design and navigation
+keywords: HTML, Web page
+generator: Typora
+author: Brian Bird
+---
 ## Overview
 
 Learn how to  add various types of site navigation links to your web site.

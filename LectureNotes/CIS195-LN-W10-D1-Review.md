@@ -1,3 +1,10 @@
+---
+title: Review
+description: Review for the final
+keywords: HTML, Web page
+generator: Typora
+author: Brian Bird
+---
 # Review
 
 This week is your opportunity to review all that we've covered in this class&mdash;both as preparation for the final quiz as well as a way to firm up your knowledge of HTML and CSS so you will be ready to write great web developer in the future!

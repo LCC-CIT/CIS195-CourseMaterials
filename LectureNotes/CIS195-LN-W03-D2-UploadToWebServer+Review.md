@@ -1,3 +1,10 @@
+---
+title: Review
+description: Midterm Review & Publishing to the Web
+keywords: HTML, Web page
+generator: Typora
+author: Brian Bird
+---
 ### CIS 195 Web Authoring 1: HTML
 
 <table hidden>
