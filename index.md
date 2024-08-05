@@ -1,5 +1,5 @@
 ---
-title: HTML & CSS
+title: HTML & CSS Course
 description: Outline of the CIS 195 course and links to all the instructor-created content.
 keywords: CSS, HTML, World Wide Web
 material: Index to course material
