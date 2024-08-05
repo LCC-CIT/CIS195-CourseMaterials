@@ -147,7 +147,7 @@ Example:
 User-agent: *
 Disallow: /LessonPlans/
 
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://lcc-cit.github.io/CIS195-CourseMaterials/sitemap.xml
 ```
 
 
