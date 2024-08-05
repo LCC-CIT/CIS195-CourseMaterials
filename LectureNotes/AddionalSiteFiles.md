@@ -145,7 +145,9 @@ Example:
 
 ```plaintext
 User-agent: *
-Disallow: /LessonPlans/
+Disallow: LessonPlans/
+Disallow: LabAutoGrading/
+Disallow: LabStarters/
 
 Sitemap: https://lcc-cit.github.io/CIS195-CourseMaterials/sitemap.xml
 ```

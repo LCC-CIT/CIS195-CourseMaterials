@@ -1,6 +1,6 @@
 ---
-title: CIS 195 Course Outline
-description: Outline of the course and links to all the instructor-created content.
+title: HTML & CSS
+description: Outline of the CIS 195 course and links to all the instructor-created content.
 keywords: CSS, HTML, World Wide Web
 material: Index to course material
 generator: Typora
@@ -8,25 +8,31 @@ author: Brian Bird
 ---
 <h1>CIS 195, Web Authoring 1: HTML and CSS</h1>
 
-<h2>Course Outline for a Ten-Week Term</h2>
+<h2>Table of Contents</h2>
 
 [TOC]
 
 
 ## General Course Information
-
-[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html)  
-[Syllabus&mdash;10-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)  |  [Syllabus&mdash;8-Week](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)  
 [Useful Links](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_References.html) (See the syllabus for Zoom links)  
 [Course Materials on GitHub](https://github.com/LCC-CIT/CIS195-CourseMaterials)  
 [Demo Code on GitHub](https://github.com/LCC-CIT/CIS195-Demos)
 
+### Summer Eight-Week Term
+The summer term course is condensed into eight weeks of class with no final's week.<br>
+[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html)  
+[Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)
 
+### Ten-Week Term
+This is a "normal" term with ten weeks of class plus a final's week<br>[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book.html)   
+[Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html) 
 
-## 1. Intro to HTML
+## Course Outline for a Ten-Week Term
+
+### 1. Intro to HTML
 
 - [Objectives](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W01-D0-IntroToCourse-Objectives.html)
-- Reading 
+- Reading  
   Read these sections of *[The HTML Handbook](https://flaviocopes.com/book/html/)* by Flavio Copes  
     1\. [Preface](https://flaviocopes.com/book/html/#1-preface)  
     2\. [HTML Basics](https://flaviocopes.com/book/html/#2-html-basics)  
@@ -45,10 +51,10 @@ author: Brian Bird
   - [My Oregon Page](https://lcc-cit.github.io/CIS195-Demos/Unit01/OregonWebSite) 
   - [My Demo Page](https://lcc-cit.github.io/CIS195-Demos/Week1/Demo1.html)
 - Lab Assignment
-  - [Lab 1 Instructions](LabStarters/Lab01/Lab1Instructions-PersonalBio.html)
-  - [Lab 1 Rubric](LabStarters/Lab01/Lab01Rubric_CS195.htm)
+  - [Lab 1 Instructions](Labs/Lab01/Lab1Instructions-PersonalBio.html)
+  - [Lab 1 Rubric](Labs/Lab01/Lab01Rubric_CS195.htm)
 
-## 2. More on Creating Web Pages with HTML
+### 2. More on Creating Web Pages with HTML
 
 - [Objectives](LectureNotes/CIS195-LN-W02-D0-BasicHtmlElements-Objectives.html)
 
@@ -84,10 +90,10 @@ author: Brian Bird
   
 - Lab Assignment
 
-  - [Lab 2 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab02/Lab2Instructions.html)
-  - [Lab 2 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab02/Lab2Rubric-CS195.pdf)
+  - [Lab 2 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab02/Lab2Instructions.html)
+  - [Lab 2 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab02/Lab2Rubric-CS195.pdf)
 
-## 3. Developing a Web Site
+### 3. Developing a Web Site
 
 - Objectives 
   
@@ -98,7 +104,7 @@ author: Brian Bird
 - Lecture Notes
   - [Site Structure and Navigation](LectureNotes/CIS195-LN-W03-D1-SiteDesign+links.html)
   - [Publishing to a Web Server](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W03-D2-UploadToWebServer_8wk.html)
-  - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W03-D2-ImageMaps.html) (Not covered summer 2023)
+  - [Image Maps](https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LP-W03-D2-ImageMaps.html) (Not covered summer 2023)
   
 - Zoom Recordings
   
@@ -112,11 +118,13 @@ author: Brian Bird
 
 - Lab Assignment
 
-  - [Lab 3 Instructions&mdash;Summer Version](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Instructions_8wk.html)
-    <!-- [Lab 3 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab03/Lab3Rubric_CS195.html)-->
+  - [Lab 3 Instructions&mdash;Summer Version](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Instructions_8wk.html)
+  - [Lab 3 Rubric&mdash;Summer Version](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Rubric_CS195_8wk.htm)
+  - [Lab 3 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Instructions.html)
+  - [Lab 3 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Rubric_CS195.htm)
 
 
-## 4. Designing a Page with CSS 
+### 4. Designing a Page with CSS 
 
 - [Objectives](LectureNotes/CIS195-LN-W04-D0-StylingWithCSS-Objectives.html)
 
@@ -141,8 +149,8 @@ author: Brian Bird
   
 - Lecture Notes
 
-  - [Styling with CSS](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W04-D1-StylingWithCSS.html)
-  - [Text Formatting, Pseudo-Classes](https://lcc-cit.github.io/CIS195-CourseMaterials//LessonPlans/CIS195-LP-W04-D2-TextFormatting+PseudoClasses.html)
+  - [Styling with CSS](https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LP-W04-D1-StylingWithCSS.html)
+  - [Text Formatting, Pseudo-Classes](https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LP-W04-D2-TextFormatting+PseudoClasses.html)
 
 - Example
 
@@ -150,20 +158,20 @@ author: Brian Bird
 
 - Lab Assignment
 
-<!-- [Lab 4 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab04/Lab4Instructions_W18.pdf) -->
-<!-- [Lab 4 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab04/Lab4Rubric_CS195.html)-->
+[Lab 4 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Instructions.html)
+[Lab 4 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Rubric-CS195.htm)
 
 
-## 5. Midterm
+### 5. Midterm
 
 - Lecture Notes
-  - [Publishing to a Web Server, Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W05-D1-UploadToWebServer+Review)
+  - [Publishing to a Web Server, Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W05-D1-UploadToWebServer+Review)
   - [How to upload your site to citstudent](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/UploadingWebSites.html)
 - Midterm Quiz 
   See the syllabus for details about the time and place of the midterm quiz.
 
 
-## 6. Page Layout with CSS
+### 6. Page Layout with CSS
 
 - Reading
   
@@ -182,8 +190,10 @@ author: Brian Bird
   
 - Lecture Notes
   
-  - [CSS Layout, Float Property](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W06-D1-CssLayout-Float)
+  - [CSS Layout, Float Property](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W06-D1-CssLayout-Float)
   - [CSS Box Model, Positioning](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LP-W06-D2-CssLayout-BoxModel+Position)
+  - [CSS Flex Box](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LN-W06-D2B-CssFlexBox.html)
+  - [CSS Grid](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LN-W06-D2A-CssGrid.html)
   
 - Example
   - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
@@ -193,62 +203,60 @@ author: Brian Bird
   - [CSS *float* and *clear* Properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
 
 - Lab Assignment
-  - [Lab 5 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab05/Lab5Instructions.pdf)
-  - [Lab 5 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab05/Lab05Rubric.html)
+  - [Lab 5 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab05/Lab5Instructions.pdf)
+  - [Lab 5 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab05/Lab05Rubric.html)
 
 
-## 7. HTML Tables
+### 7. HTML Tables
 
 - Lecture Notes
-  - [Tables](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W07-D1-Tables.html)
+  - [Tables](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W07-D1-Tables.html)
 
 - Example
   - [Table Practice](https://lcc-cit.github.io/CIS195-Demos/Week5/TablePractice.html)
 
 - Lab Assignment
-  - [Lab 6 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab06/Lab6Instructions.pdf)
-  - [Lab 6 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab06/Lab06Rubric.html)
+  - [Lab 6 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab06/Lab6Instructions.pdf)
+  - [Lab 6 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab06/Lab06Rubric.html)
 
 
-## 8. HTML Forms for User Input
+### 8. HTML Forms for User Input
 
 - Lecture Notes
-  - [Forms - Part 1
-    ](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W08-D1-Forms.html)
-  - [Forms - Part 2
-    ](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W08-D2-Forms.html)
+  - [Forms - Part 1](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W08-D1-Forms.html)
+  - [Forms - Part 2](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W08-D2-Forms.html)
+  
+- Lab Assignment
+  - [Lab 7 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab07/Lab7Instructions.pdf)
+  - [Lab 7 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab07/Lab07Rubric.html)
+
+
+### 9. Multimedia for the Web
+
+- Lecture Notes
+  - [Audio and Video for Web Sites](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W09-D1-Audio+Video.html)
+  - [Embedding Multimedia Objects](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W09-D2-MultimediaObjects.html)
 
 - Lab Assignment
-  - [Lab 7 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab07/Lab7Instructions.pdf)
-  - [Lab 7 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab07/Lab07Rubric.html)
+  - [Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Instructions.pdf)
+  - [Lab 8 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab08Rubric.html)
 
 
-## 9. Multimedia for the Web
-
-- Lecture Notes
-  - [Audio and Video for Web Sites](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W09-D1-Audio+Video.html)
-  - [Embedding Multimedia Objects](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W09-D2-MultimediaObjects.html)
-
-- Lab Assignment
-  - [Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab8Instructions.pdf)
-  - [Lab 8 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab08Rubric.html)
-
-
-## 10.1 Review and Term Project
+### 10.1 Review and Term Project
 
 - Lecture Notes
-  - [Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W10-D1-Review.html)
+  - [Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W10-D1-Review.html)
 
 - Term Project Assignment
   - [Term Project Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf)
   - [Term Project Code Review Form](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/TermProjectCodeReview.docx)
 
 
-## 10.2 (Optional) Advanced CSS
+### 10.2 (Optional) Advanced CSS
 
 - Lecture Notes
-  - [Advanced CSS](https://lcc-cit.github.io/CIS195-CourseMaterials/LessonPlans/CIS195-LP-W10-D1-AdvancedCSS.html)
+  - [Advanced CSS](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W10-D1-AdvancedCSS.html)
 
 
 
-Written by [Brian Bird](https://profbird.dev), winter 2019, revised summer <time>2023</time>
+Written by [Brian Bird](https://profbird.dev), winter 2019, revised summer <time>2024</time>
