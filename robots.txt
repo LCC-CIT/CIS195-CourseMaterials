@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /LessonPlans/
-Disallow: /LabAutoGrading/
+Disallow: LessonPlans/
+Disallow: LabAutoGrading/

@@ -137,6 +137,21 @@ author: Brian Bird
 
 
 
+# Robots.txt
+
+https://developers.google.com/search/docs/crawling-indexing/robots/intro
+
+Example:
+
+```plaintext
+User-agent: *
+Disallow: /LessonPlans/
+
+Sitemap: https://www.example.com/sitemap.xml
+```
+
+
+
 # Search
 
 ## Bing
