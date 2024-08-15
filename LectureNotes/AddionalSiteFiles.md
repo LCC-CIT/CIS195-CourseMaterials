@@ -1,5 +1,5 @@
 ---
-title: Site Files
+title: SEO Site Files
 description: Additional site files
 keywords: HTML, Web page
 generator: Typora
@@ -15,6 +15,10 @@ author: Brian Bird
  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
  <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
 ```
+
+[W3 Schools favicon tutorial](https://www.w3schools.com/html/html_favicon.asp)
+
+[Favicon.io favicon generator](https://favicon.io)
 
 
 
@@ -151,6 +155,8 @@ Disallow: LabStarters/
 
 Sitemap: https://lcc-cit.github.io/CIS195-CourseMaterials/sitemap.xml
 ```
+
+Test robots.txt https://www.websiteplanet.com/webtools/robots-txt/
 
 
 
