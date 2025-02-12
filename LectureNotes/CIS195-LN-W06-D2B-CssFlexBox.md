@@ -78,14 +78,7 @@ author: Brian Bird
 
 [TOC]
 
-# Q and A
-
--   Lab 5 is due today.
--   Are there any questions about lab assignments or the term project?
-
-# Flexbox 
-
-## Overview
+## Introduction
 
 Flexbox is used to control the layout of elements in one dimension, either horizontally or vertically. This is one of the main differences from the CSS grid, which controls layout in two dimensions.
 
@@ -299,7 +292,7 @@ These are properties you can apply to individual items within a flexbox containe
 
 # References
 
-* [Chapter 32. Flexbox](https://flaviocopes.com/book/css/#32-flexbox), in *The CSS Handbook*, but Falvio Copes
+* [Chapter 32. Flexbox](https://flaviocopes.com/book/css/#32-flexbox), in *The CSS Handbook*, by Falvio Copes
 
 * [W3Schools: Flexbox ](https://www.w3schools.com/css/css3_flexbox.asp)
 
