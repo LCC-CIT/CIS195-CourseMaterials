@@ -188,14 +188,14 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
   
 - Lecture Notes
   
-  - [CSS Box Model](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LN-W06-D1-CssLayout-BoxModel.html)
+  - [CSS Box Model](LectureNotes/CIS195-LN-W06-D1-CssLayout-BoxModel.html)
   - [CSS Layout, Float Property](LectureNotes/CIS195-LN-W06-D2-CssLayout-Float.html)
   - [CSS Flex Box](LectureNotes/CIS195-LN-W06-D2B-CssFlexBox.html)
   - [CSS Grid](LectureNotes/CIS195-LN-W06-D2A-CssGrid.html)
   
 - Example
   - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/)
-  - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04+float/Finished/)
+  - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04+float/Finished/Index.html)
 
 - Exercise
   - [CSS *float* and *clear* Properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
@@ -208,42 +208,42 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
 ### 7. HTML Tables
 
 - Lecture Notes
-  - [Tables](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W07-D1-Tables.html)
+  - [Tables](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W07-D1-Tables.html)
 
 - Example
-  - [Table Practice](https://lcc-cit.github.io/CIS195-Demos/Week5/TablePractice.html)
+  - [Table Practice](https://lcc-cit.github.io/CIS195-Demos/Tables/TablePractice.html)
 
 - Lab Assignment
-  - [Lab 6 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab06/Lab6Instructions.pdf)
-  - [Lab 6 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab06/Lab06Rubric.html)
+  - [Lab 6 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab06/Lab6Instructions.html)
+  - [Lab 6 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab06/Lab6Rubric-CIS195.htm)
 
 
 ### 8. HTML Forms for User Input
 
 - Lecture Notes
-  - [Forms - Part 1](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W08-D1-Forms.html)
-  - [Forms - Part 2](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W08-D2-Forms.html)
+  - [Forms - Part 1](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W08-D1-Forms.html)
+  - [Forms - Part 2](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W08-D2-Forms.html)
   
 - Lab Assignment
-  - [Lab 7 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab07/Lab7Instructions.pdf)
-  - [Lab 7 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab07/Lab07Rubric.html)
+  - [Lab 7 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab07/Lab7Instructions.html)
+  - [Lab 7 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab07/Lab7Rubric-CIS195.htm)
 
 
 ### 9. Multimedia for the Web
 
 - Lecture Notes
-  - [Audio and Video for Web Sites](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W09-D1-Audio+Video.html)
-  - [Embedding Multimedia Objects](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W09-D2-MultimediaObjects.html)
+  - [Audio and Video for Web Sites](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W09-D1-Audio+Video.html)
+  - [Embedding Multimedia Objects](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W09-D2-MultimediaObjects.html)
 
 - Lab Assignment
-  - [Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Instructions.pdf)
-  - [Lab 8 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab08Rubric.html)
+  - [Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Instructions.html)
+  - [Lab 8 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Rubric-CIS195.htm)
 
 
 ### 10.1 Review and Term Project
 
 - Lecture Notes
-  - [Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W10-D1-Review.html)
+  - [Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W10-D1-Review.html)
 
 - Term Project Assignment
   - [Term Project Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf)
@@ -253,8 +253,8 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
 ### 10.2 (Optional) Advanced CSS
 
 - Lecture Notes
-  - [Advanced CSS](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W10-D1-AdvancedCSS.html)
+  - [Advanced CSS](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W10-D1-AdvancedCSS.html)
 
 
 
-Written by [Brian Bird](https://profbird.dev), winter 2019, revised summer <time>2024</time>
+Written by [Brian Bird](https://profbird.dev), winter 2019, revised summer <time>2025</time>
