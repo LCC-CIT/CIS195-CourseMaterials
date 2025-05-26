@@ -195,14 +195,14 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
   
 - Example
   - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/)
-  - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04/floatDemo.html)
+  - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04+float/Finished/)
 
 - Exercise
   - [CSS *float* and *clear* Properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
 
 - Lab Assignment
-  - [Lab 5 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab05/Lab5Instructions.pdf)
-  - [Lab 5 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab05/Lab05Rubric.html)
+  - [Lab 5 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab05/Lab5Instructions.html)
+  - [Lab 5 Rubric](Labs/Lab05/Lab5Rubric-CS195.htm)
 
 
 ### 7. HTML Tables
