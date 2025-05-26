@@ -232,9 +232,7 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
 ### 9. Multimedia for the Web
 
 - Lecture Notes
-  - [Audio and Video for Web Sites](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W09-D1-Audio+Video.html)
-  - [Embedding Multimedia Objects](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W09-D2-MultimediaObjects.html)
-
+  - [Multimedia for Web Sites](LectureNotes/CIS195-LN-W09-D1-Multimedia.html)
 - Lab Assignment
   - [Lab 8 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Instructions.html)
   - [Lab 8 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Rubric-CIS195.htm)
@@ -253,7 +251,7 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
 ### 10.2 (Optional) Advanced CSS
 
 - Lecture Notes
-  - [Advanced CSS](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W10-D1-AdvancedCSS.html)
+  - [Advanced CSS](LectureNotes/Archive/CIS195-LN-W10-D1-AdvancedCSS.html)
 
 
 
