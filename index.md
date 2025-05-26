@@ -19,9 +19,7 @@ author: Brian Bird
 [Demo Code on GitHub](https://github.com/LCC-CIT/CIS195-Demos)
 
 ### Summer Eight-Week Term
-The summer term course is condensed into eight weeks of class with no final's week.<br>
-[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book_8wk.html)  
-[Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)
+The summer term course is condensed into eight weeks of class with no final's week.<br>[Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html)
 
 ### Ten-Week Term
 This is a "normal" term with ten weeks of class plus a final's week<br>[Getting Started](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book.html)   
@@ -80,7 +78,7 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
 
 - Lecture Notes
 
-  - [More HTML](LectureNotes/CIS195-LN-W02-D1-MoreBasicHTML.html)
+  - [More HTML](LectureNotes/CIS195-LN-W02-D1-MoreBasicHtml.html)
   - [Absolute and Relative File Paths](LectureNotes/CIS195-LN-W02-D2A-AbsoluteAndRelativeLinks.html)
   - [History of HTML](LectureNotes/CIS195-LN-W02-D2-History.html)
 
@@ -91,7 +89,7 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
 - Lab Assignment
 
   - [Lab 2 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab02/Lab2Instructions.html)
-  - [Lab 2 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab02/Lab2Rubric-CS195.pdf)
+  - [Lab 2 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab02/Lab2Rubric-CS195.htm)
 
 ### 3. Developing a Web Site
 
@@ -119,9 +117,9 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
 - Lab Assignment
 
   - [Lab 3 Instructions&mdash;Summer Version](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Instructions_8wk.html)
-  - [Lab 3 Rubric&mdash;Summer Version](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Rubric_CS195_8wk.htm)
+  - [Lab 3 Rubric&mdash;Summer Version](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Rubric-CIS195_8wk.htm)
   - [Lab 3 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Instructions.html)
-  - [Lab 3 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Rubric_CS195.htm)
+  - [Lab 3 Rubric](Labs/Lab03/Lab3Rubric-CIS195.htm)
 
 
 ### 4. Designing a Page with CSS 
@@ -149,8 +147,8 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
   
 - Lecture Notes
 
-  - [Styling with CSS](https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LP-W04-D1-StylingWithCSS.html)
-  - [Text Formatting, Pseudo-Classes](https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LP-W04-D2-TextFormatting+PseudoClasses.html)
+  - [Styling with CSS](https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LN-W04-D1-StylingWithCSS.html)
+  - [Text Formatting, Pseudo-Classes](https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LN-W04-D2-TextFormatting+PseudoClasses.html)
 
 - Example
 
@@ -159,13 +157,13 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
 - Lab Assignment
 
 [Lab 4 Instructions](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Instructions.html)
-[Lab 4 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Rubric-CS195.htm)
+[Lab 4 Rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Rubric-CIS195.htm)
 
 
 ### 5. Midterm
 
 - Lecture Notes
-  - [Publishing to a Web Server, Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W05-D1-UploadToWebServer+Review)
+  - [Publishing to a Web Server, Review](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W03-D2-UploadToWebServer+Review.html)
   - [How to upload your site to citstudent](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/UploadingWebSites.html)
 - Midterm Quiz 
   See the syllabus for details about the time and place of the midterm quiz.
@@ -190,14 +188,14 @@ This is a "normal" term with ten weeks of class plus a final's week<br>[Getting 
   
 - Lecture Notes
   
-  - [CSS Layout, Float Property](https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LP-W06-D1-CssLayout-Float)
-  - [CSS Box Model, Positioning](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LP-W06-D2-CssLayout-BoxModel+Position)
-  - [CSS Flex Box](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LN-W06-D2B-CssFlexBox.html)
-  - [CSS Grid](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LN-W06-D2A-CssGrid.html)
+  - [CSS Box Model](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195-LN-W06-D1-CssLayout-BoxModel.html)
+  - [CSS Layout, Float Property](LectureNotes/CIS195-LN-W06-D2-CssLayout-Float.html)
+  - [CSS Flex Box](LectureNotes/CIS195-LN-W06-D2B-CssFlexBox.html)
+  - [CSS Grid](LectureNotes/CIS195-LN-W06-D2A-CssGrid.html)
   
 - Example
-  - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.htm)
-  - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04/floatDemo.htm)
+  - [Guide to South India](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/)
+  - [Float Demo](https://lcc-cit.github.io/CIS195-Demos/Unit04/floatDemo.html)
 
 - Exercise
   - [CSS *float* and *clear* Properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
