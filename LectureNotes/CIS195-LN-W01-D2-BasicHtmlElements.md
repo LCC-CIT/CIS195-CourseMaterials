@@ -1,4 +1,4 @@
----
+﻿---
 title: Basic HTML Elements
 description: Descriptions of more HTML elements, more on VS Code and an overview of the first lab assignment. 
 keywords: HTML, Elements, attributes, tags.
@@ -79,7 +79,7 @@ author: Brian Bird
   - Take the reading quiz, if you haven't already done so. Since this is the first week, I'll re-open it for you if you ask.
   - Start Lab 1, it is due on Thursday of next week.
 
-- Review the due dates and the weekly learning cycle shown in the Moodle fly-out on the right side of the page.
+- Review the due dates and the weekly learning cycle shown in the Canvas fly-out on the right side of the page.
 
   
 
@@ -156,7 +156,7 @@ Here are some elements that we haven’t covered yet:
 - Put image files in the same folder with the html file for now.
 - Reduce the size of the image files.
   -  So that your web pages will load quickly.
-  - Moodle has a 10 MB upload limit, so when uplaoding web sites to Moodle, the combineds size of all images and web pages must be less than this.
+  - Canvas has a 10 MB upload limit, so when uplaoding web sites to Canvas, the combineds size of all images and web pages must be less than this.
   - Windows and Mac OS both have built-in apps you can use to shrink image files.
 
 ### Link
@@ -187,7 +187,7 @@ Use the anchor element to create links
 
 # Lab Assignment
 
-The lab 1 instructions are posted in the week 1 section on Moodle.
+The lab 1 instructions are posted in the week 1 section on Canvas.
 
 
 ------

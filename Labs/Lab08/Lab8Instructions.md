@@ -1,4 +1,4 @@
-# Lab 8 Instructions
+﻿# Lab 8 Instructions
 
 ## Multimedia
 
@@ -38,12 +38,12 @@ Create a web page that uses each of the three elements listed above.
 - Publish to the web server
 
   - Upload your page and it's associated files to citstudent (unzipped).
-  - Put the URL for the page in the on-line text for the Moodle assignment.
+  - Put the URL for the page in the on-line text for the Canvas assignment.
 
-- Upload to Moodle, unless the total size of files in your site is over 10MB
+- Upload to Canvas, unless the total size of files in your site is over 10MB
 
   - Zip the files used by your page.
-  - Upload the zip file to Moodle using the lab submission link for the assignment.
+  - Upload the zip file to Canvas using the lab submission link for the assignment.
   
 
 ## Grading Criteria

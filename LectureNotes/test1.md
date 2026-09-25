@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Week 3, Day 1, Unit Testing + Repositories'
 ---
 
@@ -60,7 +60,7 @@ Brian Bird
 Introduction
 ------------
 
--    Review lab due dates on Moodle
+-    Review lab due dates on Canvas
 -   Answer questions about lab 2
 
 ### Announcements

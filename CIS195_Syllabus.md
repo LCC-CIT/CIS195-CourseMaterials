@@ -2,12 +2,12 @@
 
 <h2>Fall 2026 online class section</h2>
 
-|           | Class Info                                                   |      |              | Instructor Info                                              |
-| --------- | ------------------------------------------------------------ | ---- | ------------ | ------------------------------------------------------------ |
-| Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
-| CRN       | 21346                                                        |      | Email        | birdb@lanecc.edu                                             |
-| Time, Day | 12:00–1:50pm, Tu & Th                                        |      | Office       | Building 19, room 152                                        |
-| Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97010574746) |      | Office Hours | M&mdash;Th  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/93774726097) |
+|                  | Class Info             |      |              | Instructor Info                                              |
+| ---------------- | ---------------------- | ---- | ------------ | ------------------------------------------------------------ |
+| Course           | CIS195                 |      | Instructor   | Brian Bird                                                   |
+| CRN              | 21346                  |      | Email        | birdb@lanecc.edu                                             |
+| CIT Computer Lab | Building 19, room 152  |      | Office       | Building 19, room 152                                        |
+| Lab Office Hours | Tu, Th 1:00&ndash;1:50 |      | Office Hours | M, W  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
 
 
 
@@ -70,7 +70,7 @@ There is no textbook for this class. You will learn from the class lectures, lec
 
 ### Computer Lab and In-Person Tutoring
 
-The CIT computer lab in building19, room 135, is equipped with computers and and all the software required for this course.  The lab is available to all students in the CIT department. There are tutors available in the lab to help you with your lab assignments. A schedule will be posted on the large white board inside the lab with a list of the tutors and the times they will be available.
+The CIT computer lab in building19, room 135, is equipped with computers and and all software required for this course.  The lab is available to all students in the CIT department. There are tutors available in the lab to help you with your lab assignments.
 
 ### Online Tutoring and Support Services
 
@@ -94,7 +94,7 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 ### Web Resources
 
-- http://classes.lanecc.edu (Moodle) is the Learning Management System for this course.  All course materials and activities will be managed through Moodle.
+- http://canvas.lanecc.edu (Canvas) is the Learning Management System (LMS) for this course.  All course materials and activities will be managed through Canvas.
 - http://citstudent.lanecc.edu will be used to host student web sites. You will be provided with the login information you need to upload your pages to this server.
 
 ## Assessment and Grading
@@ -102,11 +102,11 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 Specific grading rubrics will be applied to each of the labs, quizzes, and exams you will be working on in this class. Part of the term project involves a code review.
 
 | Assessment Activities                            | Percentage of grade |
-| ------------------------------------------------ | ------------------- |
-| Labs 1&ndash;9, 40 points each                   | 36%                 |
-| Quizzes 1&ndash;9,  10 points each               | 9%                  |
-| Midterm (100 points) and Final Exam (200 points) | 30%                 |
-| Term Project, 250 points                         | 25%                 |
+| ------------------------------------------------ | -------------------- |
+| Labs 1&ndash;9, 40 points each                   | 36%                  |
+| Quizzes 1&ndash;9,  10 points each               | 9%                   |
+| Midterm (100 points) and Final Exam (200 points) | 30%                  |
+| Term Project, 250 points                         | 25%                  |
 
 
 Letter grades for the course will be determined by the following percentages:              
@@ -126,19 +126,19 @@ Weekly quizzes are given that cover the required reading for that week. These qu
 
 <u>Midterm and Final Quizzes</u>
 
-The midterm and final quizzes are given in weeks 5 and 11. See the course schedule for exact dates and times. Quizzes are "closed book", but students may prepare a 4 X 6 notecard to refer to during the quiz. 
+The midterm and final quizzes are given in weeks 5 and 11. See the course schedule for exact dates and times. These two quizzes are "closed book", but students may prepare an 8 X 10 sheet of notes to refer to during the quiz. 
 
 - On-campus students (hybrid modality) will take the quiz In the classroom during the normal class time.
 
-- Online studentw sill take the quiz In the Instructional Testing Center in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures.  
+- Online students are requested to take the quiz in Instructional Testing Services in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures.  
 
-  Students who live outside the Eugene/Springfield area can send an email to [online@lanecc.edu](mailto:online@lanecc.edu) well in advance of the test dates to arrange for your midterm and final to be proctored at a location near you.
+  Alternatively, online students can take the midterm and final at home.
 
 ### Late Work
 
 - The grade for lab assignments submitted late will be reduced by 10%. 
 - Quizzes and exams cannot be taken after the due date.
-- No late assignments accepted after Tuesday of week 11, finals week.
+- No late assignments accepted after Sunday of week 10.
 - Exceptions will only be made for illness or emergency situations.
 
 
@@ -146,7 +146,7 @@ The midterm and final quizzes are given in weeks 5 and 11. See the course schedu
 ### Weekly Learning Cycle
 
 | Monday                       | Tuesday                                               | Wednesday                         | Thursday                                                     |
-| ---------------------------- | ----------------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| ---------------------------- | ----------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------ |
 | Start the assigned  reading. | Participate in class (or watch the video recordings). | Start this week's lab assignment. | - Take the reading quiz.<br />- Participate in class. <br />- Submit last week's lab work. |
 
 
@@ -186,16 +186,16 @@ This is a resource for students to get both their physical and mental health nee
 
 
 
-## Academic Calendar for Fall Term 2023
+## Academic Calendar for Fall Term 2026
 
 | Event                                                        | Date              |
-| ------------------------------------------------------------ | ----------------- |
-| Fall term classes begin                                      | 9/26 Tuesday      |
-| Last day to receive refund                                   | 10/2 Monday       |
-| Veteran’s Day&mdash;college closed                           | 11/10 Friday      |
-| Last day for schedule changes                                | 11/17 Friday      |
-| Thanksgiving Vacation – college closed on Thursday and Friday | 11/23&ndash;11/26 |
-| Final exam                                                   | 12/5 Tuesday      |
+| -------------------------------------------------------------- | ------------------ |
+| Fall term classes begin                                      | 9/28 Monday       |
+| Last day to receive refund                                   | 10/5 Monday       |
+| Veteran's Day&mdash;college closed                           | 11/11 Wednesday   |
+| Last day for schedule changes                                | 11/20 Friday      |
+| Thanksgiving Vacation – college closed Thursday&ndash;Sunday   | 11/26&ndash;11/29 |
+| Final exam                                                   | 12/8 Tuesday      |
 
 View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.
 
@@ -206,18 +206,18 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 (Tentative, may be subject to change)
 
 | Week                    | Topics                                                       | Quiz    | Lab Assignment                                           |
-| ----------------------- | ------------------------------------------------------------ | ------- | -------------------------------------------------------- |
-| 1<br />9/26<br />9/28   | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                     |
-| 2<br />10/3<br />10/5   | *More HTML Elements*<br />History of the internet<br />More HTML, File Paths | Quiz 2  | Lab 2                                                    |
-| 3<br />10/10<br />10/12 | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3  | Lab 3                                                    |
-| 4<br />10/17<br />10/19 | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4  | Lab 4                                                    |
-| 5<br />10/24<br />10/26  | *Midterm Quiz*<br />Midterm<br />Start Term Project          | Midterm | Term Project Proposal                                        |
-| 6<br />10/31<br />11/2   | *CSS Page Layout* <br />CSS Box Model<br />Floats            | Quiz 5  | Lab 5                                                        |
-| 7<br />11/7<br />11/9    | *More CSS Page Layout* <br />FlexBox<br />Grid               | Quiz 6  | Lab 6    |
-| 8<br />11/14<br />11/16 | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7  | Lab 7                                                    |
-| 9<br />11/21             | *Multimedia* <br />Images, audio and video<br />(Thanksgiving holiday on Thursday) | Quiz 8  | Lab 8<br />Term project [peer review](TermProject/TermProjectCodeReview.docx) |
-| 10<br />11/28<br />11/30 | *HTML Tables*<br />Creating Tables<br />Table Styling with CSS | Quiz 9  | Lab 9<br />Submit [Term Project](TermProject/CIS195TermProject.pdf) |
-| 11<br />12/5            | Final Quiz                                                   | Final   |  |
+| ----------------------- | -------------------------------------------------------------- | ------- | ---------------------------------------------------------- |
+| 1<br />9/29<br />10/1   | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                     |
+| 2<br />10/6<br />10/8   | *More HTML Elements*<br />History of the internet<br />More HTML, File Paths | Quiz 2  | Lab 2                                                    |
+| 3<br />10/13<br />10/15 | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3  | Lab 3                                                    |
+| 4<br />10/20<br />10/22 | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4  | Lab 4                                                    |
+| 5<br />10/27<br />10/29 | *Midterm Quiz*<br />Midterm<br />Start Term Project          | Midterm | Term Project Proposal                                        |
+| 6<br />11/3<br />11/5   | *CSS Page Layout* <br />CSS Box Model<br />Floats            | Quiz 5  | Lab 5                                                        |
+| 7<br />11/10<br />11/12 | *More CSS Page Layout* <br />FlexBox<br />Grid               | Quiz 6  | Lab 6    |
+| 8<br />11/17<br />11/19 | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7  | Lab 7                                                    |
+| 9<br />11/24            | *Multimedia* <br />Images, audio and video<br />(Thanksgiving holiday on Thursday) | Quiz 8  | Lab 8<br />Term project [peer review](TermProject/TermProjectCodeReview.docx) |
+| 10<br />12/1<br />12/3  | *HTML Tables*<br />Creating Tables<br />Table Styling with CSS | Quiz 9  | Lab 9<br />Submit [Term Project](TermProject/CIS195TermProject.pdf) |
+| 11<br />12/8            | Final Quiz                                                   | Final   |  |
 
 
 

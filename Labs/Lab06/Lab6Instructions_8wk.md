@@ -1,4 +1,4 @@
-# Lab 6 Instructions
+﻿# Lab 6 Instructions
 
 
 ## Using CSS Grid and Flexbox
@@ -38,16 +38,16 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 - Use FileZilla to upload the folders containing your web site to citstudent.
   - Do <u>not</u> zip the files.
   - Since both parts 1 and 2 are in the same web site, you can just upload that one web site.
-- Record the URL (web address) of your home page so that you can enter it in the text area on Moodle.
+- Record the URL (web address) of your home page so that you can enter it in the text area on Canvas.
   Hint: remember that *public_html* is <u>not</u> part of the URL.
 
-#### Submitting to Moodle
+#### Submitting to Canvas
 
 - Zip the web site (both parts 1 and 2 are in one web site).
 
-- Upload the zip file to Moodle.
+- Upload the zip file to Canvas.
 
-- Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Moodle. This is important; without this, I won't be able to find your web page on the internet.
+- Enter the URL (web address) of your site's home page in the "Online Text" box for this assignment on  Canvas. This is important; without this, I won't be able to find your web page on the internet.
 
 
 ## Assessment

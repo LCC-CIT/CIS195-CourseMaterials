@@ -1,4 +1,4 @@
-# Instructions for Lab 1
+﻿# Instructions for Lab 1
 
 # A Biographical Web Site
 
@@ -47,7 +47,7 @@ Create a web site that consists of at least <u>two web pages</u> and presents a 
 ## Submitting your web site
 
 1. Zip the folder containing your html files and image files.
-2. Upload the zip file using the link for Lab 1 on Moodle.
+2. Upload the zip file using the link for Lab 1 on Canvas.
 
 
 

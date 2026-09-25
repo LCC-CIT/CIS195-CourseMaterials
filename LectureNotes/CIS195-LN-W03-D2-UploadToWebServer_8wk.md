@@ -1,4 +1,4 @@
----
+﻿---
 title: Publishing a site to a web server
 description: How to ftp a web site to a linux web server
 keywords: ftp, web server, filezilla
@@ -82,8 +82,8 @@ author: Brian Bird
         The midterm will cover content in weeks 1 through 4.
     -   Final: Final: 8/15–17, Tuesday through Thursday of week 10
         The final will cover content in weeks 1 through 9.
--   Moodle is down until Saturday night, but might be back up Friday (tomorrow) night.
-    -   If you didn't submit lab 2 to Moodle yet, that's ok. You will be uploading the site to citstudent today and then emailing me a link to your site so I can look at it running on the web server.
+-   Canvas is down until Saturday night, but might be back up Friday (tomorrow) night.
+    -   If you didn't submit lab 2 to Canvas yet, that's ok. You will be uploading the site to citstudent today and then emailing me a link to your site so I can look at it running on the web server.
     -   All of my course materials are available via github. Here's a course outline with links to my teaching materials and the reading assignments: https://lcc-cit.github.io/CIS195-CourseMaterials/
 
 

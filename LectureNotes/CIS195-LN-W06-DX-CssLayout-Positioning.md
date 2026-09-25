@@ -1,4 +1,4 @@
----
+﻿---
 title: More CSS Layout
 description: More CSS properties for page layout. 
 keywords: float, clear, position, box model, margin, padding, border, border-radius, border-color, overflow, z-index
@@ -72,7 +72,7 @@ author: Brian Bird
 
 # Q and A
 
--   Review due dates on Moodle.
+-   Review due dates on Canvas.
 -   Answer questions about this week's lab assignment.
 
 

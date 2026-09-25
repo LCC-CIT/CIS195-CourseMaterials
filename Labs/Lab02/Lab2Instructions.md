@@ -1,4 +1,4 @@
-**CIS 195, Web Authoring**
+﻿**CIS 195, Web Authoring**
 
 # Lab 2 Instructions
 
@@ -59,11 +59,11 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 
 
-## Submitting your web sites to Moodle
+## Submitting your web sites to Canvas
 
 - Zip the files in part 2 (part 2 includes your page from part 1) into a single zip file.
 
-- Upload the zip file to Moodle using the Lab 2 Submission link.
+- Upload the zip file to Canvas using the Lab 2 Submission link.
 
   
 

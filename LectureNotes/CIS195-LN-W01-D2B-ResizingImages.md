@@ -1,4 +1,4 @@
----
+﻿---
 title: Resizing imgaes
 description: Different methods for shrinking image files.
 keywords: img, figure, resize, shrink, photos, paint, preview, png, jpeg, webp.
@@ -79,7 +79,7 @@ It is often necessary or beneficial to reduce the size of your image files.
 
 -  So that your web pages will load quickly. 
   Note that web pages will load very quicly when you open the page from a file on your own computer&mdash;even with large images, but those same pages will load more slowly once you have uploaded your web site to a web server and are opening the page over the internet.
-- So your site can be uploaded to Moodle, which has a 10 MB upload limit.
+- So your site can be uploaded to Canvas, which has a 10 MB upload limit.
 
 ### Three Meanings for Size
 

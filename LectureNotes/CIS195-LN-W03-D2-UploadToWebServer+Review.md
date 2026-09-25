@@ -1,4 +1,4 @@
----
+﻿---
 title: Review
 description: Midterm Review & Publishing to the Web
 keywords: HTML, Web page
@@ -81,7 +81,7 @@ author: Brian Bird
 
 ## Introduction
 
--   Review upcoming events on Moodle.
+-   Review upcoming events on Canvas.
     -   Midterm quiz.
 -   Late labs 1&ndash;4 must be submitted by next Sunday night, 11/10.
     (Syllabus says by the day of the midterm, but I'm extending that by a week and a half)
@@ -105,7 +105,7 @@ author: Brian Bird
 
 ## Term Project
 
-- Read the Term Project Description. The link is in week 10 on Moodle.
+- Read the Term Project Description. The link is in week 10 on Canvas.
 
 - Choose a subject for your website.
 

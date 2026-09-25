@@ -1,4 +1,4 @@
----
+﻿---
 title: Course Intro
 description: Course tour, overview of the world wide web and web development. 
 keywords: CSS, HTML, World Wide Web.
@@ -82,7 +82,7 @@ author: Brian Bird
   - My experience as a software developer
   - What I teach at LCC
 - Students introduce themselves
-  - Everyone, especially online students use the Moodle introductions forum.
+  - Everyone, especially online students use the Canvas introductions forum.
 
 
 # Computer Skills and Software 
@@ -172,7 +172,7 @@ Now we're going to modify the empty page to make our own first web page. You can
 
 ## Syllabus and Learning Activities
 
-- Syllabus – posted on Moodle
+- Syllabus – posted on Canvas
 
 - Reading and Quizzes
 
@@ -190,7 +190,7 @@ Now we're going to modify the empty page to make our own first web page. You can
 
   - Upload the web sites you make to:
 
-    - Moodle
+    - Canvas
     - A web server (we'll do this later in the term).
 
   - Look at this week's lab assignment.

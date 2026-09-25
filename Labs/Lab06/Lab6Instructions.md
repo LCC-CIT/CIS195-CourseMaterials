@@ -1,4 +1,4 @@
----
+﻿---
 title: Lab 9
 description: Instructions for the HTML table lab assignment
 keywords: table, thead, tfoot, colspan, rowspan
@@ -103,12 +103,12 @@ Here are examples of parts 1 and 2 done by a previous student. This is to give y
 - Publish to the web server
 
   - Upload both web pages to citstudent (unzipped).
-  - Put the URLs for the pages in the online text for the Moodle assignment.
+  - Put the URLs for the pages in the online text for the Canvas assignment.
 
-- Upload to Moodle
+- Upload to Canvas
 
   - Zip the files into one .zip file.
-  - Upload the zip to Moodle using the lab submission link for the assignment. 
+  - Upload the zip to Canvas using the lab submission link for the assignment. 
   
 
 ## Assessment

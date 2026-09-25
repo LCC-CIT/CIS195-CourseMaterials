@@ -1,4 +1,4 @@
-**CIS 195, Web Authoring 1: HTML**
+﻿**CIS 195, Web Authoring 1: HTML**
 
 # Lab 3 Instructions
 
@@ -41,7 +41,7 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 - Use FileZilla to upload the folders containing your web sites to citstudent.
   - Create a lab3 folder with two sub-folders, one for part 1 and one for part 2. Name them to reflect the content of your web page and web site.
-- Record the URLs (web addresses) of your two home pages so that you can enter them on Moodle.
+- Record the URLs (web addresses) of your two home pages so that you can enter them on Canvas.
 
 #### Tips
 
@@ -50,12 +50,12 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 - The casing (upper vs. lower case) of directory and file names must match the `src`and `href` attributes in your web pages.
 - Do not zip the files that you upload to citstudent.
 
-### Submitting your web sites to Moodle
+### Submitting your web sites to Canvas
 
 1. Zip the files for part 1.
 2. Zip the files for part 2.
-3. Upload both zip files to Moodle using the lab submission link.
-4. Enter the URLs of the two home pages in the text area of the Moodle submission page.
+3. Upload both zip files to Canvas using the lab submission link.
+4. Enter the URLs of the two home pages in the text area of the Canvas submission page.
 
 
 

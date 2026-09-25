@@ -1,4 +1,4 @@
-# Lab 4 Instructions
+﻿# Lab 4 Instructions
 
 ## Using CSS to Format Web Pages
 
@@ -35,19 +35,19 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and t
 
 ## Submitting your web sites
 
-### Uploading to Moodle
+### Uploading to Canvas
 
 - Zip the files that make up your review web site (which includes those from parts 1 and 2) into a single zip file.  
   (The zip file should contain: index.html, three review .html pages, and a .css file.)
 
-- Upload the zip file to Moodle using the lab submission link.
+- Upload the zip file to Canvas using the lab submission link.
 
 ### Publishing to citstudent
 
 For fall 2023, we won't do this.
 
 - ~~Use FileZilla to upload a folder named *Lab4*, containing your web site, to citstudent.~~
-- ~~Record the URL of your home page so that you can enter it on Moodle.~~
+- ~~Record the URL of your home page so that you can enter it on Canvas.~~
 
 ## Reference
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: CSS Table Styling
 description: Styling Tables with CSS
 keywords: css, table, row, column, thead, tbody, foot, caption
@@ -77,7 +77,7 @@ author: Brian Bird
 ## Q and A
 
 - Any questions on labs or the term project?
-- Review due dates on Moodle.
+- Review due dates on Canvas.
 
 
 

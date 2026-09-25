@@ -1,4 +1,4 @@
----
+﻿---
 title: More styling & pseudo-classes
 description: Using different CSS properties for formatting
 keywords: css, color, text, fonts, pseudo-classes
@@ -78,7 +78,7 @@ author: Brian Bird
 
 ## Introduction
 
-- Review due dates on Moodle.
+- Review due dates on Canvas.
 
 - Answer questions about this week's lab assignment.
 

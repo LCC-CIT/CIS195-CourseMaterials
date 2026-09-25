@@ -1,4 +1,4 @@
----
+﻿---
 title: Midterm Review
 description: A list of topics to review for the midterm
 keywords: midterm exam, midterm quiz, review
@@ -80,7 +80,7 @@ author: Brian Bird
 
 - Are there any questions about lab 4?
 - The next class meeting will be just for the midterm quiz.
-- This week is a good time to start your term project. The term project requirements are posted on Moodle&mdash; let's take a look at those.
+- This week is a good time to start your term project. The term project requirements are posted on Canvas&mdash; let's take a look at those.
 
 ## Introduction
 
@@ -103,11 +103,11 @@ Download the instructor's examples and play with the code. Modify the code and e
 
 ### Lab assignments
 
-Review the code you wrote for the lab assignments. Make sure you understand how everything works. If there are things you don't understand, look for answers in the lecture notes and readings and post questions in the Moodle Q and A forum.
+Review the code you wrote for the lab assignments. Make sure you understand how everything works. If there are things you don't understand, look for answers in the lecture notes and readings and post questions in the Canvas Q and A forum.
 
 ### Practice Quiz
 
-There is a practice quiz available on Moodle that has the same style questions and covers the same concepts as the real quiz but using different questions. As you take the practice quiz, focus on understanding concepts, not on memorizing answers.
+There is a practice quiz available on Canvas that has the same style questions and covers the same concepts as the real quiz but using different questions. As you take the practice quiz, focus on understanding concepts, not on memorizing answers.
 
 In order to do well on the midterm quiz and on the homework for the second half of the term, you need to understand the underlying concepts behind the questions and programming problems--not just "the answers". 
 

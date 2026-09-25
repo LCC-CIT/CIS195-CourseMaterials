@@ -1,4 +1,4 @@
-**CIS 195, Web Authoring 1: HTML**
+﻿**CIS 195, Web Authoring 1: HTML**
 
 # Lab 3 Instructions
 
@@ -37,7 +37,7 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
 
 ## Submitting your Web Sites
 
-- To Moodle:
+- To Canvas:
 
   - Zip the files in part 1
 
@@ -45,7 +45,7 @@ Check your pages using the [W3C HTML Validator](https://validator.w3.org)
   - Zip the files in part 2
 
 
-  - Upload both zip files to Moodle using the lab submission link.
+  - Upload both zip files to Canvas using the lab submission link.
 
 - To the citstudent web server:  
   **For fall 2023, you won't be required to upload the web site to citstudent.**

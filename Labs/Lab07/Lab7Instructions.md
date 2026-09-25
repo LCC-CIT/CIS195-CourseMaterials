@@ -1,4 +1,4 @@
-<h1>Lab 7 Instructions</h1>
+﻿<h1>Lab 7 Instructions</h1>
 
 **(Lab 8 in the eight-week summer term)**
 
@@ -59,11 +59,11 @@ The lab assignment will be graded according to [this rubric](Lab7Rubric-CIS195.h
 - Publish to the web server
 
   - Upload the web page to citstudent (unzipped).
-  - Put the URLs of the page in the on-line text for the Moodle assignment.
+  - Put the URLs of the page in the on-line text for the Canvas assignment.
 
-- Upload to Moodle
+- Upload to Canvas
 
-  - Upload the web page file to Moodle using the lab submission link for the assignment.
+  - Upload the web page file to Canvas using the lab submission link for the assignment.
 
 
 

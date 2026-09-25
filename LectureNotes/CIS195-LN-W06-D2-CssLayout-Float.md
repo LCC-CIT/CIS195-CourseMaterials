@@ -1,4 +1,4 @@
----
+﻿---
 title: CSS layout
 description: Page layout using CSS
 keywords: css, background, float, clear
@@ -77,7 +77,7 @@ author: Brian Bird
 
 -   Are there any questions about uploading web sites to citstudent?
 -   Are there any questions about the term project?
--   Review due dates on Moodle.
+-   Review due dates on Canvas.
 
 # Introduction
 This week we will be talking about using CSS for page layout (design), which is different from formating. The difference is that layout involves controlling the position of things on the page rather than just their appearance.
