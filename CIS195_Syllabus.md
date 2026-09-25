@@ -1,11 +1,11 @@
 <h1>Syllabus for Web Authoring 1: HTML</h1>
 
-<h2>Fall 2023 hybrid and online class sections</h2>
+<h2>Fall 2026 online class section</h2>
 
 |           | Class Info                                                   |      |              | Instructor Info                                              |
 | --------- | ------------------------------------------------------------ | ---- | ------------ | ------------------------------------------------------------ |
 | Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
-| CRN       | hybrid (on campus): 21647<br />online: 21346                 |      | Email        | birdb@lanecc.edu                                             |
+| CRN       | 21346                                                        |      | Email        | birdb@lanecc.edu                                             |
 | Time, Day | 12:00–1:50pm, Tu & Th                                        |      | Office       | Building 19, room 152                                        |
 | Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97010574746) |      | Office Hours | M&mdash;Th  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/93774726097) |
 
