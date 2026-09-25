@@ -1,0 +1,7 @@
+title: CIS 195 - Web Authoring 1
+description: Course materials, lecture notes, and lab assignments for CIS 195: Web Authoring 1 (HTML/CSS).
+theme: jekyll-theme-primer
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
