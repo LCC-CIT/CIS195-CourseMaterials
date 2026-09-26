@@ -1,13 +1,14 @@
 <h1>Syllabus for Web Authoring 1: HTML</h1>
 
-<h2>Fall 2026 hybrid and online class sections</h2>
+<h2>Fall 2026 online class section</h2>
 
-|           | Class Info                                                   |      |              | Instructor Info                                              |
-| --------- | ------------------------------------------------------------ | ---- | ------------ | ------------------------------------------------------------ |
-| Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
-| CRN       | hybrid (on campus): 21647<br />online: 21346                 |      | Email        | birdb@lanecc.edu                                             |
-| Time, Day | 12:00–1:50pm, Tu & Th                                        |      | Office       | Building 19, room 152                                        |
-| Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97010574746) |      | Office Hours | M&mdash;Th  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/93774726097) |
+|                  | Class Info                       |      |              | Instructor Info                                              |
+| ---------------- | -------------------------------- | ---- | ------------ | ------------------------------------------------------------ |
+| Course           | CIS195                           |      | Instructor   | Brian Bird                                                   |
+| CRN              | 21346                            |      | Email        | birdb@lanecc.edu                                             |
+| Format           | Online (asynchronous)            |      | Office       | Building 19, room 152                                        |
+| CIT Computer Lab | Building 19, room 135 (optional) |      | Office Hours | M, W  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
+| Lab Office Hours | Tu, Th 1:00&ndash;1:50 (in lab)  |      |              |                                                              |
 
 
 
@@ -28,9 +29,9 @@ The intention of the course is to enable you to create and maintain static pages
 
 ### Effort
 
-Since this is a four-credit class, students will need to devote at approximately 12 hours per week to the class.
+Since this is a four-credit class, students will need to devote approximately 12 hours per week to the class.
 
-- 4 hours for class participation.
+- 4 hours for watching recorded lecture videos and participating in online learning activities.
 - 2 hours for reading (lecture notes and tutorials).
 - 6 hours for lab assignments.
 
@@ -66,11 +67,11 @@ In addition to the topics listed in the [course schedule](#course-schedule), the
 
 ### Textbook
 
-There is no textbook for this class. You will learn from the class lectures, lecture notes, and online tutorials. 
+There is no textbook for this class. You will learn from recorded video lectures, lecture notes, and online tutorials. 
 
 ### Computer Lab and In-Person Tutoring
 
-The CIT computer lab in building19, room 135, is equipped with computers and and all the software required for this course.  The lab is available to all students in the CIT department. There are tutors available in the lab to help you with your lab assignments. A schedule will be posted on the large white board inside the lab with a list of the tutors and the times they will be available.
+The CIT computer lab in building 19, room 135, is equipped with computers and all software required for this course.  The lab is available to all students in the CIT department. There are tutors available in the lab to help you with your lab assignments.
 
 ### Online Tutoring and Support Services
 
@@ -78,7 +79,7 @@ In addition to the tutors available in the CIT computer lab, there is tutoring a
 
 ### Software
 
-If you plan to do lab work somewhere other than in the classroom or the CIT Computer Lab, you will need: 
+To complete your lab work on your own computer (or in the CIT Computer Lab), you will need: 
 
 - "Office" software for Word processing such as [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff), [LibreOffice](http://www.libreoffice.org) or [Google Docs](https://docs.google.com).
 
@@ -122,17 +123,13 @@ Letter grades for the course will be determined by the following percentages:
 ### Quizzes
 
 <u>Reading Quizzes</u>
-Weekly quizzes are given that cover the required reading for that week. These quizzes must be taken before the first class meeting of the week. They are "open book" (you can refer to whatever reading material was assigned during the quiz.)
+Weekly quizzes are given that cover the required reading for that week. These quizzes  are "open book" (you can refer to whatever reading material was assigned during the quiz.)
 
 <u>Midterm and Final Quizzes</u>
 
 The midterm and final quizzes are given in weeks 5 and 11. See the course schedule for exact dates and times. These two quizzes are "closed book", but students may prepare an 8 X 10 sheet of notes to refer to during the quiz. 
 
-- On-campus students (hybrid modality) will take the quiz In the classroom during the normal class time.
-
-- Online students are requested to take the quiz in Instructional Testing Services in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures.  
-
-  Alternatively, online students can take the midterm and final at home.
+Students can take the midterm and final quizzes at home online. Alternatively, students who prefer to test on campus may take them in Instructional Testing Services in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures.
 
 ### Late Work
 
@@ -146,8 +143,8 @@ The midterm and final quizzes are given in weeks 5 and 11. See the course schedu
 ### Weekly Learning Cycle
 
 | Monday                       | Tuesday                                               | Wednesday                         | Thursday                                                     |
-| ---------------------------- | ----------------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
-| Start the assigned  reading. | Participate in class (or watch the video recordings). | Start this week's lab assignment. | - Take the reading quiz.<br />- Participate in class. <br />- Submit last week's lab assignment. |
+| ---------------------------- | ----------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------ |
+| Start the assigned  reading. | Start watching the class video recordings. | Start this week's lab assignment. | - Take the reading quiz.<br />- Post in one of the forums <br />- Submit last week's lab assignment. |
 
 
 
@@ -161,22 +158,13 @@ Generative AI assistants like ChatGPT, Claude, Gemini or GitHub Copilot are not 
 
 ### Attendance
 
-Attendance is not a part of your grade, but it is essential that you log into Canvas at the beginning of every week to read the objectives for the week. Throughout the week, you will need to participate in live class sessions online or watch recordings of the lectures, and do the learning activities. 
+Attendance is not a part of your grade, but it is essential that you log into Canvas at the beginning of every week to read the objectives for the week. Throughout the week, you will need to watch the recorded lectures, do the learning activities, and participate in online discussions. 
 
-**No-Show Drop:** LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy. which means that during the first week of the term, to avoid being dropped, a student must:
-
-- Attend at least one online live class session 
-
-  or
-
-- Complete one quiz or assignment (for online classes)
-
-  
+**No-Show Drop:** LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy, which means that during the first week of the term, to avoid being dropped, a student must complete the first week's introductory activity, reading quiz, or assignment in Canvas by the drop deadline.
 
 ## Accessibility and Accommodations: 
 
-If you need support or assistance because of a disability, you may be eligible for academic accommodations through Disability Services. For more information, contact Disability Services at 463-5150 (voice) or 463-3079 (TTY), or stop by building 1, room 218. 
-Please be aware that any accessible tables and chairs in this room should remain available for authorized students who find that standard classroom seating is not usable.
+If you need support or assistance because of a disability, you may be eligible for academic accommodations through Disability Services. For more information, contact Disability Services at 463-5150 (voice) or 463-3079 (TTY), or stop by building 1, room 218.
 
 
 
@@ -203,7 +191,7 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 
 ## Course Schedule
 
-(Tentative, may be subject to change)
+(Tentative, may be subject to change. The dates below reflect the weekly schedule and pacing for topics and learning activities.)
 
 | Week                    | Topics                                                       | Quiz    | Lab Assignment                                           |
 | ----------------------- | -------------------------------------------------------------- | ------- | ---------------------------------------------------------- |
