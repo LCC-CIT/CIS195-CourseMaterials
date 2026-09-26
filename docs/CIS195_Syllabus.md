@@ -6,7 +6,7 @@
 | ---------------- | ---------------------- | ---- | ------------ | ------------------------------------------------------------ |
 | Course           | CIS195                 |      | Instructor   | Brian Bird                                                   |
 | CRN              | 21346                  |      | Email        | birdb@lanecc.edu                                             |
-| CIT Computer Lab | Building 19, room 152  |      | Office       | Building 19, room 152                                        |
+| CIT Computer Lab | Building 19, room 135  |      | Office       | Building 19, room 152                                        |
 | Lab Office Hours | Tu, Th 1:00&ndash;1:50 |      | Office Hours | M, W  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
 
 
@@ -122,7 +122,7 @@ Letter grades for the course will be determined by the following percentages:
 ### Quizzes
 
 <u>Reading Quizzes</u>
-Weekly quizzes are given that cover the required reading for that week. These quizzes must be taken before the first class meeting of the week. They are "open book" (or whatever reading material was assigned.)
+Weekly quizzes are given that cover the required reading for that week. These quizzes  are "open book" (you can refer to whatever reading material was assigned during the quiz.)
 
 <u>Midterm and Final Quizzes</u>
 
@@ -147,7 +147,7 @@ The midterm and final quizzes are given in weeks 5 and 11. See the course schedu
 
 | Monday                       | Tuesday                                               | Wednesday                         | Thursday                                                     |
 | ---------------------------- | ----------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------ |
-| Start the assigned  reading. | Participate in class (or watch the video recordings). | Start this week's lab assignment. | - Take the reading quiz.<br />- Participate in class. <br />- Submit last week's lab work. |
+| Start the assigned  reading. | Start watching the class video recordings. | Start this week's lab assignment. | - Take the reading quiz.<br />- Post in one of the forums <br />- Submit last week's lab assignment. |
 
 
 
@@ -157,7 +157,7 @@ While students are encouraged to discuss labs and to use each other as resources
 
 ### Generative AI
 
-Generative AI assistants like ChatGPT or GitHub Copilot are not to be used to write code for lab assignments or to answer questions on quizzes. It is appropriate to use an AI assistant to get information or explanations that help you do your work as long as it is not doing your work for you.
+Generative AI assistants like ChatGPT, Claude, Gemini or GitHub Copilot are not to be used to write code for lab assignments or to answer questions on quizzes. It is appropriate to use an AI assistant to get information or explanations that help you do your work as long as it is not doing your work for you.
 
 ### Attendance
 
