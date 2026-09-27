@@ -5,7 +5,7 @@
 |                  | Class Info                       |      |              | Instructor Info                                              |
 | ---------------- | -------------------------------- | ---- | ------------ | ------------------------------------------------------------ |
 | Course           | CIS195                           |      | Instructor   | Brian Bird                                                   |
-| CRN              | 21346                            |      | Email        | birdb@lanecc.edu                                             |
+| CRN              | 21153                            |      | Email        | birdb@lanecc.edu                                             |
 | Format           | Online (asynchronous)            |      | Office       | Building 19, room 152                                        |
 | CIT Computer Lab | Building 19, room 135 (optional) |      | Office Hours | M, W  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
 | Lab Office Hours | Tu, Th 1:00&ndash;1:50 (in lab)  |      |              |                                                              |

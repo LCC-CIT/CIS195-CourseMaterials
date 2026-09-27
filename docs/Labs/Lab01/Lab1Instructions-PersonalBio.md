@@ -38,7 +38,7 @@ Create a web site that consists of at least <u>two web pages</u> and presents a 
 ## Software you will use to create your web pages
 
 - To create your web pages, you can use [Visual Studio Code](https://code.visualstudio.com ), which runs on Windows, Mac OS, or Linux. 
-- If your web pages have images that add up to more than 10MB, you will need to [reduce the size of your images](../LectureNotes/CIS195-LN-W01-D2B-ResizingImages.html) using the Paint program on Windows, or the Preview program on Mac OS.
+- If your web pages have images that add up to more than 10MB, you will need to [reduce the size of your images](../../LectureNotes/CIS195-LN-W01-D2B-ResizingImages.html) using the Paint program on Windows, or the Preview program on Mac OS.
 
 - In order to Zip your files, you can use the built-in file compression on Windows or Mac OS, or you can use a program like [7-Zip](https://7-zip.org/).
 
@@ -61,4 +61,4 @@ Here is a link to the criteria that I will use to grade your assignment:
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Course Materials, 2018, revised 2023 by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Course Materials, 2018, revised 2026 by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
