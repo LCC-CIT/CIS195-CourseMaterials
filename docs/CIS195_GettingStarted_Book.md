@@ -8,9 +8,10 @@
 
 Welcome to this class!
 
-In order to create web pages for this class, you will need access to a computer that can run a code editor like [Visual Studio Code](https://code.visualstudio.com/) (pretty much any computer can) and have a good internet connection.
+This guide will help you get started in the course, whether you are in the **online** section or the **hybrid** (in-person) section. Details about the course, including the course schedule, grading, required software, and the weekly learning cycle, are in the syllabus for your section:
 
-In order to be successful, you must devote at least 12 hours a week to learning activities. This includes 4 hours either: in class, on Zoom in real-time, or watching Zoom recordings; plus at least 8 hours studying and *having fun making web pages!*
+- Online section: [Online Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_Online.html)
+- Hybrid section: [Hybrid Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)
 
 ------
 
@@ -19,78 +20,76 @@ In order to be successful, you must devote at least 12 hours a week to learning 
 To begin this course, please complete the following steps:
 
 1. Read all of this Getting Started guide.
-2. Read the whole [Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html).
-3. Familiarize yourself with the cycle of [Weekly Learning Activities](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html#weekly_cycle).
-4. Post your personal introduction to the Moodle "Introductions Forum".
-5. Read the "Overview of Week" One on Moodle.
-6. Look at the reading assignment for week 1.
-7. Participate in class in person, on Zoom, or by watching recordings.
-8. Complete the activities for week 1.
-9. Repeat steps 5-7 for every week according to the course schedule.
+2. Read the whole syllabus for your section (see the links above), especially the Weekly Learning Cycle and the Course Schedule.
+3. Post your personal introduction to the "Introductions" discussion in Canvas. This counts as your first week's activity for LCC's no-show drop policy, so do it early in week 1.
+4. Open the Week 1 module in Canvas and read the overview for the week.
+5. Look at the reading assignment for week 1.
+6. Attend class in person or on Zoom (hybrid section), or watch the recorded lectures (online section).
+7. Complete the activities for week 1.
+8. Repeat steps 4&ndash;7 for every week according to the course schedule.
 
-If you have any course-specific questions, please ask them in the Moodle "Q & A Forum". For any other questions, support contact information can be found in the Support block.
+If you have any course-specific questions, please ask them in the Canvas "Course Q & A" discussion. For any other questions, see [Canvas Support](#canvas-support) below.
+
+------
+
+# Online and Hybrid Sections
+
+- **Hybrid section:** Class meets on campus, and the class sessions can also be joined on Zoom in real time. Class sessions are recorded so you can review them or catch up if you miss a class. See the hybrid syllabus for the meeting times, classroom, and Zoom link.
+- **Online section:** The class is asynchronous. You will watch recorded lecture videos and complete the learning activities in Canvas on your own schedule, while keeping up with the weekly due dates. You are welcome to use the CIT computer lab and come to office hours. See the online syllabus for office hours and the Zoom link.
+
+Both sections use the same Canvas course materials, labs, quizzes, and term project.
 
 ------
 
 # Basic Technology and Computer Skills
 
-## Software You Will Need
+## What You Will Need
 
-- At least two modern Web Browsers like [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Chrome](https://www.google.com/chrome/).
-- [Adobe Reader](http://get.adobe.com/reader/) for reading PDF files.
-- [QuickTime](https://support.apple.com/downloads/quicktime) for viewing videos in your browser.
-- Software for Word processing and viewing PowerPoint slides such as [MS Office](http://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=Office_365_subnav_22092015_All_Office&s_kwcid=AL!4249!3!82552207853!e!!g!!microsoft office&WT.mc_id=pointitsem+Google+Adwords+5+-+Office+15+Suites&ef_id=UsDFgAAAAHy-iVuM:20160104142119:s), [OpenOffice.org](http://download.openoffice.org/) or [GoogleDocs](https://www.google.com/accounts/ServiceLogin?service=writely&passive=1209600&continue=http://docs.google.com/&followup=http://docs.google.com/&ltmpl=homepage) .
-- A code editor such as [Notepad++](https://notepad-plus-plus.org/) for Windows, or [TextWrangler](http://www.barebones.com/products/textwrangler/) for OS X (Mac), or [Visual Studio Code](https://code.visualstudio.com/) for OS X, Windows and Linux. Visual Studio Code is reccomended.
-- An FTP client for uploading files to a web server such as [CoreFTP](http://coreftp.com/) for Windows, or [CyberDuck](https://cyberduck.io/) for OS X, or [FileZilla](https://filezilla-project.org/) for OS X, Windows and Linux. FileZilla is reccomended.
+- A computer that can run a code editor like [Visual Studio Code](https://code.visualstudio.com/) (pretty much any Windows, Mac, or Linux computer can). A Chromebook, tablet, or phone is *not* enough to do the lab work. If you don't have a suitable computer, you can use the CIT computer lab (see the syllabus).
+- A reliable internet connection.
+- The software listed in the Software section of the syllabus.
 
 ## Skills You Will Need
 
-- Basic computer skills.
-- Experience navigating the Internet and using an Internet browser.
+- Basic computer skills, including managing files and folders (creating folders, copying, moving and renaming files, and unzipping zip files).
+- Experience navigating the Internet and using a web browser.
 - Basic knowledge of formatting using a word processing program.
 - Comfort working with multiple browser windows.
 
 ------
 
-# Introduction to Moodle
+# Introduction to Canvas
 
-Moodle is the learning management system of the Lane Community College and the location where you will be able to view the content of your online courses. To learn more about Moodle and how it is used for Lane Community College courses, please review the course below:
+Canvas is Lane Community College's learning management system and is where you will find all the content and activities for this course. Log in at [canvas.lanecc.edu](https://canvas.lanecc.edu). If you are new to Canvas, the [Canvas Student Guide](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student) explains how to use all of its features.
 
-- [How to Moodle](https://classes.lanecc.edu/course/view.php?id=73923)
+Tips for using Canvas:
 
-------
+- Set your **Notification** preferences (under Account &rarr; Notifications) so that you get Announcements, Inbox messages, and discussion replies by email or text.
+- The **Canvas Student** mobile app is handy for checking announcements and due dates, but you will need a computer to do the lab assignments.
+- Use the **Calendar** and the **To Do** list on the Canvas Dashboard to keep track of due dates.
 
 ## Course Structure
 
-This course is broken into weekly sections. All the learning materials and activities (like quizzes) are available through the section for that week. Lab assignment instructions as well as the upload link are in the section for the week the lab assignment was given, not when it is due.
-
-
+This course is organized into weekly **Modules**. All the learning materials and activities (like reading, lecture videos, and quizzes) are in the module for that week. Lab assignment instructions and the place to submit your lab are in the module for the week the lab assignment was given, not the week it is due. You can also find all assignments and their due dates on the **Assignments** page.
 
 ------
 
 ## Online Course Communication
 
-All course communication (via e-mail, Moodle Messages, discussion forums, video chat, etc.) should be clear, concise, and respectful. Written communication should use complete sentences with standard spelling and grammar, including proper capitalization and punctuation.
+All course communication (via email, Canvas Inbox, discussions, Zoom, etc.) should be clear, concise, and respectful. Written communication should use complete sentences with standard spelling and grammar, including proper capitalization and punctuation.
 
 [The Core Rules of Netiquette](http://www.albion.com/netiquette/corerules.html) is a guide to the proper protocol for participating in online classes and writing emails.
 
-Questions about the course should be posted to the Moodle "Q & A Forum". Questions of a more personal nature, such as grades or extensions, should be sent to your instructor via e-mail. E-mails to your instructor or e-mails to another department regarding support issues should include your course number and section.
-
-All course announcements will be posted by the instructor to the Moodle "News and Announcements Forum". Students are expected to check the News Forum regularly. Any questions about News Forum announcements should be asked in the Q & A Forum.
-
-------
-
-## Moodle Support
-
-Please view the ***Support*** block on the right side of the Moodle course page for information on how to contact support. 
-
-Support information is also available on [help.lanecc.edu](https://help.lanecc.edu/).
+- **Questions about the course** should be posted to the Canvas "Q & A" discussion so that everyone can benefit from the answers.
+- **Questions of a more personal nature**, such as grades or extensions, should be sent to your instructor using Canvas Inbox or email. Emails to your instructor, or to another department regarding support issues, should include your course number and section.
+- **Course announcements** will be posted by the instructor in Canvas **Announcements**. Students are expected to check Announcements regularly. Any questions about announcements should be asked in the "Q & A" discussion.
 
 ------
 
-# CIT Computer Lab
+## Canvas Support
 
-The CIT Tutoring Lab (Building 19, Rm 135) is equipped with computers which are available exclusively for students in the CIT department. There are tutors available in the lab to help you with your lab work. 
+For help with Canvas, click the **Help** (?) icon in the Canvas global navigation menu on the left side of any Canvas page.
+
+Help with Canvas, your LCC account, and other technology is also available on [help.lanecc.edu](https://help.lanecc.edu/) and from the Student Help Desk (see "Online Tutoring and Support Services" in the syllabus).
 
 ------
-
