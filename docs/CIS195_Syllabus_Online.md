@@ -65,7 +65,7 @@ In addition to the topics listed in the [course schedule](#course-schedule), the
 
 ## Learning Resources
 
-### Textbook
+### Textbooks
 
 We will be using two free ebooks by Flavio Copes:
 
