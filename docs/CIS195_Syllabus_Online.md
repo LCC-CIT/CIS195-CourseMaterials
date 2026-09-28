@@ -67,7 +67,15 @@ In addition to the topics listed in the [course schedule](#course-schedule), the
 
 ### Textbook
 
-There is no textbook for this class. You will learn from recorded video lectures, lecture notes, and online tutorials. 
+We will be using two free ebooks by Flavio Copes:
+
+- *The HTML Handbook*
+- *The CSS Handbook* 
+
+Both books are published free on freeCodeCamp.org, where you can download them or read them online:
+
+- [The HTML Handbook on freeCodeCamp.org](https://www.freecodecamp.org/news/the-html-handbook/)
+- [The CSS Handbook on freeCodeCamp.org.](https://www.freecodecamp.org/news/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11/)
 
 ### Computer Lab and In-Person Tutoring
 
