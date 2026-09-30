@@ -8,7 +8,7 @@ author: Brian Bird
 ---
 **CIS195 Web Authoring 1: HTML**
 
-<h1>Overview and Announcements for 9/28&ndash;10/4</h1>
+<h1>Overview and Announcements for 9/28&ndash;10/4 2026</h1>
 
 <h2>Week 1: Intro to HTML</h2>
 
