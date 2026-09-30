@@ -68,7 +68,7 @@ author: Brian Bird
 -   You can take the quiz in the classroom at class time, or you can take it in the testing center. 
 
     - **Classroom** from 12:00 to 1:50 on Thursday, 10/26/2023. 
-    - **[Testing center](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services)** 
+    - **<a href="https://www.lanecc.edu/get-support/academic-support/instructional-testing-services" target="_blank">Testing center</a>** 
       - Thursday, 10/26 10:30am&ndash;1:30pm, 4:30pm&ndash;7 pm
       - Friday and Saturday 10/27 and 28 10:00am to 2:00pm.
       - The testing center is located in the Center Building, Room 311 (upstairs and across from the library). Bring ID.
@@ -209,7 +209,7 @@ This is the order of precedence from highest to lowest. (#1 is highest)
 | plus         | `ul+ol`      | Matches an `ol` that immediately follows a sibling `ul`. |
 | dash         | `ul-ol`      | Matches any `ol` that is a sibling of an `ul`.           |
 
-W3 Schools tutorial: [CSS Combinators](https://www.w3schools.com/css/css_combinators.asp)
+W3 Schools tutorial: <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">CSS Combinators</a>
 
 
 
@@ -264,7 +264,7 @@ A particular class attribute can be used multiple times on a web page and is onl
   | element.class                                                | `ol.ingredients`          | *&lt;ol class="ingredients"*&gt; |
   | element[attribute]                                           | `ol[type]`                | &lt;*ol type*="A"&gt;            |
   | element[attribute="value"]                                   | `ol[type="A"]`            | &lt;*ol type="A"*&gt;            |
-  | *[And there are more!](https://www.w3schools.com/css/css_attribute_selectors.asp)* |                           |                                  |
+  | *<a href="https://www.w3schools.com/css/css_attribute_selectors.asp" target="_blank">And there are more!</a>* |                           |                                  |
   
 
 
@@ -299,7 +299,7 @@ article {
 - `<summary>`
 - `<time>`
 
-[W3Schools tutorial on semantic elements](https://www.w3schools.com/HTML/html5_semantic_elements.asp)
+<a href="https://www.w3schools.com/HTML/html5_semantic_elements.asp" target="_blank">W3Schools tutorial on semantic elements</a>
 
 ## Non-semantic Structural Elements
 
@@ -326,20 +326,20 @@ The Madras <span style="font-style:oblique">Crocodile Bank Trust and Centre for 
 
 # Examples
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.html)
+* <a href="https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/Index.html" target="_blank">South India Web Site</a>
 
-* [Code for the South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
+* <a href="https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03" target="_blank">Code for the South India Web Site</a>
 
 
 
 # References
 
-* [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
-* [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+* <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3Schools CSS Tutorial</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">MDN CSS Reference</a>
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2018, revised <time>2023</time> are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

@@ -28,7 +28,7 @@ Create a single web page that contains short sections of information on some top
 
 You will restructure your review site from the previous lab so that each review page and its images are in their own directory (folder). You will also add a set of navigation links, in a `nav` element, to each web page .
 
-Check your pages using the [W3C HTML Validator](https://validator.w3.org)
+Check your pages using the <a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>
 
 ## Submission
 

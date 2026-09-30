@@ -34,7 +34,7 @@ Pieridae    
 
 <div>
 
-From: [Wikipedia - Butterfly](https://en.wikipedia.org/wiki/Butterfly)
+From: <a href="https://en.wikipedia.org/wiki/Butterfly" target="_blank">Wikipedia - Butterfly</a>
 
 </div>
 

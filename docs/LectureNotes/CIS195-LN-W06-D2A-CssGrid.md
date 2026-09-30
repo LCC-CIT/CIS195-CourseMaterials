@@ -59,7 +59,7 @@ author: Brian Bird
     -   CSS `background-size: contain` and `cover` don't work on `body`, you need to use a `div`, or other structural element like `section`. 
     
 -   Winter registration is open!  
-    [Upcoming classes](https://lcc-cit.github.io/CS133JS-CourseMaterials/LectureNotes/CS133JS-LN-W06-DX-NextSoftwareDevClasses.html) for the Software Development AAS degree program 
+    <a href="https://lcc-cit.github.io/CS133JS-CourseMaterials/LectureNotes/CS133JS-LN-W06-DX-NextSoftwareDevClasses.html" target="_blank">Upcoming classes</a> for the Software Development AAS degree program 
 -   Lab 5 on Positioning&mdash; any questions?
     -   Code review due today.
     -   Production version due Thursday.
@@ -247,16 +247,16 @@ Open the example web page in your browser and use the *View Source* feature to l
 
 ## Reference
 
-[CSS Grid Tutorial](https://www.w3schools.com/css/css_grid.asp) by W3schools  
+<a href="https://www.w3schools.com/css/css_grid.asp" target="_blank">CSS Grid Tutorial</a> by W3schools  
 
-[CSS Grid](https://flaviocopes.com/book/css/#31-css-grid) in [*The CSS Handbook*](https://flaviocopes.com/book/css/) by Flavio Copes
+<a href="https://flaviocopes.com/book/css/#31-css-grid" target="_blank">CSS Grid</a> in <a href="https://flaviocopes.com/book/css/" target="_blank">*The CSS Handbook*</a> by Flavio Copes
 
-[Grids](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids) in [MDN Web Docs](https://developer.mozilla.org/en-US/)
+<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids" target="_blank">Grids</a> in <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
 
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes, written by [Brian Bird](https://profbird.dev) in <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes, written by <a href="https://profbird.dev" target="_blank">Brian Bird</a> in <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 [^1]: The CSS2 property `grid-gap`, is now deprecated and replaced by the CSS3 property `gap`.

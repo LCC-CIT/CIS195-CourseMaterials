@@ -67,7 +67,7 @@ author: Brian Bird
 - By name
   `color: blue;`
   
-  There are 140 standard color names that are understood by all the browsers. Here's a [list of color names on W3Schools](https://www.w3schools.com/colors/colors_names.asp)
+  There are 140 standard color names that are understood by all the browsers. Here's a <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">list of color names on W3Schools</a>
   
 - By numeric color code
   The codes are based on the RGB color system.
@@ -98,7 +98,7 @@ author: Brian Bird
     - The range is 0 to FF
     - Example:`color: #0000FF7F;`
 
-[W3Schools tutorial on CSS color properties](https://www.w3schools.com/css/css_colors.asp)
+<a href="https://www.w3schools.com/css/css_colors.asp" target="_blank">W3Schools tutorial on CSS color properties</a>
 
 
 
@@ -119,7 +119,7 @@ Here are examples of hex values and their decimal equivalents:
 - FF hex is 255 decimal
 - 100 hex is 256 decimal
 
-[Math is Fun: Hexadecimal Number Tutorial](https://www.mathsisfun.com/hexadecimals.html)
+<a href="https://www.mathsisfun.com/hexadecimals.html" target="_blank">Math is Fun: Hexadecimal Number Tutorial</a>
 
 
 
@@ -221,7 +221,7 @@ Web fonts allow developers to use fonts that may not be installed on end user's 
 - Save the font file in your web site's folder, and it will be automatically loaded to by the user's browser when needed.
 - Define any web fonts your web site uses within the CSS `@font-face` rule.
 
-W3 Schools tutorial: [CSS Web Fonts](https://www.w3schools.com/css/css3_fonts.asp)
+W3 Schools tutorial: <a href="https://www.w3schools.com/css/css3_fonts.asp" target="_blank">CSS Web Fonts</a>
 
 
 
@@ -229,13 +229,13 @@ W3 Schools tutorial: [CSS Web Fonts](https://www.w3schools.com/css/css3_fonts.as
 
 - list-style-type
   
-  - [List style types](https://www.w3schools.com/CSSref/pr_list-style-type.asp)
+  - <a href="https://www.w3schools.com/CSSref/pr_list-style-type.asp" target="_blank">List style types</a>
 - list-style-image
   
-  - [list-style-image property](https://www.w3schools.com/cssref/pr_list-style-image.asp)
+  - <a href="https://www.w3schools.com/cssref/pr_list-style-image.asp" target="_blank">list-style-image property</a>
 - list-style-position
   
-  - [list-style-position property](https://www.w3schools.com/cssref/pr_list-style-position.asp)
+  - <a href="https://www.w3schools.com/cssref/pr_list-style-position.asp" target="_blank">list-style-position property</a>
   
     
 
@@ -266,33 +266,33 @@ The syntax of the selector is similar to that of a class selector.
     }
     ```
 
-Read about more about [pseudo-classes on W3 Schools](https://www.w3schools.com/css/css_pseudo_classes.asp).
+Read about more about <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">pseudo-classes on W3 Schools</a>.
 
 
 
 ## Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm)
+* <a href="https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm" target="_blank">South India Web Site</a>
 
-* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
+* <a href="https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03" target="_blank">Code for South India Web Site</a>
 
   
 
 ## References
 
-* [W3Schools: CSS Text Tutorial](https://www.w3schools.com/css/css_text.asp)
+* <a href="https://www.w3schools.com/css/css_text.asp" target="_blank">W3Schools: CSS Text Tutorial</a>
 
-* [W3Schools: CSS Font Tutorial](https://www.w3schools.com/css/css_font.asp)
+* <a href="https://www.w3schools.com/css/css_font.asp" target="_blank">W3Schools: CSS Font Tutorial</a>
 
-* [MDN: @font-face Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/%40font-face)
+* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/%40font-face" target="_blank">MDN: @font-face Reference</a>
 
-* [W3Schools: CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
+* <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">W3Schools: CSS Pseudo-classes</a>
 
   
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) 2018, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> 2018, revised <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

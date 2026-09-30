@@ -100,9 +100,9 @@ Option Groups allow a developer to organize the options into  labeled groups:
 </select>
 ```
 
-[Practice: Select element on W3Schools](https://www.w3schools.com/tags/tag_select.asp)
+<a href="https://www.w3schools.com/tags/tag_select.asp" target="_blank">Practice: Select element on W3Schools</a>
 
-[Reference: Select element on MDN ](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" target="_blank">Reference: Select element on MDN </a>
 
 
 
@@ -126,7 +126,7 @@ Selection of buttons with the same name will be mutually exclusive.
 <input type="radio" name="steepness" value="flat">Level trail<br>`
 <input type="radio" name="steepness"value="intermediate">Steep trail<br>
 ```
-[Radio button practice on W3Schools](https://www.w3schools.com/html/html_form_input_types.asp)
+<a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">Radio button practice on W3Schools</a>
 
 
 
@@ -141,7 +141,7 @@ The `accesskey` attribute specifies a keyboard shortcut for moving the focus to 
 
 To use the access key in Chrome, Edge or Safari, hold down the *alt* key while pressing the  shortcut key. In Firefox, hold down the *alt* and *shift* keys while pressing the access key.
 
-[Access Key Practice on W3Schools](https://www.w3schools.com/tags/att_global_accesskey.asp)
+<a href="https://www.w3schools.com/tags/att_global_accesskey.asp" target="_blank">Access Key Practice on W3Schools</a>
 
 
 
@@ -161,7 +161,7 @@ These `<input>` types are all essentially variants of the "text" type, but they 
 - `password`&mdash;Hides the text that is entered.
 - `range` &mdash;A range of valid values can be specified. 
   
-- [and more](https://www.w3schools.com/html/html_form_input_types.asp)
+- <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">and more</a>
 
 Code example:
 ```HTML
@@ -216,17 +216,17 @@ Here is the meaning of the symbols in the pattern attribute:
 
 #### Regex references
 
--  [Regex demo page](https://regex101.com/r/aYnU3Q/1)
-- [ MDN: text input attributes (including pattern)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
-- [ MDN: Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+-  <a href="https://regex101.com/r/aYnU3Q/1" target="_blank">Regex demo page</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text" target="_blank"> MDN: text input attributes (including pattern)</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" target="_blank"> MDN: Regular Expressions</a>
 
 
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) 2018, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a>
+Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> 2018, revised <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------
 

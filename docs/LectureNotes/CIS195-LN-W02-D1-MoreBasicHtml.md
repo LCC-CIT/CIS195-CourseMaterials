@@ -106,7 +106,7 @@ VS Code will automatically let you know if you make mistakes (use wrong syntax) 
 
 Define "syntax"
 
-[W3C HTML Validator](https://validator.w3.org)
+<a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>
 
 
 
@@ -145,11 +145,11 @@ Here's an example:
 - The opening and closing tags of a nested element must be between (inside) the opening and closing tags of the outer element. 
 - Inline elements cannot contain block elements.
 - Some block elements <u>cannot</u> contain other block elements.  
-  Check the *Permitted Conten*t in the [MDN HTML Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) reference.
-  - paragraph, `<p>`, elements can only contain [phrasing content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#phrasing_content).
+  Check the *Permitted Conten*t in the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">MDN HTML Element</a> reference.
+  - paragraph, `<p>`, elements can only contain <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#phrasing_content" target="_blank">phrasing content</a>.
   - headings, `<h1>`, `<h2>`, etc. can only contain phrasing content.
   - lists, `<ol>`, or `<ul>` can only contain `<li>` elements.
-  - list items, `<li>` elements can only contain [flow content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#flow_content).
+  - list items, `<li>` elements can only contain <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#flow_content" target="_blank">flow content</a>.
 
 ## Nested Lists
 
@@ -193,7 +193,7 @@ Figures are used to change images from inline to block elements. They also allow
 </figure>
 ```
 
-Try it out: [Figure on W3Schools](https://www.w3schools.com/tags/tag_figure.asp)  
+Try it out: <a href="https://www.w3schools.com/tags/tag_figure.asp" target="_blank">Figure on W3Schools</a>  
 
 ## Block Quotes
 
@@ -215,7 +215,7 @@ In a browser the `blockquote` would look like this:
   Not all who wander are lost.
 </blockquote>
 
-Try it out: [Blockquote on W3Schools](https://www.w3schools.com/TAGS/tag_blockquote.asp)  
+Try it out: <a href="https://www.w3schools.com/TAGS/tag_blockquote.asp" target="_blank">Blockquote on W3Schools</a>  
 
 ### Cite
 
@@ -245,9 +245,9 @@ Here are two ways to write the character entity for the copyright symbol, &copy;
 &copy; or &#169;
 ```
 
-[Listing of special characters on W3Schools](https://www.w3schools.com/html/html_symbols.asp)  
+<a href="https://www.w3schools.com/html/html_symbols.asp" target="_blank">Listing of special characters on W3Schools</a>  
 
-[Emojis for the Web on W3Schools](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)
+<a href="https://www.w3schools.com/charsets/ref_emoji_smileys.asp" target="_blank">Emojis for the Web on W3Schools</a>
 
 ## Comments
 
@@ -263,19 +263,19 @@ The `<hr>` tag will put a horizontal line across the page. This is one of the "e
 
 # References
 
-[HTML Element Reference](https://www.w3schools.com/tags/default.asp) &mdash;W3 Schools
+<a href="https://www.w3schools.com/tags/default.asp" target="_blank">HTML Element Reference</a> &mdash;W3 Schools
 
-[HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) &mdash;Mozilla Developer Network
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML Elements Reference</a> &mdash;Mozilla Developer Network
 
-[Oficial VS Code web site](https://code.visualstudio.com)&mdash;Microsoft
+<a href="https://code.visualstudio.com" target="_blank">Oficial VS Code web site</a>&mdash;Microsoft
 
-[HTML Syntax Validator](https://validator.w3.org)&mdash;World Wide Web Consortium
+<a href="https://validator.w3.org" target="_blank">HTML Syntax Validator</a>&mdash;World Wide Web Consortium
 
-[Content Categories](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories)&mdash;Mozilla Developer Ntework
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories" target="_blank">Content Categories</a>&mdash;Mozilla Developer Ntework
 
-[Phrasing Content vs. Flow Content](https://stackoverflow.com/questions/30233447/what-is-the-difference-between-phrasing-content-and-flow-content)&mdash;Stack Overflow
+<a href="https://stackoverflow.com/questions/30233447/what-is-the-difference-between-phrasing-content-and-flow-content" target="_blank">Phrasing Content vs. Flow Content</a>&mdash;Stack Overflow
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/) These lecture notes are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), by [Brian Bird](https://profbird.dev/), revised Fall <time>2023</time>.
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by/4.0/80x15.png" alt="Creative Commons License"></a> These lecture notes are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>, by <a href="https://profbird.dev/" target="_blank">Brian Bird</a>, revised Fall <time>2023</time>.
 
