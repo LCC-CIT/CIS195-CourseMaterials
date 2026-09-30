@@ -37,6 +37,7 @@ author: Brian Bird
     </tr>
     </tbody>
 </table>
+
 | Weeks 1-5 | Weeks 6-10 |
 | :--- | :--- |
 | 1. Intro to HTML | <mark>6. Layout with CSS</mark> |
@@ -45,7 +46,9 @@ author: Brian Bird
 | 4. Formatting with CSS | 9. Multimedia, Final |
 | 5. Project Propposal, Midterm | 10. HTML Tables, Project Completion |
 | 11. Final | |
+
 [Topics by Week for the Ten-Week Term]
+
 <br>
 <h2>Contents</h2>
 

@@ -46,7 +46,9 @@ author: Brian Bird
 | 3. Site structure and navigation | 8. HTML Forms |
 | 4. Formatting with CSS, Midterm | 9. Multimedia, Final |
 | 5. Project Propposal, Midtern | 10. Project Completion, Final |
+
 [Topics by Week for the Ten-Week Term]
+
 <h2>Contents</h2>
 
 [TOC]

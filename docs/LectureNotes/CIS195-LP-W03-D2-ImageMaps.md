@@ -16,6 +16,7 @@ author: Brian Bird
 | 3<u>. Site Design + More on Hyperlinks</u> | 8. HTML Forms           |
 | 4. Design with CSS                         | 9. Multimedia           |
 | 5. Midterm                                 | 10. Term Project        |
+
 [Course topics by week]
 
 
