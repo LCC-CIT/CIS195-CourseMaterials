@@ -27,11 +27,11 @@ Create a web page that uses each of the three elements listed above.
 
 - You can use multimedia files you created yourself or that are legal to download and use for academic (non-commercial) web sites. Here are some places to find these:
 
-  -  [Pexels](https://www.pexels.com/): public domain photos, images, and videos.
+  -  <a href="https://www.pexels.com/" target="_blank">Pexels</a>: public domain photos, images, and videos.
 
-  - [Freesound](https://freesound.org/browse/): a huge database of hundreds of thousands of sounds: birdsong, thunderstorms, voice snippets, etc. 
+  - <a href="https://freesound.org/browse/" target="_blank">Freesound</a>: a huge database of hundreds of thousands of sounds: birdsong, thunderstorms, voice snippets, etc. 
 
-  - [Open Music Archive](http://www.openmusicarchive.org/): out-of-copyright sound recordings including instrumental, 1920s, blues, weird, solo, work, country, dance lessons, and remix. 
+  - <a href="http://www.openmusicarchive.org/" target="_blank">Open Music Archive</a>: out-of-copyright sound recordings including instrumental, 1920s, blues, weird, solo, work, country, dance lessons, and remix. 
 
 ## Submitting your web page
 
@@ -48,14 +48,14 @@ Create a web page that uses each of the three elements listed above.
 
 ## Grading Criteria
 
-[Lab 8 grading rubric](https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab8Rubric-CIS195.htm)
+<a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab8Rubric-CIS195.htm" target="_blank">Lab 8 grading rubric</a>
 
 
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), 2018, revised 2023, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lab Instructions by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2018, revised 2023, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

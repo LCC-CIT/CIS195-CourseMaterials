@@ -9,7 +9,7 @@
 | Course     | CIS195                                                       |      | Instructor           | Brian Bird                                                   |
 | CRN        | hybrid 10372, online 10325                                   |      | Email                | birdb@lanecc.edu                                             |
 | Time, Day  | 10:00–11:50, Tu & Th                                         |      | Office               | Building 19, room 152                                        |
-| Classroom  | Building 2, room 212<br />[Zoom meeting](https://lanecc.zoom.us/j/92271711193) |      | Drop-in Office Hours | Tu, Th: 12:00&ndash;12:50 <br />[Zoom meeting](https://lanecc.zoom.us/j/92539626829) |
+| Classroom  | Building 2, room 212<br /><a href="https://lanecc.zoom.us/j/92271711193" target="_blank">Zoom meeting</a> |      | Drop-in Office Hours | Tu, Th: 12:00&ndash;12:50 <br /><a href="https://lanecc.zoom.us/j/92539626829" target="_blank">Zoom meeting</a> |
 
 
 
@@ -78,7 +78,7 @@ The CIT computer lab in building19, room 135, is equipped with computers and and
 
 ## Online Tutoring and Support Services
 
-In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the [Lane Support Hub](http://lanecc.edu/hub) (Zoom link: [lanecc.edu/hub]()). Feel free to drop in or guarantee time with a tutor by making an appointment using [WCOnline](https://lanecc.mywconline.com/). Check out the [ATS website](https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services) for updated hours and additional information.
+In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the <a href="http://lanecc.edu/hub" target="_blank">Lane Support Hub</a> (Zoom link: [lanecc.edu/hub]()). Feel free to drop in or guarantee time with a tutor by making an appointment using <a href="https://lanecc.mywconline.com/" target="_blank">WCOnline</a>. Check out the <a href="https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services" target="_blank">ATS website</a> for updated hours and additional information.
 
 ## Software
 
@@ -86,23 +86,23 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 - "Office" software for Word processing, spreadsheets, slides, etc., such as:
 
-  -  [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff)&mdash;Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. 
+  -  <a href="https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff" target="_blank">MS Office</a>&mdash;Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. 
     
-     *About Microsoft accounts: You may have both a [school account](https://myaccount.microsoft.com) and a [personal account](https://account.microsoft.com). Use your Microsoft <u>school account</u> to get MS Office.*
+     *About Microsoft accounts: You may have both a <a href="https://myaccount.microsoft.com" target="_blank">school account</a> and a <a href="https://account.microsoft.com" target="_blank">personal account</a>. Use your Microsoft <u>school account</u> to get MS Office.*
      
-  - [LibreOffice](http://www.libreoffice.org)&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
+  - <a href="http://www.libreoffice.org" target="_blank">LibreOffice</a>&mdash; Free, open source, cross-platform (Mac, Windows, Linux) software.
 
-  - [Google Docs](https://docs.google.com)&mdash;Free to use online with your LCC gmail account.
+  - <a href="https://docs.google.com" target="_blank">Google Docs</a>&mdash;Free to use online with your LCC gmail account.
 
-- A code (text) editor to create your web pages.  [Visual Studio Code](https://code.visualstudio.com) is a free code editor that can be downloaded via the internet and used on Windows, Mac OS or Linux. Alternatively, you can use TextWrangler on Mac OS, or Notepad++ on Windows.
+- A code (text) editor to create your web pages.  <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a> is a free code editor that can be downloaded via the internet and used on Windows, Mac OS or Linux. Alternatively, you can use TextWrangler on Mac OS, or Notepad++ on Windows.
 
 - Software that can be used to manipulate images such as the <u>Windows Paint</u> program (included in Windows). Mac users can use the <u>Preview</u> app (included in MacOS), but it just barely meets the needs of this class. 
 
-  Most other full-featured image editing apps such as Adobe Photoshop (not free), or [Gimp](https://www.gimp.org/) (a free, cross-platform, app similar to Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
+  Most other full-featured image editing apps such as Adobe Photoshop (not free), or <a href="https://www.gimp.org/" target="_blank">Gimp</a> (a free, cross-platform, app similar to Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
 
-- At least two modern browsers to view/test your web pages.  The latest versions of [Chrome](https://www.google.com/chrome/), and [Firefox](https://www.mozilla.org/en-US/firefox/new/) can be downloaded for free.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
+- At least two modern browsers to view/test your web pages.  The latest versions of <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>, and <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> can be downloaded for free.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
 
-- An ftp client to upload your web pages to citstudent.lanecc.edu. [FileZilla](https://filezilla-project.org/download.php?show_all=1) is a good free option that runs on Windows, Mac OS, or Linux.
+- An ftp client to upload your web pages to citstudent.lanecc.edu. <a href="https://filezilla-project.org/download.php?show_all=1" target="_blank">FileZilla</a> is a good free option that runs on Windows, Mac OS, or Linux.
 
 ## Web Resources
 
@@ -156,7 +156,7 @@ Weekly quizzes are given that cover the required reading for that week. These qu
 
 The midterm and final quizzes are given in weeks 5 and 8. See the [course schedule](#course-schedule) for exact dates and times. 
 
-These quizzes will need to given in the testing center on the third floor of the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures. Students are allowed to prepare a 4 X 6 card with notes to use during the quiz.
+These quizzes will need to given in the testing center on the third floor of the Center Building, room 311. See the <a href="https://www.lanecc.edu/get-support/academic-support/instructional-testing-services" target="_blank">Instructional Testing Services</a> web site for testing times and procedures. Students are allowed to prepare a 4 X 6 card with notes to use during the quiz.
 
 For students who live outside Lane county, please send an email to [online@lanecc.edu](mailto:online@lanecc.edu) as soon as possible to arrange for your midterm and final to be proctored at a location near you.
 
@@ -172,7 +172,7 @@ Students who participate via Zoom can join the class discussion through the Zoom
 
 Students who aren't able to participate during class time, but instead watch the recordings, can ask and answer questions in the Moodle Q & A forum.
 
-**No-Show Drop:** LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy. which means that during the first week of the term, to avoid being dropped, a student must:
+**No-Show Drop:** LCC has a <a href="https://www.lanecc.edu/esfs/noshow-drops" target="_blank">no-show drop</a> policy. which means that during the first week of the term, to avoid being dropped, a student must:
 
 - Attend at least one class in person 
 
@@ -205,7 +205,7 @@ Please be aware that any accessible tables and chairs in this room should remain
 | Last Day to Add/Drop or make other schedule changes        | 7/28 |
 | Last day of eight-week term                                | 8/19 |
 
-View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.
+View <a href="https://www.lanecc.edu/calendars/academic-calendar" target="_blank">academic calendars</a> on the LCC web site.
 
 
 

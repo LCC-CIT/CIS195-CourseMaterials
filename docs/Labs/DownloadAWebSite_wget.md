@@ -2,7 +2,7 @@
 
 ## GNU wget
 
-[wget web site](https://www.gnu.org/software/wget/)
+<a href="https://www.gnu.org/software/wget/" target="_blank">wget web site</a>
 
 To download an entire website into a local directory using `wget`, you can use the following command:
 

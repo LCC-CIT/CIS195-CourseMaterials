@@ -34,7 +34,7 @@
   - A markup language is different from a programming language.
 - CSS (Cascading Style Sheets)
   - Provides formatting and styling for the HTML pages.
-- Full blown example: [Chennai web page](https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/Chennai)
+- Full blown example: <a href="https://lcc-cit.github.io/CIS195-Demos/Unit02/SouthIndia/Chennai" target="_blank">Chennai web page</a>
 
   - View the source to see what the HTML looks like.
   - You will be able to make a site like this by the middle of the term.
@@ -48,7 +48,7 @@
 
 #### The skeleton of every web page
 
-- The simplest example: [Empty page](https://lcc-cit.github.io/CIS195-Demos/Unit01/BasicPage/empty.html)
+- The simplest example: <a href="https://lcc-cit.github.io/CIS195-Demos/Unit01/BasicPage/empty.html" target="_blank">Empty page</a>
 
   - View the source to see what the HTML looks like.
 
@@ -128,6 +128,6 @@ This is a beginning class with no prerequisites, but you should be able to do so
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised 2022, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2018, revised 2022, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 [^1]: In order to save files from TextEdit with a .html extension, you will need to open the TextEdit preferences and select "plain text" as the default format.

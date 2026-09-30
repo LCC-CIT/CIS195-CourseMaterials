@@ -7,7 +7,7 @@
 | Course    | CIS195                                                       |      | Instructor   | Brian Bird                                                   |
 | CRN       | hybrid (on campus): 21647<br />online: 21346                 |      | Email        | birdb@lanecc.edu                                             |
 | Time, Day | 12:00–1:50pm, Tu & Th                                        |      | Office       | Building 19, room 152                                        |
-| Classroom | Building 19, room 128<br />[Zoom meeting](https://lanecc.zoom.us/j/97010574746) |      | Office Hours | M&mdash;Th  2:00&ndash;2:50<br />[Zoom meeting](https://lanecc.zoom.us/j/93774726097) |
+| Classroom | Building 19, room 128<br /><a href="https://lanecc.zoom.us/j/97010574746" target="_blank">Zoom meeting</a> |      | Office Hours | M&mdash;Th  2:00&ndash;2:50<br /><a href="https://lanecc.zoom.us/j/93774726097" target="_blank">Zoom meeting</a> |
 
 
 
@@ -74,23 +74,23 @@ The CIT computer lab in building19, room 135, is equipped with computers and and
 
 ### Online Tutoring and Support Services
 
-In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the [Lane Support Hub](http://lanecc.edu/hub) (Zoom link: lanecc.edu/hub). Feel free to drop in or guarantee time with a tutor by making an appointment using [WCOnline](https://lanecc.mywconline.com/). Check out the [ATS website](https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services) (link: lanecc.edu/tutor) for updated hours and additional information.
+In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the <a href="http://lanecc.edu/hub" target="_blank">Lane Support Hub</a> (Zoom link: lanecc.edu/hub). Feel free to drop in or guarantee time with a tutor by making an appointment using <a href="https://lanecc.mywconline.com/" target="_blank">WCOnline</a>. Check out the <a href="https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services" target="_blank">ATS website</a> (link: lanecc.edu/tutor) for updated hours and additional information.
 
 ### Software
 
 If you plan to do lab work somewhere other than in the classroom or the CIT Computer Lab, you will need: 
 
-- "Office" software for Word processing such as [MS Office](https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff), [LibreOffice](http://www.libreoffice.org) or [Google Docs](https://docs.google.com).
+- "Office" software for Word processing such as <a href="https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff" target="_blank">MS Office</a>, <a href="http://www.libreoffice.org" target="_blank">LibreOffice</a> or <a href="https://docs.google.com" target="_blank">Google Docs</a>.
 
-- A code (text) editor to create your web pages.  [Visual Studio Code](https://code.visualstudio.com) is a free code editor that can be downloaded via the internet and used on Windows, Mac OS or Linux. Alternatively, you can use TextWrangler on Mac OS, or Notepad++ on Windows.
+- A code (text) editor to create your web pages.  <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a> is a free code editor that can be downloaded via the internet and used on Windows, Mac OS or Linux. Alternatively, you can use TextWrangler on Mac OS, or Notepad++ on Windows.
 
 - Software that can be used to manipulate images such as the <u>Windows Paint</u> program (included in Windows). Mac users can use the <u>Preview</u> app (included in MacOS), but it just barely meets the needs of this class. 
 
-  Most other full-featured image editing apps such as Adobe Photoshop (not free), or [Gimp](https://www.gimp.org/) (a free, cross-platform, semi-clone of Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
+  Most other full-featured image editing apps such as Adobe Photoshop (not free), or <a href="https://www.gimp.org/" target="_blank">Gimp</a> (a free, cross-platform, semi-clone of Photoshop) will also meet the needs of this class. The two main things you'll need to do are: change the size of images and find pixel coordinates in images.
 
-- At least two modern browsers to view/test your web pages.  The latest versions of [Chrome](https://www.google.com/chrome/), and [Firefox](https://www.mozilla.org/en-US/firefox/new/) can be downloaded for free.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
+- At least two modern browsers to view/test your web pages.  The latest versions of <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>, and <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> can be downloaded for free.  Many other browsers like Safari and Edge, are also suitable for your use in this class.
 
-- An ftp client to upload your web pages to citstudent.lanecc.edu. [FileZilla](https://filezilla-project.org/download.php?show_all=1) is a good free option that runs on Windows, Mac OS, or Linux.
+- An ftp client to upload your web pages to citstudent.lanecc.edu. <a href="https://filezilla-project.org/download.php?show_all=1" target="_blank">FileZilla</a> is a good free option that runs on Windows, Mac OS, or Linux.
 
 ### Web Resources
 
@@ -130,7 +130,7 @@ The midterm and final quizzes are given in weeks 5 and 11. See the course schedu
 
 - On-campus students (hybrid modality) will take the quiz In the classroom during the normal class time.
 
-- Online students are requested to take the quiz in Instructional Testing Services in the Center Building, room 311. See the [Instructional Testing Services](https://www.lanecc.edu/get-support/academic-support/instructional-testing-services) web site for testing times and procedures.  
+- Online students are requested to take the quiz in Instructional Testing Services in the Center Building, room 311. See the <a href="https://www.lanecc.edu/get-support/academic-support/instructional-testing-services" target="_blank">Instructional Testing Services</a> web site for testing times and procedures.  
 
   Alternatively, online students can take the midterm and final at home.
 
@@ -163,7 +163,7 @@ Generative AI assistants like ChatGPT, Claude, Gemini or GitHub Copilot are not 
 
 Attendance is not a part of your grade, but it is essential that you log into Canvas at the beginning of every week to read the objectives for the week. Throughout the week, you will need to participate in live class sessions online or watch recordings of the lectures, and do the learning activities. 
 
-**No-Show Drop:** LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy. which means that during the first week of the term, to avoid being dropped, a student must:
+**No-Show Drop:** LCC has a <a href="https://www.lanecc.edu/esfs/noshow-drops" target="_blank">no-show drop</a> policy. which means that during the first week of the term, to avoid being dropped, a student must:
 
 - Attend at least one online live class session 
 
@@ -197,7 +197,7 @@ This is a resource for students to get both their physical and mental health nee
 | Thanksgiving Vacation – college closed Thursday&ndash;Sunday   | 11/26&ndash;11/29 |
 | Final exam                                                   | 12/8 Tuesday      |
 
-View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on the LCC web site.
+View <a href="https://www.lanecc.edu/calendars/academic-calendar" target="_blank">academic calendars</a> on the LCC web site.
 
 
 

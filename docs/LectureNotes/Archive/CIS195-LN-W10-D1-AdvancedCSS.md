@@ -140,8 +140,8 @@ Note that we had to give it a wider border so that we could see the border image
 
 </div>
 
-Try it: [W3Schools, CSS3 border-image Property  
-](https://www.w3schools.com/csSref/css3_pr_border-image.asp)
+Try it: <a href="https://www.w3schools.com/csSref/css3_pr_border-image.asp" target="_blank">W3Schools, CSS3 border-image Property  
+</a>
 
 <u>**CSS3 Opacity  
 **</u>
@@ -153,8 +153,8 @@ CSS3 opacity style syntax: *opacity: value;*
 Example:  
 `style="opacity: 0.5;"                          `
 
-Try it: [W3Schools, opacity property  
-](https://www.w3schools.com/CSSref/css3_pr_opacity.asp)
+Try it: <a href="https://www.w3schools.com/CSSref/css3_pr_opacity.asp" target="_blank">W3Schools, opacity property  
+</a>
 
 <u>**Using Special Styles for Different Media Types  
 **</u>
@@ -190,9 +190,9 @@ There are many possible devices that could be used to display a web page. Each o
 
 <!-- -->
 
--   Tutorial: [W3Schools, HTML *media* Attribute  
+-   Tutorial: <a href="https://www.w3schools.com/TAGS/att_media.asp" target="_blank">W3Schools, HTML *media* Attribute  
       
-    ](https://www.w3schools.com/TAGS/att_media.asp)
+    </a>
 
 <u>Define CSS style rules based on media type</u>.
 
@@ -205,7 +205,7 @@ CSS *@media* rule
 
 <!-- -->
 
--   Try it: [W3Schools, CSS @Media Rule ](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+-   Try it: <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">W3Schools, CSS @Media Rule </a>
 
 <!-- -->
 
@@ -216,7 +216,7 @@ The *@media* rule is one of several CSS at-rules
 
 <!-- -->
 
--   Reference: [MDN, at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule)
+-   Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule" target="_blank">MDN, at-rule</a>
 
 <u>**Print Styling  
 **</u>

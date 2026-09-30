@@ -31,7 +31,7 @@ Create another web page which contains a picture (of your choice) that has at le
 - At least one of the links should go to an internal location in one of the linked pages ( a link to an id).
 - Use the `<base>` element to specify the sub-folder that contains the linked pages.
 
-Check your pages using the [W3C HTML Validator](https://validator.w3.org)  
+Check your pages using the <a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>  
 
 
 
