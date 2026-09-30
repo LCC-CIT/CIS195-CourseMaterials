@@ -8,9 +8,9 @@ author: Brian Bird
 ---
 **CIS195 Web Authoring 1: HTML**
 
-<h1>Overview and Announcements for Week 1</h1>
+<h1>Overview and Announcements for 9/28&ndash;10/4</h1>
 
-<h2>Intro to HTML</h2>
+<h2>Week 1: Intro to HTML</h2>
 
 <figure style="float: right; margin: 0 0 1em 1.5em; width: 200px;">
   <img src="../Images/DigitalEarth.jpeg" alt="Earth with ones and zeros on and around it." width="200">
