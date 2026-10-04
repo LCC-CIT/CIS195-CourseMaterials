@@ -16,9 +16,9 @@ author: Brian Bird
  <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
 ```
 
-[W3 Schools favicon tutorial](https://www.w3schools.com/html/html_favicon.asp)
+<a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank">W3 Schools favicon tutorial</a>
 
-[Favicon.io favicon generator](https://favicon.io)
+<a href="https://favicon.io" target="_blank">Favicon.io favicon generator</a>
 
 
 
@@ -40,7 +40,7 @@ author: Brian Bird
 
 # Sitemap
 
-[XML-Sitemaps.com](https://www.xml-sitemaps.com/)
+<a href="https://www.xml-sitemaps.com/" target="_blank">XML-Sitemaps.com</a>
 
 
 
@@ -164,14 +164,14 @@ Test robots.txt https://www.websiteplanet.com/webtools/robots-txt/
 
 ## Bing
 
-[Bing Webmaster Tools](https://www.bing.com/webmasters/)
+<a href="https://www.bing.com/webmasters/" target="_blank">Bing Webmaster Tools</a>
 
 Files in root of site: 
 
 - BingSiteAuth.xml
 - b7d71bf419dd4da19baff106615b73da.txt. (for indexNow)
 
-[IndexNow](https://www.bing.com/indexnow/getstarted)
+<a href="https://www.bing.com/indexnow/getstarted" target="_blank">IndexNow</a>
 
 Post request to index site:
 

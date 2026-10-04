@@ -37,6 +37,7 @@ author: Brian Bird
     </tr>
     </tbody>
 </table>
+
 | Weeks 1-5 | Weeks 6-11 |
 | :--- | :--- |
 | 1. Intro to HTML | 6. Layout with CSS |
@@ -45,6 +46,7 @@ author: Brian Bird
 | 4. Formatting with CSS | <mark>9. Multimedia</mark> |
 | 5. Midterm, Project Propposal | 10. Tables, Project Completion |
 |  | 11. Final |
+
 [Topics by Week for the Ten-Week Term]
 
 
@@ -97,7 +99,7 @@ author: Brian Bird
   
   -  Provides the best sound quality through lossless compression.
   - Compatible with all major desktop and mobile browsers.
-  - Open source, royalty-free, developed by the [Xiph.Org Foundation](https://en.wikipedia.org/wiki/Xiph.Org_Foundation), 
+  - Open source, royalty-free, developed by the <a href="https://en.wikipedia.org/wiki/Xiph.Org_Foundation" target="_blank">Xiph.Org Foundation</a>, 
   
 - WAV
   - No compression, no loss in sound quality
@@ -183,7 +185,7 @@ You may wish to have more than one src URL listed in case a user's browser doesn
 - Means "inline frame"
 - A way of embedding a web page (or other document) inside of a web page.
   In the example below, the embedded web page is [butterflies.html](butterflies.html)
-- Reference: [w3schools iframe](https://www.w3schools.com/tags/tag_iframe.asp)
+- Reference: <a href="https://www.w3schools.com/tags/tag_iframe.asp" target="_blank">w3schools iframe</a>
 ## Example: Embedding a Web Page
 
 Note that some web sites will block embedding of their web pages. In this example, I'm embedding one of my own web pages.
@@ -207,18 +209,18 @@ Note that the link for the YouTube video is not the general URL, but the *embed*
 # References and Resources
 
 - Mozilla Developer Network (MDN) Reference and Tutorials:
-  -  [Media formats for HTML audio and video](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats)
-  - [`<audio>`: The Embed Audio element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
-  - [`<video>`: The Video Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) 
-  - [`<iframe>`: The Inline Frame element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
+  -  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats" target="_blank">Media formats for HTML audio and video</a>
+  - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">`<audio>`: The Embed Audio element</a>
+  - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">`<video>`: The Video Embed element</a> 
+  - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank">`<iframe>`: The Inline Frame element</a>
 
-- [Internet Archive](https://archive.org/)  Internet Archive is a non-profit library of millions of free books, movies, music, and more. A good source for multimedia files to use in your web sites.
+- <a href="https://archive.org/" target="_blank">Internet Archive</a>  Internet Archive is a non-profit library of millions of free books, movies, music, and more. A good source for multimedia files to use in your web sites.
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) 2018, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a>
+Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> 2018, revised <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------
 

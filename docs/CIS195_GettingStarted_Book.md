@@ -10,8 +10,8 @@ Welcome to this class!
 
 This guide will help you get started in the course, whether you are in the **online** section or the **hybrid** (in-person) section. Details about the course, including the course schedule, grading, required software, and the weekly learning cycle, are in the syllabus for your section:
 
-- Online section: [Online Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_Online.html)
-- Hybrid section: [Hybrid Syllabus](https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html)
+- Online section: <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_Online.html" target="_blank">Online Syllabus</a>
+- Hybrid section: <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html" target="_blank">Hybrid Syllabus</a>
 
 ------
 
@@ -45,7 +45,7 @@ Both sections use the same Canvas course materials, labs, quizzes, and term proj
 
 ## What You Will Need
 
-- A computer that can run a code editor like [Visual Studio Code](https://code.visualstudio.com/) (pretty much any Windows, Mac, or Linux computer can). A Chromebook, tablet, or phone is *not* enough to do the lab work. If you don't have a suitable computer, you can use the CIT computer lab (see the syllabus).
+- A computer that can run a code editor like <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (pretty much any Windows, Mac, or Linux computer can). A Chromebook, tablet, or phone is *not* enough to do the lab work. If you don't have a suitable computer, you can use the CIT computer lab (see the syllabus).
 - A reliable internet connection.
 - The software listed in the Software section of the syllabus.
 
@@ -60,7 +60,7 @@ Both sections use the same Canvas course materials, labs, quizzes, and term proj
 
 # Introduction to Canvas
 
-Canvas is Lane Community College's learning management system and is where you will find all the content and activities for this course. Log in at [canvas.lanecc.edu](https://canvas.lanecc.edu). If you are new to Canvas, the [Canvas Student Guide](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student) explains how to use all of its features.
+Canvas is Lane Community College's learning management system and is where you will find all the content and activities for this course. Log in at <a href="https://canvas.lanecc.edu" target="_blank">canvas.lanecc.edu</a>. If you are new to Canvas, the <a href="https://community.canvaslms.com/t5/Student-Guide/tkb-p/student" target="_blank">Canvas Student Guide</a> explains how to use all of its features.
 
 Tips for using Canvas:
 
@@ -78,7 +78,7 @@ This course is organized into weekly **Modules**. All the learning materials and
 
 All course communication (via email, Canvas Inbox, discussions, Zoom, etc.) should be clear, concise, and respectful. Written communication should use complete sentences with standard spelling and grammar, including proper capitalization and punctuation.
 
-[The Core Rules of Netiquette](http://www.albion.com/netiquette/corerules.html) is a guide to the proper protocol for participating in online classes and writing emails.
+<a href="http://www.albion.com/netiquette/corerules.html" target="_blank">The Core Rules of Netiquette</a> is a guide to the proper protocol for participating in online classes and writing emails.
 
 - **Questions about the course** should be posted to the Canvas "Q & A" discussion so that everyone can benefit from the answers.
 - **Questions of a more personal nature**, such as grades or extensions, should be sent to your instructor using Canvas Inbox or email. Emails to your instructor, or to another department regarding support issues, should include your course number and section.
@@ -90,6 +90,6 @@ All course communication (via email, Canvas Inbox, discussions, Zoom, etc.) shou
 
 For help with Canvas, click the **Help** (?) icon in the Canvas global navigation menu on the left side of any Canvas page.
 
-Help with Canvas, your LCC account, and other technology is also available on [help.lanecc.edu](https://help.lanecc.edu/) and from the Student Help Desk (see "Online Tutoring and Support Services" in the syllabus).
+Help with Canvas, your LCC account, and other technology is also available on <a href="https://help.lanecc.edu/" target="_blank">help.lanecc.edu</a> and from the Student Help Desk (see "Online Tutoring and Support Services" in the syllabus).
 
 ------

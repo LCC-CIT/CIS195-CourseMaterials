@@ -4,9 +4,9 @@
 
 You will need some kind of a terminal application in order to connect to the remote Linux computer. You will be connecting using the SSH protocol. There are many Windows SSH clients you can use. Here are some popular ones:
 
-- [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)&mdash;Install this app from the Windows Store
-- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)&mdash;Download and install this app
-- [Windows 10 Command Prompt](https://www.techolac.com/linux/use-ssh-commands-in-windows-10-command-prompt/)&mdash;Instructions for enabling and using this Windows feature
+- <a href="https://docs.microsoft.com/en-us/windows/terminal/get-started" target="_blank">Windows Terminal</a>&mdash;Install this app from the Windows Store
+- <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank">PuTTY</a>&mdash;Download and install this app
+- <a href="https://www.techolac.com/linux/use-ssh-commands-in-windows-10-command-prompt/" target="_blank">Windows 10 Command Prompt</a>&mdash;Instructions for enabling and using this Windows feature
 
 ## Using Mac OS
 
@@ -22,7 +22,7 @@ where username is your user name.
 
 ## Changing Your Password
 
-Regardless of which one of these SSH clients you use, you will enter the same commands. Here are instructions that list the commands you need to use to change a password: [Changing Passwords](http://citstudent.lanecc.edu/info.shtml).
+Regardless of which one of these SSH clients you use, you will enter the same commands. Here are instructions that list the commands you need to use to change a password: <a href="http://citstudent.lanecc.edu/info.shtml" target="_blank">Changing Passwords</a>.
 
 
 

@@ -21,7 +21,7 @@ Create a single web page that presents a review of something of your choice and 
 - A horizontal rule.
 - Two or more comments. For one of the comments, put your name  and the date in the head element.
 
-Check your page using the [W3C HTML Validator](https://validator.w3.org)  
+Check your page using the <a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>  
 
 
 
@@ -55,7 +55,7 @@ Create a review site that contains <u>a home page</u> and at <u>least three revi
 
 - Name the home page index.html
 
-Check your pages using the [W3C HTML Validator](https://validator.w3.org)  
+Check your pages using the <a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>  
 
 
 

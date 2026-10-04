@@ -81,8 +81,8 @@ $ \# Assert position at the end of the string.
 
 <div class="section">
 
--   [Regex demo page](https://regex101.com/r/aYnU3Q/1)
--   [MDN: text input attributes (including pattern)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
--   [MDN: Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+-   <a href="https://regex101.com/r/aYnU3Q/1" target="_blank">Regex demo page</a>
+-   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text" target="_blank">MDN: text input attributes (including pattern)</a>
+-   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" target="_blank">MDN: Regular Expressions</a>
 
 </div>

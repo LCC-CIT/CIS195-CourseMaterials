@@ -23,7 +23,7 @@ The web site's structure is determined by hyperlinks.
 
 ### Hyperlink Navigation—Site maps
 
-A sitemap shows how the web pages are linked together. It can be done simply by using an outline. Here's an example based on [my company's home page](https://creativecybersolutions.com)
+A sitemap shows how the web pages are linked together. It can be done simply by using an outline. Here's an example based on <a href="https://creativecybersolutions.com" target="_blank">my company's home page</a>
 
 - Navigation (on every page)
   - Home
@@ -32,7 +32,7 @@ A sitemap shows how the web pages are linked together. It can be done simply by 
   - Contact us
   - Client Login
 
-Another example is our family's market garden web site, [Eaglewing Acres](https://eaglewingacres.com/).
+Another example is our family's market garden web site, <a href="https://eaglewingacres.com/" target="_blank">Eaglewing Acres</a>.
 
 - Navigation (on every page)
   - Home
@@ -55,7 +55,7 @@ Another example is our family's market garden web site, [Eaglewing Acres](https:
 
 
 For a site with more complex navigation (hyperlinks) you would need a more complex map.
-Look at [The Highlands](http://www.highlands97405.com) web site and draw a site map on the white board.
+Look at <a href="http://www.highlands97405.com" target="_blank">The Highlands</a> web site and draw a site map on the white board.
 
 
 
@@ -87,7 +87,7 @@ The anchor element, `<a>` , can have a target attribute that is used to control 
 | _top        | The full body of the window                                |
 | *framename* | A named frame                                              |
 
-[W3Schools tutorial on the anchor element](https://www.w3schools.com/tags/tag_a.asp)
+<a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">W3Schools tutorial on the anchor element</a>
 
 
 
@@ -109,7 +109,7 @@ Example:
 </body>
 ```
 
-[W3Schools tutorial on the base tag](https://www.w3schools.com/tags/tag_base.asp)
+<a href="https://www.w3schools.com/tags/tag_base.asp" target="_blank">W3Schools tutorial on the base tag</a>
 
 
 
@@ -174,8 +174,8 @@ The `mailto` protocol  allows you to add information to the e-mail, including th
 
 
 
-[More about the href attribute on W3Schools](https://www.w3schools.com/tags/att_a_href.asp)
+<a href="https://www.w3schools.com/tags/att_a_href.asp" target="_blank">More about the href attribute on W3Schools</a>
 
 ****
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.online" target="_blank">Brian Bird</a> are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

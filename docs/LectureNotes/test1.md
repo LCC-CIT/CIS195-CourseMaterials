@@ -155,7 +155,7 @@ xUnit
     that doesn\'t already have a comparator implemented for the Equals
     method.
 
-Reference - [xunit.github.io](https://xunit.github.io)
+Reference - <a href="https://xunit.github.io" target="_blank">xunit.github.io</a>
 
  
 
@@ -245,11 +245,11 @@ Book
 Further Reading
 ---------------
 
-[Testing Controller Logic in ASP.NET
-Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing)[]{style="color: #0000ee;"}\
-[](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing)\
-[Dependency Injection
-Demystified](http://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html)\
+<a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing" target="_blank">Testing Controller Logic in ASP.NET
+Core</a>[]{style="color: #0000ee;"}\
+<a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing" target="_blank"></a>\
+<a href="http://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html" target="_blank">Dependency Injection
+Demystified</a>\
 \
 
  

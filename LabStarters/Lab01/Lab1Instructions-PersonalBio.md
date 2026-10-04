@@ -37,7 +37,7 @@ Create a web site that consists of at least <u>two web pages</u> and presents a 
 
 ## Software you will use to create your web pages
 
-To create your web pages, you can use [Visual Studio Code](https://code.visualstudio.com ), which runs on Windows, Mac OS, or Linux. Alternatively, on Windows, you can use [Notepad++]( http://notepad-plus-plus.org ) or on Mac OS, [Text Wrangler]( http://www.barebones.com/products/textwrangler ).
+To create your web pages, you can use <a href="https://code.visualstudio.com " target="_blank">Visual Studio Code</a>, which runs on Windows, Mac OS, or Linux. Alternatively, on Windows, you can use [Notepad++]( http://notepad-plus-plus.org ) or on Mac OS, [Text Wrangler]( http://www.barebones.com/products/textwrangler ).
 
  
 
@@ -58,4 +58,4 @@ Here is a link to the criteria that I will use to grade your assignment:
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Course Materials, 2018, revised 2023 by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Course Materials, 2018, revised 2023 by <a href="https://profbird.dev" target="_blank">Brian Bird</a> are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 

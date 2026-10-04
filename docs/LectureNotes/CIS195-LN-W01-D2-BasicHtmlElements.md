@@ -37,6 +37,7 @@ author: Brian Bird
     </tr>
     </tbody>
 </table>
+
 | Weeks 1-5 | Weeks 6-11 |
 | :--- | :--- |
 | <mark>1. Intro to HTML</mark> | 6. Layout with CSS |
@@ -45,7 +46,9 @@ author: Brian Bird
 | 4. Formatting with CSS | 9. Multimedia |
 | 5. Midterm, Project Propposal | 10. Tables, Project Completion |
 |  | 11. Final |
+
 [Topics by Week for the Ten-Week Term]
+
 <h2>Contents</h2>
 
 [TOC]
@@ -90,7 +93,7 @@ author: Brian Bird
 Visual Studio Code
 
 - Install VS Code
-  Instructions are here: [Setting up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview)
+  Instructions are here: <a href="https://code.visualstudio.com/docs/setup/setup-overview" target="_blank">Setting up Visual Studio Code</a>
 - Create an HTML file
   - Create a new file, then rename it with the html extension.
   - Add the HTML "boiler plate".
@@ -170,4 +173,4 @@ The lab 1 instructions are posted in the week 1 section on Canvas.
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) 2018, revised 2023, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> 2018, revised 2023, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 

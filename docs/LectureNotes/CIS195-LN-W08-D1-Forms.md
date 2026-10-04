@@ -37,6 +37,7 @@ author: Brian Bird
     </tr>
     </tbody>
 </table>
+
 | Weeks 1-5 | Weeks 6-11 |
 | :--- | :--- |
 | 1. Intro to HTML | 6. Layout with CSS |
@@ -45,6 +46,7 @@ author: Brian Bird
 | 4. Formatting with CSS | 9. Multimedia |
 | 5. Midterm, Project Propposal | 10. Tables, Project Completion |
 |  | 11. Final |
+
 [Topics by Week for the Ten-Week Term]
 
 
@@ -100,7 +102,7 @@ Tye type attribute determines what kind of control will be shown in the browser.
 - button
 - checkbox
 - radio
-- See this [MDN article on input types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#_types) for more types.
+- See this <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#_types" target="_blank">MDN article on input types</a> for more types.
 
 #### *name attribute*
 
@@ -155,7 +157,7 @@ Using the tab key you can move from one control to the next in the form.
 
 ### Try it
 
-[Try it out on W3Schools](https://www.w3schools.com/html/html_forms.asp)
+<a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Try it out on W3Schools</a>
 
 
 
@@ -180,7 +182,7 @@ The `<legend>` element inserts a legend (aka title) into the box surrounding the
 
 
 
-[Try it out on W3Schools](https://www.w3schools.com/tags/tag_fieldset.asp)
+<a href="https://www.w3schools.com/tags/tag_fieldset.asp" target="_blank">Try it out on W3Schools</a>
 
 
 
@@ -229,8 +231,8 @@ The wrap attribute determines the type of line warp: hard or soft.
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev), 2017, revised 2023, is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a>
+Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2017, revised 2023, is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------
 

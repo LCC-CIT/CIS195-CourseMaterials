@@ -37,6 +37,7 @@ author: Brian Bird
     </tr>
     </tbody>
 </table>
+
 | Weeks 1-5 | Weeks 6-10 |
 | :--- | :--- |
 | 1. Intro to HTML | <mark>6. Layout with CSS</mark> |
@@ -45,7 +46,9 @@ author: Brian Bird
 | 4. Formatting with CSS | 9. Multimedia, Final |
 | 5. Project Propposal, Midterm | 10. HTML Tables, Project Completion |
 | 11. Final | |
+
 [Topics by Week for the Ten-Week Term]
+
 <br>
 <h2>Contents</h2>
 
@@ -188,25 +191,25 @@ Example: `border-radius: 5px 10px 15px 20px;`
 
 # Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/)
+* <a href="https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/" target="_blank">South India Web Site</a>
 
-* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03)
+* <a href="https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03" target="_blank">Code for South India Web Site</a>
 
   
 
 # References
 
-* [W3Schools: Box Model ](https://www.w3schools.com/css/css_boxmodel.asp)
-* [W3Schools: Rounded Corners](https://www.w3schools.com/css/css3_borders.asp)
-* [W3Schools: The CSS Position Property](https://www.w3schools.com/css/css_positioning.asp)
-* [W3Schools: The Overflow Property](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
-* [W3Schools: Z-Index Property](https://www.w3schools.com/cssref/pr_pos_z-index.asp)
+* <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">W3Schools: Box Model </a>
+* <a href="https://www.w3schools.com/css/css3_borders.asp" target="_blank">W3Schools: Rounded Corners</a>
+* <a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">W3Schools: The CSS Position Property</a>
+* <a href="https://www.w3schools.com/cssref/pr_pos_overflow.asp" target="_blank">W3Schools: The Overflow Property</a>
+* <a href="https://www.w3schools.com/cssref/pr_pos_z-index.asp" target="_blank">W3Schools: Z-Index Property</a>
 
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes, written by [Brian Bird](https://profbird.dev) in 2018 and revised by Brian Bird in <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes, written by <a href="https://profbird.dev" target="_blank">Brian Bird</a> in 2018 and revised by Brian Bird in <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

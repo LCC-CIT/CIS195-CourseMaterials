@@ -41,6 +41,7 @@ author: Brian Bird
     </tr>
     </tbody>
 </table>
+
 | Weeks 1-5 | Weeks 6-11 |
 | :--- | :--- |
 | 1. Intro to HTML | 6. Layout with CSS |
@@ -49,6 +50,7 @@ author: Brian Bird
 | 4. Formatting with CSS | 9. Multimedia |
 | 5. Midterm, Project Propposal | 10. Tables, Project Completion |
 |  | 11. Final |
+
 [Topics by Week for the Ten-Week Term]
 
 
@@ -270,19 +272,19 @@ These are properties you can apply to individual items within a flexbox containe
 
 # References
 
-* [Chapter 32. Flexbox](https://flaviocopes.com/book/css/#32-flexbox), in *The CSS Handbook*, by Falvio Copes
+* <a href="https://flaviocopes.com/book/css/#32-flexbox" target="_blank">Chapter 32. Flexbox</a>, in *The CSS Handbook*, by Falvio Copes
 
-* [W3Schools: Flexbox ](https://www.w3schools.com/css/css3_flexbox.asp)
+* <a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">W3Schools: Flexbox </a>
 
-* [MDN Guide: Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+* <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">MDN Guide: Flexbox</a>
 
-* [Flexbox Froggy](https://flexboxfroggy.com/), fun interactive site for playing with flexbox.
+* <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a>, fun interactive site for playing with flexbox.
 
   
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes, written by [Brian Bird](https://profbird.dev) in <time>2023</time> are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes, written by <a href="https://profbird.dev" target="_blank">Brian Bird</a> in <time>2023</time> are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

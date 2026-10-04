@@ -34,6 +34,7 @@ author: Brian Bird
     </tr>
     </tbody>
 </table>
+
 | Weeks 1-5 | Weeks 6-11 |
 | :--- | :--- |
 | 1. Intro to HTML | 6. Layout with CSS |
@@ -42,6 +43,7 @@ author: Brian Bird
 | 4. Formatting with CSS | 9. Multimedia |
 | 5. Midterm, Project Propposal | 10. Tables, Project Completion |
 |  | 11. Final |
+
 [Topics by Week for the Ten-Week Term]
 
 
@@ -94,8 +96,8 @@ author: Brian Bird
 ## Publishing a Website
 
 - How a webserver works.
-- The CIT Department's web server: [citstudent](http://citstudent.lanecc.edu).
-  - [My South India website](http://citstudent.lanecc.edu/~brianb/southindia/)
+- The CIT Department's web server: <a href="http://citstudent.lanecc.edu" target="_blank">citstudent</a>.
+  - <a href="http://citstudent.lanecc.edu/~brianb/southindia/" target="_blank">My South India website</a>
   - I will send you your username and password.
   - Instructions for [changing your password on citstudent](../Lessons/ChangingYourPasswordOnLinux.html).
 - Apps for uploading files to a server.
@@ -105,15 +107,15 @@ author: Brian Bird
 
 ## References
 
-* [MDN: How do you upload your files to a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Upload_files_to_a_web_server)
+* <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Upload_files_to_a_web_server" target="_blank">MDN: How do you upload your files to a web server?</a>
 
-* [FileZilla Tutorial](https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en))
+* <a href="https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en" target="_blank">FileZilla Tutorial</a>)
 
   
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

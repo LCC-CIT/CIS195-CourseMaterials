@@ -39,6 +39,7 @@ author: Brian Bird
     </tr>
     </tbody>
 </table>
+
 | Weeks 1-5 | Weeks 6-11 |
 | :--- | :--- |
 | 1. Intro to HTML | 6. Layout with CSS |
@@ -47,6 +48,7 @@ author: Brian Bird
 | 4. Formatting with CSS | 9. Multimedia |
 | 5. Midterm, Project Propposal | <mark>10. Tables, Project Completion</mark> |
 |  | 11. Final |
+
 [Topics by Week for the Ten-Week Term]
 
 
@@ -185,29 +187,29 @@ The best practice is to format tables with CSS rather than with HTML attributes.
 
 ##Examples
 
-* [Table styling example](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/TableDemo/TableDemo.html)&mdash;one table sytled with HTML attributes, another styled with CSS.
+* <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/TableDemo/TableDemo.html" target="_blank">Table styling example</a>&mdash;one table sytled with HTML attributes, another styled with CSS.
 
-* [Code for in-class demo](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Tables)&mdash;on GitHub.
+* <a href="https://github.com/LCC-CIT/CIS195-Demos/tree/master/Tables" target="_blank">Code for in-class demo</a>&mdash;on GitHub.
 
 * Nested tables:
 
-  * [Basic nested tables](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables.html)
-  * [Nested tables with colspan](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/ColspanDemo.html)
-  * [Nested tables with column and row headers](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables+ColAndRowHeaders.html)
-  * [Nested tables with column headers](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables+ColumnHeaders.html)
+  * <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables.html" target="_blank">Basic nested tables</a>
+  * <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/ColspanDemo.html" target="_blank">Nested tables with colspan</a>
+  * <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables+ColAndRowHeaders.html" target="_blank">Nested tables with column and row headers</a>
+  * <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/NestedTables/NestedTables+ColumnHeaders.html" target="_blank">Nested tables with column headers</a>
   
   
 
 ##References
 
-* [W3Schools: CSS Table Formatting](https://www.w3schools.com/css/css_table.asp)
-* [MDN Tutorial: Styling Tables](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables)
+* <a href="https://www.w3schools.com/css/css_table.asp" target="_blank">W3Schools: CSS Table Formatting</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables" target="_blank">MDN Tutorial: Styling Tables</a>
 
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) These Web Authoring lecture notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> These Web Authoring lecture notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2018, revised <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

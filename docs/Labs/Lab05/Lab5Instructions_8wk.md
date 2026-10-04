@@ -27,7 +27,7 @@ Modify the home page of your review web site from the previous lab assignment. A
    - Use the clear property to end the float.
 
 
-**Note:** Please use a different HTML structure for your navigation menu than I did in my [South India web site](https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/). For example, you could put your links inside`<p>` elements instead of a `ul` with `li` elements.
+**Note:** Please use a different HTML structure for your navigation menu than I did in my <a href="https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/" target="_blank">South India web site</a>. For example, you could put your links inside`<p>` elements instead of a `ul` with `li` elements.
 
 
 ### Part 2
@@ -43,7 +43,7 @@ Modify the home page of your review web site from the previous lab assignment. A
 **Notes**
 
 - Use my South India website as a guide, but please don't copy and paste the HTML or CSS and then just put your content into my code.
-- Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
+- Check your pages using the <a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>  and the <a href="http://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a>.
 
 
 
@@ -72,7 +72,7 @@ Your lab will be graded using [this rubric](Lab5Rubric_8wk.htm).
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), written <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lab Instructions by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, written <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

@@ -29,7 +29,7 @@ You will create an external style sheet that you will apply to the whole web sit
 
 Note: The home page will now have two style sheets (an embedded one and an external one). If there are rules in both style sheets with the same selectors and those rules have one or more of the same properties, the ones in the embedded style sheet will take precedence.
 
-Check your pages using the [W3C HTML Validator](https://validator.w3.org)  and the [W3C CSS Validator](http://jigsaw.w3.org/css-validator/).
+Check your pages using the <a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>  and the <a href="http://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a>.
 
 
 
@@ -51,7 +51,7 @@ For fall 2023, we won't do this.
 
 ## Reference
 
-* [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS Reference</a>
 
   
 
@@ -65,7 +65,7 @@ Here is grading rubric for this lab assignment:
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), 2017, revised <time>2023</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lab Instructions by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2017, revised <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

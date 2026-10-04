@@ -16,6 +16,7 @@ author: Brian Bird
 | 3<u>. Site Design + More on Hyperlinks</u> | 8. HTML Forms           |
 | 4. Design with CSS                         | 9. Multimedia           |
 | 5. Midterm                                 | 10. Term Project        |
+
 [Course topics by week]
 
 
@@ -80,7 +81,7 @@ In two dimensional computer graphics, a cartesian coordinate system is used in w
 
 ![2D computer graphics coordinate system](Computer_coordinates_2D.png)
 
-Image from [Program Arcade Games with Python and PyGame](http://programarcadegames.com/index.php?chapter=introduction_to_graphics)
+Image from <a href="http://programarcadegames.com/index.php?chapter=introduction_to_graphics" target="_blank">Program Arcade Games with Python and PyGame</a>
 
 #### Finding coordinates in an image
 
@@ -128,18 +129,18 @@ To create a polygonal hotspot, you enter the coordinates for each vertex in the 
 
 ##Reference
 
-[Image file type and format guide](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types)&mdash;MDN article
+<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types" target="_blank">Image file type and format guide</a>&mdash;MDN article
 
-[JPEG 101: A Crash Course on JPEG](https://www.webfx.com/blog/web-design/jpeg-101-a-crash-course-guide-on-jpeg/)&mdash;WebFX article
+<a href="https://www.webfx.com/blog/web-design/jpeg-101-a-crash-course-guide-on-jpeg/" target="_blank">JPEG 101: A Crash Course on JPEG</a>&mdash;WebFX article
 
-[HTML <map> Tag](https://www.w3schools.com/tags/tag_map.asp)&mdash;W3Schools tutorial
+<a href="https://www.w3schools.com/tags/tag_map.asp" target="_blank">HTML <map> Tag</a>&mdash;W3Schools tutorial
 
-[Online service for getting mouse-click image coordinates](https://www.mobilefish.com/services/record_mouse_coordinates/record_mouse_coordinates.php)&mdash;Mobilefish.com
+<a href="https://www.mobilefish.com/services/record_mouse_coordinates/record_mouse_coordinates.php" target="_blank">Online service for getting mouse-click image coordinates</a>&mdash;Mobilefish.com
 
 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.dev), 2017, revised 2022, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2017, revised 2022, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------

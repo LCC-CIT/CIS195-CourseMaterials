@@ -141,33 +141,33 @@ p {
 
 
 
-Example: [Float Demo](https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/LayoutDemos/FloatDemo.html)
+Example: <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Examples/LayoutDemos/FloatDemo.html" target="_blank">Float Demo</a>
 
-Exercise: [CSS Float and Clear properties](https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html)
+Exercise: <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/Unit04/cssFloat.html" target="_blank">CSS Float and Clear properties</a>
 
 
 
 # Example
 
-* [South India Web Site](https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/)
+* <a href="https://lcc-cit.github.io/CIS195-Demos/Unit05/Finished/" target="_blank">South India Web Site</a>
 
-* [Code for South India Web Site](https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit05)
+* <a href="https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit05" target="_blank">Code for South India Web Site</a>
 
   
 
 # References
 
-* [CSS Background](https://www.w3schools.com/css/css_background.asp)&mdash;W3Schools
+* <a href="https://www.w3schools.com/css/css_background.asp" target="_blank">CSS Background</a>&mdash;W3Schools
 
-* [CSS Background Image Size Tutorial](https://www.freecodecamp.org/news/css-full-page-background-image-tutorial/)&mdash;Free Code Camp
+* <a href="https://www.freecodecamp.org/news/css-full-page-background-image-tutorial/" target="_blank">CSS Background Image Size Tutorial</a>&mdash;Free Code Camp
 
-* [CSS float](https://www.w3schools.com/css/css_float.asp)&mdash;W3Schools
+* <a href="https://www.w3schools.com/css/css_float.asp" target="_blank">CSS float</a>&mdash;W3Schools
 
   
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Web Authoring Lecture Notes by [Brian Bird](https://profbird.online), 2017, updated 2022, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.online" target="_blank">Brian Bird</a>, 2017, updated 2022, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 

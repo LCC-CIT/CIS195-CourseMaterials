@@ -7,17 +7,17 @@ author: Brian Bird
 ---
 # WebSlides = Create stories with Karma
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
-[![Release](https://img.shields.io/github/release/webslides/webslides.svg)](https://github.com/webslides/webslides/releases/latest)
-[![codecov](https://codecov.io/gh/webslides/WebSlides/branch/master/graph/badge.svg)](https://codecov.io/gh/webslides/WebSlides)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jlantunez/8)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/webslides/webslides.svg?style=social)](https://twitter.com/webslides)
+<a href="http://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+<a href="https://github.com/webslides/webslides/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/webslides/webslides.svg" alt="Release"></a>
+<a href="https://codecov.io/gh/webslides/WebSlides" target="_blank"><img src="https://codecov.io/gh/webslides/WebSlides/branch/master/graph/badge.svg" alt="codecov"></a>
+<a href="https://www.paypal.me/jlantunez/8" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate"></a>
+<a href="https://twitter.com/webslides" target="_blank"><img src="https://img.shields.io/twitter/url/https/github.com/webslides/webslides.svg?style=social" alt="Twitter"></a>
 
-Finally, everything you need to make HTML presentations, landings, and longforms in a beautiful way. Just a basic knowledge of HTML and CSS is required. Designers, marketers, and journalists can now focus on the content. — [https://webslides.tv/demos](https://webslides.tv/demos).
+Finally, everything you need to make HTML presentations, landings, and longforms in a beautiful way. Just a basic knowledge of HTML and CSS is required. Designers, marketers, and journalists can now focus on the content. — <a href="https://webslides.tv/demos" target="_blank">https://webslides.tv/demos</a>.
 
 * * *
 ### Download
-Simply choose a demo and customize it in seconds. Latest version: [webslides.tv/webslides-latest.zip](https://webslides.tv/webslides-latest.zip).
+Simply choose a demo and customize it in seconds. Latest version: <a href="https://webslides.tv/webslides-latest.zip" target="_blank">webslides.tv/webslides-latest.zip</a>.
 * * *
 
 
@@ -90,23 +90,23 @@ webslides/
 
 You can add:
 
-- [Unsplash](https://unsplash.com) photos
-- [animate.css](https://daneden.github.io/animate.css)
-- [particles.js](https://github.com/VincentGarreau/particles.js)
-- [Animate on scroll](http://michalsnik.github.io/aos/) (Useful for longform articles)
-- [pt](http://williamngan.github.io/pt/)
+- <a href="https://unsplash.com" target="_blank">Unsplash</a> photos
+- <a href="https://daneden.github.io/animate.css" target="_blank">animate.css</a>
+- <a href="https://github.com/VincentGarreau/particles.js" target="_blank">particles.js</a>
+- <a href="http://michalsnik.github.io/aos/" target="_blank">Animate on scroll</a> (Useful for longform articles)
+- <a href="http://williamngan.github.io/pt/" target="_blank">pt</a>
 
 ### Dive In!
 
-- Do not miss [our demos](https://webslides.tv/). 
+- Do not miss <a href="https://webslides.tv/" target="_blank">our demos</a>. 
 - Want to get techie? Read [our wiki](wiki):
-  - [FAQ](https://github.com/webslides/WebSlides/wiki)
-  - [Core API](https://github.com/webslides/WebSlides/wiki/Core-API)
-  - [Plugin Docs](https://github.com/webslides/WebSlides/wiki/Plugin-docs)
-  - [Plugin Development](https://github.com/webslides/WebSlides/wiki/Plugin-development)
+  - <a href="https://github.com/webslides/WebSlides/wiki" target="_blank">FAQ</a>
+  - <a href="https://github.com/webslides/WebSlides/wiki/Core-API" target="_blank">Core API</a>
+  - <a href="https://github.com/webslides/WebSlides/wiki/Plugin-docs" target="_blank">Plugin Docs</a>
+  - <a href="https://github.com/webslides/WebSlides/wiki/Plugin-development" target="_blank">Plugin Development</a>
  
 ### Credits
 
-- WebSlides was created by [@jlantunez](https://twitter.com/jlantunez) using [Cactus](https://github.com/eudicots/Cactus).
-- Javascript: [@Belelros](https://twitter.com/Belelros) and [@LuisSacristan](https://twitter.com/luissacristan).
-- Based on [SimpleSlides](https://github.com/jennschiffer/SimpleSlides), by [@JennSchiffer](https://twitter.com/jennschiffer).
+- WebSlides was created by <a href="https://twitter.com/jlantunez" target="_blank">@jlantunez</a> using <a href="https://github.com/eudicots/Cactus" target="_blank">Cactus</a>.
+- Javascript: <a href="https://twitter.com/Belelros" target="_blank">@Belelros</a> and <a href="https://twitter.com/luissacristan" target="_blank">@LuisSacristan</a>.
+- Based on <a href="https://github.com/jennschiffer/SimpleSlides" target="_blank">SimpleSlides</a>, by <a href="https://twitter.com/jennschiffer" target="_blank">@JennSchiffer</a>.
