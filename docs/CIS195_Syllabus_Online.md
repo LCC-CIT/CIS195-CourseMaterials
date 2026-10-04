@@ -201,19 +201,19 @@ View [academic calendars](https://www.lanecc.edu/calendars/academic-calendar) on
 
 (Tentative, may be subject to change. The dates below reflect the weekly schedule and pacing for topics and learning activities.)
 
-| Week                    | Topics                                                       | Quiz    | Lab Assignment                                           |
-| ----------------------- | -------------------------------------------------------------- | ------- | ---------------------------------------------------------- |
-| 1<br />9/29<br />10/1   | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                     |
-| 2<br />10/6<br />10/8   | *More HTML Elements*<br />History of the internet<br />More HTML, File Paths | Quiz 2  | Lab 2                                                    |
-| 3<br />10/13<br />10/15 | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3  | Lab 3                                                    |
-| 4<br />10/20<br />10/22 | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4  | Lab 4                                                    |
-| 5<br />10/27<br />10/29 | *Midterm Quiz*<br />Midterm<br />Start Term Project          | Midterm | Term Project Proposal                                        |
+| Week                    | Topics                                                       | Quiz    | Lab Assignment                                               |
+| ----------------------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
+| 1<br />9/29<br />10/1   | *Intro to HTML*<br />Intro to the Course<br />Basic HTML Elements | Quiz 1  | Lab 1: Oregon Overview, Personal Bio                         |
+| 2<br />10/6<br />10/8   | *More HTML Elements*<br />History of the internet<br />More HTML, File Paths | Quiz 2  | Lab 2                                                        |
+| 3<br />10/13<br />10/15 | *Site Structure and Navigation<br />*Hyperlinks and Navigation<br />Publishing a web site using FTP | Quiz 3  | Lab 3                                                        |
+| 4<br />10/20<br />10/22 | *Formatting with CSS*<br />Basic CSS<br />More CSS Selectors | Quiz 4  | Lab 4                                                        |
+| 5<br />10/27<br />10/29 | *Midterm*<br />Midterm quiz 10/29<br />Start Term Project    | Midterm | Term Project Proposal                                        |
 | 6<br />11/3<br />11/5   | *CSS Page Layout* <br />CSS Box Model<br />Floats            | Quiz 5  | Lab 5                                                        |
-| 7<br />11/10<br />11/12 | *More CSS Page Layout* <br />FlexBox<br />Grid               | Quiz 6  | Lab 6    |
-| 8<br />11/17<br />11/19 | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7  | Lab 7                                                    |
+| 7<br />11/10<br />11/12 | *More CSS Page Layout* <br />FlexBox<br />Grid               | Quiz 6  | Lab 6                                                        |
+| 8<br />11/17<br />11/19 | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7  | Lab 7                                                        |
 | 9<br />11/24            | *Multimedia* <br />Images, audio and video<br />(Thanksgiving holiday on Thursday) | Quiz 8  | Lab 8<br />Term project [peer review](TermProject/TermProjectCodeReview.docx) |
 | 10<br />12/1<br />12/3  | *HTML Tables*<br />Creating Tables<br />Table Styling with CSS | Quiz 9  | Lab 9<br />Submit [Term Project](TermProject/CIS195TermProject.pdf) |
-| 11<br />12/8            | Final Quiz                                                   | Final   |  |
+| 11<br />12/8            | *Final*<br />Final Quiz 12/8                                 | Final   |                                                              |
 
 
 
