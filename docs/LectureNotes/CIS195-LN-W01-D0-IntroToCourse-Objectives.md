@@ -18,7 +18,7 @@ author: Brian Bird
 | 2. More HTML, file paths         | 7. CSS Flexbox and Grid        |
 | 3. Site structure and navigation | 8. HTML Forms                  |
 | 4. Formatting with CSS           | 9. Multimedia                  |
-| 5. Midterm, Project Propposal    | 10. Tables, Project Completion |
+| 5. Midterm, Project Proposal     | 10. Tables, Project Completion |
 |                                  | 11. Final                      |
 
 <figure style="float: right; margin: 0 0 1em 1.5em; width: 200px;">
