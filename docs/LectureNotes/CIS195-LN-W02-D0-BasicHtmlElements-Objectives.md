@@ -6,20 +6,30 @@ material: Overview and Announcements
 generator: Typora
 author: Brian Bird
 ---
-**CIS195 Web Authoring 1: HTML**
+**CIS 195 Web Authoring 1: HTML**
 
-<h1>Week 2 Overview 10/5&ndash;10/11 Fall 2026</h1>
+<h1>Week 2 Overview for Fall 2026</h1>
 
-<h2>More on Creating Web Pages with HTML</h2>
+<h2>Oct. 5 through 11</h2>
+
+| Week number and Topic            |                                |
+| :------------------------------- | :----------------------------- |
+| 1. Intro to HTML                 | 6. Layout with CSS             |
+| <mark>2. More HTML, file paths<  | 7. CSS Flexbox and Grid        |
+| 3. Site structure and navigation | 8. HTML Forms                  |
+| 4. Formatting with CSS           | 9. Multimedia                  |
+| 5. Midterm, Project Propposal    | 10. Tables, Project Completion |
+|                                  | 11. Final                      |
 
 <figure style="float: right; margin: 0 0 1em 1.5em; width: 250px;">
   <img src="../Images/GirlWithWandAndComputer-sketch.png" alt="Hermione-esque woman using a wand to create a web page." width="250">
   <figcaption>Image created using Dall-E 2 &amp; Stable Diffusion</figcaption>
 </figure>
-
-## Overview
+**More on Creating Web Pages with HTML**
 
 This week you will learn some of the history of the World Wide Web and more about creating web pages with HTML.
+
+
 
 ## Learning Objectives
 
@@ -27,8 +37,8 @@ By the end of this week, you will be able to:
 
 - Explain the history and purpose of HTML.
 - Review the use of basic formatting elements like &lt;strong&gt; or &lt;ul&gt;.
-- Use the &lt;blockquote&gt; element.
-- Use the &lt;figure&gt; element.
+- Use the `<blockquote>` element.
+- Use the `<figure>` element.
 - Use special characters like &hearts;.
 - Create nested lists.
 - Understand the difference between in-line and block elements.
