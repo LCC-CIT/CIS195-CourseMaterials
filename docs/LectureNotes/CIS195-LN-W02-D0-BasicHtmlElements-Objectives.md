@@ -1,6 +1,6 @@
 ---
 title: Week 2 Overview
-description: Week 2 overview and learning objectives.
+description: Week 2 overview, learning objectives, and to-do list.
 keywords: HTML, Web page, file paths
 material: Overview and Announcements
 generator: Typora
@@ -8,7 +8,7 @@ author: Brian Bird
 ---
 **CIS195 Web Authoring 1: HTML**
 
-<h1>Overview and Announcements for Week 2</h1>
+<h1>Week 2 Overview 10/5&ndash;10/11 Fall 2026</h1>
 
 <h2>More on Creating Web Pages with HTML</h2>
 
@@ -36,8 +36,22 @@ By the end of this week, you will be able to:
     - When specifying an image
     - When making a link to another page
 
+## This Week's To-Do List
+
+Links and due date are in the week 2 module on Canvas.
+
+- Do the **reading**: 
+  - History of HTML
+  - More selected sections in *The HTML Handbook*.
+  - Selected sections on W3 Schools 
+- Watch the **lecture recordings** and read the **lecture notes**.
+- Take **Quiz 2** which is based on the reading— due Thursday, October 8, by 11:59 pm.
+- Start **Lab 2** — due Thursday, October 16, by 11:59 pm.
+
 <div style="clear: both;"></div>
 
 ------
 
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2018, revised 2026, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2018, revised <time>2026</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+---
