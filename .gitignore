@@ -177,3 +177,6 @@ vendor/
 *.bak
 *.bak
 .DS_Store
+
+# lychee link checker cache
+.lycheecache
