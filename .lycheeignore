@@ -1,3 +1,14 @@
 # Exclude specific URLs from lychee when they work in a browser but fail in CI.
 # One regular expression per line. Add a comment saying why.
 # https://lychee.cli.rs/recipes/excluding-links/
+
+# Redirects to the Microsoft sign-in page (302), which lychee reports as an error
+^https://account\.microsoft\.com/?$
+# Unsplash answers bots with 401 Unauthorized
+^https://unsplash\.com/?$
+# Server sends an incomplete certificate chain. Browsers handle it, lychee doesn't
+^https://citstudent\.lanecc\.edu/?$
+# Works in a browser, but the TLS handshake fails from GitHub's runners
+^https://www\.codeproject\.com/info/cpol10\.aspx$
+# Sample url('image.jpg') inside a comment in the vendored WebSlides CSS, not a real link
+/LectureNotes/static/css/image\.jpg$

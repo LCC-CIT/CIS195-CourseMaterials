@@ -690,7 +690,7 @@ a.textpopper:visited:hover {
 	color: #fff;
 	font-size: 1.1em;
 	font-weight: bold;
-	background-image: url("_callout-top-bg.jpg");
+	background-image: url("callout-top-bg.jpg");
 	padding: 1px 15px;
 	line-height: 1.1em;
 	box-sizing: border-box;
@@ -721,7 +721,7 @@ a.textpopper:visited:hover {
 	padding: 0 1em 0 1em;
 }
 .calloutbox {
-	background-image: url("_callout-bottom-bg.jpg");
+	background-image: url("callout-bottom-bg.jpg");
 	display: block;
 	padding: 0;
 	overflow: hidden;
@@ -753,12 +753,12 @@ a.textpopper:visited:hover {
 	display: inline-block;
 }
 .riderimageh1 {
-	background: transparent url(_h-one-rider.png) scroll no-repeat right top;
+	background: transparent url("h-one-rider.png") scroll no-repeat right top;
 	width: 100%;
 	height: 75px;
 }
 h1.designer {
-	background-image: url("_h-one-bg.jpg");
+	background-image: url("h-one-bg.jpg");
 	color: #fff;
 	line-height: 1.1em;
 	margin: 0 0 1em 0;
@@ -766,14 +766,14 @@ h1.designer {
 	font-size: 1.2em;
 }
 h2.designer {
-	background-image: url("_h-two-bg.jpg");
+	background-image: url("h-two-bg.jpg");
 	color: #fff;
 	line-height: 1em;
 	margin: 1em 0 1em 0;
 	display: inline-block;
 }
 h3.designer {
-	background-image: url("_h-three-bg.jpg");
+	background-image: url("h-three-bg.jpg");
 	line-height: 1em;
 	margin: 1em 0 1em 0;
 	display: inline-block;
@@ -822,7 +822,7 @@ h3.designer {
 }
 .popupimagecontainer {
 	padding: 0;
-	background: #7E4EF2 url("_popupimagecontainer-bg.jpg") repeat right top;
+	background: #7E4EF2 url("popupimagecontainer-bg.jpg") repeat right top;
 	border: 3px solid #5E2FCE;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;

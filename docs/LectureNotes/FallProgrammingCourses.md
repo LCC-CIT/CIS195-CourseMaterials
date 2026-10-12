@@ -38,5 +38,5 @@ Choose courses for Fall  now!
 
 - CG203, Human Relations at Work, 3 credits.
 
-- Road-map for the Programing Degree: <a href="https://drive.google.com/file/d/1t_KfQAACLnjG6qDBdG2-Qu1RAM19wo_K/view?usp=sharing" target="_blank">Required Courses for the Programming Degree</a>.
+- <a href="https://docs.google.com/document/d/1d9XV3TeTyplkwof8JeNX3wh5UgfDyjdL6nh_JOQNrM0/edit?tab=t.0#heading=h.6wfmv6vng01y" target="_blank">Default Academic Plan (DAP) for the AAS in Software Development</a>.
 

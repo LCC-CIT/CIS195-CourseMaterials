@@ -6,7 +6,7 @@ For your term project, you will create a website that can have any content you w
 
 Your project must represent your individual work.  Other students will review your web site and give you suggestions, but you must be the one to make changes to the code. 
 
-The project will be due the last week of the term. See the syllabus or Moodle for the due date. Also, note that this project is a significant part of your grade, so start early in the term and give yourself plenty of time so that you can do a great job on it.
+The project will be due the last week of the term. See the syllabus or Canvas for the due date. Also, note that this project is a significant part of your grade, so start early in the term and give yourself plenty of time so that you can do a great job on it.
 
 The project must include the following:
 

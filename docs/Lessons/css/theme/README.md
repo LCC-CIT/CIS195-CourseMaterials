@@ -4,7 +4,7 @@ Themes are written using Sass to keep things modular and reduce the need for rep
 
 ## Creating a Theme
 
-To create your own theme, start by duplicating a ```.scss``` file in <a href="https://github.com/hakimel/reveal.js/blob/master/css/theme/source" target="_blank">/css/theme/source</a>. It will be automatically compiled by Grunt from Sass to CSS (see the <a href="https://github.com/hakimel/reveal.js/blob/master/Gruntfile.js" target="_blank">Gruntfile</a>) when you run `grunt css-themes`.
+To create your own theme, start by duplicating a ```.scss``` file in <a href="https://github.com/hakimel/reveal.js/tree/3.6.0/css/theme/source" target="_blank">/css/theme/source</a>. It will be automatically compiled by Grunt from Sass to CSS (see the <a href="https://github.com/hakimel/reveal.js/blob/3.6.0/Gruntfile.js" target="_blank">Gruntfile</a>) when you run `grunt css-themes`.
 
 Each theme file does four things in the following order:
 

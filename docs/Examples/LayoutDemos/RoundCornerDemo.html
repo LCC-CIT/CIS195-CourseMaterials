@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<!-- Demo to support Tutorial 4
+Brian Bird
+11/4/14
+-->
+<meta charset="UTF-8" />
+<title>Tutorial 4 CSS Demo</title>
+<script src="modernizr-1.5.js"></script>
+<style>
+	span {
+		outline: 1px solid blue;
+	}
+	p {
+		background-color: aqua;
+		border-radius: 25px;
+		padding:5px;
+	}
+	#elongatedCorners {
+		border-radius: 5px 25px;
+		background-color: yellow;
+		padding: 10px;
+	}
+</style>
+</head>
+<body>
+	<!-- outline property demo -->
+	This is some text we can use for our demo.
+	It isn't important what it says.<span>
+	This is inside the span</span>
+	Here's some more text.
+	
+	<!-- radius property demo -->
+	<p>This is a paragraph! And here's some
+	more text.</p>
+	<p id="elongatedCorners">I'm going to use this paragraph for
+	elongated corners. They will each have
+	two radii.</P>
+	
+</body>
+</html>

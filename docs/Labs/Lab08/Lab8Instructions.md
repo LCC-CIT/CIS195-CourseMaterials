@@ -48,7 +48,7 @@ Create a web page that uses each of the three elements listed above.
 
 ## Grading Criteria
 
-<a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LabStarters/Lab08/Lab8Rubric-CIS195.htm" target="_blank">Lab 8 grading rubric</a>
+<a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Rubric-CIS195.htm" target="_blank">Lab 8 grading rubric</a>
 
 
 

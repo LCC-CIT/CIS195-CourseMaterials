@@ -99,7 +99,7 @@ You can add:
 ### Dive In!
 
 - Do not miss <a href="https://webslides.tv/" target="_blank">our demos</a>. 
-- Want to get techie? Read [our wiki](wiki):
+- Want to get techie? Read [our wiki](https://github.com/webslides/WebSlides/wiki):
   - <a href="https://github.com/webslides/WebSlides/wiki" target="_blank">FAQ</a>
   - <a href="https://github.com/webslides/WebSlides/wiki/Core-API" target="_blank">Core API</a>
   - <a href="https://github.com/webslides/WebSlides/wiki/Plugin-docs" target="_blank">Plugin Docs</a>
@@ -109,4 +109,4 @@ You can add:
 
 - WebSlides was created by <a href="https://twitter.com/jlantunez" target="_blank">@jlantunez</a> using <a href="https://github.com/eudicots/Cactus" target="_blank">Cactus</a>.
 - Javascript: <a href="https://twitter.com/Belelros" target="_blank">@Belelros</a> and <a href="https://twitter.com/luissacristan" target="_blank">@LuisSacristan</a>.
-- Based on <a href="https://github.com/jennschiffer/SimpleSlides" target="_blank">SimpleSlides</a>, by <a href="https://twitter.com/jennschiffer" target="_blank">@JennSchiffer</a>.
+- Based on SimpleSlides, by <a href="https://twitter.com/jennschiffer" target="_blank">@JennSchiffer</a>.

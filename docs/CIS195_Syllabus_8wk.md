@@ -78,7 +78,7 @@ The CIT computer lab in building19, room 135, is equipped with computers and and
 
 ## Online Tutoring and Support Services
 
-In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the <a href="http://lanecc.edu/hub" target="_blank">Lane Support Hub</a> (Zoom link: [lanecc.edu/hub]()). Feel free to drop in or guarantee time with a tutor by making an appointment using <a href="https://lanecc.mywconline.com/" target="_blank">WCOnline</a>. Check out the <a href="https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services" target="_blank">ATS website</a> for updated hours and additional information.
+In addition to the tutors available in the CIT computer lab, there is tutoring available online. You can connect with tutors, get technical support from the Student Help Desk (SHeD), and learn more about Career Pathways/STEP programs in the <a href="http://lanecc.edu/hub" target="_blank">Lane Support Hub</a> (Zoom link: [lanecc.edu/hub](http://lanecc.edu/hub)). Feel free to drop in or guarantee time with a tutor by making an appointment using <a href="https://lanecc.mywconline.com/" target="_blank">WCOnline</a>. Check out the <a href="https://www.lanecc.edu/get-support/academic-support/academic-and-tutoring-services" target="_blank">ATS website</a> for updated hours and additional information.
 
 ## Software
 
@@ -86,7 +86,7 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 - "Office" software for Word processing, spreadsheets, slides, etc., such as:
 
-  -  <a href="https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff" target="_blank">MS Office</a>&mdash;Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. 
+  -  <a href="https://lanecc.helpjuice.com/student-faqs/office365" target="_blank">MS Office</a>&mdash;Free for LCC students. Runs on Mac OS and Windows. Use this link to get it. 
     
      *About Microsoft accounts: You may have both a <a href="https://myaccount.microsoft.com" target="_blank">school account</a> and a <a href="https://account.microsoft.com" target="_blank">personal account</a>. Use your Microsoft <u>school account</u> to get MS Office.*
      
@@ -106,7 +106,7 @@ If you plan to do lab work somewhere other than in the classroom or the CIT Comp
 
 ## Web Resources
 
-- https://classes.lanecc.edu (Moodle) is the Learning Management System for this course.  All course materials and activities will be managed through Moodle.
+- http://canvas.lanecc.edu (Canvas) is the Learning Management System (LMS) for this course.  All course materials and activities will be managed through Canvas.
 - https://citstudent.lanecc.edu will be used to host student web sites. You will be provided with the login information you need to upload your pages to this server.
 
 # Assessment and Grading
@@ -166,11 +166,11 @@ While students are encouraged to discuss labs and to use each other as resources
 
 ## Attendance and Participation
 
-Attendance (in person, via Zoom, or by watching recordings), participation in class discussions and exercises, and making posts in the Moodle forums are aspects of participation that will be assessed by the instructor.
+Attendance (in person, via Zoom, or by watching recordings), participation in class discussions and exercises, and making posts in the Canvas discussions are aspects of participation that will be assessed by the instructor.
 
 Students who participate via Zoom can join the class discussion through the Zoom chat dialog box, or by turning on their microphones to ask and answer questions.
 
-Students who aren't able to participate during class time, but instead watch the recordings, can ask and answer questions in the Moodle Q & A forum.
+Students who aren't able to participate during class time, but instead watch the recordings, can ask and answer questions in the Canvas Q & A discussion.
 
 **No-Show Drop:** LCC has a <a href="https://www.lanecc.edu/esfs/noshow-drops" target="_blank">no-show drop</a> policy. which means that during the first week of the term, to avoid being dropped, a student must:
 

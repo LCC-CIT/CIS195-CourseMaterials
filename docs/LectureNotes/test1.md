@@ -155,7 +155,7 @@ xUnit
     that doesn\'t already have a comparator implemented for the Equals
     method.
 
-Reference - <a href="https://xunit.github.io" target="_blank">xunit.github.io</a>
+Reference - <a href="https://xunit.net/" target="_blank">xunit.net</a>
 
  
 

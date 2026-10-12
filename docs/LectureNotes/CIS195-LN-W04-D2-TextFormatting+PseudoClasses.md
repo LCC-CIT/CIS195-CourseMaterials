@@ -274,7 +274,7 @@ Read about more about <a href="https://www.w3schools.com/css/css_pseudo_classes.
 
 ## Example
 
-* <a href="https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/Index.htm" target="_blank">South India Web Site</a>
+* <a href="https://lcc-cit.github.io/CIS195-Demos/Unit03/SouthIndia/Finished/index.html" target="_blank">South India Web Site</a>
 
 * <a href="https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03" target="_blank">Code for South India Web Site</a>
 

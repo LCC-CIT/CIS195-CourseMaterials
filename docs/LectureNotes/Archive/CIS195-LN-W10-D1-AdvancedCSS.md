@@ -127,13 +127,13 @@ Syntax: border*-image(url(image url), slice, color stop, ...) *
 -   any number of color stop pairs can be listed
 
 Let's start with this image:  
-<img src="border.png" height="200" />  
+<img src="../border.png" height="200" />  
   
 
 Now make it the border around a div  
-`style="border-image: url(border.png) 60 stretch; border:30px              solid transparent;"                          `
+`style="border-image: url(../border.png) 60 stretch; border:30px              solid transparent;"                          `
 
-<div style="width:300px; height:70px; border:30px solid transparent; padding:10px; border-image: url(border.png) 60 stretch;">
+<div style="width:300px; height:70px; border:30px solid transparent; padding:10px; border-image: url(../border.png) 60 stretch;">
 
 This div has an image for a border  
 Note that we had to give it a wider border so that we could see the border image
@@ -179,12 +179,12 @@ There are many possible devices that could be used to display a web page. Each o
 <!-- -->
 
 -   To use a special style sheet for one media type, specify it in the *link* element. For example, to load a special style sheet for mobile devices, use a *link* like this:  
-    `<link href="mobile.css" media="handheld" />                              `
+    `&lt;link href="mobile.css" media="handheld" />                              `
 
 <!-- -->
 
 -   You can specify styling for multiple media types:  
-    `<link href="mobile.css" media="speech, braille" />                              `
+    `&lt;link href="mobile.css" media="speech, braille" />                              `
 -   You can also specify an embedded style be used for a specific media type:  
     `<style media="handheld">                   /* style rules go here */                </style>              `  
 
@@ -301,7 +301,7 @@ You can create special style sheets or rules for portrait and landscape orientat
 <!-- -->
 
 -   Example with media HTML attribute:  
-    `<link href="landscape.css" media="screen and (max-width:                700px)" />`
+    `&lt;link href="landscape.css" media="screen and (max-width:                700px)" />`
 -   This page has embedded styles that change the background color of the page based on size and orientation.
 
 <!-- -->
