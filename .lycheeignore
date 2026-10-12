@@ -12,3 +12,5 @@
 ^https://www\.codeproject\.com/info/cpol10\.aspx$
 # Sample url('image.jpg') inside a comment in the vendored WebSlides CSS, not a real link
 /LectureNotes/static/css/image\.jpg$
+# Placeholder form action in a form demo; it's never meant to be submitted
+/Examples/demo_form_action\.asp$
