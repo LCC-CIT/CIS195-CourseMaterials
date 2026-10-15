@@ -56,8 +56,8 @@ Links and due date are in the week 3 module on Canvas.
 - Do the **reading**: 
   - Uploading your website to the CIT Web Server
 - Watch the **lecture recordings** and read the **lecture notes**.
-- Take **Quiz 3** which is based on the reading— due Thursday, October 15, by 11:59 pm.
-- Start **Lab 3** — due Thursday, October 22, by 11:59 pm.
+- Take **Quiz 3** which is based on the reading— due Thursday, October 15.
+- Start **Lab 3** — due Thursday, October 22.
 
 <div style="clear: both;"></div>
 
