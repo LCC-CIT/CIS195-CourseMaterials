@@ -33,7 +33,10 @@ Here's an example based on a small farm web site, <a href="https://ezergracefarm
   - About
   - Farm Stand
   - Lil' Farmers School
+    - Enrollment Form
+    - Pay Now
   - Contact
+  - Shopping Cart
 - Footer navigation (at the bottom of every page)
   - Newsletter signup
   - Follow us on Facebook (external)
