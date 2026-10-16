@@ -80,7 +80,7 @@ In addition to the tutors available in the CIT computer lab, there is tutoring a
 
 If you plan to do lab work somewhere other than in the classroom or the CIT Computer Lab, you will need: 
 
-- "Office" software for Word processing such as <a href="https://lanecc.helpjuice.com/student-faqs/microsoft-office-365-for-lcc-students-staff" target="_blank">MS Office</a>, <a href="http://www.libreoffice.org" target="_blank">LibreOffice</a> or <a href="https://docs.google.com" target="_blank">Google Docs</a>.
+- "Office" software for Word processing such as <a href="https://lanecc.helpjuice.com/student-faqs/office365" target="_blank">MS Office</a>, <a href="http://www.libreoffice.org" target="_blank">LibreOffice</a> or <a href="https://docs.google.com" target="_blank">Google Docs</a>.
 
 - A code (text) editor to create your web pages.  <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a> is a free code editor that can be downloaded via the internet and used on Windows, Mac OS or Linux. Alternatively, you can use TextWrangler on Mac OS, or Notepad++ on Windows.
 

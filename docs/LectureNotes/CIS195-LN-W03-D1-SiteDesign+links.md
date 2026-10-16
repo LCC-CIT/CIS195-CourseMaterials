@@ -10,45 +10,6 @@ author: Brian Bird
 
 <h1>Site Design and More on Hyperlinks</h1>
 
-<table hidden>
-  <caption>Topics by Week for the Eight-Week Term</caption>
-  <thead>
-    <tr>
-      <th scope="col">Weeks 1-4</th>
-      <th scope="col">Weeks 5-8</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Intro to HTML</td>
-      <td>5. Layout with CSS</td>
-    </tr>
-    <tr>
-      <td>2. More HTML, file paths</td>
-      <td>6. HTML Tables</td>
-    </tr>
-    <tr>
-      <td>3. Site structure and navigation</td>
-      <td>7. HTML Forms</td>
-    </tr>
-    <tr>
-      <td>4. Formatting with CSS, Midterm</td>
-      <td>8. Multimedia, Final</td>
-    </tr>
-    </tbody>
-</table>
-
-| Weeks 1-5 | Weeks 6-11 |
-| :--- | :--- |
-| 1. Intro to HTML | 6. Layout with CSS |
-| 2. More HTML, file paths | 7. CSS Flexbox and Grid |
-| <mark>3. Site structure and navigation</mark> | 8. HTML Forms |
-| 4. Formatting with CSS | 9. Multimedia |
-| 5. Midterm, Project Propposal | 10. Tables, Project Completion |
-|  | 11. Final |
-
-[Topics by Week for the Ten-Week Term]
-
 
 <h2>Contents</h2>
 
@@ -65,25 +26,21 @@ The web site's structure is determined by hyperlinks.
 
 A sitemap shows how the web pages are linked together. It can be done simply by using an outline. 
 
-Here's an example based on a market garden web site, <a href="https://eaglewingacres.com/" target="_blank">Eaglewing Acres</a>.
+Here's an example based on a small farm web site, <a href="https://ezergracefarm.com/" target="_blank">Ezer Grace Farm</a>.
 
 - Navigation (on every page)
   - Home
-    - CSA Signup
-    - About your farmers
-  - What's for sale
-    - Request produce or information
-    - Learn more
-    - Contact page
-  - CSA
-    - What's for sale
-  - Blog
+  - About
+  - Farm Stand
+  - Lil' Farmers School
+    - Enrollment Form
+    - Pay Now
   - Contact
+  - Shopping Cart
 - Footer navigation (at the bottom of every page)
-  - Join the CSA
-  - Follow us on Facebook (external)
-  - Contact Us
   - Newsletter signup
+  - Follow us on Facebook (external)
+  - Follow us on Instagram (external)
 
 
 
@@ -223,4 +180,4 @@ The `mailto` protocol  allows you to add information to the e-mail, including th
 
 ****
 
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> written 2017, revised <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> written 2017, revised <time>2026</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

@@ -32,25 +32,18 @@ A sitemap shows how the web pages are linked together. It can be done simply by 
   - Contact us
   - Client Login
 
-Another example is our family's market garden web site, <a href="https://eaglewingacres.com/" target="_blank">Eaglewing Acres</a>.
+Another example is a small farm web site, <a href="https://ezergracefarm.com/" target="_blank">Ezer Grace Farm</a>.
 
 - Navigation (on every page)
   - Home
-    - CSA Signup
-    - About your farmers
-  - What's for sale
-    - Request produce or information
-    - Learn more
-    - Contact page
-  - CSA
-    - What's for sale
-  - Blog
+  - About
+  - Farm Stand
+  - Lil' Farmers School
   - Contact
 - Footer navigation (at the bottom of every page)
-  - Join the CSA
-  - Follow us on Facebook (external)
-  - Contact Us
   - Newsletter signup
+  - Follow us on Facebook (external)
+  - Follow us on Instagram (external)
 
 
 
@@ -178,4 +171,4 @@ The `mailto` protocol  allows you to add information to the e-mail, including th
 
 ****
 
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.online" target="_blank">Brian Bird</a> are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

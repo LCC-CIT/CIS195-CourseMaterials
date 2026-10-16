@@ -145,7 +145,7 @@ img {
 
 # Example
 
-* <a href="https://lcc-cit.github.io/CIS195-Demos/Unit03/Finished/" target="_blank">South India Web Site</a>
+* <a href="https://lcc-cit.github.io/CIS195-Demos/Unit03/SouthIndia/Finished/" target="_blank">South India Web Site</a>
 
 * <a href="https://github.com/LCC-CIT/CIS195-Demos/tree/master/Unit03" target="_blank">Code for South India Web Site</a>
 

@@ -7,45 +7,6 @@ author: Brian Bird
 ---
 ### CIS 195 Web Authoring 1: HTML
 
-<table hidden>
-  <caption>Topics by Week for the Eight-Week Term</caption>
-  <thead>
-    <tr>
-      <th scope="col">Weeks 1-4</th>
-      <th scope="col">Weeks 5-8</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Intro to HTML</td>
-      <td>5. Layout with CSS</td>
-    </tr>
-    <tr>
-      <td>2. More HTML, file paths</td>
-      <td>6. HTML Tables</td>
-    </tr>
-    <tr>
-      <td>3. Site structure and navigation</td>
-      <td>7. HTML Forms</td>
-    </tr>
-    <tr>
-      <td>4. Formatting with CSS, Midterm</td>
-      <td>8. Multimedia, Final</td>
-    </tr>
-    </tbody>
-</table>
-
-| Weeks 1-5 | Weeks 6-11 |
-| :--- | :--- |
-| 1. Intro to HTML | 6. Layout with CSS |
-| 2. More HTML, file paths | 7. CSS Flexbox and Grid |
-| 3. Site structure and navigation | 8. HTML Forms |
-| 4. Formatting with CSS | 9. Multimedia |
-| 5. Midterm, Project Propposal | 10. Tables, Project Completion |
-|  | 11. Final |
-
-[Topics by Week for the Ten-Week Term]
-
 
 # Midterm Review & Publishing to the Web
 
@@ -56,15 +17,6 @@ author: Brian Bird
 -   [Term Project](#term-project)
 -   [Publishing a Website](#publishing-a-website)
 -   [References](#references)
-
-
-
-## Introduction
-
--   Review upcoming events on Canvas.
-    -   Midterm quiz.
--   Late labs 1&ndash;4 must be submitted by next Sunday night, 11/10.
-    (Syllabus says by the day of the midterm, but I'm extending that by a week and a half)
 
 
 
@@ -109,7 +61,7 @@ author: Brian Bird
 
 * <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Upload_files_to_a_web_server" target="_blank">MDN: How do you upload your files to a web server?</a>
 
-* <a href="https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en" target="_blank">FileZilla Tutorial</a>)
+* <a href="https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en)" target="_blank">FileZilla Tutorial</a>
 
   
 

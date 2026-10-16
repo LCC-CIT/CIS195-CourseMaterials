@@ -84,6 +84,8 @@ There are tutors available in the CIT Lab, building 19, room 135, or <a href="ht
 
 
 
+Note: All of my course materials are available via github. Here's a course outline with links to my teaching materials and the reading assignments: https://lcc-cit.github.io/CIS195-CourseMaterials/
+
 ------
 
 <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2018, revised 2026, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

@@ -15,7 +15,7 @@ author: Brian Bird
 | Week number and Topic            |                                |
 | :------------------------------- | :----------------------------- |
 | 1. Intro to HTML                 | 6. Layout with CSS             |
-| <mark>2. More HTML, file paths<  | 7. CSS Flexbox and Grid        |
+| <mark>2. More HTML, file paths</mark> | 7. CSS Flexbox and Grid        |
 | 3. Site structure and navigation | 8. HTML Forms                  |
 | 4. Formatting with CSS           | 9. Multimedia                  |
 | 5. Midterm, Project Proposal     | 10. Tables, Project Completion |
@@ -56,7 +56,7 @@ Links and due date are in the week 2 module on Canvas.
   - Selected sections on W3 Schools 
 - Watch the **lecture recordings** and read the **lecture notes**.
 - Take **Quiz 2** which is based on the reading— due Thursday, October 8, by 11:59 pm.
-- Start **Lab 2** — due Thursday, October 16, by 11:59 pm.
+- Start **Lab 2** — due Thursday, October 15, by 11:59 pm.
 
 <div style="clear: both;"></div>
 
