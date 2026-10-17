@@ -122,7 +122,7 @@ To create a polygonal hotspot, you enter the coordinates for each vertex in the 
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types" target="_blank">Image file type and format guide</a>&mdash;MDN article
 
-<a href="https://www.webfx.com/blog/web-design/jpeg-101-a-crash-course-guide-on-jpeg/" target="_blank">JPEG 101: A Crash Course on JPEG</a>&mdash;WebFX article
+<a href="https://web.archive.org/web/20260215045821/https://www.webfx.com/blog/web-design/jpeg-101-a-crash-course-guide-on-jpeg/" target="_blank">JPEG 101: A Crash Course on JPEG</a>&mdash;WebFX article (archived copy)
 
 <a href="https://www.w3schools.com/tags/tag_map.asp" target="_blank">HTML <map> Tag</a>&mdash;W3Schools tutorial
 
