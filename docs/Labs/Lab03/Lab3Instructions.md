@@ -1,8 +1,8 @@
-﻿**CIS 195, Web Authoring 1: HTML**
+**CIS 195, Web Authoring 1: HTML**
 
 # Lab 3 Instructions
 
-
+For this lab assignment you will make two web sites&mdash;one web site for each part of this assignment.
 
 ## Part 1: A web page with internal links
 
@@ -37,25 +37,24 @@ Check your pages using the <a href="https://validator.w3.org" target="_blank">W3
 
 ## Submitting your Web Sites
 
-- To Canvas:
-
-  - Zip the files in part 1
-
-
-  - Zip the files in part 2
-
-
-  - Upload both zip files to Canvas using the lab submission link.
-
 - To the citstudent web server:  
-  **For fall 2023, you won't be required to upload the web site to citstudent.**
+
   - Use FileZilla to copy your entire lab3 folder, subfolders and files to citstudent. The folder structure should be like this:  
     <img src="Lab3FolderStructure.png" alt="Lab3FolderStructure" style="zoom:50%;" />
 
+- To Canvas:
 
-Use your own file names. It's ok, but not required to name the HTML file in each folder index.html.  
-
-Note: there will be a total of four .html files in the Part2 folder.
+  - Zip the files in part 1
+  
+  
+    - Zip the files in part 2  
+      (There will be at least four .html files in the Part2 folder)
+  
+  
+    - Upload both zip files to Canvas.
+  
+    - Enter the URLs (web addresses) of your two web sites running on citstudent.
+  
 
 ## Grading Criteria
 
