@@ -2,7 +2,7 @@
 
 # Lab 3 Instructions
 
-
+For this lab assignment you will make two web sites&mdash;one web site for each part of this assignment.
 
 ## Part 1: A web page with internal links
 
@@ -48,7 +48,7 @@ Check your pages using the <a href="https://validator.w3.org" target="_blank">W3
   
   
     - Zip the files in part 2  
-      There will be a total of four .html files in the Part2 folder)
+      (There will be at least four .html files in the Part2 folder)
   
   
     - Upload both zip files to Canvas.
