@@ -12,6 +12,8 @@
 ^https://www\.codeproject\.com/info/cpol10\.aspx$
 # PuTTY's site often times out from GitHub's runners
 ^https://www\.chiark\.greenend\.org\.uk/~sgtatham/putty/
+# gnu.org rate-limits and often times out from GitHub's runners
+^https://www\.gnu\.org/
 # Sample url('image.jpg') inside a comment in the vendored WebSlides CSS, not a real link
 /LectureNotes/static/css/image\.jpg$
 # Placeholder form action in a form demo; it's never meant to be submitted

@@ -2,3 +2,8 @@
 # Servers that block bots answer 403, and busy servers answer 429 (too many requests).
 # Both mean the page exists, so they don't count as broken.
 accept = [200, 403, 429]
+
+# Ride out brief outages on busy external servers (defaults: 20, 3, 1)
+timeout = 30          # seconds per request
+max_retries = 5
+retry_wait_time = 5   # seconds between retries
