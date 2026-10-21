@@ -44,10 +44,8 @@ Check your pages using the <a href="https://validator.w3.org" target="_blank">W3
 
 ### Publishing to citstudent
 
-For fall 2023, we won't do this.
-
-- ~~Use FileZilla to upload a folder named *Lab4*, containing your web site, to citstudent.~~
-- ~~Record the URL of your home page so that you can enter it on Canvas.~~
+- Use FileZilla to upload a folder named *Lab4*, containing your web site, to citstudent.
+- Record the URL of your home page so that you can enter it on Canvas.
 
 ## Reference
 
@@ -59,13 +57,13 @@ For fall 2023, we won't do this.
 
 Here is grading rubric for this lab assignment:
 
-[Lab 4 Rubric](Lab4Rubric-CIS195.htm)
+- [Lab 4 Rubric](Lab4Rubric-CIS195.htm)
 
 
 
 ------
 
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lab Instructions by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2017, revised <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), 2017, revised <time>2026</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------------
 
