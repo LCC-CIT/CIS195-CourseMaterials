@@ -18,18 +18,21 @@ author: Brian Bird
 <a href="https://github.com/LCC-CIT/CIS195-CourseMaterials" target="_blank">Course Materials on GitHub</a>  
 <a href="https://github.com/LCC-CIT/CIS195-Demos" target="_blank">Demo Code on GitHub</a>
 
+
+
 ### Summer Eight-Week Term
-The summer term course is condensed into eight weeks of class with no final's week.<br><a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html" target="_blank">Syllabus</a>
+The summer term course is condensed into eight weeks of class with no final exam week.<br><a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html" target="_blank">Syllabus</a>
 
 ### Ten-Week Term
 This is a "normal" term with ten weeks of class plus a final's week<br><a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book.html" target="_blank">Getting Started</a>   
-<a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html" target="_blank">Syllabus</a> 
+<a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html" target="_blank">Hyflex Syllabus</a> (Fall 2023)  
+<a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_Online.html" target="_blank">Online Syllabus</a> (Fall 2026)
 
 ## Course Outline for a Ten-Week Term
 
 ### 1. Intro to HTML
 
-- <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W01-D0-IntroToCourse-Objectives.html" target="_blank">Objectives</a>
+- <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W01-D0-IntroToCourse-Objectives.html" target="_blank">Overview</a>
 - Reading  
   Read these sections of *<a href="https://flaviocopes.com/book/html/" target="_blank">The HTML Handbook</a>* by Flavio Copes  
     1\. <a href="https://flaviocopes.com/book/html/#1-preface" target="_blank">Preface</a>  
@@ -54,7 +57,7 @@ This is a "normal" term with ten weeks of class plus a final's week<br><a href="
 
 ### 2. More on Creating Web Pages with HTML
 
-- [Objectives](LectureNotes/CIS195-LN-W02-D0-BasicHtmlElements-Objectives.html)
+- [Overview](LectureNotes/CIS195-LN-W02-D0-BasicHtmlElements-Objectives.html)
 
 - Reading
 
@@ -93,31 +96,21 @@ This is a "normal" term with ten weeks of class plus a final's week<br><a href="
 
 ### 3. Developing a Web Site
 
-- Objectives 
-  
-  This week you will learn how to build a multi-page site with various types of site navigation links.
+- [Overview](LectureNotes/CIS195-LN-W03-D0-Overview.html)
 - Reading
   - [Uploading your website to the CIT Web Server](Lessons/UploadingWebSites.html)
 
 - Lecture Notes
   - [Site Structure and Navigation](LectureNotes/CIS195-LN-W03-D1-SiteDesign+links.html)
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W03-D2-UploadToWebServer_8wk.html" target="_blank">Publishing to a Web Server</a>
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LP-W03-D2-ImageMaps.html" target="_blank">Image Maps</a> (Not covered summer 2023)
-  
-- Zoom Recordings
-  
-  - <a href="https://lanecc.zoom.us/rec/share/c1hLHYTbHtes6SMePpRrNeLlWBtaOQPt3C5bH-vCoCGrIe9cKB4bj59zgGGoARuz.iuPpYeiAI4C7ks1h" target="_blank">Tuesday's class</a>
-  
-  - <a href="https://lanecc.zoom.us/rec/share/UyfIJt6nKteemyIzBdL-IYtiHF09RIyhljPKts-GzMQcQvbQnETqCogglKausD1L.vFwLcOphV0oBXYO4" target="_blank">Thursday's class</a>
-  
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W03-D2-ImageMaps.html" target="_blank">Image Maps</a>
+
 - Examples
   - <a href="https://lcc-cit.github.io/CIS195-Demos/Unit03/Planets/Finished/" target="_blank">Planets Web Page</a>
   - <a href="https://lcc-cit.github.io/CIS195-Demos/Unit03/SouthIndia/Finished/" target="_blank">South India Web Site</a>
 
 - Lab Assignment
 
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Instructions_8wk.html" target="_blank">Lab 3 Instructions&mdash;Summer Version</a>
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Rubric-CIS195_8wk.htm" target="_blank">Lab 3 Rubric&mdash;Summer Version</a>
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab03/Lab3Instructions.html" target="_blank">Lab 3 Instructions</a>
   - [Lab 3 Rubric](Labs/Lab03/Lab3Rubric-CIS195.htm)
 
@@ -142,13 +135,13 @@ This is a "normal" term with ten weeks of class plus a final's week<br><a href="
         (Just read 7.0, not the sub-sections) 
     11\. <a href="https://flaviocopes.com/book/css/#11-pseudo-classes" target="_blank">Pseudo-classes</a>  
     13\. <a href="https://flaviocopes.com/book/css/#13-colors" target="_blank">Colors</a>  
-    20\. <a href="https://flaviocopes.com/book/css/" target="_blank">Fonts</a>  
+    20\. <a href="https://flaviocopes.com/book/css/#20-fonts" target="_blank">Fonts</a>  
   21\. <a href="https://flaviocopes.com/book/css/#21-typography" target="_blank">Typography</a> 
   
 - Lecture Notes
 
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LN-W04-D1-StylingWithCSS.html" target="_blank">Styling with CSS</a>
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials//LectureNotes/CIS195-LN-W04-D2-TextFormatting+PseudoClasses.html" target="_blank">Text Formatting, Pseudo-Classes</a>
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W04-D1-StylingWithCSS.html" target="_blank">Styling with CSS</a>
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W04-D2-TextFormatting+PseudoClasses.html" target="_blank">Text Formatting, Pseudo-Classes</a>
 
 - Example
 
@@ -156,42 +149,40 @@ This is a "normal" term with ten weeks of class plus a final's week<br><a href="
 
 - Lab Assignment
 
-<a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Instructions.html" target="_blank">Lab 4 Instructions</a>
-<a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Rubric-CIS195.htm" target="_blank">Lab 4 Rubric</a>
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Instructions.html" target="_blank">Lab 4 Instructions</a>
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab04/Lab4Rubric-CIS195.htm" target="_blank">Lab 4 Rubric</a>
 
 
-### 5. Midterm
+### 5. Midterm, Term Project Proposal
 
+- [Overview](LectureNotes/CIS195-LN-W05-D0-Overview.html)
 - Lecture Notes
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W03-D2-UploadToWebServer+Review.html" target="_blank">Publishing to a Web Server, Review</a>
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Lessons/UploadingWebSites.html" target="_blank">How to upload your site to citstudent</a>
+  - [Midterm Review](LectureNotes/CIS195-LN-W05-D1-MidtermReview.html)
 - Midterm Quiz 
   See the syllabus for details about the time and place of the midterm quiz.
+- Term Project Assignment
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf" target="_blank">Term Project Instructions</a>
 
 
 ### 6. Page Layout with CSS
+
+- [Overview](LectureNotes/CIS195-LN-W06-D0-CssPageLayout-Objectives.html)
 
 - Reading
   
   Selected Sections of the <a href="https://flaviocopes.com/book/css/" target="_blank">CSS Handbook</a> by Flavio Copes
 
-  22\. <a href="https://flaviocopes.com/book/css/#22-box-model" target="_blank">Box Model</a>](https://flaviocopes.com/book/css/#5-selectors)  
-  23\. <a href="https://flaviocopes.com/book/css/#23-border" target="_blank">Border</a>
-  
-  24\. <a href="https://flaviocopes.com/book/css/#24-padding" target="_blank">Padding</a>    
-  25\. <a href="https://flaviocopes.com/book/css/#25-margin" target="_blank">Margin</a>     
-  26\. <a href="https://flaviocopes.com/book/css/#29-floating-and-clearing" target="_blank">Floating and Clearing</a> 
-  
-  27\. <a href="https://flaviocopes.com/book/css/#31-css-grid" target="_blank">CSS Grid</a>  
-  
-  28\. <a href="https://flaviocopes.com/book/css/#32-flexbox" target="_blank">Flex Box</a> 
+  22\. <a href="https://flaviocopes.com/book/css/#22-box-model" target="_blank">Box Model</a>  
+  23\. <a href="https://flaviocopes.com/book/css/#23-border" target="_blank">Border</a>  
+  24\. <a href="https://flaviocopes.com/book/css/#24-padding" target="_blank">Padding</a>  
+  25\. <a href="https://flaviocopes.com/book/css/#25-margin" target="_blank">Margin</a>  
+  29\. <a href="https://flaviocopes.com/book/css/#29-floating-and-clearing" target="_blank">Floating and Clearing</a> 
   
 - Lecture Notes
   
   - [CSS Box Model](LectureNotes/CIS195-LN-W06-D1-CssLayout-BoxModel.html)
   - [CSS Layout, Float Property](LectureNotes/CIS195-LN-W06-D2-CssLayout-Float.html)
-  - [CSS Flex Box](LectureNotes/CIS195-LN-W06-D2B-CssFlexBox.html)
-  - [CSS Grid](LectureNotes/CIS195-LN-W06-D2A-CssGrid.html)
+  - [More CSS Layout, Positioning](LectureNotes/CIS195-LN-W06-DX-CssLayout-Positioning.html)
   
 - Example
   - <a href="https://lcc-cit.github.io/CIS195-Demos/Unit04/Finished/" target="_blank">Guide to South India</a>
@@ -205,20 +196,29 @@ This is a "normal" term with ten weeks of class plus a final's week<br><a href="
   - [Lab 5 Rubric](Labs/Lab05/Lab5Rubric-CS195.htm)
 
 
-### 7. HTML Tables
+### 7. CSS Flexbox and Grid
+
+- [Overview](LectureNotes/CIS195-LN-W07-D0-CssGridAndFlexbox-Objectives.html)
+
+- Reading
+  
+  Selected Sections of the <a href="https://flaviocopes.com/book/css/" target="_blank">CSS Handbook</a> by Flavio Copes
+
+  31\. <a href="https://flaviocopes.com/book/css/#31-css-grid" target="_blank">CSS Grid</a>  
+  32\. <a href="https://flaviocopes.com/book/css/#32-flexbox" target="_blank">Flexbox</a> 
 
 - Lecture Notes
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W07-D1-Tables.html" target="_blank">Tables</a>
-
-- Example
-  - <a href="https://lcc-cit.github.io/CIS195-Demos/Tables/TablePractice.html" target="_blank">Table Practice</a>
+  - [CSS Flex Box](LectureNotes/CIS195-LN-W06-D2B-CssFlexBox.html)
+  - [CSS Grid](LectureNotes/CIS195-LN-W06-D2A-CssGrid.html)
 
 - Lab Assignment
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab06/Lab6Instructions.html" target="_blank">Lab 6 Instructions</a>
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab06/Lab6Rubric-CIS195.htm" target="_blank">Lab 6 Rubric</a>
+  - [Lab 6 Instructions](Labs/Lab06/Lab6Instructions.html)
+  - [Lab 6 Rubric](Labs/Lab06/Lab6Rubric-CIS195.htm)
 
 
 ### 8. HTML Forms for User Input
+
+- [Overview](LectureNotes/CIS195-LN-W08-D0-HtmlForms-Objectives.html)
 
 - Lecture Notes
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W08-D1-Forms.html" target="_blank">Forms - Part 1</a>
@@ -231,17 +231,32 @@ This is a "normal" term with ten weeks of class plus a final's week<br><a href="
 
 ### 9. Multimedia for the Web
 
+- [Overview](LectureNotes/CIS195-LN-W09-D0-Multimedia-Objectives.html)
+
 - Lecture Notes
   - [Multimedia for Web Sites](LectureNotes/CIS195-LN-W09-D1-Multimedia.html)
 - Lab Assignment
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Instructions.html" target="_blank">Lab 8 Instructions</a>
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Rubric-CIS195.htm" target="_blank">Lab 8 Rubric</a>
+- Term Project
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/TermProjectCodeReview.docx" target="_blank">Term Project Code Review Form</a> (peer review)
 
 
-### 10.1 Review and Term Project
+### 10.1 HTML Tables and Term Project
+
+- [Overview](LectureNotes/CIS195-LN-W10-D0-HtmlTables-Objectives.html)
 
 - Lecture Notes
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W07-D1-Tables.html" target="_blank">Tables</a>
+  - [CSS Table Styling](LectureNotes/CIS195-LN-W07-D2-Table-styling.html)
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/LectureNotes/CIS195-LN-W10-D1-Review.html" target="_blank">Review</a>
+
+- Example
+  - <a href="https://lcc-cit.github.io/CIS195-Demos/Tables/TablePractice.html" target="_blank">Table Practice</a>
+
+- Lab Assignment
+  - [Lab 9 Instructions](Labs/Lab09/Lab9Instructions.html)
+  - [Lab 9 Rubric](Labs/Lab09/Lab9Rubric-CIS195.htm)
 
 - Term Project Assignment
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf" target="_blank">Term Project Instructions</a>
@@ -254,5 +269,10 @@ This is a "normal" term with ten weeks of class plus a final's week<br><a href="
   - [Advanced CSS](LectureNotes/Archive/CIS195-LN-W10-D1-AdvancedCSS.html)
 
 
+### 11. Final Quiz
 
-Written by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, winter 2019, revised summer <time>2025</time>
+See the syllabus for details about the time and place of the final quiz.
+
+
+
+Written by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, winter 2019, revised fall <time>2026</time>
