@@ -64,12 +64,12 @@ This week you will learn how to create web pages using HTML <span style="font-st
 
 #### Office Hours
 
-- I have drop-in office hours on <a href="https://lanecc.zoom.us/j/8982554800" target="_blank">Zoom</a> and in person, building 19, room 152 at these times:
+- I have drop-in office hours at these times and locations:
 
   - M, W 2:00–2:50 in building 19 room 152 (my office) &  <a href="https://lanecc.zoom.us/j/8982554800" target="_blank">Zoom</a>.
   - Tu, Th 1:00–1:50 in building 19 room 135 (CIT lab).
 
-  I'm available at other times too, just let me know when you'd like to meet. 
+  **I'm available at other times too**, just let me know when you'd like to meet. 
 
 #### Contacting Me
 
