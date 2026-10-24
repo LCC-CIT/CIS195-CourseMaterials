@@ -160,6 +160,7 @@ This is a "normal" term with ten weeks of class plus a final exam week (week 11)
   See the syllabus for details about the time and place of the midterm quiz.
 - Term Project Assignment
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf" target="_blank">Term Project Instructions</a>
+  - [Term Project Proposal Instructions](TermProject/CIS195TermProjectProposal.html)
 
 
 ### 6. Page Layout with CSS

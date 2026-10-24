@@ -37,7 +37,7 @@ This week you will learn how to control the layout of a web page using CSS. By t
 ### This Week's ToDo List
 
 - Take reading quiz 5 by Thursday, Nov. 5.
-- Submit your term project proposal by Thursday, Nov. 5.
+- Submit your [term project proposal](../TermProject/CIS195TermProjectProposal.html) by Thursday, Nov. 5.
 - Start Lab 5: Using CSS to Control Web Page Layout. It is due Thursday, Nov. 12.
 
 <div style="clear: both;"></div>

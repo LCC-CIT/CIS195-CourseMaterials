@@ -39,7 +39,7 @@ author: Brian Bird
   - You may use an 8.5" x 11" sheet of notes during the quiz, but no other resources or assistance. 
   - Take the midterm at home (or anywhere without distractions).
   - Or take it in the classroom: building 19, room 126 from 12:00 to 2:00.
-- Submit a term project proposal by Thursday, Nov. 5.
+- Submit a [term project proposal](../TermProject/CIS195TermProjectProposal.html) by Thursday, Nov. 5.
 
 
 
