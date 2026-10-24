@@ -5,3 +5,19 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Labels for folder names in the breadcrumb trail (see _layouts/default.html).
+# An entry is a plain label, or a name plus a url to make the folder a link.
+# A url starting with "/" is from the site root; any other is relative to the folder.
+breadcrumb_names:
+  LectureNotes: Lecture Notes
+  TermProject: Term Project
+  Lab01: Lab 1
+  Lab02: Lab 2
+  Lab03: Lab 3
+  Lab04: Lab 4
+  Lab05: Lab 5
+  Lab06: Lab 6
+  Lab07: Lab 7
+  Lab08: Lab 8
+  Lab09: Lab 9
