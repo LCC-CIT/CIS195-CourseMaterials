@@ -52,17 +52,18 @@ In order to do well on the midterm quiz and on the homework for the second half 
 
 - The quiz will cover material in the lecture notes from the first four weeks of the term.
 - When and where to take the quiz:
-  - In the classroom at the normal class time.
-  - In the Instructional Testing Center between 9:00 am and 7:00 pm on Wednesday or Thursday.
-    - Bring photo ID.
-- For both locations:
-  - The quiz is restricted for the CRN of the section you registered for and the IP address of the location where you take the quiz. Make sure you are connected to "LCC WiFi", not "LCC Guest".
-  - You will have 1 hour and 50 minutes to finish the quiz.
-  - There are 30 questions.
-  - You can bring a 4 X 6 note card.
-  - You are not allowed to search the internet for answers, use AI (like chatGPT) or get help from another person.
-  - Seeing your results:  
-    You will be able to see your score and review your answers immediately after you finish the quiz. After you exit the quiz you won't be able to review your answers again, but you will be able to see your score.
+  - From home (or anywhere without distractions).
+  - In the classroom.
+- If you are taking the quiz on campus make sure you are connected to "LCC WiFi", not "LCC Guest".
+- You will have 1 hour and 50 minutes to finish the quiz.
+- There are 30 questions.
+- You can bring a letter sized sheet of paper with notes.
+- You are <u>not</u> allowed to use any resources other than your notes during the quiz. Do <u>not</u> use:
+  -  the internet 
+  - AI 
+  - another person.
+- Seeing your results:  
+  You will be able to see your score and review your answers immediately after you finish the quiz. After you exit the quiz you won't be able to review your answers again, but you will be able to see your score.
 
 
 
