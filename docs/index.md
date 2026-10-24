@@ -124,7 +124,7 @@ This is a "normal" term with ten weeks of class plus a final's week<br><a href="
 
 ### 4. Designing a Page with CSS 
 
-- [Objectives](LectureNotes/CIS195-LN-W04-D0-StylingWithCSS-Objectives.html)
+- [Overview](LectureNotes/CIS195-LN-W04-D0-Overview.html)
 
 - Reading
 

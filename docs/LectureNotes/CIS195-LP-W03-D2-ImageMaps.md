@@ -81,7 +81,7 @@ In two dimensional computer graphics, a cartesian coordinate system is used in w
 
 ![2D computer graphics coordinate system](Computer_coordinates_2D.png)
 
-Image from <a href="http://programarcadegames.com/index.php?chapter=introduction_to_graphics" target="_blank">Program Arcade Games with Python and PyGame</a>
+Image from <a href="https://web.archive.org/web/20260418132310/http://programarcadegames.com/index.php?chapter=introduction_to_graphics" target="_blank">Program Arcade Games with Python and PyGame</a>
 
 #### Finding coordinates in an image
 
