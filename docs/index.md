@@ -18,13 +18,11 @@ author: Brian Bird
 <a href="https://github.com/LCC-CIT/CIS195-CourseMaterials" target="_blank">Course Materials on GitHub</a>  
 <a href="https://github.com/LCC-CIT/CIS195-Demos" target="_blank">Demo Code on GitHub</a>
 
-
-
 ### Summer Eight-Week Term
 The summer term course is condensed into eight weeks of class with no final exam week.<br><a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_8wk.html" target="_blank">Syllabus</a>
 
 ### Ten-Week Term
-This is a "normal" term with ten weeks of class plus a final's week<br><a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book.html" target="_blank">Getting Started</a>   
+This is a "normal" term with ten weeks of class plus a final exam week (week 11)<br><a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_GettingStarted_Book.html" target="_blank">Getting Started</a>   
 <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus.html" target="_blank">Hyflex Syllabus</a> (Fall 2023)  
 <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/CIS195_Syllabus_Online.html" target="_blank">Online Syllabus</a> (Fall 2026)
 

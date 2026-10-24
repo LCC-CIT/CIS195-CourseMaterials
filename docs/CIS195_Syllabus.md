@@ -1,6 +1,6 @@
 <h1>Syllabus for Web Authoring 1: HTML</h1>
 
-<h2>Fall 2026 hybrid and online class sections</h2>
+<h2>Fall 2023 hybrid and online class sections</h2>
 
 |           | Class Info                                                   |      |              | Instructor Info                                              |
 | --------- | ------------------------------------------------------------ | ---- | ------------ | ------------------------------------------------------------ |
