@@ -10,7 +10,7 @@ author: Brian Bird
 
 <h1>Week 5 Overview for Fall 2026</h1>
 
-<h2>Oct. 27 through Nov. 1</h2>
+<h2>Oct. 26 through Nov. 1</h2>
 
 | Week number and Topic                     |                                |
 | :---------------------------------------- | :----------------------------- |

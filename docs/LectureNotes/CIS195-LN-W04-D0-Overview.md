@@ -10,7 +10,7 @@ author: Brian Bird
 
 <h1>Week 4 Overview for Fall 2026</h1>
 
-<h2>Oct. 20 through Oct. 25</h2>
+<h2>Oct. 19 through Oct. 25</h2>
 
 | Week number and Topic                     |                                |
 | :---------------------------------------- | :----------------------------- |

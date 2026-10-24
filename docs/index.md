@@ -269,6 +269,8 @@ This is a "normal" term with ten weeks of class plus a final exam week (week 11)
 
 ### 11. Final Quiz
 
+- [Overview](LectureNotes/CIS195-LN-W11-D0-Overview.html)
+
 See the syllabus for details about the time and place of the final quiz.
 
 

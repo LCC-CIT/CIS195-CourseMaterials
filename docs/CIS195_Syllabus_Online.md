@@ -135,9 +135,9 @@ Weekly quizzes are given that cover the required reading for that week. These qu
 
 <u>Midterm and Final Quizzes</u>
 
-The midterm and final quizzes are given in weeks 5 and 11. See the course schedule for exact dates and times. These two quizzes are "closed book", but students may prepare an 8 X 10 sheet of notes to refer to during the quiz. 
+The midterm and final quizzes are given in weeks 5 and 11. See the course schedule for exact dates and times. These two quizzes are "closed book", but students may prepare an 8.5" x 11" sheet of notes to refer to during the quiz. 
 
-Students can take the midterm and final quizzes at home online. Alternatively, students who prefer to test on campus may take them in Instructional Testing Services in the Center Building, room 311. See the <a href="https://www.lanecc.edu/get-support/academic-support/instructional-testing-services" target="_blank">Instructional Testing Services</a> web site for testing times and procedures.
+Students can take the midterm and final quizzes at home online. Alternatively, students who prefer to test on campus may take them in the classroom: building 19, room 126. See the course schedule for dates; times are posted in the weekly overview for weeks 5 and 11.
 
 ### Late Work
 

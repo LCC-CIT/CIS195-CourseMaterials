@@ -126,7 +126,7 @@ Weekly quizzes are given that cover the required reading for that week. These qu
 
 <u>Midterm and Final Quizzes</u>
 
-The midterm and final quizzes are given in weeks 5 and 11. See the course schedule for exact dates and times. These two quizzes are "closed book", but students may prepare an 8 X 10 sheet of notes to refer to during the quiz. 
+The midterm and final quizzes are given in weeks 5 and 11. See the course schedule for exact dates and times. These two quizzes are "closed book", but students may prepare an 8.5" x 11" sheet of notes to refer to during the quiz. 
 
 - On-campus students (hybrid modality) will take the quiz In the classroom during the normal class time.
 
