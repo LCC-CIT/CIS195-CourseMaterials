@@ -33,6 +33,11 @@ author: Brian Bird
 - Demonstrate what you have learned on the actual quiz.
 - Develop an idea for  your term project.
 
+### Announcements
+
+No office hours on Thursday this week since we're having a CIT faculty meeting.
+But I will have my regular office hours M & W 2:00 to 2:50 (my office and zoon) and Tuesday at 1:00 (lab).
+
 ### This Week's ToDo List
 
 - Take the midterm quiz on Thursday, Oct. 29.
