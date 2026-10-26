@@ -43,7 +43,7 @@ To define hotspots, you create an *image map* that contains `<area>` elements th
 <map name="farm">
   <area coords="380,60,500,270" shape="rect" href="beans.html" alt="A cup of coffee beans">
   <area shape="circle" coords="300,130,70" href="press.htm" alt="A french press">
-  <area shape="polygon" coords="10,65,15,260,350,260,350,225,230,225,230,60" href="tree.htm" alt= "A coffee tree">
+  <area shape="poly" coords="10,65,15,260,350,260,350,225,230,225,230,60" href="tree.htm" alt= "A coffee tree">
   <area shape="default" coords="0, 0, 650, 525" … />
 </map>
 ```
@@ -56,9 +56,9 @@ To define hotspots, you create an *image map* that contains `<area>` elements th
 - `shape`
 - `href`
 - `alt`
-###Computer graphics coordinate system
+### Computer graphics coordinate system
 
-In two dimensional computer graphics, a cartesian coordinate system is used in which the x-axis starts at the left and extends to the right and the y-axis starts at the top and extends to the bottom.
+In two dimensional computer graphics, a Cartesian coordinate system is used in which the x-axis starts at the left and extends to the right and the y-axis starts at the top and extends to the bottom.
 
 ![2D computer graphics coordinate system](Computer_coordinates_2D.png)
 
@@ -68,7 +68,7 @@ Image from <a href="https://web.archive.org/web/20260418132310/http://programarc
 
 You can use a photo editing program like Windows Paint, Gimp, or Photoshop (or Photoshop Elements) to find coordinates, or you can use an online service like the one shown in the reference section of these notes.
 
-###Rectangular hotspots
+### Rectangular hotspots
 
 Two points define a rectangular hotspot:
 the upper-left corner
@@ -92,7 +92,7 @@ A circular hotspot is defined by the location of its center and its radius.
 To create a polygonal hotspot, you enter the coordinates for each vertex in the shape.
 
 ```html
-<area shape="polygon" coords="10,65,15,260,350,260,350,225,230,225,10,65" href="tree.htm" alt= "A coffee tree">
+<area shape="poly" coords="10,65,15,260,350,260,350,225,230,225,10,65" href="tree.htm" alt= "A coffee tree">
 ```
 
 
