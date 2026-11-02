@@ -13,13 +13,13 @@ The bitmap format is an uncompressed file format. This is not normally used on w
 
 ### GIF
 
-The **G**raphic **I**nterchange **F**ormat is used for uncompressed, animated images.
+The **G**raphic **I**nterchange **F**ormat is used for images with up to 256 colors. It uses lossless compression and supports animation.
 
 ### JPEG
 
 **J**oint Photographic **E**xperts **G**roup is a lossy compression algorithm that is popular for compressing images to be used on the web because it can be used to make very small image files, but with loss of image quality. JPEG files will have the extensions .jpg, or .jpeg. 
 
-JPEG files may also be formatted using **JFIF** (Joint File Interchanging Format) and have the extensions .jfif or .jif.
+JPEG files may also be formatted using **JFIF** (JPEG File Interchange Format) and have the extensions .jfif or .jif.
 
 ### PNG
 
@@ -33,7 +33,7 @@ JPEG files may also be formatted using **JFIF** (Joint File Interchanging Format
 
 ## Image Maps
 
-Images can be divided into different zones, or *hotspots*, each linked to a different target destination.
+Images can be divided into different zones, or *hotspots*, each linked to a different destination.
 
 To define hotspots, you create an *image map* that contains `<area>` elements that map  specified regions of the  image to specific web pages or locations.
 
@@ -43,12 +43,14 @@ To define hotspots, you create an *image map* that contains `<area>` elements th
 <map name="farm">
   <area coords="380,60,500,270" shape="rect" href="beans.html" alt="A cup of coffee beans">
   <area shape="circle" coords="300,130,70" href="press.htm" alt="A french press">
-  <area shape="poly" coords="10,65,15,260,350,260,350,225,230,225,230,60" href="tree.htm" alt= "A coffee tree">
-  <area shape="default" coords="0, 0, 650, 525" … />
+  <area shape="poly" coords="10,65,15,260,350,260,350,225,230,225,230,60" href="tree.htm" alt="A coffee tree">
+  <area shape="default" href="plantation.html" alt="Our farm">
 </map>
 ```
 
 
+
+The `usemap` attribute on the image is a fragment reference, like an in-page link. The `#` followed by `farm` matches the `name` attribute of the `<map>` element.
 
 #### Hotspot attributes
 
@@ -56,6 +58,7 @@ To define hotspots, you create an *image map* that contains `<area>` elements th
 - `shape`
 - `href`
 - `alt`
+
 ### Computer graphics coordinate system
 
 In two dimensional computer graphics, a Cartesian coordinate system is used in which the x-axis starts at the left and extends to the right and the y-axis starts at the top and extends to the bottom.
@@ -92,8 +95,10 @@ A circular hotspot is defined by the location of its center and its radius.
 To create a polygonal hotspot, you enter the coordinates for each vertex in the shape.
 
 ```html
-<area shape="poly" coords="10,65,15,260,350,260,350,225,230,225,10,65" href="tree.htm" alt= "A coffee tree">
+<area shape="poly" coords="10,65,15,260,350,260,350,225,230,225,230,60" href="tree.htm" alt="A coffee tree">
 ```
+
+The shape closes automatically, so you do not repeat the first point at the end.
 
 
 
@@ -103,7 +108,7 @@ To create a polygonal hotspot, you enter the coordinates for each vertex in the 
 <area shape="default" href="plantation.html" alt="Our farm">
 ```
 
-- Where the first pair of numbers is always zero and the second pair are the width and height of the image in pixels.
+- The default hotspot does not use a `coords` attribute.
 - Any spot that is not covered by another hotspot will activate the default hotspot link
 
 
@@ -114,7 +119,7 @@ To create a polygonal hotspot, you enter the coordinates for each vertex in the 
 
 <a href="https://web.archive.org/web/20260215045821/https://www.webfx.com/blog/web-design/jpeg-101-a-crash-course-guide-on-jpeg/" target="_blank">JPEG 101: A Crash Course on JPEG</a>&mdash;WebFX article (archived copy)
 
-<a href="https://www.w3schools.com/tags/tag_map.asp" target="_blank">HTML <map> Tag</a>&mdash;W3Schools tutorial
+<a href="https://www.w3schools.com/tags/tag_map.asp" target="_blank">HTML &lt;map&gt; Element</a>&mdash;W3Schools tutorial
 
 <a href="https://www.mobilefish.com/services/record_mouse_coordinates/record_mouse_coordinates.php" target="_blank">Online service for getting mouse-click image coordinates</a>&mdash;Mobilefish.com
 

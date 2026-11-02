@@ -67,15 +67,15 @@ Look at <a href="http://www.highlands97405.com" target="_blank">The Highlands</a
 
 ### How to open a link in a new tab
 
-The anchor element, `<a>` , can have a target attribute that is used to control where the linked page opens. Here are the possible values: 
+The anchor element, `<a>`, can have a `target` attribute that is used to control where the linked page opens. (This is unrelated to the *target element* of a fragment link, described below.) Here are the possible values: 
 
 | Value       | Where the linked document is opened                        |
 | :---------- | :--------------------------------------------------------- |
 | _blank      | In a new window or tab                                     |
-| _self       | In the same frame as the anchor that was clicked (default) |
-| _parent     | The parent frame                                           |
-| _top        | The full body of the window                                |
-| *framename* | A named frame                                              |
+| _self       | In the same browsing context as the `<a>` element that was clicked (default) |
+| _parent     | The parent browsing context (the parent frame, if any)     |
+| _top        | The top-level browsing context (the full window or tab)    |
+| *name*      | A named browsing context, such as a named frame            |
 
 Example:
 
@@ -89,45 +89,54 @@ Example:
 
 ### Base path for hyperlinks
 
-The <base> tag sets a default path for all the `href` and `src` attributes on the page. 
-It should be put in the <head> element.
+The `<base>` element sets the base URL used to resolve all relative URLs on the page, including those in `href` and `src` attributes. 
+It should be put in the `<head>` element.
 
 Example:
 
 ```HTML
 <head>
    <!-- other stuff left out -->
+   <!-- The target attribute makes every link on the page open in a new tab -->
    <base href="Chennai/" target="_blank">
 </head>
 <body>
   <!-- This link will open a page in the Chennai sub-folder -->
-  <a href="chennai.htm">The city of Channai</a>
+  <a href="chennai.htm">The city of Chennai</a>
 </body>
 ```
 
-<a href="https://www.w3schools.com/tags/tag_base.asp" target="_blank">W3Schools tutorial on the base tag</a>
+**Caution:** the base URL also applies to links that point to locations inside the current page. With the `<base>` above, `<a href="#intro">` would resolve to `Chennai/#intro` and navigate away from the page instead of jumping to the element with `id="intro"`.
+
+<a href="https://www.w3schools.com/tags/tag_base.asp" target="_blank">W3Schools tutorial on the base element</a>
 
 
 
 ### Creating links to locations inside a page
 
+A *fragment link* (also called a *jump link*) is a link whose URL ends in a *fragment identifier*, on the same page or on another page. The fragment identifier is the text after the `#` (for example, `intro` in `href="#intro"`). It names the *target element* that the browser scrolls to.
+
+Note: the *target element* of a fragment link is unrelated to the `target` attribute of the `<a>` element, which controls where a linked page opens.
+
 #### Mark the target with the id attribute
 
-To link to a  location within a document, you first need to mark that location. You can do that with the id attribute.
+To link to a location within a document, you first need to mark that location. You can do that by adding the `id` attribute to the target element. Any element can be a target, not just a heading.
 
-- The id names must be unique.
-- The id names are not case sensitive, but matching case is good practice.
+- Each id value must be unique on the page.
+- An id value must not be empty or contain spaces.
+- Id values are case-sensitive. `href="#Intro"` will **not** link to `id="intro"`, so the case must match exactly.
+- Older web pages mark targets with `<a name="intro"></a>`. That technique is obsolete; use `id` instead.
 
 #### Use the id as an `href`
 
-Just prefix the id name with a *#* so the browser will know it's a link to an id.
+Just prefix the id value with a *#* so the browser will know it's a link to an id on the current page.
 
 ```html
 <nav>
   On this page:<br>
   <a href="#intro">Introduction</a><br>
   <a href="#grow">Where the Beans are Grown</a><br>
-  <a href="#roast">How the Beans are roasted</a><br>
+  <a href="#roast">How the Beans are Roasted</a><br>
 </nav>
 
 <h2 id="intro">Introduction</h2>
@@ -143,12 +152,30 @@ Just prefix the id name with a *#* so the browser will know it's a link to an id
 <a href="https://theaviary.com/birds.html#pigeons">Our homing pigeons</a>
 ```
 
+#### Linking to the top of the page
+
+An href of just `#` (or `#top`) jumps to the top of the current page.
+
+```html
+<a href="#top">Back to top</a>
+```
+
+#### Styling the target
+
+The CSS `:target` pseudo-class selects the element that the current fragment identifier points to, so you can highlight it.
+
+```css
+:target {
+  background-color: lightyellow;
+}
+```
+
 
 
 
 ### Image Links
 
-Images can be used as links. Just enclose the `<img>` element in anchor tags.
+Images can be used as links. Just enclose the `<img>` element in an `<a>` element.
 
 ```html
 <a href="https://lanecc.edu"><img src="LccLogo.png"></a>
@@ -156,7 +183,7 @@ Images can be used as links. Just enclose the `<img>` element in anchor tags.
 
 ### Hyperlink for Sending an E-mail
 
-You can use an e-mail address in a hypertext link so that when a user clicks the link, the user’s e-mail program opens and automatically inserts the address into the “To” field of the new outgoing message. 
+You can use an e-mail address in a link so that when a user clicks the link, the user’s e-mail program opens and automatically inserts the address into the “To” field of the new outgoing message. 
 
 ```html
 <a href="mailto:webmaster@example.com">Send an e-mail</a>
@@ -165,7 +192,7 @@ You can use an e-mail address in a hypertext link so that when a user clicks the
 The `mailto` protocol  allows you to add information to the e-mail, including the subject line and the text of the message. Spaces are replaced with the %20 character code since URLs cannot contain blank spaces
 
 ```html
-<a href="mailto:webmaster@example.com?Subject=Test&Message=This%20is%20a%20test">Send a test e-mail message</a>
+<a href="mailto:webmaster@example.com?subject=Test&amp;body=This%20is%20a%20test">Send a test e-mail message</a>
 ```
 
 <a href="https://www.w3schools.com/tags/att_a_href.asp" target="_blank">More about the href attribute on W3Schools</a>
