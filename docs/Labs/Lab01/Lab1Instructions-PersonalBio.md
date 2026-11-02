@@ -1,4 +1,4 @@
-﻿# Instructions for Lab 1
+# Instructions for Lab 1
 
 # A Biographical Web Site
 
@@ -40,7 +40,7 @@ Create a web site that consists of at least <u>two web pages</u> and presents a 
 - To create your web pages, you can use <a href="https://code.visualstudio.com " target="_blank">Visual Studio Code</a>, which runs on Windows, Mac OS, or Linux. 
 - If your web pages have images that add up to more than 10MB, you will need to [reduce the size of your images](../../LectureNotes/CIS195-LN-W01-D2B-ResizingImages.html) using the Paint program on Windows, or the Preview program on Mac OS.
 
-- In order to Zip your files, you can use the built-in file compression on Windows or Mac OS, or you can use a program like <a href="https://7-zip.org/" target="_blank">7-Zip</a>.
+- In order to Zip your files, you can use the built-in file compression on Windows or Mac OS, or you can use a program like [7-Zip](https://www.7-zip.org/) (If you use 7-Zip, please use it to create .zip archives, not .7z)
 
  
 
