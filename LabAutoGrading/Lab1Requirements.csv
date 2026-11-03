@@ -1,12 +1,12 @@
-line,requiredElements1,number1,requiredElements2,requiredCssSelectors,requiredCssProperties,moreRequirements,Description,settings
-1,title,1,,,,,,
-2,"h1, h2, h3, h4, h5, h6",2,,,,1,Number of parts,/Volumes/GoogleDrive/My Drive/Courses/CIS195/2023-Fall/Labs/CIS195_F23Lab1Submissions
-3,a[href],2,,,,2,Number of HTML files,G:/My Drive/Courses/CIS195/2023-Fall/Labs/CIS195_F23Lab1Submissions
-4,a[href],1,,,,index,special file name,Lab01
-5,img[alt],1,,,,"<a\s*href\s*=\s*[""']http",,
-6,br,1,,,,"<a\s*href\s*=\s*[""'](?!http)",,
-7, ol > li,2,,,,<head>[\s\S]*<!--,,
-8, ul > li,1,,,,,,
-9,"b, strong",1,,,,,,
-10,"I, em",1,,,,,,
-,,1,,,,,,
+line,requiredElements1,number1,requiredElements2,requiredCssSelectors,requiredCssProperties,moreRequirements,moreReqsDescription,regExpForHTML1,regExpForHTML1Description,settings
+1,title,1,,,,index,special file name,"<a\s*href\s*=\s*[""']http",an external link (href starting with http),/Users/brian/Library/CloudStorage/GoogleDrive-birdb@lanecc.edu/My Drive/Courses/CIS195/2026-Fall/Labs/Lab01-Submissions
+2,"h1, h2, h3, h4, h5, h6",2,,,,2,Number of HTML files,"<a\s*href\s*=\s*[""'](?!http)",a relative link (href not starting with http),G:/My Drive/Courses/CIS195/2026-Fall/Labs/Lab01-Submissions
+3,a[href],2,,,,0,Number of CSS files,<head>[\s\S]*<!--,an HTML comment after the <head> tag,1
+4,a[href],1,,,,TRUE,Validate HTML,,,Lab01
+5,img[alt],1,,,,FALSE,Validate CSS,,,TRUE
+6,br,1,,,,,,,,TRUE
+7, ol > li,2,,,,,,,,FALSE
+8, ul > li,1,,,,,,,,FALSE
+9,"b, strong",1,,,,,,,,
+10,"I, em",1,,,,,,,,
+,,1,,,,,,,,
