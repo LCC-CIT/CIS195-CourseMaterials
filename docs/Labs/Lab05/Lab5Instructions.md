@@ -1,4 +1,4 @@
-﻿# Lab 5 Instructions
+# Lab 5 Instructions
 
 
 ## Using CSS to Control Web Page Layout
@@ -7,7 +7,7 @@ You will practice using CSS by applying it to the review web site you made in la
 
 ### Part 1
 
-You will use the single web page from lab 4, part 1 (originally done for lab 2, part 1, it was a single page with a review of something) as your starting point. 
+You will use the single web page from lab 4, part 1 (originally done for lab 2, part 1 which was a web page with a review of something) as your starting point. 
 
 1. Create an external CSS file with rules that:
    - Set a background image.
@@ -21,7 +21,7 @@ You will use the single web page from lab 4, part 1 (originally done for lab 2, 
 Use lab 4, part 2 as a starting point. (Originally done for lab 2, part 2. It was a review site with a home page and at least three review pages.)
 
 1. Use float and other appropriate CSS properties to create navigation links on each page. The navigation list should be arranged horizontally and links should look like buttons (have a colored background, no bullets, etc.) rather than links.
-2. On  at least one figure:
+2. On at least one figure:
    - Add padding, a visible border, and margin.
    - Make the corners of the figure rounded.
    - Use relative positioning to place the figure somewhere other than its original location.
