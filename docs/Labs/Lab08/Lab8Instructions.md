@@ -16,6 +16,11 @@ You will create a page containing the following HTML elements:
 
 Create a web page that uses each of the three elements listed above. 
 
+Make your multimedia accessible:
+
+- Include the `controls` attribute on your `<audio>` and `<video>` elements, and don't use `autoplay`.
+- Give your `<iframe>` a descriptive `title` attribute.
+
 ## Implementation
 
 - Examples of content for each multimedia type:

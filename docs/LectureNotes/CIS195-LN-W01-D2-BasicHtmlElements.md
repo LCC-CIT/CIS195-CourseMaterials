@@ -95,6 +95,7 @@ Here are some elements that we haven’t covered yet:
 
 `<img alt="description" src="photo.jpg">`
 
+- Always include the `alt` attribute. Screen readers read the alt text aloud to people who can't see the image, and browsers display it if the image can't load. Describe what the image shows.
 - Put image files in the same folder with the html file for now.
 - Reduce the size of the image files.
   -  So that your web pages will load quickly.

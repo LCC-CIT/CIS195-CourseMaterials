@@ -39,7 +39,7 @@ This week you will learn how to create web pages using HTML <span style="font-st
 - Line breaks
 - Unordered and ordered lists
 - Links
-- Images
+- Images, including alt text so that the images are accessible to people who can't see them
 
 ## Announcements
 

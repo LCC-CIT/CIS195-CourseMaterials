@@ -48,6 +48,7 @@ By the end of this week, you will be able to:
     - Link to an e-mail address
     - Work with hypertext attributes
     - Work with metadata
+3. Publish a site to a web server with an FTP client
 
 ## This Week's To-Do List
 

@@ -176,7 +176,7 @@ You may wish to have more than one src URL listed in case a user's browser doesn
 ## HTML `<video>` Element
 
 ```html
-<video src="vidioUrl"> </vidio>
+<video src="videoUrl"> </video>
 ```
 
 
@@ -200,9 +200,39 @@ Note that some web sites will block embedding of their web pages. In this exampl
 Note that the link for the YouTube video is not the general URL, but the *embed* link provided on the YouTube page.
 
 ```html
-<iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ'></iframe>
+<iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ' title='Descriptive title of the video'></iframe>
 ```
-<iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ'></iframe>
+<iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ' title='Descriptive title of the video'></iframe>
+
+
+
+# Making Multimedia Accessible
+
+Audio and video are not usable by everyone. People who are deaf or hard of hearing can't hear audio, people who are blind or have low vision can't see video, and people using screen readers or keyboards need controls they can operate. Build accessibility in from the start:
+
+- **Provide playback controls.** Always include the `controls` attribute so users can pause, adjust the volume, and seek, with a mouse or the keyboard. Avoid `autoplay`, especially with sound, because it interferes with screen readers and can be disorienting.
+- **Provide a text alternative.** Offer a transcript of audio, or a transcript of the spoken words and important visual information in a video. Link to it near the media element.
+- **Add captions to video.** Use the `<track>` element to attach a captions file (WebVTT format, `.vtt`) to a `<video>` element:
+
+  ```html
+  <video controls>
+    <source src="lecture.mp4" type="video/mp4">
+    <track kind="captions" src="lecture-en.vtt" srclang="en" label="English" default>
+    Your browser does not support the video element.
+  </video>
+  ```
+
+  The text inside the `<video>` element is fallback content, shown only by browsers that don't support the `<video>` element.
+- **Give iframes a descriptive `title`.** Screen readers announce the `title` attribute to tell users what an embedded frame contains.
+
+  ```html
+  <iframe width="500" src="https://www.youtube.com/embed/5K3w7CKkeOQ"
+          title="Descriptive title of the video"></iframe>
+  ```
+
+- **Don't rely on a single sense.** Information that is only in the sound or only in the picture is missed by some users. Make sure the transcript or captions carry it.
+
+Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track" target="_blank">`<track>`: The Embed Text Track element</a> (MDN)
 
 
 

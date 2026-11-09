@@ -39,6 +39,7 @@ This week you will start using CSS (Cascading Style Sheets) to control the appea
     - Use contextual selectors
     - Work with attribute selectors
     - Apply text and font styles
+- Use semantic structural elements and the non-semantic div and span elements
 - Install a Web font
 - Understand and use pseudo-classes
     - Define list styles

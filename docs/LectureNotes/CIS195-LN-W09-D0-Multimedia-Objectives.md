@@ -33,6 +33,9 @@ This week you will learn about multimedia on the web and how to add it to your w
 - Choose appropriate file formats for images, audio, and video
 - Add audio and video to a web page
 - Use iFrames to embed multimedia or other web pages into your web page
+- Make audio and video accessible, for example with playback controls, captions or transcripts, and descriptive titles
+- Evaluate a classmate's term project and give constructive written feedback using the code review form
+- Use the feedback you receive to improve your own project
 
 ### This Week's ToDo List
 

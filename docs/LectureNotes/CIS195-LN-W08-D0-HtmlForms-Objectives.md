@@ -32,7 +32,7 @@ You will learn how to add a form to your web page so that someone can open your 
 
 - Create a form using input, label, fieldset, legend, and textarea elements
 - Use selection lists and option buttons
-- Validate user input using HTML5 input types, the required attribute, and patterns
+- Validate form input using HTML5 input types, the required attribute, and patterns
 
 ### This Week's ToDo List
 

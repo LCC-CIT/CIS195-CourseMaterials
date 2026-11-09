@@ -45,6 +45,7 @@ By the end of this week, you will be able to:
 - Understand absolute and relative paths
     - When specifying an image
     - When making a link to another page
+- Use the W3C HTML validator to check your pages for errors and correct them.
 
 ## This Week's To-Do List
 
