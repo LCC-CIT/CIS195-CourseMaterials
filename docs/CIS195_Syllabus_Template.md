@@ -17,7 +17,7 @@
 
 ## Course Description
 
-This four-credit course provides students who have minimal computer experience with the concepts and skills necessary to create static web pages using HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).  Through hands-on practice students will master the concepts, tools and skills needed to construct web pages and to upload pages to a web server on the internet.
+An introduction to building websites with HyperText Markup Language (HTML) and Cascading Style Sheets (CSS). Topics include writing web pages with: text, lists, links, images, tables, embedded media, and forms with HTML5 validation; CSS for text, color, and fonts; and page layout using the box model, floats, positioning, Flexbox, and Grid. Students design multi-page web sites, test them with HTML and CSS validators, and publish to a web server. Coursework culminates in a term project website that includes peer code review. No prior coding experience is required.
 
 ### Learning Outcomes
 
@@ -28,7 +28,7 @@ Upon successful completion of this course, the student will be able to:
 3. Use CSS to style text, color, fonts, images and tables, and to control page layout with the box model, floats, positioning, Flexbox and Grid.
 4. Design and build a multi-page website with a multi-folder structure and navigation while using correct absolute and relative paths.
 5. Use tools such as  HTML and CSS validators to check and correct web pages and FTP client to publish and manage files on a web server.
-7. Evaluate your own and other students' web site work, provide constructive feedback in writing, and respond to feedback on your own work.
+6. Evaluate your own and other students' web site work, provide constructive feedback in writing, and respond to feedback on your own work.
 
 ### Effort
 
