@@ -23,12 +23,11 @@ This four-credit course provides students who have minimal computer experience w
 
 Upon successful completion of this course, the student will be able to:
 
-1. Explain the meaning and purpose of HTML elements and attributes, and use semantic and structural elements and accessibility features, such as alt text, to give web pages meaningful structure.
+1. Explain the meaning and purpose of HTML elements and attributes including the use of semantic and structural elements and accessibility features, such as alt text.
 2. Write HTML using the commonly used elements for text, lists, links, images, tables, embedded media (audio, video, iframes) and forms, including form input validation with HTML5 input types and attributes.
 3. Use CSS to style text, color, fonts, images and tables, and to control page layout with the box model, floats, positioning, Flexbox and Grid.
-4. Design and build a multi-page website with a planned structure and working navigation, using correct absolute and relative paths.
-5. Use HTML and CSS validators to check and correct web pages.
-6. Use an FTP client to publish and manage files on a web server.
+4. Design and build a multi-page website with a multi-folder structure and navigation while using correct absolute and relative paths.
+5. Use tools such as  HTML and CSS validators to check and correct web pages and FTP client to publish and manage files on a web server.
 7. Evaluate your own and other students' web site work, provide constructive feedback in writing, and respond to feedback on your own work.
 
 ### Effort
