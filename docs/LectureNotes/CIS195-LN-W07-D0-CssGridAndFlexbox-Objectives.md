@@ -33,6 +33,13 @@ This week you will continue learning to use CSS to control the layout of a page,
 - CSS Grid
 - CSS Flexbox
 
+## Announcements
+
+- **Wed., Nov. 11: Veterans Day.** The college is closed.
+- **Drop-in Winter Reg Fest** on Saturday, Nov. 14 from 9am&ndash;2pm in Building 1, Admissions 102.
+  Get help with admissions, financial aid, academic advising and registration.
+  Plan to arrive before 1pm. There is another one on Tuesday, Dec. 1, 9am&ndash;2pm.
+
 ### This Week's ToDo List
 
 - Take reading quiz 6 by Thursday, Nov. 12.
