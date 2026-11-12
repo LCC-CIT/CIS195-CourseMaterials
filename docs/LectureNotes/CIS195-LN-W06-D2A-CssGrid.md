@@ -10,73 +10,17 @@ author: Brian Bird
 
 <h1>Using the CSS Grid for Layout</h1>
 
-<table hidden>
-  <caption>Topics by Week for the Eight-Week Term</caption>
-  <thead>
-    <tr>
-      <th scope="col">Weeks 1-4</th>
-      <th scope="col">Weeks 5-8</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Intro to HTML</td>
-      <td>5. Layout with CSS</td>
-    </tr>
-    <tr>
-      <td>2. More HTML, file paths</td>
-      <td>6. HTML Tables</td>
-    </tr>
-    <tr>
-      <td>3. Site structure and navigation</td>
-      <td>7. HTML Forms</td>
-    </tr>
-    <tr>
-      <td>4. Formatting with CSS, Midterm</td>
-      <td>8. Multimedia, Final</td>
-    </tr>
-    </tbody>
-</table>
-
-| Weeks 1-5 | Weeks 6-11 |
-| :--- | :--- |
-| 1. Intro to HTML | 6. Layout with CSS |
-| 2. More HTML, file paths | <mark>7. CSS Flexbox and Grid</mark> |
-| 3. Site structure and navigation | 8. HTML Forms |
-| 4. Formatting with CSS | 9. Multimedia |
-| 5. Midterm, Project Propposal | 10. Tables, Project Completion |
-|  | 11. Final |
-
-[Topics by Week for the Ten-Week Term]
-
-
-
 <h2>Contents</h2>
 
 [TOC]
-
-## Q and A
-
--   Update on CSS background images:
-    -   CSS `background-size: contain` and `cover` don't work on `body`, you need to use a `div`, or other structural element like `section`. 
-    
--   Winter registration is open!  
-    <a href="https://lcc-cit.github.io/CS133JS-CourseMaterials/LectureNotes/CS133JS-LN-W06-DX-NextSoftwareDevClasses.html" target="_blank">Upcoming classes</a> for the Software Development AAS degree program 
--   Lab 5 on Positioning&mdash; any questions?
-    -   Code review due today.
-    -   Production version due Thursday.
-
--   Does anyone have any other questions about anything?
 
 ## Grid Container Elements
 
 The CSS *grid* is used to position elements on a page. 
 
 - The grid needs to be created inside some *container element*.  
-- The container can be any element that can hold other elements, like `div` or  `section`.
-- The `display: grid` or `display: inline-grid`  property must be applied to the container. 
-
-  This is what makes the element a container for a grid!
+- The container can be any block element like `div` or  `section`. But, note that `p` and `h1`&ndash;`h6` elements cannot contain a `div`.
+- The `display: grid` or `display: inline-grid`  CSS property must be applied to the container. This is what makes the element a container for a grid!
 
   - The `grid-template-columns` property determines the width and number of columns.
 
@@ -108,14 +52,14 @@ Note that the three `auto` values in  `grid-template-columns: auto auto auto` ar
 
 ## Grid Rows and Columns
 
-- Columns; the number of columns and the width of each column are specified using the `grid-template-column` property as seen above. It can have the following values:
+- Columns: the number of columns and the width of each column are specified using the `grid-template-columns` property as seen above. It can have the following values:
   - `auto`:  the width is determined automatically.
-  - `max-content`:  the width is determined by the largest item in the column.
-  - `min-content`:  the width is determined by the smallest item in the column.
-  - numeric value:  any valid CSS width value with units including px, pt, in, em, %, etc.
-- Rows: The height is specified by the `grid-template-row` property.
+  - `max-content`:  the width is determined by the widest item in the column.
+  - `min-content`:  the width is determined by the narrowest item in the column.
+  - numeric value:  any valid CSS width value with units including px, pt, in, em, fr, or %.
+- Rows: the height is specified by the `grid-template-rows` property.
   - This property can have all the same values as those shown above.
-  - If there are more rows than values, the last value will be applied to the rest of the rows.
+  - If there are more rows than values, `grid-auto-rows` (default `auto`), will be applied to size the rest of the rows.
 
 Example:
 
@@ -156,11 +100,11 @@ A gap is like a combination of padding and margin in the CSS box model; it's jus
   - `gap`: sets both the column and row gaps[^1].
 
 
-![](Images/CSS_GirdGaps.png)
+![A grid of nine boxes in three rows and three columns. The space between columns is labeled "Column Gap" and the space between rows is labeled "Row Gap".](Images/CSS_GridGaps.png)
 
 - **Grid lines** are invisible lines that you can use to align things on your grid. They are numbered from left to right and from top to bottom.
 
-  ![](Images/CSS_GridLines.png)
+  ![A grid of nine boxes in three rows and three columns. The four vertical grid lines are numbered 1 to 4 from left to right, and the four horizontal grid lines are numbered 1 to 4 from top to bottom.](Images/CSS_GridLines.png)
 
 An element can be made to span multiple columns using the column lines as a reference; for example:
 
@@ -233,9 +177,15 @@ The `grid-template-areas` property in CSS is used to position structural element
   </div>
 ```
 
-In this example, the `div` is a grid container that contains a grid with six areas that are specified by the `grid-template-areas` CSS property.  The grid items are placed in the grid container using the `grid-area` CSS property.  The grid items are not placed in the grid container in the order they appear in the HTML.  Their order is determined by the order of area names in the `grid-template-areas` CSS property.  
+In this example, the `div` is a grid container with six named areas: `header`, `menu`, `main`, `section`, `sidebar` and `footer`. The `grid-template-areas` property draws a map of the layout, with one quoted string for each row. Each grid item is then assigned to an area with the `grid-area` property.
 
-Each `grid-area` name should only be applied to one element.  Note that the `grid-template-areas` names don't need to match the element names.  
+- **Position comes from the template, not the HTML order.** Each element goes wherever its `grid-area` name appears in the template. The order of the elements in the HTML source doesn’t change where they are placed.
+- **Repeating a name makes an area span cells.** In the example, `header` spans all three columns of the first row, and `sidebar` spans the second and third rows of the last column.
+  - **When spanning cells, each area must be a rectangle.** An L-shaped or split area is not valid, and the whole `grid-template-areas` value is ignored.
+- **Every row must have the same number of cells.** Here, each string has three names, so the grid has three columns.
+- **Use a period (`.`) for an empty cell.** For example, `'menu . sidebar'` leaves the middle cell empty.
+- **Give each name to only one element.** If two elements share a name, they are placed in the same area and overlap.
+- **Area names are your choice.** They don’t have to match the element names. For example, the `<nav>` element above is placed in the area named `menu`.
 
 
 
@@ -259,6 +209,6 @@ Open the example web page in your browser and use the *View Source* feature to l
 
 ------
 
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes, written by <a href="https://profbird.dev" target="_blank">Brian Bird</a> in <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes, written by <a href="https://profbird.dev" target="_blank">Brian Bird</a> in 2023 and revised in <time>2026</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
-[^1]: The CSS2 property `grid-gap`, is now deprecated and replaced by the CSS3 property `gap`.
+[^1]: the older name `grid-gap` is now a legacy alias for `gap`.
