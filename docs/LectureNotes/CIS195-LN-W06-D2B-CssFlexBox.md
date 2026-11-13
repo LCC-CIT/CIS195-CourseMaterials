@@ -1,7 +1,7 @@
 ---
 
 title: CSS Flexbox
-description: Layout with CSS flex box. 
+description: Layout with CSS flexbox. 
 keywords: flex
 material: Lecture Notes
 generator: Typora
@@ -11,8 +11,6 @@ author: Brian Bird
 **CIS195 Web Authoring 1: HTML**
 
 <h1>CSS Flexbox</h1>
-
-
 
 
 <h2>Contents</h2>
@@ -97,7 +95,7 @@ Aligns the flex items in a direction at right angles to the container direction 
 Value options:
 
 - `normal`: Default value. Items are stretched to take up the available space.  
-  We can only see the effect if we give the container some additional height .  
+  We can only see the effect if we give the container some additional height.  
   (This is the same as `stretch` for flexbox containers.)
 
   <div style="display:flex; align-items: normal; border:solid; height: 200px;">
@@ -108,9 +106,9 @@ Value options:
 
 - `stretch`: Items are stretched to take up the available space.  
   
-- `center`: Items are in the vertical center of a horizontal flex container.  
+- `center`: Items are centered along the cross axis (vertically in a row container, horizontally in a column container).  
   
-  - To see this effect on a horizontal flexbox, we need to give the items a fixed height.
+  - To see this effect clearly on a horizontal flexbox, we can give the items a fixed height (or let them size to their content).
   
     <div style="display:flex; flex-direction: row; align-items: center; border: solid; height: 200px;">
   	<p style="border:solid; height: 50px;">Paragraph 1</p>
@@ -118,7 +116,7 @@ Value options:
   	<p style="border:solid; height: 50px;">Paragraph 3</p>
   </div>
   
-  - To see this effect on a vertical flexbox, we need to give the items a fixed width.
+  - To see this effect clearly on a vertical flexbox, we can give the items a fixed width.
 
     <div style="display:flex; flex-direction: column; align-items: center; border: solid; height: 200px;">
     <p style="border:solid; width: 100px;">Paragraph 1</p>
@@ -126,7 +124,7 @@ Value options:
     <p style="border:solid; width: 100px;">Paragraph 3</p>
     </div>
 
-- `flex-start`: 	Items are stacked at the start of the flex container  
+- `flex-start`: Items are aligned at the start of the cross axis (top in a row container, left in a column container).  
   
   <div style="display:flex; align-items: flex-start; border: solid; height: 200px;">
   	<p style="border:solid; height: 50px;">Paragraph 1</p>
@@ -134,7 +132,7 @@ Value options:
   	<p style="border:solid; height: 50px;">Paragraph 3</p>
   </div>
 
-- `flex-end`: Items are stacked at the end of the flex container  
+- `flex-end`: Items are aligned at the end of the cross axis (bottom in a row container, right in a column container).  
 
   <div style="display:flex; align-items: flex-end; border: solid; height: 200px;">
   	<p style="border:solid; height: 50px;">Paragraph 1</p>
@@ -142,24 +140,28 @@ Value options:
   	<p style="border:solid; height: 50px;">Paragraph 3</p>
   </div>
 
-- `baseline`: Items are stacked at the baseline of the flex container  
+- `baseline`: Items are aligned along their text baselines.  
 
-  <div style="display:flex; align-content: baseline; border: solid; height: 200px;">
-  	<p style="border:solid; height: 50px;">Paragraph 1</p>
-  	<p style="border:solid; height: 50px;">Paragraph 2</p>
-  	<p style="border:solid; height: 50px;">Paragraph 3</p>
+  <div style="display:flex; align-items: baseline; border: solid; height: 200px;">
+  	<p style="border:solid; font-size: 26px;">Paragraph 1</p>
+  	<p style="border:solid; font-size: 14px;">Paragraph 2</p>
+  	<p style="border:solid; font-size: 18px;">Paragraph 3</p>
   </div>
 
 
 
 ### `align-content`
 
-Aligns the flex items in a direction at right angles to the container direction.  
-This property determines the spacing between lines, while `align-items` determines how a group of items are aligned within the container. When there is only one line, this property has no effect. One way to get multiple lines is by applying the property `flex-wrap:wrap;`.
+Aligns flex lines along the cross axis when there is extra space in the container.  
+This property determines the spacing between lines, while `align-items` determines how items are aligned within each line. When there is only one line, this property has no effect. One way to get multiple lines is by applying the property `flex-wrap: wrap;`.
+
+Common values: `stretch` (default), `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`.
 
 ### `justify-content`
 
-Used to align the flexbox items in a row. This has no effect when the flex-direction is column.
+Aligns flex items along the **main axis**:
+- For `flex-direction: row` (or `row-reverse`), items are aligned horizontally.
+- For `flex-direction: column` (or `column-reverse`), items are aligned vertically (requires the container to have a specified height or extra vertical space to distribute).
 
 
 Value options:
@@ -210,30 +212,34 @@ Value options:
 
 - `space-evenly`: Items will have equal space around them.  
 
-- <div style="display:flex; justify-content: space-evenly; border:solid;">
-  <p style="border:solid;">Paragraph 1</p>
+  <div style="display:flex; justify-content: space-evenly; border:solid;">
+  	<p style="border:solid;">Paragraph 1</p>
   	<p style="border:solid;">Paragraph 2</p>
   	<p style="border:solid;">Paragraph 3</p>
   </div>
 
 
 
-## Flexbox Flow Properties
+## Flexbox Flow and Spacing Properties
 
-- `flex-wrap`  Determines whether or not flex items wrap within the flex container.
-
-- `flex-flow`  Shorthand for setting both the `flex-direction` and `flex-wrap` properties.
+- `flex-wrap`: Determines whether flex items wrap onto multiple lines within the flex container. Values: `nowrap` (default), `wrap`, `wrap-reverse`.
+- `flex-flow`: Shorthand for setting both the `flex-direction` and `flex-wrap` properties.
+- `gap`: Sets the spacing (gutters) between flex items without using margins. Can also use `row-gap` and `column-gap`.
 
 ## Flex Item Properties
 
-These are properties you can apply to individual items within a flexbox container.
+These are properties you can apply to individual items within a flexbox container:
 
-- `order`  Moves the item to a different position.
-- `align-self`  This property accepts the same values as align-items.
+- `order`: Changes the visual order of an individual item (default is `0`).
+- `align-self`: Overrides the container's `align-items` value for a single item (accepts the same values as `align-items`).
+- `flex-grow`: Determines how much an item will grow relative to other flex items when extra space is available (default is `0`).
+- `flex-shrink`: Determines how much an item will shrink relative to other flex items when space is constrained (default is `1`).
+- `flex-basis`: Specifies the default size of an item before remaining space is distributed (e.g., `auto`, `200px`, `25%`).
+- `flex`: Shorthand for `flex-grow`, `flex-shrink`, and `flex-basis` combined (e.g., `flex: 1;` or `flex: 0 1 auto;`).
 
-# References
+## References
 
-* <a href="https://flaviocopes.com/book/css/#32-flexbox" target="_blank">Chapter 32. Flexbox</a>, in *The CSS Handbook*, by Falvio Copes
+* <a href="https://flaviocopes.com/book/css/#32-flexbox" target="_blank">Chapter 32. Flexbox</a>, in *The CSS Handbook*, by Flavio Copes
 
 * <a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">W3Schools: Flexbox </a>
 

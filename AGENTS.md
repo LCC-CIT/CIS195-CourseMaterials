@@ -19,3 +19,7 @@ This repository contains the course materials, lecture notes, lab instructions, 
 ### 3. File & Link Integrity
 - Preserve existing document formatting, headers, and creative commons copyright notices at the bottom of markdown instruction files.
 - When moving or renaming lab files, ensure relative links to rubrics, example assets (PDFs, images), and lecture notes are updated accordingly.
+
+### 4. Git Synchronization Check
+- Always verify whether the local repository has the latest commits pulled from GitHub (e.g., check `git status` / compare with remote tracking branch).
+- Alert the user immediately if the local branch is behind the remote so they can pull the latest changes before work proceeds.
