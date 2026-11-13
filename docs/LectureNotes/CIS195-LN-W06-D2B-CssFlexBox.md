@@ -8,7 +8,7 @@ generator: Typora
 author: Brian Bird
 ---
 
-**CIS195 Web Authoring 1: HTML**
+**CIS 195 Web Authoring 1: HTML**
 
 <h1>CSS Flexbox</h1>
 
@@ -19,7 +19,7 @@ author: Brian Bird
 
 ## Introduction
 
-Flexbox is used to control the layout of elements in one dimension, either horizontally or vertically. This is one of the main differences from the CSS grid, which controls layout in two dimensions.
+Flexbox is a CSS layout mode used to control the layout of elements in one dimension, either horizontally or vertically. This is one of the main differences from the CSS grid, which controls layout in two dimensions.
 
 ## Defining a Flexbox Container
 

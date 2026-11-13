@@ -60,7 +60,7 @@ Both sections use the same Canvas course materials, labs, quizzes, and term proj
 
 # Introduction to Canvas
 
-Canvas is Lane Community College's learning management system and is where you will find all the content and activities for this course. Log in at <a href="https://canvas.lanecc.edu" target="_blank">canvas.lanecc.edu</a>. If you are new to Canvas, the <a href="https://community.canvaslms.com/t5/Student-Guide/tkb-p/student" target="_blank">Canvas Student Guide</a> explains how to use all of its features.
+Canvas is Lane Community College's learning management system and is where you will find all the content and activities for this course. Log in at <a href="https://canvas.lanecc.edu" target="_blank">canvas.lanecc.edu</a>. If you are new to Canvas, the <a href="https://community.instructure.com/en/instructure/kb/articles/661192-student-getting-started-resources" target="_blank">Canvas Student Guide</a> explains how to use all of its features.
 
 Tips for using Canvas:
 
