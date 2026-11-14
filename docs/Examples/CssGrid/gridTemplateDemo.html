@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Grid Template Example</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-areas:
+            '. header .'
+            'menu main sidebar'
+            'section section sidebar'
+            '. footer .';
+    }
+</style>
+
+<body>
+
+</body>
+<div class="container">
+    <header style="grid-area: header;">
+        This is the header element. Here's some more content. Will it overflow, or wrap, or what?
+    </header>
+    <nav style="grid-area: menu;">
+        link1, link2, link3
+    </nav>
+    <main style="grid-area: main;">
+        main, this is the main element.
+    </main>
+    <section style="grid-area: section;">
+        section, oh yeah, this section needs more content.
+        This isn't exciting content, but it does fill the page with something!
+    </section>
+    <aside style="grid-area: sidebar;">
+        sidebar: this is where we put some additional information and this should just appear to the right side of the
+        menu and the section.
+    </aside>
+    <footer style="grid-area: footer;">
+        footer: put your footer info here
+    </footer>
+</div>
+
+</html>
