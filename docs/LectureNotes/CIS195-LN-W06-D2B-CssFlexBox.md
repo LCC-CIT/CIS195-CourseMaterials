@@ -107,7 +107,7 @@ Value options:
   
 - `center`: Items are centered along the cross axis (vertically in a row container, horizontally in a column container).  
   
-  - To see this effect clearly on a horizontal flexbox, we can give the items a fixed height (or let them size to their content).
+  - To see this effect on a horizontal flexbox, we can give the items a fixed height (or let their size come from their content).
   
     <div style="display:flex; flex-direction: row; align-items: center; border: solid; height: 200px;">
   	<p style="border:solid; height: 50px;">Paragraph 1</p>
@@ -115,7 +115,7 @@ Value options:
   	<p style="border:solid; height: 50px;">Paragraph 3</p>
   </div>
   
-  - To see this effect clearly on a vertical flexbox, we can give the items a fixed width.
+  - To see this effect on a vertical flexbox, we can give the items a fixed width.
 
     <div style="display:flex; flex-direction: column; align-items: center; border: solid; height: 200px;">
     <p style="border:solid; width: 100px;">Paragraph 1</p>
