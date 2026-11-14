@@ -18,7 +18,7 @@ author: Brian Bird
 
 ## Introduction
 
-Flexbox is a CSS layout mode used to control the layout of elements in one dimension, either horizontally or vertically. This is one of the main differences from the CSS grid, which controls layout in two dimensions.
+The flexible box model, or *flexbox* is a CSS layout mode used to control the layout of elements in one dimension, either horizontally or vertically. This differs from the CSS grid, which controls layout in two dimensions.
 
 ## Defining a Flexbox Container
 
@@ -152,7 +152,9 @@ Value options:
 ### `align-content`
 
 Aligns flex lines along the cross axis when there is extra space in the container.  
-This property determines the spacing between lines, while `align-items` determines how items are aligned within each line. When there is only one line, this property has no effect. One way to get multiple lines is by applying the property `flex-wrap: wrap;`.
+This property determines the spacing between lines, while `align-items` determines how items are aligned within each line. 
+
+This property only has an effect on multi-line flex containers (i.e., ones with `flex-wrap: wrap`).
 
 Common values: `stretch` (default), `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`.
 
