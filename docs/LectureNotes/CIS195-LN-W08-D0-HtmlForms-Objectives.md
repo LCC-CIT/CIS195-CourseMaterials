@@ -34,11 +34,21 @@ You will learn how to add a form to your web page so that someone can open your 
 - Use selection lists and option buttons
 - Validate form input using HTML5 input types, the required attribute, and patterns
 
+## Announcements
+
+- **Drop-in Winter Reg Fest** on Tuesday, Dec. 1 from 9am&ndash;2pm in Building 1, Admissions 102.
+  Get help with admissions, financial aid, academic advising and registration.
+  Plan to arrive before 1pm.
+- **Week 8 is the last week to drop a class or change grade options**
+  This <u>Friday, November 20</u> is the last day to make fall term schedule changes. This includes adding or dropping a course, withdrawing or changing grading methods. 
+  **Note**: Students should <u>always</u> consult [an academic advisor](https://www.lanecc.edu/get-support/academic-support/academic-advising) and/or [financial aid](https://www.lanecc.edu/costs-admission/paying-college/financial-aid) representative before making these changes, especially withdrawing. These types of changes can potentially have implications for academic progress and/or financial aid awards. 
+
 ### This Week's ToDo List
 
 - Take reading quiz 7 by Thursday, Nov. 19.
 - Submit Lab 6 by Thursday, Nov. 19.
-- Start Lab 7: An HTML Form. Due date: TBD.
+- Start Lab 7: An HTML Form. Due date: Sunday, Nov. 29.
+  This is due on a Sunday instead of the usual Thursday since Thursday is a holiday.
 
 <div style="clear: both;"></div>
 
