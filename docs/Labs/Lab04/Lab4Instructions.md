@@ -2,7 +2,7 @@
 
 ## Using CSS to Format Web Pages
 
-In this lab assignment you will practice using what you learned about CSS this week by applying it to the multi-page review web site you made for a previous lab.
+In this lab assignment you will practice using what you learned about CSS this week by applying it to the multi-page review web site you made for lab 2.
 
 ### Part 1: A style sheet for a single page
 
@@ -16,20 +16,30 @@ You will add CSS to the home page for the review site.
 
 You will create an external style sheet that you will apply to the whole web site, including the home page that already has an embedded style sheet.
 
-1. Create a *external style sheet* (.css file) with:
+1. Create an *external style sheet* named *site.css* with:
    - At least eight <u>rules</u>.
    - At least four different <u>types</u> of selectors including:
      - A single HTML element as a selector.
-     - Multiple HTML elements as selector (contextual selector).
+     - A contextual (descendant) selector, such as `nav a` (not a group selector like `h1, h2`).
      - An id as a selector.
      - A class as a selector.
-   - At least four different <u>property types</u> (color, font-face, text-align, etc.) across all the rules.
+   - At least four different <u>property types</u> (color, font-family, text-align, etc.) across all the rules.
 2. Link the external style sheet to every HTML page in your site.
    - Each HTML page should be affected by at least one of the style rules in the external style sheet.
 
-Note: The home page will now have two style sheets (an embedded one and an external one). If there are rules in both style sheets with the same selectors and those rules have one or more of the same properties, the ones in the embedded style sheet will take precedence.
+Note: The home page will now have two style sheets (an embedded one and an external one). If there are rules in both style sheets with the same selectors and those rules have one or more of the same properties, the rule that comes *last* in the `head` wins. Put the `<style>` element *after* the `<link>` element so that the embedded rules take precedence.
 
-Check your pages using the <a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>  and the <a href="http://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a>.
+Here's what the folder structure will look like now:
+
+- Lab4
+  - index.html  (home page)
+  - site.css  (CSS for the whole site)
+  - reviews
+    - review HTML files
+  - images
+    - all image files
+
+Check your pages using the <a href="https://validator.w3.org" target="_blank">W3C HTML Validator</a>  and the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a>.
 
 
 
@@ -37,15 +47,16 @@ Check your pages using the <a href="https://validator.w3.org" target="_blank">W3
 
 ### Uploading to Canvas
 
-- Zip the files that make up your review web site (which includes those from parts 1 and 2) into a single zip file.  
-  (The zip file should contain: index.html, three review .html pages, and a .css file.)
+- Zip your *Lab4* folder (which includes your work from parts 1 and 2) into a single zip file.  
+  (The zip file should contain index.html, site.css, and the *reviews* and *images* folders with all their files.)
 
 - Upload the zip file to Canvas using the lab submission link.
 
 ### Publishing to citstudent
 
 - Use FileZilla to upload a folder named *Lab4*, containing your web site, to citstudent.
-- Record the URL of your home page so that you can enter it on Canvas.
+- Record the URL (web address) of your home page and enter it in the "Online Text" box for this assignment on Canvas.  
+  Hint: remember that *public_html* is <u>not</u> part of the URL.
 
 ## Reference
 
