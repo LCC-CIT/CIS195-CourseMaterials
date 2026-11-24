@@ -1,27 +1,27 @@
 ---
-title: Multimedia
-description: Multimedia
-keywords: audio, video, iframe
+title: HTML Audio and Video
+description: Audio and video file formats and how to embed them in a web page using an HTML element.
+keywords: audio, video, codecs, MP3, AAC, Ogg Vorbis, H.264, MP4,  Theora, VP8, VP9, FLAC, WAV, source
 material: Lecture Notes
 generator: Typora
 author: Brian Bird
 ---
 **CIS195 Web Authoring 1: HTML**
 
-<h1>Multimedia</h1>
+<h1>HTML Multimedia</h1>
 
 
 <h2>Contents</h2>
 
 [TOC]
 
-# HTML Audio
+## HTML Audio
 
-## Audio Codecs
+### Audio Codecs
 
 - MP3
   - Compression to around 10% the original size
-  - Supported by: Internet Explorer, Chrome, Firefox, Safari, and IE
+  - Supported by: Internet Explorer, Chrome, Firefox, and Safari
   - Proprietary, royalty fees charged to browser makers
 - AAC (Advanced Audio Coding)
   - The standard format for all Apple products (Mac, iPad, iPhone, etc.) 
@@ -29,7 +29,7 @@ author: Brian Bird
   - Potentially better sound quality than MP3
 - Ogg Vorbis
   - Better sound quality than MP3
-  - Supported by: Chrome, Firefox and Oprea
+  - Supported by: Chrome, Firefox and Opera
   - Open source, royalty-free
 - Flac (Free Lossless Audio Codec)
   
@@ -39,12 +39,12 @@ author: Brian Bird
   
 - WAV
   - No compression, no loss in sound quality
-  - Supported by: Chrome, Firefox, Safari and Oprea
+  - Supported by: Chrome, Firefox, Safari and Opera
   - Open source, royalty-free
 
   
 
-## HTML `<audio>` Element 
+### HTML `<audio>` Element 
 
 ```
 <audio src="audioUrl"> </audio>
@@ -69,7 +69,7 @@ author: Brian Bird
 - src
   The URL of the audio to embed. 
 
-### HTML `<source>` Element - Provide Alternate Files
+#### HTML `<source>` Element - Provide Alternate Files
 
 You may wish to have more than one src URL listed in case a user's browser doesn't support the audio type of your file.
 ```html
@@ -81,10 +81,9 @@ You may wish to have more than one src URL listed in case a user's browser doesn
 
 
 
+## HTML Video
 
-# HTML Video
-
-## Video Codecs
+### Video Codecs
 
 
 - H.264
@@ -109,84 +108,32 @@ You may wish to have more than one src URL listed in case a user's browser doesn
   - Same video quality as VP8 at half the download size
   - Supported by Chrome, Firefox and Opera
 
-## HTML `<video>` Element
+### HTML `<video>` Element
 
 ```html
 <video src="videoUrl"> </video>
 ```
 
 
-# HTML iFrame 
 
-- Means "inline frame"
-- A way of embedding a web page (or other document) inside of a web page.
-  In the example below, the embedded web page is [butterflies.html](butterflies.html)
-- Reference: <a href="https://www.w3schools.com/tags/tag_iframe.asp" target="_blank">w3schools iframe</a>
-## Example: Embedding a Web Page
-
-Note that some web sites will block embedding of their web pages. In this example, I'm embedding one of my own web pages.
-
-```html
-<iframe width="400" height="200" src="butterflies.html"></iframe> 
-```
-  <iframe width="400" height="200" src="butterflies.html"></iframe> 
-
-## Example: Embedding a YouTube Video
-
-Note that the link for the YouTube video is not the general URL, but the *embed* link provided on the YouTube page.
-
-```html
-<iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ' title='Descriptive title of the video'></iframe>
-```
-<iframe width='500' src='https://www.youtube.com/embed/5K3w7CKkeOQ' title='Descriptive title of the video'></iframe>
-
-
-
-# Making Multimedia Accessible
-
-Audio and video are not usable by everyone. People who are deaf or hard of hearing can't hear audio, people who are blind or have low vision can't see video, and people using screen readers or keyboards need controls they can operate. Build accessibility in from the start:
-
-- **Provide playback controls.** Always include the `controls` attribute so users can pause, adjust the volume, and seek, with a mouse or the keyboard. Avoid `autoplay`, especially with sound, because it interferes with screen readers and can be disorienting.
-- **Provide a text alternative.** Offer a transcript of audio, or a transcript of the spoken words and important visual information in a video. Link to it near the media element.
-- **Add captions to video.** Use the `<track>` element to attach a captions file (WebVTT format, `.vtt`) to a `<video>` element:
-
-  ```html
-  <video controls>
-    <source src="lecture.mp4" type="video/mp4">
-    <track kind="captions" src="lecture-en.vtt" srclang="en" label="English" default>
-    Your browser does not support the video element.
-  </video>
-  ```
-
-  The text inside the `<video>` element is fallback content, shown only by browsers that don't support the `<video>` element.
-- **Give iframes a descriptive `title`.** Screen readers announce the `title` attribute to tell users what an embedded frame contains.
-
-  ```html
-  <iframe width="500" src="https://www.youtube.com/embed/5K3w7CKkeOQ"
-          title="Descriptive title of the video"></iframe>
-  ```
-
-- **Don't rely on a single sense.** Information that is only in the sound or only in the picture is missed by some users. Make sure the transcript or captions carry it.
-
-Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track" target="_blank">`<track>`: The Embed Text Track element</a> (MDN)
-
-
-
-# References and Resources
+## References and Resources
 
 - Mozilla Developer Network (MDN) Reference and Tutorials:
   -  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats" target="_blank">Media formats for HTML audio and video</a>
   - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">`<audio>`: The Embed Audio element</a>
   - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">`<video>`: The Video Embed element</a> 
-  - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank">`<iframe>`: The Inline Frame element</a>
-
+  
 - <a href="https://archive.org/" target="_blank">Internet Archive</a>  Internet Archive is a non-profit library of millions of free books, movies, music, and more. A good source for multimedia files to use in your web sites.
+
+- Related lecture notes:
+  - [HTML iFrames and Accessible Multimedia](CIS195-LN-W09-D1C-IFrames+Accessibility.md)
+
+
 
 
 ------
 
 <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a>
-Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> 2018, revised <time>2023</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
+Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a> 2018, revised <time>2026</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 ------
-

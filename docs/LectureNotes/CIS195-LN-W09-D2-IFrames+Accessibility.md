@@ -74,12 +74,11 @@ Audio and video are not usable by everyone. People who are deaf or hard of heari
 - Mozilla Developer Network (MDN) Reference and Tutorials:
   - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank">`<iframe>`: The Inline Frame element</a>
   - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track" target="_blank">`<track>`: The Embed Text Track element</a>
-
 - <a href="https://www.w3schools.com/tags/tag_iframe.asp" target="_blank">w3schools iframe</a>
-
 - Related lecture notes:
-  - [HTML Audio](CIS195-LN-W09-D1A-Audio.html)
-  - [HTML Video](CIS195-LN-W09-D1B-Video.html)
+  - [HTML Audio and Video](CIS195-LN-W09-D1-Audio+Video.md)
+
+
 
 
 ------
