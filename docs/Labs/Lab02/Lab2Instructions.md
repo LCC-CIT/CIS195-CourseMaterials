@@ -14,8 +14,8 @@ The objective of this part of the lab is to give you practice using basic HTML e
 
 Create a single web page that presents a review of something of your choice and that uses each of the following HTML elements:
 
-- A`<blockquote>` element.
-- A`<figure>` and `<figcaption>` elements.
+- A `<blockquote>` element.
+- A `<figure>` element with a `<figcaption>`.
 - One or more special characters like &hearts;.
 - A nested list.
 - A horizontal rule.
@@ -38,14 +38,17 @@ Create a review site that contains <u>a home page</u> and at <u>least three revi
 
 - The home page will have links to the three review pages.
 
-- Put the review pages and images in separate folders
+- Put the review pages and images in separate folders. Use all lowercase folder names&mdash;the citstudent web server is case-sensitive, so *Images* and *images* are different folders.
 
   - All the review page files will be in a sub-folder named *reviews*.
   - All the image files will be in a sub-folder named *images*.
   - Here is an outline of the folder structure:
     - Lab2
-      - Reviews
-      - Images
+      - index.html  (home page)
+      - reviews
+        - review HTML files
+      - images
+        - all image files
 
 - Each review page should have at least one figure containing an image.
 
@@ -67,8 +70,19 @@ Check your pages using the <a href="https://validator.w3.org" target="_blank">W3
 
   
 
-## Grading
+## Grading Criteria
 
 Here is a link to the grading rubric that I will use to grade your assignment:
 
 [Lab2Rubric-CS195](Lab2Rubric-CS195.htm)
+
+
+
+------
+
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lab Instructions by [Brian Bird](https://profbird.dev), 2017, revised <time>2026</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
+
+------------
+
+
+

@@ -18,3 +18,7 @@
 /LectureNotes/static/css/image\.jpg$
 # Placeholder form action in a form demo; it's never meant to be submitted
 /Examples/demo_form_action\.asp$
+# ascii-code.com often times out from GitHub's runners
+^https://www\.ascii-code\.com/
+# Link in the vendored reveal.js theme README. GitHub sometimes answers 503 to CI requests for blob pages
+^https://github\.com/hakimel/reveal\.js/blob/master/css/theme/template/settings\.scss$
