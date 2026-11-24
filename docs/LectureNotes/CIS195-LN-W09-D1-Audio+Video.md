@@ -126,7 +126,7 @@ You may wish to have more than one src URL listed in case a user's browser doesn
 - <a href="https://archive.org/" target="_blank">Internet Archive</a>  Internet Archive is a non-profit library of millions of free books, movies, music, and more. A good source for multimedia files to use in your web sites.
 
 - Related lecture notes:
-  - [HTML iFrames and Accessible Multimedia](CIS195-LN-W09-D1C-IFrames+Accessibility.md)
+  - [HTML iFrames and Accessible Multimedia](CIS195-LN-W09-D2-IFrames+Accessibility.md)
 
 
 
