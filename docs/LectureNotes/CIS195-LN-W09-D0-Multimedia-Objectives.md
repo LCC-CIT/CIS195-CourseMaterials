@@ -37,13 +37,21 @@ This week you will learn about multimedia on the web and how to add it to your w
 - Evaluate a classmate's term project and give constructive written feedback using the code review form
 - Use the feedback you receive to improve your own project
 
+
+
+## Announcements
+
+- **Register for Winter term**: Registration is open for next term. See the [Registration, Schedules, and the Academic Calendar](https://www.lanecc.edu/programs-academics/registration-schedules-and-academic-calendar) web page for more information and registration links.
+- **Drop-in Winter Reg Fest** on Tuesday, Dec. 1 from 9am–2pm in Building 1, Admissions 102. Get help with admissions, financial aid, academic advising and registration. Plan to arrive before 1pm.
+
+
+
 ### This Week's ToDo List
 
-- Take reading quiz 8. Due date: TBD.
-- Submit Lab 7. Due date: TBD.
-- Start Lab 8: Multimedia. Due date: TBD.
+- Take reading quiz 8 by Thursday, 11/26.
+- Submit Lab 7 by Thursday, 11/26.
+- Start Lab 8: Multimedia. Due date: Thursday 12/3.
 - Do a peer review of a classmate's term project using the [code review form](../TermProject/TermProjectCodeReview.docx).
-- There is no class on Thursday, Nov. 26. The college is closed for Thanksgiving, Thursday through Sunday.
 
 <div style="clear: both;"></div>
 
