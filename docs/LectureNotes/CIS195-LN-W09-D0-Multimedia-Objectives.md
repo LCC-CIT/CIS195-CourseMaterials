@@ -42,7 +42,20 @@ This week you will learn about multimedia on the web and how to add it to your w
 ## Announcements
 
 - **Register for Winter term**: Registration is open for next term. See the [Registration, Schedules, and the Academic Calendar](https://www.lanecc.edu/programs-academics/registration-schedules-and-academic-calendar) web page for more information and registration links.
-- **Drop-in Winter Reg Fest** on Tuesday, Dec. 1 from 9am–2pm in Building 1, Admissions 102. Get help with admissions, financial aid, academic advising and registration. Plan to arrive before 1pm.
+
+  - **Drop-in Winter Reg Fest** on Tuesday, Dec. 1 from 9am–2pm in Building 1, Admissions 102. Get help with admissions, financial aid, academic advising and registration. Plan to arrive before 1pm.
+
+  - **AAS in Software Development**: If you are pursuing this degree, these are the recommended first-year winter term courses:
+
+    - WR 121Z, Composition 1 (or MTH 95 or WR 227Z)
+    - CS 161N, Computer Science 1: C# (only offered in winter)
+    - CS 133JS, Beginning Programming: JavaScript (only offered in winter)
+    - A directed elective (see the electives list in the planner below)
+
+    Relevant links:
+    - <a href="https://lanecc.smartcatalogiq.com/en/current/lcc-catalog/programs-of-study/computer-information-technology/software-development-aas" target="_blank">Degree Requirements</a> for AAS in Software Dev
+    - <a href="https://docs.google.com/document/d/1F8CJY1M7A4J9uJtGRDFRyF-0j7l2AVe0vpPE5vcfHXE/edit?tab=t.0" target="_blank">Term-By-Term Sample Planner</a> for AAS in Software Dev
+    - <a href="https://lanecc.edu/advising" target="_blank">Academic Advising</a>
 
 
 
