@@ -233,7 +233,9 @@ This is a "normal" term with ten weeks of class plus a final exam week (week 11)
 - [Overview](LectureNotes/CIS195-LN-W09-D0-Multimedia-Objectives.html)
 
 - Lecture Notes
-  - [Multimedia for Web Sites](LectureNotes/CIS195-LN-W09-D1-Multimedia.html)
+  - [HTML Audio](LectureNotes/CIS195-LN-W09-D1A-Audio.html)
+  - [HTML Video](LectureNotes/CIS195-LN-W09-D1B-Video.html)
+  - [HTML iFrames and Accessible Multimedia](LectureNotes/CIS195-LN-W09-D1C-IFrames+Accessibility.html)
 - Lab Assignment
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Instructions.html" target="_blank">Lab 8 Instructions</a>
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/Labs/Lab08/Lab8Rubric-CIS195.htm" target="_blank">Lab 8 Rubric</a>
