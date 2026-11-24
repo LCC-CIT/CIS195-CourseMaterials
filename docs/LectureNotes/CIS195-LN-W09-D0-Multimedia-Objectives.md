@@ -48,13 +48,16 @@ This week you will learn about multimedia on the web and how to add it to your w
 
 ### This Week's ToDo List
 
-- Take reading quiz 8 by Thursday, 11/26.
-- Submit Lab 7 by Thursday, 11/26.
-- Start Lab 8: Multimedia. Due date: Thursday 12/3.
-- Do a peer review of a classmate's term project using the [code review form](../TermProject/TermProjectCodeReview.docx).
+- Take reading quiz 8 by Sunday, 11/29.
+- Submit Lab 7 by Sunday, 11/29.
+- Do a peer review of a classmate's term project by Sunday, 11/29  
+  Use this [code review form](../TermProject/TermProjectCodeReview.docx).
+- Start Lab 8: Multimedia (due date: Thursday 12/3).
 
 <div style="clear: both;"></div>
 
 ------
 
 <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a> Web Authoring Lecture Notes by <a href="https://profbird.dev" target="_blank">Brian Bird</a>, 2018, revised <time>2026</time>, are licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+---
