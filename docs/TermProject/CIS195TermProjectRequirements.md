@@ -31,3 +31,5 @@ The project must include the following:
   - At least one of the pages must contain a table with at least two columns and at least two rows.  The table must contain column headings.
 
   - Each page should include section, article, and header semantic elements.
+
+See the [Term Project Grading Rubric](TermProjectRubric-CIS195.htm) for details on how the project will be graded.

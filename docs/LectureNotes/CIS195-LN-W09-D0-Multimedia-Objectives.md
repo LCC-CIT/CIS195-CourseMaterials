@@ -65,7 +65,7 @@ This week you will learn about multimedia on the web and how to add it to your w
 - Submit Lab 7 by Sunday, 11/29.
 - Do a peer review of a classmate's term project by Sunday, 11/29  
   Use this [code review form](../TermProject/TermProjectCodeReview.docx).
-- Start Lab 8: Multimedia (due date: Thursday 12/3).
+- Start Lab 8: Multimedia (due date: Thursday, 12/3).
 
 <div style="clear: both;"></div>
 
