@@ -63,9 +63,10 @@ This week you will learn about multimedia on the web and how to add it to your w
 
 ### This Week's ToDo List
 
+- Share a beta version (a rough draft) of your term project with another student by posting a link to your web site on citstudent in the Term Project Review Discussion Forum by Friday, 11/27. 
 - Take reading quiz 8 by Sunday, 11/29.
 - Submit Lab 7 by Sunday, 11/29.
-- Do a peer review of a classmate's term project by Sunday, 11/29  
+- Do a peer review of a classmate's term project by Sunday, 11/29.  
   Use this [code review form](../TermProject/TermProjectCodeReview.docx).
 - Start Lab 8: Multimedia (due date: Thursday, 12/3).
 
