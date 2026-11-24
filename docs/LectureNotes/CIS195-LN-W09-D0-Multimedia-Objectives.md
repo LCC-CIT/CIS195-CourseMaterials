@@ -41,6 +41,8 @@ This week you will learn about multimedia on the web and how to add it to your w
 
 ## Announcements
 
+- **No class on Thursday**: The college will be closed Thursday through Sunday, 11/26&ndash;11/29, for the Thanksgiving holiday.
+
 - **Register for Winter term**: Registration is open for next term. See the [Registration, Schedules, and the Academic Calendar](https://www.lanecc.edu/programs-academics/registration-schedules-and-academic-calendar) web page for more information and registration links.
 
   - **Drop-in Winter Reg Fest** on Tuesday, Dec. 1 from 9am–2pm in Building 1, Admissions 102. Get help with admissions, financial aid, academic advising and registration. Plan to arrive before 1pm.
