@@ -159,7 +159,7 @@ This is a "normal" term with ten weeks of class plus a final exam week (week 11)
 - Midterm Quiz 
   See the syllabus for details about the time and place of the midterm quiz.
 - Term Project Assignment
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf" target="_blank">Term Project Instructions</a>
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProjectRequirements.html" target="_blank">Term Project Instructions</a>
   - [Term Project Proposal Instructions](TermProject/CIS195TermProjectProposal.html)
 
 
@@ -258,7 +258,7 @@ This is a "normal" term with ten weeks of class plus a final exam week (week 11)
   - [Lab 9 Rubric](Labs/Lab09/Lab9Rubric-CIS195.htm)
 
 - Term Project Assignment
-  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProject.pdf" target="_blank">Term Project Instructions</a>
+  - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/CIS195TermProjectRequirements.html" target="_blank">Term Project Instructions</a>
   - <a href="https://lcc-cit.github.io/CIS195-CourseMaterials/TermProject/TermProjectCodeReview.docx" target="_blank">Term Project Code Review Form</a>
 
 

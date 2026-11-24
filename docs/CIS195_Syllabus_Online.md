@@ -212,7 +212,7 @@ View <a href="https://www.lanecc.edu/calendars/academic-calendar" target="_blank
 | 7<br />11/10<br />11/12 | *More CSS Page Layout* <br />FlexBox<br />Grid               | Quiz 6  | Lab 6                                                        |
 | 8<br />11/17<br />11/19 | *HTML Forms*<br />Basic Input Elements<br />More Input Elements & Validation | Quiz 7  | Lab 7                                                        |
 | 9<br />11/24            | *Multimedia* <br />Images, audio and video<br />(Thanksgiving holiday on Thursday) | Quiz 8  | Lab 8<br />Term project [peer review](TermProject/TermProjectCodeReview.docx) |
-| 10<br />12/1<br />12/3  | *HTML Tables*<br />Creating Tables<br />Table Styling with CSS | Quiz 9  | Lab 9<br />Submit [Term Project](TermProject/CIS195TermProject.pdf) |
+| 10<br />12/1<br />12/3  | *HTML Tables*<br />Creating Tables<br />Table Styling with CSS | Quiz 9  | Lab 9<br />Submit [Term Project](TermProject/CIS195TermProjectRequirements.md) |
 | 11<br />12/8            | *Final*<br />Final Quiz 12/8                                 | Final   |                                                              |
 
 

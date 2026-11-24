@@ -40,7 +40,7 @@ This week you will learn how to create tables using HTML and style them using CS
 - Take reading quiz 9 by Thursday, Dec. 3.
 - Submit Lab 8 by Thursday, Dec. 3.
 - Do Lab 9: HTML Tables. Due date: TBD.
-- Submit your [term project](../TermProject/CIS195TermProject.pdf). Due date: TBD.
+- Submit your [term project](../TermProject/CIS195TermProjectRequirements.md). Due date: TBD.
 - No late assignments will be accepted after Sunday, Dec. 6.
 
 <div style="clear: both;"></div>
